@@ -1,0 +1,62 @@
+new entry "Target_MistyStep"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MistyStep"
+data "Cooldown" "OncePerTurn"
+data "RitualCosts" "BonusActionPoint:1"
+
+new entry "Target_FogCloud"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FogCloud"
+data "RitualCosts" "ActionPoint:1"
+
+// TODO Remove after current playthrough ?
+new entry "Target_MageArmor"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MageArmor"
+data "RitualCosts" "ActionPoint:1"
+
+new entry "Target_Knock"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Knock"
+data "RitualCosts" "ActionPoint:1"
+
+// new entry "Target_Darkness"
+// type "SpellData"
+// data "SpellType" "Target"
+// using "Target_Darkness"
+// data "RitualCosts" "ActionPoint:1"
+
+// TODO Remove after current playthrough ?
+new entry "Target_Invisibility"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Invisibility"
+data "RitualCosts" "ActionPoint:1"
+
+new entry "Target_FeignDeath"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FeignDeath"
+data "RitualCosts" "ActionPoint:1"
+
+new entry "Target_RemoveCurse"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_RemoveCurse"
+data "RitualCosts" "ActionPoint:1"
+
+new entry "Target_Daylight"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Daylight"
+data "RitualCosts" "ActionPoint:1"
+
+new entry "Teleportation_DimensionDoor"
+type "SpellData"
+data "SpellType" "Teleportation"
+using "Teleportation_DimensionDoor"
+data "RitualCosts" "ActionPoint:1"

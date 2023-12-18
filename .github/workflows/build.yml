@@ -1,0 +1,53 @@
+name: Build
+
+on:
+  push:
+    branches: [ "main" ]
+    tags:
+      - '*'
+
+env:
+  PROJECT_NAME: DoombubblesTweaks
+
+jobs:
+  build:
+    
+    runs-on: windows-latest
+
+    steps:
+      - name: Clone Repo
+        uses: actions/checkout@master
+        with:
+          path: ${{ env.PROJECT_NAME }}
+
+      - name: Download Export Tool
+        uses: robinraju/release-downloader@v1.8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: Norbyte/lslib
+          fileName: "*.zip"
+          tarBall: false
+          zipBall: false
+          latest: true
+          extract: true
+          out-file-path: "ExportTool"
+
+      - name: Build
+        run: ./ExportTool/Tools/divine.exe -g bg3 -a create-package -s '$(pwd)/${{ env.PROJECT_NAME }}/${{ env.PROJECT_NAME }}" -d "$(pwd)/${{ env.PROJECT_NAME }}.pak"
+
+      - name: Zip
+        run: Compress-Archive -Path ${{ env.PROJECT_NAME }}.pak -Destination ${{ env.PROJECT_NAME }}.zip
+
+      - name: Upload Mod
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.PROJECT_NAME }}.zip
+          path: ${{ env.PROJECT_NAME }}.zip
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: ${{ env.PROJECT_NAME }}.zip
+          body_path: ${{ env.PROJECT_NAME }}/LATEST.md
+          fail_on_unmatched_files: true

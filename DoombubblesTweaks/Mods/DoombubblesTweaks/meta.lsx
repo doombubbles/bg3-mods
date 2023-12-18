@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="77"/>
+    <region id="Config">
+        <node id="root">
+            <children>
+                <node id="Dependencies"/>
+                <node id="ModuleInfo">
+                    <!--Author Name -->
+                    <attribute id="Author" type="LSWString" value="doombubbles"/>
+                    <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+                    <attribute id="Description" type="LSWString" value="Various changes to existing items, abilities, and subclasses."/>
+                    <!-- "Mod Folder" -->
+                    <attribute id="Folder" type="LSWString" value="DoombubblesTweaks"/>
+                    <attribute id="GMTemplate" type="FixedString" value=""/>
+                    <attribute id="LobbyLevelName" type="FixedString" value=""/>
+                    <attribute id="MD5" type="LSString" value=""/>
+                    <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
+                    <attribute id="MenuLevelName" type="FixedString" value=""/>
+                    <!-- "Mod Name" -->
+                    <attribute id="Name" type="FixedString" value="DoombubblesTweaks"/>
+                    <attribute id="NumPlayers" type="uint8" value="16"/>
+                    <attribute id="PhotoBooth" type="FixedString" value=""/>
+                    <attribute id="StartupLevelName" type="FixedString" value=""/>
+                    <!-- "Optioal // Tags seperated by ; -->
+                    <attribute id="Tags" type="LSWString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Add-on"/>
+                    <!-- "Give it a Unique ID" -->
+                    <attribute id="UUID" type="FixedString" value="8a8ca382-6d25-4923-931c-74e8966ca296"/>
+                    <attribute id="Version" type="int32" value="268435456"/>
+                    <children>
+                        <node id="PublishVersion">
+                            <attribute id="Version" type="int32" value="268435456"/>
+                        </node>
+                        <node id="Scripts"/>
+                        <node id="TargetModes">
+                            <children>
+                                <node id="Target">
+                                    <attribute id="Object" type="FixedString" value="Story"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

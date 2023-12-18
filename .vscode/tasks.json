@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Project",
+      "command": "divine.exe",
+      "args": [
+        "-g",
+        "bg3",
+        "-a",
+        "create-package",
+        "-s",
+        "${workspaceFolder}/DoombubblesTweaks",
+        "-d",
+        "${userHome}/AppData/Local/Larian Studios/Baldur's Gate 3/Mods/DoombubblesTweaks.pak"
+      ],
+      "type": "process",
+      "group": "build",
+      "isBuildCommand": true,
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "clear": true,
+        "close": true,
+      }
+    }
+  ]
+}

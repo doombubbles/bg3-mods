@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="10" build="100"/>
+    <region id="TooltipUpcastDescriptions">
+        <node id="root">
+            <children>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Divine Favour"/>
+                    <attribute id="Text" type="TranslatedString" handle="he93983ecgd232g4921g94e8g5748b79b2e3c" version="1"/>
+                    <attribute id="UUID" type="guid" value="94162169-6551-4a65-8f58-e21bc0d52a86"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Goodberry"/>
+                    <attribute id="Text" type="TranslatedString" handle="h731b1e2dg2ba0g44e3g8450gc9f332d718f5" version="1"/>
+                    <attribute id="UUID" type="guid" value="06c5accc-9e90-43b0-8c0a-ea3b4c093eeb"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Crusader's Mantle"/>
+                    <attribute id="Text" type="TranslatedString" handle="hee6a908cg3279g4e9dg9993g4c063a66f389" version="1"/>
+                    <attribute id="UUID" type="guid" value="beffa1e1-247a-4361-b555-40e6390e387f"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

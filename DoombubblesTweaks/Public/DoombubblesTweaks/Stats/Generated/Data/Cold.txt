@@ -1,0 +1,22 @@
+new entry "MAG_Cold_IncreaseColdDamageOnCast_Staff"
+type "Weapon"
+using "MAG_Cold_IncreaseColdDamageOnCast_Staff"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical)"
+
+new entry "MAG_Cold_ChilledOnSpellDamage_Passive"
+type "PassiveData"
+using "MAG_Cold_ChilledOnSpellDamage_Passive"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, max(SourceSpellDC(), 12))):ApplyStatus(CHILLED, 100, 2)"
+
+new entry "MAG_Cold_IncreaseColdDamageOnCast_Passive"
+type "PassiveData"
+using "MAG_Cold_IncreaseColdDamageOnCast_Passive"
+data "DescriptionParams" "DealDamage(1d4,Cold)"
+data "Boosts" "IF(HasDamageDoneForType(DamageType.Cold)):DamageBonus(1d4,Cold)"
+
+new entry "Projectile_MAG_RayOfFrost_Staff"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_MAG_RayOfFrost_Staff"
+data "Cooldown" "OncePerCombat"
+data "UseCosts" "BonusActionPoint:1"

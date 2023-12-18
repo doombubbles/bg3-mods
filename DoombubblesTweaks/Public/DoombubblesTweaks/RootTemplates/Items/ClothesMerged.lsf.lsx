@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="6" build="5" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h87123090g6cb1g4494g988dg405f883c91cd" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h38e73152gbbf4g4f80g9b9egaae49285907d" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="092c5cd7-a19b-4d0f-bbbf-553170020a4b" />
+          <attribute id="Name" type="LSString" value="DBT_INT_Cloth" />
+          <attribute id="ParentTemplateId" type="FixedString" value="bc7f99a1-ecb5-45ef-9f72-71a62637fc39" />
+          <attribute id="Stats" type="FixedString" value="DBT_INT_Cloth" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+          <children>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -1,0 +1,19 @@
+new treasuretable "UND_KC_AdamantineGolem"
+CanMerge 1
+new subtable "1,1"
+object category "I_UNI_PUZ_MithralOre",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_KC_LavaElemental"
+CanMerge 1
+new subtable "1,1"
+object category "I_UNI_PUZ_MithralOre",1,0,0,0,0,0,0,0
+
+new treasuretable "WLD_Boar"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_SacredRing",1,0,0,0,0,0,0,0
+
+new treasuretable "SCL_MasonGuild_Chest"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_SculptorsGloves",1,0,0,0,0,0,0,0

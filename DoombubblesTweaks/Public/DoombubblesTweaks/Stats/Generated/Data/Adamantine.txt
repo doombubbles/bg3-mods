@@ -1,0 +1,17 @@
+new entry "MAG_MeleeDebuff_AttackDebuff1_OnDamage_Mace"
+type "Weapon"
+using "MAG_MeleeDebuff_AttackDebuff1_OnDamage_Mace"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical)"
+data "PassivesOnEquip" "UNI_Adamantine_CriticalVsItems_Passive;MAG_IgnoreBludgeoningResistance_Passive;MAG_MeleeDebuff_AttackDebuff1_OnDamage_Passive"
+
+new entry "MAG_MeleeDebuff_AttackDebuff1_OnDamage_Scimitar"
+type "Weapon"
+using "MAG_MeleeDebuff_AttackDebuff1_OnDamage_Scimitar"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical)"
+data "PassivesOnEquip" "UNI_Adamantine_CriticalVsItems_Passive;MAG_IgnoreSlashingResistance_Passive;MAG_MeleeDebuff_AttackDebuff1_OnDamage_Passive"
+
+new entry "MAG_MeleeDebuff_AttackDebuff12versatile_OnDamage_Longsword"
+type "Weapon"
+using "MAG_MeleeDebuff_AttackDebuff12versatile_OnDamage_Longsword"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical)"
+data "PassivesOnEquip" "UNI_Adamantine_CriticalVsItems_Passive;MAG_IgnoreSlashingResistance_Passive;MAG_MeleeDebuff_AttackDebuff12versatile_OnDamage_Passive"

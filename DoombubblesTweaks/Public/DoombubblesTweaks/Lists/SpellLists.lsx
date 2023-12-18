@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="3" revision="0" build="300"/>
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Rogue Arcane Trickster SLevel 3"/>
+          <attribute id="Spells" type="LSString" value="Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_CrownOfMadness;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Target_HideousLaughter;Target_CharmPerson;Zone_ColorSpray;Shout_DisguiseSelf;Target_Sleep"/>
+          <attribute id="UUID" type="guid" value="afbda945-7783-4775-9529-573d5c932d71"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Fighter (Eldritch Knight) spells level 3"/>
+          <attribute id="Spells" type="LSString" value="Target_Counterspell;Projectile_Fireball;Target_GlyphOfWarding;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Projectile_AcidArrow;Target_ArcaneLock;Target_Darkness;Zone_GustOfWind;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Zone_Thunderwave;Projectile_WitchBolt"/>
+          <attribute id="UUID" type="guid" value="567ddf69-ac4c-4b26-a12c-b3be07cfa53b"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

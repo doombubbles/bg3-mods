@@ -1,0 +1,98 @@
+new entry "MAG_Extended_Target_Cantrip_Passive"
+type "PassiveData"
+using "MAG_Extended_Target_Cantrip_Passive"
+data "Properties" "IsToggled;OncePerCombat;Temporary"
+
+new entry "MAG_Warlock_Quickened_Cantrips_Passive"
+type "PassiveData"
+using "MAG_Warlock_Quickened_Cantrips_Passive"
+data "Properties" "IsToggled;OncePerCombat;Temporary"
+
+new entry "Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet"
+data "Cooldown" "OncePerShortRestPerItem"
+
+new entry "UND_StrengthChair_Leg_Passive"
+type "PassiveData"
+using "UND_StrengthChair_Leg_Passive"
+data "Boosts" "AbilityOverrideMinimum(Strength,21)"
+
+new entry "MAG_LowHP_BonusAction_Passive"
+type "PassiveData"
+using "MAG_LowHP_BonusAction_Passive"
+data "StatsFunctors" "IF(not HasStatus('MAG_BONUS_ACTION')):ApplyStatus(MAG_BONUS_ACTION,100,-1)"
+
+new entry "MAG_LOW_HP_BONUS_ACTION_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_LOW_HP_BONUS_ACTION_TECHNICAL"
+data "OnApplyFunctors" "ApplyStatus(MAG_BONUS_ACTION,100,-1)"
+
+new entry "MAG_RAGE_LOWHP_VIOLENCE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_RAGE_LOWHP_VIOLENCE_TECHNICAL"
+data "TickFunctors" "IF(not Dead() and Combat() and not HasMaxHPWithoutTemporaryHP(context.Source)):ApplyStatus(MAG_VIOLENCE,100,1)"
+
+new entry "MAG_SHA_SeluneBlessing_Spear"
+type "Weapon"
+using "MAG_SHA_SeluneBlessing_Spear"
+data "DefaultBoosts" "WeaponEnchantment(3);WeaponProperty(Magical);WeaponDamage(1d4, Radiant)"
+
+new entry "Target_SHA_SeluneBlessing_Moonfire"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SHA_SeluneBlessing_Moonfire"
+data "Cooldown" "OncePerShortRestPerItem"
+
+new entry "Target_MageHand"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MageHand"
+data "Cooldown" ""
+
+new entry "INVISIBLE_MAGEHAND"
+type "StatusData"
+data "StatusType" "INVISIBLE"
+using "INVISIBLE_MAGEHAND"
+data "OnApplyFunctors" "ApplyStatus(GREATER_INVISIBILITY_TRACKER,100,-1);ApplyStatus(PASS_WITHOUT_TRACE,100,-1)"
+data "RemoveConditions" "GreaterInvisibilityCheck_InvisSpellOrRoll()"
+data "OnRemoveFunctors" "ApplyStatus(MAGEHAND_REST,100,-1);RemoveStatus(GREATER_INVISIBILITY_TRACKER);RemoveStatus(GREATER_INVISIBILITY_SUCCESS)"
+
+// new entry "LOW_Astarion_VampireAscendant"
+// type "PassiveData"
+// using "LOW_Astarion_VampireAscendant"
+// data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_LOW_MistyEscape_Astarion);CharacterWeaponDamage(1d10,Necrotic);CharacterUnarmedDamage(1d10,Necrotic)"
+// data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_LOW_MistyEscape_Astarion);DamageBonus(1d10,Necrotic)"
+
+
+new entry "ORI_KARLACH_INFERNAL_FURY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ORI_KARLACH_INFERNAL_FURY"
+data "StatusEffect" ""
+data "SoundLoop" ""
+data "StatusPropertyFlags" "IgnoreResting"
+
+new entry "GreatWeaponMaster_BonusDamage"
+type "PassiveData"
+using "GreatWeaponMaster_BonusDamage"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
+
+new entry "Sharpshooter_AllIn"
+type "PassiveData"
+using "Sharpshooter_AllIn"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
+
+// TODO just 1 damage eventually?
+new entry "UNI_DoomHammer"
+type "Weapon"
+using "UNI_DoomHammer"
+data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(1d4, Lightning)"
+
+new entry "RepellingBlast"
+type "PassiveData"
+using "RepellingBlast"
+data "StatsFunctorContext" "OnDamage"
