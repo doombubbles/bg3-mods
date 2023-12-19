@@ -39,18 +39,19 @@ jobs:
           zipBall: false
           latest: true
           extract: true
-      
-      - name: Test
-        run: Get-ChildItem -Recurse
-
-      - name: Build
-        run: ./bg3-modders-unitool.exe -z "./${{ env.PROJECT_NAME }}"
+  
+      - name: Build Pak
+        run: ./bg3-modders-unitool.exe "./${{ env.PROJECT_NAME }}"
 
       - name: Upload Mod
         uses: actions/upload-artifact@v3
         with:
           name: ${{ env.PROJECT_NAME }}
-          path: ${{ env.PROJECT_NAME }}.zip
+          path: ${{ env.PROJECT_NAME }}.pak
+
+      - name: Build Zip
+        if: startsWith(github.ref, 'refs/tags/')
+        run: ./bg3-modders-unitool.exe -z "./${{ env.PROJECT_NAME }}"
 
       - name: Release
         uses: softprops/action-gh-release@v1
