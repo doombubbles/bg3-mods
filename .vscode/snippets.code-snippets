@@ -1,7 +1,17 @@
 {
-	"locale string": {
-		"prefix": ["content"],
+	"uuid": {
+		"prefix": ["uuid"],
 		"scope": "xml",
-		"body": ["<content contentuid=\"${1}\" version=\"1\">${2}</content>"]
+		"body": "$UUID"
+	},
+	"handle": {
+		"prefix": ["handle"],
+		"scope": "xml",
+		"body": "h${UUID/-/g/g}"
+	},
+	"locale string": {
+		"prefix": ["content", "loca"],
+		"scope": "xml",
+		"body": ["<content contentuid=\"h${UUID/-/g/g}\" version=\"1\">${1}</content>"]
 	}
 }

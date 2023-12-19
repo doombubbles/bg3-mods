@@ -3,16 +3,10 @@
   "tasks": [
     {
       "label": "Build Project",
-      "command": "divine.exe",
+      "command": "bg3-modders-unitool.exe",
       "args": [
-        "-g",
-        "bg3",
-        "-a",
-        "create-package",
-        "-s",
-        "${workspaceFolder}/DoombubblesTweaks",
-        "-d",
-        "${userHome}/AppData/Local/Larian Studios/Baldur's Gate 3/Mods/DoombubblesTweaks.pak"
+        "./DoombubblesTweaks",
+        "${userHome}/AppData/Local/Larian Studios/Baldur's Gate 3/Mods"
       ],
       "type": "process",
       "group": "build",

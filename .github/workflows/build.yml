@@ -2,9 +2,8 @@ name: Build
 
 on:
   push:
-    branches: [ "main" ]
-    tags:
-      - '*'
+    branches: ['*']
+    tags: ['*']
 
 env:
   PROJECT_NAME: DoombubblesTweaks
@@ -19,30 +18,39 @@ jobs:
       - name: Clone Repo
         uses: actions/checkout@master
 
-      - name: Download Export Tool
+      - name: Download Multitool
         uses: robinraju/release-downloader@v1.8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: Norbyte/lslib
-          fileName: "*.zip"
+          repository: ShinyHobo/BG3-Modders-Multitool
+          fileName: bg3-modders-multitool.zip
           tarBall: false
           zipBall: false
           latest: true
           extract: true
 
+      - name: Download Unitool
+        uses: robinraju/release-downloader@v1.8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: doombubbles/BG3-Modders-Unitool
+          fileName: bg3-modders-unitool.zip
+          tarBall: false
+          zipBall: false
+          latest: true
+          extract: true
+      
+      - name: Test
+        run: Get-ChildItem -Recurse
+
       - name: Build
-        run: |
-          & (Get-ChildItem -Filter 'Divine.exe' -Recurse | Select-Object -ExpandProperty FullName) -g bg3 -a create-package -s "$(pwd)/${{ env.PROJECT_NAME }}" -d "$(pwd)/${{ env.PROJECT_NAME }}.pak"
+        run: ./bg3-modders-unitool.exe -z "./${{ env.PROJECT_NAME }}"
 
       - name: Upload Mod
         uses: actions/upload-artifact@v3
         with:
           name: ${{ env.PROJECT_NAME }}
-          path: ${{ env.PROJECT_NAME }}.pak
-
-      - name: Zip
-        if: startsWith(github.ref, 'refs/tags/')
-        run: Compress-Archive -Path ${{ env.PROJECT_NAME }}.pak -Destination ${{ env.PROJECT_NAME }}.zip
+          path: ${{ env.PROJECT_NAME }}.zip
 
       - name: Release
         uses: softprops/action-gh-release@v1
