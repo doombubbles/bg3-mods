@@ -92,6 +92,7 @@ type "Weapon"
 using "UNI_DoomHammer"
 data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(1d4, Lightning)"
 
+// TODO does this really work?
 new entry "RepellingBlast"
 type "PassiveData"
 using "RepellingBlast"

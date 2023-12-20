@@ -1,0 +1,7 @@
+new entry "DBT_SacredRing"
+type "Armor"
+using "_Ring_Magic"
+data "RootTemplate" "c242c2c3-e372-4469-a7d3-58c096fb2ae1"
+data "Rarity" "Uncommon"
+data "PassivesOnEquip" "PotentCantrip"
+data "Unique" "1"

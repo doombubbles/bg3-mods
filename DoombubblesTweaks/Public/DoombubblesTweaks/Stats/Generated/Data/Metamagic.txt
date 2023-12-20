@@ -1,6 +1,0 @@
-// new entry "Metamagic_Quickened"
-// type "PassiveData"
-// using "Metamagic_Quickened"
-// data "DescriptionParams" "2"
-// data "EnabledConditions" "HasActionResource('SorceryPoint', 2, 0, false, false, context.Source)"
-// data "Boosts" "UnlockSpellVariant(QuickenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"

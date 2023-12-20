@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+  
+	<content contentuid="h489c6461g1cdcg4510g8e3ag1b2a6c74b139" version="1">Force to be Reckoned With</content>
+	<content contentuid="hb48613b2g63c3g4240gbbe7g4171752eeeab" version="1">Embrace Kereska's Force to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage. Your force spells deal additional Force damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="h9ac61221gf08cg4ec8ga514g13aec887ced4" version="1">When you deal damage with a spell, gain 1 turn of &lt;LSTag Type="Status" Tooltip="MAG_ZOC_FORCE_CONDUIT"&gt;Force Conduit&lt;/LSTag&gt;. While attuned to Kereska's Force, you can cast &lt;LSTag Type="Spell" Tooltip="Projectile_Disintegrate"&gt;Disintegrate&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt;.</content>
+
+	<content contentuid="he93fe6cfga250g46d6g94e0g779afde29d7f" version="1">Using the Force (of Kereska)</content>
+	<content contentuid="h59bb5323g8366g4d95ga7c6ge78b172d27c1" version="1">Affected entity has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage. Its force spells deal additional Force damage equal to its &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. When it deals spell damage, it gains [1] turn of &lt;LSTag Type="Status" Tooltip="MAG_ZOC_FORCE_CONDUIT"&gt;Force Conduit&lt;/LSTag&gt;. While attuned to Kereska's Force, it can cast &lt;LSTag Type="Spell" Tooltip="Projectile_Disintegrate"&gt;Disintegrate&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt;.</content>
+	<content contentuid="h83473f3eg27a5g4110ga58ag1491147f255b" version="1">When you deal damage with a spell, gain 1 turn of &lt;LSTag Type="Status" Tooltip="MAG_ZOC_FORCE_CONDUIT"&gt;Force Conduit&lt;/LSTag&gt;.</content>
+
+
+	<content contentuid="h0a545e6dg6c32g455ag9d51gb0ade1af892b" version="1">Resplendent Dawn</content>
+	<content contentuid="h9d8a7e65g48d9g4bfbg8d9ege54542457e82" version="1">Embrace Kereska's Radiance to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. Your radiant spells deal additional Radiant damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="h480ce452g3631g4f2bgbcf1gb40007e52d55" version="1">When you deal damage with a spell, inflict 1 turn of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiant Orb&lt;/LSTag&gt; upon the target. While attuned to Kereska's Radiance, you can cast &lt;LSTag Type="Spell" Tooltip="Zone_Sunbeam"&gt;Sunbeam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_GuidingBolt"&gt;Guiding Bolt&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h53d4791bg9600g4b96g9d61gb5e8916480fe" version="1">Basking in Kereska's Radiance</content>
+	<content contentuid="h4c06dba0g28cbg4c13gaab7g71ac5ba635b0" version="1">Affected entity has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. Its radiant spells deal additional Radiant damage equal to its &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. When it deals spell damage, inflict [1] turn of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiant Orb&lt;/LSTag&gt; upon the target. While attuned to Kereska's Radiance, it can cast &lt;LSTag Type="Spell" Tooltip="Zone_Sunbeam"&gt;Sunbeam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_GuidingBolt"&gt;Guiding Bolt&lt;/LSTag&gt;.</content>
+	<content contentuid="hc6297b80ged6cg4e65gac2eg9b53d6da300f" version="1">When you deal damage with a spell, inflict 1 turn of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiant Orb&lt;/LSTag&gt; upon the target.</content>
+
+</contentList/>

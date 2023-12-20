@@ -8,7 +8,7 @@ input = [
     "C:/Users/jpgale/Downloads/bg3-modders-multitool/UnpackedData/Gustav/Public/GustavDev/RootTemplates/_merged.lsf.lsx",
 ]
 
-output = "./DoombubblesTweaks/Public/DoombubblesTweaks/RootTemplates/Items/CombosMerges.lsf.lsx"
+output = "./DoombubblesTweaks/Public/DoombubblesTweaks/RootTemplates/Items/Combos.lsf.lsx"
 
 combos = {
     "MAG_Warlock_Quickened_Gloves": 3,

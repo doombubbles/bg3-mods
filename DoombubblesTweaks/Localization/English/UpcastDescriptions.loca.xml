@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+	<content contentuid="h16192c0egf5e2g4042gb89ag8e3600fde5e6" version="1">Grants an additional 1 &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; per level.</content>
+	<content contentuid="hdb29329eg49eag4588g979cg34d2da2e310e" version="1">Immune to Magic Missile. &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is increased by [1].</content>
+	<content contentuid="h4588d0b4g3eedg4cddgb0d0g061ad3e7a5d2" version="1">When you are about to be hit by an enemy, increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1]. You take no damage from &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt;.</content>
+
+	<content contentuid="he93983ecgd232g4921g94e8g5748b79b2e3c" version="1">Casting this spell using a 3rd or 4th level spell slot will increase the bonus to [1], and a 5th or 6th level spell slot will increase it to [2].</content>
+	<content contentuid="hd8f1368egaf40g4e7cg9a1fge3094286c7e4" version="4">Conjure [2] magical berries into your or a companion's inventory. Creatures who eat a berry regain [1]. Berries disappear after Long Rest.</content>
+	<content contentuid="h731b1e2dg2ba0g44e3g8450gc9f332d718f5" version="1">Creates 1 additional berries per level.</content>
+	<content contentuid="hee6a908cg3279g4e9dg9993g4c063a66f389" version="1">Casting this spell using a 5th or 6th level spell slot will increase the bonus to [1].</content>
+
+  
+</contentList/>

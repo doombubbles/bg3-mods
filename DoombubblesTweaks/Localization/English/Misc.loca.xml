@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hac52787ag9453g4ac7gb7e1g6bc38ba8690d" version="2">The wearer gains an additional bonus action.</content>
+
+	<!-- <content contentuid="ha0b53930g3ba7g425ag8901g41585c661758" version="4">Unarmed and melee attacks deal an extra [1]. If you don't deal any damage in a turn of combat, you take [2] at the end of your turn.</content> -->
+
+	<content contentuid="hc41d1544g8799g4a29g96e0g36bb86d5610c" version="6">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that cost an action cost a bonus action instead. This effect can be used once per battle.</content>
+
+	<content contentuid="h924abaebg4147g456cg93b3g1e72df079c76" version="2">During combat, when the creature starts their turn with less than full health, they gain &lt;LSTag Type="Status" Tooltip="MAG_VIOLENCE"&gt;Wrath&lt;/LSTag&gt; for 1 turn.</content>
+
+	<content contentuid="hc29527b5gf34eg4759g8deag0c9e1d252a47" version="2">Increases &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; to 21.</content>
+
+	<content contentuid="hfb89f7deg6c81g432ag8f03g85c4f779dfdc" version="5">Set yourself on fire to gain Heat. This damage can't be resisted out of combat.</content>
+
+	<!-- <content contentuid="hf9a3c136gfa53g4170g9eeega20ced9c9111" version="4">Behold, the Vampire Ascendant! Thousands of souls have bought you power, granting you &lt;LSTag Type="Spell" Tooltip="Target_LOW_Astarion_VampireAscendant"&gt;Ascendant Bite&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_LOW_MistyEscape_Astarion"&gt;Gaseous form&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;You also have a +[1] bonus to attacks and spells.</content> -->
+
+</contentList>
