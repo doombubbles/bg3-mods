@@ -1,0 +1,39 @@
+-- Just in case they don't have community library
+
+local pact_statuses = {
+  'CL_STATUS_PACT_CHA_TAGGED',
+  'CL_STATUS_PACT_STR_TAGGED',
+  'CL_STATUS_PACT_DEX_TAGGED',
+  'CL_STATUS_PACT_CON_TAGGED',
+  'CL_STATUS_PACT_INT_TAGGED',
+  'CL_STATUS_PACT_WIS_TAGGED'
+}
+
+local pact_weapon_statuses = {
+  'PACT_BLADE',
+  'CL_PACT_BLADE_STR',
+  'CL_PACT_BLADE_DEX',
+  'CL_PACT_BLADE_CON',
+  'CL_PACT_BLADE_INT',
+  'CL_PACT_BLADE_WIS'
+}
+
+local pact_tags = {
+  'PACT_TAG_CHA',
+  'PACT_TAG_STR',
+  'PACT_TAG_DEX',
+  'PACT_TAG_CON',
+  'PACT_TAG_INT',
+  'PACT_TAG_WIS'
+}
+
+-- Optional Replacement for HasPactWeapon(), if support is needed for PACT_BLADE variants
+function CL_HasPactWeapon(entity, mainHand)
+  local entity = entity or context.Source
+  local weaponEntity = GetActiveWeapon(entity, true)
+  if weaponEntity.IsValid then
+    local result = Character(entity) & HasAnyStatus(pact_weapon_statuses, {}, {}, weaponEntity)
+    return ConditionResult(result.Result, { ConditionError("HasNotPactWeapon") }, { ConditionError("HasPactWeapon") })
+  end
+  return ConditionResult(false, { ConditionError("HasNotPactWeapon") }, { ConditionError("HasPactWeapon") })
+end

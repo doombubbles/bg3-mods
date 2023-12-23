@@ -98,3 +98,37 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCast;OnStatusRemoved;OnStatusApplied"
 data "Conditions" "((context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source) and CL_HasPactWeapon(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased() and CL_HasPactWeapon(context.Target)) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_THIRSTING_BLADE_Q'))) and HasPassive('PactOfTheBlade',context.Source) "
 data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_THIRSTING_BLADE_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE, 100, 1)"
+
+
+
+// Just in case they don't have community library
+
+new entry "CL_PACT_BLADE_STR"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Strength)"
+
+new entry "CL_PACT_BLADE_DEX"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Dexterity)"
+
+new entry "CL_PACT_BLADE_INT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Intelligence)"
+
+new entry "CL_PACT_BLADE_WIS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Wisdom)"
+
+new entry "CL_PACT_BLADE_CON"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Constitution)"

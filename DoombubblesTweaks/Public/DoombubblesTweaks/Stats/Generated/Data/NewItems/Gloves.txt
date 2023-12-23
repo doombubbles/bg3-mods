@@ -1,4 +1,4 @@
-new entry "MAG_Spell_Combo_Gloves"
+new entry "DBT_Spell_Combo_Gloves"
 type "Armor"
 using "ARM_Gloves_Leather"
 data "RootTemplate" "a3ba9ffb-1c74-4a2a-8b0f-4a8e30fbb0fd"

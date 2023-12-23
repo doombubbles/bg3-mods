@@ -25,7 +25,28 @@
             </node>
           </children>
         </node>
-
+        
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h8c5552e5gbb9cg4000gb269g1ab8b2a4c03c" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h83e713fdg33d9g49b9ga92bg6591c8a0a574" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="b52d175d-cf4a-40ae-bf0b-4858e83026ef" />
+          <attribute id="Name" type="LSString" value="DBT_ForceRing" />
+          <attribute id="ParentTemplateId" type="FixedString" value="a58add7a-0279-4618-85f8-f48044df837f" />
+          <attribute id="Stats" type="FixedString" value="DBT_ForceRing" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
       </children>
     </node>
   </region>

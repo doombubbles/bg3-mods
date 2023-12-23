@@ -57,6 +57,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ${{ env.PROJECT_NAME }}.zip
+          files: |
+            ${{ env.PROJECT_NAME }}.pak
+            ${{ env.PROJECT_NAME }}.zip
           body_path: LATEST.md
           fail_on_unmatched_files: true

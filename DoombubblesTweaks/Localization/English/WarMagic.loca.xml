@@ -6,4 +6,4 @@
 	<content contentuid="h6829a9d1ga919g44afga73fg49cc1378ad95" version="1">War Magic: Bonus Cantrip</content>
 	<content contentuid="h26b30cbag7290g402ag8c7cg0510cd5ac2f2" version="1">Your next &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="Action"&gt;action&lt;/LSTag&gt;.</content>
 	<content contentuid="h95efd706g1dc1g4121gba20g824eb3813025" version="1">You have used your War Magic for this turn.</content>
-</contentList/>
+</contentList>

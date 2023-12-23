@@ -9,9 +9,9 @@
           <attribute id="DisplayName" type="TranslatedString" handle="hcbcc3b57g457cg4a39g8d62g1d2570fa56af" version="1" />
           <attribute id="LevelName" type="FixedString" value="" />
           <attribute id="MapKey" type="FixedString" value="a3ba9ffb-1c74-4a2a-8b0f-4a8e30fbb0fd" />
-          <attribute id="Name" type="LSString" value="MAG_Spell_Combo_Gloves" />
+          <attribute id="Name" type="LSString" value="DBT_Spell_Combo_Gloves" />
           <attribute id="ParentTemplateId" type="FixedString" value="abdcc7a4-db92-4eca-8afc-6b180ce861aa" />
-          <attribute id="Stats" type="FixedString" value="MAG_Spell_Combo_Gloves" />
+          <attribute id="Stats" type="FixedString" value="DBT_Spell_Combo_Gloves" />
           <attribute id="Type" type="FixedString" value="item" />
           <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
           <children>

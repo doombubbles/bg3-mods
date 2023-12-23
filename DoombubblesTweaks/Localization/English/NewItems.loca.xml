@@ -10,4 +10,9 @@
 	<content contentuid="hfd07ffc1gdb04g45b9g8ac6g6d2a446bac29" version="1">Sculptor's Gloves</content>
 	<content contentuid="h5b7e373eg6064g4db3g8409g58e914ea2340" version="1">Gloves for when you want to keep your hands clean while you're getting your hands dirty.</content>
 
-</contentList/>
+	<content contentuid="h83e713fdg33d9g49b9ga92bg6591c8a0a574" version="1">Ring of Unreasonable Force</content>
+	<content contentuid="h8c5552e5gbb9cg4000gb269g1ab8b2a4c03c" version="1">Though it appears to be a perfectly normal ring by all accounts, somehow its look while wearing it seems... excessive.</content>
+	<content contentuid="h5e0a8e25g9351g4347g90fcg5f3a838ab7cf" version="1">Unreasonable Force</content>
+	<content contentuid="h1579b4a6g37feg4250g89cdgd96a591d5050" version="1">Whenever you deal Force damage to a creature, you can push the creature up to [1] away from you.</content>
+
+</contentList>

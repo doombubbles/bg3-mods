@@ -1,0 +1,21 @@
+new entry "MAG_LowHP_BonusAction_Passive"
+type "PassiveData"
+using "MAG_LowHP_BonusAction_Passive"
+data "StatsFunctors" "IF(not HasMaxHPWithoutTemporaryHP(context.Source) and not HasStatus('MAG_BONUS_ACTION')):ApplyStatus(MAG_BONUS_ACTION,100,-1);IF(HasMaxHPWithoutTemporaryHP(context.Source)):RemoveStatus(MAG_BONUS_ACTION)"
+
+new entry "MAG_LOW_HP_BONUS_ACTION_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_LOW_HP_BONUS_ACTION_TECHNICAL"
+data "OnApplyFunctors" "IF(not HasMaxHPWithoutTemporaryHP(context.Source)):ApplyStatus(MAG_BONUS_ACTION,100,-1)"
+
+new entry "MAG_RAGE_LOWHP_VIOLENCE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_RAGE_LOWHP_VIOLENCE_TECHNICAL"
+data "TickFunctors" "IF(not Dead() and Combat() and not HasMaxHPWithoutTemporaryHP(context.Source)):ApplyStatus(MAG_VIOLENCE,100,1)"
+
+new entry "MAG_LowHP_IncreaseDamage_Passive"
+type "PassiveData"
+using "MAG_LowHP_IncreaseDamage_Passive"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and not HasMaxHPWithoutTemporaryHP(context.Source)"

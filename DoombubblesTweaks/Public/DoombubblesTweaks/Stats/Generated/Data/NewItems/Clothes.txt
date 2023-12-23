@@ -130,7 +130,7 @@ type "PassiveData"
 data "DisplayName" "hca826376g7745g4710g838cg91d51c919b3a"
 data "Description" "hdedfa978g1b06g45f3ga8fcg6ff17dc4daf4"
 data "DescriptionParams" "Distance(12)"
-data "Boosts" "Tag(CHARMED_ADV);DarkvisionRangeMin(12)"
+data "Boosts" "Tag(CHARMED_ADV);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989)"
 
 
 new entry "Shout_DBT_Constitution_Ability"

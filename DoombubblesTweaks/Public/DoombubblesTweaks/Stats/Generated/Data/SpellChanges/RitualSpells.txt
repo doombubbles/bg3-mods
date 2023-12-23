@@ -49,12 +49,6 @@ data "SpellType" "Target"
 using "Target_RemoveCurse"
 data "RitualCosts" "ActionPoint:1"
 
-new entry "Target_Daylight"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_Daylight"
-data "RitualCosts" "ActionPoint:1"
-
 new entry "Teleportation_DimensionDoor"
 type "SpellData"
 data "SpellType" "Teleportation"

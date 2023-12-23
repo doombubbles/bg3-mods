@@ -17,3 +17,28 @@ new treasuretable "SCL_MasonGuild_Chest"
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_SculptorsGloves",1,0,0,0,0,0,0,0
+
+new treasuretable "DBT_PoliceOfficer"
+new subtable "-1"
+object category "I_DBT_ForceRing",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_MagicItem_Gith_Trader"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_CON_Cloth",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_ZhentQuartermaster"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_INT_Cloth",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_BugBearvendor_Trade"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_WIS_Cloth",1,0,0,0,0,0,0,0
+
+
+new treasuretable "MOO_InfernalTrader_Trade"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_CHA_Cloth",1,0,0,0,0,0,0,0

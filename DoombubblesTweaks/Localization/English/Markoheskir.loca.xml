@@ -18,4 +18,4 @@
 	<content contentuid="h4c06dba0g28cbg4c13gaab7g71ac5ba635b0" version="1">Affected entity has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. Its radiant spells deal additional Radiant damage equal to its &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. When it deals spell damage, inflict [1] turn of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiant Orb&lt;/LSTag&gt; upon the target. While attuned to Kereska's Radiance, it can cast &lt;LSTag Type="Spell" Tooltip="Zone_Sunbeam"&gt;Sunbeam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_GuidingBolt"&gt;Guiding Bolt&lt;/LSTag&gt;.</content>
 	<content contentuid="hc6297b80ged6cg4e65gac2eg9b53d6da300f" version="1">When you deal damage with a spell, inflict 1 turn of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiant Orb&lt;/LSTag&gt; upon the target.</content>
 
-</contentList/>
+</contentList>

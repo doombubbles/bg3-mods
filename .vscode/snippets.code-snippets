@@ -1,12 +1,12 @@
 {
 	"uuid": {
 		"prefix": ["uuid"],
-		"scope": "xml",
+		"scope": ["xml", "txt"],
 		"body": "$UUID"
 	},
 	"handle": {
 		"prefix": ["handle"],
-		"scope": "xml",
+		"scope": ["xml", "txt"],
 		"body": "h${UUID/-/g/g}"
 	},
 	"locale string": {
