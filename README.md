@@ -1,5 +1,15 @@
 # DoombubblesTweaks
 
+<details>
+<summary><h3>Install Guide</h3></summary>
+
+1. Download [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases/latest/download/BG3ModManager_Latest.zip) and extract the folder to somewhere easy to access.
+   - Optional: Pin the BG3ModManager.exe app to startup
+
+2. Download the latest 
+
+</details>
+
 ## Spell Changes
 
 **Chromatic Orb** - All variants now deal the traditional 3d8 damage
