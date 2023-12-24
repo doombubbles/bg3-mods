@@ -17,7 +17,7 @@ jobs:
     steps:
       # Optional
       - name: Timezone
-        run: TZUTIL /s "Pacific Standard Time"
+        run: TZUTIL /s "UTC"
 
       - name: Clone Repo
         uses: actions/checkout@master
