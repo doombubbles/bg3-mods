@@ -15,6 +15,10 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      # Optional
+      - name: Timezone
+        run: TZUTIL /s "Pacific Standard Time"
+
       - name: Clone Repo
         uses: actions/checkout@master
 
