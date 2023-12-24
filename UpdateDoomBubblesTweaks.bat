@@ -16,24 +16,29 @@ echo Downloading from %zipUrl%...
 
 :: Use PowerShell to download the file
 powershell -command "(New-Object Net.WebClient).DownloadFile(\"%zipUrl%\", \"%tempZip%\")"
+IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 
 :: Check if destination directory exists, if not create it
 IF NOT EXIST "%destDir%" (
     echo Creating directory %destDir%...
     mkdir "%destDir%"
+    IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 )
 
 echo Extracting to %destDir%...
 :: Use PowerShell to extract the zip file
 powershell -command "Expand-Archive -LiteralPath \"%tempZip%\" -DestinationPath \"%destDir%\" -Force"
+IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 
 :: Fix date modified
 powershell -command "(Get-Item \"%fileToModify%\").LastWriteTime = [System.DateTime]::SpecifyKind((Get-Item \"%fileToModify%\").LastWriteTime, [System.DateTimeKind]::Utc).ToLocalTime()"
+IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 
 echo Cleaning up...
 :: Remove the downloaded zip file
 del "%tempZip%"
+IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 
 ENDLOCAL
-echo Done.
+echo Done!
 pause

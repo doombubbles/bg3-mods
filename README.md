@@ -4,9 +4,31 @@
 <summary><h3>Install Guide</h3></summary>
 
 1. Download [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases/latest/download/BG3ModManager_Latest.zip) and extract the folder to somewhere easy to access.
-   - Optional: Pin the BG3ModManager.exe app to startup
+2. Download this mod's [latest release](https://github.com/doombubbles/DoombubblesTweaks/releases/latest/download/DoombubblesTweaks.zip)
+3. Open BG3 Mod Manager
+4. Drag DoombubblesTweaks to the left section of the BG3 Mod Manager window, from the "Inactive Mods" section to the "Active Mods" section
+5. Use the `File -> Export Order to Game` option in the menu (Ctrl + E or the button next to "Export")
+6. Launch the Game (through Steam or with Ctrl + Shift + G)
 
-2. Download the latest 
+OR
+
+1. Download [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases/latest/download/BG3ModManager_Latest.zip) and extract the folder to somewhere easy to access.
+2. Download the `UpdateDoomBubblesTweaks.bat` script and save it somewhere easy to access like your desktop
+3. Run `UpdateDoomBubblesTweaks.bat` to download/update the mod.
+4. Open BG3 Mod Manager
+5. Drag DoombubblesTweaks to the left section of the BG3 Mod Manager window, from the "Inactive Mods" section to the "Active Mods" section
+6. Use the `File -> Export Order to Game` option in the menu (Ctrl + E or the button next to "Export")
+7. Launch the Game (through Steam or with Ctrl + Shift + G)
+
+Optional steps
+- Pin BG3ModManager.exe to startup for ease of access
+
+- In BG3 Mod Manager, use `Tools -> Download & Extract the Script Extender` (Ctrl + Shift + Alt + T) and click Yes. Then, go to `Settings -> Open Preferences` (Ctrl + P) and under the Script Extender tab, ensure "Enable Achievements" is checked
+
+To Disable:
+
+1. Drag DoombubblesTweaks and any other Active Mods back into the inactive mods section
+2. Use the `File -> Export Order to Game` option in the menu (Ctrl + E or the button next to "Export")
 
 </details>
 
