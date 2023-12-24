@@ -1,4 +1,4 @@
-# DoomBubblesTweaks
+# DoombubblesTweaks
 
 ## Spell Changes
 

@@ -15,10 +15,6 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      # Optional
-      - name: Timezone
-        run: TZUTIL /s "UTC"
-
       - name: Clone Repo
         uses: actions/checkout@master
 
@@ -62,7 +58,7 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            ${{ env.PROJECT_NAME }}.pak
+            ${{ env.PROJECT_NAME }}.zip
             ${{ env.PROJECT_NAME }}.zip
           body_path: LATEST.md
           fail_on_unmatched_files: true
