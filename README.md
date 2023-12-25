@@ -52,9 +52,7 @@ The following spells can now be casted as rituals out of combat
 - Knock
 - Feign Death
 - Remove Curse
-- Dimension Door 
-
-**Disintegrate** - Changed VFX
+- Dimension Door
 
 # New Items
 
@@ -113,6 +111,10 @@ The following spells can now be casted as rituals out of combat
 
 **Blooded Greataxe, Helmt of Grit, Cap of Wrath** - Trigger based on being less than full health, not less than 50%
 
+**Doom Hammer** - Deals an extra 1d4 Lightning damage but cannot be dipped
+
+**Selune's Spear of Night** - Deals an extra 1d4 Radiant damage, and Moonmote can be used each Short Rest
+
 **Markoheshkir**
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -129,10 +131,6 @@ The following spells can now be casted as rituals out of combat
 **Heat** - Deals 1 damage per turn instead of 1d4 (this then goes to 0 if you have Fire Resistance)
 
 **Heat Convergence** - Deals 2 damage per turn remaining instead of 1
-
-**Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Strength
-
-**Selune's Spear of Night** - Deals an extra 1d4 Radiant damage, and Moonmote can be used each Short Rest
 
 ## Subclass Changes
 
@@ -158,11 +156,17 @@ The following spells can now be casted as rituals out of combat
 - (Currently Disabled) Now gains spell slots like a half caster instead of a third caster
   - Still chooses specifically Illusion and Enchantment spells at most levels
 
-## Pact of the Blade
+### Pact of the Blade
 
 - You can now choose which Ability Score is used when binding your Pact of the Blade
 
-## Wild Magic Barbarian
+### Wild Magic Barbarian
 
 - Gain 'Furious Caster' at level 5, making Rage no longer block spell casting 
 - Bolstering Magic abilities can be used each Short Rest
+
+## Standardization Changes
+
+**Disintegrate** - Changed VFX
+
+**Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Strength
