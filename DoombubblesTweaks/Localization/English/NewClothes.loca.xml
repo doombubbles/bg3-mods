@@ -21,7 +21,7 @@
 
 
 	<content contentuid="h09e25070g055ag4bc7gacf0g6327d1b6a932" version="1">The Lucid Cloth</content>
-	<content contentuid="hbce7c6d1g2222g46a1g9073gf1cbcaead73a" version="1">A garment worn by one of the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. This was worn by Kaelum Fironeth, whose stances were prudent and insightful.</content>
+	<content contentuid="h88584026g9954g44b8g86c1g0eb7b0089c24" version="1">A garment worn by one of the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. This was worn by Kaelum Fironeth, whose stances were prudent and insightful.</content>
 	<content contentuid="hbce7c6d1g2222g46a1g9073gf1cbcaead73a" version="1">You gain &lt;LSTag Type="Status" Tooltip="MAG_OWLS_WISDOM"&gt;Owl's Wisdom&lt;/LSTag&gt; and increase your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; score by [1], to a maximum [2].</content>
 	<content contentuid="h295fc392ge054g4d62g9406gf3eecfd91e0d" version="1">Sentinel Owl</content>
 	<content contentuid="h34ca58b3g55e3g4d9bgbedcg4ccc138911ff" version="1">You gain a +[1] bonus to Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and you can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>

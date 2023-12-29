@@ -34,15 +34,11 @@ To Disable:
 
 **Chromatic Orb** - All variants now deal the traditional 3d8 damage
 
-**Shield** - Upcasts now give +1 more AC per additional spell slot level
-
 **Longstrider and Enhance Leap** - Applies to all nearby allies in an AOE like Feather Fall
-
-**Divine Favour** - Upcasting at 3rd or 4th level increases bonus to +2d4, 5th and 6th to +3d4
 
 **Hex** - Now also gives disadvantage on Saving Throws for the chosen Ability and not just Checks
 
-**New Ritual Spells**
+### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
 
@@ -53,6 +49,18 @@ The following spells can now be casted as rituals out of combat
 - Feign Death
 - Remove Curse
 - Dimension Door
+
+### New Upcast Effects
+
+
+**Shield** - Upcasts now give +1 more AC per additional spell slot level
+
+**Divine Favour** - Upcasting at 3rd or 4th level increases bonus to +2d4, 5th and 6th to +3d4
+
+**Goodberry** - Now creates 1 additional Berry per additional spell slot level
+
+**Thunderous Smite** - Now deals an extra 1d6 damage per additional spell slot level
+
 
 # New Items
 

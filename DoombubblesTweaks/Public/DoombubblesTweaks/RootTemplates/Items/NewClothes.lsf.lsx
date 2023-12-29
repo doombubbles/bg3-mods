@@ -794,7 +794,7 @@
 
 
         <node id="GameObjects">
-          <attribute id="Description" type="TranslatedString" handle="hbce7c6d1g2222g46a1g9073gf1cbcaead73a" version="1" />
+          <attribute id="Description" type="TranslatedString" handle="h88584026g9954g44b8g86c1g0eb7b0089c24" version="1" />
           <attribute id="DisplayName" type="TranslatedString" handle="h09e25070g055ag4bc7gacf0g6327d1b6a932" version="1" />
           <attribute id="LevelName" type="FixedString" value="" />
           <attribute id="MapKey" type="FixedString" value="f1771efc-df41-4236-bf40-103a98811e6c" />

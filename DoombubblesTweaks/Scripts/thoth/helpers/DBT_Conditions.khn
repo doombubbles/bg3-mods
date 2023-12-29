@@ -37,3 +37,21 @@ function CL_HasPactWeapon(entity, mainHand)
   end
   return ConditionResult(false, { ConditionError("HasNotPactWeapon") }, { ConditionError("HasPactWeapon") })
 end
+
+-- function IsPactBladeStatus()
+--   for _, status in ipairs(pact_weapon_statuses) do
+--     if StatusId(status) then
+--       return true
+--     end
+--   end
+
+--   return false
+-- end
+
+function IsPactBladeStatus()
+  return StatusId('PACT_BLADE') | StatusId('CL_PACT_BLADE_STR') | StatusId('CL_PACT_BLADE_DEX') | StatusId('CL_PACT_BLADE_CON') | StatusId('CL_PACT_BLADE_INT') | StatusId('CL_PACT_BLADE_WIS')
+end
+
+function HasPactStatus(weaponEntity)
+  return HasAnyStatus(pact_weapon_statuses, {}, {}, weaponEntity)
+end

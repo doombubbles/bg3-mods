@@ -132,3 +132,28 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "PACT_BLADE"
 data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Constitution)"
+
+new entry "MAG_BoundToBeBonded_Technical_Passive"
+type "PassiveData"
+using "MAG_BoundToBeBonded_Technical_Passive"
+data "Conditions" "StatusId('WEAPON_BOND') or IsPactBladeStatus()"
+
+new entry "MAG_ShockingBound_Passive_Technical_Passive"
+type "PassiveData"
+using "MAG_ShockingBound_Passive_Technical_Passive"
+data "Conditions" "StatusId('WEAPON_BOND') or IsPactBladeStatus()"
+
+new entry "MAG_Bound_ProficiencyToDamage_Technical_Passive"
+type "PassiveData"
+using "MAG_Bound_ProficiencyToDamage_Technical_Passive"
+data "Conditions" "StatusId('WEAPON_BOND') or IsPactBladeStatus()"
+
+new entry "MAG_Bound_Throwing_Technical_Passive"
+type "PassiveData"
+using "MAG_Bound_Throwing_Technical_Passive"
+data "Conditions" "StatusId('WEAPON_BOND') or IsPactBladeStatus()"
+
+new entry "MAG_Bonded_Baneful_Shortsword"
+type "Weapon"
+using "MAG_Bonded_Baneful_Shortsword"
+data "WeaponFunctors" "IF(HasStatus('WEAPON_BOND', GetAttackWeapon(context.Source)) or HasPactStatus(GetAttackWeapon(context.Source))):ApplyStatus(BANE, 100, 2,,,,not SavingThrow(Ability.Charisma, 14))"
