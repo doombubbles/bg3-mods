@@ -15,4 +15,18 @@
 	<content contentuid="h5e0a8e25g9351g4347g90fcg5f3a838ab7cf" version="1">Unreasonable Force</content>
 	<content contentuid="h1579b4a6g37feg4250g89cdgd96a591d5050" version="1">Whenever you deal Force damage to a creature, you can push the creature up to [1] away from you.</content>
 
+
+	<content contentuid="h163c1fb7gd7efg41e5ga278gac8e49a6d562" version="1">Cryothermic Clutches</content>
+	<content contentuid="h789288d8gab0eg43d1gbed4g0f9a58312a58" version="1">In these gloves you feel like you could pick up a very hot ring from out of the fire and still remark "It's quite cool".</content>
+	<!-- <content contentuid="hb137f6c4g5c1eg45fag9846g09889516305d" version="1">Winter's Ashes</content> -->
+	<!-- <content contentuid="h778886e6g5fe5g4bc7ga372g838b473bea54" version="1">Whenever you deal Fire or Cold damage, inflict [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_FROST"&gt;Encrusted with Frost&lt;/LSTag&gt; upon the target(s) and gain [2] turns of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content> -->
+
+	<content contentuid="h4a60dc65g184bg4717g81bbgf864c3c3f01c" version="1">A Staff of Ice and Fire</content>
+	<content contentuid="h166b0176gd936g49cegae93gb087f1b7ce6d" version="1">An intrinic and exquisite staff that you can tell is immaculately crafted. Unfortunately, the craftsmenship at the end of the staff seems sloppier and unfinished compared to the rest of it.</content>
+	<content contentuid="h6ade97a1g6adfg434eg9887g064a86ed4743" version="1">Ice and Fire</content>
+	<content contentuid="hb4236fa8gac8ag47fcga4bcgab41f64d73a7" version="1">When dealing Cold damage, the wielder deals an additional [1]. When dealing Fire damage, the wielder deals an additional [2].</content>
+	
+	<content contentuid="hc9581965ga5b8g45bbga5b1gc6db2858b113" version="1">Hat of Frostfire Acuity</content>
+	<content contentuid="hfd5e8c35g5478g455dga112gc0d1876b044f" version="1">It is said some wizard hats grant the power to keep your head cool - both literally and figuratively.</content>
+
 </contentList>

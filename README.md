@@ -80,20 +80,30 @@ The following spells can now be casted as rituals out of combat
 
 **The Splendid Cloth** - Grants Eagle's Splendour, +2 Cha (max 20), Advantage on Saving Throws against Charmed, 12m darkvision. Sold by Araj Oblodra in Moonrise Towers.
 
+**Cryothermic Clutches** - Combination of Thermoarcanic Gloves and Winter's Clutches.
+
+**Hat of Frostfire Acuity** - Combination of Hat of Fire Acuity and Coldbrim Hat.
+
+**A Staff of Ice and Fire** - +2 Staff. Resistance to Cold and Fire Damage. Whenever you deal Cold damage, also deal 1d4 Fire damage. Whenever you deal Fire damage, also deal 1d4 Cold damage. Combination of Mourning Frost and Incandescent Staff, granting each of their spells.
+
+
 <details>
 <summary>UUIDs</summary>
 
-| UID                      | UUID                                   |
-| ------------------------ | -------------------------------------- |
-| `DBT_SacredRing`         | `c242c2c3-e372-4469-a7d3-58c096fb2ae1` |
-| `DBT_ForceRing`          | `b52d175d-cf4a-40ae-bf0b-4858e83026ef` |
-| `DBT_SculptorsGloves`    | `55632913-80bc-44a1-9b86-259b159a253c` |
-| `DBT_Spell_Combo_Gloves` | `a3ba9ffb-1c74-4a2a-8b0f-4a8e30fbb0fd` |
-| `DBT_CON_Cloth`          | `53bc0e86-12b9-4a87-bc29-8ed71d9b7003` |
-| `DBT_INT_Cloth`          | `092c5cd7-a19b-4d0f-bbbf-553170020a4b` |
-| `DBT_WIS_Cloth`          | `f1771efc-df41-4236-bf40-103a98811e6c` |
-| `DBT_CHA_Cloth`          | `78c45258-8bec-40da-9d7b-cfa61dbbf9da` |
-
+| Name                       | UID                      | UUID                                   |
+| -------------------------- | ------------------------ | -------------------------------------- |
+| Sacred Ring                | `DBT_SacredRing`         | `c242c2c3-e372-4469-a7d3-58c096fb2ae1` |
+| Ring of Unreasonable Force | `DBT_ForceRing`          | `b52d175d-cf4a-40ae-bf0b-4858e83026ef` |
+| Sculptor's Gloves          | `DBT_SculptorsGloves`    | `55632913-80bc-44a1-9b86-259b159a253c` |
+| Practical Caster's Gloves  | `DBT_Spell_Combo_Gloves` | `a3ba9ffb-1c74-4a2a-8b0f-4a8e30fbb0fd` |
+| The Sturdy Cloth           | `DBT_CON_Cloth`          | `53bc0e86-12b9-4a87-bc29-8ed71d9b7003` |
+| The Cunning Cloth          | `DBT_INT_Cloth`          | `092c5cd7-a19b-4d0f-bbbf-553170020a4b` |
+| The Lucid Cloth            | `DBT_WIS_Cloth`          | `f1771efc-df41-4236-bf40-103a98811e6c` |
+| The Splendid Cloth         | `DBT_CHA_Cloth`          | `78c45258-8bec-40da-9d7b-cfa61dbbf9da` |
+| Cryothermic Clutches       | `DBT_FrostFire_Gloves`   | `d660e90e-84be-4ad9-997b-9ecc4c15fed8` |
+| A Staff of Ice and Fire    | `DBT_FrostFire_Staff`    | `d75bfa7e-aac9-482f-ae67-08a6e520af7a` |
+| Hat of Frostfire Acuity    | `DBT_FrostFire_Hat`      | `c4247b73-bb7a-4072-8bfc-a50f7b4e5a46` |
+ 
 </details>
 
 ## Item Changes
@@ -122,6 +132,8 @@ The following spells can now be casted as rituals out of combat
 **Doom Hammer** - Deals an extra 1d4 Lightning damage but cannot be dipped
 
 **Selune's Spear of Night** - Deals an extra 1d4 Radiant damage, and Moonmote can be used each Short Rest
+
+**Hat of Uninhibited Kushigo** - Effect can now stack additively for multiple turns, but you lose stacks when taking damage.
 
 **Markoheshkir**
 
@@ -166,7 +178,7 @@ The following spells can now be casted as rituals out of combat
 
 ### Pact of the Blade
 
-- You can now choose which Ability Score is used when binding your Pact of the Blade
+- Will only use Charisma for attack rolls if it's higher than Strength (and/or Dexterity for Finesse weapons)
 
 ### Wild Magic Barbarian
 

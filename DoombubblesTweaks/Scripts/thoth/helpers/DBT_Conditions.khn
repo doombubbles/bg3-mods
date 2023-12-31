@@ -1,57 +1,10 @@
--- Just in case they don't have community library
-
-local pact_statuses = {
-  'CL_STATUS_PACT_CHA_TAGGED',
-  'CL_STATUS_PACT_STR_TAGGED',
-  'CL_STATUS_PACT_DEX_TAGGED',
-  'CL_STATUS_PACT_CON_TAGGED',
-  'CL_STATUS_PACT_INT_TAGGED',
-  'CL_STATUS_PACT_WIS_TAGGED'
-}
-
-local pact_weapon_statuses = {
-  'PACT_BLADE',
-  'CL_PACT_BLADE_STR',
-  'CL_PACT_BLADE_DEX',
-  'CL_PACT_BLADE_CON',
-  'CL_PACT_BLADE_INT',
-  'CL_PACT_BLADE_WIS'
-}
-
-local pact_tags = {
-  'PACT_TAG_CHA',
-  'PACT_TAG_STR',
-  'PACT_TAG_DEX',
-  'PACT_TAG_CON',
-  'PACT_TAG_INT',
-  'PACT_TAG_WIS'
-}
-
--- Optional Replacement for HasPactWeapon(), if support is needed for PACT_BLADE variants
-function CL_HasPactWeapon(entity, mainHand)
-  local entity = entity or context.Source
-  local weaponEntity = GetActiveWeapon(entity, true)
-  if weaponEntity.IsValid then
-    local result = Character(entity) & HasAnyStatus(pact_weapon_statuses, {}, {}, weaponEntity)
-    return ConditionResult(result.Result, { ConditionError("HasNotPactWeapon") }, { ConditionError("HasPactWeapon") })
+function ShouldPactBladeOverride(entity)
+  local weapon = entity or context.Source
+  local owner = GetOwner(weapon)
+  if HasWeaponProperty(WeaponProperties.Finesse, weapon).Result or WieldingFinesseWeapon(owner).Result then
+    -- Seems like just the HasWeaponProperty doesn't seem to work
+    return ConditionResult(owner.Charisma > owner.Dexterity) & ConditionResult(owner.Charisma > owner.Strength)
+  else
+    return ConditionResult(owner.Charisma > owner.Strength)
   end
-  return ConditionResult(false, { ConditionError("HasNotPactWeapon") }, { ConditionError("HasPactWeapon") })
-end
-
--- function IsPactBladeStatus()
---   for _, status in ipairs(pact_weapon_statuses) do
---     if StatusId(status) then
---       return true
---     end
---   end
-
---   return false
--- end
-
-function IsPactBladeStatus()
-  return StatusId('PACT_BLADE') | StatusId('CL_PACT_BLADE_STR') | StatusId('CL_PACT_BLADE_DEX') | StatusId('CL_PACT_BLADE_CON') | StatusId('CL_PACT_BLADE_INT') | StatusId('CL_PACT_BLADE_WIS')
-end
-
-function HasPactStatus(weaponEntity)
-  return HasAnyStatus(pact_weapon_statuses, {}, {}, weaponEntity)
 end
