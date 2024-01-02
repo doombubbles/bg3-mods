@@ -46,7 +46,6 @@ data "ResultAmount 1" "1"
 data "Result 1" "DBT_FrostFire_Staff"
 
 
-
 new ItemCombination "DBT_FrostFire_Hat"
 data "Type 1" "Object"
 data "Object 1" "MAG_Fire_ArcaneAcuityOnFireDamage_Hat"
@@ -60,3 +59,18 @@ data "Transform 2" "Consume"
 new ItemCombinationResult "DBT_FrostFire_Hat_1"
 data "ResultAmount 1" "1"
 data "Result 1" "DBT_FrostFire_Hat"
+
+
+new ItemCombination "ARM_HeadbandOfIntellect"
+data "Type 1" "Object"
+data "Object 1" "FOR_OgresForHire_HeadbandOfIntellect"
+data "Combine 1" "Base"
+data "Transform 1" "Transform"
+data "Type 2" "Object"
+data "Object 2" "OBJ_InfernalPlate_B"
+data "Combine 2" "Base"
+data "Transform 2" "Consume"
+
+new ItemCombinationResult "ARM_HeadbandOfIntellect_1"
+data "ResultAmount 1" "1"
+data "Result 1" "ARM_HeadbandOfIntellect"

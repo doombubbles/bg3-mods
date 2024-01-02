@@ -37,8 +37,15 @@ CanMerge 1
 new subtable "-1"
 object category "I_DBT_WIS_Cloth",1,0,0,0,0,0,0,0
 
-
 new treasuretable "MOO_InfernalTrader_Trade"
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_CHA_Cloth",1,0,0,0,0,0,0,0
+
+// TODO temporary
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_BG_OfDexterity_Gloves",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_UNI_MassHealRing",1,0,0,0,0,0,0,0

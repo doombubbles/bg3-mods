@@ -241,6 +241,17 @@
           <attribute id="UUID" type="guid" value="517fc6b8-bdf4-4687-a7fc-9d94b559f787"/>
         </node>
 
+        <!-- Rogue Extra Attack -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Rogue"/>
+          <attribute id="PassivesAdded" type="LSString" value="UncannyDodge;ExtraAttack"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
+          <attribute id="UUID" type="guid" value="19857e46-f5dc-4a9f-847e-5f714ceef7b1"/>
+        </node>
+
         <!-- Oathbreaker
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0)"/>

@@ -8,3 +8,11 @@ function ShouldPactBladeOverride(entity)
     return ConditionResult(owner.Charisma > owner.Strength)
   end
 end
+
+function MagicMissileSpellCheck()
+  return SpellId('Projectile_MAG_MagicMissile_Shot')
+  | SpellId('Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet') 
+  | SpellId('Projectile_MagicMissile')
+  | IsSpellChildOrVariantFromContext('Projectile_MagicMissile')
+  | SpellId('Projectile_MagicMissile_Cantrip')
+end

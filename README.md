@@ -135,6 +135,10 @@ The following spells can now be casted as rituals out of combat
 
 **Hat of Uninhibited Kushigo** - Effect can now stack additively for multiple turns, but you lose stacks when taking damage.
 
+**Headband of Intellect** - Unobtainable 19 INT version can now be created by combining the normal Warped Headband of Intellect with Enriched Infernal Iron
+
+**Training Shield** - Can be used without Shield Proficiency
+
 **Markoheshkir**
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -152,7 +156,7 @@ The following spells can now be casted as rituals out of combat
 
 **Heat Convergence** - Deals 2 damage per turn remaining instead of 1
 
-## Subclass Changes
+## Class / Subclass Changes
 
 ### War Cleric
 
@@ -166,7 +170,6 @@ The following spells can now be casted as rituals out of combat
 - War Magic now works with Extra Attack and the cantrip and attack can be used in either order
 - (Currently Disabled) Now gains spell slots like a half caster instead of a third caster
   - Still chooses specifically Abjuration and Evocation spells at most levels
-- (Currently Disabled) Passively learns the Daredevil Proximity effect at level 6
 
 ### Arcane Trickster
 
@@ -184,6 +187,11 @@ The following spells can now be casted as rituals out of combat
 
 - Gain 'Furious Caster' at level 5, making Rage no longer block spell casting 
 - Bolstering Magic abilities can be used each Short Rest
+
+### Rogue
+
+- (EXPERIMENTAL) Now gains Extra Attack at Level 5
+  - Because seriously, I haven't seen a single build that ever recommends more than 4 levels of Rogue
 
 ## Standardization Changes
 

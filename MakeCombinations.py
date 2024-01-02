@@ -19,7 +19,8 @@ combos = {
     "MAG_Cold_IncreaseColdDamageOnCast_Staff": 2,
     "MAG_FlamingFist_StaffOfFire": 2,
     "MAG_Frost_GenerateFrostOnStatusApply_Hat": 2,
-    "MAG_Fire_ArcaneAcuityOnFireDamage_Hat": 2
+    "MAG_Fire_ArcaneAcuityOnFireDamage_Hat": 2,
+    "FOR_OgresForHire_HeadbandOfIntellect": 2
 }
 
 
