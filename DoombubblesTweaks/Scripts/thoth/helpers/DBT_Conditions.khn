@@ -16,3 +16,9 @@ function MagicMissileSpellCheck()
   | IsSpellChildOrVariantFromContext('Projectile_MagicMissile')
   | SpellId('Projectile_MagicMissile_Cantrip')
 end
+
+function GuidingBoltCheck()
+  return SpellId('Projectile_GuidingBolt')
+  | SpellId('Projectile_MAG_GuidingBolt_MonkGloves')
+  | IsSpellChildOrVariantFromContext('Projectile_GuidingBolt')
+end 

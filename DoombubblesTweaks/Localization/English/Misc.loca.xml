@@ -13,6 +13,9 @@
 	<content contentuid="h2f240a51g20b4g4f7cg8842gef50ca571e03" version="1">When the wielder has less than full health, they deal an additional [1].</content>
 
 	<content contentuid="h82022716g353cg41f9g9222g9055d5a0e72b" version="1">You are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with this Shield while using it.</content>
+	
+	<content contentuid="hb3310c12g63bfg46bdg9c48g6becfe690799" version="1">Guided Bolt</content>
+	<content contentuid="h54a34de0gfa77g45c7ga27dgce708a2ce865" version="1">You have Advantage when casting Guiding Bolt, but it no longer applies &lt;LSTag Type="Status" Tooltip="GUIDING_BOLT"&gt;Guiding Bolt&lt;/LSTag&gt;.</content>
 
 	<!-- <content contentuid="hf9a3c136gfa53g4170g9eeega20ced9c9111" version="4">Behold, the Vampire Ascendant! Thousands of souls have bought you power, granting you &lt;LSTag Type="Spell" Tooltip="Target_LOW_Astarion_VampireAscendant"&gt;Ascendant Bite&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_LOW_MistyEscape_Astarion"&gt;Gaseous form&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;You also have a +[1] bonus to attacks and spells.</content> -->
 	
