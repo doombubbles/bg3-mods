@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h66fbaf70g36bcg4313g969fgfabc9b4f1f69" version="3">You have honed your body and magic for war. After you cast a &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt;, you can make a weapon attack using a bonus action, or vice versa.</content>
+	<content contentuid="h9ca8e06egf82bg41e9gba15gcd2265743c20" version="1">War Magic: Bonus Attack</content>
+	<content contentuid="h4065dd28g293eg4705g9dafg7b16b410e232" version="1">Your next weapon attack costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="Action"&gt;action&lt;/LSTag&gt;. This attack can lead up to any &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack(s)&lt;/LSTag&gt; you may have.</content>
+	<content contentuid="h6829a9d1ga919g44afga73fg49cc1378ad95" version="1">War Magic: Bonus Cantrip</content>
+	<content contentuid="h26b30cbag7290g402ag8c7cg0510cd5ac2f2" version="1">Your next &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="Action"&gt;action&lt;/LSTag&gt;.</content>
+	<content contentuid="h95efd706g1dc1g4121gba20g824eb3813025" version="1">You have used your War Magic for this turn.</content>
+</contentList>

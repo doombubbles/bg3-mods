@@ -252,6 +252,31 @@
           <attribute id="UUID" type="guid" value="19857e46-f5dc-4a9f-847e-5f714ceef7b1"/>
         </node>
 
+        <!-- Rogue Additional Sneak Attack -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="Rogue"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(SneakAttack_Charge,1,0)"/>
+          <attribute id="PassivesAdded" type="LSString" value="ReliableTalent;ImprovedSneakAttack"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
+          <attribute id="UUID" type="guid" value="9cf65c52-0df9-4433-9059-f7ae29fb1f18"/>
+        </node>
+
+        <!-- Cleric Harness Divine Power -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(ChannelDivinity,1,0)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Cleric"/>
+          <attribute id="PassivesAdded" type="LSString" value="HarnessDivinePower"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(239cc7cc-f642-4ddc-b091-498d81612c51,,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
+          <attribute id="UUID" type="guid" value="ef18265f-dda6-4eb6-8dd0-b14c57202c33"/>
+        </node>
+
         <!-- Oathbreaker
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0)"/>

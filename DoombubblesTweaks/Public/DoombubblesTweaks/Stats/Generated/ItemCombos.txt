@@ -74,3 +74,63 @@ data "Transform 2" "Consume"
 new ItemCombinationResult "ARM_HeadbandOfIntellect_1"
 data "ResultAmount 1" "1"
 data "Result 1" "ARM_HeadbandOfIntellect"
+
+
+new ItemCombination "UNI_DarkJusticiarArmor_HalfPlate"
+data "Type 1" "Object"
+data "Object 1" "MAG_DarkJusticiar_HalfPlate"
+data "Combine 1" "Base"
+data "Transform 1" "Transform"
+data "Type 2" "Object"
+data "Object 2" "QUEST_GEM_Button"
+data "Combine 2" "Base"
+data "Transform 2" "Consume"
+
+new ItemCombinationResult "UNI_DarkJusticiarArmor_HalfPlate_1"
+data "ResultAmount 1" "1"
+data "Result 1" "UNI_DarkJusticiarArmor_HalfPlate"
+
+
+new ItemCombination "SHA_JusticiarArmor_Gloves"
+data "Type 1" "Object"
+data "Object 1" "MAG_JusticiarArmor_Gloves"
+data "Combine 1" "Base"
+data "Transform 1" "Transform"
+data "Type 2" "Object"
+data "Object 2" "QUEST_GEM_Button"
+data "Combine 2" "Base"
+data "Transform 2" "Consume"
+
+new ItemCombinationResult "SHA_JusticiarArmor_Gloves_1"
+data "ResultAmount 1" "1"
+data "Result 1" "SHA_JusticiarArmor_Gloves"
+
+
+new ItemCombination "UNI_SHA_DarkJusticiar_Boots"
+data "Type 1" "Object"
+data "Object 1" "ARM_Boots_Metal"
+data "Combine 1" "Base"
+data "Transform 1" "Transform"
+data "Type 2" "Object"
+data "Object 2" "QUEST_GEM_Button"
+data "Combine 2" "Base"
+data "Transform 2" "Consume"
+
+new ItemCombinationResult "UNI_SHA_DarkJusticiar_Boots_1"
+data "ResultAmount 1" "1"
+data "Result 1" "UNI_SHA_DarkJusticiar_Boots"
+
+
+new ItemCombination "MAG_SHA_SharBlessing_Spear"
+data "Type 1" "Object"
+data "Object 1" "MAG_SHA_SeluneBlessing_Spear"
+data "Combine 1" "Base"
+data "Transform 1" "Transform"
+data "Type 2" "Object"
+data "Object 2" "QUEST_GEM_Button"
+data "Combine 2" "Base"
+data "Transform 2" "Consume"
+
+new ItemCombinationResult "MAG_SHA_SharBlessing_Spear_1"
+data "ResultAmount 1" "1"
+data "Result 1" "MAG_SHA_SharBlessing_Spear"

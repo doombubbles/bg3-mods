@@ -42,6 +42,11 @@ CanMerge 1
 new subtable "-1"
 object category "I_DBT_CHA_Cloth",1,0,0,0,0,0,0,0
 
+new treasuretable "LOW_Grotto_ShadowheartFriend"
+CanMerge 1
+new subtable "4,1"
+object category "I_QUEST_GEM_Button",1,0,0,0,0,0,0,0
+
 // TODO temporary
 new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
 CanMerge 1

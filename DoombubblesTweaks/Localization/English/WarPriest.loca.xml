@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<contentList>
-  <content contentuid="h13d40804gd1feg4ef9g8355g6d3d8bfc4773" version="1">Improved War Priest</content>
-  <content contentuid="hd0cda1cfge813g4f39g87c6g0df5c40fd6c6" version="2">You regain all your &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;War Priest Charges&lt;/LSTag&gt; after a &lt;LSTag Tooltip="LongRest"&gt;Long&lt;/LSTag&gt; or &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
-</contentList>

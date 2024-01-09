@@ -9,8 +9,10 @@
   <content contentuid="h1a06cccage994g4729ga129g5f7b78876437" version="1">Instead of its Dexterity &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;, the affected entity adds  its &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
   <content contentuid="hf2c5bc49g0667g4ca0g8b1fgc108d714c258" version="5">Shoot a thin ray from your finger. If the [1] reduces the target to 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it disintegrates into a crumbly ash.</content>
-  
+
   <content contentuid="hbaec947bg898cg4518gaa6fgd65468ca7e6e" version="4">After dealing damage with an unarmed attack, the wearer gains a +[1] bonus to their spell save &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; for 1 turn.</content>
   <content contentuid="h3748b863ga207g425bg9d4dg209bff1aa18d" version="2">Affected entity has a +[1] bonus to save against spell &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; per turn remaining.</content>
+
+  <content contentuid="hae9e7857ga02cg4030ga73eg9ceb8e76a827" version="1">Momentum Helm</content>
 
 </contentList>

@@ -1,0 +1,7 @@
+new entry "QUEST_GEM_Button"
+type "Object"
+using "OBJ_GemGeneric"
+data "RootTemplate" "3065f8bf-1d06-4b89-8f2a-268f82155317"
+data "ObjectCategory" ""
+data "Rarity" "VeryRare"
+data "ValueLevel" "10"

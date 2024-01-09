@@ -52,7 +52,6 @@ The following spells can now be casted as rituals out of combat
 
 ### New Upcast Effects
 
-
 **Shield** - Upcasts now give +1 more AC per additional spell slot level
 
 **Divine Favour** - Upcasting at 3rd or 4th level increases bonus to +2d4, 5th and 6th to +3d4
@@ -60,7 +59,6 @@ The following spells can now be casted as rituals out of combat
 **Goodberry** - Now creates 1 additional Berry per additional spell slot level
 
 **Thunderous Smite** - Now deals an extra 1d6 damage per additional spell slot level
-
 
 # New Items
 
@@ -135,8 +133,6 @@ The following spells can now be casted as rituals out of combat
 
 **Hat of Uninhibited Kushigo** - Effect can now stack additively for multiple turns, but you lose stacks when taking damage.
 
-**Headband of Intellect** - Unobtainable 19 INT version can now be created by combining the normal Warped Headband of Intellect with Enriched Infernal Iron
-
 **Training Shield** - Can be used without Shield Proficiency
 
 **Markoheshkir**
@@ -150,6 +146,18 @@ The following spells can now be casted as rituals out of combat
   - Dealing spell damage inflicts 1 turn of Radiant Orb on the target
   - Can cast Guiding Bolt and Sunbeam per Short Rest
 
+## Item Upgrading
+
+**Headband of Intellect** - Unobtainable 19 INT version can now be created by combining the normal Warped Headband of Intellect with Enriched Infernal Iron
+
+**Shar's Spear of Darkness** - Can be created by combining Seluûne's Spear of Evening with a Stone of Shadows purchased from Nocturne
+
+**Dark Justiciar's Half-Plate** - Can be created by combining Dark Justiciar's Half-Plate with a Stone of Shadows purchased from Nocturne
+
+**Dark Justiciar's Gloves** - Can be created by combining Dark Justiciar's Gloves with a Stone of Shadows purchased from Nocturne
+
+**Dark Justiciar's Boots** - Can be created by combining Metallic Boots with a Stone of Shadows purchased from Nocturne
+
 ## Other Changes
 
 **Heat** - Deals 1 damage per turn instead of 1d4 (this then goes to 0 if you have Fire Resistance)
@@ -158,43 +166,59 @@ The following spells can now be casted as rituals out of combat
 
 ## Class / Subclass Changes
 
-### War Cleric
+### Cleric
+
+- Blessed Strikes - Divine Strike can now also be applied when you deal damage with a Cantrip
+- Harness Divine Power - Spend Channel Divinity to recharge a Spell Slot (up to half of your highest known Spell Slot level rounded up)
+
+#### War Domain
 
 - War Priest Extra Attack is now toggleable when it triggers
 - Now chooses a Fighting Style at Level 3 from the same list as Paladins
 - Now gains "Improved War Priest" at level 5 making War Priest Charges replenish on a Short or Long Rest
 - Now gains Extra Attack at level 6 (TODO may not keep this)
 
-### Eldritch Knight
+#### Trickery Domain
+
+- Blessing of the Trickster no longer requires concentration
+
+### Fighter
+
+#### Eldritch Knight
 
 - War Magic now works with Extra Attack and the cantrip and attack can be used in either order
-- (Currently Disabled) Now gains spell slots like a half caster instead of a third caster
-  - Still chooses specifically Abjuration and Evocation spells at most levels
-
-### Arcane Trickster
-
-- Mage Hand no longer has a cooldown
-- Mage Hand Legerdemain invisibility now behaves like Greater Invisibility, and Mage Hands passively gain Pass Without A Trace
-- Magical Ambush now also lets Sneak Attack be added as reaction to Spell Attacks
-- (Currently Disabled) Now gains spell slots like a half caster instead of a third caster
-  - Still chooses specifically Illusion and Enchantment spells at most levels
-
-### Pact of the Blade
-
-- Will only use Charisma for attack rolls if it's higher than Strength (and/or Dexterity for Finesse weapons)
-
-### Wild Magic Barbarian
-
-- Gain 'Furious Caster' at level 5, making Rage no longer block spell casting 
-- Bolstering Magic abilities can be used each Short Rest
+- ~~Now gains spell slots like a half caster instead of a third caster~~
+  - ~~Still chooses specifically Abjuration and Evocation spells at most levels~~
 
 ### Rogue
 
 - (EXPERIMENTAL) Now gains Extra Attack at Level 5
-  - Because seriously, I haven't seen a single build that ever recommends more than 4 levels of Rogue
+- (EXPERIMENTAL) Now gains Improved Sneak Attack at Level 11, letting you trigger Sneak Attack an additional time each turn
+
+(Because seriously, I haven't seen a single build that ever recommends more than 4 levels of Rogue)
+
+#### Arcane Trickster
+
+- Mage Hand no longer has a cooldown
+- Mage Hand Legerdemain invisibility now behaves like Greater Invisibility, and Mage Hands passively gain Pass Without A Trace
+- Magical Ambush now also lets Sneak Attack be added as reaction to Spell Attacks
+- ~~Now gains spell slots like a half caster instead of a third caster~~
+  - ~~Still chooses specifically Illusion and Enchantment spells at most levels~~
+
+### Warlock
+
+#### Pact of the Blade
+
+- Will only use Charisma for attack rolls if it's higher than Strength (and/or Dexterity for Finesse weapons)
+
+### Barbarian
+
+#### Wild Magic 
+- Gain 'Furious Caster' at level 5, making Rage no longer block spell casting 
+- Bolstering Magic abilities can be used each Short Rest
 
 ## Standardization Changes
 
-**Disintegrate** - Changed VFX
+**Disintegrate** - Changed VFX slightly to include some more red
 
 **Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Strength
