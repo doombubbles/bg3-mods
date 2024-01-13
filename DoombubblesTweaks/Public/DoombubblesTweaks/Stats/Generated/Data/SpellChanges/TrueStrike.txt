@@ -1,0 +1,6 @@
+new entry "Target_TrueStrike"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TrueStrike"
+data "Cooldown" "OncePerCombat"
+data "UseCosts" "BonusActionPoint:1"

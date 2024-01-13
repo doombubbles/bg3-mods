@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-  
+
 	<content contentuid="h1578058bg46e7g446cga006gd8789486c429" version="1">A garment worn by one of the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. This was worn by Roahton Mobar, whose stances were broad and strong.</content>
-	<content contentuid="h39811216gba47g4cd9g9c51g09221b537dcf" version="1">A garment worn by one of the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. This was worn by Strigga Morkoscavich, whose stances moved fluidly, flawlessly, and who defanged the Serpent one blustery night.</content>
 	<content contentuid="h442cb42cg42eag4db3g97d2g00af03ffeee6" version="1">A garment worn by one of the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. This was worn by Kimigha Poji, whose stances were narrow and swift.</content>
+	<content contentuid="h39811216gba47g4cd9g9c51g09221b537dcf" version="1">A garment worn by one of the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. This was worn by Strigga Morkoscavich, whose stances moved fluidly, flawlessly, and who defanged the Serpent one blustery night.</content>
 
 	<content contentuid="hdd2158f5g44bfg4727g9b13g1c046c53f139" version="1">The Sturdy Cloth</content>
 	<content contentuid="h42635ac0gcedcg4daegbd4agf64111e5e62e" version="1">A garment worn by one of the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. This was worn by Dravik Halmoren, whose stances were wide and unyielding.</content>
 	<content contentuid="h801ebb42ge559g43e0g8f97g20d66cbad4e9" version="1">You gain &lt;LSTag Type="Status" Tooltip="MAG_BEARS_ENDURANCE"&gt;Bear's Endurance&lt;/LSTag&gt; and increase your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; score by [1], to a maximum [2].</content>
 	<content contentuid="h4c12da0bg73c1g447dga509ge54c2078b483" version="1">The Bear</content>
 	<content contentuid="hbb620916g050fg4585g9f3bgb1a245863e37" version="1">Reduce all incoming damage by 1, and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
-	
 
-	
+
+
 	<content contentuid="h38e73152gbbf4g4f80g9b9egaae49285907d" version="1">The Cunning Cloth</content>
 	<content contentuid="h87123090g6cb1g4494g988dg405f883c91cd" version="1">A garment worn by one of the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. This was worn by Vorik Emberhand, whose stances were precice and magical.</content>
 	<content contentuid="hd59aebe3gc1dcg4a66ga37bgda1c73edef21" version="1">You gain &lt;LSTag Type="Status" Tooltip="MAG_FOXS_CUNNING"&gt;Fox's Cunning&lt;/LSTag&gt; and increase your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; score by [1], to a maximum [2].</content>
 	<content contentuid="hd9d73d2ag1edcg4083g8eaeg8b2205278ca0" version="1">Stupider like a Fox</content>
-	<content contentuid="h9e7b0712g16f0g40e6g9695gaef6cf5da839" version="1">You gain a +[1] bonus to Intelligence &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and also when you critically fail a skill check, you can reroll the die and use the new result.</content>
+	<content contentuid="h9e7b0712g16f0g40e6g9695gaef6cf5da839" version="1">You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;</content>
 
 
 	<content contentuid="h09e25070g055ag4bc7gacf0g6327d1b6a932" version="1">The Lucid Cloth</content>
@@ -32,6 +32,38 @@
 	<content contentuid="h6065a071gbb53g45b8gbe75g9a73e9e1c180" version="1">You gain &lt;LSTag Type="Status" Tooltip="MAG_EAGLES_SPLENDOR"&gt;Eagle's Splendour&lt;/LSTag&gt; and increase your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; score by [1], to a maximum [2].</content>
 	<content contentuid="hca826376g7745g4710g838cg91d51c919b3a" version="1">Majestic Eagle</content>
 	<content contentuid="hdedfa978g1b06g45f3ga8fcg6ff17dc4daf4" version="1">You can see in the dark up to [1] and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;.</content>
+
+
+	<content contentuid="h84561401ge60eg48b0g9ea9gb222978bf6b5" version="1">Thread of Uninhibited Kushigo</content>
+	<content contentuid="h87332895g1ea6g4060g9309gb2c9fa886eab" version="1">This bit of thread catches the light in strange ways, seeming to shimmer despite not actually being reflective.</content>
+
+	<content contentuid="hdb308c9eg55d0g4112gbe5fgb4e9c460735e" version="1">The Physical Cloth</content>
+	<content contentuid="h5670433cgc20bg4feagabc0g57b333442d25" version="1">A garment that harnesses the martial prowess of Roahton Mobar, Kimigha Poji, and Dravik Halmoren. The wearer's stances will become strong, swift, and sturdy.</content>
+	<content contentuid="h9152a0dbgdd53g46c7gb28ag5d576c7d864b" version="1">Manticore's Physicality</content>
+	<content contentuid="hf90c27beg00d0g4a56g8e03g1a3346c02d0e" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength, Dexterity, and Constitution &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;</content>
+	<content contentuid="hbb1e249fg02cdg444fg970cgc97ea120b310" version="1">You gain &lt;LSTag Type="Status" Tooltip="MAG_MANTICORES_PHYSICALITY"&gt;Manticore's Physicality&lt;/LSTag&gt; and increase your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;, &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; and &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; by [1] to a maximum [2].</content>
+	<content contentuid="he895bb21gab4dg438bga6a6g86e63cf5b70e" version="1">Legend of the Manticore</content>
+	<content contentuid="h9d27290fg799ag470bg9163g812864aacfa5" version="1">You can't be pushed against your will, your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance is increased by [1], and all damage you take is reduced by [2].</content>
+
+	<content contentuid="hb0c12a73g5245g4849gbc26gd83667bd4856" version="1">The Mental Cloth</content>
+	<content contentuid="h48abf5a9g9874g4826g9d5ag0c98a656cc2e" version="1">A garment that harnesses the martial prowess of Vorik Emberhand, Kaelum Fironeth, and Caspian Starfall. The wearer's stances will become precise, prudent, and powerful.</content>
+	<content contentuid="h5c61ddfcg2f1ag43a3g8819g7b7be6da0c31" version="1">Sphinx's Mentality</content>
+	<content contentuid="ha69755f7g9e53g4141ga0a5g04214f980350" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom, and Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;</content>
+	<content contentuid="h76b309f9ga5cfg4fd6g80b1g06a72f1e6a71" version="1">You gain &lt;LSTag Type="Status" Tooltip="MAG_SPHINXS_MENTALITY"&gt;Sphinx's Mentality&lt;/LSTag&gt; and increase your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; and &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by [1] to a maximum [2].</content>
+	<content contentuid="h7ab913bcg5e0ag4003gadb0gdd150417d521" version="1">Riddle of the Sphinx</content>
+	<content contentuid="hb3313609ge0dag4d59gba31g44ae0fa5d3db" version="1">You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on maintaining &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;, can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt; and you can see in the dark up to [1].</content>
+
+	<content contentuid="hb659cb82g0f0dg4eedgba7dgc5e2e9cdbb52" version="1">The Universal Cloth</content>
+	<content contentuid="hea138583gec79g4101gb133g0f1ab2f240d2" version="1">A garment that channels the power of all the monks who fought against &lt;i&gt;Headless Serpent, Secret Venom&lt;/i&gt;, a gang in the port city of Nyanzaru. The wearer's stances become perfect, ensuring that never again will another Serpent show its fangs in &lt;i&gt;their&lt;/i&gt; city.</content>
+	<content contentuid="hca815fdbg3dbdg46d2gac44g4847dfcc7725" version="1">Hydra's Universality</content>
+	<content contentuid="h3807ceefgf05fg4744g8307g7d76e1ca6684" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;</content>
+	<content contentuid="hf07f5b69gfa84g43f9g82bbgfe16f304c484" version="1">You gain &lt;LSTag Type="Status" Tooltip="MAG_HYDYRAS_UNIVERSALITY"&gt;Hydra's Universality&lt;/LSTag&gt; and increase your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;, &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;, &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; and &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by [1] to a maximum [2].</content>
+	<content contentuid="h95d4dc53gbe5dg4079gbfb8g1369c767163e" version="1">Hail Hydra</content>
+	<content contentuid="h6b28c2d8g65feg4a41g99cag0fbdd794553e" version="1">Gain the effects of &lt;LSTag Type="Passive" Tooltip="MAG_DBT_Physical_Side_Effect"&gt;Legend of the Manticore&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="MAG_DBT_Mental_Side_Effect"&gt;Riddle of the Sphinx&lt;/LSTag&gt;. Your &lt;LSTag Tooltip="CarryWeight"&gt;carrying capacity&lt;/LSTag&gt; is doubled and falling damage is halved.</content>
+
+	<content contentuid="h1d3bd331gf41eg461agb2f1g6c00e422556b" version="1">Enhance Physical Ability</content>
+	<content contentuid="hc4b9e5aag1b67g4e38g9b3fg721334da7396" version="1">Enhance Mental Ability</content>
+	<content contentuid="h9567f54bgd23dg4900g8094g9e7f74378849" version="1">Bestow a magical enhancement upon yourself. You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with a chosen &lt;LSTag Tooltip="Abilities"&gt;Ability&lt;/LSTag&gt;.</content>
 
 
 </contentList>

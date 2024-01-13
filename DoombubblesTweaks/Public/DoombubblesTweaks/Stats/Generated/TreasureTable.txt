@@ -47,6 +47,11 @@ CanMerge 1
 new subtable "4,1"
 object category "I_QUEST_GEM_Button",1,0,0,0,0,0,0,0
 
+new treasuretable "INT_Gith_PortalGithyanki"
+CanMerge 1
+new subtable "0,1;1,1"
+object category "I_DBT_Cloth_Material",1,0,0,0,0,0,0,0
+
 // TODO temporary
 new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
 CanMerge 1
