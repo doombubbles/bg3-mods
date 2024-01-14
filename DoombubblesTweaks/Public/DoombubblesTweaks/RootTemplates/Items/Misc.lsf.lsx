@@ -67,6 +67,66 @@
             </node>
           </children>
         </node>
+
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="ha95899bfg7a28g4502ga249gbb6206fa6d98" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h9287a72eg8e48g41fcga4fcge006d3e21616" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="ed1c4b8a-d5db-4504-bf9e-d11877e712d5" />
+          <attribute id="Name" type="LSString" value="DBT_Spell_Combo_Gloves_Material" />
+          <attribute id="OnUseDescription" type="TranslatedString" handle="h040b1f64g325eg4b46gb957gc2347cf3fb0d" version="1" />
+          <attribute id="ParentTemplateId" type="FixedString" value="4c5683af-b1c4-40d1-b0cb-9214e51197c0" />
+          <attribute id="Stats" type="FixedString" value="DBT_Spell_Combo_Gloves_Material" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+          <children>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="23"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="CombineSlots" type="int8" value="3"/>
+                      <attribute id="IsBase" type="bool" value="True"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h742c49dfg6502g4217gbbf3g476e1a64c122" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h369fca54gc986g4edcga333g2cbacfc78480" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="58d4ccea-9f5e-4321-aaac-9c089f51b80f" />
+          <attribute id="Name" type="LSString" value="DBT_FrostFire_Material" />
+          <attribute id="OnUseDescription" type="TranslatedString" handle="h040b1f64g325eg4b46gb957gc2347cf3fb0d" version="1" />
+          <attribute id="ParentTemplateId" type="FixedString" value="4c5683af-b1c4-40d1-b0cb-9214e51197c0" />
+          <attribute id="Stats" type="FixedString" value="DBT_FrostFire_Material" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+          <children>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="23"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="CombineSlots" type="int8" value="2"/>
+                      <attribute id="IsBase" type="bool" value="True"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
       </children>
     </node>
   </region>

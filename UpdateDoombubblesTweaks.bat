@@ -39,6 +39,9 @@ echo Cleaning up...
 del "%tempZip%"
 IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 
+powershell -command "echo ('The mod was last updated ' + (Get-Item \"%fileToModify%\").LastWriteTime.ToString('MMMM d, yyyy \a\t h:mm tt'))"
+IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
+
 ENDLOCAL
 echo Done!
 pause

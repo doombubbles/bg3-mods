@@ -11,19 +11,6 @@ input = [
 output = "./DoombubblesTweaks/Public/DoombubblesTweaks/RootTemplates/Items/Combos.lsf.lsx"
 
 combos = {
-    "MAG_Warlock_Quickened_Gloves": 3,
-    "MAG_Warlock_Twinned_Gloves": 3,
-    "MAG_Arcanist_Gloves": 3, # use iron throne table?
-    
-    "MAG_Fire_HeatOnFireDamage_Gloves": 2,
-    "MAG_Frost_GenerateFrostOnDamage_Gloves": 2,
-
-    "MAG_Cold_IncreaseColdDamageOnCast_Staff": 2,
-    "MAG_FlamingFist_StaffOfFire": 2,
-
-    "MAG_Frost_GenerateFrostOnStatusApply_Hat": 2,
-    "MAG_Fire_ArcaneAcuityOnFireDamage_Hat": 2,
-
     "OBJ_InfernalPlate_B": 1
 }
 

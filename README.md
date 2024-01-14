@@ -76,7 +76,7 @@ The following spells can now be casted as rituals out of combat
 
 **Sculptor's Gloves** - Allies automatically succeed saving throws against your Evocation Spells and take no damage from them. Found in the Mason's Guild basement chest.
 
-**Practical Caster's Gloves** - Effects of the Quickspell Gloves, the Gemini Gloves and the Spellmight Gloves. Combine using 
+**Practical Caster's Gloves** - Effects of the Quickspell Gloves, the Gemini Gloves and the Spellmight Gloves. Combine using a "Practical Caster's Guide to Glove Making" found in the Sorcerous Vault.
 
 **The Sturdy Cloth** - Grants Bear's Strength, +2 Con (max 20), Advantage on Saving Throws Against Poison, reduces damage taken by 1. Sold by A'jak'nir Jeera in Crèche Y'llek.
 
@@ -86,11 +86,11 @@ The following spells can now be casted as rituals out of combat
 
 **The Splendid Cloth** - Grants Eagle's Splendour, +2 Cha (max 20), Advantage on Saving Throws against Charmed, 12m darkvision. Sold by Araj Oblodra in Moonrise Towers.
 
-**Cryothermic Clutches** - Effects of Thermoarcanic Gloves and Winter's Clutches. Combine using 
+**Cryothermic Clutches** - Effects of Thermoarcanic Gloves and Winter's Clutches. Combine using "'A Song of Ice and Fire' Review" found eaten by the Mimic in Moonrise Towers.
 
-**Hat of Frostfire Acuity** - Effects of Combination of Hat of Fire Acuity and Coldbrim Hat. Combine using 
+**Hat of Frostfire Acuity** - Effects of Combination of Hat of Fire Acuity and Coldbrim Hat. Combine using "'A Song of Ice and Fire' Review" found eaten by the Mimic in Moonrise Towers.
 
-**A Staff of Ice and Fire** - +2 Staff. Resistance to Cold and Fire Damage. Whenever you deal Cold damage, also deal 1d4 Fire damage. Whenever you deal Fire damage, also deal 1d4 Cold damage. Effcts of Mourning Frost and Incandescent Staff. Combine using 
+**A Staff of Ice and Fire** - +2 Staff. Resistance to Cold and Fire Damage. Whenever you deal Cold damage, also deal 1d4 Fire damage. Whenever you deal Fire damage, also deal 1d4 Cold damage. Effcts of Mourning Frost and Incandescent Staff. Combine using "'A Song of Ice and Fire' Review" found eaten by the Mimic in Moonrise Towers.
 
 **Thread of Uninhibited Kushigo** - New crafting component dropped by the Oprhic Monks.
 
@@ -103,23 +103,25 @@ The following spells can now be casted as rituals out of combat
 <details>
 <summary>UUIDs</summary>
 
-| Name                          | UID                      | UUID                                   |
-| ----------------------------- | ------------------------ | -------------------------------------- |
-| Sacred Ring                   | `DBT_SacredRing`         | `c242c2c3-e372-4469-a7d3-58c096fb2ae1` |
-| Practical Caster's Gloves     | `DBT_Spell_Combo_Gloves` | `a3ba9ffb-1c74-4a2a-8b0f-4a8e30fbb0fd` |
-| Sculptor's Gloves             | `DBT_SculptorsGloves`    | `55632913-80bc-44a1-9b86-259b159a253c` |
-| Ring of Unreasonable Force    | `DBT_ForceRing`          | `b52d175d-cf4a-40ae-bf0b-4858e83026ef` |
-| The Sturdy Cloth              | `DBT_CON_Cloth`          | `53bc0e86-12b9-4a87-bc29-8ed71d9b7003` |
-| The Cunning Cloth             | `DBT_INT_Cloth`          | `092c5cd7-a19b-4d0f-bbbf-553170020a4b` |
-| The Lucid Cloth               | `DBT_WIS_Cloth`          | `f1771efc-df41-4236-bf40-103a98811e6c` |
-| The Splendid Cloth            | `DBT_CHA_Cloth`          | `78c45258-8bec-40da-9d7b-cfa61dbbf9da` |
-| Cryothermic Clutches          | `DBT_FrostFire_Gloves`   | `d660e90e-84be-4ad9-997b-9ecc4c15fed8` |
-| A Staff of Ice and Fire       | `DBT_FrostFire_Staff`    | `d75bfa7e-aac9-482f-ae67-08a6e520af7a` |
-| Hat of Frostfire Acuity       | `DBT_FrostFire_Hat`      | `c4247b73-bb7a-4072-8bfc-a50f7b4e5a46` |
-| Thread of Uninhibited Kushigo | `DBT_Cloth_Material`     | `5925af05-beb1-4561-9ba4-31738bda6179` |
-| The Physical Cloth            | `DBT_Physical_Cloth`     | `a93ec861-f0ab-4da4-a083-d01fdb73d1e7` |
-| The Mental Cloth              | `DBT_Mental_Cloth`       | `b822eb60-7f60-4941-8c17-d9ab69cd647f` |
-| The Universal Cloth           | `DBT_Universal_Cloth`    | `efc3c81f-0eda-4dad-a963-401055ab0b60` |
+| Name                                     | UID                               | UUID                                   |
+| ---------------------------------------- | --------------------------------- | -------------------------------------- |
+| Sacred Ring                              | `DBT_SacredRing`                  | `c242c2c3-e372-4469-a7d3-58c096fb2ae1` |
+| Practical Caster's Gloves                | `DBT_Spell_Combo_Gloves`          | `a3ba9ffb-1c74-4a2a-8b0f-4a8e30fbb0fd` |
+| Sculptor's Gloves                        | `DBT_SculptorsGloves`             | `55632913-80bc-44a1-9b86-259b159a253c` |
+| Ring of Unreasonable Force               | `DBT_ForceRing`                   | `b52d175d-cf4a-40ae-bf0b-4858e83026ef` |
+| The Sturdy Cloth                         | `DBT_CON_Cloth`                   | `53bc0e86-12b9-4a87-bc29-8ed71d9b7003` |
+| The Cunning Cloth                        | `DBT_INT_Cloth`                   | `092c5cd7-a19b-4d0f-bbbf-553170020a4b` |
+| The Lucid Cloth                          | `DBT_WIS_Cloth`                   | `f1771efc-df41-4236-bf40-103a98811e6c` |
+| The Splendid Cloth                       | `DBT_CHA_Cloth`                   | `78c45258-8bec-40da-9d7b-cfa61dbbf9da` |
+| Cryothermic Clutches                     | `DBT_FrostFire_Gloves`            | `d660e90e-84be-4ad9-997b-9ecc4c15fed8` |
+| A Staff of Ice and Fire                  | `DBT_FrostFire_Staff`             | `d75bfa7e-aac9-482f-ae67-08a6e520af7a` |
+| Hat of Frostfire Acuity                  | `DBT_FrostFire_Hat`               | `c4247b73-bb7a-4072-8bfc-a50f7b4e5a46` |
+| Thread of Uninhibited Kushigo            | `DBT_Cloth_Material`              | `5925af05-beb1-4561-9ba4-31738bda6179` |
+| The Physical Cloth                       | `DBT_Physical_Cloth`              | `a93ec861-f0ab-4da4-a083-d01fdb73d1e7` |
+| The Mental Cloth                         | `DBT_Mental_Cloth`                | `b822eb60-7f60-4941-8c17-d9ab69cd647f` |
+| The Universal Cloth                      | `DBT_Universal_Cloth`             | `efc3c81f-0eda-4dad-a963-401055ab0b60` |
+| Practical Caster's Guide to Glove Making | `DBT_Spell_Combo_Gloves_Material` | `ed1c4b8a-d5db-4504-bf9e-d11877e712d5` |
+| 'A Song of Ice and Fire' Review          | `DBT_FrostFire_Material`          | `58d4ccea-9f5e-4321-aaac-9c089f51b80f` |
  
 </details>
 

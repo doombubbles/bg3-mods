@@ -52,6 +52,18 @@ CanMerge 1
 new subtable "0,1;1,1"
 object category "I_DBT_Cloth_Material",1,0,0,0,0,0,0,0
 
+new treasuretable "LOW_SorcerousSundries_MystraVault_Treasure"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_Spell_Combo_Gloves_Material",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_MimicReward"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_FrostFire_Material",1,0,0,0,0,0,0,0
+
+
+
 // TODO temporary
 new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
 CanMerge 1

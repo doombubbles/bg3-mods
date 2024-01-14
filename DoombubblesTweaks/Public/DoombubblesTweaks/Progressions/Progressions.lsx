@@ -266,7 +266,7 @@
 
         <!-- Cleric Harness Divine Power -->
 
-        <node id="Progression">
+        <!-- <node id="Progression">
           <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(ChannelDivinity,1,0)"/>
           <attribute id="Level" type="uint8" value="2"/>
           <attribute id="Name" type="LSString" value="Cleric"/>
@@ -275,7 +275,7 @@
           <attribute id="Selectors" type="LSString" value="AddSpells(239cc7cc-f642-4ddc-b091-498d81612c51,,,,AlwaysPrepared)"/>
           <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
           <attribute id="UUID" type="guid" value="ef18265f-dda6-4eb6-8dd0-b14c57202c33"/>
-        </node>
+        </node> -->
 
         <!-- Oathbreaker
         <node id="Progression">
