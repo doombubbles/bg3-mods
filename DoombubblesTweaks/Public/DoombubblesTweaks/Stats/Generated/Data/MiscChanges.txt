@@ -83,14 +83,6 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4
 data "PrepareEffect" "f9785481-e126-4499-b00e-f36fa02cd196"
 data "CastEffect" "2c5a0742-e685-41dc-af87-477ce2d7779b"
 
-// This is just a real bug in the game
-new entry "Projectile_Smite_Branding_4"
-type "SpellData"
-data "SpellType" "Projectile"
-using "Projectile_Smite_Branding_4"
-data "TooltipDamageList" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);DealDamage(4d6,Radiant)"
-
-
 new entry "MAG_MONK_UNARMED_EXPLOIT"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -128,8 +120,7 @@ using "ORI_GALE_MYSTRABLESSING_1"
 data "StatusGroups" ""
 data "StatusPropertyFlags" "IgnoreResting"
 
-new entry "Target_PolearmMaster_BonusAttack"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_PolearmMaster_BonusAttack"
-data "SpellSuccess" "DealDamage(1d4+max(DexterityModifier,StrengthModifier), Bludgeoning);DealDamage(min(MainMeleeWeapon, 0), Bludgeoning)"
+new entry "MAG_Invisible_Pike"
+type "Weapon"
+using "MAG_Invisible_Pike"
+data "Weapon Properties" "Reach;Melee;Twohanded;Heavy;Dippable;Magical;Finesse"

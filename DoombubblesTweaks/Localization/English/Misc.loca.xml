@@ -17,6 +17,15 @@
 	<content contentuid="hb3310c12g63bfg46bdg9c48g6becfe690799" version="1">Guided Bolt</content>
 	<content contentuid="h54a34de0gfa77g45c7ga27dgce708a2ce865" version="1">You have Advantage when casting Guiding Bolt, but it no longer applies &lt;LSTag Type="Status" Tooltip="GUIDING_BOLT"&gt;Guiding Bolt&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h1481e995gac4eg418fgba14ga022659dfa69" version="1">Quickened Fire Bolt</content>
+	<content contentuid="hf4424e51ga224g42b1ga887gb7a8a6cf1bda" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_FireBolt_Staff"&gt;Fire Bolt&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+
+	<content contentuid="hd189af90g77aeg4fe0gb1fegec433f67ed13" version="1">Quickened Ray of Frost</content>
+	<content contentuid="hf7620d1cg3b9ag43cdg93f7g14114ca2ce25" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_RayOfFrost_Staff"&gt;Ray of Frost&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+
+	<content contentuid="ha1946d63g21c0g425dgb243g7d0ead53c91c" version="1">Quickened Eldritch</content>
+	<content contentuid="hc3d2d09fg2ef5g4046g941bg0dfe8c402b77" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_EldritchBlast_Staff"&gt;Eldritch Blast&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+
 	<!-- <content contentuid="hf9a3c136gfa53g4170g9eeega20ced9c9111" version="4">Behold, the Vampire Ascendant! Thousands of souls have bought you power, granting you &lt;LSTag Type="Spell" Tooltip="Target_LOW_Astarion_VampireAscendant"&gt;Ascendant Bite&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_LOW_MistyEscape_Astarion"&gt;Gaseous form&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;You also have a +[1] bonus to attacks and spells.</content> -->
 	
 </contentList>

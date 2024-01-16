@@ -62,6 +62,10 @@ CanMerge 1
 new subtable "-1"
 object category "I_DBT_FrostFire_Material",1,0,0,0,0,0,0,0
 
+new treasuretable "SCL_DriderCaravan_DriderInventory"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_LC_DrowSpider_Gloves",1,0,0,0,0,0,0,0
 
 
 // TODO temporary

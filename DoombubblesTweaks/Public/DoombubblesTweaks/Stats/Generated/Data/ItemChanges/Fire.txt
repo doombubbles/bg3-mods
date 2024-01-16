@@ -1,9 +1,12 @@
-new entry "Projectile_MAG_FireBolt_Staff"
-type "SpellData"
-data "SpellType" "Projectile"
-using "Projectile_MAG_FireBolt_Staff"
-data "Cooldown" "OncePerCombat"
-data "UseCosts" "BonusActionPoint:1"
+new entry "MAG_Fire_FireDamage_Quarterstaff"
+type "Weapon"
+using "MAG_Fire_FireDamage_Quarterstaff"
+data "StatusOnEquip" "QUICKENED_FIRE_BOLT"
+
+new entry "MAG_FlamingFist_StaffOfFire"
+type "Weapon"
+using "MAG_FlamingFist_StaffOfFire"
+data "StatusOnEquip" "QUICKENED_FIRE_BOLT"
 
 new entry "MAG_Fire_Heat_Convergence_Passive"
 type "PassiveData"

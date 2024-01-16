@@ -1,0 +1,22 @@
+// This is just a real bug in the game
+new entry "Projectile_Smite_Branding_4"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding_4"
+data "TooltipDamageList" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);DealDamage(4d6,Radiant)"
+
+
+new entry "Target_PolearmMaster_BonusAttack"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PolearmMaster_BonusAttack"
+data "SpellSuccess" "DealDamage(1d4+max(DexterityModifier,StrengthModifier), Bludgeoning);DealDamage(min(MainMeleeWeapon, 0), Bludgeoning)"
+data "DescriptionParams" "DealDamage(1d4+max(DexterityModifier,StrengthModifier)+min(MainMeleeWeapon, 0), Bludgeoning)"
+data "TooltipDamageList" "DealDamage(1d4+max(DexterityModifier,StrengthModifier)+min(MainMeleeWeapon, 0), Bludgeoning)"
+
+
+new entry "Target_ShieldBlow_Riposte"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ShieldBlow_Riposte"
+data "AlternativeCastTextEvents" ""

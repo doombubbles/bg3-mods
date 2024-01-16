@@ -1,0 +1,13 @@
+{{- $levels := dict "" "3d8" "_2" "4d8" "_3" "5d8" "_4" "6d8" "_5" "7d8" "_6" "8d8"  -}}
+{{- $elements := list "Acid" "Cold" "Fire" "Lightning" "Poison" -}}
+
+{{- range $level, $damage := $levels -}}
+{{ range $element := $elements }}
+new entry "Projectile_ChromaticOrb_{{$element}}{{$level}}"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ChromaticOrb_{{$element}}{{$level}}"
+data "SpellSuccess" "DealDamage({{$damage}},{{$element}},Magical){{ eq $element "Cold" | ternary ";RemoveStatus(BURNING)" "" }}"
+data "TooltipDamageList" "DealDamage({{$damage}},{{$element}})"
+{{ end }}
+{{- end -}}

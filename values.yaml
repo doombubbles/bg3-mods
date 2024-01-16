@@ -1,0 +1,20 @@
+QuickenedCantrips:
+  FireBolt:
+    DisplayName: h1481e995gac4eg418fgba14ga022659dfa69
+    Description: hf4424e51ga224g42b1ga887gb7a8a6cf1bda
+    Icon: Spell_Evocation_FireBolt
+  RayOfFrost:
+    DisplayName: hd189af90g77aeg4fe0gb1fegec433f67ed13
+    Description: hf7620d1cg3b9ag43cdg93f7g14114ca2ce25
+    Icon: Spell_Evocation_RayOfFrost
+  EldritchBlast:
+    DisplayName: ha1946d63g21c0g425dgb243g7d0ead53c91c
+    Description: hc3d2d09fg2ef5g4046g941bg0dfe8c402b77
+    Icon: Spell_Evocation_EldritchBlast
+AbilityScores:
+  - Strength
+  - Dexterity
+  - Constitution
+  - Intelligence
+  - Wisdom
+  - Charisma

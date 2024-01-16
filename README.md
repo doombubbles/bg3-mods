@@ -122,6 +122,8 @@ The following spells can now be casted as rituals out of combat
 | The Universal Cloth                      | `DBT_Universal_Cloth`             | `efc3c81f-0eda-4dad-a963-401055ab0b60` |
 | Practical Caster's Guide to Glove Making | `DBT_Spell_Combo_Gloves_Material` | `ed1c4b8a-d5db-4504-bf9e-d11877e712d5` |
 | 'A Song of Ice and Fire' Review          | `DBT_FrostFire_Material`          | `58d4ccea-9f5e-4321-aaac-9c089f51b80f` |
+| Silver Wyrmling Staff                    | `DBT_Cold_Quarterstaff`           | `4e2348a5-7c5d-45fc-ad77-55cb99c6302f` |
+| Ruby Wyrmling Staff                      | `DBT_Force_Quarterstaff`          | `ce282515-7004-4dd9-a183-4201db2786dd` |
  
 </details>
 
@@ -156,6 +158,8 @@ The following spells can now be casted as rituals out of combat
 
 **Training Shield** - Can be used without Shield Proficiency
 
+**Unseen Menace** - Now has Finesse property
+
 **Markoheshkir**
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -189,12 +193,14 @@ The following spells can now be casted as rituals out of combat
 
 **Polearm Master** - Bonus Attack now correctly adds Damage Modifiers
 
+**Shield Bash** - Now actually works
+
 ## Class / Subclass Changes
 
 ### Cleric
 
 - Blessed Strikes - Divine Strike can now also be applied when you deal damage with a Cantrip
-- Harness Divine Power - Spend Channel Divinity to recharge a Spell Slot (up to half of your highest known Spell Slot level rounded up)
+- ~~Harness Divine Power - Spend Channel Divinity to recharge a Spell Slot (up to half of your highest known Spell Slot level rounded up)~~
 
 #### War Domain
 

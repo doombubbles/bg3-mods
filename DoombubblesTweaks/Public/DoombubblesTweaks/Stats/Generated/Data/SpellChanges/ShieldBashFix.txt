@@ -1,5 +1,0 @@
-new entry "Target_ShieldBlow_Riposte"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_ShieldBlow_Riposte"
-data "AlternativeCastTextEvents" ""
