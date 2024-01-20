@@ -6,7 +6,6 @@
 
 	<content contentuid="h924abaebg4147g456cg93b3g1e72df079c76" version="2">During combat, when the creature starts their turn with less than full health, they gain &lt;LSTag Type="Status" Tooltip="MAG_VIOLENCE"&gt;Wrath&lt;/LSTag&gt; for 1 turn.</content>
 
-	<content contentuid="hc29527b5gf34eg4759g8deag0c9e1d252a47" version="2">Increases &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; to 21.</content>
 
 	<content contentuid="hfb89f7deg6c81g432ag8f03g85c4f779dfdc" version="5">Set yourself on fire to gain Heat. This damage can't be resisted out of combat.</content>
 

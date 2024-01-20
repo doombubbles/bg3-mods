@@ -25,7 +25,7 @@
 	<content contentuid="h166b0176gd936g49cegae93gb087f1b7ce6d" version="1">An intrinic and exquisite staff that you can tell is immaculately crafted. Unfortunately, the craftsmenship at the end of the staff seems sloppier and unfinished compared to the rest of it.</content>
 	<content contentuid="h6ade97a1g6adfg434eg9887g064a86ed4743" version="1">Ice and Fire</content>
 	<content contentuid="hb4236fa8gac8ag47fcga4bcgab41f64d73a7" version="1">When dealing Cold damage, the wielder deals an additional [1]. When dealing Fire damage, the wielder deals an additional [2].</content>
-	
+
 	<content contentuid="hc9581965ga5b8g45bbga5b1gc6db2858b113" version="1">Hat of Frostfire Acuity</content>
 	<content contentuid="hfd5e8c35g5478g455dga112gc0d1876b044f" version="1">It is said some wizard hats grant the power to keep your head cool - both literally and figuratively.</content>
 
@@ -41,5 +41,16 @@
 
 	<content contentuid="he3e33192ga897g45c8gbcfbgc20ac5ac64ed" version="1">Ruby Wyrmling Staff</content>
 	<content contentuid="h401493e4gd32dg49edgbb54g9bee72ef2064" version="1">The force permeating this staff seems to </content>
+
+	<content contentuid="hddd6cbbagb083g40b9g871eg27761d4f1b5c" version="1">Portent Robe</content>
+	<content contentuid="h0f2160c8g392bg47c4ga7degafeca14e57e6" version="1">This robe is a difficult look to pull off unless you're Sherlock Holmes and you always work alone because no else can compete with your massive intellect.</content>
+
+	<content contentuid="hbfcbd05bga23bg4e97g80a4g069d79d16a73" version="1">Erudite Caster</content>
+	<content contentuid="h26237120g21bfg4a26gaa6agb329a34689b5" version="1">Your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; deal additional damage equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+
+	<content contentuid="he1312320g5b2cg4456gb26fg7e6dc13d8786" version="1">Well-Read and Well-Fortified</content>
+	<content contentuid="hce54833cg6a38g42c4g8560g7c6edff53a29" version="2">At the beginning of the wearer's turn, the robe activates, granting them &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to their Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h61d7d980gcfb6g49b4g91edgfbcb7a6a562e" version="1">Well-Read and Well-Fortified: instead of dying, you have gained &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point&lt;/LSTag&gt; equal to your Intelligence modifier.</content>
 
 </contentList>

@@ -154,7 +154,7 @@ The following spells can now be casted as rituals out of combat
 
 **Selune's Spear of Night** - Deals an extra 1d4 Radiant damage, and Moonmote can be used each Short Rest
 
-**Hat of Uninhibited Kushigo** - Effect can now stack additively for multiple turns, but you lose stacks when taking damage.
+<!-- **Hat of Uninhibited Kushigo** - Effect can now stack additively for multiple turns, but you lose stacks when taking damage. -->
 
 **Training Shield** - Can be used without Shield Proficiency
 
