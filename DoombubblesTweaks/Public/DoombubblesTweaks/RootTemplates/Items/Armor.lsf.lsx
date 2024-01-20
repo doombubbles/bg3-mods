@@ -5,8 +5,8 @@
     <node id="Templates">
       <children>
         <node id="GameObjects">
-          <attribute id="Description" type="TranslatedString" handle="" version="1" />
-          <attribute id="DisplayName" type="TranslatedString" handle="" version="1" />
+          <attribute id="Description" type="TranslatedString" handle="h0f2160c8g392bg47c4ga7degafeca14e57e6" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="hddd6cbbagb083g40b9g871eg27761d4f1b5c" version="1" />
           <attribute id="Icon" type="FixedString" value="Generated_MAG_CharismaCaster_Robe_Magic" />
           <attribute id="LevelName" type="FixedString" value="" />
           <attribute id="MapKey" type="FixedString" value="62599197-16f8-40cc-9294-2a7ce9141821" />
