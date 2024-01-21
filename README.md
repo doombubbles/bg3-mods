@@ -68,7 +68,7 @@ The following spells can now be casted as rituals out of combat
 
 **Witch Bolt** - Subsequent activations now also deal an additional 1d12 damage per spell slot level
 
-# New Items
+## New Items
 
 **Sacred Ring** - Your Cantrips that require saving throws still deal half damage on a failed save. Drops from the Scared Boar on the Ravaged Beach.
 
@@ -100,6 +100,26 @@ The following spells can now be casted as rituals out of combat
 
 **The Universal Cloth** - Combines most of the effects of The Physical Cloth and The Mental Cloth. Combine using a Thread of Uninhibited Kushigo, and supply the final power up using the Orphic Ring (which you can now get from Orpheus w/o killing him).
 
+### Wyrmling Staves
+
+A set of staves that are counterparts to the Gold Wyrmling Staff
+
+**Silver Wyrmling Staff** (Cold, Ray of Frost) - Sold by Blurg at Ebonlake Grotto
+
+**Ruby Wyrmling Staff** (Force, Eldritch Blast) - Sold by Lady Esther at the Rosymorn Monastery Trail
+
+**Bronze Wyrmling Staff** (Lightning, Shocking Grasp) - Sold by Arron at the Emerald Grove
+
+**Diamond Wyrmling Staff** (Radiant, Sacred Flame) - Sold by Dammon at the Emerald Grove
+
+**Emerald Wyrmling Staff** (Necrotic, Bone Chill) - Sold by Grat at the Goblin Camp
+
+**Amethyst Wyrmling Staff** (Psychic, Vicious Mockery) - Sold by Omeluum at Ebonlake Grotto
+
+**Copper Wyrmling Staff** (Acid, Acid Splash) - Sold by Derryth Bonecloak at Ebonlake 
+
+**Green Wyrmling Staff** (Poison, Poison Spray) - Sold by Auntie Ethel at the Emerald Grove
+
 <details>
 <summary>UUIDs</summary>
 
@@ -122,10 +142,16 @@ The following spells can now be casted as rituals out of combat
 | The Universal Cloth                      | `DBT_Universal_Cloth`             | `efc3c81f-0eda-4dad-a963-401055ab0b60` |
 | Practical Caster's Guide to Glove Making | `DBT_Spell_Combo_Gloves_Material` | `ed1c4b8a-d5db-4504-bf9e-d11877e712d5` |
 | 'A Song of Ice and Fire' Review          | `DBT_FrostFire_Material`          | `58d4ccea-9f5e-4321-aaac-9c089f51b80f` |
-| Silver Wyrmling Staff                    | `DBT_Cold_Quarterstaff`           | `4e2348a5-7c5d-45fc-ad77-55cb99c6302f` |
-| Ruby Wyrmling Staff                      | `DBT_Force_Quarterstaff`          | `ce282515-7004-4dd9-a183-4201db2786dd` |
 | Portent Robe                             | `DBT_IntelligenceCaster_Robe`     | `62599197-16f8-40cc-9294-2a7ce9141821` |
 | Potent Rope                              | `DBT_IntelligenceCaster_Material` | `38143e8f-7c6f-46eb-a5e8-79888cf0fdf8` |
+| Silver Wyrmling Staff                    | `DBT_Cold_Quarterstaff`           | `4e2348a5-7c5d-45fc-ad77-55cb99c6302f` |
+| Ruby Wyrmling Staff                      | `DBT_Force_Quarterstaff`          | `ce282515-7004-4dd9-a183-4201db2786dd` |
+| Bronze Wyrmling Staff                    | `DBT_Lightning_Quarterstaff`      | `6cace241-2066-43d3-a044-f36e68b85e04` |
+| Diamond Wyrmling Staff                   | `DBT_Radiant_Quarterstaff`        | `a6575470-2062-46fe-a9bc-c2cfa91dd5a6` |
+| Emerald Wyrmling Staff                   | `DBT_Necrotic_Quarterstaff`       | `a907bfb0-10ef-4166-990a-9b14ca45811a` |
+| Amethyst Wyrmling Staff                  | `DBT_Psychic_Quarterstaff`        | `e992af9b-e505-41b7-9589-70f9bcb9d17e` |
+| Copper Wyrmling Staff                    | `DBT_Acid_Quarterstaff`           | `e933636f-5e9f-4b56-b995-fbf53a150b8c` |
+| Green Wyrmling Staff                     | `DBT_Poison_Quarterstaff`         | `f23aa019-03d4-47c9-9387-bd87f5375bfc` |
  
 </details>
 
@@ -251,6 +277,19 @@ The following spells can now be casted as rituals out of combat
 #### Wild Magic 
 - Gain 'Furious Caster' at level 5, making Rage no longer block spell casting 
 - Bolstering Magic abilities can be used each Short Rest
+
+### Sorcerer
+
+#### Draconic Ancestry
+
+Adapted [Malady's Descents of the Gem Dragons Mod](https://www.nexusmods.com/baldursgate3/mods/4701) to match the Terraria gems, and have more colour coordinated damage
+
+- Ruby (Force) gets Magic Missile
+- Diamond (Radiant) gets Guiding Bolt
+- Amethyst (Psychic) gets Dissonant Whispers
+- Emerald (Necrotic) gets Inflict Wounds
+- Sapphire (Thunder) gets Thunder Wave
+- Topaz (Fire) gets Command
 
 ## Standardization Changes
 

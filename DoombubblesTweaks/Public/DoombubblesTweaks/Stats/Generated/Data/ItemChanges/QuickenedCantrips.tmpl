@@ -1,6 +1,6 @@
 {{ $CANTRIP := "" }}
 {{ range $cantrip, $values := $.QuickenedCantrips }}
-{{- $CANTRIP = $cantrip | snakecase | upper -}}
+{{- $CANTRIP = $cantrip | snakecase | upper }}
 new entry "QUICKENED_{{$CANTRIP}}"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -17,13 +17,13 @@ data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
 data "DisplayName" "{{.DisplayName}}"
 data "Description" "{{.Description}}"
 data "Icon" "{{.Icon}}"
-data "Conditions" "SpellId('Projectile_MAG_{{$cantrip}}_Staff') and HasStatus('QUICKENED_{{$CANTRIP}}_AVAILABLE', context.Source)"
+data "Conditions" "SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff') and HasStatus('QUICKENED_{{$CANTRIP}}_AVAILABLE', context.Source)"
 data "StatsFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_AVAILABLE)"
 data "ToggleOnFunctors" "ApplyStatus(QUICKENED_{{$CANTRIP}}_ON, 100, -1)"
 data "ToggleOffFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_ON)"
 data "ToggleOffContext" ""
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnCreate;OnInventoryChanged"
-data "Boosts" "UnlockSpellVariant(SpellId('Projectile_MAG_{{$cantrip}}_Staff'), ModifyTooltipDescription(), ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
+data "Boosts" "UnlockSpellVariant(SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff'), ModifyTooltipDescription(), ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
 data "BoostConditions" "HasStatus('QUICKENED_{{$CANTRIP}}_AVAILABLE',context.Source)"
 
 new entry "Quickened{{$cantrip}}_Trigger"
@@ -54,5 +54,14 @@ data "Icon" "{{.Icon}}"
 data "StackId" "QUICKENED_{{$CANTRIP}}_AVAILABLE"
 data "RemoveEvents" "OnCombatEnded"
 data "RemoveConditions" "not Combat()"
+
+{{- if .CreateSpell }}
+
+new entry "{{.SpellType}}_MAG_{{$cantrip}}_Staff"
+type "SpellData"
+data "SpellType" "{{.SpellType}}"
+using "{{.SpellType}}_{{$cantrip}}"
+
+{{- end }}
 
 {{ end }}

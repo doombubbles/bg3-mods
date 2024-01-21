@@ -56,67 +56,6 @@
             </node>
           </children>
         </node>
-
-        <node id="GameObjects">
-          <attribute id="Description" type="TranslatedString" handle="h50af1cc9g1d7eg4ceag9a50g42002b90b31e" version="1" />
-          <attribute id="DisplayName" type="TranslatedString" handle="hbf551597g999ag4420g870bgea3682a1a56f" version="1" />
-          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
-          <attribute id="LevelName" type="FixedString" value="" />
-          <attribute id="MapKey" type="FixedString" value="4e2348a5-7c5d-45fc-ad77-55cb99c6302f" />
-          <attribute id="Name" type="LSString" value="DBT_Cold_Quarterstaff" />
-          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
-          <attribute id="Stats" type="FixedString" value="DBT_Cold_Quarterstaff" />
-          <attribute id="Type" type="FixedString" value="item" />
-          <attribute id="VisualTemplate" type="FixedString" value="f2c78f41-28c8-37c7-756c-c2071ede7d50" />
-          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
-          <children>
-            <node id="StatusList">
-              <children>
-                <node id="Status">
-                  <attribute id="Object" type="FixedString" value="MAG_FROST_FROST_WEAPON" />
-                </node>
-              </children>
-            </node>
-            <node id="Tags">
-              <children>
-                <node id="Tag">
-                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
-                </node>
-              </children>
-            </node>
-          </children>
-        </node>
-
-        <node id="GameObjects">
-          <attribute id="Description" type="TranslatedString" handle="h401493e4gd32dg49edgbb54g9bee72ef2064" version="1" />
-          <attribute id="DisplayName" type="TranslatedString" handle="he3e33192ga897g45c8gbcfbgc20ac5ac64ed" version="1" />
-          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
-          <attribute id="LevelName" type="FixedString" value="" />
-          <attribute id="MapKey" type="FixedString" value="ce282515-7004-4dd9-a183-4201db2786dd" />
-          <attribute id="Name" type="LSString" value="DBT_Force_Quarterstaff" />
-          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
-          <attribute id="Stats" type="FixedString" value="DBT_Force_Quarterstaff" />
-          <attribute id="Type" type="FixedString" value="item" />
-          <attribute id="VisualTemplate" type="FixedString" value="f2c78f41-28c8-37c7-756c-c2071ede7d50" />
-          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
-          <children>
-            <node id="StatusList">
-              <children>
-                <node id="Status">
-                  <attribute id="Object" type="FixedString" value="MAG_FORCE_FORCE_WEAPON_LESSER" />
-                </node>
-              </children>
-            </node>
-            <node id="Tags">
-              <children>
-                <node id="Tag">
-                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
-                </node>
-              </children>
-            </node>
-          </children>
-        </node>
-
       </children>
     </node>
   </region>
