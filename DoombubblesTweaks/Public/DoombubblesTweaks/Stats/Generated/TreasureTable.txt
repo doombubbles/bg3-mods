@@ -67,11 +67,12 @@ CanMerge 1
 new subtable "-1"
 object category "I_MAG_LC_DrowSpider_Gloves",1,0,0,0,0,0,0,0
 
-
-// TODO temporary
-new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+new treasuretable "LOW_Sarevok_Treasure"
 CanMerge 1
 new subtable "-1"
-object category "I_MAG_BG_OfDexterity_Gloves",1,0,0,0,0,0,0,0
+object category "I_MAG_Bhaalist_Armor",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_Thiefling_Trade"
+CanMerge 1
 new subtable "-1"
-object category "I_UNI_MassHealRing",1,0,0,0,0,0,0,0
+object category "I_DBT_IntelligenceCaster_Material",1,0,0,0,0,0,0,0
