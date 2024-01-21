@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
   <content contentuid="h5320a8bcg54bdg4237gb4d9g0d823cf23541" version="4">Additionally, Sneak Attack can also be used as a reaction on &lt;LSTag Tooltip="AttackRoll"&gt;Spell Attacks&lt;/LSTag&gt; to add Force damage on hit.</content>
-  <content contentuid="h9f776c11ga9c3g45f7g88d0gc0ace82139e2" version="1">Improved Sneak Attack</content>
-  <content contentuid="hc9bbcbddg1c42g4399ga4cegf63870aa9688" version="1">Sneak Attack can be used an additional time each turn.</content>
+
+  <!-- <content contentuid="h9f776c11ga9c3g45f7g88d0gc0ace82139e2" version="1">Improved Sneak Attack</content>
+  <content contentuid="hc9bbcbddg1c42g4399ga4cegf63870aa9688" version="1">Sneak Attack can be used an additional time each turn.</content> -->
+
+  <content contentuid="hb6374ae0gb096g4db1g876ag7ef2b68957d1" version="1">In addition, when you deal damage, the lowest result you can roll on the die is [1].</content>
+
+  <content contentuid="h58254325ga049g45f4g910cg2f090494ec7b" version="1">Your &lt;LSTag Type="Spell" Tooltip="Target_Sneak_Attack"&gt;Sneak Attack&lt;/LSTag&gt; deals an additional [1] per Sneak Attack die.</content>
+
 </contentList>

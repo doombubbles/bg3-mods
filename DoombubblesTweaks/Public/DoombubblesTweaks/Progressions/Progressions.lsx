@@ -251,19 +251,7 @@
           <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
           <attribute id="UUID" type="guid" value="19857e46-f5dc-4a9f-847e-5f714ceef7b1"/>
         </node>
-
-        <!-- Rogue Additional Sneak Attack -->
-
-        <node id="Progression">
-          <attribute id="Level" type="uint8" value="11"/>
-          <attribute id="Name" type="LSString" value="Rogue"/>
-          <attribute id="Boosts" type="LSString" value="ActionResource(SneakAttack_Charge,1,0)"/>
-          <attribute id="PassivesAdded" type="LSString" value="ReliableTalent;ImprovedSneakAttack"/>
-          <attribute id="ProgressionType" type="uint8" value="0"/>
-          <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
-          <attribute id="UUID" type="guid" value="9cf65c52-0df9-4433-9059-f7ae29fb1f18"/>
-        </node>
-
+        
         <!-- Cleric Harness Divine Power -->
 
         <!-- <node id="Progression">

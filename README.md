@@ -160,6 +160,8 @@ The following spells can now be casted as rituals out of combat
 
 **Unseen Menace** - Now has Finesse property
 
+**Stalker Glovess** - Additional 1d4 Force damage now applies per Sneak Attack die
+
 **Markoheshkir**
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -224,7 +226,7 @@ The following spells can now be casted as rituals out of combat
 ### Rogue
 
 - (EXPERIMENTAL) Now gains Extra Attack at Level 5
-- (EXPERIMENTAL) Now gains Improved Sneak Attack at Level 11, letting you trigger Sneak Attack an additional time each turn
+- Reliable Talent at level 11 now also makes the minimum result you can roll on damage die be 3
 
 (Because seriously, I haven't seen a single build that ever recommends more than 4 levels of Rogue)
 
