@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hc0056a42g7e0ag41a8g854fgd7c4f26c7a7d" version="1">Amethyst</content>
+	<content contentuid="h5680804bgf5e8g4380gbe74g5bb2cb2b0850" version="1">Diamond</content>
+	<content contentuid="he5634d57g98bag42a0g8fcag1f44dbf9b684" version="1">Emerald</content>
+	<content contentuid="h91887497g6177g415eg973fgf08ed5253dd2" version="1">Ruby</content>
+	<content contentuid="ha6de9117g8e10g4c24g8133g1c882905d24f" version="1">Sapphire</content>
+	<content contentuid="h718d6176g4f6dg4bd0g9ccdg1598e4686751" version="1">Topaz</content>
+	<content contentuid="h9c8915e7g5ef8g4450g9870gf522d6c7634c" version="1">Amethyst</content>
+	<content contentuid="hd22104b3g6d72g4331g9b55gcb2fde70f342" version="1">Diamond</content>
+	<content contentuid="hb919e320g0376g400agbfc0g6bfea1f07032" version="1">Emerald</content>
+	<content contentuid="h636c4763g7c2fg4ea8g838cg29c04d599cbb" version="1">Ruby</content>
+	<content contentuid="h5dc0bbccg8255g48c3g8ec3g49c03c2f5c37" version="1">Sapphire</content>
+	<content contentuid="h3a1334cbg625eg45a3g82f6g16a784da4699" version="1">Topaz</content>
+
+	<content contentuid="h1681b977g89a9g4805ga1ddg0c028ee7111b" version="1">Draconic Ancestry: Ruby (Force)</content>
+	<content contentuid="h4f983b2bg0e66g4323g8eb0g79596b2d938d" version="1">Draconic Ancestry: Amethyst (Psychic)</content>
+	<content contentuid="h56cd94e0gbe3cg4621g9e18g7b296485d9f5" version="1">Draconic Ancestry: Diamond (Radiant)</content>
+	<content contentuid="hef949db5gb3d0g4d2ag9b25gd35189cc40d3" version="1">Draconic Ancestry: Emerald (Necrotic)</content>
+	<content contentuid="h2e01d79eg61c1g457ega05fgcbbf5a87f59a" version="1">Draconic Ancestry: Sapphire (Thunder)</content>
+	<content contentuid="h41b06e4cg3d36g44c6gb4b3g135f19456045" version="1">Draconic Ancestry: Topaz (Fire)</content>
+
+	<content contentuid="h6cb66037g350dg411agab0bgf9fab1338dd6" version="1">Elemental Affinity: Additional Force Damage</content>
+	<content contentuid="hc4bb88e2gf06fg4025gbb1cgfb992c138396" version="1">At Level 6, spells that deal Force damage are more powerful, and you can become resistant to Force damage.</content>
+	
+	<content contentuid="h2860ce5dgfbbfg4244g998eg6ce924688d04" version="1">Elemental Affinity: Additional Radiant Damage</content>
+	<content contentuid="h492a7b7dg19e8g400dg9b85g16a2e3f8e683" version="1">At Level 6, spells that deal Radiant damage are more powerful, and you can become resistant to Radiant damage.</content>
+	
+	<content contentuid="h4cedbaacgd7d5g4029ga04fg8236dc129d10" version="1">Elemental Affinity: Additional Psychic Damage</content>
+	<content contentuid="h02457d43ge292g452cgb447gdbff2fce9820" version="1">At Level 6, spells that deal Psychic damage are more powerful, and you can become resistant to Psychic damage.</content>
+	
+	<content contentuid="h2efa997ag8226g4e9bgb338g3c32d7f843e8" version="1">Elemental Affinity: Additional Thunder Damage</content>
+	<content contentuid="h510e7170gbf76g4befg80a4g5728cf47cf77" version="1">At Level 6, spells that deal Thunder damage are more powerful, and you can become resistant to Thunder damage.</content>
+	
+	<content contentuid="h43b3bd6bgb34dg4ef6gbfb9g5121bfbab3ed" version="1">Elemental Affinity: Additional Necrotic Damage</content>
+	<content contentuid="h7e261999g7ac3g452agad44g12b6e8f0ef68" version="1">At Level 6, spells that deal Necrotic damage are more powerful, and you can become resistant to Psychic damage.</content>
+	
+</contentList>

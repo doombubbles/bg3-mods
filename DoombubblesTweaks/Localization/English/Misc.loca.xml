@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<content contentuid="hac52787ag9453g4ac7gb7e1g6bc38ba8690d" version="2">The wearer has less than full health, they have an additional bonus action.</content>
-
-	<content contentuid="hc41d1544g8799g4a29g96e0g36bb86d5610c" version="6">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that cost an action cost a bonus action instead. This effect can be used once per battle.</content>
-
-	<content contentuid="h924abaebg4147g456cg93b3g1e72df079c76" version="2">During combat, when the creature starts their turn with less than full health, they gain &lt;LSTag Type="Status" Tooltip="MAG_VIOLENCE"&gt;Wrath&lt;/LSTag&gt; for 1 turn.</content>
-
-
-	<content contentuid="hfb89f7deg6c81g432ag8f03g85c4f779dfdc" version="5">Set yourself on fire to gain Heat. This damage can't be resisted out of combat.</content>
-
-	<content contentuid="h2f240a51g20b4g4f7cg8842gef50ca571e03" version="1">When the wielder has less than full health, they deal an additional [1].</content>
-
 	<content contentuid="h82022716g353cg41f9g9222g9055d5a0e72b" version="1">You are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with this Shield while using it.</content>
 	
 	<content contentuid="hb3310c12g63bfg46bdg9c48g6becfe690799" version="1">Guided Bolt</content>
@@ -22,9 +11,7 @@
 	<content contentuid="hd189af90g77aeg4fe0gb1fegec433f67ed13" version="1">Quickened Ray of Frost</content>
 	<content contentuid="hf7620d1cg3b9ag43cdg93f7g14114ca2ce25" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_RayOfFrost_Staff"&gt;Ray of Frost&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
-	<content contentuid="ha1946d63g21c0g425dgb243g7d0ead53c91c" version="1">Quickened Eldritch</content>
+	<content contentuid="ha1946d63g21c0g425dgb243g7d0ead53c91c" version="1">Quickened Eldritch Blast</content>
 	<content contentuid="hc3d2d09fg2ef5g4046g941bg0dfe8c402b77" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_EldritchBlast_Staff"&gt;Eldritch Blast&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
-	<!-- <content contentuid="hf9a3c136gfa53g4170g9eeega20ced9c9111" version="4">Behold, the Vampire Ascendant! Thousands of souls have bought you power, granting you &lt;LSTag Type="Spell" Tooltip="Target_LOW_Astarion_VampireAscendant"&gt;Ascendant Bite&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_LOW_MistyEscape_Astarion"&gt;Gaseous form&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;You also have a +[1] bonus to attacks and spells.</content> -->
-	
 </contentList>

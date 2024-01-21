@@ -6,6 +6,7 @@ data "Properties" "IsToggled;OncePerCombat;Temporary"
 new entry "MAG_Warlock_Quickened_Cantrips_Passive"
 type "PassiveData"
 using "MAG_Warlock_Quickened_Cantrips_Passive"
+data "Description" "h1ba2d747g1e7bg4965g880egf96688892129"
 data "Properties" "IsToggled;OncePerCombat;Temporary"
 
 new entry "Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet"

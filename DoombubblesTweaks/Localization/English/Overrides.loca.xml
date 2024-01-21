@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<content contentuid="he8e1cc2bgc396g49f4g882bgf8d3c5451f15" version="1">Increases &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; to 21.</content>
+  <content contentuid="he8e1cc2bgc396g49f4g882bgf8d3c5451f15" version="1">Increases &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; to 21.</content>
 
-  <content contentuid="hb3a26b0fg1fb8g47b1gbaa5gddbd838e0bb0" version="3">Thermodynamaxe</content>
+  <content contentuid="h1223d569ga290g441bg8d04gf83d7085363b" version="1">Thermodynamaxe</content>
   <content contentuid="h10ce49ffgc19bg4c28gacaag2608a9506da7" version="4">*Gauntlets of Frost Giant Strength.*</content>
   <content contentuid="ha9bcb74agd50fg4ee7ga4eag08f240921a1b" version="1">Gauntlets of Frost Giant Strength</content>
   <content contentuid="hc62ad752g545ag4fc2g8d1bg2ec22472b416" version="3">Gauntlets of Frost Giant Strength</content>
@@ -14,6 +14,18 @@
 
   <content contentuid="had809a02gb07dg409fg9f5bgfd42240e4ac4" version="1">Momentum Helm</content>
 
-	<content contentuid="h919c207cg5860g40bcg8309g803cf3eef0af" version="2">The spellcaster can activate the arc linking it to this creature to automatically deal [1] damage.</content>
+  <content contentuid="h400bee13g667dg40cfgb58fg634f533c0cbf" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal [1] damage.</content>
+
+  <content contentuid="h358ebc99g7d16g4883gbb6cg240deb9ed934" version="1">When the wearer has less than full health, they have an additional bonus action.</content>
+
+  <content contentuid="h1ba2d747g1e7bg4965g880egf96688892129" version="1">&lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that cost an action cost a bonus action instead. This effect can be used once per battle.</content>
+
+  <content contentuid="h5fde32beg35b2g4a1eg8c8agfcb45face2aa" version="1">During combat, when the creature starts their turn with less than full health, they gain &lt;LSTag Type="Status" Tooltip="MAG_VIOLENCE"&gt;Wrath&lt;/LSTag&gt; for 1 turn.</content>
+
+  <content contentuid="hc4918c8dgf4b0g456eg91e2g63dc4cbee13b" version="1">Set yourself on fire to gain Heat. This damage can't be resisted out of combat.</content>
+
+  <content contentuid="h803118f0g7ec4g4ef6g855dg46d95845b907" version="1">When the wielder has less than full health, they deal an additional [1].</content>
+
+
 
 </contentList>
