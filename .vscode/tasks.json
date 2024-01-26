@@ -17,6 +17,20 @@
         "clear": true,
         "close": true,
       }
+    },
+    {
+      "label": "Update Mod",
+      "command": "UpdateDoombubblesTweaks.bat",
+      "args": ["-y"],
+      "type": "process",
+      "group": "none",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "showReuseMessage": false,
+        "clear": true,
+        "close": true,
+      }
     }
   ]
 }

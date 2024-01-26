@@ -179,7 +179,41 @@
             </node>
           </children>
         </node>
-        
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h41649e0cg927eg4b87gb25bg28e22b1498e5" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="hd3b21f82gbb3dg40c6ga306g0932baab6faf" version="1" />
+          <attribute id="Flag" type="int32" value="0" />
+          <attribute id="Icon" type="FixedString" value="Item_LOOT_GEM_Bloodstone_A" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="b5217ff7-6ec4-42e8-ad7d-0ba5d23d2359" />
+          <attribute id="Name" type="LSString" value="DBT_Dragon_Material" />
+          <attribute id="ParentTemplateId" type="FixedString" value="a92ee8db-142f-4a2a-af64-78e3aec36832" />
+          <attribute id="PhysicsTemplate" type="FixedString" value="b53b629f-8d72-e6a6-57ec-5f6fd0ea4cdd" />
+          <attribute id="ReadinessFlags" type="uint32" value="128" />
+          <attribute id="Stats" type="FixedString" value="DBT_Dragon_Material" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="575ebcd3-0b33-403f-c4a9-4f9c044bb547" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+          <attribute id="maxStackAmount" type="int32" value="1" />
+          <children>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="23"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="CombineSlots" type="int8" value="2"/>
+                      <attribute id="IsBase" type="bool" value="True"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
       </children>
     </node>
   </region>

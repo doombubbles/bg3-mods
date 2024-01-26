@@ -152,6 +152,13 @@ A set of staves that are counterparts to the Gold Wyrmling Staff
 | Amethyst Wyrmling Staff                  | `DBT_Psychic_Quarterstaff`        | `e992af9b-e505-41b7-9589-70f9bcb9d17e` |
 | Copper Wyrmling Staff                    | `DBT_Acid_Quarterstaff`           | `e933636f-5e9f-4b56-b995-fbf53a150b8c` |
 | Green Wyrmling Staff                     | `DBT_Poison_Quarterstaff`         | `f23aa019-03d4-47c9-9387-bd87f5375bfc` |
+| Gold Great Wyrm Staff                    | `DBT_Chromatic_Fire_staff`        | `ffca3335-73fa-4a44-9035-bff033f31c1b` |
+| Silver Great Wyrm Staff                  | `DBT_Chromatic_Cold_staff`        | `e019e7ef-a209-4df3-ad83-b1b6f55ffbda` |
+| Ruby Great Wyrm Wyrming Staff            | `DBT_Chromatic_Force_staff`       | `e7e0778b-9582-4953-81b2-56767760de18` |
+| Bronze Great Wyrm Staff                  | `DBT_Chromatic_Lightning_staff`   | `e56dd256-28cb-446d-a884-323e62418bb9` |
+| Diamond Great Wyrm Staff                 | `DBT_Chromatic_Radiant_staff`     | `c0499d1c-e332-4e5f-a82c-abefc5571a32` |
+| Copper Great Wyrm Staff                  | `DBT_Chromatic_Acid_staff`        | `7ac10001-2070-485e-a4bf-ee13656aa85c` |
+| Green Great Wyrm Staff                   | `DBT_Chromatic_Poison_staff`      | `d5c7e3db-ff0a-49aa-8965-0e2f2804c1f9` |
  
 </details>
 

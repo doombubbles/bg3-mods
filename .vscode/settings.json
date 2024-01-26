@@ -25,5 +25,9 @@
         "*.txt": "bg3"
     },
     "editor.tabSize": 2,
-    "editor.indentSize": "tabSize"
+    "editor.indentSize": "tabSize",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.tmpl": "${capture}.txt,${capture}.xml,${capture}.lsx"
+    }
 }

@@ -121,3 +121,8 @@ new treasuretable "CRE_Expeditioner_Magic_Trade"
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Force_Quarterstaff",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_Dragon_Legendary_Trident_Treasure"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_Dragon_Material",1,0,0,0,0,0,0,0

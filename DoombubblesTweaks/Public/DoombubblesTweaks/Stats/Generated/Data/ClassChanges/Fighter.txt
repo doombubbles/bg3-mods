@@ -3,6 +3,7 @@
 new entry "WarMagic"
 type "PassiveData"
 using "WarMagic"
+data "Description" "hb473c1e1gfb61g4db0gab99ge9a01e25937c"
 data "Conditions" ""
 data "StatsFunctors" "IF(IsCantrip() and HasUseCosts('ActionPoint',true) and not HasStatus('WM_GLOBAL_CHECK', context.Source) and HasActionResource('BonusActionPoint',1,0,false)):ApplyStatus(SELF,WM_BONUS_ATTACK,100,1);IF(IsAttack() and not IsOffHandAttack() and not IsCantrip() and HasUseCosts('ActionPoint',true) and not HasStatus('WM_GLOBAL_CHECK', context.Source) and HasActionResource('BonusActionPoint',1,0,false)):ApplyStatus(SELF,WM_BONUS_CANTRIP,100,1);"
 

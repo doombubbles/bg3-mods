@@ -16,7 +16,7 @@ new entry "DBT_Lightning_Quarterstaff"
 type "Weapon"
 using "MAG_Fire_FireDamage_Quarterstaff"
 data "RootTemplate" "6cace241-2066-43d3-a044-f36e68b85e04"
-data "Boosts" "UnlockSpell(Target_MAG_SacredFlame_Staff)"
+data "Boosts" "UnlockSpell(Target_MAG_ShockingGrasp_Staff)"
 data "StatusOnEquip" "QUICKENED_SHOCKING_GRASP"
 
 new entry "DBT_Radiant_Quarterstaff"

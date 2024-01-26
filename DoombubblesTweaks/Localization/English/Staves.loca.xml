@@ -19,12 +19,42 @@
 	<content contentuid="he1f504ffg666bg4928g9c6dg727f9a65debe" version="1">Amethyst Wyrmling Staff</content>
 	<content contentuid="h8065ed74g2d5dg438eg88eag1e8bef12bbe6" version="1">The psychosis permeating this staff seems to travel through thin air, never once weakening the dark wood.</content>
 
-  <content contentuid="h14ae2c9fg41e9g432egb6ddg26af7926e50b" version="1">Copper Wyrmling Staff</content>
-  <content contentuid="h74e7bf47g7795g452agb9a0g79857acbc5bf" version="1">The acid coating this staff seems to make the air around it acrid, never once eroding the dark wood.</content>
+	<content contentuid="h14ae2c9fg41e9g432egb6ddg26af7926e50b" version="1">Copper Wyrmling Staff</content>
+	<content contentuid="h74e7bf47g7795g452agb9a0g79857acbc5bf" version="1">The acid coating this staff seems to make the air around it acrid, never once eroding the dark wood.</content>
 
-  <content contentuid="h58a14b64gb149g4a46g94e8g6697e0a1ecaf" version="1">Green Wyrmling Staff</content>
-  <content contentuid="hcee3906eg3719g43fdgae53g47fabaf1be4e" version="1">The poison dripping from this staff seems to suffuse the air, never once enfusing the dark wood.</content>
-  
+	<content contentuid="h58a14b64gb149g4a46g94e8g6697e0a1ecaf" version="1">Green Wyrmling Staff</content>
+	<content contentuid="hcee3906eg3719g43fdgae53g47fabaf1be4e" version="1">The poison dripping from this staff seems to suffuse the air, never once enfusing the dark wood.</content>
+
+
+	<content contentuid="h78ff4679gb39ag49d9g9166g6f1680f5fff3" version="1">Gold Great Wyrm Staff</content>
+	<content contentuid="h20b2c18dga094g443ag980fg2e46c87e8e5b" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. As a great man once said: "Fire".</content>
+
+	<content contentuid="h8eb4d130g5d55g4981ga4d5gedf465da9594" version="1">Silver Great Wyrm Staff</content>
+	<content contentuid="h3ee48b31g7ca2g4615g8601g893ffb15dfd8" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. The cold never bothered you anyway.</content>
+
+	<content contentuid="hfbd8793fg9d51g4804gaeeegab5b1799fbf6" version="1">Ruby Great Wyrm Staff</content>
+	<content contentuid="h72ec3914g18b4g4a72g9c0eg52f80a7800ce" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. The force will surround you, penetrates you, and bind the Fogotten Realms together.</content>
+
+	<content contentuid="h8dc4b5f6g286ag462ag8385g62a72a306cee" version="1">Bronze Great Wyrm Staff</content>
+	<content contentuid="hf6bca5ffg258fg49adg9773g29de7d15b22d" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Lightning Bolts will shoot from your finger tips.</content>
+
+	<content contentuid="hc7a88705g3d7cg46a4gb9begf8058eaff475" version="1">Diamond Great Wyrm Staff</content>
+	<content contentuid="h48f92332gc76eg4de0gac33g68b97f62526d" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Soon, there will be far more than four lights.</content>
+
+	<!-- <content contentuid="h574ffa3dgde8fg4b62gaef8g7e46259efaf9" version="1">Emerald Great Wyrm Staff</content>
+	<content contentuid="h5e1c6f23g3586g4c92gaaf5g5eab10751d1e" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy.</content> -->
+
+	<!-- <content contentuid="had011d3eg980bg4881g9461g117f26fc9cbe" version="1">Amethyst Great Wyrm Staff</content>
+	<content contentuid="h6cfda877gee84g469eg9fc4g0327f9a803a3" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy.</content> -->
+
+	<content contentuid="h19322977g5295g4f82gbf5bgac47d2dbbb35" version="1">Copper Great Wyrm Staff</content>
+	<content contentuid="h3b3330d0g8abag489bg869ag47f1261f3a95" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. You'll be able to channel levels of toxicity unheard of in this genre.</content>
+
+	<content contentuid="hf164c319g2898g409eg8176g3e051b73cb70" version="1">Green Great Wyrm Staff</content>
+	<content contentuid="hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Your opponents will fall victim to one of the classic blunders: not developing an immunity to poison.</content>
+
+
+
 
 	<content contentuid="h1481e995gac4eg418fgba14ga022659dfa69" version="1">Quickened Fire Bolt</content>
 	<content contentuid="hf4424e51ga224g42b1ga887gb7a8a6cf1bda" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_FireBolt_Staff"&gt;Fire Bolt&lt;/LSTag&gt; using a bonus action instead of an action.</content>

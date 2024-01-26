@@ -44,4 +44,7 @@ IF %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 
 ENDLOCAL
 echo Done!
-pause
+
+if ["%~1"]==[""] (
+    pause
+)

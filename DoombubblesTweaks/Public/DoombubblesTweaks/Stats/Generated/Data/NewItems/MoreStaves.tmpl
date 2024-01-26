@@ -1,0 +1,41 @@
+new entry "DBT_Chromatic_Base_Staff"
+type "Weapon"
+using "WPN_Quarterstaff_2"
+data "ValueUUID" "d24c441f-7ebe-4229-8522-cf34c257ff20"
+data "Rarity" "VeryRare"
+data "PassivesOnEquip" "MAG_ArcaneEnchantment_Lesser_Passive"
+
+{{- $CANTRIP := "" }}
+{{- $ELEMENT := "" }}
+{{ range $element, $values := $.GreatWyrmStaves }}
+{{- $CANTRIP = .Cantrip | snakecase | upper }}
+{{- $ELEMENT = $element | upper }}
+new entry "DBT_Chromatic_{{$element}}_Staff"
+type "Weapon"
+using "DBT_Chromatic_Base_Staff"
+data "RootTemplate" "{{.UUID}}"
+data "Boosts" "UnlockSpell({{(index $.QuickenedCantrips .Cantrip).SpellType}}_MAG_{{.Cantrip}}_Staff);UnlockSpell(Shout_DBT_TheChromatic_{{$element}}Attunement)"
+data "StatusOnEquip" "QUICKENED_{{$CANTRIP}};MAG_THE_CHROMATIC_TECHNICAL"
+
+{{- if not .Custom }}
+new entry "Shout_DBT_TheChromatic_{{$element}}Attunement"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MAG_TheChromatic_{{$element}}Attunement"
+data "SpellContainerID" ""
+data "Cooldown" ""
+data "RequirementConditions" "not HasStatus('MAG_LEGENDARY_CHROMATIC_ATTUNEMENT_{{$ELEMENT}}')"
+{{- end }}
+
+new entry "DBT_{{$ELEMENT}}_WEAPON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" "DealDamage(1d6, {{$element}})"
+data "Icon" "GenericIcon_DamageType_{{$element}}"
+data "StackId" "DBT_{{$ELEMENT}}_WEAPON"
+data "Boosts" "WeaponDamage(1d6, {{$element}})"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+{{ end }}
