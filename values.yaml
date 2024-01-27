@@ -1,5 +1,5 @@
 GreatWyrmStaves:
-  Fire: 
+  Fire:
     UUID: ffca3335-73fa-4a44-9035-bff033f31c1b
     Cantrip: FireBolt
     DisplayName: h78ff4679gb39ag49d9g9166g6f1680f5fff3
@@ -36,6 +36,18 @@ GreatWyrmStaves:
     Cantrip: PoisonSpray
     DisplayName: hf164c319g2898g409eg8176g3e051b73cb70
     Description: hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954
+  Necrotic:
+    UUID: 2f30ce14-b2f0-476f-984f-57bb7367bf5b
+    Cantrip: ChillTouch
+    DisplayName: h574ffa3dgde8fg4b62gaef8g7e46259efaf9
+    Description: h5e1c6f23g3586g4c92gaaf5g5eab10751d1e
+    Custom: true
+  Psychic:
+    UUID: 50c440d5-20be-4b60-94a3-e44e507edb3d
+    Cantrip: ViciousMockery
+    DisplayName: had011d3eg980bg4881g9461g117f26fc9cbe
+    Description: h6cfda877gee84g469eg9fc4g0327f9a803a3
+    Custom: true
 QuickenedCantrips:
   FireBolt:
     SpellType: Projectile
@@ -66,7 +78,7 @@ QuickenedCantrips:
     Icon: Spell_Evocation_SacredFlame
     CreateSpell: true
   ChillTouch:
-    SpellType: Projectile
+    SpellType: Target
     DisplayName: h104d1fdfge8f0g47f4ga721g14802cd21e10
     Description: h0b5c5615g531fg4cf1g950dg2cac061aa994
     Icon: Spell_Necromancy_ChillTouch
@@ -89,7 +101,7 @@ QuickenedCantrips:
     Description: hbc862ee9g9ab3g4c7cg80f8ge82e2bb5b466
     Icon: Spell_Conjuration_PoisonSpray
     CreateSpell: true
-  
+
 AbilityScores:
   - Strength
   - Dexterity

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-  
+
 	<content contentuid="h489c6461g1cdcg4510g8e3ag1b2a6c74b139" version="1">Force to be Reckoned With</content>
 	<content contentuid="hb48613b2g63c3g4240gbbe7g4171752eeeab" version="1">Embrace Kereska's Force to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage. Your force spells deal additional Force damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="h9ac61221gf08cg4ec8ga514g13aec887ced4" version="1">When you deal damage with a spell, gain 1 turn of &lt;LSTag Type="Status" Tooltip="MAG_ZOC_FORCE_CONDUIT"&gt;Force Conduit&lt;/LSTag&gt;. While attuned to Kereska's Force, you can cast &lt;LSTag Type="Spell" Tooltip="Projectile_Disintegrate"&gt;Disintegrate&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt;.</content>
@@ -17,5 +17,24 @@
 	<content contentuid="h53d4791bg9600g4b96g9d61gb5e8916480fe" version="1">Basking in Kereska's Radiance</content>
 	<content contentuid="h4c06dba0g28cbg4c13gaab7g71ac5ba635b0" version="1">Affected entity has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. Its radiant spells deal additional Radiant damage equal to its &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. When it deals spell damage, inflict [1] turn of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiant Orb&lt;/LSTag&gt; upon the target. While attuned to Kereska's Radiance, it can cast &lt;LSTag Type="Spell" Tooltip="Zone_Sunbeam"&gt;Sunbeam&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_GuidingBolt"&gt;Guiding Bolt&lt;/LSTag&gt;.</content>
 	<content contentuid="hc6297b80ged6cg4e65gac2eg9b53d6da300f" version="1">When you deal damage with a spell, inflict 1 turn of &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiant Orb&lt;/LSTag&gt; upon the target.</content>
+
+
+	<content contentuid="h2d91970cg9121g4ef6gbfd0g94257f176888" version="1">Undying Blight</content>
+	<content contentuid="h8d65e781gbb59g4755g997dgae15d426fae5" version="1">Embrace Kereska's Necrosis to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage. Your necrotic spells deal additional Necrotic damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="h51fa97a1gfff4g4597g867fgb280495b4235" version="1">When you deal damage with a spell, inflict 2 turns of &lt;LSTag Type="Status" Tooltip="LOW_ANCIENTLAIR_CURSE"&gt;Spell Rot&lt;/LSTag&gt; upon the target. While attuned to Kereska's Necrosis, you can cast &lt;LSTag Type="Spell" Tooltip="Target_CircleOfDeath"&gt;Circle of Death&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Blight"&gt;Blight&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hac2f46ccgda40g4e94gb2c9g565d482ab0c7" version="1">Spreading Kereska's Necrosis</content>
+	<content contentuid="h440a6c43g8649g4b2bgbd13g77ce85c6c43e" version="1">Affected entity has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage. Its necrotic spells deal additional Necrotic damage equal to its &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. When it deals spell damage, inflict [1] turns of &lt;LSTag Type="Status" Tooltip="LOW_ANCIENTLAIR_CURSE"&gt;Spell Rot&lt;/LSTag&gt; upon the target. While attuned to Kereska's Necrosis, it can cast &lt;LSTag Type="Spell" Tooltip="Target_CircleOfDeath"&gt;Circle of Death&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Blight"&gt;Blight&lt;/LSTag&gt;.</content>
+	<content contentuid="hd75a6ce1g41f7g4826g8113g17fce280f93a" version="1">When you deal damage with a spell, inflict 2 turns of &lt;LSTag Type="Status" Tooltip="LOW_ANCIENTLAIR_CURSE"&gt;Spell Rot&lt;/LSTag&gt; upon the target.</content>
+
+	
+
+	<content contentuid="h1bf3afa4g1185g4e2cgaf40g55e21798a89c" version="1">Fractured Psyche</content>
+	<content contentuid="h7b107d36g9b6fg49d3gbdd0g15b5e2a5a971" version="1">Embrace Kereska's Psychosis to gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage. Your psychic spells deal additional Psychic damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="h97c12410g41f4g4e2fg9360ga046fe5d5d8f" version="1">When you deal damage with a spell, inflict 1 turn of &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt; upon the target. While attuned to Kereska's Psychosis, you can cast &lt;LSTag Type="Spell" Tooltip="Target_PhantasmalKiller"&gt;Phantasmal Killer&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_DissonantWhispers"&gt;Dissonant Whispers&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6a4e35ffg4e0dg477ag9b7cgc99d71f9fc89" version="1">Unleashing Kereska's Psychosis</content>
+	<content contentuid="h92ac61e1g2d54g46eagb6a1g0f60726986ac" version="1">Affected entity has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage. Its psychic spells deal additional Psychic damage equal to its &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. When it deals spell damage, inflict [1] turn of &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt; upon the target. While attuned to Kereska's Psychosis, it can cast &lt;LSTag Type="Spell" Tooltip="Target_PhantasmalKiller"&gt;Phantasmal Killer&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_DissonantWhispers"&gt;Dissonant Whispers&lt;/LSTag&gt;.</content>
+	<content contentuid="h45308319g1bd9g4607ga2e5gc4340c61c71c" version="1">When you deal damage with a spell, inflict 2 turns of &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt; upon the target.</content>
 
 </contentList>

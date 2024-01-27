@@ -30,7 +30,7 @@ new entry "DBT_Necrotic_Quarterstaff"
 type "Weapon"
 using "MAG_Fire_FireDamage_Quarterstaff"
 data "RootTemplate" "a907bfb0-10ef-4166-990a-9b14ca45811a"
-data "Boosts" "UnlockSpell(Projectile_MAG_ChillTouch_Staff)"
+data "Boosts" "UnlockSpell(Target_MAG_ChillTouch_Staff)"
 data "StatusOnEquip" "QUICKENED_CHILL_TOUCH"
 
 new entry "MAG_NECROTIC_WEAPON"

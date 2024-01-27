@@ -26,6 +26,7 @@
 
   <content contentuid="h803118f0g7ec4g4ef6g855dg46d95845b907" version="1">When the wielder has less than full health, they deal an additional [1].</content>
 
+  <content contentuid="h57ebd863gf3d0g42bcg9b59g21eb20f210f5" version="1">When one of your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; deals Acid, Cold, Fire, Lightning, Thunder, Force, Radiant, Necrotic or Psychic damage, add your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt; to the damage dealt.</content>
 
 
 </contentList>

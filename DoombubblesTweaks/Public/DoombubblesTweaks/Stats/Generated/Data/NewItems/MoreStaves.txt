@@ -129,6 +129,25 @@ data "Boosts" "WeaponDamage(1d6, Lightning)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 
 
+new entry "DBT_Chromatic_Necrotic_Staff"
+type "Weapon"
+using "DBT_Chromatic_Base_Staff"
+data "RootTemplate" "2f30ce14-b2f0-476f-984f-57bb7367bf5b"
+data "Boosts" "UnlockSpell(Target_MAG_ChillTouch_Staff);UnlockSpell(Shout_DBT_TheChromatic_NecroticAttunement)"
+data "StatusOnEquip" "QUICKENED_CHILL_TOUCH;MAG_THE_CHROMATIC_TECHNICAL"
+
+new entry "DBT_NECROTIC_WEAPON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" "DealDamage(1d6, Necrotic)"
+data "Icon" "GenericIcon_DamageType_Necrotic"
+data "StackId" "DBT_NECROTIC_WEAPON"
+data "Boosts" "WeaponDamage(1d6, Necrotic)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+
 new entry "DBT_Chromatic_Poison_Staff"
 type "Weapon"
 using "DBT_Chromatic_Base_Staff"
@@ -152,6 +171,25 @@ data "DescriptionParams" "DealDamage(1d6, Poison)"
 data "Icon" "GenericIcon_DamageType_Poison"
 data "StackId" "DBT_POISON_WEAPON"
 data "Boosts" "WeaponDamage(1d6, Poison)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+
+new entry "DBT_Chromatic_Psychic_Staff"
+type "Weapon"
+using "DBT_Chromatic_Base_Staff"
+data "RootTemplate" "50c440d5-20be-4b60-94a3-e44e507edb3d"
+data "Boosts" "UnlockSpell(Target_MAG_ViciousMockery_Staff);UnlockSpell(Shout_DBT_TheChromatic_PsychicAttunement)"
+data "StatusOnEquip" "QUICKENED_VICIOUS_MOCKERY;MAG_THE_CHROMATIC_TECHNICAL"
+
+new entry "DBT_PSYCHIC_WEAPON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" "DealDamage(1d6, Psychic)"
+data "Icon" "GenericIcon_DamageType_Psychic"
+data "StackId" "DBT_PSYCHIC_WEAPON"
+data "Boosts" "WeaponDamage(1d6, Psychic)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 
 

@@ -9,6 +9,7 @@
                 "*.py": "Python: Current File",
                 "*.go": "Go: Launch File",
                 "*.tmpl": "Go: Launch Main File",
+                "*.yaml": "Go: Launch Main File",
                 "*.bat": "Node: Run File"
             }
         },

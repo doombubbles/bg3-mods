@@ -157,6 +157,8 @@ A set of staves that are counterparts to the Gold Wyrmling Staff
 | Ruby Great Wyrm Wyrming Staff            | `DBT_Chromatic_Force_staff`       | `e7e0778b-9582-4953-81b2-56767760de18` |
 | Bronze Great Wyrm Staff                  | `DBT_Chromatic_Lightning_staff`   | `e56dd256-28cb-446d-a884-323e62418bb9` |
 | Diamond Great Wyrm Staff                 | `DBT_Chromatic_Radiant_staff`     | `c0499d1c-e332-4e5f-a82c-abefc5571a32` |
+| Emerald Great Wyrm Staff                 | `DBT_Chromatic_Necrotic_staff`    | `2f30ce14-b2f0-476f-984f-57bb7367bf5b` |
+| Amethyst Great Wyrm Staff                | `DBT_Chromatic_Psychic_staff`     | `50c440d5-20be-4b60-94a3-e44e507edb3d` |
 | Copper Great Wyrm Staff                  | `DBT_Chromatic_Acid_staff`        | `7ac10001-2070-485e-a4bf-ee13656aa85c` |
 | Green Great Wyrm Staff                   | `DBT_Chromatic_Poison_staff`      | `d5c7e3db-ff0a-49aa-8965-0e2f2804c1f9` |
  
@@ -197,16 +199,26 @@ A set of staves that are counterparts to the Gold Wyrmling Staff
 
 **Stalker Glovess** - Additional 1d4 Force damage now applies per Sneak Attack die
 
+**Necklace of Elemental Augmentation** - Now also applies to Force, Radiant, Necrotic and Psychic damage.
+
 **Markoheshkir**
 
 - Added "Force to be Reckoned With" attunement to Force damage
-  - Force damage resistance, + Proficiency to Force damage
+  - Force damage resistance, add Proficiency to Force damage
   - Dealing spell damage grants you 1 turn of Force Conduit
   - Can cast Magic Missile and Disintegrate per Short Rest
 - Added "Resplendent Dawn" attunment to Radiant Damage
-  - Radiant damage resistance, + Proficiency to Radiant damage
+  - Radiant damage resistance, add Proficiency to Radiant damage
   - Dealing spell damage inflicts 1 turn of Radiant Orb on the target
   - Can cast Guiding Bolt and Sunbeam per Short Rest
+- Added "Undying Blight" attunement to Necrotic Damage
+  - Necrotic damage resistance, add Proficiency to Necrotic damage
+  - Dealing spell damage inflicts 2 turns of Spell Rot
+  - Can cast Blight and Circle of Death per Short Rest
+- Added "Fractured Psyche" attunement to Psychic Damage
+  - Psychic damage resistance, add Proficiency to Psychic damage
+  - Dealing spell damage inflicts 1 turn of Mental Fatigue on the target
+  - Can cast Dissonant Whispers and Phantasmal Killer per Short Rest
 
 ## Item Upgrading
 

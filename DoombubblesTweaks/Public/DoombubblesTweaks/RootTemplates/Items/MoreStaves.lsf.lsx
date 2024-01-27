@@ -162,6 +162,37 @@
 
         
         <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h5e1c6f23g3586g4c92gaaf5g5eab10751d1e" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h574ffa3dgde8fg4b62gaef8g7e46259efaf9" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="2f30ce14-b2f0-476f-984f-57bb7367bf5b" />
+          <attribute id="Name" type="LSString" value="DBT_Chromatic_Necrotic_Staff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="7e39ad11-f8c3-421a-940c-05348c420c7d" />
+          <attribute id="Stats" type="FixedString" value="DBT_Chromatic_Necrotic_Staff" />
+          <attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="921e43c8-91bd-295f-b7e6-7818773a7157" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="DBT_NECROTIC_WEAPON" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        
+        <node id="GameObjects">
           <attribute id="Description" type="TranslatedString" handle="hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954" version="1" />
           <attribute id="DisplayName" type="TranslatedString" handle="hf164c319g2898g409eg8176g3e051b73cb70" version="1" />
           <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
@@ -178,6 +209,37 @@
               <children>
                 <node id="Status">
                   <attribute id="Object" type="FixedString" value="DBT_POISON_WEAPON" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h6cfda877gee84g469eg9fc4g0327f9a803a3" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="had011d3eg980bg4881g9461g117f26fc9cbe" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="50c440d5-20be-4b60-94a3-e44e507edb3d" />
+          <attribute id="Name" type="LSString" value="DBT_Chromatic_Psychic_Staff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="7e39ad11-f8c3-421a-940c-05348c420c7d" />
+          <attribute id="Stats" type="FixedString" value="DBT_Chromatic_Psychic_Staff" />
+          <attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="921e43c8-91bd-295f-b7e6-7818773a7157" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="DBT_PSYCHIC_WEAPON" />
                 </node>
               </children>
             </node>
