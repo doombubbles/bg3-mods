@@ -49,7 +49,14 @@
           <attribute id="Passives" type="LSString" value="DraconicAncestry_Red,DraconicAncestry_Black,DraconicAncestry_Blue,DraconicAncestry_White,DraconicAncestry_Green,DraconicAncestry_Gold,DraconicAncestry_Silver,DraconicAncestry_Bronze,DraconicAncestry_Copper,DraconicAncestry_Brass,DraconicAncestry_Ruby,DraconicAncestry_Diamond,DraconicAncestry_Amethyst,DraconicAncestry_Emerald,DraconicAncestry_Sapphire,DraconicAncestry_Topaz"/>
           <attribute id="UUID" type="guid" value="c69c33a2-671c-46e1-a92c-656fe64ed447"/>
         </node>
-        
+
+        <!-- Elemental Adept -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ElementalAdept_Acid,ElementalAdept_Cold,ElementalAdept_Fire,ElementalAdept_Force,ElementalAdept_Lightning,ElementalAdept_Necrotic,ElementalAdept_Poison,ElementalAdept_Psychic,ElementalAdept_Radiant,ElementalAdept_Thunder"/>
+          <attribute id="UUID" type="guid" value="f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39"/>
+        </node>
+
       </children>
     </node>
   </region>

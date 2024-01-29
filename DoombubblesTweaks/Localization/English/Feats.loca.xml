@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h03d9a7ebgdfc9g453bg9b46g9255f4412b1e" version="1">Elemental Adept: Force</content>
+	<content contentuid="hd16cb3eegea54g4bfegbeebg44c779704501" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage. In addition, when you deal Force damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="h80282be3gdbd7g4032ga512gebb54be47478" version="1">Elemental Adept: Necrotic</content>
+	<content contentuid="hbbae2ce4g2a66g4d15g9008g7b4e79d4a6ed" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage. In addition, when you deal Necrotic damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="he29f5a05g91b2g41ecg967eg3bc62b2ef429" version="1">Elemental Adept: Poison</content>
+	<content contentuid="h915a16a8ge16cg4d7eg8d24g296f25ca401d" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, when you deal Poison damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="h84ab4b22g0d7bg4609g9c5fg6627b21abcfc" version="1">Elemental Adept: Psychic</content>
+	<content contentuid="h45ab2e0dg876eg40f9g9139g47fbd5452cf7" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage. In addition, when you deal Psychic damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="h06eb8788g4402g4f12g9cf9gbb917f9a4981" version="1">Elemental Adept: Radiant</content>
+	<content contentuid="he29f5a05g91b2g41ecg967eg3bc62b2ef429" version="1">Elemental Adept: Poison</content>
+	<content contentuid="h915a16a8ge16cg4d7eg8d24g296f25ca401d" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, when you deal Poison damage with a spell, you cannot roll a [1].</content>
+</contentList>

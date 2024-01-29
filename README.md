@@ -120,6 +120,16 @@ A set of staves that are counterparts to the Gold Wyrmling Staff
 
 **Green Wyrmling Staff** (Poison, Poison Spray) - Sold by Auntie Ethel at the Emerald Grove
 
+### Great Wyrm Staves
+
+A set of staves that are upgrades to the Wyrmling Staves and incorporate Markoheshkir effects. 
+
+To create a Great Wyrm Staff, obtain the new Great Wyrm Scale dropped from Ansur and start a combination with Markoheshkir and the corresponding Wyrmling Staff.
+Only the Wyrmling staff will be consumed.
+
+Each Great Wyrm Staff gives the Arcane Enchantment +1 effect, the corresponding Quickened Cantrip, and the corresponding Kereska's buff spell.
+So essentially trading the Arcane Battery for the Quickened Cantrip.
+
 <details>
 <summary>UUIDs</summary>
 
@@ -152,6 +162,7 @@ A set of staves that are counterparts to the Gold Wyrmling Staff
 | Amethyst Wyrmling Staff                  | `DBT_Psychic_Quarterstaff`        | `e992af9b-e505-41b7-9589-70f9bcb9d17e` |
 | Copper Wyrmling Staff                    | `DBT_Acid_Quarterstaff`           | `e933636f-5e9f-4b56-b995-fbf53a150b8c` |
 | Green Wyrmling Staff                     | `DBT_Poison_Quarterstaff`         | `f23aa019-03d4-47c9-9387-bd87f5375bfc` |
+| Great Wyrm Scale                         | `DBT_Dragon_Material`             | `b5217ff7-6ec4-42e8-ad7d-0ba5d23d2359` |
 | Gold Great Wyrm Staff                    | `DBT_Chromatic_Fire_staff`        | `ffca3335-73fa-4a44-9035-bff033f31c1b` |
 | Silver Great Wyrm Staff                  | `DBT_Chromatic_Cold_staff`        | `e019e7ef-a209-4df3-ad83-b1b6f55ffbda` |
 | Ruby Great Wyrm Wyrming Staff            | `DBT_Chromatic_Force_staff`       | `e7e0778b-9582-4953-81b2-56767760de18` |
