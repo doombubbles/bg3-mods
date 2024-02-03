@@ -57,6 +57,15 @@
           <attribute id="UUID" type="guid" value="f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39"/>
         </node>
 
+        <!-- Light Cleric Choice -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="WardingFlare_Improved,PotentSpellcasting"/>
+          <attribute id="UUID" type="guid" value="d9e923c1-f551-4bdf-92f7-5bb85b00b205"/>
+        </node>
+
+
+
       </children>
     </node>
   </region>

@@ -276,6 +276,25 @@
           <attribute id="UUID" type="guid" value="2dc1015e-6fd9-48aa-923e-eecaf72a83f1"/>
         </node>
 
+        <!-- Light Cleric Choice -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="LightDomain"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(d9e923c1-f551-4bdf-92f7-5bb85b00b205,1,LightClericSpecialChoice)"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c"/>
+          <attribute id="UUID" type="guid" value="cc33557e-32ab-4cb9-82cb-d313ad38574e"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="LightDomain"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(d9e923c1-f551-4bdf-92f7-5bb85b00b205,1,LightClericSpecialChoice)"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c"/>
+          <attribute id="UUID" type="guid" value="c993dc9e-df2b-4cc9-857c-49b17982b56e"/>
+        </node>
+
         <!-- Cleric Harness Divine Power -->
 
         <!-- <node id="Progression">
