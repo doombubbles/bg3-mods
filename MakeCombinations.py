@@ -11,7 +11,10 @@ input = [
 output = "./DoombubblesTweaks/Public/DoombubblesTweaks/RootTemplates/Items/Combos.lsf.lsx"
 
 combos = {
-    "OBJ_InfernalPlate_B": 1
+    "OBJ_InfernalPlate_B": 1,
+    "OBJ_Bottle": 1,
+    "OBJ_Bottle_Destructible": 1,
+    "OBJ_Bottle_Potion": 1
 }
 
 
@@ -41,6 +44,8 @@ for xml_file in input:
                 on_use_peace_actions = ET.SubElement(
                     game_objects_children, "node", id="OnUsePeaceActions"
                 )
+            
+            if ET.SubElement(on_use_peace_actions, "children") is None:
                 ET.SubElement(on_use_peace_actions, "children")
 
             # Now 'on_use_peace_actions' definitely exists, add a new 'Action' node to it

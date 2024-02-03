@@ -126,3 +126,13 @@ new treasuretable "WYR_Dragon_Legendary_Trident_Treasure"
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Dragon_Material",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_Guildhall_FetchersBrat_Trade_Magic"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_VersatileSneakAttack_Gloves",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_CountingShouse_Vault9_Treasure"
+CanMerge 1
+new subtable "-1"
+object category "I_",1,0,0,0,0,0,0,0

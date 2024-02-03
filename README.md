@@ -100,6 +100,10 @@ The following spells can now be casted as rituals out of combat
 
 **The Universal Cloth** - Combines most of the effects of The Physical Cloth and The Mental Cloth. Combine using a Thread of Uninhibited Kushigo, and supply the final power up using the Orphic Ring (which you can now get from Orpheus w/o killing him).
 
+**Gloves of Finesse** - Lets you Sneak Attack with non-finesse weapons. Sold by Sticky Dondo at the Guildhall.
+
+**Gloves of Ultimate Skullduggery** - Combination of the Stalker Gloves and Gloves of Finesse using the "Secrets to Skullduggery" found in High Security Vault n°9 (the one with the Elegant Studded Leather)
+
 ### Wyrmling Staves
 
 A set of staves that are counterparts to the Gold Wyrmling Staff
@@ -172,6 +176,9 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 | Amethyst Great Wyrm Staff                | `DBT_Chromatic_Psychic_staff`     | `50c440d5-20be-4b60-94a3-e44e507edb3d` |
 | Copper Great Wyrm Staff                  | `DBT_Chromatic_Acid_staff`        | `7ac10001-2070-485e-a4bf-ee13656aa85c` |
 | Green Great Wyrm Staff                   | `DBT_Chromatic_Poison_staff`      | `d5c7e3db-ff0a-49aa-8965-0e2f2804c1f9` |
+| Gloves of Finesse                        | `DBT_VersatileSneakAttack_Gloves` | `cb873bb4-24d6-40b3-9c1e-eb1c24a6f030` |
+| Gloves of Ultimate Skullduggery          | `DBT_Skullduggery_Gloves`         | `59c3172b-dd49-486c-a664-a71291a0face` |
+| Secrets to Skullduggery                  | `DBT_Skullduggery_Material`       | `b78f6fe6-8aa9-4b98-a46e-6185f54a2de0` |
  
 </details>
 
@@ -303,6 +310,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 - Will only use Charisma for attack rolls if it's higher than Strength (and/or Dexterity for Finesse weapons)
 
 ### Barbarian
+
+- Implemented 
 
 #### Wild Magic 
 - Gain 'Furious Caster' at level 5, making Rage no longer block spell casting 

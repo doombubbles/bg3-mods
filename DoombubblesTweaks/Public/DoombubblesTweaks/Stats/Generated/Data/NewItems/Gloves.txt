@@ -40,6 +40,26 @@ data "Priority" "1"
 data "Unique" "1"
 data "MinLevel" "1"
 
+
+new entry "DBT_VersatileSneakAttack_Gloves"
+type "Armor"
+using "ARM_Gloves_Leather"
+data "RootTemplate" "cb873bb4-24d6-40b3-9c1e-eb1c24a6f030"
+data "ValueUUID" "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0"
+data "Rarity" "Rare"
+data "PassivesOnEquip" "LOW_Guildhall_AdaptableSneakAttacks"
+data "Unique" "1"
+
+
+new entry "DBT_Skullduggery_Gloves"
+type "Armor"
+using "ARM_Gloves_Leather"
+data "RootTemplate" "59c3172b-dd49-486c-a664-a71291a0face"
+data "ValueUUID" "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0"
+data "Rarity" "VeryRare"
+data "PassivesOnEquip" "MAG_ForcefulSneakAttack_Passive;LOW_Guildhall_AdaptableSneakAttacks"
+data "Unique" "1"
+
 // new entry "DBT_FrostFire_Gloves_Passive"
 // type "PassiveData"
 // data "DisplayName" "hb137f6c4g5c1eg45fag9846g09889516305d"

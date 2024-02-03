@@ -210,6 +210,23 @@ new ItemCombinationResult "DBT_IntelligenceCaster_Robe_1"
 data "ResultAmount 1" "1"
 data "Result 1" "DBT_IntelligenceCaster_Robe"
 
+
+new ItemCombination "DBT_Skullduggery_Gloves"
+data "Type 1" "Object"
+data "Object 1" "DBT_Skullduggery_Material"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "MAG_Stalker_Gloves"
+data "Transform 2" "Consume"
+data "Type 3" "Object"
+data "Object 3" "DBT_VersatileSneakAttack_Gloves"
+data "Transform 3" "Consume"
+
+new ItemCombinationResult "DBT_Skullduggery_Gloves_1"
+data "ResultAmount 1" "1"
+data "Result 1" "DBT_Skullduggery_Gloves"
+
 // new ItemCombination "DBT_IntelligenceCaster_Robe"
 // data "Type 1" "Object"
 // data "Object 1" "MAG_CharismaCaster_Robe"
@@ -255,4 +272,25 @@ data "ResultAmount 1" "1"
 data "Result 1" "DBT_Chromatic_{{$element}}_Staff"
 data "ResultAmount 2" "1"
 data "Result 2" "MAG_TheChromatic_Staff"
+{{ end }}
+
+
+{{- $bottles := list "OBJ_Bottle" "OBJ_Bottle_Destructible" "OBJ_Bottle_Potion" }}
+{{- $elixirs := list "OBJ_Potion_Of_Hill_Giant_Strength" "OBJ_Potion_Of_Cloud_Giant_Strength" "ALCH_Solution_Elixir_Alertness"}}
+
+{{- range $elixir := $elixirs }}
+{{- range $bottle := $bottles }}
+new ItemCombination "{{$elixir}}_{{$bottle}}"
+data "Type 1" "Object"
+data "Object 1" "{{$bottle}}"
+data "Combine 1" "Base"
+data "Transform 1" "Consume"
+data "Type 2" "Object"
+data "Object 2" "{{$elixir}}"
+data "Transform 2" "None"
+
+new ItemCombinationResult "{{$elixir}}_{{$bottle}}_1"
+data "ResultAmount 1" "1"
+data "Result 1" "{{$elixir}}"
+{{ end }}
 {{ end }}

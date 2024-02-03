@@ -58,3 +58,13 @@ data "Icon" "statIcons_WildMagic_Barbarian_ProtectiveLights"
 data "SoundLoop" "Spell_Status_ProtectiveLights_MO"
 data "Boosts" "AC(1)"
 data "StatusEffect" "b613a7f4-1182-4e39-b63c-4fe77b96e9c2"
+
+
+new entry "CL_Passive_OneDnD_ShortRestRageRecovery"
+type "PassiveData"
+data "DisplayName" "h9a045badg24cag489bg9d6bg6014e7b4f032"
+data "Description" "h8def66aegfe9eg460fgb0c8ga311484f0fa0"
+data "Icon" "PassiveFeature_Generic_WildAnimal"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnShortRest"
+data "StatsFunctors" "RestoreResource(SELF,Rage,1,0)"

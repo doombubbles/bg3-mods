@@ -4,4 +4,6 @@
   <content contentuid="heb44f3d5g063eg4da0g9cc9gc8787c2d2fac" version="1">Your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; no longer prevents you from casting spells.</content>
   <content contentuid="h8ce81d8bgf5dcg4722g87f7gd7b1601a3293" version="2">Rage Impeded Spellcasting</content>
   <content contentuid="h0f48bc4fg55d1g4e5fg94ffge99d3a003db8" version="3">You can't cast or concentrate on spells while raging.</content>
+  <content contentuid="h9a045badg24cag489bg9d6bg6014e7b4f032" version="1">Rage Recovery</content>
+  <content contentuid="h8def66aegfe9eg460fgb0c8ga311484f0fa0" version="1">You regain one use of your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; and all uses after a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 </contentList>

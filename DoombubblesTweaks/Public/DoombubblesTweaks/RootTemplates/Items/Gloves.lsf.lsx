@@ -432,6 +432,48 @@
           </children>
         </node>
 
+        <node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="ha0cce89cg4496g45d2gabdegca3ef3fcf60b" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc4af0393gfa89g4acfgb8bfgfcfffd0d4ae6" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="cb873bb4-24d6-40b3-9c1e-eb1c24a6f030" />
+					<attribute id="Name" type="LSString" value="DBT_VersatileSneakAttack_Gloves" />
+					<attribute id="ParentTemplateId" type="FixedString" value="dd99248c-fe42-4d07-9861-853e9291ea51" />
+					<attribute id="Stats" type="FixedString" value="DBT_VersatileSneakAttack_Gloves" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+        <node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h94be2ec1gb633g4276g9c76gb0fa3e99d511" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h843edf54g6701g485egba03g3f567eb0c3e5" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="59c3172b-dd49-486c-a664-a71291a0face" />
+					<attribute id="Name" type="LSString" value="DBT_Skullduggery_Gloves" />
+					<attribute id="ParentTemplateId" type="FixedString" value="dd99248c-fe42-4d07-9861-853e9291ea51" />
+					<attribute id="Stats" type="FixedString" value="DBT_Skullduggery_Gloves" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
       </children>
     </node>
   </region>
