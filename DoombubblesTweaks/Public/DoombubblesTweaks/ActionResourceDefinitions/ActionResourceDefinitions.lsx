@@ -13,6 +13,14 @@
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="30cca4c5-a808-4c96-bd1c-f57bbb92dc1d"/>
                 </node> -->
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h584cd2c9g4d6bg4691ga129g4c4a73413912" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Interrupt_HellishRebukeWarlockMI_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="ed49e9a0-8730-4df2-b113-cda9dca68fe3"/>
+                </node>
             </children>
         </node>
     </region>

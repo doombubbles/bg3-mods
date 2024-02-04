@@ -219,6 +219,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Necklace of Elemental Augmentation** - Now also applies to Force, Radiant, Necrotic and Psychic damage.
 
+**Circlet of Psionic Revenge** - Now also grants the Githyanki War Magic effect to Githyanki wearers.
+
 **Markoheshkir**
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -311,7 +313,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 ### Barbarian
 
-- Implemented 
+- Implemented the OneDnD mechanic of regaining 1 expended Rage charge on a Short Rest.
 
 #### Wild Magic 
 - Gain 'Furious Caster' at level 5, making Rage no longer block spell casting 
@@ -330,8 +332,55 @@ Adapted [Malady's Descents of the Gem Dragons Mod](https://www.nexusmods.com/bal
 - Sapphire (Thunder) gets Thunder Wave
 - Topaz (Fire) gets Command
 
-## Standardization Changes
+## Feats
+
+### Added Feats
+
+**Eldritch Adept** - Learn 1 Eldritch Invocation. Increase INT/WIS/CHA by 1.
+
+**Metamagic Adept** - Learn 2 Metamagic options and get 3 Sorcery Points to spend on them. Increase INT or WIS or CHA by 1.
+
+**Fighting Initiate** - Learn 1 Fighting Style. Increase STR or DEX by 1.
+
+### Feat Changes
+
+**Charger** - Also increase STR or DEX by 1.
+
+**Defensive Duelist** - Also increase DEX by 1.
+
+**Dungeon Delver** - Now gives Advantage on all Perception Checks and Dex Saves when not in combat. Also increase DEX by 1.
+
+**Elemental Adept** - Also increase INT or WIS or CHA by 1. Added variants for Force, Radiant, Necrotic and Psychic damage.
+
+**Lucky** - Also increase any stat by 1.
+
+**Mage Slayer** - Also increase STR or DEX by 1.
+
+**Magic Initiate** - Now uses your own Spellcasting Modifier. Spells learned are usable per Short Rest instead of Long Rest. Gives you a +1 Bonus to the class's Spellcasting Ability.
+
+**Martial Adept** - Increased to 2 Superiority Dice. Also increase STR or DEX by 1.
+
+**Medium Armour Master** - Also increase STR or DEX by 1.
+
+**Mobile** - Also increase DEX by 1.
+
+**Performer** - Also gain Proficiency in Performance.
+
+**Ritual Caster** - Also increase INT or WIS or CHA by 1.
+
+**Shield Master** - Also increase STR or CON by 1. You get Shield Proficiency if you didn't already have it.
+
+**Skilled** - Also increase any stat by 1.
+
+**Spell Sniper** - Also increase INT or WIS or CHA by 1.
+
+
+## Non-Gameplay Changes
 
 **Disintegrate** - Changed VFX slightly to include some more red
 
 **Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Strength
+
+**Haste Helm** - Renamed to Momentum Helm
+
+**Thermodynamic Axe** - Renamed to Thermodynamxe

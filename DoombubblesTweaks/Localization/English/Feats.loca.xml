@@ -11,4 +11,63 @@
 	<content contentuid="h06eb8788g4402g4f12g9cf9gbb917f9a4981" version="1">Elemental Adept: Radiant</content>
 	<content contentuid="he29f5a05g91b2g41ecg967eg3bc62b2ef429" version="1">Elemental Adept: Poison</content>
 	<content contentuid="h915a16a8ge16cg4d7eg8d24g296f25ca401d" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, when you deal Poison damage with a spell, you cannot roll a [1].</content>
+
+	<content contentuid="h565c1da5g469bg4225gbbf5gfa29f4cdeab2" version="1">Eldritch Adept</content>
+	<content contentuid="h32df48f7gd533g408dga0f8gc6f7dee0e828" version="1">You learn one Eldritch Invocation from the Warlock class, and your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+
+	<content contentuid="h3fe1afb9g2b8ag4df6gb892g749fac2da8a8" version="1">Fighting Initiate</content>
+	<content contentuid="he81bb973g2d32g4002g86a6gcc03b3be2be1" version="1">You may choose to learn one fighting style from the Fighter class.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+
+	<content contentuid="h48eefe2fg517ag4245gaf8ag91154e6d5d47" version="1">Metamagic Adept</content>
+	<content contentuid="hb0f03a87gfa10g4fd5ga335g7937cad49aa3" version="1">Gain two metamagic options and three &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+	<content contentuid="h54459ce1g6931g48c2g83a8g91d7f36ed61e" version="1">You have gained two metamagic options and three &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h9e95ea41g70f8g442agb69bge228d148ed29" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;When you make crossbow attacks within melee range, the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; do not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Type="Spell" Tooltip="Projectile_PiercingShot"&gt;Piercing Shot&lt;/LSTag&gt; also inflicts &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; for twice as long.</content>
+
+	<content contentuid="h5d6398d7g570cg4786g9e24g7e279c0e85a5" version="1">You gain &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Attack"&gt;Charger: Weapon Attack&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Push"&gt;Charger: Shove&lt;/LSTag&gt; and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+
+	<content contentuid="h0b41d5efgfb2cg465ega590ga690f26b8dbe" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;When attacked while wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, you can use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, possibly causing the attack to miss.</content>
+
+	<content contentuid="hf0abe20ag8f40g4cabgb47fg886dec38ab68" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while not in combat.</content>
+
+	<content contentuid="h6b518d83gfc56g4974ga0bbg16efd44b94b8" version="1">Your spells ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to a damage type of your choice. When you cast spells of that type, you cannot roll a 1.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+
+	<content contentuid="h54128c8cg6f14g4720gac4cg02c5440a9f85" version="1">You learn two manoeuvres from the Battle Master subclass and gain two &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt; to fuel them. You regain expended Superiority Dice after a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h477445fcgb5b3g49ddga7d7gce1ccf30db8b" version="1">You receive 2 (additional) &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Dice&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hb9fa50f8gbac3g418egbef0gd0d07f91582b" version="1">When you wear Medium Armour, it doesn't impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. The bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; you can gain from your Dexterity &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; also becomes +3 instead of +2.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+
+	<content contentuid="hd1720c16g7170g4657gbc5bgcc563e966b05" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases, and difficult terrain doesn't slow you down when you &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;If you move after making a melee attack, you don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; from your target.</content>
+
+	<content contentuid="h1914d21bg9717g4667ga784g784db911f301" version="1">You gain &lt;LSTag Tooltip="MusicalInstrumentProficiency"&gt;Musical Instrument Proficiency&lt;/LSTag&gt; and &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Performance, and your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+	<content contentuid="h09e3920fg3600g4270g964agfcc9b40f64b2" version="1">You know how to play musical instruments and are Proficient in Performance.</content>
+
+	<content contentuid="hc2f7bb81gfec9g411ega5eag9f7c64a7c41c" version="1">You learn two &lt;LSTag Tooltip="RitualSpell"&gt;ritual spells&lt;/LSTag&gt; of your choice.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+
+	<content contentuid="h708496f7g71efg4ef7g9d71ga7f351b0efb5" version="1">You learn a &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt;, and the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with spells is reduced by 1. This effect can stack.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+
+
+
+	<content contentuid="hd3998b3dg7f43g460eg96b6g935cf05bcdd3" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the bard spell list. You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximmum of 20.</content>
+	<content contentuid="h360db481ge7e9g4f28g9980g4a82e3178904" version="1">You have learnt 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the bard spell list.</content>
+
+	<content contentuid="hbbcee0fcg90ccg4837gbfa3gfcb7dc85af9f" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the cleric spell list. You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; increases by 1, to a maximmum of 20.</content>
+	<content contentuid="he7aba3d7g32ffg45d7g91d0g701990621265" version="1">You have learnt 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the cleric spell list.</content>
+
+	<content contentuid="h92b14411g2556g412dg9272g0b51fccbb3e8" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the druid spell list. You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; increases by 1, to a maximmum of 20.</content>
+	<content contentuid="hf61c10cdgd965g4f94g87b2gf889fa8a2c13" version="1">You have learnt 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the druid spell list.</content>
+
+	<content contentuid="h54c905c9ga0d9g46e2gbc15gfc83ebb80adb" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the sorcerer spell list. You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximmum of 20.</content>
+	<content contentuid="h9345a2e4g971ag4b69gb7a7gc40c190a91ea" version="1">You have learnt 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the sorcerer spell list.</content>
+
+	<content contentuid="h81a45c2eg50d7g4738g909bgf32018c63098" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the warlock spell list. You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximmum of 20.</content>
+	<content contentuid="hb61017e6ga33dg4c58gbebegf6a60c77c2bc" version="1">You have learnt 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the warlock spell list.</content>
+
+	<content contentuid="hfd4e6f0ag7157g4051ga68agde426b285d8f" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the wizard spell list. You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by 1, to a maximmum of 20.</content>
+	<content contentuid="h240b078ag8ddeg4a1fgaff2g052710794fd3" version="1">You have learnt 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the wizard spell list.</content>
+
+	<content contentuid="h07a5f71bg3280g4407ga64cgd0f605d15b3b" version="1">You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	
+
+
 </contentList>
