@@ -33,4 +33,33 @@ function EldritchBlastCheck()
   return SpellId('Projectile_EldritchBlast')
   | SpellId('Projectile_MAG_EldritchBlast_Staff')
   | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
-end 
+end
+
+function AttackingWithPiercingWeapon(entity)
+  entity = entity or context.Target
+  local weapon = GetAttackWeapon(entity)
+  
+  if HasWeaponProperty(WeaponProperties.Ammunition, weapon).Result then
+    return ConditionResult(true)
+  end
+
+  local piercingWeapons = {
+    'Daggers',
+    'Javelins',
+    'Spears',
+    'Morningstars',
+    'Rapiers',
+    'Shortswords',
+    'WarPicks',
+    'Tridents',
+    'Pikes'
+  }
+  
+  for i,group in ipairs(piercingWeapons) do
+    if IsOfProficiencyGroup(group, weapon).Result then
+      return ConditionResult(true)
+    end
+  end
+
+  return ConditionResult(false)
+end

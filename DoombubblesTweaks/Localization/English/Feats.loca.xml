@@ -22,6 +22,40 @@
 	<content contentuid="hb0f03a87gfa10g4fd5ga335g7937cad49aa3" version="1">Gain two metamagic options and three &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
 	<content contentuid="h54459ce1g6931g48c2g83a8g91d7f36ed61e" version="1">You have gained two metamagic options and three &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt;.</content>
 
+
+	<content contentuid="h9e9e79dbgf486g4819g8b7fg618b5f67132f" version="1">Crusher</content>
+	<content contentuid="h21777871gbcefg44bdg9e9ag84263962458d" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;Once per turn, when you hit a creature with a melee attack that deals bludgeoning damage, you can push it away from you, provided the target is Large or smaller. Also, when you score a critical hit with an attack that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the start of your next turn.</content>
+	<content contentuid="h4b1e2fe9g408ag4160gbe2eg7a1a1bac95b7" version="1">Crusher: Move</content>
+	<content contentuid="hc06e070eg63a0g4780g8eeeg2119ca5ed15f" version="1">Once per turn, when you hit a creature with an attack that deals bludgeoning damage, you move it [1] away from you, provided the target is Large or smaller.</content>
+	<content contentuid="hdfbd9a98gbac8g4b0bg8e43g8559c0dce72a" version="1">Crusher: Crit</content>
+	<content contentuid="h4ef05a3fg9655g48b2g8cccga262780e8805" version="1">When you score a critical hit with an attack that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the start of your next turn.</content>
+	<content contentuid="h21ca1797gf5ebg4c3dga484g37ee4917e9f4" version="1">Crushed</content>
+	<content contentuid="h95a8c0c4g0ca5g4af8gbd62g5376867ce620" version="1">Attack rolls against this creature are made with advantage until the start of your next turn.</content>
+
+	<content contentuid="hba670bc3gac5eg4b06ga369g7257ae34d732" version="1">Piercer</content>
+	<content contentuid="h46437127gee9dg4c4fga819g8f07e225dfb4" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;Once per turn, when dealing piercing damage with weapon attacks, you roll your damage dice twice and use the highest result. Also, when you score a critical hit with an attack that deals piercing damage to a creature, the target receives &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt;.</content>
+	<content contentuid="h07a52398gfd65g4cd5ga8e2ga83b223b36ca" version="1">Piercer: Reroll</content>
+	<content contentuid="h75aab57fg221cg42a2ga947gbd2bd7a42548" version="1">Once per turn, when you hit a creature with an attack that deals piercing damage, you roll your damage dice twice and use the highest result.</content>
+	<content contentuid="h9339b94fg3b2dg48ffgb28eg3493e23798f1" version="1">Piercer: Crit</content>
+	<content contentuid="h57d54171gf1bbg4332ga773gc91618ab3439" version="1">When you score a critical hit with an attack that deals piercing damage to a creature, the target receives &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt;.</content>
+
+	<content contentuid="ha88da83bg6036g4735g9fb1g29e54f1854d7" version="1">Slasher: Reduce Speed</content>
+	<content contentuid="h9afde9e2g8bddg4b2dg8ba5gd0109ca15d46" version="1">Once per turn, when you hit a creature with an attack that deals slashing damage, you reduce the speed of the target by [1] until the start of your next turn.</content>
+	<content contentuid="hf8a4ca56gf406g4e7cga4a9g934fa52d51e9" version="1">Slasher: Crit</content>
+	<content contentuid="h58338aa4g3a89g4653gb3d1gb7d0f09cbdd0" version="1">When you score a critical hit with an attack that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls.</content>
+	<content contentuid="h7ace5009g2320g433fgae6cg149344fb478c" version="1">Slasher: Reduced Speed</content>
+	<content contentuid="hd872ec09ge529g4454g90b2ga8cde3401bc7" version="1">Movement reduced by [1]</content>
+	<content contentuid="h50c9cce5g3978g4e65g9efeg53a2d418fd57" version="1">Slasher: Disadvantage</content>
+	<content contentuid="h2eee339cg8e25g4f4dgb3adgb1940b7fd68d" version="1">Disadvantage on all attack rolls.</content>
+
+	<content contentuid="h78ead07ag3db6g4258gb57agb62b53d04b78" version="1">Slasher</content>
+	<content contentuid="hd3719284g4ae8g445bga79dg946b47cca138" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;Once per turn, when you hit a creature with an attack that deals slashing damage, you reduce the speed of the target until the start of your next turn. Also, when you score a critical hit with an attack that deals slashing damage to a creature, the target has disadvantage on all attack rolls.</content>
+	<content contentuid="hb4408c84g234dg4b48gb619ge387dc3047e1" version="1">Slasher: Reduce Speed</content>
+	<content contentuid="h5d831f22gcf06g4ff5g8217ge9c812e9299f" version="1">Once per turn, when you hit a creature with an attack that deals slashing damage, you reduce the speed of the target by [1] until the start of your next turn.</content>
+	<content contentuid="hc92b1af7g20bbg48d9g9d98ge4c1bc0f05c8" version="1">Slasher: Crit</content>
+	<content contentuid="h1d08c224g71f4g417ag9ce0g05d7b18616cc" version="1">When you score a critical hit with an attack that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls.</content>
+
+
 	<content contentuid="h9e95ea41g70f8g442agb69bge228d148ed29" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;When you make crossbow attacks within melee range, the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; do not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Type="Spell" Tooltip="Projectile_PiercingShot"&gt;Piercing Shot&lt;/LSTag&gt; also inflicts &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; for twice as long.</content>
 
 	<content contentuid="h5d6398d7g570cg4786g9e24g7e279c0e85a5" version="1">You gain &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Attack"&gt;Charger: Weapon Attack&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Push"&gt;Charger: Shove&lt;/LSTag&gt; and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
@@ -67,7 +101,7 @@
 	<content contentuid="h240b078ag8ddeg4a1fgaff2g052710794fd3" version="1">You have learnt 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the wizard spell list.</content>
 
 	<content contentuid="h07a5f71bg3280g4407ga64cgd0f605d15b3b" version="1">You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
-	
+
 
 
 </contentList>

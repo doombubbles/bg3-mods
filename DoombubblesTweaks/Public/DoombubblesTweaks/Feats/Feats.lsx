@@ -152,6 +152,24 @@
           <attribute id="Selectors" type="LSString" value="SelectAbilities(6d64a5f2-c26a-4af9-8957-7370ff51f0de,1,1);SelectPassives(c3506532-36eb-4d18-823e-497a537a9619,2,Metamagic)"/>
           <attribute id="UUID" type="guid" value="9e5537b5-e1f9-4a3c-8dd5-1216cdc0d174"/>
         </node>
+        <node id="Feat">
+          <attribute id="Name" type="FixedString" value="Crusher"/>
+          <attribute id="PassivesAdded" type="LSString" value="Crusher_Move;Crusher_Crit"/>
+          <attribute id="Selectors" type="LSString" value="SelectAbilities(859878b3-9c3a-450d-a190-bc90707c9671,1,1)"/>
+          <attribute id="UUID" type="guid" value="f0e1333b-1a85-44f6-b952-0848fa96a517"/>
+        </node>
+        <node id="Feat">
+          <attribute id="Name" type="FixedString" value="Piercer"/>
+          <attribute id="PassivesAdded" type="LSString" value="Piercer_Reroll;Piercer_Crit"/>
+          <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1)"/>
+          <attribute id="UUID" type="guid" value="58b927b7-b482-4cc1-b14a-b6b9b931025b"/>
+        </node>
+        <node id="Feat">
+          <attribute id="Name" type="FixedString" value="Slasher"/>
+          <attribute id="PassivesAdded" type="LSString" value="Slasher_Reduce_Speed;Slasher_Crit"/>
+          <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1)"/>
+          <attribute id="UUID" type="guid" value="a64b152c-cfa1-4c23-8cde-9e834389fc4e"/>
+        </node>
       </children>
     </node>
   </region>
