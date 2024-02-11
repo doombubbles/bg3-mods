@@ -332,6 +332,8 @@ Adapted [Malady's Descents of the Gem Dragons Mod](https://www.nexusmods.com/bal
 - Sapphire (Thunder) gets Thunder Wave
 - Topaz (Fire) gets Command
 
+Additionally, the level 6 damage increase also applies to damage done via Attacks and Dragonborn Breath Weapons
+
 ## Feats
 
 ### Added Feats

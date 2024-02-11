@@ -13,6 +13,8 @@
 	<content contentuid="h5dc0bbccg8255g48c3g8ec3g49c03c2f5c37" version="1">Sapphire</content>
 	<content contentuid="h3a1334cbg625eg45a3g82f6g16a784da4699" version="1">Topaz</content>
 
+	<content contentuid="h6a8c943ag89f8g4ab5gaa42gb9c52f9c88d3" version="1">When you deal damage of the type associated with your draconic ancestry, you add your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage.</content>
+
 	<content contentuid="h1681b977g89a9g4805ga1ddg0c028ee7111b" version="1">Draconic Ancestry: Ruby (Force)</content>
 	<content contentuid="h4f983b2bg0e66g4323g8eb0g79596b2d938d" version="1">Draconic Ancestry: Amethyst (Psychic)</content>
 	<content contentuid="h56cd94e0gbe3cg4621g9e18g7b296485d9f5" version="1">Draconic Ancestry: Diamond (Radiant)</content>
@@ -22,17 +24,17 @@
 
 	<content contentuid="h6cb66037g350dg411agab0bgf9fab1338dd6" version="1">Elemental Affinity: Additional Force Damage</content>
 	<content contentuid="hc4bb88e2gf06fg4025gbb1cgfb992c138396" version="1">At Level 6, spells that deal Force damage are more powerful, and you can become resistant to Force damage.</content>
-	
+
 	<content contentuid="h2860ce5dgfbbfg4244g998eg6ce924688d04" version="1">Elemental Affinity: Additional Radiant Damage</content>
 	<content contentuid="h492a7b7dg19e8g400dg9b85g16a2e3f8e683" version="1">At Level 6, spells that deal Radiant damage are more powerful, and you can become resistant to Radiant damage.</content>
-	
+
 	<content contentuid="h4cedbaacgd7d5g4029ga04fg8236dc129d10" version="1">Elemental Affinity: Additional Psychic Damage</content>
 	<content contentuid="h02457d43ge292g452cgb447gdbff2fce9820" version="1">At Level 6, spells that deal Psychic damage are more powerful, and you can become resistant to Psychic damage.</content>
-	
+
 	<content contentuid="h2efa997ag8226g4e9bgb338g3c32d7f843e8" version="1">Elemental Affinity: Additional Thunder Damage</content>
 	<content contentuid="h510e7170gbf76g4befg80a4g5728cf47cf77" version="1">At Level 6, spells that deal Thunder damage are more powerful, and you can become resistant to Thunder damage.</content>
-	
+
 	<content contentuid="h43b3bd6bgb34dg4ef6gbfb9g5121bfbab3ed" version="1">Elemental Affinity: Additional Necrotic Damage</content>
 	<content contentuid="h7e261999g7ac3g452agad44g12b6e8f0ef68" version="1">At Level 6, spells that deal Necrotic damage are more powerful, and you can become resistant to Psychic damage.</content>
-	
+
 </contentList>
