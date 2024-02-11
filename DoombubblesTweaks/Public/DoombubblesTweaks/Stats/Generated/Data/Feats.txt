@@ -1,3 +1,14 @@
+new entry "GreatWeaponMaster_BonusDamage"
+type "PassiveData"
+using "GreatWeaponMaster_BonusDamage"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
+
+new entry "Sharpshooter_AllIn"
+type "PassiveData"
+using "Sharpshooter_AllIn"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
+
+
 new entry "ElementalAdept_Force"
 type "PassiveData"
 data "DisplayName" "h03d9a7ebgdfc9g453bg9b46g9255f4412b1e;2"

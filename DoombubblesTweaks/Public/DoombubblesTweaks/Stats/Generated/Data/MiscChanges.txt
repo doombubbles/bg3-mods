@@ -60,21 +60,11 @@ data "StatusEffect" ""
 data "SoundLoop" ""
 data "StatusPropertyFlags" "IgnoreResting"
 
-new entry "GreatWeaponMaster_BonusDamage"
-type "PassiveData"
-using "GreatWeaponMaster_BonusDamage"
-data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
-
-new entry "Sharpshooter_AllIn"
-type "PassiveData"
-using "Sharpshooter_AllIn"
-data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
-
 // TODO just 1 damage eventually?
 new entry "UNI_DoomHammer"
 type "Weapon"
 using "UNI_DoomHammer"
-data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(1d4, Lightning)"
+data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(1, Lightning)"
 
 new entry "Projectile_Disintegrate"
 type "SpellData"
@@ -162,3 +152,9 @@ new entry "CRE_MAG_Psychic_Githborn_Circlet"
 type "Armor"
 using "CRE_MAG_Psychic_Githborn_Circlet"
 data "PassivesOnEquip" "MAG_Githborn_Circlet_Passive;WarMagic_Githyanki"
+
+new entry "Zone_BreathWeapon_Acid"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_BreathWeapon_Acid"
+data "Cooldown" "OncePerCombat"
