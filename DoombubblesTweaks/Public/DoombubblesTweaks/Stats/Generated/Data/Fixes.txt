@@ -14,14 +14,6 @@ data "SpellSuccess" "DealDamage(1d4+max(DexterityModifier,StrengthModifier), Blu
 data "DescriptionParams" "DealDamage(1d4+max(DexterityModifier,StrengthModifier)+min(MainMeleeWeapon, 0), Bludgeoning)"
 data "TooltipDamageList" "DealDamage(1d4+max(DexterityModifier,StrengthModifier)+min(MainMeleeWeapon, 0), Bludgeoning)"
 
-
-new entry "Target_ShieldBlow_Riposte"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_ShieldBlow_Riposte"
-data "AlternativeCastTextEvents" ""
-
-
 new entry "MAG_Gish_ArcaneAcuity_Gloves"
 type "Armor"
 using "MAG_Gish_ArcaneAcuity_Gloves"
