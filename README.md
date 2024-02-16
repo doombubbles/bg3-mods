@@ -124,13 +124,13 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **A Staff of Ice and Fire** - +2 Staff. Resistance to Cold and Fire Damage. Whenever you deal Cold damage, also deal 1d4 Fire damage. Whenever you deal Fire damage, also deal 1d4 Cold damage. Effcts of Mourning Frost and Incandescent Staff. Combine using "'A Song of Ice and Fire' Review" found eaten by the Mimic in Moonrise Towers.
 
-**Thread of Uninhibited Kushigo** - New crafting component dropped by the Oprhic Monks.
+**The Physical Cloth** - Combines most of the effects of The Mighty Cloth, The Graceful Cloth, and The Sturdy Cloth. Combine using a Thread of Uninhibited Kushigo dropped by Oprheus' Honour Guard.
 
-**The Physical Cloth** - Combines most of the effects of The Mighty Cloth, The Graceful Cloth, and The Sturdy Cloth. Combine using a Thread of Uninhibited Kushigo.
+**The Mental Cloth** - Combines most of the effects of The Cunning Cloth, The Lucid Cloth, and The Splendid Cloth. Combine using a Thread of Uninhibited Kushigo dropped by Oprheus' Honour Guard.
 
-**The Mental Cloth** - Combines most of the effects of The Cunning Cloth, The Lucid Cloth, and The Splendid Cloth. Combine using a Thread of Uninhibited Kushigo.
+**The Universal Cloth** - Combines most of the effects of The Physical Cloth and The Mental Cloth. Combine using a Thread of Uninhibited Kushigo, and supply the final power up using the Orphic Ring (WIP acquiring this while siding with him).
 
-**The Universal Cloth** - Combines most of the effects of The Physical Cloth and The Mental Cloth. Combine using a Thread of Uninhibited Kushigo, and supply the final power up using the Orphic Ring (which you can now get from Orpheus w/o killing him).
+**Portent Robe** - Version of the Potent Robe that scales with Intelligence instead of Charisma. Can be created from the Potent Robe by combining using a 'Potent Rope' sold by Mattis at Last Light Inn.
 
 **Gloves of Finesse** - Lets you Sneak Attack with non-finesse weapons. Sold by Sticky Dondo at the Guildhall.
 
@@ -167,7 +167,7 @@ Each Great Wyrm Staff gives the Arcane Enchantment +1 effect, the corresponding 
 So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 <details>
-<summary>UUIDs</summary>
+<summary><h3>UUIDs</h3></summary>
 
 | Name                                     | UID                               | UUID                                   |
 | ---------------------------------------- | --------------------------------- | -------------------------------------- |
