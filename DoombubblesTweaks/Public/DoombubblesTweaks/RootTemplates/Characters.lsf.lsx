@@ -6,7 +6,7 @@
       <children>
 
         <!-- Try to add Ring of Unreasonable Force to the body -->
-        <node id="GameObjects">
+        <!-- <node id="GameObjects">
           <attribute id="AnubisConfigName" type="FixedString" value="" />
           <attribute id="CharacterVisualResourceID" type="FixedString" value="5c1a417e-a1cb-55d7-08a2-f0de33955ddc" />
           <attribute id="DefaultState" type="uint8" value="7" />
@@ -114,10 +114,10 @@
               </children>
             </node>
           </children>
-        </node>
+        </node> -->
 
         <!-- Allow getting the Orphic Ring from Orpheus -->
-        <node id="GameObjects">
+        <!-- <node id="GameObjects">
           <attribute id="AnubisConfigName" type="FixedString" value="DefaultCharacter" />
           <attribute id="Archetype" type="FixedString" value="melee_smart" />
           <attribute id="CanFight" type="bool" value="False" />
@@ -570,7 +570,7 @@
               </children>
             </node>
           </children>
-        </node>
+        </node> -->
       </children>
     </node>
   </region>

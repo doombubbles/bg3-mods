@@ -1,0 +1,10 @@
+new equipment "INT_OrpheusChains"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "UNI_OrpheusChains_Helmet"
+add equipmentgroup
+add equipment entry "UNI_OrpheusChains_Gloves"
+add equipmentgroup
+add equipment entry "UNI_OrpheusChains_Gloves"
+add equipmentgroup
+add equipment entry "MAG_Orpheus_Ring"

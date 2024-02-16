@@ -64,3 +64,12 @@ new entry "RepellingBlast"
 type "PassiveData"
 using "RepellingBlast"
 data "Conditions" "EldritchBlastCheck() and HasDamageEffectFlag(DamageFlags.Hit)"
+
+
+new entry "Shout_PactOfTheBlade_Bind"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_PactOfTheBlade_Bind"
+data "Requirements" ""
+data "UseCosts" ""
+data "RequirementConditions" "not HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))"

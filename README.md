@@ -44,6 +44,8 @@ To Disable:
 
 **Smites** - Smite Spells other than Banishing no longer require Concentration for their status effects
 
+**Vicious Mockery** - Damage increased to 1d6/2d6/3d6
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
@@ -67,6 +69,38 @@ The following spells can now be casted as rituals out of combat
 **Thunderous Smite** - Now deals an extra 1d6 damage per additional spell slot level
 
 **Witch Bolt** - Subsequent activations now also deal an additional 1d12 damage per spell slot level
+
+### New "Downcast" Effects
+
+Many spells now have "cantrip versions" in the way that Create Water does. A weaker version of a spell that unlocks alongisde your first upcasted version that is instead "downcasted" to the power of a cantrip, costing no spell slots.
+
+**Magic Missile** - Shoots 1/2/3 missiles that deal 1d4 damage.
+
+**Bless** - Targets 1 ally.
+
+**Bane** - Targets 1 enemy.
+
+**Guiding Bolt** - Deals 1d6/2d6/3d6 damage on hit.
+
+**Witch Bolt** - Deals 1d10/2d10/3d10 damage; can't be recast.
+
+**Ray of Sickness** - Deals 1d4/2d4/3d4 damage (none on save)
+
+**Thunder Wave** - Deals 1d4/2d4/3d4 damage (none on save)
+
+**Burning Hands** - Deals 1d8/2d8/3d8 damage (none on save)
+
+**Ice Knige** - Deals 1d4 piercing damage on hit and 1d4/2d4/3d4 cold damage (none on save).
+
+**Inflict Wounds** - Deals 1d10/2d10/3d10 damage on hit.
+
+**Chromatic Orb** - Deals 1d6/2d6/3d6 damage on hit.
+
+**Scorching Rays** - Shoots 1/2/3 rays that deal 2d4 damage on hit.
+
+**Melf's Acid Arrow** - Deals 1d4/2d4/3d4 damage (half on save), and 1d4 next turn on hit.
+
+**Shatter** - Deals 1d6/2d6/3d6 damage (none on save).
 
 ## New Items
 
@@ -179,6 +213,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 | Gloves of Finesse                        | `DBT_VersatileSneakAttack_Gloves` | `cb873bb4-24d6-40b3-9c1e-eb1c24a6f030` |
 | Gloves of Ultimate Skullduggery          | `DBT_Skullduggery_Gloves`         | `59c3172b-dd49-486c-a664-a71291a0face` |
 | Secrets to Skullduggery                  | `DBT_Skullduggery_Material`       | `b78f6fe6-8aa9-4b98-a46e-6185f54a2de0` |
+| Second Strike Ring                       | `DBT_ExtraAttack_Ring`            | `51de9685-296e-4a0f-9eb6-d6da320a1070` |
  
 </details>
 
@@ -332,7 +367,7 @@ Adapted [Malady's Descents of the Gem Dragons Mod](https://www.nexusmods.com/bal
 - Sapphire (Thunder) gets Thunder Wave
 - Topaz (Fire) gets Command
 
-Additionally, the level 6 damage increase also applies to damage done via Attacks and Dragonborn Breath Weapons
+Additionally, the level 6 damage increase also applies to damage done via Attacks and Dragonborn Breath Weapons (which are now Per Battle btw)
 
 ## Feats
 

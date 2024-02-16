@@ -40,3 +40,12 @@ data "TooltipDamageList" "DealDamage(LevelMapValue(D4Cantrip)+LevelMapValue(Eldr
 data "UseCosts" "ActionPoint:1"
 data "RootSpellID" ""
 data "PowerLevel" ""
+
+
+new entry "DBT_ExtraAttack_Ring"
+type "Armor"
+using "_Ring_Magic"
+data "RootTemplate" "51de9685-296e-4a0f-9eb6-d6da320a1070"
+data "Rarity" "Legendary"
+data "PassivesOnEquip" "ExtraAttack"
+data "Unique" "1"

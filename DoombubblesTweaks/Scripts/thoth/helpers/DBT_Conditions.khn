@@ -32,7 +32,6 @@ end
 function EldritchBlastCheck()
   return SpellId('Projectile_EldritchBlast')
   | SpellId('Projectile_MAG_EldritchBlast_Staff')
-  | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
 end
 
 function AttackingWithPiercingWeapon(entity)

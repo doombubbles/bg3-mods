@@ -25,7 +25,7 @@
             </node>
           </children>
         </node>
-        
+
         <node id="GameObjects">
           <attribute id="Description" type="TranslatedString" handle="h8c5552e5gbb9cg4000gb269g1ab8b2a4c03c" version="1" />
           <attribute id="DisplayName" type="TranslatedString" handle="h83e713fdg33d9g49b9ga92bg6591c8a0a574" version="1" />
@@ -47,6 +47,19 @@
             </node>
           </children>
         </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hd4ae808cg8b91g4ad0g8370g47a1dad3c58b" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h8a4deeabg6139g4f26gb4c8g963ffbeb302f" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="51de9685-296e-4a0f-9eb6-d6da320a1070" />
+          <attribute id="Name" type="LSString" value="DBT_ExtraAttack_Ring" />
+          <attribute id="ParentTemplateId" type="FixedString" value="6ebf81ac-0144-4a03-85d7-df978ea82b1a" />
+          <attribute id="Stats" type="FixedString" value="DBT_ExtraAttack_Ring" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+        </node>
+
       </children>
     </node>
   </region>
