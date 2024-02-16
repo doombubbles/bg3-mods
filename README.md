@@ -252,9 +252,9 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Necklace of Elemental Augmentation** - Now also applies to Force, Radiant, Necrotic and Psychic damage.
 
-**Circlet of Psionic Revenge** - Now also grants the Githyanki War Magic effect to Githyanki wearers.
+**Circlet of Psionic Revenge** - Now also unlocks the Psychic Rend cantrip and grants the Githyanki War Magic effect to Githyanki wearers. Rarity increased to Very Rare.
 
-**Markoheshkir**
+### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage
   - Force damage resistance, add Proficiency to Force damage
@@ -292,8 +292,6 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 **Heat Convergence** - Deals 2 damage per turn remaining instead of 1
 
 **Mystra's Benevolence** - No longer removed on respec
-
-**Polearm Master** - Bonus Attack now correctly adds Damage Modifiers
 
 ## Class / Subclass Changes
 
@@ -382,6 +380,8 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 **Slasher** - Once per turn, when you deal slashing damage to a creature, reduce its movement speed for a turn. When you crit with slashing damage, the target's attacks have disadvantage for 1 turn. Increase STR or DEX by 1.
 
 ### Feat Changes
+
+**Polearm Master** - Bonus Attack now correctly adds Damage Modifiers like Great Weapon Master
 
 **Charger** - Also increase STR or DEX by 1.
 

@@ -96,7 +96,7 @@ data "StatusType" "BOOST"
 using "ELEMENTALAFFINITY_ACID_EXTRA_DAMAGE_TECHNICAL"
 data "DisplayName" "h2860ce5dgfbbfg4244g998eg6ce924688d04"
 data "StackId" "ELEMENTALAFFINITY_RADIANT_EXTRA_DAMAGE_TECHNICAL"
-data "Boosts" "IF((IsSpell() or IsBreathWeapon() or IsAttack()) and IsDamageTypeRadiant()):DamageBonus(max(0, CharismaModifier), Radiant)"
+data "Boosts" "IF((IsSpell() or IsBreathWeapon() or IsAttack() or SpellId('Shout_RadianceOfTheDawn')) and IsDamageTypeRadiant()):DamageBonus(max(0, CharismaModifier), Radiant)"
 
 new entry "ELEMENTALAFFINITY_THUNDER_EXTRA_DAMAGE_TECHNICAL"
 type "StatusData"

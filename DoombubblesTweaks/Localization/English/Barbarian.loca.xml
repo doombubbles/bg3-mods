@@ -6,4 +6,7 @@
   <content contentuid="h0f48bc4fg55d1g4e5fg94ffge99d3a003db8" version="3">You can't cast or concentrate on spells while raging.</content>
   <content contentuid="h9a045badg24cag489bg9d6bg6014e7b4f032" version="1">Rage Recovery</content>
   <content contentuid="h8def66aegfe9eg460fgb0c8ga311484f0fa0" version="1">You regain one use of your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; and all uses after a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="hca9c925eg8a1ag4426g8616g9291d26d075f" version="1">Improved Rage Recovery</content>
+  <content contentuid="he9328baeg5662g43c5g9bf2g6dcf7ac66e1a" version="1">You now regain all your uses of &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
 </contentList>

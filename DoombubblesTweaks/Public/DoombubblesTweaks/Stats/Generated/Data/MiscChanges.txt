@@ -151,7 +151,17 @@ data "SpellFlags" "IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThres
 new entry "CRE_MAG_Psychic_Githborn_Circlet"
 type "Armor"
 using "CRE_MAG_Psychic_Githborn_Circlet"
+data "Rarity" "VeryRare"
 data "PassivesOnEquip" "MAG_Githborn_Circlet_Passive;WarMagic_Githyanki"
+data "Boosts" "UnlockSpell(Target_PsychicRend)"
+
+new entry "Target_PsychicRend"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MentalSlam_Githyanki"
+data "SpellSuccess" "ApplyStatus(MENTALSLAM,100,3);DealDamage(LevelMapValue(D8Cantrip), Psychic, Magical)"
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip),Psychic,Magical)"
+data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Psychic)"
 
 new entry "Zone_BreathWeapon_Acid"
 type "SpellData"

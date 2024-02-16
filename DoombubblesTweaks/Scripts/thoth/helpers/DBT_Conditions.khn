@@ -23,15 +23,10 @@ function GuidingBoltCheck()
   | IsSpellChildOrVariantFromContext('Projectile_GuidingBolt')
 end 
 
-function FireBoltCheck()
-  return SpellId('Projectile_FireBolt')
-  | SpellId('Projectile_MAG_FireBolt_Staff')
-  | IsSpellChildOrVariantFromContext('Projectile_FireBolt')
-end 
-
 function EldritchBlastCheck()
   return SpellId('Projectile_EldritchBlast')
   | SpellId('Projectile_MAG_EldritchBlast_Staff')
+  | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
 end
 
 function AttackingWithPiercingWeapon(entity)
