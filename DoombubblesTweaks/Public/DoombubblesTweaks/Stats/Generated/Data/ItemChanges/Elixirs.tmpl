@@ -1,0 +1,7 @@
+{{ range $item, $status := $.Elixirs }}
+new entry "{{$status}}"
+type "StatusData"
+data "StatusType" "BOOST"
+using "{{$status}}"
+// data "StatusPropertyFlags" "IgnoreResting"
+{{ end }}

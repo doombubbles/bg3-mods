@@ -92,6 +92,8 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Inflict Wounds** - Deals 1d10/2d10/3d10 damage on hit.
 
+**Arms of Hadar** - Deals 1d6/2d6/3d6 damage (none on save).
+
 **Chromatic Orb** - Deals 1d6/2d6/3d6 damage on hit.
 
 **Scorching Rays** - Shoots 1/2/3 rays that deal 2d4 damage on hit.
@@ -289,7 +291,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Heat** - Deals 1 damage per turn instead of 1d4 (this then goes to 0 if you have Fire Resistance)
 
-**Heat Convergence** - Deals 2 damage per turn remaining instead of 1
+~~**Heat Convergence** - Deals 2 damage per turn remaining instead of 1~~
 
 **Mystra's Benevolence** - No longer removed on respec
 

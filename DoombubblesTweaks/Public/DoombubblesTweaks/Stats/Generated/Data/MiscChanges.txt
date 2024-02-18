@@ -169,7 +169,6 @@ data "SpellType" "Zone"
 using "Zone_BreathWeapon_Acid"
 data "Cooldown" "OncePerCombat"
 
-
 new entry "Target_ViciousMockery"
 type "SpellData"
 data "SpellType" "Target"
@@ -177,3 +176,9 @@ using "Target_ViciousMockery"
 data "SpellSuccess" "ApplyStatus(VICIOUSMOCKERY,100,1);DealDamage(LevelMapValue(D6Cantrip),Psychic,Magical)"
 data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage((LevelMapValue(D6Cantrip))/2,Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D6Cantrip),Psychic)"
+
+new entry "DEN_SILVANUS_BLESSING"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DEN_SILVANUS_BLESSING"
+data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog"

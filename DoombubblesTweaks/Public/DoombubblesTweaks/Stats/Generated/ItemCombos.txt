@@ -211,6 +211,23 @@ new ItemCombinationResult "DBT_IntelligenceCaster_Robe_1"
 data "ResultAmount 1" "1"
 data "Result 1" "DBT_IntelligenceCaster_Robe"
 
+
+new ItemCombination "DBT_Skullduggery_Gloves"
+data "Type 1" "Object"
+data "Object 1" "DBT_Skullduggery_Material"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "MAG_Stalker_Gloves"
+data "Transform 2" "Consume"
+data "Type 3" "Object"
+data "Object 3" "DBT_VersatileSneakAttack_Gloves"
+data "Transform 3" "Consume"
+
+new ItemCombinationResult "DBT_Skullduggery_Gloves_1"
+data "ResultAmount 1" "1"
+data "Result 1" "DBT_Skullduggery_Gloves"
+
 // new ItemCombination "DBT_IntelligenceCaster_Robe"
 // data "Type 1" "Object"
 // data "Object 1" "MAG_CharismaCaster_Robe"

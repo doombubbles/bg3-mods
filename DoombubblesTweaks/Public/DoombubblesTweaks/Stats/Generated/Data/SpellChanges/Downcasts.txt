@@ -109,6 +109,18 @@ data "UseCosts" "ActionPoint:1"
 data "SpellProperties" "ApplyStatus(WET,100, 2); GROUND:CreateSurface(2,4, Water);"
 data "AreaRadius" "2"
 
+new entry "Shout_ArmsOfHadar_0"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_ArmsOfHadar_2"
+data "Level" "0"
+data "UseCosts" "ActionPoint:1"
+data "SpellSuccess" "DealDamage(LevelMapValue(D6Cantrip), Necrotic,Magical); ApplyStatus(ARMS_OF_HADAR,100,1)"
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D6Cantrip)/2,Necrotic,Magical)"
+data "DescriptionParams" "DealDamage(LevelMapValue(D6Cantrip),Necrotic)"
+data "TooltipDamageList" "DealDamage(LevelMapValue(D6Cantrip),Necrotic)"
+data "TooltipOnSave" ""
+
 
 new entry "Projectile_ChromaticOrb_Acid_0"
 type "SpellData"

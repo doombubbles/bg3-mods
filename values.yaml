@@ -109,3 +109,56 @@ AbilityScores:
   - Intelligence
   - Wisdom
   - Charisma
+
+Elixirs:
+  ALCH_Solution_Elixir_Alertness: ALCH_ELIXIR_ALERTNESS
+  ALCH_Solution_Elixir_ArcaneAcuity: ALCH_ELIXIR_ARCANE_ACUITY
+  ALCH_Solution_Elixir_Bloodlust: ALCH_ELIXIR_BLOODLUST
+  ALCH_Solution_Elixir_Barkskin: ALCH_ELIXIR_BARKSKIN
+  ALCH_Solution_Elixir_Concentration: ALCH_ELIXIR_CONCENTRATION
+  ALCH_Solution_Elixir_Criticals: ALCH_ELIXIR_CRITICALS
+  ALCH_Solution_Elixir_Darkvision: ALCH_ELIXIR_DARKVISION
+  ALCH_Solution_Elixir_Enlarge: ALCH_ELIXIR_ENLARGE
+  ALCH_Solution_Elixir_Freedom: ALCH_ELIXIR_FREEDOM
+  ALCH_Solution_Elixir_Meditation: ALCH_ELIXIR_MEDITATION
+  ALCH_Solution_Elixir_Meditation_Greater: ALCH_ELIXIR_MEDITATION_GREATER
+  ALCH_Solution_Elixir_Meditation_Superior: ALCH_ELIXIR_MEDITATION_SUPERIOR
+  ALCH_Solution_Elixir_Meditation_Supreme: ALCH_ELIXIR_MEDITATION_SUPREME
+  ALCH_Solution_Elixir_SeeInvisible: ALCH_ELIXIR_SEE_INVISIBILITY
+  OBJ_Potion_Of_Hill_Giant_Strength: POTION_OF_STRENGTH_HILL_GIANT
+  OBJ_Potion_Of_Cloud_Giant_Strength: POTION_OF_STRENGTH_CLOUD_GIANT
+  OBJ_Potion_Of_Heroism: POTION_OF_HEROISM
+  OBJ_Potion_Of_Acid_Resistance: POTION_OF_RESISTANCE_ACID
+  OBJ_Potion_Of_Poison_Resistance: POTION_OF_RESISTANCE_POISON
+  OBJ_Potion_Of_Fire_Resistance: POTION_OF_RESISTANCE_FIRE
+  OBJ_Potion_Of_Cold_Resistance: POTION_OF_RESISTANCE_COLD
+  OBJ_Potion_Of_Lightning_Resistance: POTION_OF_RESISTANCE_LIGHTNING
+  OBJ_Potion_Of_Thunder_Resistance: POTION_OF_RESISTANCE_THUNDER
+  OBJ_Potion_Of_Force_Resistance: POTION_OF_RESISTANCE_FORCE
+  OBJ_Potion_Of_Psychic_Resistance: POTION_OF_RESISTANCE_PSYCHIC
+  OBJ_Potion_Of_Necrotic_Resistance: POTION_OF_RESISTANCE_NECROTIC
+  OBJ_Potion_Of_Radiant_Resistance: POTION_OF_RESISTANCE_RADIANT
+  OBJ_BloodPotion_HalfOrc: MOO_BLOODPOTION_HALFORC
+  OBJ_BloodPotion_Human: MOO_BLOODPOTION_HUMAN
+  OBJ_BloodPotion_Halfing: MOO_BLOODPOTION_HALFLING
+  OBJ_BloodPotion_Gnome: MOO_BLOODPOTION_GNOME
+  OBJ_BloodPotion_Dwarf: MOO_BLOODPOTION_DWARF
+  OBJ_BloodPotion_Elf: MOO_BLOODPOTION_ELF
+  OBJ_BloodPotion_Tiefling: MOO_BLOODPOTION_TIEFLING
+  OBJ_BloodPotion_Githyanki: MOO_BLOODPOTION_GITHYANKI
+  OBJ_BloodPotion_Dragonborn_Fire: MOO_BLOODPOTION_DRAGONBORN_FIRE
+  OBJ_BloodPotion_Dragonborn_Ice: MOO_BLOODPOTION_DRAGONBORN_ICE
+  OBJ_BloodPotion_Dragonborn_Lightning: MOO_BLOODPOTION_DRAGONBORN_LIGHTNING
+  OBJ_BloodPotion_Dragonborn_Acid: MOO_BLOODPOTION_DRAGONBORN_ACID
+  OBJ_BloodPotion_Dragonborn_Poison: MOO_BLOODPOTION_DRAGONBORN_POISON
+  OBJ_Potion_Of_Animal_Speaking: POTION_OF_ANIMAL_SPEAKING
+Oils:
+  ALCH_Solution_Oil_AttackBuff: ALCH_OIL_ATTACKBUFF
+  ALCH_Solution_Oil_Bane: ALCH_OIL_BANE
+  ALCH_Solution_Oil_Combustion: ALCH_OIL_COMBUSTION
+  ALCH_Solution_Oil_DamageAttackBuff: ALCH_OIL_DAMAGEATTACKBUFF
+  ALCH_Solution_Oil_Frost: ALCH_OIL_FROST
+  ALCH_Solution_Oil_Reduce: ALCH_OIL_REDUCE
+  ALCH_Solution_Oil_RemoveResistanceFire: ALCH_OIL_REMOVERESISTANCEFIRE
+  ALCH_Solution_Oil_Wizardsbane: ALCH_OIL_WIZARDSBANE
+Toxins:
