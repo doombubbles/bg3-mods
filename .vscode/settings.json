@@ -22,7 +22,9 @@
         ]
     },
     "files.associations": {
-        "*.txt": "bg3"
+        "*.txt": "bg3",
+        "*.tmpl": "bg3",
+        "*.lsf.tmpl": "xml"
     },
     "editor.tabSize": 2,
     "editor.indentSize": "tabSize",

@@ -13,10 +13,12 @@
       "isBuildCommand": true,
       "presentation": {
         "reveal": "silent",
-        "showReuseMessage": false,
         "clear": true,
-        "close": true,
-      }
+        "revealProblems": "onProblem"
+      },
+      "dependsOn": [
+        "Process Templates"
+      ]
     },
     {
       "label": "Update Mod",
@@ -30,6 +32,20 @@
         "showReuseMessage": false,
         "clear": true,
         "close": true,
+      }
+    },
+    {
+      "label": "Process Templates",
+      "type": "process",
+      "command": "go",
+      "args": [
+        "run",
+        "${workspaceFolder}/ProcessTemplates.go"
+      ],
+      "presentation": {
+        "reveal": "silent",
+        "clear": true,
+        "revealProblems": "onProblem"
       }
     }
   ]

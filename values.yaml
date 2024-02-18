@@ -110,6 +110,59 @@ AbilityScores:
   - Wisdom
   - Charisma
 
+SpiritualWeapons:
+ Greataxe:
+  ItemName: h6a25ebfcg8f78g42bdgbeaagad497ba7945e
+  SpellName: h7cc6f8f5gae83g41d6gb42cg95af3508fafd
+  Parent: afbfaee7-e2cd-48e7-8c46-d2377c7320e3
+  Weapons:
+    - 6f75f3b8-4d39-497c-a512-57f4907df1d0
+    - 1472a5d2-bdba-469c-a035-d878e2505543
+    - 2055e8b6-df0b-4349-8628-b0ddd309cefe
+ Greatsword:
+  ItemName: h4efcf386g03fbg48b4gb0abg359fb22bb168
+  SpellName: ha299d071g9f94g44e9g82c0g90a1473daede
+  Parent: 1a2a58b7-4bd5-44d5-b1fe-8cd7e5b53def
+  Weapons:
+    - 5bbf311f-3273-44c2-9651-8342e253f9c1
+    - f7fb42be-73ee-42e0-bb37-930a90d9daf2
+    - ca922fa8-7deb-4fbd-94c1-b2f19d32fc2e
+ Halberd:
+  ItemName: hf38b784eg1987g4565g9595gadf2ce6d3b70
+  SpellName: ha3540fdfg6e06g4c16ga9f5g6d8dccc9b9e6
+  Parent: d1019d9d-e5ae-4601-8a63-1b33421926e1
+  Weapons:
+  - f236696f-26b6-42bf-bcfc-2e0915f2e23d
+  - 2952a469-733a-4e8d-8bf5-f7c46450b8c6
+  - aa3c3877-c059-4f84-8e75-f0771b915c76
+ Maul:
+  ItemName: he801c483g47c2g4e3eg92e8g26a5a4f9d5f3
+  SpellName: hc3fa9cc4g1eb1g4272g92c9gc3bf75d93ba1
+  Parent: 7e8ef269-0e7b-4352-8828-89c5fced943c
+  Weapons:
+  - 4efcaceb-df2a-4f89-b4c8-c0f06f6f6061
+  - 1cbccfb7-a22f-4897-87eb-acd2ad80db25
+  - 3f381a19-65a5-48b1-9dcb-f66f38a1a8c7
+  Tenacity: true
+ Spear:
+  ItemName: h05fad212g4bbeg4975g83cdgb6ac09084ed5
+  SpellName: h40f75d09g5331g4552gb492g8eab5a6569d6
+  Parent: 158e6f29-89e9-4279-8f8f-85078f047225
+  Weapons:
+    - 9a50ce4e-8183-4864-af68-bbaa0b2d9388
+    - b6b4537c-68bb-4164-b734-afa609be1e29
+    - f8b7644b-fafb-4187-8cdf-8ebbba779dfc
+  Versatile: true
+ Trident:
+  ItemName: h3f200b19g920ag4011g8385g20ad0a2ab903
+  SpellName: h7674ea66g70f6g4dd1g81aegece21ddf941f
+  Parent: 2fab5801-76b1-4669-95d9-7df76bed12dd
+  Weapons:
+  - 6490680c-d415-40dd-9386-69c7610f2ab4
+  - a00a918f-a172-40c1-a691-2325ba5c7879
+  - 6b0eb2db-b3d1-4145-aaf0-17a25d93040a
+  Versatile: true
+
 Elixirs:
   ALCH_Solution_Elixir_Alertness: ALCH_ELIXIR_ALERTNESS
   ALCH_Solution_Elixir_ArcaneAcuity: ALCH_ELIXIR_ARCANE_ACUITY

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="6" build="5" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        {{- range $weapon, $info := $.SpiritualWeapons }}
+        {{- with $info }}
+        {{ range $index, $uuid := $info.Weapons }}
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="{{$info.ItemName}}" version="1" />
+          <attribute id="MapKey" type="FixedString" value="{{$uuid}}" />
+          <attribute id="Name" type="LSString" value="DBT_SpiritualWeapon_{{$weapon}}_{{add $index 1}}" />
+          <attribute id="ParentTemplateId" type="FixedString" value="{{$info.Parent}}" />
+          <attribute id="Stats" type="FixedString" value="DBT_SpiritualWeapon_{{$weapon}}_{{add $index 1}}" />
+					<attribute id="StoryItem" type="bool" value="True" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209022" />
+          <children>
+          </children>
+        </node>
+        {{ end }}
+        {{- end }}
+        {{- end }}
+      </children>
+    </node>
+  </region>
+</save>

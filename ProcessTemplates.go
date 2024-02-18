@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"log"
 	"os"
@@ -30,6 +31,17 @@ func main() {
 	})
 	if err != nil {
 		log.Fatalf("error walking the path: %v", err)
+	}
+}
+
+func include(tmpl *template.Template) func(name string, data interface{}) (string, error) {
+	return func(name string, data interface{}) (string, error) {
+		buf := new(bytes.Buffer)
+		err := tmpl.ExecuteTemplate(buf, name, data)
+		if err != nil {
+			return "", err
+		}
+		return buf.String(), nil
 	}
 }
 
@@ -70,7 +82,12 @@ func processFile(path string, info os.FileInfo, err error, values Values) error 
 	}
 
 	// Parse and execute template
-	tmpl, err := template.New("template").Funcs(sprig.FuncMap()).Parse(text)
+	tmpl := template.New("template").Funcs(sprig.FuncMap())
+	tmpl.Funcs(template.FuncMap{
+		"include": include(tmpl),
+	})
+
+	_, err = tmpl.Parse(text)
 	if err != nil {
 		log.Printf("error parsing template %s: %v", path, err)
 		return err

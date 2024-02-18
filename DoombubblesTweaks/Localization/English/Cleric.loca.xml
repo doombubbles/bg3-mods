@@ -10,4 +10,24 @@
 
   <content contentuid="hf284be5eg9a05g4246g8821g0b60d669daa0" version="1">Say a prayer to regain one expended &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;. The level can be up to half of your highest known spell slot level (rounded up).</content>
 
+  <content contentuid="h6a25ebfcg8f78g42bdgbeaagad497ba7945e" version="1">Spiritual Greateaxe</content>
+  <content contentuid="h4efcf386g03fbg48b4gb0abg359fb22bb168" version="1">Spiritual Greatsword</content>
+  <content contentuid="hf38b784eg1987g4565g9595gadf2ce6d3b70" version="1">Spiritual Halberd</content>
+  <content contentuid="he801c483g47c2g4e3eg92e8g26a5a4f9d5f3" version="1">Spiritual Maul</content>
+  <content contentuid="h05fad212g4bbeg4975g83cdgb6ac09084ed5" version="1">Spiritual Spear</content>
+  <content contentuid="h3f200b19g920ag4011g8385g20ad0a2ab903" version="1">Spiritual Trident</content>
+
+  <content contentuid="h7cc6f8f5gae83g41d6gb42cg95af3508fafd" version="1">Equip Spiritual Weapon: Greateaxe</content>
+  <content contentuid="ha299d071g9f94g44e9g82c0g90a1473daede" version="1">Equip Spiritual Weapon: Greatsword</content>
+  <content contentuid="ha3540fdfg6e06g4c16ga9f5g6d8dccc9b9e6" version="1">Equip Spiritual Weapon: Halberd</content>
+  <content contentuid="hc3fa9cc4g1eb1g4272g92c9gc3bf75d93ba1" version="1">Equip Spiritual Weapon: Maul</content>
+  <content contentuid="h40f75d09g5331g4552gb492g8eab5a6569d6" version="1">Equip Spiritual Weapon: Spear</content>
+  <content contentuid="h7674ea66g70f6g4dd1g81aegece21ddf941f" version="1">Equip Spiritual Weapon: Trident</content>
+
+  <content contentuid="h2be358b2g5a59g4abfgb9cdg35a801bc7831" version="1">Equip an ally with a spectral weapon that deals [1]. It uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;, and its damage is magical.</content>
+
+
+  <content contentuid="h38d63efcg8aadg412dg8342g7add42bf12cb" version="1">This weapon uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;, and its damage is magical.</content>
+
+
 </contentList>
