@@ -256,6 +256,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Circlet of Psionic Revenge** - Now also unlocks the Psychic Rend cantrip and grants the Githyanki War Magic effect to Githyanki wearers. Rarity increased to Very Rare.
 
+**Daredevil Gloves** - Now give +2 to Melee Spell Attack Rolls (still +1 to Ranged)
+
 ### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage
