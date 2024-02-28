@@ -215,6 +215,11 @@ type "PassiveData"
 using "ShieldMaster_PassiveBonuses"
 data "Boosts" "Proficiency(Shields);IF(HasShieldEquipped() and not HasStatus('SG_Incapacitated')):RollBonus(SavingThrow,2,Dexterity)"
 
+new entry "MediumArmorMaster"
+type "PassiveData"
+using "MediumArmorMaster"
+data "Description" "h58179ab0gf5b0g4912g83a6gf261868791d6"
+data "Boosts" "IF(not HasStatus('MAG_EXOTIC_MATERIAL_ARMOR_TECHNICAL', context.Source)):ArmorAbilityModifierCapOverride(Hide, 10);IF(not HasStatus('MAG_EXOTIC_MATERIAL_ARMOR_TECHNICAL', context.Source)):ArmorAbilityModifierCapOverride(ChainShirt, 10);IF(not HasStatus('MAG_EXOTIC_MATERIAL_ARMOR_TECHNICAL', context.Source)):ArmorAbilityModifierCapOverride(ScaleMail, 10);IF(not HasStatus('MAG_EXOTIC_MATERIAL_ARMOR_TECHNICAL', context.Source)):ArmorAbilityModifierCapOverride(BreastPlate, 10);IF(not HasStatus('MAG_EXOTIC_MATERIAL_ARMOR_TECHNICAL', context.Source)):ArmorAbilityModifierCapOverride(HalfPlate, 10)"
 
 new entry "MagicInitiate_Bard"
 type "PassiveData"

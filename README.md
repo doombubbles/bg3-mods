@@ -421,7 +421,7 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 **Martial Adept** - Increased to 2 Superiority Dice. Also increase STR or DEX by 1.
 
-**Medium Armour Master** - Also increase STR or DEX by 1.
+**Medium Armour Master** - Now makes Dex bonus to Armour Class uncapped. Also increase STR or DEX by 1.
 
 **Mobile** - Also increase DEX by 1.
 
