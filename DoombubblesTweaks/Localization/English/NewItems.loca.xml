@@ -65,4 +65,10 @@
 	<content contentuid="h8a4deeabg6139g4f26gb4c8g963ffbeb302f" version="1">Second Strike Ring</content>
 	<content contentuid="hd4ae808cg8b91g4ad0g8370g47a1dad3c58b" version="1">You can discern a small inscription around the ring that reads "Those that want me already have me. Those that don't have me don't want me. What am I?"</content>
 
+	<content contentuid="ha7c3bc09ga4e5g46b8g8ad7gd517f47c2ef0" version="1">Necklace of Universal Augmentation</content>
+	<content contentuid="h99d0ecebg9d2fg46f7g9e52g9a5725501654" version="1">The tourmaline in this necklace is almost uncomfortably cool, chilled by a cold all its own.</content>
+	<content contentuid="h58e2489fgbf08g46e6gbb73gce3d274c10d6" version="1">Universal Augmentation</content>
+  <content contentuid="h57ebd863gf3d0g42bcg9b59g21eb20f210f5" version="1">When one of your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; deals Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, Radiant or Thunder damage, add your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt; to the damage dealt.</content>
+
+
 </contentList>

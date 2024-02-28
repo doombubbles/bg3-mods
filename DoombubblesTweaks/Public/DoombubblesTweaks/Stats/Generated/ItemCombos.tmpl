@@ -253,6 +253,19 @@ data "Result 1" "DBT_Skullduggery_Gloves"
 // data "ResultAmount 1" "1"
 // data "Result 1" "MAG_CharismaCaster_Robe"
 
+new ItemCombination "DBT_NonElemental_Amulet"
+data "Type 1" "Object"
+data "Object 1" "MAG_ElementalGish_CantripBooster_Amulet"
+data "Transform 1" "Transform"
+data "Type 2" "Object"
+data "Object 2" "OBJ_InfernalPlate_B"
+data "Combine 2" "Base"
+data "Transform 2" "Consume"
+
+new ItemCombinationResult "DBT_NonElemental_Amulet_1"
+data "ResultAmount 1" "1"
+data "Result 1" "DBT_NonElemental_Amulet"
+
 
 {{ range $element, $values := $.GreatWyrmStaves }}
 new ItemCombination "DBT_Chromatic_{{$element}}_Staff"

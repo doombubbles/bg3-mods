@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="6" build="5" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h99d0ecebg9d2fg46f7g9e52g9a5725501654" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="ha7c3bc09ga4e5g46b8g8ad7gd517f47c2ef0" version="2" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="4d0ba97e-1996-4bf3-ac17-d876ac851f65" />
+          <attribute id="Name" type="LSString" value="DBT_NonElemental_Amulet" />
+          <attribute id="ParentTemplateId" type="FixedString" value="1bbbc944-19a4-4001-8be3-edb2d8784828" />
+          <attribute id="Stats" type="FixedString" value="DBT_NonElemental_Amulet" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>

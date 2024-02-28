@@ -1,7 +1,7 @@
 # DoombubblesTweaks
 
 <details>
-<summary><h3>Install Guide</h3></summary>
+<summary>Install Guide</summary>
 
 1. Download [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases/latest/download/BG3ModManager_Latest.zip) and extract the folder to somewhere easy to access.
 2. Download this mod's [latest release](https://github.com/doombubbles/DoombubblesTweaks/releases/latest/download/DoombubblesTweaks.zip)
@@ -140,6 +140,8 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Gloves of Ultimate Skullduggery** - Combination of the Stalker Gloves and Gloves of Finesse using the "Secrets to Skullduggery" found in High Security Vault n°9 (the one with the Elegant Studded Leather)
 
+**Necklace of Universal Augmentation** - Alternate version of the Necklace of Elemental Augmentation that also applies to Force, Radiant, Necrotic and Psychic damage. Created by combining using Enriched Infernal Iron.
+
 ### Wyrmling Staves
 
 A set of staves that are counterparts to the Gold Wyrmling Staff
@@ -216,7 +218,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 | Gloves of Ultimate Skullduggery          | `DBT_Skullduggery_Gloves`         | `59c3172b-dd49-486c-a664-a71291a0face` |
 | Secrets to Skullduggery                  | `DBT_Skullduggery_Material`       | `b78f6fe6-8aa9-4b98-a46e-6185f54a2de0` |
 | Second Strike Ring                       | `DBT_ExtraAttack_Ring`            | `51de9685-296e-4a0f-9eb6-d6da320a1070` |
- 
+| Necklace of Universal Augmentation       | `DBT_NonElemental_Amulet`         | `4d0ba97e-1996-4bf3-ac17-d876ac851f65` |
+
 </details>
 
 ## Item Changes
@@ -240,7 +243,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Ring of Self Immolation** - Deals 1 damage instead of 1d4 and usable per combat instead of per short rest
 
-**Blooded Greataxe, Helmt of Grit, Cap of Wrath** - Trigger based on being less than full health, not less than 50%
+**Blooded Greataxe, Helmet of Grit, Cap of Wrath** - Trigger based on being less than full health, not less than 50%
 
 **Doom Hammer** - Deals an extra 1d4 Lightning damage but cannot be dipped
 
@@ -253,8 +256,6 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 **Unseen Menace** - Now has Finesse property
 
 **Stalker Glovess** - Additional 1d4 Force damage now applies per Sneak Attack die
-
-**Necklace of Elemental Augmentation** - Now also applies to Force, Radiant, Necrotic and Psychic damage.
 
 **Circlet of Psionic Revenge** - Now also unlocks the Psychic Rend cantrip and grants the Githyanki War Magic effect to Githyanki wearers. Rarity increased to Very Rare.
 
