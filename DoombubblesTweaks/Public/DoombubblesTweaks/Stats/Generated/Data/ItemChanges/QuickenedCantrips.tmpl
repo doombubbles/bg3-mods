@@ -54,6 +54,7 @@ data "Icon" "{{.Icon}}"
 data "StackId" "QUICKENED_{{$CANTRIP}}_AVAILABLE"
 data "RemoveEvents" "OnCombatEnded"
 data "RemoveConditions" "not Combat()"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 
 {{- if .CreateSpell }}
 

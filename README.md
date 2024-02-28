@@ -44,6 +44,8 @@ To Disable:
 
 **Vicious Mockery** - Damage increased to 1d6/2d6/3d6
 
+**Spiritual Weapon** - Has new options to equip a spiritual weapon instead of summon it. Deals an extra 1d8 damage compared to the summon, and lasts for the same 10 turns.
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
@@ -295,7 +297,22 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 ~~**Heat Convergence** - Deals 2 damage per turn remaining instead of 1~~
 
-**Mystra's Benevolence** - No longer removed on respec
+### Buff Changes
+
+Made a number of temporary unique buffs that usually only last until long rest instead last until character death like the Loviatar buff. 
+Some of the effects have been nerfed to compensate for this, however. This includes:
+
+**Bliss Spores** - Just gives a flat +1 bonus
+
+**Morninglord's Radiance** - Just gives +1 damage
+
+**Dark Lady's Grace/Awareness/Erudition** - Just gives +1 stat
+
+**Mystra's Benevelonce** - No change
+
+**Rapture** - Just gives a flat +1 bonus
+
+TODO make these last just for the rest of the Act
 
 ## Class / Subclass Changes
 
