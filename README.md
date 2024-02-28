@@ -385,6 +385,10 @@ Adapted [Malady's Descents of the Gem Dragons Mod](https://www.nexusmods.com/bal
 
 Additionally, the level 6 damage increase also applies to damage done via Attacks and Dragonborn Breath Weapons (which are now Per Battle btw)
 
+### Paladin
+
+- Improved Divine Smite is now toggleable
+
 ## Feats
 
 ### Added Feats

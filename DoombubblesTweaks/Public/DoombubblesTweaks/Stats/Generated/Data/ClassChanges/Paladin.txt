@@ -1,0 +1,4 @@
+new entry "ImprovedDivineSmite"
+type "PassiveData"
+using "ImprovedDivineSmite"
+data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
