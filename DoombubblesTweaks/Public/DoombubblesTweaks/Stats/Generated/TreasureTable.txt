@@ -48,9 +48,8 @@ CanMerge 1
 new subtable "4,1"
 object category "I_QUEST_GEM_Button",1,0,0,0,0,0,0,0
 
-new treasuretable "INT_Gith_PortalGithyanki"
-CanMerge 1
-new subtable "1,1"
+new treasuretable "INT_GishraLieutenat"
+new subtable "3,1"
 object category "I_DBT_Cloth_Material",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_SorcerousSundries_MystraVault_Treasure"
@@ -136,7 +135,7 @@ object category "I_DBT_VersatileSneakAttack_Gloves",1,0,0,0,0,0,0,0
 new treasuretable "LOW_CountingShouse_Vault9_Treasure"
 CanMerge 1
 new subtable "-1"
-object category "I_DBT_Skullduggery_Gloves",1,0,0,0,0,0,0,0
+object category "I_DBT_Skullduggery_Material",1,0,0,0,0,0,0,0
 
 new treasuretable "MOO_KethericCombat_Chest"
 CanMerge 1

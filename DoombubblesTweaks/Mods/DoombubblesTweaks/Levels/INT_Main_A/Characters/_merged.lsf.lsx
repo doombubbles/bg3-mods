@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Archetype" type="FixedString" value="monk_melee" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="1dd598a9-5326-5249-45dd-c783f18872c2" />
+					<attribute id="CombatGroupID" type="FixedString" value="7abe70d4-6084-4352-bb2e-9a31b6adeb90" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16fe8606gaadfg46aagb0a2g8bab7b7244c5" version="3" />
+					<attribute id="Equipment" type="FixedString" value="INT_GishraLieutenat" />
+					<attribute id="Faction" type="guid" value="ad62a159-c6fb-43ae-a682-63c139905874" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="1dd598a9-5326-5249-45dd-c783f18872c2-INT_GishraLieutenat_(Icon_Githyanki_Female)" />
+					<attribute id="IsBoss" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="INT_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<attribute id="MapKey" type="FixedString" value="fd75dc6e-6a8d-4d9d-8cfc-ca4ff5da53d7" />
+					<attribute id="Name" type="LSString" value="S_INT_GithRoyalGuard02" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="StartCombatRange" type="float" value="-1" />
+					<attribute id="Stats" type="FixedString" value="INT_Githyanki_Gishra_Lieutenant" />
+					<attribute id="TemplateName" type="FixedString" value="f283cbf7-2a7d-45d9-8051-2efe0f621e27" />
+					<attribute id="Title" type="TranslatedString" handle="h6f6c43c4g39aag4d30gad33gdf1989d0b54e" version="3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="INT_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="af825bfe-764c-9ec0-7a54-9007e8ab1414" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="5338c6f3-8435-cd50-4b09-083aaa71b80a" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="ac739962-b6c9-fb8d-753b-f0f40fa8e5bc" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_UnarmedStrike_Monk" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags">
+													<children>
+														<node id="Tag">
+															<attribute id="Object" type="guid" value="33aa698c-aea0-43e2-bd16-582aa718fd3e" />
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Jump_NPC" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags">
+													<children>
+														<node id="Tag">
+															<attribute id="Object" type="guid" value="33aa698c-aea0-43e2-bd16-582aa718fd3e" />
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Shout_Disengage_StepOfTheWind" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags">
+													<children>
+														<node id="Tag">
+															<attribute id="Object" type="guid" value="33aa698c-aea0-43e2-bd16-582aa718fd3e" />
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_INT_KiResonation_Punch_BonusAction_GithyankiMonk" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags">
+													<children>
+														<node id="Tag">
+															<attribute id="Object" type="guid" value="33aa698c-aea0-43e2-bd16-582aa718fd3e" />
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_INT_KiResonation_Punch_GithyankiMonk" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags">
+													<children>
+														<node id="Tag">
+															<attribute id="Object" type="guid" value="33aa698c-aea0-43e2-bd16-582aa718fd3e" />
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_INT_KiResonation_Blast_GithyankiMonk" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CRE_ASTRALPRISON_GRAVITY" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="INT_ORPHEUSGUARDS_FAKECOMBAT" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="INT_Gith_PortalGithyanki" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-165.7869 -25.74675 -1158.416" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.6054527 0 0.7958813" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="INT_GishraLieutenat" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
