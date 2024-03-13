@@ -353,6 +353,7 @@ TODO make these last just for the rest of the Act
 - Mage Hand no longer has a cooldown
 - Mage Hand Legerdemain invisibility now behaves like Greater Invisibility, and Mage Hands passively gain Pass Without A Trace
 - Magical Ambush now also lets Sneak Attack be added as reaction to Spell Attacks
+- (EXPERIMENTAL) Magical Ambush and Mage Hand Legerdemain have swapped places, to be in line with other Rogue subclasses getting their combat benefit at level 3 and their utility benefit at level 9
 - ~~Now gains spell slots like a half caster instead of a third caster~~
   - ~~Still chooses specifically Illusion and Enchantment spells at most levels~~
 
