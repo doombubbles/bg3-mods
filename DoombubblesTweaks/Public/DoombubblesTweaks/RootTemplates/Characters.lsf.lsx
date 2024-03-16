@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="6" build="5" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+          <attribute id="AiHint" type="guid" value="f76e60e1-2957-470b-8a25-efdf32475ce0" />
+          <attribute id="Archetype" type="FixedString" value="melee" />
+          <attribute id="CanClimbLadders" type="bool" value="False" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="LevelOverride" type="int32" value="8" />
+          <attribute id="MapKey" type="FixedString" value="499f0cbf-2549-4502-894f-be3cd3733ab5" />
+          <attribute id="Name" type="LSString" value="Cloaker" />
+          <attribute id="ParentTemplateId" type="FixedString" value="82f7f874-9cae-4f8f-b900-597426e7f6e3" />
+          <attribute id="Race" type="guid" value="4742d30d-97b0-4537-a78a-0a803518be54" />
+          <attribute id="SoundMovementStartEvent" type="FixedString" value="f94e8f3f-9fd4-c7f8-d5a3-60551bf53bfc" />
+          <attribute id="SoundMovementStopEvent" type="FixedString" value="c8c419d2-7105-6d56-8dab-caf07296c8f7" />
+          <attribute id="Type" type="FixedString" value="character" />
+          <attribute id="VocalAnticipationResourceID" type="FixedString" value="e669a37d-9be3-47a5-2991-b82e5033a83e" />
+          <attribute id="VocalAttackResourceID" type="FixedString" value="73209913-5795-742b-c5a4-3b486614e5b4" />
+          <attribute id="VocalAwakeResourceID" type="FixedString" value="771b33ff-3529-8183-dacc-42b2a726ea4a" />
+          <attribute id="VocalDeathResourceID" type="FixedString" value="82a6440b-a762-5aac-e59c-510d8f9fe89d" />
+          <attribute id="VocalDodgeResourceID" type="FixedString" value="94d225ad-6799-bb09-624d-77bc75ad4557" />
+          <attribute id="VocalIdle1ResourceID" type="FixedString" value="c0b72eb1-605a-baf1-c495-5437b2115dac" />
+          <attribute id="VocalIdle2ResourceID" type="FixedString" value="b3b842a4-d858-1e3c-7086-b388da6078c5" />
+          <attribute id="VocalIdleCombat1ResourceID" type="FixedString" value="3974691b-a630-cdb3-cb63-c6d481ee9e52" />
+          <attribute id="VocalInitiativeResourceID" type="FixedString" value="0a5bc30f-8166-d1d4-e126-be68b9d0cdaf" />
+          <attribute id="VocalPainResourceID" type="FixedString" value="2465cc9f-f852-d390-703e-a9c12d144200" />
+          <attribute id="VocalRebornResourceID" type="FixedString" value="771b33ff-3529-8183-dacc-42b2a726ea4a" />
+          <attribute id="VocalRecoverResourceID" type="FixedString" value="771b33ff-3529-8183-dacc-42b2a726ea4a" />
+          <attribute id="VocalShoutResourceID" type="FixedString" value="5aaf7387-8b9f-17f6-aa9d-2b379fa338e9" />
+          <attribute id="VocalSnoreResourceID" type="FixedString" value="5703429d-aac8-bdf6-3ccc-35cd7d5641f2" />
+          <attribute id="VocalVictoryResourceID" type="FixedString" value="5aaf7387-8b9f-17f6-aa9d-2b379fa338e9" />
+          <attribute id="VocalWeakResourceID" type="FixedString" value="4f0ccd82-406b-c700-e651-d22396769958" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="LocomotionParams">
+              <attribute id="MaxDashDistance" type="float" value="2" />
+              <attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="" />
+              <attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.5" />
+              <attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="" />
+              <attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.5" />
+              <attribute id="WorldClimbingSpeed" type="float" value="6" />
+            </node>
+            <node id="SkillList">
+              <children>
+                <node id="Skill">
+                  <attribute id="AIFlags" type="uint16" value="0" />
+                  <attribute id="FallbackStartRound" type="int32" value="-1" />
+                  <attribute id="LearningStrategy" type="uint8" value="0" />
+                  <attribute id="MinimumImpact" type="int32" value="0" />
+                  <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                  <attribute id="ScoreModifier" type="float" value="1" />
+                  <attribute id="Skill" type="FixedString" value="Target_Bite_Cloaker" />
+                  <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                  <attribute id="StartRound" type="int32" value="0" />
+                  <children>
+                    <node id="SourceConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                    <node id="TargetConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                  </children>
+                </node>
+                <node id="Skill">
+                  <attribute id="AIFlags" type="uint16" value="0" />
+                  <attribute id="FallbackStartRound" type="int32" value="-1" />
+                  <attribute id="LearningStrategy" type="uint8" value="0" />
+                  <attribute id="MinimumImpact" type="int32" value="0" />
+                  <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                  <attribute id="ScoreModifier" type="float" value="1" />
+                  <attribute id="Skill" type="FixedString" value="Target_Multiattack_Cloaker" />
+                  <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                  <attribute id="StartRound" type="int32" value="0" />
+                  <children>
+                    <node id="SourceConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                    <node id="TargetConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                  </children>
+                </node>
+                <node id="Skill">
+                  <attribute id="AIFlags" type="uint16" value="0" />
+                  <attribute id="FallbackStartRound" type="int32" value="-1" />
+                  <attribute id="LearningStrategy" type="uint8" value="0" />
+                  <attribute id="MinimumImpact" type="int32" value="0" />
+                  <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                  <attribute id="ScoreModifier" type="float" value="1" />
+                  <attribute id="Skill" type="FixedString" value="Projectile_Jump_Cloaker" />
+                  <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                  <attribute id="StartRound" type="int32" value="0" />
+                  <children>
+                    <node id="SourceConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                    <node id="TargetConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                  </children>
+                </node>
+                <node id="Skill">
+                  <attribute id="AIFlags" type="uint16" value="0" />
+                  <attribute id="FallbackStartRound" type="int32" value="-1" />
+                  <attribute id="LearningStrategy" type="uint8" value="0" />
+                  <attribute id="MinimumImpact" type="int32" value="0" />
+                  <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                  <attribute id="ScoreModifier" type="float" value="3" />
+                  <attribute id="Skill" type="FixedString" value="Target_Cloaker_Phantasms" />
+                  <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                  <attribute id="StartRound" type="int32" value="0" />
+                  <children>
+                    <node id="SourceConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                    <node id="TargetConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                  </children>
+                </node>
+                <node id="Skill">
+                  <attribute id="AIFlags" type="uint16" value="0" />
+                  <attribute id="FallbackStartRound" type="int32" value="-1" />
+                  <attribute id="LearningStrategy" type="uint8" value="0" />
+                  <attribute id="MinimumImpact" type="int32" value="0" />
+                  <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                  <attribute id="ScoreModifier" type="float" value="3" />
+                  <attribute id="Skill" type="FixedString" value="Target_Cloaker_Phantasms2" />
+                  <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                  <attribute id="StartRound" type="int32" value="0" />
+                  <children>
+                    <node id="SourceConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                    <node id="TargetConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                  </children>
+                </node>
+                <node id="Skill">
+                  <attribute id="AIFlags" type="uint16" value="0" />
+                  <attribute id="FallbackStartRound" type="int32" value="-1" />
+                  <attribute id="LearningStrategy" type="uint8" value="0" />
+                  <attribute id="MinimumImpact" type="int32" value="0" />
+                  <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                  <attribute id="ScoreModifier" type="float" value="3" />
+                  <attribute id="Skill" type="FixedString" value="Target_Cloaker_Phantasms3" />
+                  <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                  <attribute id="StartRound" type="int32" value="0" />
+                  <children>
+                    <node id="SourceConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                    <node id="TargetConditions">
+                      <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                      <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                      <children>
+                        <node id="Tags" />
+                      </children>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="8803503b-64e0-49dd-ba5b-0c4f2c5cc0b5" />
+                </node>
+              </children>
+            </node>
+            <node id="TradeTreasures">
+              <children>
+                <node id="TreasureItem">
+                  <attribute id="Object" type="FixedString" value="Empty" />
+                </node>
+              </children>
+            </node>
+            <node id="Treasures">
+              <children>
+                <node id="TreasureItem">
+                  <attribute id="Object" type="FixedString" value="SCL_Cloaker" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

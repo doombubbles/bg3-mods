@@ -68,7 +68,15 @@
 	<content contentuid="ha7c3bc09ga4e5g46b8g8ad7gd517f47c2ef0" version="1">Necklace of Universal Augmentation</content>
 	<content contentuid="h99d0ecebg9d2fg46f7g9e52g9a5725501654" version="1">The tourmaline in this necklace is almost uncomfortably cool, chilled by a cold all its own.</content>
 	<content contentuid="h58e2489fgbf08g46e6gbb73gce3d274c10d6" version="1">Universal Augmentation</content>
-  <content contentuid="h57ebd863gf3d0g42bcg9b59g21eb20f210f5" version="1">When one of your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; deals Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, Radiant or Thunder damage, add your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt; to the damage dealt.</content>
+	<content contentuid="h57ebd863gf3d0g42bcg9b59g21eb20f210f5" version="1">When one of your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; deals Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, Radiant or Thunder damage, add your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt; to the damage dealt.</content>
 
+	<content contentuid="h3ad981d3g3556g4a46gb5edg09c9b7c30fb5" version="1">Arcane Striker's Gloves</content>
+	<content contentuid="h7dd3e0c3ga012g4c00gbbcbg4657e5e20c0d" version="1">Fizzling barbs of evocation magic crackle from the fingertips of these gloves.</content>
+	
+	<content contentuid="h434d87e9g138bg4d30gb3c2gd8e98a9726fe" version="1">Synergetic Strikes</content>
+	<content contentuid="h9d5d4c87gec8dg4d9fgab38g7733036062dd" version="1">When you make a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;melee weapon attack&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_CHARGE"&gt;Arcane Charge&lt;/LSTag&gt;. When you make a &lt;LSTag Tooltip="MeleeSpellAttack"&gt;melee spell attack&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_SYNERGY"&gt;Arcane Synergy&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h448701c8g9584g4851g849ag2313d25a1812" version="1">Gloves of the Arcane Warrior</content>
+	<content contentuid="h00d88715gebc1g41e6gbda8gad5ba09c2209" version="1">Engraved on the gauntlets are a list of three virtues: "Unity, Duty, Destiny". However, they've since been scratched over to instead read "Synergy, Charge, Acuity".</content>
 
 </contentList>

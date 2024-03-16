@@ -142,6 +142,10 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Necklace of Universal Augmentation** - Alternate version of the Necklace of Elemental Augmentation that also applies to Force, Radiant, Necrotic and Psychic damage. Created by combining using Enriched Infernal Iron.
 
+**Arcane Striker's Gloves** - When you make a melee weapon attack, gain Arcane Charge for 2 turns. When you make a melee spell attack, gain Arcane Synergy for 2 turns. Dropped from the Cloaker in the Gauntlet of Shar.
+
+**Gloves of the Arcane Warrior** - Most of the effects of Daredevil Gloves, Gloves of Battlemage's Power and Arcane Striker's Gloves.  Combine using a "Practical Caster's Guide to Glove Making" found in the Sorcerous Vault.
+
 ### Wyrmling Staves
 
 A set of staves that are counterparts to the Gold Wyrmling Staff
@@ -219,6 +223,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 | Secrets to Skullduggery                  | `DBT_Skullduggery_Material`       | `b78f6fe6-8aa9-4b98-a46e-6185f54a2de0` |
 | Second Strike Ring                       | `DBT_ExtraAttack_Ring`            | `51de9685-296e-4a0f-9eb6-d6da320a1070` |
 | Necklace of Universal Augmentation       | `DBT_NonElemental_Amulet`         | `4d0ba97e-1996-4bf3-ac17-d876ac851f65` |
+| Arcane Striker's Gloves                  | `DBT_ArcaneCharge_Gloves`         | `41a4a4e3-5c57-47b1-a0cb-fcd9ab97a955` |
+| Gloves of the Arcane Warrior             | `DBT_Battlemage_Combo_Gloves`     | `5a8961d0-b92f-4949-b623-f2b6fde3fedd` |
 
 </details>
 
@@ -261,6 +267,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Daredevil Gloves** - Now give +2 to Melee Spell Attack Rolls (still +1 to Ranged)
 
+**Gloves of Battlemage's Power** - This item is nonfunctional in the base game, so its effect is now: Whenever you deal spell damage to an enemy within 1.5m / 5ft, gain Arcane Acuity for 2 turns. Arcane Acuity also applies its bonus to weapon attack rolls.
+
 ### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -296,7 +304,9 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Heat** - Deals 1 damage per turn instead of 1d4 (this then goes to 0 if you have Fire Resistance)
 
-~~**Heat Convergence** - Deals 2 damage per turn remaining instead of 1~~
+**Goaded** - No longer makes characters actually lose control (theoretically).
+
+**Arcane Charge** - Fixed parts of functionality to match description, and fixed parts of description to match functionality: While Threatened, affected entity adds their Proficiency Bonus to damage it deals with spells.
 
 ### Buff Changes
 

@@ -141,3 +141,7 @@ new treasuretable "MOO_KethericCombat_Chest"
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_ExtraAttack_Ring",1,0,0,0,0,0,0,0
+
+new treasuretable SCL_Cloaker
+new subtable "-1"
+object category "I_DBT_ArcaneCharge_Gloves",1,0,0,0,0,0,0,0
