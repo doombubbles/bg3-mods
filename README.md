@@ -362,6 +362,7 @@ TODO make these last just for the rest of the Act
 #### Pact of the Blade
 
 - Will only use Charisma for attack rolls if it's higher than Strength (and/or Dexterity for Finesse weapons)
+- Added the OneDnD feature of letting you choose to have your Pact Weapon deal Necrotic / Psychic / Radiant damage
 
 ### Barbarian
 
