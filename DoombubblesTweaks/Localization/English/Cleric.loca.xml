@@ -29,5 +29,8 @@
 
   <content contentuid="h38d63efcg8aadg412dg8342g7add42bf12cb" version="1">This weapon uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;, and its damage is magical.</content>
 
+  <content contentuid="hb3310c12g63bfg46bdg9c48g6becfe690799" version="1">Guided Bolt</content>
+  <content contentuid="h54a34de0gfa77g45c7ga27dgce708a2ce865" version="1">You have Advantage when casting Guiding Bolt, but it no longer applies &lt;LSTag Type="Status" Tooltip="GUIDING_BOLT"&gt;Guiding Bolt&lt;/LSTag&gt;.</content>
+
 
 </contentList>

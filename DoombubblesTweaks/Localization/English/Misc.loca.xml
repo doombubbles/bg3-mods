@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
+	
 	<content contentuid="h82022716g353cg41f9g9222g9055d5a0e72b" version="1">You are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with this Shield while using it.</content>
 	
-	<content contentuid="hb3310c12g63bfg46bdg9c48g6becfe690799" version="1">Guided Bolt</content>
-	<content contentuid="h54a34de0gfa77g45c7ga27dgce708a2ce865" version="1">You have Advantage when casting Guiding Bolt, but it no longer applies &lt;LSTag Type="Status" Tooltip="GUIDING_BOLT"&gt;Guiding Bolt&lt;/LSTag&gt;.</content>
-
 </contentList>

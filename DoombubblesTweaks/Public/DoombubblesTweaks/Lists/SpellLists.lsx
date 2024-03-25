@@ -14,6 +14,11 @@
           <attribute id="Spells" type="LSString" value="Target_Counterspell;Projectile_Fireball;Target_GlyphOfWarding;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_RemoveCurse;Projectile_AcidArrow;Target_ArcaneLock;Target_Darkness;Zone_GustOfWind;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Zone_Thunderwave;Projectile_WitchBolt"/>
           <attribute id="UUID" type="guid" value="567ddf69-ac4c-4b26-a12c-b3be07cfa53b"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Necromancy Wizard Control Undead"/>
+          <attribute id="Spells" type="LSString" value="Target_ControlUndead_Wizard"/>
+          <attribute id="UUID" type="guid" value="c2114221-2ef7-45a9-9ae6-6f1dd73ed66c"/>
+        </node>
       </children>
     </node>
   </region>

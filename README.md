@@ -269,6 +269,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Gloves of Battlemage's Power** - This item is nonfunctional in the base game, so its effect is now: Whenever you deal spell damage to an enemy within 1.5m / 5ft, gain Arcane Acuity for 2 turns. Arcane Acuity also applies its bonus to weapon attack rolls.
 
+**Ring of Elemental Infusion** - Different Elemental Infusions on your weapon can now stack together
+
 ### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -400,6 +402,19 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 ### Paladin
 
 - Improved Divine Smite is now toggleable
+
+### Wizard
+
+#### School of Necromancy
+
+- Now gains Control Undead at Level 10, castable once per Short Rest.
+
+### Bard
+
+#### College of Valour
+
+- Now grants Proficiency with Heavy Armour
+- (EXPERIMENTAL) Recipients of Combat Inspiration can now expend the buff to cast a Blade Flourish
 
 ## Feats
 

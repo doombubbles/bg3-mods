@@ -384,6 +384,31 @@
           </children>
         </node> -->
 
+
+        <!-- Necromancy Wizard Control Undead -->
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="NecromancySchool"/>
+          <attribute id="PassivesAdded" type="LSString" value="InuredtoUndeath"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(f781a25e-d288-43b4-bf5d-3d8d98846687,2,0);AddSpells(c2114221-2ef7-45a9-9ae6-6f1dd73ed66c,,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="47c4579c-ea2c-474d-9667-62edec24e8eb"/>
+          <attribute id="UUID" type="guid" value="e5d2cf1b-4d87-41e0-accc-9a680bd9b705"/>
+        </node>
+
+        <!-- Valour Bard Heavy Armour-->
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(MartialWeapons)"/>
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="ValorCollege"/>
+          <attribute id="PassivesAdded" type="LSString" value="CombatInspiration"/>
+          <attribute id="PassivesRemoved" type="LSString" value="BardicInspiration"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <!-- <attribute id="Selectors" type="LSString" value="SelectPassives(f8ebba38-932a-4c64-ae55-3df23e2f60fa,1,FightingStyle)" /> -->
+          <attribute id="TableUUID" type="guid" value="d58a305f-3ccf-440c-b069-2abd9235ac03"/>
+          <attribute id="UUID" type="guid" value="517fc6b8-bdf4-4687-a7fc-9d94b559f787"/>
+        </node>
+
       </children>
     </node>
   </region>

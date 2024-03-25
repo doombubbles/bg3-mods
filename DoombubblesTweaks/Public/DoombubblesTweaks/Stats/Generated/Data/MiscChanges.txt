@@ -144,3 +144,28 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_GISH_ARCANE_ACUITY"
 data "Boosts" "RollBonus(MeleeSpellAttack,1);RollBonus(RangedSpellAttack, 1);SpellSaveDC(1);IF(HasPassive('MAG_Gish_ArcaneAcuity_Gloves_Passive',context.Source)):RollBonus(MeleeWeaponAttack, 1);IF(HasPassive('MAG_Gish_ArcaneAcuity_Gloves_Passive',context.Source)):RollBonus(RangedWeaponAttack, 1)"
+
+
+new entry "MAG_SPELLBLADE_COLD_ENERGY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_SPELLBLADE_COLD_ENERGY"
+data "StackId" "MAG_SPELLBLADE_COLD_ENERGY"
+
+new entry "MAG_SPELLBLADE_FIRE_ENERGY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_SPELLBLADE_FIRE_ENERGY"
+data "StackId" "MAG_SPELLBLADE_FIRE_ENERGY"
+
+new entry "MAG_SPELLBLADE_LIGHTNING_ENERGY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_SPELLBLADE_LIGHTNING_ENERGY"
+data "StackId" "MAG_SPELLBLADE_LIGHTNING_ENERGY"
+
+new entry "MAG_SPELLBLADE_THUNDER_ENERGY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_SPELLBLADE_THUNDER_ENERGY"
+data "StackId" "MAG_SPELLBLADE_THUNDER_ENERGY"
