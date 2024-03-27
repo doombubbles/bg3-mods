@@ -37,4 +37,20 @@
 	<content contentuid="h43b3bd6bgb34dg4ef6gbfb9g5121bfbab3ed" version="1">Elemental Affinity: Additional Necrotic Damage</content>
 	<content contentuid="h7e261999g7ac3g452agad44g12b6e8f0ef68" version="1">At Level 6, spells that deal Necrotic damage are more powerful, and you can become resistant to Psychic damage.</content>
 
+
+	<content contentuid="h01fb6f21g2e60g4621ga8e1g95d8373a8629" version="1">Elemental Affinity: Force Resistance</content>
+	<content contentuid="hf458b4b6g5d4cg400dga4efge0035d884c1a" version="1">You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Force damage.</content>
+
+	<content contentuid="h76557d98g680bg40dagb9e4g9e63738730d3" version="1">Elemental Affinity: Radiant Resistance</content>
+	<content contentuid="h6d1123b8g773cg4fefg95d7g78d864f5f04f" version="1">You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Radiant damage.</content>
+
+	<content contentuid="h3d8da66fg0b00g4741gbaf1g11493e334a29" version="1">Elemental Affinity: Psychic Resistance</content>
+	<content contentuid="h112ca36dge0edg46d7g95d7g4792a5a8c1ed" version="1">You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Psychic damage.</content>
+
+	<content contentuid="h34c7e4c5g7455g45dbgb4abg4fd5b2e0ec99" version="1">Elemental Affinity: Necrotic Resistance</content>
+	<content contentuid="hbc23fb01gcfe3g4184ga99ag2ed192e32512" version="1">You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Necrotic damage.</content>
+
+	<content contentuid="h112a7f50g3634g4956g9148gf980f7507714" version="1">Elemental Affinity: Thunder Resistance</content>
+	<content contentuid="hc0b82ba2g4945g40f2gbb2cg15373b63fc55" version="1">You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Thunder damage.</content>
+
 </contentList>
