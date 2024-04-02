@@ -3,10 +3,14 @@
   "tasks": [
     {
       "label": "Build Project",
-      "command": "bg3-modders-unitool.exe",
+      "command": "bg3-modders-multitool.exe",
       "args": [
+        "-s",
         "./DoombubblesTweaks",
-        "${userHome}/AppData/Local/Larian Studios/Baldur's Gate 3/Mods"
+        "-d",
+        "${userHome}/AppData/Local/Larian Studios/Baldur's Gate 3/Mods/DoombubblesTweaks.pak",
+        "-c",
+        "1"
       ],
       "type": "process",
       "group": "build",
