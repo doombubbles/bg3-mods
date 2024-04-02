@@ -46,6 +46,8 @@ To Disable:
 
 **Spiritual Weapon** - Has new options to equip a spiritual weapon instead of summon it. Deals an extra 1d8 damage compared to the summon, and lasts for the same 10 turns.
 
+**Magic Weapon** - No longer requires concentration, but can only be cast on one Weapon at a time per caster (similar to Light cantrip)
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
@@ -251,7 +253,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Blooded Greataxe, Helmet of Grit, Cap of Wrath** - Trigger based on being less than full health, not less than 50%
 
-**Doom Hammer** - Deals an extra 1d4 Lightning damage but cannot be dipped
+**Doom Hammer** - Deals an extra 1 Lightning damage
 
 **Selune's Spear of Night** - Deals an extra 1d4 Radiant damage, and Moonmote can be used each Short Rest
 

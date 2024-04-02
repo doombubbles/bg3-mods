@@ -90,3 +90,15 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "GOADING_ATTACK"
 data "StatusPropertyFlags" ""
+
+new entry "Target_MagicWeapon"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MagicWeapon"
+data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee"
+
+new entry "MAGIC_WEAPON"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAGIC_WEAPON"
+data "IsUnique" 1
