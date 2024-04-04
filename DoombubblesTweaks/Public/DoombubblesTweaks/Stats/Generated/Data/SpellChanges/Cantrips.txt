@@ -31,6 +31,7 @@ data "SpellSuccess" "ApplyStatus(MENTALSLAM,100,3);DealDamage(LevelMapValue(D8Ca
 data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip),Psychic,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Psychic)"
 data "Cooldown" ""
+data "TargetConditions" "Character() and not Ally()"
 
 new entry "Target_ViciousMockery"
 type "SpellData"
