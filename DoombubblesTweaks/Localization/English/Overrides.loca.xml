@@ -35,7 +35,7 @@
   <content contentuid="h8ac40669g106dg446eg9160g19f355946fa6" version="1">Has earned Shar's approval through a demonstration of their good sense. Has a +[1] bonus to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; until death.</content>
 
   <content contentuid="h315d0a43ged8eg4d9agbcb6gd2208b3a08aa" version="1">When you inflicts a condition, gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; for 2 turns.</content>
-  <content contentuid="h757091c2gd122g4859g8bfbg875d7baf0eff" version="1">Whenever you deal spell damage to an enemy within [1], gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; for [2] turns. Your &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; also applies its bonus to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
+  <content contentuid="h757091c2gd122g4859g8bfbg875d7baf0eff" version="1">Whenever you deal damage to an enemy within [1], gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; for [2] turns.</content>
 
   <content contentuid="h6c598f54g97ceg437dg9e59g4402ae77ded1" version="1">While &lt;LSTag Type="Status" Tooltip="THREATENED"&gt;Threatened&lt;/LSTag&gt;, affected entity adds their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage they deal with spells.</content>
 	

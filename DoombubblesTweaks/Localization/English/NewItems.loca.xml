@@ -72,11 +72,18 @@
 
 	<content contentuid="h3ad981d3g3556g4a46gb5edg09c9b7c30fb5" version="1">Arcane Striker's Gloves</content>
 	<content contentuid="h7dd3e0c3ga012g4c00gbbcbg4657e5e20c0d" version="1">Fizzling barbs of evocation magic crackle from the fingertips of these gloves.</content>
-	
+
 	<content contentuid="h434d87e9g138bg4d30gb3c2gd8e98a9726fe" version="1">Synergetic Strikes</content>
 	<content contentuid="h9d5d4c87gec8dg4d9fgab38g7733036062dd" version="1">When you make a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;melee weapon attack&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_CHARGE"&gt;Arcane Charge&lt;/LSTag&gt;. When you make a &lt;LSTag Tooltip="MeleeSpellAttack"&gt;melee spell attack&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_SYNERGY"&gt;Arcane Synergy&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h448701c8g9584g4851g849ag2313d25a1812" version="1">Gloves of the Arcane Warrior</content>
 	<content contentuid="h00d88715gebc1g41e6gbda8gad5ba09c2209" version="1">Engraved on the gauntlets are a list of three virtues: "Unity, Duty, Destiny". However, they've since been scratched over to instead read "Synergy, Charge, Acuity".</content>
+
+	<content contentuid="hf285326dgae82g482cg9a89gaf39439e33a4" version="1">Ring of Arcane Ferocity</content>
+	<content contentuid="ha5a6384fg34b2g41abg9bb5geafa5678b7fd" version="1"></content>
+
+	<content contentuid="h99e3c87agea0cg4caegaf0bg91301783e978" version="1">Arcane Ferocity</content>
+	<content contentuid="h036f0904g63e4g41a0g8fd3g57216059efbd" version="1">Bonuses you receive to your spell &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; also get added to your &lt;LSTag Tooltip="AttackRoll"&gt;Weapon Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h086cfac8g9c93g43e8g9e37g06235f065f84" version="1">Your &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; also applies its bonus to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
 
 </contentList>

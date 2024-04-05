@@ -49,10 +49,3 @@ data "TooltipDamageList" "DealDamage(1d4+max(DexterityModifier,StrengthModifier)
 // data "Description" "h315d0a43ged8eg4d9agbcb6gd2208b3a08aa"
 // data "Conditions" "not StatusDoesNotInvokeOnStatusApply() and Enemy()"
 // data "StatsFunctors" "ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY, 100, 2);ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL, 100, 1)"
-
-new entry "MAG_GISH_ARCANE_CHARGE"
-type "StatusData"
-data "StatusType" "BOOST"
-using "MAG_GISH_ARCANE_CHARGE"
-data "Description" "h6c598f54g97ceg437dg9e59g4402ae77ded1"
-data "Boosts" "IF(HasStatus('FLANKED', context.Source)):DamageBonus(ProficiencyBonus)"

@@ -60,6 +60,18 @@
           <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
         </node>
 
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="ha5a6384fg34b2g41abg9bb5geafa5678b7fd" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="hf285326dgae82g482cg9a89gaf39439e33a4" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="17513023-7a67-4695-821b-9c61458f6a62" />
+          <attribute id="Name" type="LSString" value="DBT_SpellSaveAttacks_Ring" />
+          <attribute id="ParentTemplateId" type="FixedString" value="d5617279-2a10-4749-9d2d-686144178689" />
+          <attribute id="Stats" type="FixedString" value="DBT_SpellSaveAttacks_Ring" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+        </node>
+
       </children>
     </node>
   </region>

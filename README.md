@@ -148,6 +148,8 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Gloves of the Arcane Warrior** - Most of the effects of Daredevil Gloves, Gloves of Battlemage's Power and Arcane Striker's Gloves.  Combine using a "Practical Caster's Guide to Glove Making" found in the Sorcerous Vault.
 
+<!-- **Ring of Arcane Ferocity** - Your Arcane Acuity also applies its bonus to weapon attack rolls. -->
+
 ### Wyrmling Staves
 
 A set of staves that are counterparts to the Gold Wyrmling Staff
@@ -227,6 +229,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 | Necklace of Universal Augmentation       | `DBT_NonElemental_Amulet`         | `4d0ba97e-1996-4bf3-ac17-d876ac851f65` |
 | Arcane Striker's Gloves                  | `DBT_ArcaneCharge_Gloves`         | `41a4a4e3-5c57-47b1-a0cb-fcd9ab97a955` |
 | Gloves of the Arcane Warrior             | `DBT_Battlemage_Combo_Gloves`     | `5a8961d0-b92f-4949-b623-f2b6fde3fedd` |
+| Ring of Arcane Ferocity                  | `DBT_SpellSaveAttacks_Ring`       | `17513023-7a67-4695-821b-9c61458f6a62` |
 
 </details>
 
@@ -269,9 +272,11 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Daredevil Gloves** - Now give +2 to Melee Spell Attack Rolls (still +1 to Ranged)
 
-**Gloves of Battlemage's Power** - This item is nonfunctional in the base game, so its effect is now: Whenever you deal spell damage to an enemy within 1.5m / 5ft, gain Arcane Acuity for 2 turns. Arcane Acuity also applies its bonus to weapon attack rolls.
+**Gloves of Battlemage's Power** - This item is nonfunctional in the base game, so its effect is now: Whenever you deal damage to an enemy within 1.5m / 5ft, gain Arcane Acuity for 2 turns.
 
 **Ring of Elemental Infusion** - Different Elemental Infusions on your weapon can now stack together
+
+**Boots of Psionic Movement** - Now also work with Partial Ilithid Fly
 
 ### Markoheshkir
 

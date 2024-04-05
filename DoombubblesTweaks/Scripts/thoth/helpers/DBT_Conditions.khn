@@ -29,6 +29,12 @@ function EldritchBlastCheck()
   | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
 end
 
+function FlySpellCheck()
+  return SpellId('Projectile_Fly') 
+  | SpellId('Projectile_Fly_Spell')
+  | SpellId('Projectile_TAD_Levitate')
+end
+
 function AttackingWithPiercingWeapon(entity)
   entity = entity or context.Target
   local weapon = GetAttackWeapon(entity)
@@ -56,4 +62,13 @@ function AttackingWithPiercingWeapon(entity)
   end
 
   return ConditionResult(false)
+end
+
+function BonusToSpellDC(entity)
+  local entity = entity or context.Source
+  local baseAmount = 8 + entity.ProficiencyBonus + GetModifier(entity.Strength)
+
+  local dc = SourceSpellDC(baseAmount, entity, Ability.Strength)
+
+  return math.max(0, dc - baseAmount)
 end
