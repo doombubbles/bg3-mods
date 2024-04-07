@@ -11,7 +11,7 @@ new entry "Target_BolsteringMagic_Boost"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_BolsteringMagic_Boost"
-data "Cooldown" "OncePerRest"
+data "Cooldown" "OncePerShortRest"
 
 new entry "Target_BolsteringMagic_SpellSlot1"
 type "SpellData"

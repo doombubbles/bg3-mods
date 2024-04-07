@@ -339,14 +339,16 @@ TODO make these last just for the rest of the Act
 ### Cleric
 
 - Blessed Strikes - Divine Strike can now also be applied when you deal damage with a Cantrip
-- ~~Harness Divine Power - Spend Channel Divinity to recharge a Spell Slot (up to half of your highest known Spell Slot level rounded up)~~
+<!-- - ~~Harness Divine Power - Spend Channel Divinity to recharge a Spell Slot (up to half of your highest known Spell Slot level rounded up)~~ -->
 
 #### War Domain
 
-- War Priest Extra Attack is now toggleable when it triggers
+- War Priest Extra Attack is now toggleable when it triggers to make sure it never interferes with Extra Attack
 - Now chooses a Fighting Style at Level 3 from the same list as Paladins
 - Now gains "Improved War Priest" at level 5 making War Priest Charges replenish on a Short or Long Rest
-- Now gains Extra Attack at level 6 (TODO may not keep this)
+- (EXPERIMENTAL) Now gains Extra Attack at level 6
+
+These are powerful buffs, but they still don't even reach the level of base Swords Bard so it seems ok
 
 #### Trickery Domain
 
@@ -357,8 +359,8 @@ TODO make these last just for the rest of the Act
 #### Eldritch Knight
 
 - War Magic now works with Extra Attack and the cantrip and attack can be used in either order
-- ~~Now gains spell slots like a half caster instead of a third caster~~
-  - ~~Still chooses specifically Abjuration and Evocation spells at most levels~~
+<!-- - ~~Now gains spell slots like a half caster instead of a third caster~~
+  - ~~Still chooses specifically Abjuration and Evocation spells at most levels~~ -->
 
 ### Rogue
 
@@ -370,11 +372,11 @@ TODO make these last just for the rest of the Act
 #### Arcane Trickster
 
 - Mage Hand no longer has a cooldown
-- Mage Hand Legerdemain invisibility now behaves like Greater Invisibility, and Mage Hands passively gain Pass Without A Trace
-- Magical Ambush now also lets Sneak Attack be added as reaction to Spell Attacks
+<!-- - Mage Hand Legerdemain invisibility now behaves like Greater Invisibility, and Mage Hands passively gain Pass Without A Trace -->
+- Magical Ambush now also lets Sneak Attack be added as a reaction to Spell Attacks
 - (EXPERIMENTAL) Magical Ambush and Mage Hand Legerdemain have swapped places, to be in line with other Rogue subclasses getting their combat benefit at level 3 and their utility benefit at level 9
-- ~~Now gains spell slots like a half caster instead of a third caster~~
-  - ~~Still chooses specifically Illusion and Enchantment spells at most levels~~
+<!-- - ~~Now gains spell slots like a half caster instead of a third caster~~
+  - ~~Still chooses specifically Illusion and Enchantment spells at most levels~~ -->
 
 ### Warlock
 
@@ -422,6 +424,12 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 - Now grants Proficiency with Heavy Armour
 - (EXPERIMENTAL) Recipients of Combat Inspiration can now expend the buff to cast a Blade Flourish
+
+### Monk
+
+#### Way of the Four Elements
+
+Reduced the Ki Point costs of many Disciple of the Elements spells by 1
 
 ## Feats
 
@@ -478,7 +486,7 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 **Disintegrate** - Changed VFX slightly to include some more red
 
-**Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Strength
+**Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Giantt Strength
 
 **Haste Helm** - Renamed to Momentum Helm
 

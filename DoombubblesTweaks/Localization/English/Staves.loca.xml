@@ -57,30 +57,30 @@
 
 
 	<content contentuid="h1481e995gac4eg418fgba14ga022659dfa69" version="1">Quickened Fire Bolt</content>
-	<content contentuid="hf4424e51ga224g42b1ga887gb7a8a6cf1bda" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_FireBolt_Staff"&gt;Fire Bolt&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="hf4424e51ga224g42b1ga887gb7a8a6cf1bda" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_FireBolt_Staff"&gt;Fire Bolt&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 	<content contentuid="hd189af90g77aeg4fe0gb1fegec433f67ed13" version="1">Quickened Ray of Frost</content>
-	<content contentuid="hf7620d1cg3b9ag43cdg93f7g14114ca2ce25" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_RayOfFrost_Staff"&gt;Ray of Frost&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="hf7620d1cg3b9ag43cdg93f7g14114ca2ce25" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_RayOfFrost_Staff"&gt;Ray of Frost&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 	<content contentuid="ha1946d63g21c0g425dgb243g7d0ead53c91c" version="1">Quickened Eldritch Blast</content>
-	<content contentuid="hc3d2d09fg2ef5g4046g941bg0dfe8c402b77" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_EldritchBlast_Staff"&gt;Eldritch Blast&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="hc3d2d09fg2ef5g4046g941bg0dfe8c402b77" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_EldritchBlast_Staff"&gt;Eldritch Blast&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 	<content contentuid="hea065210g624fg45d9g8ebdg9f8207a30f01" version="1">Quickened Shocking Grasp</content>
-	<content contentuid="hdf6a6b78g30b4g4cb9gb427g9268768e289f" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_ShockingGrasp_Staff"&gt;Shocking Grasp&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="hdf6a6b78g30b4g4cb9gb427g9268768e289f" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_ShockingGrasp_Staff"&gt;Shocking Grasp&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 	<content contentuid="h1ad4160dgf7c3g4e43gbc9egc0b6166f2803" version="1">Quickened Sacred Flame</content>
-	<content contentuid="h5d950f73gda27g4ab4g9817g3f80df0342ac" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_SacredFlame_Staff"&gt;Sacred Flame&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="h5d950f73gda27g4ab4g9817g3f80df0342ac" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_SacredFlame_Staff"&gt;Sacred Flame&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 	<content contentuid="h104d1fdfge8f0g47f4ga721g14802cd21e10" version="1">Quickened Bone Chill</content>
-	<content contentuid="h0b5c5615g531fg4cf1g950dg2cac061aa994" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_ChillTouch_Staff"&gt;Bone Chill&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="h0b5c5615g531fg4cf1g950dg2cac061aa994" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_ChillTouch_Staff"&gt;Bone Chill&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 	<content contentuid="hda2044a5g2eb1g4ee4gb2bag25bd6dab97d4" version="1">Quickened Vicious Mockery</content>
-	<content contentuid="h6410cd2bg25b1g4982ga8b3ga606e7456c9a" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_ViciousMockery_Staff"&gt;Vicious Mockery&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="h6410cd2bg25b1g4982ga8b3ga606e7456c9a" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_ViciousMockery_Staff"&gt;Vicious Mockery&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 	<content contentuid="h04e10873g87b2g436bg8753gf148a0deb633" version="1">Quickened Acid Splash</content>
-	<content contentuid="hc777849ag6090g45d9g9c5dgdeab8d28263a" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_AcidSplash_Staff"&gt;Acid Splash&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="hc777849ag6090g45d9g9c5dgdeab8d28263a" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_AcidSplash_Staff"&gt;Acid Splash&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 	<content contentuid="h33089665ga8e8g49c2ga17bgcb83f8687de7" version="1">Quickened Poison Spray</content>
-	<content contentuid="hbc862ee9g9ab3g4c7cg80f8ge82e2bb5b466" version="1">Once per battle, you can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_PoisonSpray_Staff"&gt;Poison Spray&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="hbc862ee9g9ab3g4c7cg80f8ge82e2bb5b466" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_PoisonSpray_Staff"&gt;Poison Spray&lt;/LSTag&gt; using a bonus action instead of an action.</content>
 
 </contentList>

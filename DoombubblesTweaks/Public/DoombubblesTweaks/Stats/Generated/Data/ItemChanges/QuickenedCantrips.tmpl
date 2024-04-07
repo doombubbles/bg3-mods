@@ -13,18 +13,23 @@ data "OnRemoveFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_ON)"
 new entry "Quickened{{$cantrip}}_Toggle"
 type "PassiveData"
 using "MAG_Warlock_Quickened_Cantrips_Passive"
-data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
 data "DisplayName" "{{.DisplayName}}"
 data "Description" "{{.Description}}"
 data "Icon" "{{.Icon}}"
-data "Conditions" "SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff') and HasStatus('QUICKENED_{{$CANTRIP}}_AVAILABLE', context.Source)"
 data "StatsFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_AVAILABLE)"
 data "ToggleOnFunctors" "ApplyStatus(QUICKENED_{{$CANTRIP}}_ON, 100, -1)"
 data "ToggleOffFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_ON)"
 data "ToggleOffContext" ""
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnCreate;OnInventoryChanged"
+{{- if $.QuickenedCantripsPerCombat }}
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn"
 data "Boosts" "UnlockSpellVariant(SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff'), ModifyTooltipDescription(), ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
+data "Conditions" "SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff') and HasStatus('QUICKENED_{{$CANTRIP}}_AVAILABLE', context.Source)"
 data "BoostConditions" "HasStatus('QUICKENED_{{$CANTRIP}}_AVAILABLE',context.Source)"
+{{- else }}
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;Temporary;OncePerShortRest"
+data "Boosts" "UnlockSpellVariant(SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff'), ModifyIconGlow(), ModifyTooltipDescription(), ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
+{{- end }}
 
 new entry "Quickened{{$cantrip}}_Trigger"
 type "PassiveData"
@@ -32,10 +37,13 @@ data "Properties" "OncePerCombat;IsHidden"
 data "DisplayName" "{{.DisplayName}}"
 data "Description" "{{.Description}}"
 data "Icon" "{{.Icon}}"
+{{- if $.QuickenedCantripsPerCombat }}
 data "StatsFunctorContext" "OnTurn"
 data "Conditions" "Combat()"
 data "StatsFunctors" "ApplyStatus(QUICKENED_{{$CANTRIP}}_AVAILABLE,100,-1)"
+{{- end }}
 
+// This is just to trigger the BoostContext
 new entry "QUICKENED_{{$CANTRIP}}_ON"
 type "StatusData"
 data "StatusType" "BOOST"
