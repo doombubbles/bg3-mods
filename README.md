@@ -274,7 +274,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Circlet of Psionic Revenge** - Now also unlocks the Psychic Rend cantrip and grants the Githyanki War Magic effect to Githyanki wearers. Rarity increased to Very Rare.
 
-**Daredevil Gloves** - Now give +2 to Melee Spell Attack Rolls (still +1 to Ranged)
+**Daredevil Gloves** - Now give +2 to Melee Spell Attack Rolls (still +1 to Ranged) and doesn't specifically rely on the Threatened Condition
 
 **Gloves of Battlemage's Power** - This item is nonfunctional in the base game, so its effect is now: Whenever you deal damage to an enemy within 1.5m / 5ft, gain Arcane Acuity for 2 turns.
 

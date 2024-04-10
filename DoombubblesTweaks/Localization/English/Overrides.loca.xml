@@ -39,5 +39,6 @@
 
   <content contentuid="h6c598f54g97ceg437dg9e59g4402ae77ded1" version="1">While &lt;LSTag Type="Status" Tooltip="THREATENED"&gt;Threatened&lt;/LSTag&gt;, affected entity adds their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage they deal with spells.</content>
 	
-
+  <content contentuid="h9aa03926g6a8bg4df4g8272gcdc0bb87cdae" version="1">Your &lt;LSTag Tooltip="RangedSpellAttack"&gt;Ranged Spell Attacks&lt;/LSTag&gt; can also be made as melee spell attacks.</content>
+	
 </contentList>
