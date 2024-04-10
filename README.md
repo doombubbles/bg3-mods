@@ -48,6 +48,8 @@ To Disable:
 
 **Magic Weapon** - No longer requires concentration, but can only be cast on one Weapon at a time per caster (similar to Light cantrip)
 
+**Dethrone** - Can now be cast once per Short Rest when learned from a Scroll instead of once per Long Rest
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat

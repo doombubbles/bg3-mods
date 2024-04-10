@@ -102,3 +102,10 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "MAGIC_WEAPON"
 data "IsUnique" 1
+
+
+new entry "Projectile_CursedTome_Dethrone"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_CursedTome_Dethrone"
+data "Cooldown" "OncePerShortRest"
