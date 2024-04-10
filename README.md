@@ -100,6 +100,8 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Arms of Hadar** - Deals 1d6/2d6/3d6 damage (none on save).
 
+**Dissonant Whispers** - Deals 1d4/2d4/3d5 damage (none on save).
+
 **Chromatic Orb** - Deals 1d6/2d6/3d6 damage on hit.
 
 **Scorching Rays** - Shoots 1/2/3 rays that deal 2d4 damage on hit.
