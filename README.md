@@ -278,7 +278,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Ring of Elemental Infusion** - Different Elemental Infusions on your weapon can now stack together
 
-**Boots of Psionic Movement** - Now also work with Partial Ilithid Fly
+**Boots of Psionic Movement** - Now also work with Partial Ilithid Fly, but can only proc once per turn in combat.
 
 ### Markoheshkir
 
