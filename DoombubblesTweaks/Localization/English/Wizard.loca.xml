@@ -3,4 +3,22 @@
 
 	<content contentuid="h48661bcbg12b4g4395g910bgdf5ed7dd198a" version="1">Use magic to gain control over an undead creature. The undead will follow you around and attack your enemies.</content>
 
+	<content contentuid="h2c06cd38gcf0cg4428gaef1g1b637351026b" version="1">Heightened Conjuration</content>
+	<content contentuid="h42f88001gea32g4ca5g84beg243d39fb1f0f" version="1">Creatures have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against your Conjuration spells.</content>
+
+	<content contentuid="h8fe26d6fga58cg46e5g862dgd0d71066a55a" version="1">Major Conjurations</content>
+	<content contentuid="h1083f659g8dceg4e80ga47fg496bdf9c8d1e" version="1">The first Conjuration spell you cast each day does not expend a spell slot.</content>
+
+	<content contentuid="h759c1831g8808g4defgb5cbge5525be87267" version="1">Durable Summons</content>
+	<content contentuid="hac743f74ge283g453fg9d29g3e60e8d51c7d" version="1">Any creature you summon or create with a conjuration spell has [1].</content>
+
+	
+	<content contentuid="hbaf83906gc6b0g4901gaf7dg2b6ef08c1223" version="1">Durable Summon</content>
+	<content contentuid="h463e711cg1068g4a46g9f45gc2f6a9ade83c" version="1">Durable Summon Trigger</content>
+	<content contentuid="h326b66d3g0638g4419gbb6cg4d191cdef6ba" version="1">Durable Summon Blocked</content>
+	<content contentuid="h837b0602gb1a3g4fa0gb8edg59e41b06f548" version="1">Durable Summon Blocked Trigger</content>
+
+	<content contentuid="hf5308b39g8e2bg4684g9d91g57300a63dc51" version="1">Durable Summons Aura Blocker</content>
+	<content contentuid="h3f43bbc3g2f54g430fgba0ega4144d719fc7" version="1">Durable Summons Aura</content>
+
 </contentList>

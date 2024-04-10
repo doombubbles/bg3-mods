@@ -72,3 +72,13 @@ function BonusToSpellDC(entity)
 
   return math.max(0, dc - baseAmount)
 end
+
+function HeightenedConjurationSpellCheck()
+  return (HasStringInSpellRoll('SavingThrow') | HasStringInFunctorConditions('SavingThrow') | HasStringInSpellRoll('SpellAutoResolveOnAlly')) &
+  (HasSpellFlag(SpellFlags.Spell) & IsSpellOfSchool(SpellSchool.Conjuration))
+end
+
+
+function MajorConjurationsSpellCheck()
+  return (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot')) & SpellSchoolFilter(SpellSchool.Conjuration) & ~HasCantripSpellLevel()
+end
