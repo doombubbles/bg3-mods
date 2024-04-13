@@ -25,4 +25,7 @@
 
 	<content contentuid="h28230a43g8152g4851ga018g0811e40c2378" version="1">Choose Transmutation spells that you will be able to cast once per day without having to Concentrate on them.</content>
 
+	<content contentuid="h76c91e1cg8748g44faga476g623c5fba45fc" version="1">An Illusion? What Are You Hiding?</content>
+	<content contentuid="h0ab6e03agd653g4d82gbe99g0f9381d1f448" version="1">Whenever you are revealed after being &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;, gain [1] turns of &lt;LSTag Type="Status" Tooltip="BLUR"&gt;Blur&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="MIRROR_IMAGE"&gt;Mirror Image&lt;/LSTag&gt;.</content>
+
 </contentList>

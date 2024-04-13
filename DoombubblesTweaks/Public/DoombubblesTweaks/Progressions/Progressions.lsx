@@ -432,7 +432,7 @@
         </node>
 
         <!-- Transmutation Wizard -->
-        
+
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="Savant(Transmutation)"/>
           <attribute id="Level" type="uint8" value="2"/>
@@ -463,6 +463,28 @@
           <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(f781a25e-d288-43b4-bf5d-3d8d98846687,2,0);SelectSpells(1b621df7-bf02-474c-8df5-ca287c5f5543,2,0,TransmutationNoConcentrations,,,AlwaysPrepared);"/>
           <attribute id="TableUUID" type="guid" value="0bf3a1fe-f4e0-4bd3-aa97-ceec14afa407"/>
           <attribute id="UUID" type="guid" value="92ae1f67-47f5-4a2b-9462-98deb19da1c2"/>
+        </node>
+
+        <!-- Illusion Wizard -->
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Savant(Illusion)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="IllusionSchool"/>
+          <attribute id="PassivesAdded" type="LSString" value="ImprovedMinorIllusion;AnIllusionWhatAreYouHiding"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="a78bdb33-84e2-4943-a593-3d68f178ba32"/>
+          <attribute id="UUID" type="guid" value="2fd8466a-422d-4b10-8c13-50a01d29ec0a"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="IllusionSchool"/>
+          <attribute id="PassivesAdded" type="LSString" value="IllusorySelf"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(503ef992-4df6-468d-84ce-e1b298feed01,,,,AlwaysPrepared);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(f781a25e-d288-43b4-bf5d-3d8d98846687,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="a78bdb33-84e2-4943-a593-3d68f178ba32"/>
+          <attribute id="UUID" type="guid" value="9df5a0c5-98b2-4ede-8e18-6956064d66e2"/>
         </node>
 
       </children>

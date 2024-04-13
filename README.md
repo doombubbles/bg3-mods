@@ -48,6 +48,8 @@ To Disable:
 
 **Dethrone** - Can now be cast once per Short Rest when learned from a Scroll instead of once per Long Rest
 
+**Blur** - Can also be cast on allies
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
@@ -430,9 +432,15 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 #### School of Transmutation
 
 - At Level 2, gains Enhance Leap, Feather Fall, and Longstrider Always Prepared
-- Added "Inherent Transmutations": Special versions of Transmutation spells that you can cast without having to Concentrate on them once per Long Rest.
+- Added "Inherent Transmutations": Special versions of Transmutation spells that you can cast once per Long Rest without consuming a spell slot or having to Concentrate on them.
   - At level 6, choose 2 Inherent Transmutations, up to 2nd Level Transmutation Spells
   - At level 12, choose 2 more Inherent Transmutations, up to 3rd Level Transmutation Spells
+
+#### School of Illusion
+
+- At Level 2, gain "An Illusion? What are you Hiding?" - Whenever you are revealed after being Invisible. gain 2 turns of Blur and Mirror Image.
+- At Level 6, can cast Invisibility once per Short Rest without consumming a spell slot.
+- At Level 10, can cast Greater Invisibility once per Short Rest without consumming a spell slot.
 
 ### Bard
 
