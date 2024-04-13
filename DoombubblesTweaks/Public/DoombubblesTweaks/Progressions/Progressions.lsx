@@ -487,6 +487,19 @@
           <attribute id="UUID" type="guid" value="9df5a0c5-98b2-4ede-8e18-6956064d66e2"/>
         </node>
 
+        <!-- 4e Monk -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(KiPoint,1,0)" />
+          <attribute id="Level" type="uint8" value="5" />
+          <attribute id="Name" type="LSString" value="Monk" />
+          <attribute id="PassivesAdded" type="LSString" value="ExtraAttack_FourElements" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+          <attribute id="Selectors" type="LSString" value="AddSpells(3ba6090a-a8be-4938-82ef-40eba0083441)" />
+          <attribute id="TableUUID" type="guid" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+          <attribute id="UUID" type="guid" value="7b354b75-537f-464e-a28d-cafa72323ab9" />
+        </node>
+
       </children>
     </node>
   </region>

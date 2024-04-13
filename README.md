@@ -453,7 +453,9 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 #### Way of the Four Elements
 
-Reduced the Ki Point costs of many Disciple of the Elements spells by 1
+- Reduced the Ki Point costs of most Disciple of the Elements spells by 1.
+- Touch of the Storm and Chill of the Mountain also activate Extra Attack
+- Improved Elemental Casting has the added effect: Bonuses you receive to your Unarmed Damage also apply to damage you deal with your Disciple of the Elements spells.
 
 ## Feats
 

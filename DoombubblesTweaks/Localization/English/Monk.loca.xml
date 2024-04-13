@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	
+	<content contentuid="h9926c2b2gf6b2g42c3g8a9dg942c9072fa76" version="1">Bonuses you receive to your Unarmed Damage also apply to damage you deal with your Disciple of the Elements spells.</content>
+
+	<content contentuid="h696b30cfgacb6g4364g8102gf8a8380fbce0" version="1">Counts as an attack for the purposes of triggering &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+
+</contentList>
