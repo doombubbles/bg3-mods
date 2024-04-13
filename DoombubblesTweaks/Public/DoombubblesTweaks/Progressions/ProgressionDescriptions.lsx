@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="0" revision="9" build="322"/>
-    <region id="ProgressionDescriptions">
-        <node id="root">
-            <children>
-                <!-- <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="hac51c24fg245dg4ed6gb598g9e8c5c46a4be" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hf99c87fbgd075g42f5g9f67gc76fc0d0d3b4" version="1"/>
-                    <attribute id="Type" type="FixedString" value="LightClericSpecialChoice"/>
-                    <attribute id="UUID" type="guid" value="d9e923c1-f551-4bdf-92f7-5bb85b00b205"/>
-                </node> -->
-            </children>
+  <version major="4" minor="0" revision="9" build="322"/>
+  <region id="ProgressionDescriptions">
+    <node id="root">
+      <children>
+        <!-- <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="hac51c24fg245dg4ed6gb598g9e8c5c46a4be" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="hf99c87fbgd075g42f5g9f67gc76fc0d0d3b4" version="1"/>
+          <attribute id="Type" type="FixedString" value="LightClericSpecialChoice"/>
+          <attribute id="UUID" type="guid" value="d9e923c1-f551-4bdf-92f7-5bb85b00b205"/>
+        </node> -->
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h28230a43g8152g4851ga018g0811e40c2378" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h9bd01f54g7962g4439g9298gee9342c031b3" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="TransmutationNoConcentrations"/>
+          <attribute id="UUID" type="guid" value="d184c231-1109-4ad7-9d8a-5dd7fac6347a"/>
         </node>
-    </region>
+      </children>
+    </node>
+  </region>
 </save>

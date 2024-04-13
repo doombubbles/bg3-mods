@@ -19,6 +19,21 @@
           <attribute id="Spells" type="LSString" value="Target_ControlUndead_Wizard"/>
           <attribute id="UUID" type="guid" value="c2114221-2ef7-45a9-9ae6-6f1dd73ed66c"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Transmutation Utility Spells"/>
+          <attribute id="Spells" type="LSString" value="Target_Longstrider;Shout_FeatherFall;Target_Jump"/>
+          <attribute id="UUID" type="guid" value="4650bf6d-25eb-46e3-8ed0-ccb9b7cd24e5"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Transmutation Wizard No Concentration Spells for Level 6"/>
+          <attribute id="Spells" type="LSString" value="Shout_ExpeditiousRetreat_Trans;Target_Barkskin_Trans;Target_EnlargeReduce_Trans;Target_MagicWeapon_Trans"/>
+          <attribute id="UUID" type="guid" value="2053dee0-a14c-4cbf-b0d1-4b6e9acdbd36"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Tranmutation Wizard No Concentration Spells for Level 10"/>
+          <attribute id="Spells" type="LSString" value="Shout_ExpeditiousRetreat_Trans;Target_Barkskin_Trans;Target_EnlargeReduce_Trans;Target_MagicWeapon_Trans;Target_Fly_Trans;Target_Haste_Trans;Target_Slow_Trans;Throw_Telekinesis_Trans"/>
+          <attribute id="UUID" type="guid" value="1b621df7-bf02-474c-8df5-ca287c5f5543"/>
+        </node>
       </children>
     </node>
   </region>

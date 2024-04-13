@@ -46,8 +46,6 @@ To Disable:
 
 **Spiritual Weapon** - Has new options to equip a spiritual weapon instead of summon it. Deals an extra 1d8 damage compared to the summon, and lasts for the same 10 turns.
 
-**Magic Weapon** - No longer requires concentration, but can only be cast on one Weapon at a time per caster (similar to Light cantrip)
-
 **Dethrone** - Can now be cast once per Short Rest when learned from a Scroll instead of once per Long Rest
 
 ### New Ritual Spells
@@ -94,7 +92,7 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Burning Hands** - Deals 1d8/2d8/3d8 damage (none on save).
 
-**Ice Knige** - Deals 1d4 piercing damage on hit and 1d4/2d4/3d4 cold damage (none on save).
+**Ice Knife** - Deals 1d4 piercing damage on hit and 1d4/2d4/3d4 cold damage (none on save).
 
 **Inflict Wounds** - Deals 1d10/2d10/3d10 damage on hit.
 
@@ -428,6 +426,13 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 - At level 6 gains Heightened Conjuration, making enemies have Disadvantage on Saving Throws against your Conjuration spells
   - (Given the spell selection this is not particularly overpowered)
 - At level 10 gains Durable Summons, making creatures you summon from Conjuration Spells receive 30 Temporary Hit Points.
+
+#### School of Transmutation
+
+- At Level 2, gains Enhance Leap, Feather Fall, and Longstrider Always Prepared
+- Added "Inherent Transmutations": Special versions of Transmutation spells that you can cast without having to Concentrate on them once per Long Rest.
+  - At level 6, choose 2 Inherent Transmutations, up to 2nd Level Transmutation Spells
+  - At level 12, choose 2 more Inherent Transmutations, up to 3rd Level Transmutation Spells
 
 ### Bard
 
