@@ -6,6 +6,30 @@ using "Target_BardicInspiration_Combat"
 data "ExtraDescription" "hc8b6097fg0cb4g4cf6g96e1g866e3222fa0f"
 data "SpellProperties" "IF(not CharacterLevelGreaterThan(4)):ApplyStatus(BARDIC_INSPIRATION_COMBAT,100, -1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9)):ApplyStatus(BARDIC_INSPIRATION_COMBAT_D8,100, -1);IF(CharacterLevelGreaterThan(9)):ApplyStatus(BARDIC_INSPIRATION_COMBAT_D10,100, -1)"
 
+new entry "Interrupt_CombatInspiration_Damage"
+type "InterruptData"
+using "Interrupt_CombatInspiration_Damage"
+data "InterruptDefaultValue" "Enabled;Ask"
+
+new entry "Interrupt_CombatInspiration_Attack"
+type "InterruptData"
+using "Interrupt_CombatInspiration_Attack"
+data "InterruptDefaultValue" "Enabled;Ask"
+
+new entry "Interrupt_CombatInspiration_SavingThrow_ArmorClass"
+type "InterruptData"
+using "Interrupt_CombatInspiration_SavingThrow_ArmorClass"
+data "InterruptDefaultValue" "Enabled;Ask"
+
+new entry "CombatInspiration_Ability"
+type "PassiveData"
+using "CombatInspiration_Ability"
+data "Properties" "IsToggled;Temporary"
+
+new entry "CombatInspiration_Ability_d8"
+type "PassiveData"
+using "CombatInspiration_Ability_d8"
+data "Properties" "IsToggled;Temporary"
 
 {{- $dice := dict "1d6" "" "1d8" "_D8" "1d10" "_D10" -}}
 {{- $flourishes := list "Zone_BladeFlourish_Slashing" "Projectile_BladeFlourish_Slashing" "Target_BladeFlourish_Defensive" "Projectile_BladeFlourish_Defensive" "Target_BladeFlourish_Mobile" "Projectile_BladeFlourish_Mobile" -}}

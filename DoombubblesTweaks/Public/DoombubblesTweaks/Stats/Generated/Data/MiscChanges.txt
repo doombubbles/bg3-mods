@@ -91,6 +91,12 @@ data "StatusType" "BOOST"
 using "GOADING_ATTACK"
 data "StatusPropertyFlags" ""
 
+new entry "TAUNTED"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TAUNTED"
+data "StatusPropertyFlags" "LoseControl;OverheadOnTurn"
+
 // new entry "Target_MagicWeapon"
 // type "SpellData"
 // data "SpellType" "Target"

@@ -50,6 +50,8 @@ To Disable:
 
 **Blur** - Can also be cast on allies
 
+**Hellish Rebuke** Damage die upgraded from d10 to d12.
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
@@ -317,7 +319,7 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Heat** - Deals 1 damage per turn instead of 1d4 (this then goes to 0 if you have Fire Resistance)
 
-**Goaded** - No longer makes characters actually lose control (theoretically).
+**Goaded and Taunted** - No longer makes player characters actually lose control (theoretically), just keeps their real listed effects of Disadvantage against others.
 
 **Arcane Charge** - Fixed parts of functionality to match description, and fixed parts of description to match functionality: While Threatened, affected entity adds their Proficiency Bonus to damage it deals with spells.
 
