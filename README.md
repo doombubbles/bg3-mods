@@ -323,6 +323,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Arcane Charge** - Fixed parts of functionality to match description, and fixed parts of description to match functionality: While Threatened, affected entity adds their Proficiency Bonus to damage it deals with spells.
 
+**Dragonborn Breath Weapons** - Damage dice changes from 2d6/3d6/4d6 to 1d12/2d12/3d12, and usable per battle instead of per short rest 
+
 ### Buff Changes
 
 Made a number of temporary unique buffs that usually only last until long rest instead last until character death like the Loviatar buff. 
@@ -412,7 +414,7 @@ Adapted [Malady's Descents of the Gem Dragons Mod](https://www.nexusmods.com/bal
 - Sapphire (Thunder) gets Thunder Wave
 - Topaz (Fire) gets Command
 
-Additionally, the level 6 damage increase also applies to damage done via Attacks and Dragonborn Breath Weapons (which are now Per Battle btw)
+Additionally, the level 6 damage increase also applies to damage done via Attacks and Dragonborn Breath Weapons
 
 ### Paladin
 

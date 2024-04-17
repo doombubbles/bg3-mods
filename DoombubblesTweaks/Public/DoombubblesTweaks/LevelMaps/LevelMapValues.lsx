@@ -15,6 +15,13 @@
           <attribute id="PreferredClassUUID" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
           <attribute id="UUID" type="guid" value="c10def17-c55b-4ee7-935c-cd89b13aeceb"/>
         </node>
+        <node id="LevelMapSeries">
+          <attribute id="Level1" type="LSString" value="1d12"/>
+          <attribute id="Level6" type="LSString" value="2d12"/>
+          <attribute id="Level11" type="LSString" value="3d12"/>
+          <attribute id="Name" type="FixedString" value="BreathWeapon"/>
+          <attribute id="UUID" type="guid" value="b1341ab8-3254-4594-813d-2f3ce35f5843"/>
+        </node>
       </children>
     </node>
   </region>
