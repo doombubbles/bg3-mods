@@ -31,7 +31,7 @@
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Tranmutation Wizard 10"/>
-          <attribute id="Spells" type="LSString" value="Shout_ExpeditiousRetreat_Trans;Target_Barkskin_Trans;Target_EnlargeReduce_Trans;Target_MagicWeapon_Trans;Target_Fly_Trans;Target_Haste_Trans;Target_Slow_Trans;Throw_Telekinesis_Trans"/>
+          <attribute id="Spells" type="LSString" value="Shout_ExpeditiousRetreat_Trans;Target_Barkskin_Trans;Target_EnlargeReduce_Trans;Target_MagicWeapon_Trans;Target_Fly_Trans;Target_Haste_Trans;Target_Slow_Trans;Target_GaseousForm_Trans;Throw_Telekinesis_Trans"/>
           <attribute id="UUID" type="guid" value="1b621df7-bf02-474c-8df5-ca287c5f5543"/>
         </node>
         <node id="SpellList">

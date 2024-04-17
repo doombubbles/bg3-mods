@@ -12,7 +12,7 @@
 	<content contentuid="h759c1831g8808g4defgb5cbge5525be87267" version="1">Durable Summons</content>
 	<content contentuid="hac743f74ge283g453fg9d29g3e60e8d51c7d" version="1">Any creature you summon or create with a conjuration spell has [1].</content>
 
-	
+
 	<content contentuid="hbaf83906gc6b0g4901gaf7dg2b6ef08c1223" version="1">Durable Summon</content>
 	<content contentuid="h463e711cg1068g4a46g9f45gc2f6a9ade83c" version="1">Durable Summon Trigger</content>
 	<content contentuid="h326b66d3g0638g4419gbb6cg4d191cdef6ba" version="1">Durable Summon Blocked</content>
@@ -27,5 +27,17 @@
 
 	<content contentuid="h76c91e1cg8748g44faga476g623c5fba45fc" version="1">An Illusion? What Are You Hiding?</content>
 	<content contentuid="h0ab6e03agd653g4d82gbe99g0f9381d1f448" version="1">Whenever you are revealed after being &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;, gain [1] turns of &lt;LSTag Type="Status" Tooltip="BLUR"&gt;Blur&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="MIRROR_IMAGE"&gt;Mirror Image&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h4c20dc44g6c2ag467cgb44eg05a540677d70" version="1">Speedy Retraction</content>
+	<content contentuid="hbe21f581g0e9eg4846ga07ag7024f3a2a404" version="1">Cell Walls</content>
+	<content contentuid="h8902b0e9gbdb3g46a2ga909g34b39206c1be" version="1">Maximize/Minimize</content>
+	<content contentuid="hff5e3bceg990dg454bg90ffgaf86e9e74300" version="1">Maximize</content>
+	<content contentuid="h280efdb8g7aa6g49b6gaec0g0fc488fd803f" version="1">Minimize</content>
+	<content contentuid="h9349a987g4a30g4ef5ga028g05c54c390212" version="1">Attuned Weapon</content>
+	<content contentuid="hac05b532g78aag4b9cgae3ag0c5a2cf107d1" version="1">Apply Lift</content>
+	<content contentuid="h24b82852gf993g485bg9ee6g0e3c57e6849e" version="1">Acceleration</content>
+	<content contentuid="ha9449140g0bc1g4a0bg8d0fg31374fa3578a" version="1">Deceleration</content>
+	<content contentuid="h058b45bbgd61bg4aa0g83dbga3b13fe0b51c" version="1">Sublimation</content>
+	<content contentuid="h53508b7agdb99g44e3g9a30g401de3b20614" version="1">Remote Leverage</content>
 
 </contentList>

@@ -440,7 +440,7 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 #### School of Illusion
 
-- At Level 2, gain "An Illusion? What are you Hiding?" - Whenever you are revealed after being Invisible. gain 2 turns of Blur and Mirror Image.
+- At Level 2, gain "An Illusion? What are you Hiding?" - Whenever you are revealed after being Invisible, gain 2 turns of Blur and Mirror Image.
 - At Level 6, can cast Invisibility once per Short Rest without consumming a spell slot.
 - At Level 10, can cast Greater Invisibility once per Short Rest without consumming a spell slot.
 
