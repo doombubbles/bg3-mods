@@ -96,7 +96,7 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Burning Hands** - Deals 1d8/2d8/3d8 damage (none on save).
 
-**Ice Knife** - Deals 1d4 piercing damage on hit and 1d4/2d4/3d4 cold damage (none on save).
+**Ice Knife** - Deals 1d4 piercing damage to target and 1d4/2d4/3d4 cold damage AOE (none on save).
 
 **Inflict Wounds** - Deals 1d10/2d10/3d10 damage on hit.
 
