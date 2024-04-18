@@ -5,6 +5,7 @@ using "Projectile_MagicMissile_2"
 data "Level" "0"
 data "UseCosts" "ActionPoint:1"
 data "AmountOfTargets" "LevelMapValue(EldritchBlast)"
+data "SpellProperties" "DealDamage(1d4,Force,Magical)"
 data "DescriptionParams" "DealDamage(1d4,Force);LevelMapValue(EldritchBlast)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D4Cantrip),Force)"
 
