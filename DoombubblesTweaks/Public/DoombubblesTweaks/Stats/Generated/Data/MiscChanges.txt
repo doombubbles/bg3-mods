@@ -97,20 +97,20 @@ data "StatusType" "BOOST"
 using "TAUNTED"
 data "StatusPropertyFlags" "LoseControl;OverheadOnTurn"
 
-// new entry "Target_MagicWeapon"
-// type "SpellData"
-// data "SpellType" "Target"
-// using "Target_MagicWeapon"
-// data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee"
-
-// new entry "MAGIC_WEAPON"
-// type "StatusData"
-// data "StatusType" "BOOST"
-// using "MAGIC_WEAPON"
-// data "IsUnique" 1
-
 new entry "Projectile_CursedTome_Dethrone"
 type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_CursedTome_Dethrone"
 data "Cooldown" "OncePerShortRest"
+
+new entry "UNI_RobeOfSummer"
+type "Armor"
+using "UNI_RobeOfSummer"
+data "Boosts" "Resistance(Cold, Resistant);UnlockSpell(Target_Daylight_Enchantment_Robe)"
+
+new entry "Target_Daylight_Enchantment_Robe"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Daylight_Enchantment"
+data "UseCosts" "ActionPoint:1"
+data "Cooldown" "OncePerRestPerItem"

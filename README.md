@@ -298,6 +298,8 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 
 **Boots of Psionic Movement** - Now also work with Partial Ilithid Fly, but can only proc once per turn in combat.
 
+**Robe of Summer** - Now also lets you cast Daylight Once per Long Rest.
+
 ### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage
