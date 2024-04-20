@@ -76,6 +76,10 @@ The following spells can now be casted as rituals out of combat
 
 **Witch Bolt** - Subsequent activations now also deal an additional 1d12 damage per spell slot level
 
+**Wrathful Smite** - Now deals an extra 1d6 damage per additional spell slot level
+
+**Blinding Smite** - Now deals an extra 1d8 damage per additional spell slot level
+
 ### New "Downcast" Effects
 
 Many spells now have "cantrip versions" in the way that Create Water used to (and now does again). That is, a weaker version of a spell that is "downcasted" to the power of a cantrip, costing no spell slots. Each one become available once you're first capable of upcasting the spell.
