@@ -37,6 +37,14 @@ new treasuretable "MOO_BugBearvendor_Trade"
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_WIS_Cloth",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_CON_Longbow",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_INT_Longbow",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_WIS_Longbow",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_CHA_Longbow",1,0,0,0,0,0,0,0
 
 new treasuretable "MOO_InfernalTrader_Trade"
 CanMerge 1
@@ -142,6 +150,22 @@ CanMerge 1
 new subtable "-1"
 object category "I_DBT_ExtraAttack_Ring",1,0,0,0,0,0,0,0
 
-new treasuretable SCL_Cloaker
+new treasuretable "SCL_Cloaker"
 new subtable "-1"
 object category "I_DBT_ArcaneCharge_Gloves",1,0,0,0,0,0,0,0
+
+new treasuretable "GOB_Festivities_Trader_GoblinWeapons"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_Crossbow_Gloves",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_ZhentarimTrader_Extra"
+CanMerge 1
+new subtable "-1"
+object category "I_DBT_CON_Longbow",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_INT_Longbow",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_WIS_Longbow",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_CHA_Longbow",1,0,0,0,0,0,0,0

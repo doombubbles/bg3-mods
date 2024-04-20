@@ -57,7 +57,99 @@
             </node>
           </children>
         </node>
-        
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hd63c9696g837eg496fga957g1c65d005daa0" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="hf927fa06g4b98g42ebgb314gaac9d4a3547f" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="ee39aff5-37df-4d3b-9e1f-510866d592a9" />
+          <attribute id="Name" type="LSString" value="DBT_CON_Longbow" />
+          <attribute id="ParentTemplateId" type="FixedString" value="049173ec-636a-487e-a9ed-bfafeadf6bb7" />
+          <attribute id="Stats" type="FixedString" value="DBT_CON_Longbow" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="23a82a8b-1765-0ebd-bfef-5797963b5359" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList" />
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="he6b75596g25c1g4295g868bg932ffa42a863" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h05558ca5g4f79g4a31g8630g93cc3da5ffe2" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="7969537d-d356-4e7f-adbe-eed3d480342a" />
+          <attribute id="Name" type="LSString" value="DBT_INT_Longbow" />
+          <attribute id="ParentTemplateId" type="FixedString" value="049173ec-636a-487e-a9ed-bfafeadf6bb7" />
+          <attribute id="Stats" type="FixedString" value="DBT_INT_Longbow" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="23a82a8b-1765-0ebd-bfef-5797963b5359" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList" />
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h064109c2gcf01g4a18g9407gb1a0a590fc3e" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h5add80a8g6e02g4a1bgb210gde6888903b27" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="02a1be2d-5995-43f2-bb41-a38078812134" />
+          <attribute id="Name" type="LSString" value="DBT_WIS_Longbow" />
+          <attribute id="ParentTemplateId" type="FixedString" value="049173ec-636a-487e-a9ed-bfafeadf6bb7" />
+          <attribute id="Stats" type="FixedString" value="DBT_WIS_Longbow" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="23a82a8b-1765-0ebd-bfef-5797963b5359" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList" />
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hd6c34deegcf80g43adgac9eg0097ad3b0193" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h6a82c416g2480g4276gbb0dg29dae0751db6" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="e911731f-6168-43d4-a92d-1d7edff23afa" />
+          <attribute id="Name" type="LSString" value="DBT_CHA_Longbow" />
+          <attribute id="ParentTemplateId" type="FixedString" value="049173ec-636a-487e-a9ed-bfafeadf6bb7" />
+          <attribute id="Stats" type="FixedString" value="DBT_CHA_Longbow" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="23a82a8b-1765-0ebd-bfef-5797963b5359" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList" />
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
       </children>
     </node>
   </region>

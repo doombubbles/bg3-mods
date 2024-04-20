@@ -161,6 +161,21 @@
 					</children>
 				</node>
 
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h524e0b9dgd904g4ab9ga59ag111128790a4e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hec0d4caagb582g4ee1g8db6g7ad832659561" version="2" />
+					<attribute id="Icon" type="FixedString" value="Generated_UNI_ARM_OfArchery_Gloves_Magic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bfc2a856-2f43-4e84-9225-43b9f3211c55" />
+					<attribute id="Name" type="LSString" value="DBT_Crossbow_Gloves" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6d84b9e5-e9e4-477c-8d5b-a3f232a4415a" />
+					<attribute id="Stats" type="FixedString" value="DBT_Crossbow_Gloves" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+					</children>
+				</node>
+
       </children>
     </node>
   </region>

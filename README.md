@@ -154,6 +154,10 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Gloves of the Arcane Warrior** - Most of the effects of Daredevil Gloves, Gloves of Battlemage's Power and Arcane Striker's Gloves.  Combine using a "Practical Caster's Guide to Glove Making" found in the Sorcerous Vault.
 
+**Gloves of Crossbowmanship** - You gain Proficiency with heavy and hand crossbows. In addition, your ranged weapon attacks deal an additional 2 damage. Sold by Grat the Trader.
+
+**Ironheart Bow, Mindweave Bow, Owlfeather Bow, Silvertongue Bow** - Variants of the Titanstring Bow that use CON/INT/WIS/CHA. Also sold by Brem in the Zhentarim Hideout or Lann Tarv in Moonrise Towers.
+
 <!-- **Ring of Arcane Ferocity** - Your Arcane Acuity also applies its bonus to weapon attack rolls. -->
 
 ### Wyrmling Staves
@@ -236,6 +240,12 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 | Arcane Striker's Gloves                  | `DBT_ArcaneCharge_Gloves`         | `41a4a4e3-5c57-47b1-a0cb-fcd9ab97a955` |
 | Gloves of the Arcane Warrior             | `DBT_Battlemage_Combo_Gloves`     | `5a8961d0-b92f-4949-b623-f2b6fde3fedd` |
 | Ring of Arcane Ferocity                  | `DBT_SpellSaveAttacks_Ring`       | `17513023-7a67-4695-821b-9c61458f6a62` |
+| Gloves of Crossbowmanship                | `DBT_Crossbow_Gloves`             | `bfc2a856-2f43-4e84-9225-43b9f3211c55` |
+| Ironheart Bow                            | `DBT_CON_Longbow`                 | `ee39aff5-37df-4d3b-9e1f-510866d592a9` |
+| Mindweave Bow                            | `DBT_INT_Longbow`                 | `7969537d-d356-4e7f-adbe-eed3d480342a` |
+| Owlfeather Bow                           | `DBT_WIS_Longbow`                 | `02a1be2d-5995-43f2-bb41-a38078812134` |
+| Silvertongue Bow                         | `DBT_CHA_Longbow`                 | `e911731f-6168-43d4-a92d-1d7edff23afa` |
+
 
 </details>
 
