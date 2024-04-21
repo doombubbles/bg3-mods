@@ -150,6 +150,161 @@
           </children>
         </node>
 
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h4aef7804g070ag4492g83d3g5bce5273a794" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h40b1517ag50dfg4311gb651gdd68325ecea1" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="e4ae9741-466a-442e-9f1d-0e6f36ed4eee" />
+          <attribute id="Name" type="LSString" value="DBT_SearingSmite_Quarterstaff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+          <attribute id="Stats" type="FixedString" value="DBT_SearingSmite_Quarterstaff" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+          <attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hf46a6570g2526g4df1g8866g58cc24fa9221" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="hb6e65990ga8e8g4c4eg9ab5gbb618e678b27" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="e0294ac8-1353-4520-8451-77f5e6c2dae1" />
+          <attribute id="Name" type="LSString" value="DBT_WrathfulSmite_Quarterstaff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+          <attribute id="Stats" type="FixedString" value="DBT_WrathfulSmite_Quarterstaff" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+          <attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="UND_NERE_SWORD_PSYCHIC_DAMAGE" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="ha837a6b3geb28g4ae0gab67g52c84b2fa5dc" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="hd4c178degee5ag40b6gbfa1gbd7a70afcce0" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="2621d6e4-ed12-450d-98a3-2430a2e8347f" />
+          <attribute id="Name" type="LSString" value="DBT_BrandingSmite_Quarterstaff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+          <attribute id="Stats" type="FixedString" value="DBT_BrandingSmite_Quarterstaff" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+          <attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_RADIANT_RADIANCE_WEAPON" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hf46a6570g2526g4df1g8866g58cc24fa9221" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="hb6e65990ga8e8g4c4eg9ab5gbb618e678b27" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="9a36b754-0cd4-4197-985d-f0bc63a4db54" />
+          <attribute id="MapKey" type="FixedString" value="9a36b754-0cd4-4197-985d-f0bc63a4db54" />
+          <attribute id="Name" type="LSString" value="DBT_BlindingSmite_Quarterstaff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+          <attribute id="Stats" type="FixedString" value="DBT_BlindingSmite_Quarterstaff" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+          <attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_RADIANT_RADIANCE_WEAPON" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hb5958cbeg5789g44ebg80e2g3ef6481dd4a4" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h2da3bf6bge538g45fcgae64g7957b4aa9450" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="9982506f-5b8a-48ca-a88f-f4ab25142f62" />
+          <attribute id="Name" type="LSString" value="DBT_BanishingSmite_Quarterstaff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+          <attribute id="Stats" type="FixedString" value="DBT_BanishingSmite_Quarterstaff" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+          <attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_FORCE_FORCE_WEAPON_LESSER" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
       </children>
     </node>
   </region>

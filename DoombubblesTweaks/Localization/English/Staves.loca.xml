@@ -54,7 +54,8 @@
 	<content contentuid="hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Your opponents will fall victim to one of the classic blunders: not developing an immunity to poison.</content>
 
 
-
+	<content contentuid="hef70caa4g3060g48bbga1d0gd50c4c0569fa" version="1">Once per combat, your staff will allow you to cast this using a bonus action instead of an action.</content>
+	<content contentuid="hd86b0644ged20g4a2bgbfb6g123c2fbb6757" version="1">Once per short rest, your staff will allow you to cast this using a bonus action instead of an action.</content>
 
 	<content contentuid="h1481e995gac4eg418fgba14ga022659dfa69" version="1">Quickened Fire Bolt</content>
 	<content contentuid="hf4424e51ga224g42b1ga887gb7a8a6cf1bda" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_FireBolt_Staff"&gt;Fire Bolt&lt;/LSTag&gt; using a bonus action instead of an action.</content>

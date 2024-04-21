@@ -29,6 +29,7 @@
     "editor.tabSize": 2,
     "editor.indentSize": "tabSize",
     "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
     "explorer.fileNesting.patterns": {
         "*.tmpl": "${capture}.txt,${capture}.xml,${capture}.lsx"
     }

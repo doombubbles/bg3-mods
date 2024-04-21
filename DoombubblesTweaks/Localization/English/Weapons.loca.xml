@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+	<content contentuid="h4a60dc65g184bg4717g81bbgf864c3c3f01c" version="1">A Staff of Ice and Fire</content>
+	<content contentuid="h166b0176gd936g49cegae93gb087f1b7ce6d" version="1">An intrinic and exquisite staff that you can tell is immaculately crafted. Unfortunately, the craftsmenship at the end of the staff seems sloppier and unfinished compared to the rest of it.</content>
+	<content contentuid="h6ade97a1g6adfg434eg9887g064a86ed4743" version="1">Ice and Fire</content>
+	<content contentuid="hb4236fa8gac8ag47fcga4bcgab41f64d73a7" version="1">When dealing Cold damage, the wielder deals an additional [1]. When dealing Fire damage, the wielder deals an additional [2].</content>
+
+	<content contentuid="hf927fa06g4b98g42ebgb314gaac9d4a3547f" version="1">Ironheart Bow</content>
+	<content contentuid="hd63c9696g837eg496fga957g1c65d005daa0" version="1">The commonly held belief that only agility and finesse are key to archery neglects the sheer endurance required. It takes a resilient constitution to maintain perfect form through long, grueling battles.</content>
+	<content contentuid="hf2932926g6e5ag4d52gbd9cg6c8ffc6d5143" version="1">Ironheart Weapon</content>
+	<content contentuid="h977a9f5aga534g478cga6d3gd92a59ac4ded" version="1">This weapon deals additional damage equal to your Constitution &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h05558ca5g4f79g4a31g8630g93cc3da5ffe2" version="1">Mindweave Bow</content>
+	<content contentuid="he6b75596g25c1g4295g868bg932ffa42a863" version="1">The commonly held belief that archers rely solely on physical prowess is misguided. It takes a keen mind to calculate the perfect trajectory and adjust for wind and distance.</content>
+	<content contentuid="h224aade8g55ccg4628gbf61ge92b254a313b" version="1">Mindweave Weapon</content>
+	<content contentuid="h7f2a7ceeg54a3g457cga345g892a075ed857" version="1">This weapon deals additional damage equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h5add80a8g6e02g4a1bgb210gde6888903b27" version="1">Owlfeather Bow</content>
+	<content contentuid="h064109c2gcf01g4a18g9407gb1a0a590fc3e" version="1">The commonly held belief that speed and strength define the ultimate archer overlooks the true essence of mastery. It takes profound insight and patience to see the unseen, knowing when and where to strike.</content>
+	<content contentuid="h8b3ea709g4e64g4a74gbbc2g747fd4a8880f" version="1">Owlfeather Weapon</content>
+	<content contentuid="hf3332d00ga31bg4227g97d3g43cb193cc0e6" version="1">This weapon deals additional damage equal to your Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h6a82c416g2480g4276gbb0dg29dae0751db6" version="1">Silvertongue Bow</content>
+	<content contentuid="hd6c34deegcf80g43adgac9eg0097ad3b0193" version="1">The commonly held belief that charisma holds no place in battle is shortsighted. It takes a captivating presence to lead and inspire, turning the tide of conflict with a single shot.</content>
+	<content contentuid="hbc90f9ccgf8bag442ag8632gb1884e773482" version="1">Silvertongue Weapon</content>
+	<content contentuid="h47ebf91ege6bag4b78gaa19g383c3c62671f" version="1">This weapon deals additional damage equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h40b1517ag50dfg4311gb651gdd68325ecea1" version="1">Cataclysm</content>
+	<content contentuid="h4aef7804g070ag4492g83d3g5bce5273a794" version="1">Carved in circles across the knob of the staff are different words for fire. Gnomish, Sylvan, Elvish, Celestial, even the Primordial tongue - all of these and more fuse together to form the fireword.</content>
+
+	<content contentuid="hb6e65990ga8e8g4c4eg9ab5gbb618e678b27" version="1">Calamity</content>
+	<content contentuid="hf46a6570g2526g4df1g8866g58cc24fa9221" version="1">Carved in circles across the knob of the staff are different words for wrath. Gnomish, Sylvan, Elvish, Celestial, even the Primordial tongue - all of these and more fuse together to form the wrathword.</content>
+
+	<content contentuid="hd4c178degee5ag40b6gbfa1gbd7a70afcce0" version="1">Coruscate</content>
+	<content contentuid="ha837a6b3geb28g4ae0gab67g52c84b2fa5dc" version="1">Carved in circles across the knob of the staff are different words for light. Gnomish, Sylvan, Elvish, Celestial, even the Primordial tongue - all of these and more fuse together to form the lightword.</content>
+
+	<content contentuid="hb6e65990ga8e8g4c4eg9ab5gbb618e678b27" version="1">Cataract</content>
+	<content contentuid="hf46a6570g2526g4df1g8866g58cc24fa9221" version="1">Carved in circles across the knob of the staff are different words for light. Gnomish, Sylvan, Elvish, Celestial, even the Primordial tongue - all of these and more fuse together to form the lightword.</content>
+
+	<content contentuid="h2da3bf6bge538g45fcgae64g7957b4aa9450" version="1">Condemnate</content>
+	<content contentuid="hb5958cbeg5789g44ebg80e2g3ef6481dd4a4" version="1">Carved in circles across the knob of the staff are different words for force. Gnomish, Sylvan, Elvish, Celestial, even the Primordial tongue - all of these and more fuse together to form the forceword.</content>
+
+</contentList>

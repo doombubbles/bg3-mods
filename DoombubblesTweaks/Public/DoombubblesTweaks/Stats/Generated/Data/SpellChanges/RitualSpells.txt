@@ -2,7 +2,6 @@ new entry "Target_MistyStep"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MistyStep"
-data "Cooldown" "OncePerTurn"
 data "RitualCosts" "BonusActionPoint:1"
 
 new entry "Target_FogCloud"

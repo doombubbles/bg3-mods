@@ -21,11 +21,6 @@
 	<!-- <content contentuid="hb137f6c4g5c1eg45fag9846g09889516305d" version="1">Winter's Ashes</content> -->
 	<!-- <content contentuid="h778886e6g5fe5g4bc7ga372g838b473bea54" version="1">Whenever you deal Fire or Cold damage, inflict [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_FROST"&gt;Encrusted with Frost&lt;/LSTag&gt; upon the target(s) and gain [2] turns of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content> -->
 
-	<content contentuid="h4a60dc65g184bg4717g81bbgf864c3c3f01c" version="1">A Staff of Ice and Fire</content>
-	<content contentuid="h166b0176gd936g49cegae93gb087f1b7ce6d" version="1">An intrinic and exquisite staff that you can tell is immaculately crafted. Unfortunately, the craftsmenship at the end of the staff seems sloppier and unfinished compared to the rest of it.</content>
-	<content contentuid="h6ade97a1g6adfg434eg9887g064a86ed4743" version="1">Ice and Fire</content>
-	<content contentuid="hb4236fa8gac8ag47fcga4bcgab41f64d73a7" version="1">When dealing Cold damage, the wielder deals an additional [1]. When dealing Fire damage, the wielder deals an additional [2].</content>
-
 	<content contentuid="hc9581965ga5b8g45bbga5b1gc6db2858b113" version="1">Hat of Frostfire Acuity</content>
 	<content contentuid="hfd5e8c35g5478g455dga112gc0d1876b044f" version="1">It is said some wizard hats grant the power to keep your head cool - both literally and figuratively.</content>
 
@@ -85,31 +80,4 @@
 	<content contentuid="h99e3c87agea0cg4caegaf0bg91301783e978" version="1">Arcane Ferocity</content>
 	<content contentuid="h036f0904g63e4g41a0g8fd3g57216059efbd" version="1">Bonuses you receive to your spell &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; also get added to your &lt;LSTag Tooltip="AttackRoll"&gt;Weapon Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="h086cfac8g9c93g43e8g9e37g06235f065f84" version="1">Your &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; also applies its bonus to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
-
-
-	<content contentuid="hec0d4caagb582g4ee1g8db6g7ad832659561" version="1">Gloves of Crossbowmanship</content>
-	<content contentuid="h524e0b9dgd904g4ab9ga59ag111128790a4e" version="1">Banded in dark steel, these gloves are embossed with the bronze likeness of an elf against a trio of arrows in flight.</content>
-	<content contentuid="h80d5812cgda1dg4046gb350gd7d25e6a22ba" version="1">Larethian's Guiding Hand</content>
-	<content contentuid="h1cae2b95g8adeg435cg83d6gda95df759eb9" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with heavy and hand crossbows. In addition, your ranged weapon attacks deal an additional [1] damage.</content>
-
-	<content contentuid="hf927fa06g4b98g42ebgb314gaac9d4a3547f" version="1">Ironheart Bow</content>
-	<content contentuid="hd63c9696g837eg496fga957g1c65d005daa0" version="1">The commonly held belief that only agility and finesse are key to archery neglects the sheer endurance required. It takes a resilient constitution to maintain perfect form through long, grueling battles.</content>
-	<content contentuid="hf2932926g6e5ag4d52gbd9cg6c8ffc6d5143" version="1">Ironheart Weapon</content>
-	<content contentuid="h977a9f5aga534g478cga6d3gd92a59ac4ded" version="1">This weapon deals additional damage equal to your Constitution &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h05558ca5g4f79g4a31g8630g93cc3da5ffe2" version="1">Mindweave Bow</content>
-	<content contentuid="he6b75596g25c1g4295g868bg932ffa42a863" version="1">The commonly held belief that archers rely solely on physical prowess is misguided. It takes a keen mind to calculate the perfect trajectory and adjust for wind and distance.</content>
-	<content contentuid="h224aade8g55ccg4628gbf61ge92b254a313b" version="1">Mindweave Weapon</content>
-	<content contentuid="h7f2a7ceeg54a3g457cga345g892a075ed857" version="1">This weapon deals additional damage equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h5add80a8g6e02g4a1bgb210gde6888903b27" version="1">Owlfeather Bow</content>
-	<content contentuid="h064109c2gcf01g4a18g9407gb1a0a590fc3e" version="1">The commonly held belief that speed and strength define the ultimate archer overlooks the true essence of mastery. It takes profound insight and patience to see the unseen, knowing when and where to strike.</content>
-	<content contentuid="h8b3ea709g4e64g4a74gbbc2g747fd4a8880f" version="1">Owlfeather Weapon</content>
-	<content contentuid="hf3332d00ga31bg4227g97d3g43cb193cc0e6" version="1">This weapon deals additional damage equal to your Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h6a82c416g2480g4276gbb0dg29dae0751db6" version="1">Silvertongue Bow</content>
-	<content contentuid="hd6c34deegcf80g43adgac9eg0097ad3b0193" version="1">The commonly held belief that charisma holds no place in battle is shortsighted. It takes a captivating presence to lead and inspire, turning the tide of conflict with a single shot.</content>
-	<content contentuid="hbc90f9ccgf8bag442ag8632gb1884e773482" version="1">Silvertongue Weapon</content>
-	<content contentuid="h47ebf91ege6bag4b78gaa19g383c3c62671f" version="1">This weapon deals additional damage equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
-
 </contentList>

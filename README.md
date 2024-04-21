@@ -194,6 +194,21 @@ Only the Wyrmling staff will be consumed.
 Each Great Wyrm Staff gives the Arcane Enchantment +1 effect, the corresponding Quickened Cantrip, and the corresponding Kereska's buff spell.
 So essentially trading the Arcane Battery for the Quickened Cantrip.
 
+### Smite Staves
+
+A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony**
+
+**Cataclysm** - Searing Smite, sold by A'jak'nir Jeera in the Githyanki Creche
+
+**Calamity** - Wrathful Smite, sold by Omeluum in the Myconid Colony
+
+**Coruscate** - Branding Smite, sold by Quartermaster Talli at Last Light Inn
+
+**Cataract** - Blinding Smite, sold by Araj Oblodra at Moonrise Towers
+
+**Condemnate** - Banishing Smite, sold by Exxvikyap in Rivington
+
+
 <details>
 <summary><h3>UUIDs</h3></summary>
 
@@ -249,6 +264,11 @@ So essentially trading the Arcane Battery for the Quickened Cantrip.
 | Mindweave Bow                            | `DBT_INT_Longbow`                 | `7969537d-d356-4e7f-adbe-eed3d480342a` |
 | Owlfeather Bow                           | `DBT_WIS_Longbow`                 | `02a1be2d-5995-43f2-bb41-a38078812134` |
 | Silvertongue Bow                         | `DBT_CHA_Longbow`                 | `e911731f-6168-43d4-a92d-1d7edff23afa` |
+| Cataclysm                                | `DBT_SearingSmite_Quarterstaff`   | `e4ae9741-466a-442e-9f1d-0e6f36ed4eee` |
+| Calamity                                 | `DBT_WrathfulSmite_Quarterstaff`  | `e0294ac8-1353-4520-8451-77f5e6c2dae1` |
+| Coruscate                                | `DBT_BrandingSmite_Quarterstaff`  | `2621d6e4-ed12-450d-98a3-2430a2e8347f` |
+| Cataract                                 | `DBT_BlindingSmite_Quarterstaff`  | `9a36b754-0cd4-4197-985d-f0bc63a4db54` |
+| Condemnate                               | `DBT_BanishingSmite_Quarterstaff` | `9982506f-5b8a-48ca-a88f-f4ab25142f62` |
 
 
 </details>
