@@ -119,7 +119,7 @@ data "Cooldown" "OncePerRestPerItem"
 
 new entry "MAG_Gortash_Gloves"
 type "Armor"
-using "ARM_Gloves_Leather"
+using "MAG_Gortash_Gloves"
 data "PassivesOnEquip" "MAG_Force_Tyrant_Passive;MAG_SpellSaveDC_Enchantment_Lesser_Passive"
 
 new entry "MAG_Force_Tyrant_Passive"

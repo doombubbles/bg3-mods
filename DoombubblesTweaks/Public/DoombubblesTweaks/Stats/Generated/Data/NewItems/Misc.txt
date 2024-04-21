@@ -47,3 +47,9 @@ data "RootTemplate" "b78f6fe6-8aa9-4b98-a46e-6185f54a2de0"
 data "ObjectCategory" ""
 data "Rarity" "Rare"
 data "ValueOverride" "50"
+
+
+new entry "Black_Dye"
+type "Object"
+using "Dye_Base"
+data "RootTemplate" "e43d8f32-0d34-40f4-a344-4f8688754d6e"

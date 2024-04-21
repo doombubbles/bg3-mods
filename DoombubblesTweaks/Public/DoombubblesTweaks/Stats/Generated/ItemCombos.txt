@@ -570,3 +570,17 @@ new ItemCombinationResult "ALCH_Solution_Elixir_Alertness_OBJ_Bottle_Potion_1"
 data "ResultAmount 1" "1"
 data "Result 1" "ALCH_Solution_Elixir_Alertness"
 
+
+
+
+new ItemCombination "Black_Dye"
+data "Type 1" "Object"
+data "Object 1" "Black_Dye"
+data "Transform 1" "Consume"
+data "Type 2" "Category"
+data "Object 2" "DyableArmor"
+data "Transform 2" "Dye"
+data "DyeColorPresetResource" "873fc4c9-16bd-4fef-b18c-6f475364b456"
+
+new ItemCombinationResult "Black_Dye_1"
+data "ResultAmount 1" "1"

@@ -80,4 +80,9 @@
 	<content contentuid="h99e3c87agea0cg4caegaf0bg91301783e978" version="1">Arcane Ferocity</content>
 	<content contentuid="h036f0904g63e4g41a0g8fd3g57216059efbd" version="1">Bonuses you receive to your spell &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; also get added to your &lt;LSTag Tooltip="AttackRoll"&gt;Weapon Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="h086cfac8g9c93g43e8g9e37g06235f065f84" version="1">Your &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; also applies its bonus to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
+
+
+	<content contentuid="h52bf5080gebc1g48abgae84ga30dbdc9112d" version="1">Black Dye</content>
+	<content contentuid="h8bd3dd8ag8670g4d87ga230g8479ed96dcc9" version="1">A dark dye that combines two excellent colours: black and black.</content>
+
 </contentList>
