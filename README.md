@@ -108,7 +108,7 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Dissonant Whispers** - Deals 1d4/2d4/3d5 damage (none on save).
 
-**Chromatic Orb** - Deals 1d6/2d6/3d6 damage on hit.
+**Chromatic Orb** - Deals 1d8/2d8/3d8 damage on hit but doesn't create surfaces.
 
 **Scorching Rays** - Shoots 1/2/3 rays that deal 2d4 damage on hit.
 
@@ -204,7 +204,7 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
 
 **Coruscate** - Branding Smite, sold by Quartermaster Talli at Last Light Inn
 
-**Cataract** - Blinding Smite, sold by Araj Oblodra at Moonrise Towers
+**Cataract** - Blinding Smite, sold by Araj Oblodra, Moonrise Towers
 
 **Condemnate** - Banishing Smite, sold by Exxvikyap in Rivington
 
