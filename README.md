@@ -320,6 +320,8 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
 
 **Robe of Summer** - Now also lets you cast Daylight Once per Long Rest.
 
+**Gauntlet of the Tyrant** - Now adds 1d8 Force to unarmed attacks instead of 1d4
+
 ### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage
