@@ -206,7 +206,9 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
 
 **Cataract** - Blinding Smite, sold by Araj Oblodra, Moonrise Towers
 
-**Condemnate** - Banishing Smite, sold by Exxvikyap in Rivington
+**Concussion** - Staggering Smite, sold by Exxvikyap in Rivington
+
+**Condemnate** - Banishing Smite, sold by Fytz the Firecracker in the Lower City
 
 
 <details>

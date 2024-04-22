@@ -105,6 +105,11 @@ object category "I_DBT_BlindingSmite_Quarterstaff",1,0,0,0,0,0,0,0
 new treasuretable "WYR_OrinsImpersonation_Smith" // Exxvikyap, Rivington
 CanMerge 1
 new subtable "-1"
+object category "I_DBT_StaggeringSmite_Quarterstaff",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_SteepsTrader_Weapons" // Fytz the Firecracker, Lower City
+CanMerge 1
+new subtable "-1"
 object category "I_DBT_BanishingSmite_Quarterstaff",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_Guildhall_FetchersBrat_Trade_Magic" // Sticky Dondo, Guildhall
