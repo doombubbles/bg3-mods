@@ -79,12 +79,6 @@ type "Weapon"
 using "MAG_Invisible_Pike"
 data "Weapon Properties" "Reach;Melee;Twohanded;Heavy;Dippable;Magical;Finesse"
 
-new entry "Zone_BreathWeapon_Acid"
-type "SpellData"
-data "SpellType" "Zone"
-using "Zone_BreathWeapon_Acid"
-data "Cooldown" "OncePerCombat"
-
 new entry "GOADING_ATTACK"
 type "StatusData"
 data "StatusType" "BOOST"

@@ -1,0 +1,10 @@
+{{ range $element := list "Acid" "Cold" "Fire" "Lightning" "Poison" }}
+new entry "Zone_BreathWeapon_{{$element}}"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_BreathWeapon_{{$element}}"
+data "Cooldown" "OncePerCombat"
+data "SpellSuccess" "DealDamage(LevelMapValue(BuffedBreathWeapon),{{$element}},Magical)"
+data "SpellFail" "DealDamage(LevelMapValue(BuffedBreathWeapon)/2,{{$element}},Magical)"
+data "TooltipDamageList" "DealDamage(LevelMapValue(BuffedBreathWeapon),{{$element}})"
+{{ end }}
