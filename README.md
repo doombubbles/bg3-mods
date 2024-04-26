@@ -469,8 +469,9 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 #### School of Conjuration
 
 - Minor Conjuration: Create Water is now a bonus action
-- At level 6 gains Heightened Conjuration, making enemies have Disadvantage on Saving Throws against your Conjuration spells
-  - (Given the spell selection this is not particularly overpowered)
+- 
+<!-- - At level 6 gains Heightened Conjuration, making enemies have Disadvantage on Saving Throws against your Conjuration spells
+  - (Given the spell selection this is not particularly overpowered) -->
 - At level 10 gains Durable Summons, making creatures you summon from Conjuration Spells receive 30 Temporary Hit Points.
 
 #### School of Transmutation

@@ -21,6 +21,13 @@ using "Target_CreateWater_MinorConjuration"
 data "UseCosts" "BonusActionPoint:1"
 // data "Cooldown" "OncePerCombat"
 
+
+new entry "Target_BenignTransposition_Teleport"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_BenignTransposition_Teleport"
+data "UseCosts" "BonusActionPoint:1"
+
 new entry "HeightenedConjuration"
 type "PassiveData"
 data "DisplayName" "h2c06cd38gcf0cg4428gaef1g1b637351026b"
