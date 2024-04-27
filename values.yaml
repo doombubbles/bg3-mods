@@ -217,3 +217,19 @@ Oils:
   ALCH_Solution_Oil_RemoveResistanceFire: ALCH_OIL_REMOVERESISTANCEFIRE
   ALCH_Solution_Oil_Wizardsbane: ALCH_OIL_WIZARDSBANE
 Toxins:
+
+ImprovedElementalCasting:
+  Karlach_Infernal_Fury: 2d4, Fire
+  LOW_Astarion_VampireAscendant: 1d10, Necrotic
+  MAG_Infernal_Metal_Gloves_FireDamage_Passive: 1d6, Necrotic
+  MAG_Radiant_UnarmedAttack_Passive: 1d4, Radiant
+  MAG_Cold_UnarmedAttack_Passive: 1d4, Cold
+  MAG_Force_UnarmedAttack_Passive: 1d4, Force
+  MAG_Lightning_UnarmedAttack_Passive: 1d4, Lightning
+  MAG_Thunder_UnarmedAttack_Passive: 1d4, Thunder
+  MAG_Fire_UnarmedAttack_Passive: 1d4, Fire
+  MAG_Force_SoulCatchingDamage_Passive: 1d10, Force
+  MAG_Force_Tyrant_Passive: 1d8, Force
+  MAG_Barbarian_Hide_Helmet_Bloodthirsty_Passive: 2, Necrotic
+  TavernBrawler: StrengthModifier
+  MAG_Monk_Magic_Boots_Passive: WisdomModifier

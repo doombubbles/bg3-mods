@@ -324,6 +324,8 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
 
 **Gauntlet of the Tyrant** - Now adds 1d8 Force to unarmed attacks instead of 1d4
 
+**Obsidian Laced Robe** - Now has the additional affed Obsidian Armour: You have +1 to Armour Class and Saving Throws while you have Heat
+
 ### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -500,7 +502,7 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 - Reduced the Ki Point costs of most Disciple of the Elements spells by 1.
 - Touch of the Storm and Chill of the Mountain also activate Extra Attack
-- Improved Elemental Casting has the added effect: Bonuses you receive to your Unarmed Damage also apply to damage you deal with your Disciple of the Elements spells.
+- Improved Elemental Casting has the added effect: Your passive features that boost Unarmed Attack damage also apply to damage you deal with your Disciple of the Elements spells.
 
 ## Feats
 
