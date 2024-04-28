@@ -324,7 +324,7 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
 
 **Gauntlet of the Tyrant** - Now adds 1d8 Force to unarmed attacks instead of 1d4
 
-**Obsidian Laced Robe** - Now has the additional affed Obsidian Armour: You have +1 to Armour Class and Saving Throws while you have Heat
+**Obsidian Laced Robe** - Now has the additional affed Obsidian Armour: You have +1 to Armour Class and Saving Throws as long as you've had Heat within the past turn
 
 ### Markoheshkir
 

@@ -4,7 +4,7 @@
 	<content contentuid="h82022716g353cg41f9g9222g9055d5a0e72b" version="1">You are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with this Shield while using it.</content>
 
 	<content contentuid="heb5ed793g7214g43ecg8c82g6eb654245030" version="1">Obsidian Armour</content>
-	<content contentuid="h002bd663g6891g426eg9bffgfb95a9aaa249" version="1">The wearer has a +[1] bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; as long as they have &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
+	<content contentuid="h002bd663g6891g426eg9bffgfb95a9aaa249" version="1">The wearer has a +[1] bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; as long as they've had &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; within the last turn.</content>
 	
 	
 </contentList>

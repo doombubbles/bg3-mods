@@ -16,7 +16,6 @@
           <attribute id="ParentTemplateId" type="FixedString" value="6835bc61-36a4-4055-889b-4931e570682a" />
           <attribute id="Stats" type="FixedString" value="DBT_FrostFire_Staff" />
           <attribute id="Type" type="FixedString" value="item" />
-          <attribute id="VisualTemplate" type="FixedString" value="78f59cb0-129b-4097-b1c8-8545bc71437c" />
           <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
           <children>
             <node id="OnUsePeaceActions">
