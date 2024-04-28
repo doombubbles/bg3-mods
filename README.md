@@ -326,6 +326,8 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
 
 **Obsidian Laced Robe** - Now has the additional affed Obsidian Armour: You have +1 to Armour Class and Saving Throws as long as you've had Heat within the past turn
 
+**Thermodynamaxe** - Is now permanently dipped in Fire, and passive changed slightly to "Whenever you deal damage with a melee weapon attack, you gain 2 turns of Heat."
+
 ### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage

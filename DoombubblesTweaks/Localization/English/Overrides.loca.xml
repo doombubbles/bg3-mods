@@ -3,6 +3,8 @@
   <content contentuid="he8e1cc2bgc396g49f4g882bgf8d3c5451f15" version="1">Increases &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; to 21.</content>
 
   <content contentuid="h1223d569ga290g441bg8d04gf83d7085363b" version="1">Thermodynamaxe</content>
+  <content contentuid="ha1929174g218fg4af7gb694g1936f8111809" version="1">Whenever you deal damage with a melee weapon attack, you gain [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
+
   <content contentuid="h10ce49ffgc19bg4c28gacaag2608a9506da7" version="4">*Gauntlets of Frost Giant Strength.*</content>
   <content contentuid="ha9bcb74agd50fg4ee7ga4eag08f240921a1b" version="1">Gauntlets of Frost Giant Strength</content>
   <content contentuid="hc62ad752g545ag4fc2g8d1bg2ec22472b416" version="3">Gauntlets of Frost Giant Strength</content>
@@ -42,5 +44,6 @@
   <content contentuid="h9aa03926g6a8bg4df4g8272gcdc0bb87cdae" version="1">Your &lt;LSTag Tooltip="RangedSpellAttack"&gt;Ranged Spell Attacks&lt;/LSTag&gt; can also be made as melee spell attacks.</content>
 	
   <content contentuid="hcf0ce1d8gc3d0g45b9g9f8ag48c7a0cb13ee" version="1">Tyrant's Fist</content>
+
 
 </contentList>

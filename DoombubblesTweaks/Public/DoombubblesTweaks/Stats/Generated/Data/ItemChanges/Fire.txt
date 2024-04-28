@@ -69,3 +69,11 @@ data "StackId" "MAG_HEAT_FIRE_AC_BONUS_TECHNICAL"
 data "Boosts" ""
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnRemoveFunctors" "RemoveStatus(MAG_HEAT_FIRE_AC_BONUS)"
+
+
+new entry "MAG_Fire_HeatOnWeaponDamage_Passive"
+type "PassiveData"
+using "MAG_Fire_HeatOnWeaponDamage_Passive"
+data "Description" "ha1929174g218fg4af7gb694g1936f8111809"
+data "Conditions" "IsMeleeWeaponAttack()"
+data "Properties" ""

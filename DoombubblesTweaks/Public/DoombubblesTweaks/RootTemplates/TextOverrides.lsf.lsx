@@ -45,6 +45,7 @@
             </node>
           </children>
         </node>
+
         <node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h172d710dg2d86g454bga607g6dc0ae46380f" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h1223d569ga290g441bg8d04gf83d7085363b" version="1" />
@@ -57,6 +58,13 @@
 					<attribute id="VisualTemplate" type="FixedString" value="1d180e5a-c7c8-20dc-5083-c22c86368513" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -66,6 +74,7 @@
 						</node>
 					</children>
 				</node>
+
       </children>
     </node>
   </region>
