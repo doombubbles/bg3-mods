@@ -289,6 +289,28 @@ data "ResultAmount 1" "1"
 data "Result 1" "DBT_Battlemage_Combo_Gloves"
 
 
+new ItemCombination "DBT_Spell_Robe_Combo"
+data "Type 1" "Object"
+data "Object 1" "DBT_Spell_Combo_Gloves_Material"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "MAG_Heat_Fire_Robe"
+data "Transform 2" "Consume"
+data "Type 3" "Object"
+data "Object 3" "MAG_ChargedLightning_BonusAC_Robe"
+data "Transform 3" "Consume"
+data "Type 4" "Object"
+data "Object 4" "UNI_RobeOfSummer"
+data "Transform 4" "Consume"
+
+new ItemCombinationResult "DBT_Spell_Robe_Combo_1"
+data "ResultAmount 1" "1"
+data "Result 1" "DBT_Spell_Robe_Combo"
+
+
+
+
 new ItemCombination "DBT_Chromatic_Acid_Staff"
 data "Type 1" "Object"
 data "Object 1" "DBT_Dragon_Material"
