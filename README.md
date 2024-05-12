@@ -331,6 +331,15 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
 
 **Thermodynamaxe** - Is now permanently dipped in Fire, and passive changed slightly to "Whenever you deal damage with a melee weapon attack, you gain 2 turns of Heat."
 
+### Phalar Aluve
+
+- Added new "Screech" option
+  - Lasts until Long Rest, or switching to a different melody
+  - Whenever you deal Thunder damage, apply 2 turns of Shrieking to the target
+- Added new "Shout" option
+  - Lasts until Long Rest, or switching to a different melody
+  - Whenever you heal a creature, give it 2 turns of Singing
+
 ### Markoheshkir
 
 - Added "Force to be Reckoned With" attunement to Force damage
@@ -536,7 +545,7 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 **Dungeon Delver** - Now gives Advantage on all Perception Checks and Dex Saves when not in combat. Also increase DEX by 1.
 
-**Elemental Adept** - Also increase INT or WIS or CHA by 1. Added variants for Force, Radiant, Necrotic and Psychic damage.
+**Elemental Adept** - Also increase INT or WIS or CHA by 1. Added variants for Force, Radiant, Necrotic and Psychic damage. Instead of just turning rolled 1s into 2s, it just increases your damage with that element by 1.
 
 **Lucky** - Also increase any stat by 1.
 
@@ -565,7 +574,7 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 **Disintegrate** - Changed VFX slightly to include some more red
 
-**Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Giantt Strength
+**Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Giant Strength
 
 **Haste Helm** - Renamed to Momentum Helm
 

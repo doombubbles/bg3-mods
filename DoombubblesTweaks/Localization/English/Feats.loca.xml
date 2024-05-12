@@ -1,16 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
+	<content contentuid="hb47069e8g81a4g4da5ga173g8e8c374b0235" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Acid damage. In addition, whenever you deal Acid damage, you deal [1] more.</content>
+	<content contentuid="ha0420dd6gce40g4ff0g8a23g66d81df09038" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage. In addition, whenever you deal Cold damage, you deal [1] more.</content>
+	<content contentuid="h7bd45a6bgd832g4ae9g8627g6c345762a03e" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage. In addition, whenever you deal Fire damage, you deal [1] more.</content>
+	<content contentuid="h45de7861g5423g42d2gb026g197e2fb446f1" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning damage. In addition, whenever you deal Lightning damage, you deal [1] more.</content>
+	<content contentuid="h728add1bg666cg45a7ga08agac57c541c8db" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Thunder damage. In addition, whenever you deal Thunder damage, you deal [1] more.</content>
+
 	<content contentuid="h03d9a7ebgdfc9g453bg9b46g9255f4412b1e" version="1">Elemental Adept: Force</content>
-	<content contentuid="hd16cb3eegea54g4bfegbeebg44c779704501" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage. In addition, when you deal Force damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="hd16cb3eegea54g4bfegbeebg44c779704501" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage. In addition, whenever you deal Force damage, you deal [1] more.</content>
 	<content contentuid="h80282be3gdbd7g4032ga512gebb54be47478" version="1">Elemental Adept: Necrotic</content>
-	<content contentuid="hbbae2ce4g2a66g4d15g9008g7b4e79d4a6ed" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage. In addition, when you deal Necrotic damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="hbbae2ce4g2a66g4d15g9008g7b4e79d4a6ed" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage. In addition, whenever you deal Necrotic damage, you deal [1] more.</content>
 	<content contentuid="he29f5a05g91b2g41ecg967eg3bc62b2ef429" version="1">Elemental Adept: Poison</content>
-	<content contentuid="h915a16a8ge16cg4d7eg8d24g296f25ca401d" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, when you deal Poison damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="h915a16a8ge16cg4d7eg8d24g296f25ca401d" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, whenever you deal Poison damage, you deal [1] more.</content>
 	<content contentuid="h84ab4b22g0d7bg4609g9c5fg6627b21abcfc" version="1">Elemental Adept: Psychic</content>
-	<content contentuid="h45ab2e0dg876eg40f9g9139g47fbd5452cf7" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage. In addition, when you deal Psychic damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="h45ab2e0dg876eg40f9g9139g47fbd5452cf7" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage. In addition, whenever you deal Psychic damage, you deal [1] more.</content>
 	<content contentuid="h06eb8788g4402g4f12g9cf9gbb917f9a4981" version="1">Elemental Adept: Radiant</content>
+	<content contentuid="h3fe8d652g2b08g4934g99c9g014a8c8d4aef" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. In addition, whenever you deal Psychic damage, you deal [1] more.</content>
 	<content contentuid="he29f5a05g91b2g41ecg967eg3bc62b2ef429" version="1">Elemental Adept: Poison</content>
-	<content contentuid="h915a16a8ge16cg4d7eg8d24g296f25ca401d" version="1">Spells you cast ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, when you deal Poison damage with a spell, you cannot roll a [1].</content>
+	<content contentuid="h915a16a8ge16cg4d7eg8d24g296f25ca401d" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, whenever you deal Poison damage, you deal [1] more.</content>
 
 	<content contentuid="h565c1da5g469bg4225gbbf5gfa29f4cdeab2" version="1">Eldritch Adept</content>
 	<content contentuid="h32df48f7gd533g408dga0f8gc6f7dee0e828" version="1">You learn one Eldritch Invocation from the Warlock class, and your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>

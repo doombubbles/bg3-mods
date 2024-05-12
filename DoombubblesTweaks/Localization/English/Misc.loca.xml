@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	
+
 	<content contentuid="h82022716g353cg41f9g9222g9055d5a0e72b" version="1">You are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with this Shield while using it.</content>
 
 	<content contentuid="heb5ed793g7214g43ecg8c82g6eb654245030" version="1">Obsidian Armour</content>
 	<content contentuid="h002bd663g6891g426eg9bffgfb95a9aaa249" version="1">The wearer has a +[1] bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; as long as they've had &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; within the last turn.</content>
-	
-	
+
+	<content contentuid="hddb80daag943bg4197g89a5g3cb5efc4237f" version="1">The sword hums in anticipation, ready to &lt;LSTag Type="Spell" Tooltip="Shout_MAG_Harpers_SingingSword_Sing"&gt;Sing&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_MAG_Harpers_SingingSword_Shriek"&gt;Shriek&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_MAG_Harpers_SingingSword_Shout"&gt;Shout&lt;/LSTag&gt;, or &lt;LSTag Type="Spell" Tooltip="Shout_MAG_Harpers_SingingSword_Screech"&gt;Screech&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h67219880gc48dg4f65gadeeg32537b843bab" version="1">Phalar Aluve: Screech</content>
+	<content contentuid="haddfd44agb97cg4e6bg92eag789356503759" version="1">The sword Screeches. When you deal Thunder damage to a creature, it receives [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_HARPERS_SINGING_SWORD_BANE"&gt;Singing Sword: Shriek&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The sword will stop screeching if unequipped.</content>
+	<content contentuid="h42e7b458gb092g4216g83cbg6a1fd63d915a" version="1">Singing Sword: Screeching</content>
+	<content contentuid="h1c044479g6651g4c43gb5fbg94c9f7ea0eb6" version="1">When you deal Thunder damage to a creature, it receives [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_HARPERS_SINGING_SWORD_BANE"&gt;Phalar Aluve: Shriek&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h18b5bb54ga4f7g4befg9a1fg0305d8ced98c" version="1">Phalar Aluve: Shout</content>
+	<content contentuid="ha5a988b0g8a6ag470bgba29g4e9b6f4653fe" version="1">The sword Shouts. When you heal a creature, it receives [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_HARPERS_SINGING_SWORD_BLESS"&gt;Singing Sword: Song&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The sword will stop shouting if unequipped.</content>
+	<content contentuid="h47f20a7dg9a7cg4f50g925ag8f8c318f13fa" version="1">Singing Sword: Shouting</content>
+	<content contentuid="hdfc77377g2c4fg45f1ga445gba2924e226f1" version="1">When you heal a creature, it receives [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_HARPERS_SINGING_SWORD_BLESS"&gt;Singing Sword: Song&lt;/LSTag&gt;.</content>
+
+
 </contentList>
