@@ -349,6 +349,7 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
   - Psychic damage resistance, add Proficiency to Psychic damage
   - Dealing spell damage inflicts 1 turn of Mental Fatigue on the target
   - Can cast Dissonant Whispers and Phantasmal Killer per Short Rest
+- Kereska Buffs no longer go away when you're polymorphed like with Shapechanger
 
 ## Item Upgrading
 
