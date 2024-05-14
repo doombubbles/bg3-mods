@@ -12,7 +12,7 @@ data "SpellType" "Shout"
 using "Shout_MAG_Harpers_SingingSword_Shriek"
 data "SpellProperties" "ApplyStatus(MAG_HARPERS_SINGING_SWORD_SCREECHING,100,-1)"
 data "DisplayName" "h67219880gc48dg4f65gadeeg32537b843bab"
-data "Description" "haddfd44agb97cg4e6bg92eag789356503759"
+data "Description" "h742352feg7f32g4981gaf7dg7946f7df885d"
 data "DescriptionParams" "2"
 data "TooltipStatusApply" "ApplyStatus(MAG_HARPERS_SINGING_SWORD_SCREECHING,100,-1)"
 

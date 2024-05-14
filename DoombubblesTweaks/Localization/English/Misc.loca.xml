@@ -9,7 +9,7 @@
 	<content contentuid="hddb80daag943bg4197g89a5g3cb5efc4237f" version="1">The sword hums in anticipation, ready to &lt;LSTag Type="Spell" Tooltip="Shout_MAG_Harpers_SingingSword_Sing"&gt;Sing&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_MAG_Harpers_SingingSword_Shriek"&gt;Shriek&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_MAG_Harpers_SingingSword_Shout"&gt;Shout&lt;/LSTag&gt;, or &lt;LSTag Type="Spell" Tooltip="Shout_MAG_Harpers_SingingSword_Screech"&gt;Screech&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h67219880gc48dg4f65gadeeg32537b843bab" version="1">Phalar Aluve: Screech</content>
-	<content contentuid="haddfd44agb97cg4e6bg92eag789356503759" version="1">The sword Screeches. When you deal Thunder damage to a creature, it receives [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_HARPERS_SINGING_SWORD_BANE"&gt;Singing Sword: Shriek&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The sword will stop screeching if unequipped.</content>
+	<content contentuid="h742352feg7f32g4981gaf7dg7946f7df885d" version="1">The sword Screeches. When you deal Thunder damage to a creature, it receives [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_HARPERS_SINGING_SWORD_BANE"&gt;Singing Sword: Shriek&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The sword will stop screeching if unequipped.</content>
 	<content contentuid="h42e7b458gb092g4216g83cbg6a1fd63d915a" version="1">Singing Sword: Screeching</content>
 	<content contentuid="h1c044479g6651g4c43gb5fbg94c9f7ea0eb6" version="1">When you deal Thunder damage to a creature, it receives [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_HARPERS_SINGING_SWORD_BANE"&gt;Phalar Aluve: Shriek&lt;/LSTag&gt;.</content>
 
