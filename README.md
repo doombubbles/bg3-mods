@@ -534,14 +534,14 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 #### Fire
 
 ##### Level 2
-- Hot Streak: When you deal a Critical Hit with a Fire spell, the next Fire spell you cast does not consume any Spell Slots.
+- Hot Streak: When you deal a Critical Hit with a Fire spell, the next Fire spell you cast costs a Bonus Action instead of an Action.
 - Critical Mass: The number you need to roll a Crtical Hit with a Fire Spell is reduced by 1. This effect can stack.
   
 ##### Level 6
 - Ignite: Dealing Fire damage with a spell applies 2 turns of Burning to the target.
   
 ##### Level 10
-- Firestarter: Attacking a creature at 90% HP or above with a Fire Spell is a guaranteed Critical Hit.
+- Firestarter: Attacking a creature at full HP with a Fire Spell is a guaranteed Critical Hit.
 - Learn the Flamestrike spell
 
 ## Feats

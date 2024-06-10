@@ -79,5 +79,5 @@ function HeightenedConjurationSpellCheck()
 end
 
 function HotStreakSpellCheck()
-  return SpellDamageTypeIs(DamageType.Fire) & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot')) & ~HasCantripSpellLevel()
+  return QuickenedSpellCheck() & SpellDamageTypeIs(DamageType.Fire)
 end
