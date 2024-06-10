@@ -77,3 +77,7 @@ function HeightenedConjurationSpellCheck()
   return (HasStringInSpellRoll('SavingThrow') | HasStringInFunctorConditions('SavingThrow') | HasStringInSpellRoll('SpellAutoResolveOnAlly')) &
   (HasSpellFlag(SpellFlags.Spell) & IsSpellOfSchool(SpellSchool.Conjuration))
 end
+
+function HotStreakSpellCheck()
+  return SpellDamageTypeIs(DamageType.Fire) & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot')) & ~HasCantripSpellLevel()
+end

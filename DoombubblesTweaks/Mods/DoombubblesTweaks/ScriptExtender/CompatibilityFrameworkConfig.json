@@ -1,0 +1,14 @@
+{
+  "FileVersion": 1,
+  "Progressions": [
+    {
+      "Comment": "Fire",
+      "UUIDs": ["d6184c47-5b99-4e63-95ac-02f8ce4ccda1"],
+      "Subclasses": [
+        {
+          "UUIDs": ["73f6e33a-3093-4d40-b83a-9b4ed21efeb2"]
+        }
+      ]
+    }    
+  ]
+}

@@ -40,4 +40,21 @@
 	<content contentuid="h058b45bbgd61bg4aa0g83dbga3b13fe0b51c" version="1">Sublimation</content>
 	<content contentuid="h53508b7agdb99g44e3g9a30g401de3b20614" version="1">Remote Leverage</content>
 
+
+	<content contentuid="h4598485cg8579g426eg818agcc8a893677e6" version="1">Fire</content>
+	<content contentuid="hed3a9cd0gf34bg4a8dg935agb32ee5ab0168" version="1">Beyond the eight traditional schools of magic, Wizards can additionally specialize in mastering primordial elements like Fire.</content>
+
+	<content contentuid="h0c71f663gd232g4e0bg9380g460187775309" version="1">Hot Streak</content>
+	<content contentuid="h12baa293g17c2g4ea6gb45fg4fbe2978590d" version="1">When you deal a Critical Hit with a Fire spell, the next Fire spell you cast does not consume a Spell Slot.</content>
+	<content contentuid="hc35c7d24g558fg440dg8d77gbae67e9419dc" version="1">Heating Up</content>
+	<content contentuid="h84f697c6g24d1g4874ga510g009c4ac6eb0c" version="1">Activate &lt;LSTag Type="Status" Tooltip="HOT_STREAK"&gt;Hot Streak!&lt;/LSTag&gt; to make the next Fire spell you cast does not consume a Spell Slot.</content>
+	<content contentuid="h9b12c82ega624g4af8ga5a2g19314ef6239d" version="1">Hot Streak!</content>
+	<content contentuid="hfce95c9dg1493g4a5dgb4f3ge7efd43585b2" version="1">The next Fire spell you cast does not consume a Spell Slot.</content>
+	<content contentuid="he82dbec1g6274g4ccdg98b2g8e2db368ef0a" version="1">Critical Mass</content>
+	<content contentuid="h48b215bagb7e3g4fd0gab3eg18c6b4889403" version="1">The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with Fire spells is reduced by 1. This effect can stack.</content>
+	<content contentuid="h26e7d6f8g57b6g4867g85d4g170c29722b59" version="1">Ignite</content>
+	<content contentuid="h0c1220a6gfc31g483bga7aeg0df6567e0522" version="1">Dealing Fire damage with a spell applies [1] turns of &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; to the target.</content>
+	<content contentuid="h14e0e770g2558g48e7ga72fg82428f99e44d" version="1">Firestarter</content>
+	<content contentuid="ha2328454gab46g4300gb88dg9d52fa8ad601" version="1">Attacking a creature at 90% HP or above with a Fire Spell is a guaranteed Critical Hit.</content>
+
 </contentList>

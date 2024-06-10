@@ -33,7 +33,7 @@
           <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
           <attribute id="Level" type="uint8" value="7"/>
           <attribute id="Name" type="LSString" value="EldritchKnight"/>
-          <attribute id="PassivesAdded" type="LSString" value="WarMagic"/>
+          <attribute id="PassivesAdded" type="LSString" value="Fire"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="Selectors" type="LSString" value="SelectSpells(4a86443c-6a21-4b8d-b1bf-55a99e021354,1,0,EldritchKnightAbjEvo);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAny)"/>
           <attribute id="TableUUID" type="guid" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435"/>
@@ -522,6 +522,152 @@
           <attribute id="Selectors" type="LSString" value="AddSpells(42c2f7ed-8d06-4347-a912-01172a0e318b,,,,AlwaysPrepared);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(32aeba85-13bd-4a6f-8e06-cd4447b746d8,2,0,EldritchKnightAbjEvo);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,0,EldritchKnightAny)"/>
           <attribute id="TableUUID" type="guid" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435"/>
           <attribute id="UUID" type="guid" value="77ef26e6-6872-4f9c-82eb-a0640a49030d"/>
+        </node>
+
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Wizard"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="TableUUID" type="guid" value="d18eda7e-4b7d-490d-9952-cd33a3c60479"/>
+          <attribute id="UUID" type="guid" value="d6184c47-5b99-4e63-95ac-02f8ce4ccda1"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <!-- Abjuration School ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="e6a0eb75-7a01-4f40-8563-24ba2615e99b"/>
+                </node>
+                <!-- Conjuration School ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
+                </node>
+                <!-- Divination School ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="fbb8347b-20e3-4846-ba91-0552cd12fc5f"/>
+                </node>
+                <!-- Enchantment School ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="7a3feb8d-dda7-46ec-9029-1f302f537432"/>
+                </node>
+                <!-- Evocation School ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="46d31950-6917-444e-ac87-706702825215"/>
+                </node>
+                <!-- Illusion School ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="7577b0e1-a517-4f82-8f72-05a227dc5e88"/>
+                </node>
+                <!-- Necromancy School ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="436c9e1a-3a39-48dd-b753-7cee1bd19c00"/>
+                </node>
+                <!-- Transmutation School ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="a12f2924-30b4-4185-9db9-2c5b383ff449"/>
+                </node>
+                <!-- Fire ID -->
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="73f6e33a-3093-4d40-b83a-9b4ed21efeb2"/>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+
+        <!-- Fire Wizard -->
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="PassivesAdded" type="LSString" value="HotStreak;CriticalMass"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="5beab65e-33a9-4c92-9505-2b43b9b68d4c"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="3af20abc-f130-4608-a0c6-d74ec301c1e7"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="90eb07fe-1ca1-4d47-b5c0-93b494edbaf6"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="57e3ec6a-6c68-48fb-8368-442228acf934"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="PassivesAdded" type="LSString" value="Ignite"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="2692d0bb-8254-4301-8010-fa28c5ed1c70"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(820b1220-0385-426d-ae15-458dc8a6f5c0,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="e56f0141-125b-4200-bbfd-5e06c94fefdc"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(820b1220-0385-426d-ae15-458dc8a6f5c0,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="7fa975e9-43fe-4a7a-a605-d6269c521128"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f781a25e-d288-43b4-bf5d-3d8d98846687,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="8a167b85-ad48-428e-861e-349f776dcee9"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="PassivesAdded" type="LSString" value="Firestarter"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f781a25e-d288-43b4-bf5d-3d8d98846687,2,0);SelectSpells(fe98c85b-f168-47ad-9c66-11b202c26612,1,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="f04d5392-6c46-4810-9b99-2f1574c4a819"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(bc917f22-7f71-4a25-9a77-7d2f91a96a65,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="e8fbe64e-53ad-4ba8-8716-9c56c4650b67"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="Fire"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(bc917f22-7f71-4a25-9a77-7d2f91a96a65,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="f30d8407-b5db-45bc-96d6-0e10661519fc"/>
+          <attribute id="UUID" type="guid" value="55079a8c-3f1c-4e33-bcc3-f8b59bfabf0b"/>
         </node>
 
       </children>
