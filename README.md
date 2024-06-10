@@ -410,7 +410,7 @@ TODO make these last just for the rest of the Act
 
 - War Priest Extra Attack is now toggleable when it triggers to make sure it never interferes with Extra Attack
 - Now chooses a Fighting Style at Level 3 from the same list as Paladins
-- Now gains "Improved War Priest" at level 5 making War Priest Charges replenish on a Short or Long Rest
+- Gains "Improved War Priest" at level 5 making War Priest Charges replenish on a Short or Long Rest
 - (EXPERIMENTAL) Now gains Extra Attack at level 6
 
 These are powerful buffs, but they still don't even reach the level of base Swords Bard so it seems ok
@@ -421,11 +421,19 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 
 ### Fighter
 
+- Added a new Fighting Style "Martial Arts": Your unarmed attacks deal 1d4/1d6/1d8 damage. When not wielding a melee weapon, you can make an unarmed strike as a bonus action.
+
+#### Battle Master
+
+- Gains "Experienced Pugilist" at Level 3 making unarmed attacks use your Superiority Die as the damage.
+- Most Manoeuvres adjusted to also have unarmed versions
+
 #### Eldritch Knight
 
 - War Magic now works with Extra Attack and the cantrip and attack can be used in either order
 <!-- - ~~Now gains spell slots like a half caster instead of a third caster~~
   - ~~Still chooses specifically Abjuration and Evocation spells at most levels~~ -->
+- Gains "Cunning Pugilist" at Level 3 which adds + INT Modidifier to Unarmed Damage
 
 ### Rogue
 

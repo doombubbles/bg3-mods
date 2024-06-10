@@ -6,4 +6,18 @@
 	<content contentuid="h6829a9d1ga919g44afga73fg49cc1378ad95" version="1">War Magic: Bonus Cantrip</content>
 	<content contentuid="h26b30cbag7290g402ag8c7cg0510cd5ac2f2" version="1">Your next &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="Action"&gt;action&lt;/LSTag&gt;.</content>
 	<content contentuid="h95efd706g1dc1g4121gba20g824eb3813025" version="1">You have used your War Magic for this turn.</content>
+	<content contentuid="h56a5e0e9g446fg4f58g8554g4b3cecd68c3e" version="1">Experienced Pugilist</content>
+	<content contentuid="h7c8ac085g9935g453cg96f6gdfb3691f602a" version="1">Your unarmed attacks deal [1], the same as your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt;.</content>
+	<content contentuid="h8277d108g9f4bg44f0gbf9bgf04484f0428f" version="1">Cunning Pugilist</content>
+	<content contentuid="hd35e05a6g8c91g4f8cg8e14g610abf384e15" version="1">You deal additional damage equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; with unarmed strikes.</content>
+	<content contentuid="hfeb5ef14g90b8g4745g8504gc6ea833016e0" version="1">Trip Attack (Unarmed)</content>
+	<content contentuid="hd0b51670g77bbg495bg9e38g21ab4d7c6197" version="1">Menacing Attack (Unarmed)</content>
+	<content contentuid="hbb775036g4176g4ca7gabf0g64d9610d0a45" version="1">Goading Attack (Unarmed)</content>
+	<content contentuid="h1a254a71g914eg4ccdg9828g2695e2349fe9" version="1">Disarming Attack (Unarmed)</content>
+	<content contentuid="h7a14d1feg12bfg4341g856ag6616f943984a" version="1">Distracting Strike (Unarmed)</content>
+	<content contentuid="ha021433fgd08cg44e0g910cgd65c76ae0394" version="1">Feinting Attack (Unarmed)</content>
+	<content contentuid="h6b45f0fbg0907g4748g8ddfgd52d502b154b" version="1">Manoeuvring Attack (Unarmed)</content>
+	<content contentuid="h75287dc9g8340g42acgad51g7d7fecd831d0" version="1">Pushing Attack (Unarmed)</content>
+	<content contentuid="h2f0f950eg77c5g4518g925bgb78d03c9c59a" version="1">Martial Arts</content>
+	<content contentuid="h847ad870g6c17g4993gb979g129d34048736" version="1">Your unarmed attacks deal [1]. If you are not wielding a melee weapon, you can make an unarmed attack as a bonus action.</content>
 </contentList>

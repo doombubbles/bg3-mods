@@ -72,6 +72,13 @@
         </node>
 
 
+        <!-- All Fighting Styles -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_MartialArts"/>
+          <attribute id="UUID" type="guid" value="da3203d8-750a-4de1-b8eb-1eccfccddf46"/>
+        </node>
+
 
       </children>
     </node>
