@@ -19,6 +19,36 @@
           <attribute id="SpellCastingAbility" type="uint8" value="4"/>
           <attribute id="UUID" type="guid" value="73f6e33a-3093-4d40-b83a-9b4ed21efeb2"/>
         </node>
+        <node id="ClassDescription">
+          <attribute id="CanLearnSpells" type="bool" value="true"/>
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="hd76d5d39g9c18g4c34g8c4ag3ee5b9237ced" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h86117c92g20b5g456fg93b0gf112d2326b0a" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MustPrepareSpells" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="Frost"/>
+          <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+          <attribute id="PrimaryAbility" type="uint8" value="4"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="d9cd8fd6-be44-4164-af54-9a71851373fb"/>
+          <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+          <attribute id="UUID" type="guid" value="41e441c5-c68b-4a83-8bce-859a3c5839fb"/>
+        </node>
+        <node id="ClassDescription">
+          <attribute id="CanLearnSpells" type="bool" value="true"/>
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="h85acb321g0934g4e65g8e1ag910fa4927572" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h44517b41geaa5g462fgba7cg6ad65b29adfe" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MustPrepareSpells" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="Arcane"/>
+          <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+          <attribute id="PrimaryAbility" type="uint8" value="4"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="28d595bd-7241-4fb2-abf5-567ea05326b1"/>
+          <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+          <attribute id="UUID" type="guid" value="095f197b-d77a-4501-837a-c541b5968f68"/>
+        </node>
       </children>
     </node>
   </region>

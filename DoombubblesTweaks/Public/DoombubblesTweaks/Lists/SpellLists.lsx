@@ -49,6 +49,16 @@
           <attribute id="Spells" type="LSString" value="Target_FlameStrike_Fire"/>
           <attribute id="UUID" type="guid" value="fe98c85b-f168-47ad-9c66-11b202c26612"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Frost Wizard Ice Barrier"/>
+          <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys"/>
+          <attribute id="UUID" type="guid" value="d4350867-2888-4d46-adb8-26d514dc3265"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Frost Wizard Ice Block"/>
+          <attribute id="Spells" type="LSString" value="Shout_IceBlock"/>
+          <attribute id="UUID" type="guid" value="bfe54150-c4aa-4135-82ed-5605e3023233"/>
+        </node>
       </children>
     </node>
   </region>

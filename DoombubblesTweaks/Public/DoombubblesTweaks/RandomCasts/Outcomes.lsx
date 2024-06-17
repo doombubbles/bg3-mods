@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="307"/>
+  <region id="Outcomes">
+    <node id="root">
+      <children>
+        <node id="Outcome">
+          <attribute id="GroupName" type="FixedString" value="Clearcasting"/>
+          <attribute id="Spell" type="FixedString" value="Shout_Clearcasting"/>
+          <attribute id="UUID" type="guid" value="7a97b088-84b3-46b2-a06b-1e8bec50002b"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

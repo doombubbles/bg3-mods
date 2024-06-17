@@ -81,3 +81,80 @@ end
 function HotStreakSpellCheck()
   return QuickenedSpellCheck() & SpellDamageTypeIs(DamageType.Fire)
 end
+
+function SplittingIceProjectileSpellCheck()
+  return ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Projectile) & SpellDamageTypeIs(DamageType.Cold)
+end
+
+function SplittingIceTargetSpellCheck()
+  return TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & SpellDamageTypeIs(DamageType.Cold) & ~NumberOfTargetsGreaterThan(1)
+end
+
+function SplittingIceTargetTouchSpellCheck()
+  return TargetRadiusGreaterThan(0) & ~TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & SpellDamageTypeIs(DamageType.Cold) & ~NumberOfTargetsGreaterThan(1)
+end
+
+function FingersOfFrostSpellCheck()
+  return SpellDamageTypeIs(DamageType.Cold) & (HasStringInSpellRoll('AttackType.RangedSpellAttack') | HasStringInSpellRoll('AttackType.MeleeSpellAttack')) & HasEnoughIciclesCheck(context.Source)
+end
+
+function HasEnoughIciclesCheck(entity)
+  local entity = entity or context.Target
+  return ConditionResult(GetStatusDuration('ICICLES', entity) >= 4)
+end
+
+function ClearCastingSpellCheck()
+  return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot'))
+end
+
+function ClearCastingMMSpellCheck()
+  return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot')) & MagicMissileSpellCheck()
+end
+
+function ClearCastingLevel1SpellCheck()
+  return ClearCastingSpellCheck() & IsSpellLevel(1)
+end
+
+function ClearCastingLevel2SpellCheck()
+  return ClearCastingSpellCheck() & IsSpellLevel(2)
+end
+
+function ClearCastingLevel3SpellCheck()
+  return ClearCastingSpellCheck() & IsSpellLevel(3)
+end
+
+function ClearCastingLevel4SpellCheck()
+  return ClearCastingSpellCheck() & IsSpellLevel(4)
+end
+
+function ClearCastingLevel5SpellCheck()
+  return ClearCastingSpellCheck() & IsSpellLevel(5)
+end
+
+function ClearCastingLevel6SpellCheck()
+  return ClearCastingSpellCheck() & IsSpellLevel(6)
+end
+
+function ClearCastingLevel1MMSpellCheck()
+  return ClearCastingMMSpellCheck() & IsSpellLevel(1)
+end
+
+function ClearCastingLevel2MMSpellCheck()
+  return ClearCastingMMSpellCheck() & IsSpellLevel(2)
+end
+
+function ClearCastingLevel3MMSpellCheck()
+  return ClearCastingMMSpellCheck() & IsSpellLevel(3)
+end
+
+function ClearCastingLevel4MMSpellCheck()
+  return ClearCastingMMSpellCheck() & IsSpellLevel(4)
+end
+
+function ClearCastingLevel5MMSpellCheck()
+  return ClearCastingMMSpellCheck() & IsSpellLevel(5)
+end
+
+function ClearCastingLevel6MMSpellCheck()
+  return ClearCastingMMSpellCheck() & IsSpellLevel(6)
+end
