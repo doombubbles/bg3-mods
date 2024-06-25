@@ -567,6 +567,16 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 ##### Level 10
 - Arcane Intellect: You and your party members gain a +2 bonus to Intelligence to a maximum of 22.
 
+### Warlock
+
+#### Pact of Destruction
+
+##### Level 3
+- Pact of Destruction: Learn the Rays of Fire cantrip (1/2/3 beams of 2d6 Fire damage). It also gets affected by Eldritch Blast related invocations.
+
+##### Level 5
+- Deepened Pact: Eldritch Blast related invocations now affect all your Fire spells.
+
 ## Feats
 
 ### Added Feats

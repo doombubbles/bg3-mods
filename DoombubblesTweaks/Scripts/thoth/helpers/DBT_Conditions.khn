@@ -27,6 +27,8 @@ function EldritchBlastCheck()
   return SpellId('Projectile_EldritchBlast')
   | SpellId('Projectile_MAG_EldritchBlast_Staff')
   | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
+  | SpellId('Projectile_FireRay_Warlock')
+  | (SpellDamageTypeIs(DamageType.Fire) & HasPassive('ThirstingBlade_Check',context.Source))
 end
 
 function FlySpellCheck()

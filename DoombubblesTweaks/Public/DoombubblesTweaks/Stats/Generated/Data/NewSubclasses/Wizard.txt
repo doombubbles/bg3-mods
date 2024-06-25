@@ -63,25 +63,11 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsSpell() and IsDamageTypeFire()"
 data "StatsFunctors" "ApplyStatus(BURNING, 100, 2)"
 
-
-new entry "Target_FlameStrike_Fire"
+new entry "Target_FlameStrike"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_FlameStrike"
 data "DamageType" "Fire"
-data "SpellSuccess" "DealDamage(6d6,Fire);DealDamage(6d6,Radiant,Magical)"
-data "SpellFail" "DealDamage(6d6/2,Fire);DealDamage(6d6/2,Radiant,Magical)"
-data "TooltipDamageList" "DealDamage(6d6,Fire);DealDamage(6d6,Radiant)"
-
-new entry "Target_FlameStrike_6_Fire"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_FlameStrike_6"
-data "RootSpellID" "Target_FlameStrike_Fire"
-data "DamageType" "Fire"
-data "SpellSuccess" "DealDamage(7d6,Fire);DealDamage(7d6,Radiant,Magical)"
-data "SpellFail" "DealDamage(7d6/2,Fire);DealDamage(7d6/2,Radiant,Magical)"
-data "TooltipDamageList" "DealDamage(7d6,Fire);DealDamage(7d6,Radiant)"
 
 
 new entry "Firestarter"
@@ -292,6 +278,7 @@ using "MAG_MAGIC_ITEM_POWERED_CAST"
 data "StackId" "CLEARCASTING_ACTIVE"
 data "DisplayName" "h096d2a11g49edg4fe2gb2e5g431740d574c5"
 data "Icon" "PassiveFeature_RitualCaster_MemorizeSpells"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 
 new entry "Clearcasting_2"
@@ -340,7 +327,7 @@ data "AuraRadius" "30"
 data "AuraStatuses" "IF(Ally() and not Tagged('INANIMATE') and Tagged('PLAYABLE')):ApplyStatus(ARCANE_INTELLECT_BUFF)"
 data "Boosts" "Ability(Intelligence, 2, 22)"
 data "RemoveEvents" ""
-data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisablePortraitIndicator"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "ARCANE_INTELLECT_BUFF"
 data "StatusType" "BOOST"

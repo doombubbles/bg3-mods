@@ -6,4 +6,25 @@
 	<content contentuid="hac917788g7986g44f6g802aga22564ddff40" version="1">Pact Weapon: Radiant</content>
 	<content contentuid="hf4427ffag9ca9g4545g9f43gc8d0f1595347" version="1">Pact Weapon Toggle</content>
 	<content contentuid="hf4427ffag9ca9g4545g9f43gc8d0f1595347" version="1">Pact Weapon Unlock</content>
+
+	<content contentuid="h8fe52160g28bdg49f3g9bc5gfa63ea508cea" version="1">Eldritch Mind</content>
+	<content contentuid="h8ef706f0g0ac4g4da8gb362gb8d5149488da" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell.</content>
+	<content contentuid="h377320adg5b73g403fgad31g3cf06c8810fc" version="1">Grasp of Hadar</content>
+	<content contentuid="hb028d267g29c4g4ab8gba32g89b37a1171cf" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you can pull the creature up to [1] towards you.</content>
+	<content contentuid="h3a31a921g28efg4d08gb9d3gee7297c69b8f" version="1">Lance of Lethargy</content>
+	<content contentuid="he6aada9ag7026g434agad7dga55ee5957581" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; it reduces the target's &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
+	
+	
+
+	<content contentuid="h4ecbe33eg5d2cg483cg97c2gc99109000e40" version="1">Pact of Destruction</content>
+	<content contentuid="h85db2e05g22c5g4569gb0f0gede017efdaee" version="1">Rays of Fire</content>
+	<content contentuid="h1cd4d745g0c41g4838gb50ag1cc3cef2da22" version="1">Hurl [1] ray(s) of fire.</content>
+	
+	<content contentuid="hc19d5973g8425g4969gb956g5ae5448e67f5" version="1">Your patron grants you the power of fire and brimstone. You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_FireRay_Warlock"&gt;Rays of Fire&lt;/LSTag&gt; cantrip. It is also affected by your Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h812aad05gb95fg45afg9c51gd3c8b010e9bd" version="1">Also affected by your Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h7cdc9284g9ba0g453ag8b72gcdcf1bc34ec8" version="1">Pleased with your service, your otherworldly patron added new boons to the terms of your pact.&lt;br&gt;&lt;br&gt;Blade pactholders gain an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;extra attack&lt;/LSTag&gt; with their pact weapon.&lt;br&gt;&lt;br&gt;The Pact of the Chain's &lt;LSTag Type="Spell" Tooltip="Target_FindFamiliar"&gt;familiar&lt;/LSTag&gt; also gains an extra attack.&lt;br&gt;&lt;br&gt;Pact of the Tome warlocks can cast &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;Animate Dead&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;Call Lightning&lt;/LSTag&gt; once per long rest.&lt;br&gt;&lt;br&gt;For Pact of Destruction warlocks, Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; now affect all Fire spells.</content>
+	
+
 </contentList>

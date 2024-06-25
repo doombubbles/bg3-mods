@@ -46,7 +46,7 @@
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Fire Wizard Flamestrike"/>
-          <attribute id="Spells" type="LSString" value="Target_FlameStrike_Fire"/>
+          <attribute id="Spells" type="LSString" value="Target_FlameStrike"/>
           <attribute id="UUID" type="guid" value="fe98c85b-f168-47ad-9c66-11b202c26612"/>
         </node>
         <node id="SpellList">
