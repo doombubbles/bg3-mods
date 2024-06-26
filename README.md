@@ -421,7 +421,7 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 
 ### Fighter
 
-- Added a new Fighting Style "Martial Arts": Your unarmed attacks deal 1d4/1d6/1d8 damage. When not wielding a melee weapon, you can make an unarmed strike as a bonus action.
+- Added a new Fighting Style "Martial Arts": Your unarmed attacks deal 1d4/1d6/1d8 damage. When not holding anything in your off hand, you can make an unarmed strike as a bonus action.
 
 #### Battle Master
 
@@ -434,6 +434,11 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 <!-- - ~~Now gains spell slots like a half caster instead of a third caster~~
   - ~~Still chooses specifically Abjuration and Evocation spells at most levels~~ -->
 - Gains "Cunning Pugilist" at Level 3 which adds + INT Modidifier to Unarmed Damage
+- Eldritch Strike now also works with Unarmed Strikes
+
+#### Champion
+
+- Gains "Savage Puglist" at Level 3 which makes Unarmed Strikes roll damage dice twice and use the higher result.
 
 ### Rogue
 

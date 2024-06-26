@@ -19,4 +19,7 @@
 	<content contentuid="hdfc77377g2c4fg45f1ga445gba2924e226f1" version="1">When you heal a creature, it receives [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_HARPERS_SINGING_SWORD_BLESS"&gt;Singing Sword: Song&lt;/LSTag&gt;.</content>
 
 
+	<content contentuid="h9419d463g2e05g466ag869cg013805c8db7b" version="1">Can't wield anything in off hand.</content>
+	<content contentuid="h53c4373ag638eg4788ga8d4gfde048471dbe" version="1">Target must have something in off hand.</content>
+
 </contentList>

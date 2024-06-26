@@ -113,50 +113,14 @@ function ClearCastingMMSpellCheck()
   return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot')) & MagicMissileSpellCheck()
 end
 
-function ClearCastingLevel1SpellCheck()
-  return ClearCastingSpellCheck() & IsSpellLevel(1)
+function HasNoMainHand(entity)
+  entity = entity or context.Source
+  result = ~WieldingWeapon('Melee', false, false, entity)
+  return ConditionResult(result.Result, {ConditionError("HasWeaponInMainHand")}, {ConditionError("HasNotWeaponInMainHand")})
 end
 
-function ClearCastingLevel2SpellCheck()
-  return ClearCastingSpellCheck() & IsSpellLevel(2)
-end
-
-function ClearCastingLevel3SpellCheck()
-  return ClearCastingSpellCheck() & IsSpellLevel(3)
-end
-
-function ClearCastingLevel4SpellCheck()
-  return ClearCastingSpellCheck() & IsSpellLevel(4)
-end
-
-function ClearCastingLevel5SpellCheck()
-  return ClearCastingSpellCheck() & IsSpellLevel(5)
-end
-
-function ClearCastingLevel6SpellCheck()
-  return ClearCastingSpellCheck() & IsSpellLevel(6)
-end
-
-function ClearCastingLevel1MMSpellCheck()
-  return ClearCastingMMSpellCheck() & IsSpellLevel(1)
-end
-
-function ClearCastingLevel2MMSpellCheck()
-  return ClearCastingMMSpellCheck() & IsSpellLevel(2)
-end
-
-function ClearCastingLevel3MMSpellCheck()
-  return ClearCastingMMSpellCheck() & IsSpellLevel(3)
-end
-
-function ClearCastingLevel4MMSpellCheck()
-  return ClearCastingMMSpellCheck() & IsSpellLevel(4)
-end
-
-function ClearCastingLevel5MMSpellCheck()
-  return ClearCastingMMSpellCheck() & IsSpellLevel(5)
-end
-
-function ClearCastingLevel6MMSpellCheck()
-  return ClearCastingMMSpellCheck() & IsSpellLevel(6)
+function HasNoOffHand(entity)
+  entity = entity or context.Source
+  result = ~WieldingWeapon('Melee', true, false, entity) & ~HasShieldEquipped(entity) & ~WieldingWeapon('Twohanded', false, false, entity)
+  return ConditionResult(result.Result, {ConditionError("HasWeaponInOffHand")}, {ConditionError("HasNotWeaponInOffHand")})
 end

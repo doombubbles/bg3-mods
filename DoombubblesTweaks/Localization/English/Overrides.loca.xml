@@ -40,10 +40,12 @@
   <content contentuid="h757091c2gd122g4859g8bfbg875d7baf0eff" version="1">Whenever you deal damage to an enemy within [1], gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; for [2] turns.</content>
 
   <content contentuid="h6c598f54g97ceg437dg9e59g4402ae77ded1" version="1">While &lt;LSTag Type="Status" Tooltip="THREATENED"&gt;Threatened&lt;/LSTag&gt;, affected entity adds their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage they deal with spells.</content>
-	
+
   <content contentuid="h9aa03926g6a8bg4df4g8272gcdc0bb87cdae" version="1">Your &lt;LSTag Tooltip="RangedSpellAttack"&gt;Ranged Spell Attacks&lt;/LSTag&gt; can also be made as melee spell attacks.</content>
-	
+
   <content contentuid="hcf0ce1d8gc3d0g45b9g9f8ag48c7a0cb13ee" version="1">Tyrant's Fist</content>
+
+  <content contentuid="h5b3a41ebg1cd2g41f5gb0aeg226a3de0d28f" version="1">When you hit a creature with a weapon or unarmed attack, it has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against a spell you cast before the end of your next turn.</content>
 
 
 </contentList>

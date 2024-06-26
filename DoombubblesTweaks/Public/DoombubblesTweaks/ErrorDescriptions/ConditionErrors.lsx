@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="4" revision="0" build="200"/>
+  <region id="ConditionErrors">
+    <node id="root">
+      <children>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="h9419d463g2e05g466ag869cg013805c8db7b" version="1"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="HasWeaponInOffHand"/>
+          <attribute id="UUID" type="guid" value="c8e84290-9704-4031-b4dd-21ef7014b7a0"/>
+        </node>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="h53c4373ag638eg4788ga8d4gfde048471dbe" version="1"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="HasNotWeaponInOffHand"/>
+          <attribute id="UUID" type="guid" value="3ee132bf-ea2e-4a23-8737-47ec9a0f3c83"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
