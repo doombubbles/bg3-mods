@@ -9,4 +9,16 @@
   <content contentuid="hca9c925eg8a1ag4426g8616g9291d26d075f" version="1">Improved Rage Recovery</content>
   <content contentuid="he9328baeg5662g43c5g9bf2g6dcf7ac66e1a" version="1">You now regain all your uses of &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
+  <content contentuid="hde5c4b21ge224g4e40g996bg71bb032a62a5" version="1">Unarmed Offense</content>
+  <content contentuid="hc574d41bgc983g4101g960dg11b2004f676a" version="1">While holding nothing in your main and off hands, your unarmed attacks deal [1].</content>
+  <content contentuid="hac760967gb86dg4859g82a4g32dc93767ff8" version="1">Improved Unarmed Offense</content>
+  <content contentuid="h92b26fd4ga7d9g4097gacb4g8a610da9f12d" version="1">You deal additional damage equal to your Constitution &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; with unarmed strikes.</content>
+  <content contentuid="h3d81f927g09fcg4bdbg82c2gd848a6538c8f" version="1">Reckless Attack (Unarmed)</content>
+  <content contentuid="h74a89687ge87fg4230ga127gc5f5f3e4c817" version="1">Enraged Strike</content>
+  <content contentuid="h5a9a571agde77g4f01ga924g88e1569527f3" version="1">As a bonus action, make a melee unarmed attack against a creature, knocking it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h0737cddcg36d9g43a8g8ab8gd9c5852eb13a" version="1">Diving Strike (Unarmed)</content>
+  <content contentuid="hfbbcccc5g4671g49e8g8465gb2016f38145a" version="1">Tiger's Bloodlust (Unarmed)</content>
+  <content contentuid="h70bf2a77gd03dg453bg8a0cg4ea555a51ee1" version="1">Your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; turns into a frenzy! You gain &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike"&gt;Frenzied Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_FrenziedThrow"&gt;Enraged Throw&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike_Unarmed"&gt;Enraged Strike&lt;/LSTag&gt;. You can also make an &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeaponBerserker"&gt;Improvised Weapon Attack&lt;/LSTag&gt; as a bonus action.</content>
+	<content contentuid="h34edddd3gd049g4dd8gbfd9g76908f74c2d2" version="2">While raging, your melee attacks deal an additional [1]. &lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You can use &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike_Boar"&gt;Frenzied Strike&lt;/LSTag&gt;.</content>
+
 </contentList>
