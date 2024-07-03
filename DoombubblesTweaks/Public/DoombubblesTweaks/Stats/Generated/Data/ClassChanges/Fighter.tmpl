@@ -47,6 +47,18 @@ data "Icon" "PassiveFeature_WarMagic"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 
 
+new entry "Shout_WeaponBond"
+type "SpellData"
+using "Shout_WeaponBond"
+data "ExtraDescription" "h61f5b2fbg1b82g41bdgad79g51b91e31b330"
+
+new entry "WEAPON_BOND"
+type "StatusData"
+using "WEAPON_BOND"
+data "ExtraDescription" "h61f5b2fbg1b82g41bdgad79g51b91e31b330"
+data "Boosts" "CannotBeDisarmed();ItemReturnToOwner();IF(ShouldWeaponBondOverride(context.Source)):WeaponAttackRollAbilityOverride(Intelligence)"
+
+
 new entry "FightingStyle_MartialArts"
 type "PassiveData"
 data "DisplayName" "h2f0f950eg77c5g4518g925bgb78d03c9c59a"
@@ -54,7 +66,8 @@ data "Description" "h847ad870g6c17g4993gb979g129d34048736"
 data "DescriptionParams" "DealDamage(LevelMapValue(FightingStyleMartialArts), Bludgeoning)"
 data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
 data "Properties" "Highlighted"
-data "Boosts" "MonkWeaponDamageDiceOverride(LevelMapValue(FightingStyleMartialArts));UnlockSpell(Target_UnarmedStrike_Offhand)"
+data "BoostContext" "OnEquip;OnUnequip;OnCreate"
+data "Boosts" "IF(HasNoMainHand()):MonkWeaponDamageDiceOverride(LevelMapValue(FightingStyleMartialArts));IF(HasNoOffHand()):UnlockSpell(Target_UnarmedStrike_Offhand)"
 
 new entry "Target_UnarmedStrike_Offhand"
 type "SpellData"
@@ -76,9 +89,16 @@ data "Description" "h7c8ac085g9935g453cg96f6gdfb3691f602a"
 data "DescriptionParams" "DealDamage(LevelMapValue(SuperiorityDie), Bludgeoning)"
 data "Icon" "PassiveFeature_MartialArts_UnarmedDamage"
 data "Properties" "Highlighted"
-data "Boosts" "MonkWeaponDamageDiceOverride(LevelMapValue(SuperiorityDie))"
+data "BoostContext" "OnEquip;OnUnequip;OnCreate"
+data "Boosts" "IF(HasNoMainHand()):MonkWeaponDamageDiceOverride(LevelMapValue(SuperiorityDie))"
+
 
 new entry "EldritchKnight_Unarmed"
+type "PassiveData"
+using "KiEmpoweredStrikes"
+data "DisplayName" "h7dde797dg410ag498dgb89eg911ac81cccd6"
+
+new entry "EldritchKnight_Unarmed2"
 type "PassiveData"
 data "DisplayName" "h8277d108g9f4bg44f0gbf9bgf04484f0428f"
 data "Description" "hd35e05a6g8c91g4f8cg8e14g610abf384e15"
@@ -86,20 +106,30 @@ data "Icon" "PassiveFeature_MartialArts_UnarmedDamage"
 data "Properties" "Highlighted"
 data "Boosts" "IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(IntelligenceModifier)"
 
-new entry "Champion_Unarmed"
-type "PassiveData"
-data "DisplayName" "hf1cc5dc0g058bg456dg9084g3c87cef6f249"
-data "Description" "h8e6e7f22g6f38g4b64g9447g73c47ca2a045"
-data "Icon" "PassiveFeature_MartialArts_UnarmedDamage"
-data "Properties" "Highlighted"
-data "Boosts" "IF(IsMeleeUnarmedAttack()):Reroll(MeleeUnarmedDamage,20,false)"
-
 new entry "EldritchStrike"
 type "PassiveData"
 using "EldritchStrike"
 data "Description" "h5b3a41ebg1cd2g41f5gb0aeg226a3de0d28f"
 data "Conditions" "(IsWeaponAttack() or IsMeleeUnarmedAttack()) and not IsMiss()"
 
+new entry "BrawlMagic"
+type "PassiveData"
+data "DisplayName" "h228b48e3g0fd7g40b3ga2f2ga0c7071d9e8e"
+data "Description" "h4d4bd79fg82b1g4e01ga5feg410678f0d7db"
+data "Icon" "PassiveFeature_StillnessOfMind"
+data "Properties" "Highlighted"
+data "Boosts" "
+{{- range $passive, $bonus := $.ImprovedElementalCasting -}}
+IF(BM('{{$passive}}',context.Source)):DamageBonus({{$bonus}});
+{{- end -}}
+"
+
+new entry "Champion_Unarmed"
+type "PassiveData"
+using "ImprovedCritical"
+data "DisplayName" "heeb02e43g1283g41cega922g3843b75b713c"
+data "Description" "hac8acb98gdf36g4ab7g95dbgbc31332c6c37"
+data "BoostConditions" "IsMeleeUnarmedAttack()"
 
 {{- define "UnarmedManoeuvre" }}
 data "RequirementConditions" "HasNoMainHand()"

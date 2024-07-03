@@ -425,20 +425,25 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 
 #### Battle Master
 
-- Gains "Experienced Pugilist" at Level 3 making unarmed attacks use your Superiority Die as the damage.
+- Gains "Superior Pugilist" at Level 3 making unarmed attacks use your Superiority Die as the damage.
 - Most Manoeuvres adjusted to also have unarmed versions
 
 #### Eldritch Knight
 
+- Weapon Bond now allows a weapon to use Intelligence for its rolls if it's higher than Strength / Dexterity
+- Gains "Ritual Strikes" at Level 3 which makes your unarmed attacks count as magical
 - War Magic now works with Extra Attack and the cantrip and attack can be used in either order
+  - This also allows it to work with unarmed strikes
+- At level 7 also gains "Brawl Magic" making your unarmed damage bonuses also affect your spell attack cantrips if you're unarmed
 <!-- - ~~Now gains spell slots like a half caster instead of a third caster~~
   - ~~Still chooses specifically Abjuration and Evocation spells at most levels~~ -->
-- Gains "Cunning Pugilist" at Level 3 which adds + INT Modidifier to Unarmed Damage
+<!-- - Gains "Cunning Pugilist" at Level 3 which adds + INT Modidifier to Unarmed Damage -->
 - Eldritch Strike now also works with Unarmed Strikes
 
 #### Champion
 
-- Gains "Savage Puglist" at Level 3 which makes Unarmed Strikes roll damage dice twice and use the higher result.
+<!-- - Gains "Savage Puglist" at Level 3 which makes Unarmed Strikes roll damage dice twice and use the higher result. -->
+- Gains "Improved Critical Jab" at Level 3 which reduces the crit threshold for unarmed attacks by an additional 1
 
 ### Rogue
 
@@ -466,7 +471,8 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 ### Barbarian
 
 - Implemented the OneDnD mechanic of regaining 1 expended Rage charge on a Short Rest.
-- At Level 1 also gains Unarmed Offense - When holding nothing in your hands, your Unarmed Attacks do between 1d4 and 1d12 damage based on Barbarian level.
+- At Level 1 gains Unarmed Offense - When holding nothing in your hands, your Unarmed Attacks do between 1d4 and 1d12 damage based on Barbarian level.
+- At Level 6 gains Improved Unarmed Offense - Your unarmed attacks deal additional damage equal to your Constitution modifier.
 
 #### Berserker
 
@@ -608,6 +614,8 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 **Slasher** - Once per turn, when you deal slashing damage to a creature, reduce its movement speed for a turn. When you crit with slashing damage, the target's attacks have disadvantage for 1 turn. Increase STR or DEX by 1.
 
+**Double Fist Puncher** - While you have nothing in your main hand and off hand, toggle to make unarmed attacks have a -5 to hit but deal +10 damage.
+
 ### Feat Changes
 
 **Polearm Master** - Bonus Attack now correctly adds Damage Modifiers like Great Weapon Master
@@ -636,12 +644,13 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 **Ritual Caster** - Also increase INT or WIS or CHA by 1.
 
+**Savage Attacker** - Now also affects unarmed attacks
+
 **Shield Master** - Also increase STR or CON by 1. You get Shield Proficiency if you didn't already have it.
 
 **Skilled** - Also increase any stat by 1.
 
 **Spell Sniper** - Also increase INT or WIS or CHA by 1.
-
 
 ## Non-Gameplay Changes
 

@@ -170,6 +170,11 @@
           <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1)"/>
           <attribute id="UUID" type="guid" value="a64b152c-cfa1-4c23-8cde-9e834389fc4e"/>
         </node>
+        <node id="Feat">
+          <attribute id="Name" type="FixedString" value="DoubleFistPuncher"/>
+          <attribute id="PassivesAdded" type="LSString" value="DoubleFistPuncher"/>
+          <attribute id="UUID" type="guid" value="18fde1d4-a067-46fe-96eb-7352ef10a4af" />
+        </node>
       </children>
     </node>
   </region>

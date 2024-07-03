@@ -49,11 +49,3 @@ data "TooltipDamageList" "DealDamage(1d4+max(DexterityModifier,StrengthModifier)
 // data "Description" "h315d0a43ged8eg4d9agbcb6gd2208b3a08aa"
 // data "Conditions" "not StatusDoesNotInvokeOnStatusApply() and Enemy()"
 // data "StatsFunctors" "ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY, 100, 2);ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL, 100, 1)"
-
-new entry "TavernBrawler"
-type "PassiveData"
-using "TavernBrawler"
-data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,StrengthModifier));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,StrengthModifier));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,StrengthModifier));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,StrengthModifier));IF((HasStatus('SG_Polymorph_BeastShape',context.Source) or HasStatus('SLAYER_PLAYER',context.Source) or HasStatus('SLAYER_PLAYER_10',context.Source)) and IsUnarmedAttack() and not (Tagged('MYRMIDON_AIR',context.Source) or Tagged('MYRMIDON_FIRE',context.Source) or Tagged('MYRMIDON_WATER',context.Source))):DamageBonus(max(0,StrengthModifier))"
-data "StatsFunctorContext" ""
-data "Conditions" ""
-data "StatsFunctors" ""

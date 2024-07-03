@@ -1,4 +1,9 @@
-QuickenedCantripsPerCombat: true
+Balance:
+  QuickenedCantripsPerCombat: true
+  NerfTavernBrawler: false
+  NerfArcaneAcuity: false
+  NerfSlashingFlourish: false
+  FixSlashingFlourish: false
 
 GreatWyrmStaves:
   Fire:

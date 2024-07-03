@@ -9,6 +9,17 @@ function ShouldPactBladeOverride(entity)
   end
 end
 
+function ShouldWeaponBondOverride(entity)
+  local weapon = entity or context.Source
+  local owner = GetOwner(weapon)
+  if HasWeaponProperty(WeaponProperties.Finesse, weapon).Result or WieldingFinesseWeapon(owner).Result then
+    -- Seems like just the HasWeaponProperty doesn't seem to work
+    return ConditionResult(owner.Intelligence > owner.Dexterity) & ConditionResult(owner.Intelligence > owner.Strength)
+  else
+    return ConditionResult(owner.Intelligence > owner.Strength)
+  end
+end
+
 function MagicMissileSpellCheck()
   return SpellId('Projectile_MAG_MagicMissile_Shot')
   | SpellId('Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet') 
@@ -123,4 +134,12 @@ function HasNoOffHand(entity)
   entity = entity or context.Source
   result = ~WieldingWeapon('Melee', true, false, entity) & ~HasShieldEquipped(entity) & ~WieldingWeapon('Twohanded', false, false, entity)
   return ConditionResult(result.Result, {ConditionError("HasWeaponInOffHand")}, {ConditionError("HasNotWeaponInOffHand")})
+end
+
+function IEC(passive)
+  return ~IsWeaponAttack() & ~IsUnarmedAttack() & (HasUseCosts('KiPoint') | SpellId('Projectile_RayOfFrost_Monk') | SpellId('Target_ShockingGrasp_Monk')) & HasPassive(passive, context.Source)
+end
+
+function BM(passive)
+  return HasNoMainHand() & IsCantrip() & SpellAttackCheck() & HasPassive(passive, context.Source)
 end

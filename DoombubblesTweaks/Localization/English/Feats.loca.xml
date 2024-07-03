@@ -62,6 +62,11 @@
 	<content contentuid="hc92b1af7g20bbg48d9g9d98ge4c1bc0f05c8" version="1">Slasher: Crit</content>
 	<content contentuid="h1d08c224g71f4g417ag9ce0g05d7b18616cc" version="1">When you score a critical hit with an attack that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls.</content>
 
+	<content contentuid="h29e15670g3379g403dg957ega0d49c64992e" version="1">Double Fist Puncher</content>
+	<content contentuid="h149cb06dg7bafg45b7g9130g7b18dbebdef8" version="1">When making an unarmed strike when you have nothing in your main hand or off hand, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; take a -5 penalty, but their damage increases by 10.</content>
+
+	<content contentuid="hf1cc5dc0g058bg456dg9084g3c87cef6f249" version="1">Savage Pugilist</content>
+	<content contentuid="h8e6e7f22g6f38g4b64g9447g73c47ca2a045" version="1">When making unarmed attacks, you roll your damage dice twice and use the highest result.</content>
 
 	<content contentuid="h9e95ea41g70f8g442agb69bge228d148ed29" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximmum of 20.&lt;br&gt;&lt;br&gt;When you make crossbow attacks within melee range, the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; do not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Type="Spell" Tooltip="Projectile_PiercingShot"&gt;Piercing Shot&lt;/LSTag&gt; also inflicts &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; for twice as long.</content>
 
@@ -111,6 +116,9 @@
 
 	<content contentuid="h07a5f71bg3280g4407ga64cgd0f605d15b3b" version="1">You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
+	<content contentuid="hbc96b8d5gbe77g44f8gbf6fg5cebe4789537" version="1">When making melee attacks, you roll your damage dice twice and use the highest result.</content>
+
+	<content contentuid="h1fecb306g6183g4f42gbd47gcaf6810fe343" version="1">When you make an unarmed attack, use an improvised weapon, or throw something, additionally add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
 
 </contentList>

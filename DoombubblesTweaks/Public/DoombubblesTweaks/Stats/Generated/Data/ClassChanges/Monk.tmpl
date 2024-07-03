@@ -130,9 +130,8 @@ type "PassiveData"
 using "ImprovedElementalCasting"
 data "Properties" "Highlighted"
 data "ExtraDescription" "h9926c2b2gf6b2g42c3g8a9dg942c9072fa76"
-data "Conditions" "not IsWeaponAttack() and not IsUnarmedAttack() and (HasUseCosts('KiPoint') or SpellId('Projectile_RayOfFrost_Monk') or SpellId('Target_ShockingGrasp_Monk'))"
 data "Boosts" "
 {{- range $passive, $bonus := $.ImprovedElementalCasting -}}
-IF(HasPassive('{{$passive}}',context.Source)):DamageBonus({{$bonus}});
+IF(IEC('{{$passive}}',context.Source)):DamageBonus({{$bonus}});
 {{- end -}}
 "

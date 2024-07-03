@@ -200,6 +200,21 @@ data "TickType" "StartTurn"
 data "Boosts" "Disadvantage(AttackRoll)"
 data "StatusPropertyFlags" "TickingWithSource"
 
+
+new entry "DoubleFistPuncher"
+type "PassiveData"
+data "DisplayName" "h29e15670g3379g403dg957ega0d49c64992e"
+data "Description" "h149cb06dg7bafg45b7g9130g7b18dbebdef8"
+data "Icon" "PassiveFeature_KiEmpoweredStrikes"
+data "PriorityOrder" "1"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
+data "EnabledConditions" "HasNoMainHand() and HasNoOffHand()"
+data "EnabledContext" "OnEquip;OnUnequip;OnCreate"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):RollBonus(MeleeUnarmedAttack, -5);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(10)"
+
+
+
+
 // Feat Changes
 
 new entry "Rush_Charger_Attack"
@@ -291,3 +306,10 @@ using "MagicInitiate_Wizard"
 data "Description" "h240b078ag8ddeg4a1fgaff2g052710794fd3"
 data "ExtraDescription" "h07a5f71bg3280g4407ga64cgd0f605d15b3b"
 data "Boosts" ""
+
+
+new entry "SavageAttacker"
+type "PassiveData"
+using "SavageAttacker"
+data "Description" "hbc96b8d5gbe77g44f8gbf6fg5cebe4789537"
+data "Boosts" "Reroll(MeleeWeaponDamage,20,false);IF(IsMeleeUnarmedAttack()):Reroll(MeleeUnarmedDamage,20,false)"

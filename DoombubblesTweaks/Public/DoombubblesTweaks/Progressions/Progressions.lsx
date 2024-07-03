@@ -285,7 +285,6 @@
           <attribute id="UUID" type="guid" value="2dc1015e-6fd9-48aa-923e-eecaf72a83f1"/>
         </node>
 
-
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="ActionResource(Rage,1,0)"/>
           <attribute id="Level" type="uint8" value="6"/>
@@ -534,6 +533,26 @@
           <attribute id="TableUUID" type="guid" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435"/>
           <attribute id="UUID" type="guid" value="77ef26e6-6872-4f9c-82eb-a0640a49030d"/>
         </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="EldritchKnight"/>
+          <attribute id="PassivesAdded" type="LSString" value="WarMagic;BrawlMagic;UnlockedSpellSlotLevel2"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(4a86443c-6a21-4b8d-b1bf-55a99e021354,2,0,EldritchKnightAbjEvo);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,0,1,EldritchKnightAny)"/>
+          <attribute id="TableUUID" type="guid" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435"/>
+          <attribute id="UUID" type="guid" value="6b099a1b-dd6c-4b6a-a0b5-70fa86dbe6d3"/>
+        </node>
+        <!-- <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="EldritchKnight"/>
+          <attribute id="PassivesAdded" type="LSString" value="EldritchStrike;EldritchKnight_Unarmed2"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(4a86443c-6a21-4b8d-b1bf-55a99e021354,1,0,EldritchKnightAbjEvo);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAny)"/>
+          <attribute id="TableUUID" type="guid" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435"/>
+          <attribute id="UUID" type="guid" value="af0ea1d7-6a82-4c63-92c0-495c46914514"/>
+        </node> -->
 
         <node id="Progression">
           <attribute id="Level" type="uint8" value="3"/>

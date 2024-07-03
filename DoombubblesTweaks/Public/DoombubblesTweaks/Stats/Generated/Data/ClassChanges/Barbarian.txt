@@ -1,4 +1,3 @@
-// Barbarian
 new entry "FuriousCaster"
 type "PassiveData"
 data "DisplayName" "h2eaf0e52g3850g4a2fgaae5g46cbb1f31925"
@@ -18,46 +17,6 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_BolsteringMagic_SpellSlot1"
 data "Cooldown" "OncePerShortRest"
-
-
-new entry "WILD_MAGIC_BARBARIAN_WEAPON_INFUSION"
-type "StatusData"
-data "StatusType" "BOOST"
-using "WILD_MAGIC_BARBARIAN_WEAPON_INFUSION"
-data "DisplayName" "h5a46a47fgfe44g415cga493g3ade76e6ee78;1"
-data "Description" "h97303850g72e7g4513g9d6ag0b0982c830b2;2"
-data "DescriptionParams" "DealDamage(1d6,Force)"
-data "Icon" "statIcons_WildMagic_Barbarian_WeaponInfusion"
-data "StatusEffectOverride" "083181ba-1276-438b-876f-e3e75593990f"
-data "Boosts" "ItemReturnToOwner();WeaponProperty(Thrown);WeaponProperty(Light);WeaponDamage(1d6,Force)"
-data "RemoveConditions" "not HasStatus('RAGE', GetOwner(context.Source))"
-data "RemoveEvents" "OnTurn;OnStatusRemoved"
-
-
-new entry "WILD_MAGIC_BARBARIAN_MAGIC_RETRIBUTION"
-type "StatusData"
-data "StatusType" "BOOST"
-using "WILD_MAGIC_BARBARIAN_MAGIC_RETRIBUTION"
-data "DisplayName" "h06f6f701g9b99g43bbgbd24gabe060b10bf0;1"
-data "Description" "hfd910ed8geb58g4995g9757g8a44b8240845;2"
-data "DescriptionParams" "DealDamage(1d6, Force)"
-data "Icon" "statIcons_WildMagic_Barbarian_MagicRetribution"
-data "Passives" "WildMagicBarbarian_MagicRetribution_Passive"
-data "RemoveConditions" "not HasStatus('RAGE')"
-data "RemoveEvents" "OnTurn;OnStatusRemoved"
-data "StatusEffect" "bb5e4f14-4258-419a-8c64-ea534f44b6a0"
-
-
-new entry "WILD_MAGIC_BARBARIAN_PROTECTIVE_LIGHTS_AURA"
-type "StatusData"
-data "StatusType" "BOOST"
-using "WILD_MAGIC_BARBARIAN_PROTECTIVE_LIGHTS_AURA"
-data "DisplayName" "h4b3588fag0ee1g4cf8gb2e8g9f340ed2beaf;1"
-data "Description" "hcef8b74agabedg4091ga4a3g8e74f0839310;3"
-data "Icon" "statIcons_WildMagic_Barbarian_ProtectiveLights"
-data "SoundLoop" "Spell_Status_ProtectiveLights_MO"
-data "Boosts" "AC(1)"
-data "StatusEffect" "b613a7f4-1182-4e39-b63c-4fe77b96e9c2"
 
 
 new entry "CL_Passive_OneDnD_ShortRestRageRecovery"
