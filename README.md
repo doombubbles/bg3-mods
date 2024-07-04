@@ -4,7 +4,7 @@
 <summary>Install Guide</summary>
 
 1. Download [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases/latest/download/BG3ModManager_Latest.zip) and extract the folder to somewhere easy to access.
-2. Download this mod's [latest release](https://github.com/doombubbles/DoombubblesTweaks/releases/latest/download/DoombubblesTweaks.zip)
+2. Download this mod's [latest release](https://nightly.link/doombubbles/DoombubblesTweaks/workflows/build/main/DoombubblesTweaks.zip?h=0026dcf0a7001936a2d5d20ad84ef1244895aa81)
 3. Open BG3 Mod Manager
 4. Drag DoombubblesTweaks to the left section of the BG3 Mod Manager window, from the "Inactive Mods" section to the "Active Mods" section
 5. Use the `File -> Export Order to Game` option in the menu (Ctrl + E or the button next to "Export")
