@@ -3,26 +3,28 @@
   "tasks": [
     {
       "label": "Build Project",
-      "command": "bg3-modders-multitool.exe",
+      "type": "process",
+      "command": ".vscode/env.bat",
       "args": [
+        ".env",
+        "--",
+        "bg3-modders-multitool.exe",
         "-s",
         "./DoombubblesTweaks",
         "-d",
         "${userHome}/AppData/Local/Larian Studios/Baldur's Gate 3/Mods/DoombubblesTweaks.pak",
         "-c",
-        "1"
+        "1",
+        "-v",
+        "%MOD_VERSION%"
       ],
-      "type": "process",
       "group": "build",
-      "isBuildCommand": true,
       "presentation": {
         "reveal": "silent",
         "clear": true,
         "revealProblems": "onProblem"
       },
-      "dependsOn": [
-        "Process Templates"
-      ]
+      "dependsOn": ["Process Templates"]
     },
     {
       "label": "Update Mod",
@@ -35,17 +37,14 @@
         "reveal": "always",
         "showReuseMessage": false,
         "clear": true,
-        "close": true,
+        "close": true
       }
     },
     {
       "label": "Process Templates",
       "type": "process",
       "command": "go",
-      "args": [
-        "run",
-        "${workspaceFolder}/ProcessTemplates.go"
-      ],
+      "args": ["run", "${workspaceFolder}/ProcessTemplates.go"],
       "presentation": {
         "reveal": "silent",
         "clear": true,

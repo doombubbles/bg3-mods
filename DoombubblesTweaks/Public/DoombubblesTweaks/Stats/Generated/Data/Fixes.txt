@@ -49,3 +49,8 @@ data "TooltipDamageList" "DealDamage(1d4+max(DexterityModifier,StrengthModifier)
 // data "Description" "h315d0a43ged8eg4d9agbcb6gd2208b3a08aa"
 // data "Conditions" "not StatusDoesNotInvokeOnStatusApply() and Enemy()"
 // data "StatsFunctors" "ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY, 100, 2);ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL, 100, 1)"
+
+new entry "MAG_RADIANT_RADIATING_ORB"
+type "StatusData"
+using "MAG_RADIANT_RADIATING_ORB"
+data "StatusGroups" "SG_Light"

@@ -418,6 +418,7 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 #### Trickery Domain
 
 - Blessing of the Trickster no longer requires concentration
+- Invoke Duplicity no longer requires concentration
 
 ### Fighter
 

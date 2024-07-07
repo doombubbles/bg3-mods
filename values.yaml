@@ -1,5 +1,7 @@
 Balance:
   QuickenedCantripsPerCombat: true
+  ClothesAlwaysBuff: true
+  UniversalClothGivesBoth: true
   NerfTavernBrawler: false
   NerfArcaneAcuity: false
   NerfSlashingFlourish: false

@@ -32,6 +32,12 @@ data "SpellType" "Target"
 using "Target_BlessingOfTheTrickster"
 data "SpellFlags" "IsMelee;Invisible"
 
+new entry "Target_InvokeDuplicity"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_InvokeDuplicity"
+data "SpellFlags" "CannotTargetItems;CannotTargetCharacter"
+
 // more accurate description
 new entry "Shout_CloakOfShadows"
 type "SpellData"
