@@ -22,25 +22,25 @@
 
         <!-- 5+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
+          <attribute id="Passives" type="LSString" value="EldritchSmite,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
           <attribute id="UUID" type="guid" value="8adab8f9-e360-4f79-851b-2c7e050ca23d"/>
         </node>
 
         <!-- 7+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows.OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
+          <attribute id="Passives" type="LSString" value="BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,EldritchSmite,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows.OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
           <attribute id="UUID" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
         </node>
 
         <!-- 9+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="MinionsOfChaos,BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
+          <attribute id="Passives" type="LSString" value="MinionsOfChaos,BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,EldritchSmite,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
           <attribute id="UUID" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
         </node>
 
         <!-- 12+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="Lifedrinker,MinionsOfChaos,BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
+          <attribute id="Passives" type="LSString" value="Lifedrinker,MinionsOfChaos,BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,EldritchSmite,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
           <attribute id="UUID" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
         </node>
 

@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="0" revision="0" build="49"/>
-    <region id="TextureAtlasInfo">
-        <node id="root">
-            <children>
-                <node id="TextureAtlasIconSize">
-                    <attribute id="Height" type="int64" value="64"/>
-                    <attribute id="Width" type="int64" value="64"/>
-                </node>
-                <node id="TextureAtlasPath">
-                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/Icons_DBT.DDS"/>
-                    <attribute id="UUID" type="FixedString" value="fbcdbc53-2346-4add-ba8d-b69315c2fa4d"/>
-                </node>
-                <node id="TextureAtlasTextureSize">
-                    <attribute id="Height" type="int64" value="640"/>
-                    <attribute id="Width" type="int64" value="640"/>
-                </node>
-            </children>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="TextureAtlasInfo">
+    <node id="root">
+      <children>
+        <node id="TextureAtlasIconSize">
+          <attribute id="Height" type="int64" value="64"/>
+          <attribute id="Width" type="int64" value="64"/>
         </node>
-    </region>
-    <region id="IconUVList"> 
-        <node id="root">
-            <children>
-                <!-- <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_ElementalAdept_Necrotic"/> 
-                    <attribute id="U1" type="float" value="0.0"/> 
-                    <attribute id="U2" type="float" value="0.1"/> 
-                    <attribute id="V1" type="float" value="0.0"/> 
-                    <attribute id="V2" type="float" value="0.1"/> 
-                </node>
-                <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_ElementalAdept_Radiant"/> 
-                    <attribute id="U1" type="float" value="0.1"/> 
-                    <attribute id="U2" type="float" value="0.2"/> 
-                    <attribute id="V1" type="float" value="0.0"/> 
-                    <attribute id="V2" type="float" value="0.1"/> 
-                </node> -->
-			</children>
+        <node id="TextureAtlasPath">
+          <attribute id="Path" type="LSString" value="Assets/Textures/Icons/Icons_DBT.DDS"/>
+          <attribute id="UUID" type="FixedString" value="fbcdbc53-2346-4add-ba8d-b69315c2fa4d"/>
         </node>
-    </region>  				
+        <node id="TextureAtlasTextureSize">
+          <attribute id="Height" type="int64" value="640"/>
+          <attribute id="Width" type="int64" value="640"/>
+        </node>
+      </children>
+    </node>
+  </region>
+  <region id="IconUVList">
+    <node id="root">
+      <children>
+        <node id="IconUV">
+          <attribute id="MapKey" type="FixedString" value="Action_Warlock_EldritchSmite"/>
+          <attribute id="U1" type="float" value="0.0"/>
+          <attribute id="U2" type="float" value="0.1"/>
+          <attribute id="V1" type="float" value="0.0"/>
+          <attribute id="V2" type="float" value="0.1"/>
+        </node>
+        <node id="IconUV">
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_Warlock_EldritchSmite"/>
+          <attribute id="U1" type="float" value="0.1"/>
+          <attribute id="U2" type="float" value="0.2"/>
+          <attribute id="V1" type="float" value="0.0"/>
+          <attribute id="V2" type="float" value="0.1"/>
+        </node>
+      </children>
+    </node>
+  </region>
 </save>
