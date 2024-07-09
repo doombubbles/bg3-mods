@@ -675,7 +675,7 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 **Ritual Caster** - Also increase INT or WIS or CHA by 1.
 
-**Savage Attacker** - Now also affects unarmed attacks
+**Savage Attacker** - Now also affects unarmed attacks (NOTE: currently only active when Tavern Brawler nerf is enabled)
 
 **Shield Master** - Also increase STR or CON by 1. You get Shield Proficiency if you didn't already have it.
 

@@ -4,19 +4,10 @@
     {
       "label": "Build Project",
       "type": "process",
-      "command": ".vscode/env.bat",
+      "command": "busybox",
       "args": [
-        ".env",
-        "--",
-        "bg3-modders-multitool.exe",
-        "-s",
-        "./DoombubblesTweaks",
-        "-d",
-        "${userHome}/AppData/Local/Larian Studios/Baldur's Gate 3/Mods/DoombubblesTweaks.pak",
-        "-c",
-        "1",
-        "-v",
-        "%MOD_VERSION%"
+        "bash",
+        ".vscode/build.sh"
       ],
       "group": "build",
       "presentation": {

@@ -132,7 +132,7 @@ end
 
 function HasNoOffHand(entity)
   entity = entity or context.Source
-  result = ~WieldingWeapon('Melee', true, false, entity) & ~HasShieldEquipped(entity) & ~WieldingWeapon('Twohanded', false, false, entity)
+  result = ~WieldingWeapon('Melee', true, false, entity) & ~HasShieldEquipped(entity) & ~(WieldingWeapon('Twohanded', false, false, entity) & WieldingWeapon('Melee', false, false, entity))
   return ConditionResult(result.Result, {ConditionError("HasWeaponInOffHand")}, {ConditionError("HasNotWeaponInOffHand")})
 end
 
@@ -142,4 +142,8 @@ end
 
 function BM(passive)
   return HasNoMainHand() & IsCantrip() & SpellAttackCheck() & HasPassive(passive, context.Source)
+end
+
+function IsUnarmedWildshape()
+  return (HasStatus('SG_Polymorph_BeastShape',context.Source) | HasStatus('SLAYER_PLAYER',context.Source) | HasStatus('SLAYER_PLAYER_10',context.Source)) & ~(Tagged('MYRMIDON_AIR',context.Source) | Tagged('MYRMIDON_FIRE',context.Source) | Tagged('MYRMIDON_WATER',context.Source))
 end

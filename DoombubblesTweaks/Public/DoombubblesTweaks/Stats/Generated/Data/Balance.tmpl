@@ -1,12 +1,15 @@
-{{ $TavernBrwalerModifier := $.Balance.NerfTavernBrawler | ternary "ProficiencyBonus" "StrengthModifier" }}
+{{ $TavernBrawlerModifier := $.Balance.NerfTavernBrawler | ternary "ProficiencyBonus" "StrengthModifier" }}
 
 new entry "TavernBrawler"
 type "PassiveData"
 using "TavernBrawler"
-data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrwalerModifier}}));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,{{$TavernBrwalerModifier}}));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrwalerModifier}}));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,{{$TavernBrwalerModifier}}));IF((HasStatus('SG_Polymorph_BeastShape',context.Source) or HasStatus('SLAYER_PLAYER',context.Source) or HasStatus('SLAYER_PLAYER_10',context.Source)) and IsUnarmedAttack() and not (Tagged('MYRMIDON_AIR',context.Source) or Tagged('MYRMIDON_FIRE',context.Source) or Tagged('MYRMIDON_WATER',context.Source))):DamageBonus(max(0,{{$TavernBrwalerModifier}}))"
+data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,{{$TavernBrawlerModifier}}));IF(IsUnarmedWildshape() and IsUnarmedAttack()):DamageBonus(max(0,{{$TavernBrawlerModifier}}))"
 data "StatsFunctorContext" ""
 data "Conditions" ""
 data "StatsFunctors" ""
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "(IsRangedUnarmedAttack() or SpellId('Throw_ImprovisedWeapon') or SpellId('Throw_ImprovisedWeaponBerserker')) and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctors" "{{$TavernBrawlerModifier}}"
 {{- if $.Balance.NerfTavernBrawler }}
 data "Description" "h1fecb306g6183g4f42gbd47gcaf6810fe343"
 {{- end }}
