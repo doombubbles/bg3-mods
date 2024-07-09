@@ -26,7 +26,7 @@ jobs:
           dotnet-version: '8.0'
 
       - name: Download Multitool
-        uses: robinraju/release-downloader@v1.8
+        uses: robinraju/release-downloader@v1.11
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: ShinyHobo/BG3-Modders-Multitool
@@ -40,7 +40,7 @@ jobs:
         run: dotnet ./bg3-modders-multitool.dll -s "./${{ env.PROJECT_NAME }}" -d "./${{ env.PROJECT_NAME }}.pak" -c 1
 
       - name: Upload Mod
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.PROJECT_NAME }}
           path: ${{ env.PROJECT_NAME }}.pak

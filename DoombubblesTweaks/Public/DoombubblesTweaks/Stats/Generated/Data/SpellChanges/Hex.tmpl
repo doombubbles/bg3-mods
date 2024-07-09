@@ -1,7 +1,0 @@
-{{ range $ability := $.AbilityScores }}
-new entry "HEX_{{$ability | upper}}"
-type "StatusData"
-data "StatusType" "BOOST"
-using "HEX_{{$ability | upper}}"
-data "Boosts" "Disadvantage(Ability, {{$ability}});Disadvantage(SavingThrow, {{$ability}})"
-{{ end }}

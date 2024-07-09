@@ -4,18 +4,41 @@
     {
       "label": "Build Project",
       "type": "process",
-      "command": "busybox",
+      "command": "bin/busybox.exe",
       "args": [
         "bash",
-        ".vscode/build.sh"
+        "build.sh"
       ],
       "group": "build",
       "presentation": {
         "reveal": "silent",
-        "clear": true,
+        "showReuseMessage": false,
         "revealProblems": "onProblem"
-      },
-      "dependsOn": ["Process Templates"]
+      }
+    },
+    {
+        "label": "Build Go (Windows)",
+        "type": "process",
+        "command": "go",
+        "args": [
+          "build",
+          "-o",
+          "../bin/ProcessTemplates.exe",
+          "ProcessTemplates.go"
+        ],
+        "group": "build",
+        "presentation": {
+          "reveal": "silent",
+          "showReuseMessage": false,
+          "revealProblems": "onProblem"
+        },
+        "options": {
+          "cwd": "ProcessTemplates",
+          "env": {
+            "GOOS": "windows",
+            "GOARCH": "amd64"
+          }
+        }
     },
     {
       "label": "Update Mod",
@@ -34,13 +57,13 @@
     {
       "label": "Process Templates",
       "type": "process",
-      "command": "go",
-      "args": ["run", "${workspaceFolder}/ProcessTemplates.go"],
+      "command": "bin/ProcessTemplates.exe",
+      "group": "build",
       "presentation": {
         "reveal": "silent",
-        "clear": true,
+        "showReuseMessage": false,
         "revealProblems": "onProblem"
-      }
+      },
     }
   ]
 }
