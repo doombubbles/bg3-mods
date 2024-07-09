@@ -36,8 +36,11 @@ jobs:
           latest: true
           extract: true
   
+      - name: Process Templates
+        run: ./bin/ProcessTemplates.exe
+
       - name: Build Pak
-        run: dotnet ./bg3-modders-multitool.dll -s "./${{ env.PROJECT_NAME }}" -d "./${{ env.PROJECT_NAME }}.pak" -c 1
+        run: dotnet ./bg3-modders-multitool.dll -s "./build/${{ env.PROJECT_NAME }}" -d "./${{ env.PROJECT_NAME }}.pak" -c 1
 
       - name: Upload Mod
         uses: actions/upload-artifact@v4
@@ -47,7 +50,7 @@ jobs:
 
       - name: Build Zip
         if: startsWith(github.ref, 'refs/tags/')
-        run: dotnet ./bg3-modders-multitool.dll -s "./${{ env.PROJECT_NAME }}" -d "./${{ env.PROJECT_NAME }}.zip" -c 1
+        run: dotnet ./bg3-modders-multitool.dll -s "./build/${{ env.PROJECT_NAME }}" -d "./${{ env.PROJECT_NAME }}.zip" -c 1
 
       - name: Release
         uses: softprops/action-gh-release@v1

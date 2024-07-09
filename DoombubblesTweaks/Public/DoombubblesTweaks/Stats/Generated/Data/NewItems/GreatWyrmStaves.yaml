@@ -1,0 +1,49 @@
+Fire:
+  UUID: ffca3335-73fa-4a44-9035-bff033f31c1b
+  Cantrip: FireBolt
+  DisplayName: h78ff4679gb39ag49d9g9166g6f1680f5fff3
+  Description: h20b2c18dga094g443ag980fg2e46c87e8e5b
+Cold:
+  UUID: e019e7ef-a209-4df3-ad83-b1b6f55ffbda
+  Cantrip: RayOfFrost
+  DisplayName: h8eb4d130g5d55g4981ga4d5gedf465da9594
+  Description: h3ee48b31g7ca2g4615g8601g893ffb15dfd8
+Force:
+  UUID: e7e0778b-9582-4953-81b2-56767760de18
+  Cantrip: EldritchBlast
+  DisplayName: hfbd8793fg9d51g4804gaeeegab5b1799fbf6
+  Description: h72ec3914g18b4g4a72g9c0eg52f80a7800ce
+  Custom: true
+Lightning:
+  UUID: e56dd256-28cb-446d-a884-323e62418bb9
+  Cantrip: ShockingGrasp
+  DisplayName: h8dc4b5f6g286ag462ag8385g62a72a306cee
+  Description: hf6bca5ffg258fg49adg9773g29de7d15b22d
+Radiant:
+  UUID: c0499d1c-e332-4e5f-a82c-abefc5571a32
+  Cantrip: SacredFlame
+  DisplayName: hc7a88705g3d7cg46a4gb9begf8058eaff475
+  Description: h48f92332gc76eg4de0gac33g68b97f62526d
+  Custom: true
+Acid:
+  UUID: 7ac10001-2070-485e-a4bf-ee13656aa85c
+  Cantrip: AcidSplash
+  DisplayName: h19322977g5295g4f82gbf5bgac47d2dbbb35
+  Description: h3b3330d0g8abag489bg869ag47f1261f3a95
+Poison:
+  UUID: d5c7e3db-ff0a-49aa-8965-0e2f2804c1f9
+  Cantrip: PoisonSpray
+  DisplayName: hf164c319g2898g409eg8176g3e051b73cb70
+  Description: hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954
+Necrotic:
+  UUID: 2f30ce14-b2f0-476f-984f-57bb7367bf5b
+  Cantrip: ChillTouch
+  DisplayName: h574ffa3dgde8fg4b62gaef8g7e46259efaf9
+  Description: h5e1c6f23g3586g4c92gaaf5g5eab10751d1e
+  Custom: true
+Psychic:
+  UUID: 50c440d5-20be-4b60-94a3-e44e507edb3d
+  Cantrip: ViciousMockery
+  DisplayName: had011d3eg980bg4881g9461g117f26fc9cbe
+  Description: h6cfda877gee84g469eg9fc4g0327f9a803a3
+  Custom: true

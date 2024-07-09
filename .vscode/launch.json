@@ -25,7 +25,8 @@
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "${file}"
+            "program": "${file}",
+            "cwd": "${workspaceFolder}"
         },
         {
             "name": "Node: Run File",
@@ -42,7 +43,8 @@
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "${workspaceFolder}/ProcessTemplates.go"
+            "program": "${workspaceFolder}/ProcessTemplates//ProcessTemplates.go",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

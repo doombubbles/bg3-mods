@@ -1,4 +1,4 @@
-{{ range $ability := $.AbilityScores }}
+{{ range $ability := $.Hex.AbilityScores }}
 new entry "HEX_{{$ability | upper}}"
 type "StatusData"
 data "StatusType" "BOOST"

@@ -131,7 +131,7 @@ using "ImprovedElementalCasting"
 data "Properties" "Highlighted"
 data "ExtraDescription" "h9926c2b2gf6b2g42c3g8a9dg942c9072fa76"
 data "Boosts" "
-{{- range $passive, $bonus := $.ImprovedElementalCasting -}}
+{{- range $passive, $bonus := $.Monk.ImprovedElementalCasting -}}
 IF(IEC('{{$passive}}',context.Source)):DamageBonus({{$bonus}});
 {{- end -}}
 "

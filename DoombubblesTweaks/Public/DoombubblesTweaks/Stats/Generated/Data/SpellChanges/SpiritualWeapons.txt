@@ -1,0 +1,98 @@
+new entry "Target_SpiritualWeapon"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SpiritualWeapon"
+data "ContainerSpells" "
+{{- range $weapon, $info := $.SpiritualWeapons -}}
+  Target_SpiritualWeapon_{{$weapon}};
+{{- end -}}
+{{- range $weapon, $info := $.SpiritualWeapons -}}
+  {{- with $info -}}
+    Target_SpiritualWeapon_Use_{{$weapon}};
+  {{- end -}}
+{{- end -}}
+"
+
+new entry "SPIRITUAL_WEAPON"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FLAME_BLADE"
+data "DisplayName" "h4c22e47fgdb52g4300g959eg7a7d1b07e562"
+data "Description" "h38d63efcg8aadg412dg8342g7add42bf12cb"
+data "Icon" "Spell_Evocation_SpiritualWeapon"
+data "FormatColor" "GOLD"
+data "StackId" "SPIRITUAL_WEAPON"
+data "Boosts" "WeaponProperty(Unstowable);ItemReturnToOwner();WeaponAttackRollAbilityOverride(SpellCastingAbility)"
+data "StatusEffect" "6abda680-50c7-40af-8d37-2cc75fae7d21"
+
+new entry "SpirtualOverwhelm"
+type "PassiveData"
+using "Overwhelm"
+data "DescriptionParams" "DealDamage(max(1,SpellCastingAbilityModifier), Force)"
+data "Boosts" "UnlockInterrupt(Interrupt_SpiritualOverwhelm)"
+
+new entry "Interrupt_SpiritualOverwhelm"
+type "InterruptData"
+using "Interrupt_Overwhelm"
+data "DescriptionParams" "DealDamage(max(1,SpellCastingAbilityModifier), Force)"
+data "Properties" "DealDamage(max(1,SpellCastingAbilityModifier), Force)"
+
+
+{{ range $weapon, $info := $.SpiritualWeapons }}
+{{- with $info }}
+{{ range $index, $uuid := $info.Weapons }}
+new entry "DBT_SpiritualWeapon_{{$weapon}}_{{add $index 1}}"
+type "Weapon"
+using "WPN_{{$weapon}}_1"
+data "RootTemplate" "{{$uuid}}"
+{{- if $info.Versatile }}
+data "Damage" "{{add $index 2}}d6"
+data "VersatileDamage" "{{add $index 2}}d8"
+{{- else }}
+data "Damage" "{{add $index 2}}d8"
+{{- end }}
+data "Damage Type" "Force"
+data "ValueOverride" "0"
+data "Weight" "0.5"
+data "DefaultBoosts" "WeaponEnchantment({{add $index 1}});WeaponProperty(Magical);CannotBeDisarmed()"
+data "PersonalStatusImmunities" "WEAPON_COATED_WITH_POISON;POISON_BASIC;POISON_SERPENT_VENOM;POISON_WYVERN;POISON_WYVERN_DIPPED;POISON_PURPLE_WORM;DIPPED_FIRE;DIPPED_POISON;DIPPED_WATER"
+{{- if $info.Tenacity }}
+data "PassivesMainHand" "SpirtualOverwhelm"
+{{- end }}
+{{ end }}
+
+new entry "Target_SpiritualWeapon_Use_{{$weapon}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SpiritualWeapon_{{$weapon}}"
+data "DisplayName" "{{$info.SpellName}}"
+data "SpellProperties" "SummonInInventory({{index $info.Weapons 0}},10,1,true,true,true,,,SPIRITUAL_WEAPON,SPIRITUAL_WEAPON)"
+data "Description" "h2be358b2g5a59g4abfgb9cdg35a801bc7831"
+data "DescriptionParams" "DealDamage(2d8+SpellCastingAbilityModifier,Force)"
+data "TooltipDamageList" "DealDamage(2d8+SpellCastingAbilityModifier,Force)"
+data "TargetRadius" "1.5"
+data "TargetConditions" "Character() and Ally()"
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent"
+data "TooltipUpcastDescription" "7bbb79fa-02c7-4f45-a115-1d8e11b96ea0"
+data "TooltipUpcastDescriptionParams" "DealDamage(1d8, Force);2"
+
+
+{{- $index := 0}}
+{{- $damage := 0}}
+{{ range $level := list 3 4 5 6 }}
+{{- $index = sub (div $level 2) 1 }}
+{{- $damage = add (div $level 2) 1 }}
+new entry "Target_SpiritualWeapon_Use_{{$weapon}}_{{$level}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SpiritualWeapon_Use_{{$weapon}}"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:{{$level}}"
+data "RootSpellID" "Target_SpiritualWeapon_{{$weapon}}"
+data "PowerLevel" "{{$level}}"
+data "SpellProperties" "SummonInInventory({{index $info.Weapons $index}},10,1,true,true,true,,,SPIRITUAL_WEAPON,SPIRITUAL_WEAPON)"
+data "DescriptionParams" "DealDamage({{$damage}}d8+SpellCastingAbilityModifier,Force)"
+data "TooltipDamageList" "DealDamage({{$damage}}d8+SpellCastingAbilityModifier,Force)"
+{{ end }}
+
+{{- end }}
+{{ end }}
