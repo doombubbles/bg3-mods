@@ -72,8 +72,8 @@ data "Boosts" "UnlockSpellVariant(EldritchBlastCheck(),ModifyTargetRadius(Multip
 new entry "PactOfTheBlade"
 type "PassiveData"
 using "PactOfTheBlade"
-data "StatsFunctorContext" "OnEquip;OnUnequip;OnCreate;OnCast"
-data "StatsFunctors" "IF(HasPactWeapon() and not HasStatus('PACT_BLADE_DAMAGE_UNLOCK', context.Source)):ApplyStatus(SELF,PACT_BLADE_DAMAGE_UNLOCK,100,-1)" 
+// data "StatsFunctorContext" "OnEquip;OnUnequip;OnCreate;OnCast"
+// data "StatsFunctors" "IF(HasPactWeapon() and not HasStatus('PACT_BLADE_DAMAGE_UNLOCK', context.Source)):ApplyStatus(SELF,PACT_BLADE_DAMAGE_UNLOCK,100,-1)" 
 
 new entry "PACT_BLADE_DAMAGE_UNLOCK"
 type "StatusData"
@@ -193,3 +193,12 @@ data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamage
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType); ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Huge)):ApplyStatus(PRONE, 100, 2);DealDamage({{add $lvl 1}}d8, Force,Magical);ApplyStatus(PASSIVE_AGONIZING_BLAST, 100, 0)"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{add $lvl 1}}d8, Force)"
 {{ end }}
+
+new entry "ImprovedEldritchSmite"
+type "PassiveData"
+data "DisplayName" "hb5f404dfg8bf0g4508g94bag1404f5e58f1a"
+data "Description" "hdad1e613gec4eg422bgbfe4ga8f2e05a9bee"
+data "DescriptionParams" "DealDamage(1d8,Force)"
+data "Icon" "PassiveFeature_ImprovedEldritchSmite"
+data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
+data "Boosts" "IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Force)"

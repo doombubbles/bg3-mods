@@ -140,6 +140,11 @@ func buildValuesMap(rootDir string) (Values, error) {
 		fmt.Printf("  Error marshaling YAML: %v\n", err)
 	} else {
 		fmt.Printf("%s\n", string(yamlData))
+    filePath := filepath.Join(buildDir, "values.yaml")
+    err = os.WriteFile(filePath, yamlData, 0644)
+    if err != nil {
+        fmt.Printf("error writing values.yaml: %v", err)
+    }
 	}
 
 	return values, nil
