@@ -1,7 +1,7 @@
 QuickenedCantripsPerCombat: true
 ClothesAlwaysBuff: true
 UniversalClothGivesBoth: true
-NerfTavernBrawler: true
+NerfTavernBrawler: false
 NerfArcaneAcuity: false
 NerfSlashingFlourish: false
 FixSlashingFlourish: false
