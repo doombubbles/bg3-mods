@@ -1,0 +1,68 @@
+{{- if $.Balance.HealingBuffs }}
+
+new entry "Target_CureWounds"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CureWounds"
+data "SpellProperties" "RegainHitPoints(2d8+SpellCastingAbilityModifier)"
+data "TooltipDamageList" "RegainHitPoints(2d8+SpellCastingAbilityModifier)"
+data "TooltipUpcastDescriptionParams" "RegainHitPoints(2d8)"
+
+new entry "Target_HealingWord"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingWord"
+data "SpellProperties" "RegainHitPoints(2d4+SpellCastingAbilityModifier)"
+data "TooltipDamageList" "RegainHitPoints(2d4+SpellCastingAbilityModifier)"
+data "TooltipUpcastDescriptionParams" "RegainHitPoints(2d4)"
+
+{{ range $lvl := list 2 3 4 5 6 }}
+new entry "Target_CureWounds_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CureWounds_{{$lvl}}"
+data "SpellProperties" "RegainHitPoints({{mul $lvl 2}}d8+SpellCastingAbilityModifier)"
+data "TooltipDamageList" "RegainHitPoints({{mul $lvl 2}}d8+SpellCastingAbilityModifier)"
+
+new entry "Target_HealingWord_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HealingWord_{{$lvl}}"
+data "SpellProperties" "RegainHitPoints({{mul $lvl 2}}d4+SpellCastingAbilityModifier)"
+data "TooltipDamageList" "RegainHitPoints({{mul $lvl 2}}d4+SpellCastingAbilityModifier)"
+{{ end }}
+
+new entry "Shout_HealingWord_Mass"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_HealingWord_Mass"
+data "SpellProperties" "RegainHitPoints(2d4+SpellCastingAbilityModifier)"
+data "TooltipDamageList" "RegainHitPoints(2d4+SpellCastingAbilityModifier)"
+
+{{ range $lvl := list 4 5 6 }}
+new entry "Shout_HealingWord_Mass_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_HealingWord_Mass_{{$lvl}}"
+data "SpellProperties" "RegainHitPoints({{sub $lvl 1 }}d4+SpellCastingAbilityModifier)"
+data "DescriptionParams" "RegainHitPoints({{sub $lvl 1}}d4+SpellCastingAbilityModifier)"
+data "TooltipDamageList" "RegainHitPoints({{sub $lvl 1}}d4+SpellCastingAbilityModifier)"
+{{ end }}
+
+new entry "Target_CureWounds_Mass"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CureWounds_Mass"
+data "SpellProperties" "RegainHitPoints(5d8+SpellCastingAbilityModifier)"
+data "DescriptionParams" "RegainHitPoints(5d8+SpellCastingAbilityModifier)"
+data "TooltipDamageList" "RegainHitPoints(5d8+SpellCastingAbilityModifier)"
+
+new entry "Target_CureWounds_Mass_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CureWounds_Mass_6"
+data "SpellProperties" "RegainHitPoints(6d8+SpellCastingAbilityModifier)"
+data "DescriptionParams" "RegainHitPoints(6d8+SpellCastingAbilityModifier)"
+data "TooltipDamageList" "RegainHitPoints(6d8+SpellCastingAbilityModifier)"
+
+{{- end }}

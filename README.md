@@ -551,6 +551,10 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 
 - Improved Divine Smite is now toggleable
 
+#### Oath of Devotion
+
+- Sacred Weapon is now a Bonus Action
+
 ### Wizard
 
 #### School of Necromancy

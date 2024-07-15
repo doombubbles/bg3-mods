@@ -1,7 +1,15 @@
+# DoombubblesTweaks balance
 QuickenedCantripsPerCombat: true
 ClothesAlwaysBuff: true
 UniversalClothGivesBoth: true
+
+# Base Game nerfs
 NerfTavernBrawler: false
 NerfArcaneAcuity: false
 NerfSlashingFlourish: false
 FixSlashingFlourish: false
+ScrollsCostSpellSlots: false
+PotionSickness: false
+
+# Base Game Buffs
+HealingBuffs: true

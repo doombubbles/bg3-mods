@@ -1,0 +1,14 @@
+{{- if $.Balance.ScrollsCostSpellSlots }}
+{{ range $lvl, $scrolls := $.Scrolls.ByLevel }}
+{{ range $scroll := $scrolls}}
+new entry "{{$scroll}}"
+type "Object"
+using "{{$scroll}}"
+data "UseCosts" "{{(has $scroll $.Scrolls.BonusAction ) | ternary "BonusActionPoint" "ActionPoint" }}:1;SpellSlotsGroup:1:1:{{$lvl}}"
+{{- if (has $scroll $.Scrolls.Ritual)}}
+data "RitualCosts" "{{(has $scroll $.Scrolls.BonusAction ) | ternary "BonusActionPoint" "ActionPoint" }}:1"
+{{- end }}
+{{ end }}
+{{ end }}
+
+{{- end }}

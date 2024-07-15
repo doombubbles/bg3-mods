@@ -33,5 +33,10 @@
 		"prefix": ["warlockspellslot"],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"WarlockSpellSlot\"&gt;Warlock spell slot&lt;/LSTag&gt;"
+	},
+	"proficiencybonus": {
+		"prefix": ["proficiencybonus"],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"ProficiencyBonus\"&gt;Proficiency Bonus&lt;/LSTag&gt;"
 	}
 }
