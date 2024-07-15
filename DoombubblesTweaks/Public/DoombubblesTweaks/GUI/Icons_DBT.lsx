@@ -50,6 +50,13 @@
           <attribute id="V1" type="float" value="0.1"/>
           <attribute id="V2" type="float" value="0.2"/>
         </node>
+        <node id="IconUV">
+          <attribute id="MapKey" type="FixedString" value="Action_Paladin_DivineStorm"/>
+          <attribute id="U1" type="float" value="0.0"/>
+          <attribute id="U2" type="float" value="0.1"/>
+          <attribute id="V1" type="float" value="0.2"/>
+          <attribute id="V2" type="float" value="0.3"/>
+        </node>
       </children>
     </node>
   </region>

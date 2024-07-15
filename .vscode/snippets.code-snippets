@@ -1,42 +1,68 @@
 {
 	"uuid": {
-		"prefix": ["uuid"],
+		"prefix": [
+			"uuid"
+		],
 		"scope": "xml,txt",
 		"body": "$UUID"
 	},
 	"handle": {
-		"prefix": ["handle"],
+		"prefix": [
+			"handle"
+		],
 		"scope": "xml,txt",
 		"body": "h${UUID/-/g/g}"
 	},
 	"locale string": {
-		"prefix": ["content", "loca"],
+		"prefix": [
+			"content",
+			"loca"
+		],
 		"scope": "xml",
-		"body": ["<content contentuid=\"h${UUID/-/g/g}\" version=\"1\">${1}</content>"]
+		"body": [
+			"<content contentuid=\"h${UUID/-/g/g}\" version=\"1\">${1}</content>"
+		]
 	},
 	"status": {
-		"prefix": ["status"],
+		"prefix": [
+			"status"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Type=\"Status\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;",
 	},
 	"spell": {
-		"prefix": ["spell"],
+		"prefix": [
+			"spell"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Type=\"Spell\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;",
 	},
 	"spellslot": {
-		"prefix": ["spellslot"],
+		"prefix": [
+			"spellslot"
+		],
 		"scope": "xml",
 		"body": ""
 	},
 	"warlockspellslot": {
-		"prefix": ["warlockspellslot"],
+		"prefix": [
+			"warlockspellslot"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"WarlockSpellSlot\"&gt;Warlock spell slot&lt;/LSTag&gt;"
 	},
 	"proficiencybonus": {
-		"prefix": ["proficiencybonus"],
+		"prefix": [
+			"proficiencybonus"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"ProficiencyBonus\"&gt;Proficiency Bonus&lt;/LSTag&gt;"
+	},
+	"actionresource": {
+		"prefix": [
+			"actionresource"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Type=\"ActionResource\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;"
 	}
 }

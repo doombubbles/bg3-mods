@@ -66,7 +66,7 @@ data "Description" "h847ad870g6c17g4993gb979g129d34048736"
 data "DescriptionParams" "DealDamage(LevelMapValue(FightingStyleMartialArts), Bludgeoning)"
 data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
 data "Properties" "Highlighted"
-data "BoostContext" "OnEquip;OnUnequip;OnCreate"
+data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
 data "Boosts" "IF(HasNoMainHand()):MonkWeaponDamageDiceOverride(LevelMapValue(FightingStyleMartialArts));IF(HasNoOffHand()):UnlockSpell(Target_UnarmedStrike_Offhand)"
 
 new entry "Target_UnarmedStrike_Offhand"
@@ -89,7 +89,7 @@ data "Description" "h7c8ac085g9935g453cg96f6gdfb3691f602a"
 data "DescriptionParams" "DealDamage(LevelMapValue(SuperiorityDie), Bludgeoning)"
 data "Icon" "PassiveFeature_MartialArts_UnarmedDamage"
 data "Properties" "Highlighted"
-data "BoostContext" "OnEquip;OnUnequip;OnCreate"
+data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
 data "Boosts" "IF(HasNoMainHand()):MonkWeaponDamageDiceOverride(LevelMapValue(SuperiorityDie))"
 
 

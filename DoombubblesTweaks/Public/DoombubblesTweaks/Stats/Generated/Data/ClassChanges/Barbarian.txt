@@ -44,7 +44,7 @@ data "Description" "hc574d41bgc983g4101g960dg11b2004f676a"
 data "DescriptionParams" "DealDamage(LevelMapValue(BarbarianMartialArts), Bludgeoning)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "Properties" "Highlighted"
-data "BoostContext" "OnEquip;OnUnequip;OnCreate"
+data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
 data "BoostConditions" "HasNoMainHand() and HasNoOffHand()"
 data "Boosts" "MonkWeaponDamageDiceOverride(LevelMapValue(BarbarianMartialArts))"
 

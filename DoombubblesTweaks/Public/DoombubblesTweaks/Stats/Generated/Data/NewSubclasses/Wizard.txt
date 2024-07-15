@@ -5,7 +5,7 @@ data "Description" "h12baa293g17c2g4ea6gb45fg4fbe2978590d"
 data "Icon" "GenericIcon_DamageType_Fire"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "IsCritical() and IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Fire) and not HasStatus('HEATING_UP', context.Source)"
+data "Conditions" "Character() and IsCritical() and IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Fire) and not HasStatus('HEATING_UP', context.Source)"
 data "StatsFunctors" "ApplyStatus(SELF, HEATING_UP, 100, -1)"
 
 new entry "HEATING_UP"

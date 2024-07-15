@@ -64,6 +64,31 @@
           <attribute id="Spells" type="LSString" value="Target_FrenziedStrike;Throw_FrenziedThrow;Target_FrenziedStrike_Unarmed"/>
           <attribute id="UUID" type="guid" value="17803035-4762-4143-8f2f-1143d47e4f40"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin, Retribution spell scroll list"/>
+          <attribute id="Spells" type="LSString" value="Target_Smite_Lunar;Shout_Shield_Sorcerer;Target_HoldPerson;Target_SpiritualWeapon;Target_Haste;Shout_SpiritGuardians_Paladin"/>
+          <attribute id="UUID" type="guid" value="6705e5e0-55a0-49d5-9f2e-78640afa8c85"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 1"/>
+          <attribute id="Spells" type="LSString" value="Target_TemplarsVerdict"/>
+          <attribute id="UUID" type="guid" value="5a686dba-dddf-421f-bcbe-ff7f4ee2c1d0"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 3"/>
+          <attribute id="Spells" type="LSString" value="Shout_DivineStorm;Shout_AvengingWrath;Target_Smite_Lunar;Shout_Shield_Sorcerer"/>
+          <attribute id="UUID" type="guid" value="5b0668b3-de72-4980-a332-7e90f0638c6d"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 5"/>
+          <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_SpiritualWeapon"/>
+          <attribute id="UUID" type="guid" value="1e061f06-b996-4548-a7c3-9b157e07d8e6"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 9"/>
+          <attribute id="Spells" type="LSString" value="Target_Haste;Shout_SpiritGuardians_Paladin"/>
+          <attribute id="UUID" type="guid" value="63b5d1b4-8fe5-463b-acd1-4b3569e6597d"/>
+        </node>
       </children>
     </node>
   </region>

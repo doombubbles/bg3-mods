@@ -2,6 +2,7 @@
 QuickenedCantripsPerCombat: true
 ClothesAlwaysBuff: true
 UniversalClothGivesBoth: true
+RepellingWallOfFire: false
 
 # Base Game nerfs
 NerfTavernBrawler: false

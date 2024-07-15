@@ -22,4 +22,7 @@
 	<content contentuid="h9419d463g2e05g466ag869cg013805c8db7b" version="1">Can't wield anything in off hand.</content>
 	<content contentuid="h53c4373ag638eg4788ga8d4gfde048471dbe" version="1">Target must have something in off hand.</content>
 
+	<content contentuid="h1cb5e0d9g38abg4d33gad91g71f47b2ef5fb" version="1">Potion Sickness</content>
+	<content contentuid="h43344bfcgce88g436cgbf40ge7b71689e9b4" version="1">Subsequent Potions of Healing will heal for significantly less for the rest of the day.</content>
+
 </contentList>

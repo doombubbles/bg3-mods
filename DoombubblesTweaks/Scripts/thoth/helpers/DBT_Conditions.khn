@@ -39,7 +39,7 @@ function EldritchBlastCheck()
   | SpellId('Projectile_MAG_EldritchBlast_Staff')
   | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
   | SpellId('Projectile_FireRay_Warlock')
-  | (SpellDamageTypeIs(DamageType.Fire) & HasPassive('ThirstingBlade_Check',context.Source))
+  | (SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction',context.Source) & HasPassive('ThirstingBlade_Check',context.Source))
 end
 
 function FlySpellCheck()
@@ -146,4 +146,8 @@ end
 
 function IsUnarmedWildshape()
   return (HasStatus('SG_Polymorph_BeastShape',context.Source) | HasStatus('SLAYER_PLAYER',context.Source) | HasStatus('SLAYER_PLAYER_10',context.Source)) & ~(Tagged('MYRMIDON_AIR',context.Source) | Tagged('MYRMIDON_FIRE',context.Source) | Tagged('MYRMIDON_WATER',context.Source))
+end
+
+function DivinePurposeSpellCheck()
+  return SpellId('Target_TemplarsVerdict') | SpellId('Shout_DivineStorm')
 end

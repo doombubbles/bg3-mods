@@ -45,7 +45,7 @@
 	<content contentuid="hed3a9cd0gf34bg4a8dg935agb32ee5ab0168" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in mastering primordial elements like Fire.</content>
 
 	<content contentuid="h0c71f663gd232g4e0bg9380g460187775309" version="1">Hot Streak</content>
-	<content contentuid="h12baa293g17c2g4ea6gb45fg4fbe2978590d" version="1">When you deal a Critical Hit with a Fire spell, the next Fire spell you cast costs a bonus action instead of an action.</content>
+	<content contentuid="h12baa293g17c2g4ea6gb45fg4fbe2978590d" version="1">When you land a Critical Hit against a creature using a Fire spell, the next Fire spell you cast costs a bonus action instead of an action.</content>
 	<content contentuid="hc35c7d24g558fg440dg8d77gbae67e9419dc" version="1">Heating Up</content>
 	<content contentuid="h84f697c6g24d1g4874ga510g009c4ac6eb0c" version="1">Activate &lt;LSTag Type="Status" Tooltip="HOT_STREAK"&gt;Hot Streak!&lt;/LSTag&gt; to make the next Fire spell you cast cost a bonus action instead of an action.</content>
 	<content contentuid="h9b12c82ega624g4af8ga5a2g19314ef6239d" version="1">Hot Streak!</content>

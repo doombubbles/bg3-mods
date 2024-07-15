@@ -647,6 +647,41 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 ##### Level 5
 - Deepened Pact: Eldritch Blast related invocations now affect all your Fire spells.
 
+### Paladin
+
+#### Oath of Retribution
+
+##### Level 1
+
+- Channel Oath Spells 
+  - Templar's Verdict: Unleashes a powerful weapon strike that damages an enemy from a distance for an additional 2d8 Radiant Damage.
+  
+##### Level 3
+
+- Channel Oath Spells
+  - Divine Storm: Unleashes a whirl of divine energy, dealing your weapon's damage plus 1d8 Radiant to all nearby enemies.
+  - Avenging Wrath: Call upon the Light and become an avatar of retribution for 10 turns, giving you bonus Radiant damage and healing equal to your Proficiency bonus and reducing your Crit Threshold by 1.
+
+- Level 1 Oath Spells
+  - Lunar Smite
+  - Shield
+
+##### Level 5:
+
+- Level 2 Oath Spells
+  - Hold Person
+  - Spiritual Weapon
+
+##### Level 7:
+
+- Divine Purpose: When you land a Critical Hit on a creature, your next Templar's Verdict or Divine Storm will not cost a Channel Oath charge.
+
+##### Level 9:
+
+- Level 3 Oath Spells
+  - Haste
+  - Spirit Guardians (Radiant)
+
 ## Feats
 
 ### Added Feats
