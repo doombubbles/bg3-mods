@@ -42,6 +42,11 @@ jobs:
       - name: Build Pak
         run: dotnet ./bg3-modders-multitool.dll -s "./build/${{ env.PROJECT_NAME }}" -d "./${{ env.PROJECT_NAME }}.pak" -c 1
 
+      - name: List Output
+        run: |
+          Get-ChildItem -Path . -Recurse -File | ForEach-Object { Write-Output $_.FullName }
+        shell: pwsh
+
       - name: Upload Mod
         uses: actions/upload-artifact@v4
         with:

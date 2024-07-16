@@ -10,7 +10,7 @@
   <content contentuid="he9328baeg5662g43c5g9bf2g6dcf7ac66e1a" version="1">You now regain all your uses of &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hde5c4b21ge224g4e40g996bg71bb032a62a5" version="1">Unarmed Offense</content>
-  <content contentuid="hc574d41bgc983g4101g960dg11b2004f676a" version="1">While holding nothing in your main and off hands, your unarmed attacks deal between [1] and [2] based on your Barbarian level.</content>
+  <content contentuid="hc574d41bgc983g4101g960dg11b2004f676a" version="1">While holding nothing in your main and off hands, your unarmed attacks deal [1].</content>
   <content contentuid="hac760967gb86dg4859g82a4g32dc93767ff8" version="1">Improved Unarmed Offense</content>
   <content contentuid="h92b26fd4ga7d9g4097gacb4g8a610da9f12d" version="1">You deal additional damage equal to your Constitution &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; with unarmed strikes.</content>
   <content contentuid="h3d81f927g09fcg4bdbg82c2gd848a6538c8f" version="1">Reckless Attack (Unarmed)</content>
