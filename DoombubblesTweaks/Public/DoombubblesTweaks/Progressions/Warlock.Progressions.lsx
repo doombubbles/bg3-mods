@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+      
+        <!-- Magical Cunning -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Warlock"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(333fb1b0-9398-4ca8-953e-6c0f9a59bbed,2,WarlockInvocations);AddSpells(c1cfc0d3-1dad-1157-0100-c01200000003,CL_OneDnD_MagicalCunning)"/>
+          <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
+          <attribute id="UUID" type="guid" value="4de835bb-b7d0-47d8-aaea-596b4204a32a"/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>

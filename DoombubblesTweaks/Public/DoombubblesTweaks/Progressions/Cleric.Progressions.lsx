@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+
+        <!-- War Cleric -->
+        <!-- Fighting Style -->
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="WarDomain"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(921a657e-e210-4657-9e65-1e9748626354,ClericWarDomainSpells,,,AlwaysPrepared);SelectPassives(f8ebba38-932a-4c64-ae55-3df23e2f60fa,1,FightingStyle)"/>
+          <attribute id="TableUUID" type="guid" value="8f6048bc-47b8-49fa-956a-8a364807f6ec"/>
+          <attribute id="UUID" type="guid" value="59fd6b2d-dcf6-4aa2-a439-22700f68b68b"/>
+        </node>
+        
+        <!-- Improved War Priest -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(WarPriestActionPoint,1,0)"/>
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="WarDomain"/>
+          <attribute id="PassivesAdded" type="LSString" value="ImprovedWarPriest"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(9846b998-4672-4427-821f-c3647aff5e22,ClericWarDomainSpells,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="8f6048bc-47b8-49fa-956a-8a364807f6ec"/>
+          <attribute id="UUID" type="guid" value="1f223e87-1921-47d3-afeb-3a339b5d0cca"/>
+        </node>
+
+        <!-- TODO is Extra Attack too good even though Bards get it? -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="WarDomain"/>
+          <attribute id="PassivesAdded" type="LSString" value="WarGodsBlessing;ExtraAttack"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="8f6048bc-47b8-49fa-956a-8a364807f6ec"/>
+          <attribute id="UUID" type="guid" value="ae84bf7c-cfc4-4fcc-a736-8ef20a8b976c"/>
+        </node>
+
+        <!-- Light Cleric Choice -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="LightDomain"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(d9e923c1-f551-4bdf-92f7-5bb85b00b205,1,LightClericSpecialChoice)"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c"/>
+          <attribute id="UUID" type="guid" value="cc33557e-32ab-4cb9-82cb-d313ad38574e"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="LightDomain"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(d9e923c1-f551-4bdf-92f7-5bb85b00b205,1,LightClericSpecialChoice)"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c"/>
+          <attribute id="UUID" type="guid" value="c993dc9e-df2b-4cc9-857c-49b17982b56e"/>
+        </node>
+
+        <!-- Cleric Harness Divine Power -->
+
+        <!-- <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(ChannelDivinity,1,0)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Cleric"/>
+          <attribute id="PassivesAdded" type="LSString" value="HarnessDivinePower"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(239cc7cc-f642-4ddc-b091-498d81612c51,,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
+          <attribute id="UUID" type="guid" value="ef18265f-dda6-4eb6-8dd0-b14c57202c33"/>
+        </node> -->
+      </children>
+    </node>
+  </region>
+</save>

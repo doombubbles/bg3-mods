@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0)"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Paladin"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectSkills(627af380-2bbb-4a9f-9571-5ec781a6daf4,2);AddSpells(fb407d81-3a05-46f1-9153-0fb27dce95b6,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
+          <attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821"/>
+          <attribute id="UUID" type="guid" value="b60618d1-c262-42b5-9fdd-2c0f7aa5e5af"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="b36d247e-d39f-4ae9-9476-3ec315c55789"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="1c761ad0-6f5f-409e-ac1d-ddf6f85c1fc4"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="3cc3d397-c47d-4966-87ae-88827f73f645"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="d24d95b8-c78c-41ef-844e-30cc60fd9657"/>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0)"/>
+          <attribute id="IsMulticlass" type="bool" value="true"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Paladin"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(fb407d81-3a05-46f1-9153-0fb27dce95b6,,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821"/>
+          <attribute id="UUID" type="guid" value="1f5396ad-65e3-4ed5-a339-d76b11af96ea"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="b36d247e-d39f-4ae9-9476-3ec315c55789"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="1c761ad0-6f5f-409e-ac1d-ddf6f85c1fc4"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="3cc3d397-c47d-4966-87ae-88827f73f645"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="d24d95b8-c78c-41ef-844e-30cc60fd9657"/>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <!-- Retribution -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Retribution"/>
+          <attribute id="PassivesAdded" type="LSString" value="Oath_Vengeance_Tenents"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(5a686dba-dddf-421f-bcbe-ff7f4ee2c1d0,,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="b82578b7-9802-413d-9a08-e4cecc2975c6"/>
+          <attribute id="UUID" type="guid" value="eee4129e-45dd-4a14-9163-39c714a0dbe0"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Retribution"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(5b0668b3-de72-4980-a332-7e90f0638c6d,OathSpells,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="b82578b7-9802-413d-9a08-e4cecc2975c6"/>
+          <attribute id="UUID" type="guid" value="33f7a4c7-ed20-4d61-baf9-8b6455d0ee79"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Retribution"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(1e061f06-b996-4548-a7c3-9b157e07d8e6,OathSpells,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="b82578b7-9802-413d-9a08-e4cecc2975c6"/>
+          <attribute id="UUID" type="guid" value="f55d4271-0857-4999-bd58-14df19bd43c8"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="Retribution"/>
+          <attribute id="PassivesAdded" type="LSString" value="DivinePurpose"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="b82578b7-9802-413d-9a08-e4cecc2975c6"/>
+          <attribute id="UUID" type="guid" value="acdc8624-4616-4cb9-a87c-eac3bfebf086"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="Retribution"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(63b5d1b4-8fe5-463b-acd1-4b3569e6597d,OathSpells,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="b82578b7-9802-413d-9a08-e4cecc2975c6"/>
+          <attribute id="UUID" type="guid" value="a662922a-ba48-41ca-b23b-228da3cae5bb"/>
+        </node>
+
+
+      </children>
+    </node>
+  </region>
+</save>

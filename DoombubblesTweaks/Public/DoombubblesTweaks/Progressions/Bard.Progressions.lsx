@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+
+        <!-- Valour Bard Heavy Armour-->
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(MartialWeapons)"/>
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="ValorCollege"/>
+          <attribute id="PassivesAdded" type="LSString" value="CombatInspiration"/>
+          <attribute id="PassivesRemoved" type="LSString" value="BardicInspiration"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle)" />
+          <attribute id="TableUUID" type="guid" value="d58a305f-3ccf-440c-b069-2abd9235ac03"/>
+          <attribute id="UUID" type="guid" value="517fc6b8-bdf4-4687-a7fc-9d94b559f787"/>
+        </node>
+        
+      </children>
+    </node>
+  </region>
+</save>

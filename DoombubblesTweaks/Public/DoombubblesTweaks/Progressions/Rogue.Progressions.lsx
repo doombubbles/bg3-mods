@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+
+        <!-- Rogue Extra Attack -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Rogue"/>
+          <attribute id="PassivesAdded" type="LSString" value="UncannyDodge;ExtraAttack"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
+          <attribute id="UUID" type="guid" value="19857e46-f5dc-4a9f-847e-5f714ceef7b1"/>
+        </node>
+
+        <!-- Swap Magical Ambush and Mage Hand Legerdemanin  -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1)"/>
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+          <attribute id="PassivesAdded" type="LSString" value="MagicalAmbush;UnlockedSpellSlotLevel1"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(4b629bbb-203b-4382-9786-755bf897567f,2,0,ArcaneTricksterIlluEnch);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,0,ArcaneTricksterAny);AddSpells(e1407db3-e476-4d8f-a687-d3c795ad8c04,,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+          <attribute id="UUID" type="guid" value="a7dc1d04-ba88-42d6-a2cf-3f0573a203ba"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+          <attribute id="PassivesAdded" type="LSString" value="MageHandLegerdemain"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,ArcaneTricksterAny)"/>
+          <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+          <attribute id="UUID" type="guid" value="530341bc-d996-49ee-a63d-e1007fccad90"/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>
