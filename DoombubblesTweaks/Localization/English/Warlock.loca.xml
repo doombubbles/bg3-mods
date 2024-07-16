@@ -13,7 +13,7 @@
 	<content contentuid="hb028d267g29c4g4ab8gba32g89b37a1171cf" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you can pull the creature up to [1] towards you.</content>
 	<content contentuid="h3a31a921g28efg4d08gb9d3gee7297c69b8f" version="1">Lance of Lethargy</content>
 	<content contentuid="he6aada9ag7026g434agad7dga55ee5957581" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; it reduces the target's &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
-	
+
 	<content contentuid="hb9af9c49gb2a8g4288gb717g553ad38aadda" version="1">Eldritch Smite</content>
 	<content contentuid="hb86858b4g8bdag486dgade0g45bf5de75e96" version="1">Knock your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="hffd77436g8577g46b9ga157ga055393d18b7" version="1">Target must be Huge or smaller to be knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;prone&lt;/LSTag&gt;.</content>
@@ -22,15 +22,23 @@
 	<content contentuid="h4ecbe33eg5d2cg483cg97c2gc99109000e40" version="1">Pact of Destruction</content>
 	<content contentuid="h85db2e05g22c5g4569gb0f0gede017efdaee" version="1">Rays of Fire</content>
 	<content contentuid="h1cd4d745g0c41g4838gb50ag1cc3cef2da22" version="1">Hurl [1] ray(s) of fire.</content>
-	
+
 	<content contentuid="hc19d5973g8425g4969gb956g5ae5448e67f5" version="1">Your patron grants you the power of fire and brimstone. You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_FireRay_Warlock"&gt;Rays of Fire&lt;/LSTag&gt; cantrip. It is also affected by your Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h812aad05gb95fg45afg9c51gd3c8b010e9bd" version="1">Also affected by your Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h7cdc9284g9ba0g453ag8b72gcdcf1bc34ec8" version="1">Pleased with your service, your otherworldly patron added new boons to the terms of your pact.&lt;br&gt;&lt;br&gt;Blade pactholders gain an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;extra attack&lt;/LSTag&gt; with their pact weapon.&lt;br&gt;&lt;br&gt;The Pact of the Chain's &lt;LSTag Type="Spell" Tooltip="Target_FindFamiliar"&gt;familiar&lt;/LSTag&gt; also gains an extra attack.&lt;br&gt;&lt;br&gt;Pact of the Tome warlocks can cast &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;Animate Dead&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;Call Lightning&lt;/LSTag&gt; once per long rest.&lt;br&gt;&lt;br&gt;For Pact of Destruction warlocks, Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; now affect all Fire spells.</content>
-	
+
 	<content contentuid="hb5f404dfg8bf0g4508g94bag1404f5e58f1a" version="1">Improved Eldritch Smite</content>
 	<content contentuid="hdad1e613gec4eg422bgbfe4ga8f2e05a9bee" version="1">Your attacks are suffused with eldritch might.&lt;br&gt;&lt;br&gt;Melee weapon attacks deal an additional [1].</content>
-	
+
+	<content contentuid="he3994e0age8a9g4a2aga110gbd18834d2a86" version="1">Magical Cunning</content>
+	<content contentuid="h937f0745ge0c7g4551g92b6g296afa8d73a1" version="1">Replenish half of your expended &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; (rounded up) while out of combat.</content>
+
+	<content contentuid="hf30a0830g55ffg4ec0gb0e4g20e6d643766a" version="1">Eldritch Armour</content>
+	<content contentuid="h7ef16af7g41a7g4f53g8a94gfa6e9ad95af7" version="1">While wielding a &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with Medium and Heavy Armour.</content>
+
+	<content contentuid="h385176beg812cg401eg843agb1499593dad9" version="1">Enduring Hex</content>
+	<content contentuid="ha5b2e7c0g86dbg4a70gab04g70b4ce79a908" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_Hex_Enduring"&gt;Hex&lt;/LSTag&gt; once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
 
 </contentList>

@@ -494,15 +494,21 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 
 ### Warlock
 
+- Now gains the "Magical Cunning" ability from OneDnD allowing them to recover half their warlock spell slots once a day
+
 #### Eldritch Invocations
 
-**Eldritch Mind** - You have advantage on Saving Throws to maintain concentration. Available at Level 2.
+**Eldritch Mind** - You have advantage on Saving Throws to maintain concentration.
 
-**Grasp of Hadar** - Eldritch Blast can pull your target 3m toward you. Available at Level 2.
+**Grasp of Hadar** - Eldritch Blast can pull your target 3m toward you.
 
-**Lance of Lethargy** - Eldritch Blast slows targets movement speed by 3m. Available at Level 2.
+**Lance of Lethargy** - Eldritch Blast slows targets movement speed by 3m.
 
-**Eldritch Spear** - Eldritch Blast's range is increased by half. Available at Level 2.
+**Eldritch Spear** - Eldritch Blast's range is increased by half.
+
+**Eldritch Armour** - While you're wielding a Pact Weapon, you gain Proficiency in Medium and Heavy Armour.
+
+**Enduring Hex** - You can cast Hex once per Short Rest without expending a spell slot.
 
 **Eldritch Smite** - Once per turn you can cast Eldritch Smite, making a weapon attack and dealing 1d8 Force damage + 1d8 per Spell Slot Level, and knocking the target Prone. Available at Level 5.
 

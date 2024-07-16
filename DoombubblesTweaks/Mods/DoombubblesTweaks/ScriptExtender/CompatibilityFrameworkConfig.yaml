@@ -28,6 +28,14 @@ Progressions:
   #         Guid: f8ebba38-932a-4c64-ae55-3df23e2f60fa
   #         Amount: "1"
   #         SelectorId: FightingStyle
+  # - Comment: Warlock Level 2
+  #   UUID: 4de835bb-b7d0-47d8-aaea-596b4204a32a
+  #   Selectors:
+  #   - Action: Insert
+  #     Function: AddSpells
+  #     Params:
+  #       Guid: c1cfc0d3-1dad-1157-0100-c01200000003
+  #       SelectorId: CL_OneDnD_MagicalCunning
   - Comment: Wizard
     UUID: d6184c47-5b99-4e63-95ac-02f8ce4ccda1
     Subclasses:

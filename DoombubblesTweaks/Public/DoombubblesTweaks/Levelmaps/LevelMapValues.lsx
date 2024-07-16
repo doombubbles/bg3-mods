@@ -20,8 +20,8 @@
           <attribute id="Level1" type="LSString" value="1d12"/>
           <attribute id="Level6" type="LSString" value="2d12"/>
           <attribute id="Level11" type="LSString" value="3d12"/>
-          <attribute id="Name" type="FixedString" value="BuffedBreathWeapon"/>
-          <attribute id="UUID" type="guid" value="684a2112-b39e-4526-87cf-d3f8ba06ff99"/>
+          <attribute id="Name" type="FixedString" value="BreathWeapon"/>
+          <attribute id="UUID" type="guid" value="b1341ab8-3254-4594-813d-2f3ce35f5843"/>
         </node>
         <node id="LevelMapSeries">
           <attribute id="Level1" type="LSString" value="1d4"/>

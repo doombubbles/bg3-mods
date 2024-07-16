@@ -1,0 +1,51 @@
+-- Vendored CL conditions until my friends want to deal with permanently having Community Library installed lul
+
+function CL_CharacterLevelEqual(value,entity)
+  local entity = entity or context.Source
+  return ConditionResult(entity.Level == value)
+end
+
+function CL_CharacterLevelEqualOrGreaterThan(value,entity)
+  local entity = entity or context.Source
+  return ConditionResult(entity.Level >= value)
+end
+
+function CL_CharacterLevelEqualOrLessThan(value,entity)
+  local entity = entity or context.Source
+  return ConditionResult(entity.Level <= value)
+end
+
+function CL_CharacterLevelEqualOrBetween(value,value2,entity)
+  local entity = entity or context.Source
+  return CL_CharacterLevelEqualOrGreaterThan(value,entity) & CL_CharacterLevelEqualOrLessThan(value2,entity)
+end
+
+function CL_ClassLevelEqual(class,value,entity)
+  local entity = entity or context.Source
+  return ConditionResult(entity.GetClassLevel(class) == value)
+end
+
+function CL_ClassLevelEqualOrGreaterThan(class,value,entity)
+  local entity = entity or context.Source
+  return ConditionResult(entity.GetClassLevel(class) >= value)
+end
+
+function CL_ClassLevelEqualOrLessThan(class,value,entity)
+  local entity = entity or context.Source
+  return ConditionResult(entity.GetClassLevel(class) <= value)
+end
+
+function CL_ClassLevelEqualOrBetween(class,value,value2,entity)
+  local entity = entity or context.Source
+  return CL_ClassLevelEqualOrGreaterThan(class,value,entity) & CL_ClassLevelEqualOrLessThan(class,value2,entity)
+end
+
+function CL_WarlockSpellSlotsExpended(entity)
+  local entity = entity or context.Source
+  local result = (~HasActionResource('WarlockSpellSlot', 1, 1, false, false, entity) & CL_ClassLevelEqualOrLessThan('Warlock',2,entity))
+  | (~HasActionResource('WarlockSpellSlot', 1, 2, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock',3,4,entity))
+  | (~HasActionResource('WarlockSpellSlot', 1, 3, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock',5,6,entity))
+  | (~HasActionResource('WarlockSpellSlot', 1, 4, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock',7,8,entity))
+  | (~HasActionResource('WarlockSpellSlot', 1, 5, false, false, entity) & CL_ClassLevelEqualOrGreaterThan('Warlock',9,entity))
+  return ConditionResult(result.Result, {ConditionError("CL_ConditionError_WarlockSpellSlotsExpended_False")})
+end

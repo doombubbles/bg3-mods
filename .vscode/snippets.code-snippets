@@ -64,5 +64,25 @@
 		],
 		"scope": "xml",
 		"body": "&lt;LSTag Type=\"ActionResource\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;"
+	},
+	"proficie": {
+		"prefix": "proficie",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Proficiency\"&gt;Proficien$0&lt;/LSTag&gt;"
+	},
+	"shortrest": {
+		"prefix": "shortrest",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"ShortRest\"&gt;Short Rest&lt;/LSTag&gt;"
+	},
+	"longrest": {
+		"prefix": "longrest",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"LongRest\"&gt;Long Rest&lt;/LSTag&gt;"
+	},
+	"spellslots": {
+		"prefix": "spellslot",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"SpellSlot\"&gt;spell slot&lt;/LSTag&gt;"
 	}
 }

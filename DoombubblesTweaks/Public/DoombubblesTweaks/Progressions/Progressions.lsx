@@ -67,7 +67,7 @@
           <attribute id="TableUUID" type="guid" value="7d5237b0-9ac6-4344-8171-43fa2f553e2f"/>
           <attribute id="UUID" type="guid" value="cb4ee635-10da-4471-baad-1bd23a8212be"/>
         </node>
-        
+
         <!-- Rogue Extra Attack -->
 
         <node id="Progression">
@@ -379,6 +379,18 @@
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="TableUUID" type="guid" value="9b2ff703-7924-4a66-b119-ae4d716a4522"/>
           <attribute id="UUID" type="guid" value="cbd87913-03ee-484b-bc62-57d6867e8aca"/>
+        </node>
+
+        <!-- Warlock -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Warlock"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(333fb1b0-9398-4ca8-953e-6c0f9a59bbed,2,WarlockInvocations);AddSpells(c1cfc0d3-1dad-1157-0100-c01200000003,CL_OneDnD_MagicalCunning)"/>
+          <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
+          <attribute id="UUID" type="guid" value="4de835bb-b7d0-47d8-aaea-596b4204a32a"/>
         </node>
 
         <!-- Wizard -->
