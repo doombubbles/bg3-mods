@@ -18,7 +18,7 @@ data "StackId" "POTION_SICKNESS"
 data "HitAnimationType" ""
 data "ApplyEffect" ""
 data "StackPriority" "{{.priority}}"
-data "StatusPropertyFlags" ""
+data "StatusPropertyFlags" "ApplyToDead"
 data "OnApplyFunctors" ""
 
 new entry "{{.status}}_SICKNESS_TECHNICAL"

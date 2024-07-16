@@ -1,0 +1,393 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "FileVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "Races": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "UUID": {
+              "type": "string"
+            },
+            "Children": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "Type": {
+                      "type": "string"
+                    },
+                    "Value": {
+                      "type": "string"
+                    },
+                    "Action": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Type",
+                    "Value",
+                    "Action"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "Type": {
+                      "type": "string"
+                    },
+                    "Value": {
+                      "type": "string"
+                    },
+                    "Action": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Type",
+                    "Value",
+                    "Action"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "UUID",
+            "Children"
+          ]
+        }
+      ]
+    },
+    "Progressions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Comment": {
+            "type": "string"
+          },
+          "UUID": {
+            "type": "string"
+          },
+          "UUIDs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "Subclasses": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "UUID": {
+                    "type": "string"
+                  },
+                  "SubClassName": {
+                    "type": "string"
+                  },
+                  "Class": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "UUID",
+                  "Class"
+                ]
+              }
+            ]
+          },
+          "Booleans": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "Key": {
+                    "type": "string"
+                  },
+                  "Value": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "Key",
+                  "Value"
+                ]
+              }
+            ]
+          },
+          "Selectors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "modGuid": {
+                  "type": "string"
+                },
+                "Action": {
+                  "type": "string",
+                  "enum": [
+                    "Insert",
+                    "Remove"
+                  ]
+                },
+                "Function": {
+                  "type": "string",
+                  "enum": [
+                    "SelectSpells",
+                    "AddSpells",
+                    "SelectSkills",
+                    "SelectAbilities",
+                    "SelectAbilityBonus",
+                    "SelectEquipment",
+                    "SelectSkillsExpertise",
+                    "SelectPassives",
+                    "ReplacePassives"
+                  ]
+                },
+                "Overwrite": {
+                  "type": "boolean"
+                },
+                "UUID": {
+                  "type": "string",
+                  "description": "uuid of list referenced in selectors first parameter"
+                },
+                "Params": {
+                  "type": "object",
+                  "properties": {
+                    "Guid": {
+                      "type": "string",
+                      "description": "Used in All"
+                    },
+                    "Amount": {
+                      "type": "string",
+                      "description": "Used in All but AddSpells (?)"
+                    },
+                    "Arg3": {
+                      "type": "string",
+                      "description": "Used in SelectSpells and AddSpells for amount Prepared/Swappable"
+                    },
+                    "Arg4": {
+                      "type": "string",
+                      "description": "Used in SelectSkillsExpertise, but not actually used anywhere, likely SelectorId"
+                    },
+                    "SelectorId": {
+                      "type": "string",
+                      "description": "Reference to entry in Defaultvalues to populate default selections"
+                    },
+                    "CastingAbility": {
+                      "type": "string",
+                      "description": "Used in Select Spells, AddSpells"
+                    },
+                    "ActionResource": {
+                      "type": "string",
+                      "description": "UUID representation, used in Select Spells, AddSpells"
+                    },
+                    "PrepareType": {
+                      "type": "string",
+                      "description": "Used in SelectSpells, AddSpells. Values: Default, AlwaysPrepared"
+                    },
+                    "CooldownType": {
+                      "type": "string",
+                      "description": "Used in SelectSpells, AddSpells. Values: Default, UntilRest"
+                    },
+                    "BonusType": {
+                      "type": "string",
+                      "description": "Used in SelectAbilityBonus"
+                    },
+                    "LimitToProficiency": {
+                      "type": "string",
+                      "description": "Used in SelectSkillsExpertise to limit options to those you're proficient in. Optional, defaults to `true`."
+                    },
+                    "Amounts": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      },
+                      "description": "Used in SelectAbilityBonus, maps to the amounts you get to add to each option"
+                    }
+                  },
+                  "required": [
+                    "Guid"
+                  ]
+                }
+              },
+              "required": [
+                "Action",
+                "Function"
+              ],
+              "oneOf": [
+                {
+                  "properties": {
+                    "Action": {
+                      "const": "Insert"
+                    }
+                  },
+                  "required": ["Params"]
+                },
+                {
+                  "properties": {
+                    "Action": {
+                      "const": "Remove"
+                    }
+                  },
+                  "required": ["UUID"]
+                }
+              ]
+            }
+          },
+          "Strings": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "Action": {
+                    "type": "string",
+                    "enum": [
+                      "Insert",
+                      "Remove"
+                    ]
+                  },
+                  "Type": {
+                    "type": "string",
+                    "enum": [
+                      "Boosts",
+                      "PassivesAdded",
+                      "PassivesRemoved",
+                      "Requirements"
+                    ]
+                  },
+                  "modGuid": {
+                    "type": "string"
+                  },
+                  "Strings": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "Action",
+                  "Type",
+                  "Strings"
+                ]
+              }
+            ]
+          }
+        },
+        "oneOf": [
+          {
+            "required": [
+              "UUID"
+            ],
+            "not": {
+              "required": [
+                "UUIDs"
+              ]
+            }
+          },
+          {
+            "required": [
+              "UUIDs"
+            ],
+            "not": {
+              "required": [
+                "UUID"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "Lists": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Action": {
+            "type": "string"
+          },
+          "UUID": {
+            "type": "string"
+          },
+          "Type": {
+            "type": "string"
+          },
+          "Items": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "required": [
+          "Action",
+          "UUID",
+          "Type",
+          "Items"
+        ]
+      }
+    },
+    "ActionResourceGroups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "UUID": {
+            "type": "string"
+          },
+          "Definitions": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "Action": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "UUID",
+          "Definitions",
+          "Action"
+        ]
+      }
+    }
+  },
+  "required": [
+    "FileVersion"
+  ]
+}

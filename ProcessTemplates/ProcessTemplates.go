@@ -11,14 +11,14 @@ import (
 	"text/template"
 
 	"github.com/Masterminds/sprig/v3"
+	jsoniter "github.com/simonwu-os/json-iterator-go"
 	"gopkg.in/yaml.v2"
 )
 
+var json = jsoniter.ConfigCompatibleWithStandardLibrary
+
 var nonTemplateExtensions = []string{
 	".dds",
-}
-var skipExtensions = []string{
-	".yaml",
 }
 
 const buildDir = "build"
@@ -140,11 +140,11 @@ func buildValuesMap(rootDir string) (Values, error) {
 		fmt.Printf("  Error marshaling YAML: %v\n", err)
 	} else {
 		fmt.Printf("%s\n", string(yamlData))
-    filePath := filepath.Join(buildDir, "values.yaml")
-    err = os.WriteFile(filePath, yamlData, 0644)
-    if err != nil {
-        fmt.Printf("error writing values.yaml: %v", err)
-    }
+		filePath := filepath.Join(buildDir, "values.yaml")
+		err = os.WriteFile(filePath, yamlData, 0644)
+		if err != nil {
+			fmt.Printf("error writing values.yaml: %v", err)
+		}
 	}
 
 	return values, nil
@@ -183,10 +183,6 @@ func processFile(path string, info os.FileInfo, err error, values Values) error 
 
 	outputPath := filepath.Join(outputDir, filepath.Base(path))
 
-	if isSkipped(path) {
-		return nil
-	}
-
 	// Check if the file should be excluded from template processing
 	if isExcluded(path) {
 		return copyFile(path, outputPath)
@@ -213,18 +209,47 @@ func processFile(path string, info os.FileInfo, err error, values Values) error 
 		return err
 	}
 
-	outputFile, err := os.Create(outputPath)
-	if err != nil {
-		log.Printf("error creating output file %s: %v", outputPath, err)
-		return err
-	}
-	defer outputFile.Close()
-
-	// Execute the template and write to the output file
-	err = tmpl.Execute(outputFile, values)
+	// Execute the template
+	var buf bytes.Buffer
+	err = tmpl.Execute(&buf, values)
 	if err != nil {
 		log.Printf("error executing template for file %s: %v", path, err)
 		return err
+	}
+
+	// Check if the file is a YAML file
+	if filepath.Ext(path) == ".yaml" || filepath.Ext(path) == ".yml" {
+		// Change the output file extension to .json
+		outputPath = strings.TrimSuffix(outputPath, filepath.Ext(outputPath)) + ".json"
+
+		// Parse YAML
+		var data interface{}
+		err = yaml.Unmarshal(buf.Bytes(), &data)
+		if err != nil {
+			log.Printf("error parsing YAML file %s: %v", path, err)
+			return err
+		}
+
+		// Convert to JSON
+		jsonData, err := json.MarshalIndent(data, "", "  ")
+		if err != nil {
+			log.Printf("error converting YAML to JSON for file %s: %v", path, err)
+			return err
+		}
+
+		// Write JSON to the output file
+		err = os.WriteFile(outputPath, jsonData, 0644)
+		if err != nil {
+			log.Printf("error writing JSON file %s: %v", outputPath, err)
+			return err
+		}
+	} else {
+		// For non-YAML files, write the processed content as-is
+		err = os.WriteFile(outputPath, buf.Bytes(), 0644)
+		if err != nil {
+			log.Printf("error writing output file %s: %v", outputPath, err)
+			return err
+		}
 	}
 
 	log.Printf("Processed and created: %s", outputPath)
@@ -234,16 +259,6 @@ func processFile(path string, info os.FileInfo, err error, values Values) error 
 func isExcluded(path string) bool {
 	lowercasePath := strings.ToLower(path)
 	for _, ext := range nonTemplateExtensions {
-		if strings.HasSuffix(lowercasePath, strings.ToLower(ext)) {
-			return true
-		}
-	}
-	return false
-}
-
-func isSkipped(path string) bool {
-	lowercasePath := strings.ToLower(path)
-	for _, ext := range skipExtensions {
 		if strings.HasSuffix(lowercasePath, strings.ToLower(ext)) {
 			return true
 		}

@@ -1,36 +1,45 @@
 {
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "keyword.control.bg3txt",
-                "settings": {
-                    "foreground": "#C586C0"
-                }
-            },
-            {
-                "scope": "keyword.operator.bg3txt",
-                "settings": {
-                    "foreground": "#ffa200"
-                }
-            },
-            {
-                "scope": "string.first-column.bg3txt",
-                "settings": {
-                    "foreground": "#9CDCFE"
-                }
-            }
-        ]
-    },
-    "files.associations": {
-        "*.txt": "bg3",
-        "*.tmpl": "bg3",
-        "*.lsf.tmpl": "xml"
-    },
-    "editor.tabSize": 2,
-    "editor.indentSize": "tabSize",
-    "explorer.fileNesting.enabled": true,
-    "explorer.fileNesting.expand": false,
-    "explorer.fileNesting.patterns": {
-        "*.txt": "${capture}*.yaml"
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.control.bg3txt",
+        "settings": {
+          "foreground": "#C586C0"
+        }
+      },
+      {
+        "scope": "keyword.operator.bg3txt",
+        "settings": {
+          "foreground": "#ffa200"
+        }
+      },
+      {
+        "scope": "string.first-column.bg3txt",
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      }
+    ]
+  },
+  "files.associations": {
+    "*.txt": "bg3",
+    "*.tmpl": "bg3",
+    "*.lsf.tmpl": "xml"
+  },
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.txt": "${capture}*.yaml"
+  },
+  "json.schemas": [
+    {
+      "url": "./ProcessTemplates/CompatibilityFrameworkConfig.schema.json",
+      "fileMatch": ["**/*/CompatibilityFrameworkConfig.json"]
     }
+  ],
+  "yaml.schemas": {
+    "./ProcessTemplates/CompatibilityFrameworkConfig.schema.json": "**/*/CompatibilityFrameworkConfig.yaml"
+  }
 }
