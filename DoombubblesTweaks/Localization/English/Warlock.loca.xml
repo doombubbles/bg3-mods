@@ -17,7 +17,7 @@
 	<content contentuid="hb9af9c49gb2a8g4288gb717g553ad38aadda" version="1">Eldritch Smite</content>
 	<content contentuid="hb86858b4g8bdag486dgade0g45bf5de75e96" version="1">Knock your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="hffd77436g8577g46b9ga157ga055393d18b7" version="1">Target must be Huge or smaller to be knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;prone&lt;/LSTag&gt;.</content>
-	<content contentuid="hc93c54d4g8d9ag4c1fga69fg119de4a4b8e9" version="1">Gain the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_Smite_Eldritch"&gt;Eldritch Smite&lt;/LSTag&gt; once per turn with a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock spell slot&lt;/LSTag&gt;.</content>
+	<content contentuid="hc93c54d4g8d9ag4c1fga69fg119de4a4b8e9" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_Smite_Eldritch"&gt;Eldritch Smite&lt;/LSTag&gt; once per turn.</content>
 
 	<content contentuid="h4ecbe33eg5d2cg483cg97c2gc99109000e40" version="1">Pact of Destruction</content>
 	<content contentuid="h85db2e05g22c5g4569gb0f0gede017efdaee" version="1">Rays of Fire</content>

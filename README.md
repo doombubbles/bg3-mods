@@ -508,7 +508,7 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 
 **Eldritch Armour** - While you're wielding a Pact Weapon, you gain Proficiency in Medium and Heavy Armour.
 
-**Enduring Hex** - You can cast Hex once per Short Rest without expending a spell slot.
+<!-- **Enduring Hex** - You can cast Hex once per Short Rest without expending a spell slot. -->
 
 **Eldritch Smite** - Once per turn you can cast Eldritch Smite, making a weapon attack and dealing 1d8 Force damage + 1d8 per Spell Slot Level, and knocking the target Prone. Available at Level 5.
 
@@ -687,6 +687,13 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 - Level 3 Oath Spells
   - Haste
   - Spirit Guardians (Radiant)
+
+## New Classes
+
+### Witch
+
+Experimental Class that's a copy of Warlock but with normal Spell Progression instead of Pact Magic.
+Goes up to 6th level spells like a normal caster, so it doesn't need Mystic Arcanum.
 
 ## Feats
 

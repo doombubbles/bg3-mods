@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+
+        <!-- Base Witch -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons)"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,WitchCantrip,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);AddSpells(4f8d397a-985e-45ed-8fff-0428b8f34cb0,WitchSpell,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="2dc1003b-df7a-4fe2-82ce-f26840ee4538"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="9ed75616-1706-46e6-bd0b-c80296d0adbe"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="fa27db9e-02b4-4d7e-b331-0c3d471075f6"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="2cda5876-b80f-4d04-97c9-402abe179faa"/>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <!-- Multiclass Witch -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(SimpleWeapons)"/>
+          <attribute id="IsMulticlass" type="bool" value="true"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,WitchCantrip,,,AlwaysPrepared);AddSpells(4f8d397a-985e-45ed-8fff-0428b8f34cb0,WitchSpell,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="b40f5bc3-2654-4e5b-80cc-807a391fc7b4"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="9ed75616-1706-46e6-bd0b-c80296d0adbe"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="fa27db9e-02b4-4d7e-b331-0c3d471075f6"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="2cda5876-b80f-4d04-97c9-402abe179faa"/>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <!-- Common Witch -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(ce12aaf3-df9c-4cbc-adad-4ebaaa7ea246,2,WarlockInvocations)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="13c53637-5d58-45e2-bbb9-fdcdfc834f25"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel2"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,PactBoon)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="d4dc1675-1d2d-4d90-a06c-a8e5230d8660"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="true"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="59899a86-f8de-446a-8add-d20d1bc918b3"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,3)"/>
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="PassivesAdded" type="LSString" value="ThirstingBlade_Check;ThirstingBlade_Blade;ThirstingBlade_Tome;UnlockedSpellSlotLevel3"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(7fcd1814-cf11-4c07-a1cf-c2e61024a799,1,WarlockInvocations)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="1d09ca1c-4630-472b-85c0-ce3ad7ee827c"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,3)"/>
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="b73c4da5-0d5e-4521-b163-69dc765cac6f"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4);"/>
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel4"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(a4f4ca2a-dd77-41aa-9f1b-dde8fc3e0a3f,1,WarlockInvocations)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="0e82f7e5-3145-4f25-b78f-79c0c350aeb4"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="true"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4)"/>
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="310cd82a-2e10-47a6-af9c-0e9a8781ad81"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5)"/>
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel5"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(ce8ade0e-0253-4eae-b5ef-da63da40d117,1,WarlockInvocations)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="2d1aa5ed-a139-407d-b12f-fc7a39e0ee9c"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,5)"/>
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0,WitchCantrip,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="6cc69ff6-4b77-4dec-ad2f-50e739130202"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,6)"/>
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel6"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <!-- <attribute id="Selectors" type="LSString" value="SelectSpells(e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6,1,0,MysticArcanum,,None,AlwaysPrepared,UntilRest)"/> -->
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="530a67ec-7114-4616-92d5-9e55f6348522"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="true"/>
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="Witch"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(fa77f24c-47d0-4294-995e-87fa8d96299e,1,WarlockInvocations)"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="c8e9652d-9df7-48b9-aa86-e747c8e2d226"/>
+        </node>
+
+        <!-- Fiend Witch -->
+
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="PassivesAdded" type="LSString" value="DarkOnesBlessing"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,2,0,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="7f74e3ce-e1e3-4244-9ee5-a6706ab2dcd2"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="fccd58e4-df6b-47d2-94d4-cfbdb1689c17"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="a3adf3fe-9080-45fd-a680-cf1de2cf52b5"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0,WitchCantrip,,,AlwaysPrepared);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="15bdeb49-c1f2-4c9a-8b36-8aa51c18a47b"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="b46c106a-2392-4cf1-bab2-397412381c45"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="PassivesAdded" type="LSString" value="DarkOnesOwnLuck"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(5dec41aa-f16a-434e-b209-50c07e64e4ed,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="4befae15-d9c2-4764-9209-08dd57b73590"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="f4a22550-7806-46fc-9960-572b91a9c56b"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="ee9252b8-01a5-4479-91ef-dd448213dac7"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="f42cf035-6b71-4f2b-971d-3965d2dceff8"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="PassivesAdded" type="LSString" value="FiendishResilience"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(deab57bf-4eec-4085-82f7-87335bce3f5d,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="1de10088-7a0f-4d53-8646-569cfe4157e4"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(7831df1d-2aa4-4ea3-b1b0-dce59cb48a4f,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="dfe2bb87-acd2-4840-9a74-0a9281641174"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="FiendWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(7831df1d-2aa4-4ea3-b1b0-dce59cb48a4f,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+          <attribute id="UUID" type="guid" value="9901be95-0e2b-42a2-ab0a-bf8b82e0d944"/>
+        </node>
+
+
+        <!-- Great Old One Witch -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="PassivesAdded" type="LSString" value="ClarifiedMortality"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(65952d48-bb16-4ad7-b173-532182bf7770,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="ceb0f9f1-16b6-4e4c-bf18-88633809f0e8"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(65952d48-bb16-4ad7-b173-532182bf7770,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="be8928fa-61d7-4643-ba4c-db85409130d6"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(fe101a94-8619-49b2-859d-a68c2c291054,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="16d204e4-6b60-441d-84c6-ba6141be5103"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0,WitchCantrip,,,AlwaysPrepared);SelectSpells(fe101a94-8619-49b2-859d-a68c2c291054,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="0e503f7e-2974-493c-8e88-82e619cd33bb"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(30e9b761-6be0-418e-bb28-5103c00c663b,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="560d4c36-8dad-497b-8e01-4ddb35d9760b"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="PassivesAdded" type="LSString" value="EntropicWard"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(30e9b761-6be0-418e-bb28-5103c00c663b,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="8c097802-61a4-4e25-9470-5550314c52bf"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b64e527e-1f97-4125-84f7-78376ab1440b,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="5e6770b8-c483-402f-8db2-2e33c521ecfb"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b64e527e-1f97-4125-84f7-78376ab1440b,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="78f443f4-acb4-4cb1-a81d-810d626ba045"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(6d2edca9-71a7-4f3f-89f0-fccfff0bdee5,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="4a35e136-c886-459b-9116-069be5d68560"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="PassivesAdded" type="LSString" value="Thought_Shield_Psychic_Resistance;Thought_Shield_Psychic_Reflection"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(6d2edca9-71a7-4f3f-89f0-fccfff0bdee5,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="df4bcbcd-8a24-4965-b205-cacb3e3c216c"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(980f8d25-6d8a-4b10-b02d-c4be6a8d7d0e,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="78dbf315-3aaf-4a4e-871a-84223ed6ba3c"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="GreatOldOneWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(980f8d25-6d8a-4b10-b02d-c4be6a8d7d0e,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+          <attribute id="UUID" type="guid" value="750d2e46-ceda-4d44-a0ea-1135d9350cb4"/>
+        </node>
+
+        <!-- Archfey Witch -->
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(489ff3dd-b93e-4a96-b553-b59c07d5cd6f);SelectSpells(e0099b15-2599-4cba-a54b-b25ae03d6519,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="2c5641e5-4200-4069-a523-51a8c31adcef"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(e0099b15-2599-4cba-a54b-b25ae03d6519,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="baa4030e-d4d7-4ac3-b52c-e3be588b9319"/>
+        </node>f
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(0cc2c8ab-9bbc-43a7-a66d-08e47da4c172,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="45479445-a4cc-4afb-abb0-61da89bad07a"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0,WitchCantrip,,,AlwaysPrepared);SelectSpells(0cc2c8ab-9bbc-43a7-a66d-08e47da4c172,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="3a297f8b-44f4-4a1d-8bd7-b5bb946ff3cf"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f18ad912-e2f4-47a9-8744-73d6a51c2941,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="3bc62511-5c67-42e8-a37a-93509fd34334"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="PassivesAdded" type="LSString" value="MistyEscape"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f18ad912-e2f4-47a9-8744-73d6a51c2941,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="cad19ab8-e39b-405c-bb13-0a671c39250d"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(c3d8a4a5-9dae-4193-8322-a5d1c5b89f47,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="cc5abe84-99b9-4efa-9257-ccd745a0e23e"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(c3d8a4a5-9dae-4193-8322-a5d1c5b89f47,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="28a39f25-435b-4567-8920-fb9c8ecdf5dc"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(0a9b924f-64fb-4f22-b975-5eeedc99b2fd,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="7c15ce3c-9628-4ba5-a7c7-661db859131e"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="PassivesAdded" type="LSString" value="BeguilingDefenses"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(0a9b924f-64fb-4f22-b975-5eeedc99b2fd,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="2a251b32-49b5-479c-9f1e-86a30c0ea143"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(0352ed50-5645-452f-b5ff-142c76d161de,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="8753794f-fe0c-4766-b814-a10ca0f3b1f2"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="ArchfeyWitch"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(0352ed50-5645-452f-b5ff-142c76d161de,1,2,WitchSpell)"/>
+          <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+          <attribute id="UUID" type="guid" value="4012d743-0221-4d4e-8070-89224ad36410"/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>

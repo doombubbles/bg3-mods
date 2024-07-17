@@ -15,6 +15,15 @@ data "SpellType" "Shout"
 using "Shout_SpiritGuardians_Radiant"
 data "SpellContainerID" ""
 
+{{ range $lvl := list 4 5 6 }}
+new entry "Shout_SpiritGuardians_Paladin_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritGuardians_Radiant_{{$lvl}}"
+data "SpellContainerID" ""
+data "RootSpellID" "Shout_SpiritGuardians_Paladin"
+{{ end }}
+
 new entry "Target_Smite_Lunar"
 type "SpellData"
 data "SpellType" "Target"

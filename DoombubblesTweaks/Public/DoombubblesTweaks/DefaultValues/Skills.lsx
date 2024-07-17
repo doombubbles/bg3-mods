@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="DefaultValues">
+    <node id="root">
+      <children>
+        <node id="DefaultValue">
+          <attribute id="Add" type="LSString" value="Arcana;Intimidation;History;Deception;Investigation;Nature;Religion"/>
+          <attribute id="Level" type="int32" value="1"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="8f5e3c93-fc1e-4058-8223-396b29161b6a"/>
+        </node>
+        <node id="DefaultValue">
+          <attribute id="Add" type="LSString" value="Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Persuasion;Deception;Intimidation;Survival;AnimalHandling;Arcana;History;Insight;Investigation;Medicine;Nature;Performance;Religion"/>
+          <attribute id="Level" type="int32" value="4"/>
+          <attribute id="SelectorId" type="LSString" value="SkilledSkills"/>
+          <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+          <attribute id="UUID" type="guid" value="030e7ca3-d6fe-4ce3-be8c-3f9dc9c7afdd"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

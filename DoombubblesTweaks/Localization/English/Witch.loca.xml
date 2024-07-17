@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+  <content contentuid="ha53357b5g790ag480bg989bg72caf98c4e71" version="1">Witch</content>
+  <content contentuid="he945cddbgd367g4f5ega483g391ea15d0ce8" version="1">Bound by a pact to an all-powerful patron, witches trade their loyalty for supernatural abilities and (somewhat) unique magic.</content>
+	
+  <content contentuid="ha0b8b8f2gbc46g4a69g8220g1870ab6fc2dc" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_Bane"&gt;Bane&lt;/LSTag&gt;.</content>
+  <content contentuid="h5814c0c4gefcbg4335g935cg81b1ea335f97" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_BestowCurse"&gt;Bestow Curse&lt;/LSTag&gt;.</content>
+  <content contentuid="h6935d1fcgcf30g41c8g914fg7db054390132" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;Slow&lt;/LSTag&gt;.</content>
+  <content contentuid="haf11f817g6a61g4a80g8548g8c066bb022a1" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_Confusion"&gt;Confusion&lt;/LSTag&gt;.</content>
+  <content contentuid="h81ed4923gb9dbg4b31g8e6dg639c082baa92" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_ConjureElemental_Container"&gt;Conjure Elemental&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hb3d3da2dg13f0g448dg98d1gd54476881417" version="1">Coven Spell</content>
+  <content contentuid="h852dad2dgbe52g4776g884dg48e8e849caeb" version="1">Additional known spell.</content>
+
+</contentList>

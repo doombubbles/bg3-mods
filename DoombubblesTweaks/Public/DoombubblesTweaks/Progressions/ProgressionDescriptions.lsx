@@ -19,17 +19,4 @@
       </children>
     </node>
   </region>
-  <region id="ClassDescriptions">
-    <node id="root">
-      <children>
-        <node id="ProgressionDescription">
-          <attribute id="Description" type="TranslatedString" handle="h65193088g5aeeg4328ga0b5g955e3ea1f9d9" version="1"/>
-          <attribute id="DisplayName" type="TranslatedString" handle="h72fbfac4g9edeg4a52gafdagb652b1b2b638" version="1"/>
-          <attribute id="ExactMatch" type="FixedString" value="Vengeance"/>
-          <attribute id="ProgressionTableId" type="guid" value="b82578b7-9802-413d-9a08-e4cecc2975c6"/>
-          <attribute id="UUID" type="guid" value="0caf11fa-8cb8-4868-b5b5-358b267a7dd5"/>
-        </node>
-      </children>
-    </node>
-  </region>
 </save>

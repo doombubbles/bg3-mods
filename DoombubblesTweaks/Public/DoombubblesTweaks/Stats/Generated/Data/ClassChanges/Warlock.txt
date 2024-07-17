@@ -181,7 +181,7 @@ data "SpellSoundMagnitude" "Big"
 data "TargetSound" "Spell_Impact_Damage_Radiant_DivineSmite_L1to3"
 data "HitEffect" "d4f639de-9b12-45c2-9681-da493827ab40"
 
-{{ range $lvl := list 2 3 4 5 }}
+{{ range $lvl := list 2 3 4 5 6 }}
 new entry "Target_Smite_Eldritch_{{$lvl}}"
 type "SpellData"
 data "SpellType" "Target"

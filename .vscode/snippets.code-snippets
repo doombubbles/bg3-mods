@@ -24,44 +24,32 @@
 		]
 	},
 	"status": {
-		"prefix": [
-			"status"
-		],
+		"prefix": "status",
 		"scope": "xml",
 		"body": "&lt;LSTag Type=\"Status\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;",
 	},
 	"spell": {
-		"prefix": [
-			"spell"
-		],
+		"prefix": "spell",
 		"scope": "xml",
 		"body": "&lt;LSTag Type=\"Spell\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;",
 	},
 	"spellslot": {
-		"prefix": [
-			"spellslot"
-		],
+		"prefix": "spellslot",
 		"scope": "xml",
 		"body": ""
 	},
 	"warlockspellslot": {
-		"prefix": [
-			"warlockspellslot"
-		],
+		"prefix": "warlockspellslot",
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"WarlockSpellSlot\"&gt;Warlock spell slot&lt;/LSTag&gt;"
 	},
 	"proficiencybonus": {
-		"prefix": [
-			"proficiencybonus"
-		],
+		"prefix": "proficiencybonus",
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"ProficiencyBonus\"&gt;Proficiency Bonus&lt;/LSTag&gt;"
 	},
 	"actionresource": {
-		"prefix": [
-			"actionresource"
-		],
+		"prefix": "actionresource",
 		"scope": "xml",
 		"body": "&lt;LSTag Type=\"ActionResource\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;"
 	},
@@ -84,5 +72,10 @@
 		"prefix": "spellslot",
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"SpellSlot\"&gt;spell slot&lt;/LSTag&gt;"
+	},
+	"alwaysprepared": {
+		"prefix": "alwaysprepared",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"AlwaysPrepared\"&gt;Always Prepared&lt;/LSTag&gt;"
 	}
 }

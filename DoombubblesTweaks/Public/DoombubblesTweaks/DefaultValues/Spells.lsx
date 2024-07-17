@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="319"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Projectile_EldritchBlast;Shout_BladeWard;Target_ChillTouch;Target_MinorIllusion"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="WitchCantrip"/>
+                    <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
+                    <attribute id="UUID" type="guid" value="ab9cdb48-befb-419d-a078-93868f7bf4ff"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="WitchSpell"/>
+                    <attribute id="TableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
+                    <attribute id="UUID" type="guid" value="0657c4cb-3544-418e-9d99-0579f37d2675"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_DissonantWhispers;Target_HideousLaughter"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="WitchSpell"/>
+                    <attribute id="TableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
+                    <attribute id="UUID" type="guid" value="974eb5cc-c08a-4ef4-a4f7-dad6d8ab41f2"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_FaerieFire;Target_Sleep"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="WitchSpell"/>
+                    <attribute id="TableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
+                    <attribute id="UUID" type="guid" value="1c995007-97cd-43f1-ab18-d937eda48ec4"/>
+                </node>
+
+            </children>
+        </node>
+    </region>
+</save>

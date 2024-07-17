@@ -41,5 +41,6 @@
   ],
   "yaml.schemas": {
     "./ProcessTemplates/CompatibilityFrameworkConfig.schema.json": "**/*/CompatibilityFrameworkConfig.yaml"
-  }
+  },
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?" // removed dash - for uuids
 }

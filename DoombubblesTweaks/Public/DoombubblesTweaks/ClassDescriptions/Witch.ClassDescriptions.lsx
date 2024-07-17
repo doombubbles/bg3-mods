@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="314"/>
+  <region id="ClassDescriptions">
+    <node id="root">
+      <children>
+
+        <node id="ClassDescription">
+          <attribute id="BaseHp" type="int32" value="8"/>
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Warlock"/>
+          <attribute id="Description" type="TranslatedString" handle="he945cddbgd367g4f5ega483g391ea15d0ce8" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="ha53357b5g790ag480bg989bg72caf98c4e71" version="1"/>
+          <attribute id="HpPerLevel" type="int32" value="5"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MulticlassSpellcasterModifier" type="double" value="1"/>
+          <attribute id="Name" type="FixedString" value="Witch"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/> <!-- a7a958f1-d858-4021-9fa7-cf87e7d71377 -->
+          <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="SpellList" type="guid" value="32879c22-4858-48ef-8f8d-22e6d395b396"/>
+          <attribute id="UUID" type="guid" value="0a90ce14-7c31-4181-8204-36a39c0c2416"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="5804f55a-93f7-4281-9512-8d548a9e2a22"/>
+            </node>
+          </children>
+        </node>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="h77ad8d20g255bg475egbfcfgf3a5ea0dc4d0" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h90e380a7g9f24g4ee6gb1a1g34eac5619afa" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="Name" type="FixedString" value="FiendWitch"/>
+          <attribute id="ParentGuid" type="guid" value="0a90ce14-7c31-4181-8204-36a39c0c2416"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/> <!-- 2700b42c-3b2f-4fc7-b881-4acc4f0a3a1f -->
+          <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="SpellList" type="guid" value="69d140ce-e988-4007-b069-30fe2e5f0d2f"/>
+          <attribute id="UUID" type="guid" value="9ed75616-1706-46e6-bd0b-c80296d0adbe"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="fbe3ee5d-1bb8-4c0b-a18c-26386101a680"/>
+            </node>
+          </children>
+        </node>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="hdaab7880g17afg4e6bg92a2gefb96ec722ca" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h7fd64569g90e0g4b80g8709g57bc86f29fdf" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="Name" type="FixedString" value="GreatOldOneWitch"/>
+          <attribute id="ParentGuid" type="guid" value="0a90ce14-7c31-4181-8204-36a39c0c2416"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/> <!-- 216e779e-3452-466c-933d-fb5723b90802 -->
+          <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="SpellList" type="guid" value="9bcde680-356e-445e-abdb-c21f3400648b"/>
+          <attribute id="UUID" type="guid" value="fa27db9e-02b4-4d7e-b331-0c3d471075f6"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="cdad1fc1-352b-4441-82f2-73d8433e42ea"/>
+            </node>
+          </children>
+        </node>
+
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="h751d5f52g977fg43a0g913bg536fdb5a87f7" version="2"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h1ddc9804g4d3eg450fgb46cg8c10926de1cd" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="Name" type="FixedString" value="ArchfeyWitch"/>
+          <attribute id="ParentGuid" type="guid" value="0a90ce14-7c31-4181-8204-36a39c0c2416"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/> <!-- 7e1e0190-bd32-4ca6-9623-8adebeba74d4 -->
+          <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="SpellList" type="guid" value="f95ef4cc-5f75-4274-bda5-589175d2ac66"/>
+          <attribute id="UUID" type="guid" value="2cda5876-b80f-4d04-97c9-402abe179faa"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="86de94fa-91a2-4abb-8601-f2ad96c70659"/>
+            </node>
+          </children>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>
