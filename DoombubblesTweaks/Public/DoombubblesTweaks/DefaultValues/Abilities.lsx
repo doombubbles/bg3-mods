@@ -11,6 +11,13 @@
           <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
           <attribute id="UUID" type="guid" value="5e4aa079-0d77-4054-b9b0-24524e929fc9"/>
         </node>
+        <node id="DefaultValue">
+          <attribute id="Add" type="LSString" value="Strength;Intelligence"/>
+          <attribute id="Level" type="int32" value="1"/>
+          <attribute id="SelectorId" type="LSString" value="AbilityBonus"/>
+          <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
+          <attribute id="UUID" type="guid" value="cc0e1853-aa8c-4d23-a797-7153f706f183"/>
+        </node>
       </children>
     </node>
   </region>

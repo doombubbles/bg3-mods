@@ -26,17 +26,17 @@
 	"status": {
 		"prefix": "status",
 		"scope": "xml",
-		"body": "&lt;LSTag Type=\"Status\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;",
+		"body": "&lt;LSTag Type=\"Status\" Tooltip=\"$1\"&gt;$2&lt;/LSTag&gt;$0",
 	},
 	"spell": {
 		"prefix": "spell",
 		"scope": "xml",
-		"body": "&lt;LSTag Type=\"Spell\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;",
+		"body": "&lt;LSTag Type=\"Spell\" Tooltip=\"$1\"&gt;$2&lt;/LSTag&gt;$0",
 	},
 	"spellslot": {
 		"prefix": "spellslot",
 		"scope": "xml",
-		"body": ""
+		"body": "&lt;LSTag Tooltip=\"SpellSlot\"&gt;spell slot&lt;/LSTag&gt;"
 	},
 	"warlockspellslot": {
 		"prefix": "warlockspellslot",
@@ -51,12 +51,12 @@
 	"actionresource": {
 		"prefix": "actionresource",
 		"scope": "xml",
-		"body": "&lt;LSTag Type=\"ActionResource\" Tooltip=\"$1\"&gt;$0&lt;/LSTag&gt;"
+		"body": "&lt;LSTag Type=\"ActionResource\" Tooltip=\"$1\"&gt;$2&lt;/LSTag&gt;$0"
 	},
 	"proficie": {
 		"prefix": "proficie",
 		"scope": "xml",
-		"body": "&lt;LSTag Tooltip=\"Proficiency\"&gt;Proficien$0&lt;/LSTag&gt;"
+		"body": "&lt;LSTag Tooltip=\"Proficiency\"&gt;Proficien$1&lt;/LSTag&gt;$0"
 	},
 	"shortrest": {
 		"prefix": "shortrest",

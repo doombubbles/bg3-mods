@@ -80,3 +80,8 @@ data "DisplayName" "hbc90f9ccgf8bag442ag8632gb1884e773482;2"
 data "Description" "h47ebf91ege6bag4b78gaa19g383c3c62671f"
 data "ExtraDescription" "h7da1219egedbdg458eg8c60gee7db3a9bc5a;1"
 data "Boosts" "IF(IsRangedWeaponAttack()):DamageBonus(max(1,CharismaModifier))"
+
+new entry "WPN_Longsword_DeathKnight"
+type "Weapon"
+using "WPN_Longsword"
+data "RootTemplate" "ea9effa4-172d-4d0e-be3d-2cb01fd71468"

@@ -56,6 +56,16 @@
           <attribute id="PreferredClassUUID" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
           <attribute id="UUID" type="guid" value="6ed6e594-def2-4462-886f-c882432ad433"/>
         </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1d4"/>
+          <attribute id="Level1" type="LSString" value="1d4"/>
+          <attribute id="Level4" type="LSString" value="1d6"/>
+          <attribute id="Level7" type="LSString" value="1d8"/>
+          <attribute id="Level10" type="LSString" value="1d10"/>
+          <attribute id="Name" type="FixedString" value="RuneDie"/>
+          <attribute id="PreferredClassUUID" type="guid" value="1b770a0d-f689-4fa9-bcca-62e472a44f24"/>
+          <attribute id="UUID" type="guid" value="1dd0649b-ba1f-4056-8f8b-2321df754203"/>
+        </node>
       </children>
     </node>
   </region>

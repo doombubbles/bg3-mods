@@ -1,27 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="0" revision="9" build="326"/>
-    <region id="ActionResourceDefinitions">
-        <node id="root">
-            <children>
-                <!-- <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h1839885agdd92g42a6gac45gf96f9ea0eda0" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h8cc0935fg68b5g47f8ga3b5gca464609021c" version="2"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="WarPriestActionPoint"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="30cca4c5-a808-4c96-bd1c-f57bbb92dc1d"/>
-                </node> -->
-                <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h584cd2c9g4d6bg4691ga129g4c4a73413912" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Interrupt_HellishRebukeWarlockMI_Charge"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
-                    <attribute id="UUID" type="guid" value="ed49e9a0-8730-4df2-b113-cda9dca68fe3"/>
-                </node>
-            </children>
+  <version major="4" minor="0" revision="9" build="326"/>
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+          <attribute id="DisplayName" type="TranslatedString" handle="h584cd2c9g4d6bg4691ga129g4c4a73413912" version="1"/>
+          <attribute id="IsHidden" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="Interrupt_HellishRebukeWarlockMI_Charge"/>
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+          <attribute id="UUID" type="guid" value="ed49e9a0-8730-4df2-b113-cda9dca68fe3"/>
         </node>
-    </region>
+
+
+        <node id="ActionResourceDefinition">
+          <attribute id="DisplayName" type="TranslatedString" handle="h27e04f6egd24dg494fg8fdfg12ca059a4fed" version="1"/>
+          <attribute id="MaxLevel" type="uint32" value="0" />
+          <attribute id="Name" type="FixedString" value="BloodRune"/>
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="005074a8-39a2-4d72-b496-31dfb70bac03"/>
+        </node>
+
+        <node id="ActionResourceDefinition">
+          <attribute id="DisplayName" type="TranslatedString" handle="h14694c6fgaa21g4dd3g8e3dg54b2f873778f" version="1"/>
+          <attribute id="MaxLevel" type="uint32" value="0" />
+          <attribute id="Name" type="FixedString" value="FrostRune"/>
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="4a06a7ec-6d77-486d-b53c-a14535f0a29d"/>
+        </node>
+
+        <node id="ActionResourceDefinition">
+          <attribute id="DisplayName" type="TranslatedString" handle="h69fe7aebg3d74g4a37gb8fcgb3a05e0be805" version="1"/>
+          <attribute id="MaxLevel" type="uint32" value="0" />
+          <attribute id="Name" type="FixedString" value="UnholyRune"/>
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="1323ae6b-8cfe-447e-b553-21582d18a4f2"/>
+        </node>
+
+
+      </children>
+    </node>
+  </region>
 </save>

@@ -1,0 +1,29 @@
+new entry "Shout_SpiritGuardians_DK"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritGuardians_Necrotic"
+data "SpellContainerID" ""
+
+{{ range $lvl := list 4 5 6 }}
+new entry "Shout_SpiritGuardians_DK_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritGuardians_Necrotic_{{$lvl}}"
+data "SpellContainerID" ""
+data "RootSpellID" "Shout_SpiritGuardians_DK"
+{{ end }}
+
+new entry "Shout_FireShield_DK"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FireShield_Chill"
+data "SpellContainerID" ""
+
+{{ range $lvl := list 4 5 6 }}
+new entry "Shout_FireShield_DK_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FireShield_Chill_{{$lvl}}"
+data "SpellContainerID" ""
+data "RootSpellID" "Shout_FireShield_DK"
+{{ end }}

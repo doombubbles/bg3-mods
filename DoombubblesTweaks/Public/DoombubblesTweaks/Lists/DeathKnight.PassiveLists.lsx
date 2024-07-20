@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328"/>
+  <region id="PassiveLists">
+    <node id="root">
+      <children>
+      
+        <!-- Death Knight Fighting Styles -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_TwoWeaponFighting"/>
+          <attribute id="UUID" type="guid" value="61085dc4-b210-48ee-8a57-747bbf2d7881"/>
+        </node>
+
+
+      </children>
+    </node>
+  </region>
+</save>

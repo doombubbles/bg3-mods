@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceGroupDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceGroupDefinition">
+          <attribute id="ActionResourceDefinitions" type="LSString" value="005074a8-39a2-4d72-b496-31dfb70bac03"/>
+          <attribute id="Name" type="LSString" value="BloodRuneGroup"/>
+          <attribute id="UUID" type="guid" value="7ca3a4ea-2548-4e5f-b15c-da5c0e5adfe5"/>
+        </node>
+      </children>
+      <children>
+        <node id="ActionResourceGroupDefinition">
+          <attribute id="ActionResourceDefinitions" type="LSString" value="4a06a7ec-6d77-486d-b53c-a14535f0a29d"/>
+          <attribute id="Name" type="LSString" value="FrostRuneGroup"/>
+          <attribute id="UUID" type="guid" value="3d0d09cf-e915-4a48-9312-03a1f3cc505e"/>
+        </node>
+      </children>
+      <children>
+        <node id="ActionResourceGroupDefinition">
+          <attribute id="ActionResourceDefinitions" type="LSString" value="1323ae6b-8cfe-447e-b553-21582d18a4f2"/>
+          <attribute id="Name" type="LSString" value="UnholyRuneGroup"/>
+          <attribute id="UUID" type="guid" value="3e42cd9a-8510-47c4-8c7c-c4920b92532a"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

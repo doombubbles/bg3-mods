@@ -17,6 +17,19 @@
           <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
           <attribute id="UUID" type="guid" value="030e7ca3-d6fe-4ce3-be8c-3f9dc9c7afdd"/>
         </node>
+        <node id="DefaultValue">
+          <attribute id="Add" type="LSString" value="Athletics;Deception;Intimidation;Perception;SleightOfHand;Survival"/>
+          <attribute id="Level" type="int32" value="1"/>
+          <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
+          <attribute id="UUID" type="guid" value="88857d38-c6f8-4722-81f6-18da31cf7707"/>
+        </node>
+        <node id="DefaultValue">
+          <attribute id="Add" type="LSString" value="Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Persuasion;Deception;Intimidation;Survival;AnimalHandling;Arcana;History;Insight;Investigation;Medicine;Nature;Performance;Religion"/>
+          <attribute id="Level" type="int32" value="4"/>
+          <attribute id="SelectorId" type="LSString" value="SkilledSkills"/>
+          <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
+          <attribute id="UUID" type="guid" value="47a68d22-3c74-4f4f-bb55-f719ec28d043"/>
+        </node>
       </children>
     </node>
   </region>

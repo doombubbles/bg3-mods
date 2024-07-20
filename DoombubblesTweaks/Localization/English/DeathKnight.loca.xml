@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+  <content contentuid="ha0a86880g3cd3g4906ga61egecb6d35e3ffd" version="1">Death Knight</content>
+  <content contentuid="h53fbfa3dgcb23g45c5gb3c3g94e7dbd69fde" version="1">You were raised from death to be a servant of a tyrant Lich, but have broken free and now wield Runic might for your own aims.</content>
+
+  <content contentuid="hd45293a6g1919g4e92g8575g0cb24deb6179" version="1">Runes</content>
+  <content contentuid="h14390905g1ef2g4676gb775g163f51ee1d96" version="1">You gain 3 Runes, which are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h75877c98g34d8g4aa7g8bb5g2dce48b2185d" version="1">Runic Empowerments</content>
+  <content contentuid="h368fe93ag62f3g4df2g9c6dg8e2f085ffe21" version="1">Your power has only grown since your own undeath; you learn new ways to command Runic magic.</content>
+
+  <content contentuid="h7ced0382gcf9ag4cb9ga117geaa13d0bcabd" version="1">Lichborne</content>
+  <content contentuid="hd2638eddg73ccg4effgbb1ag62cd837b48cb" version="1">You are considered to be Undead. You are can't be &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; and are immune to many mind altering spells, but can't be healed by many traditional healing spells.</content>
+  
+  <!-- 
+  <content contentuid="h37cef722g7af7g4c0ag98e3gd4c85652756d" version="1">Runic Power</content>
+  <content contentuid="h386088e9gd53eg45b6gaf65g565c5aa9edc5" version="1">You now regain all your &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Runes&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt;, and &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy Runes&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+   -->
+
+  <content contentuid="hd18eda6eg6a60g43a5g9f54gc586f1807ec2" version="1">Frost</content>
+  <content contentuid="hbd68976eg391cg46ccg8da6ga12c23823563" version="1">You are an icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.</content>
+
+  <content contentuid="h14694c6fgaa21g4dd3g8e3dg54b2f873778f" version="1">Frost Rune</content>
+  <content contentuid="hde95c872g12e0g43edg99eegbe29bd8539e0" version="1">You gain a Frost Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+
+  <content contentuid="hd50bffd5g779bg4aeeg9a39g45e0eebda925" version="1">Blood</content>
+  <content contentuid="h2e130e97g1c58g470bgb4ceg991d510e8df4" version="1">You are a dark guardian who manipulates and corrupts life energy to sustain yourself in the face of an enemy onslaught.</content>
+
+  <content contentuid="h27e04f6egd24dg494fg8fdfg12ca059a4fed" version="1">Blood Rune</content>
+  <content contentuid="ha89797d1g9f45g4d9fgb452g3451a23a3cba" version="1">You gain a Blood Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+
+  <content contentuid="hfbb5e405g6ba3g406ag9a7fgebd43f49c552" version="1">Unholy</content>
+  <content contentuid="hbeb5ac97g8faeg4e7egbe96g79bb2b48cf70" version="1">You are a master of death and decay, spreading infection and controlling undead minions to do your bidding.</content>
+
+  <content contentuid="h69fe7aebg3d74g4a37gb8fcgb3a05e0be805" version="1">Unholy Rune</content>
+  <content contentuid="h4d9ca6dbg96a7g40ebg951agb6b17db81350" version="1">You gain an Unholy Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+
+
+
+  <content contentuid="hb2c30a75g3fb5g4642g92c3gd83694b7b82d" version="1">Ebon Mail</content>
+  <content contentuid="h63b06204g8bcfg4bf0gb411g22bfcbd40078" version="1">Death Knight Chain Mail Description</content>
+
+  <content contentuid="h8c149768gf29fg4699g91d3g67e953236b3d" version="1">Ebon Greaves</content>
+  <content contentuid="hb0c97420gfd33g4a7fg908cg5a8e4401d4b3" version="1">Ebon Greaves Description</content>
+
+  <content contentuid="h8b40104eg7963g4426gb2efgde604c08d5c6" version="1">Ebon Gauntlets</content>
+  <content contentuid="haab3e2a1g66c9g4acbg9514g70ad432db066" version="1">Ebon Gauntlets Description</content>
+
+  <content contentuid="hd23a3240g5445g4f23g923fg16b6cb121258" version="1">Rune Blade</content>
+  <content contentuid="h50dd2759g6362g40f4g8d76gb7f5d8e362c0" version="1">Rune Blade Description</content>
+
+</contentList>
