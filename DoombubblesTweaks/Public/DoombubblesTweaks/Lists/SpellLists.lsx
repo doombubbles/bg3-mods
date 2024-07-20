@@ -114,6 +114,11 @@
           <attribute id="Spells" type="LSString" value="Projectile_WitchBolt"/>
           <attribute id="UUID" type="guid" value="4f8d397a-985e-45ed-8fff-0428b8f34cb0"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Cleric Arcana Domain 5"/>
+          <attribute id="Spells" type="LSString" value="Target_Counterspell;Target_GlyphOfWarding"/>
+          <attribute id="UUID" type="guid" value="98a82fe2-c4c5-4110-b410-4468151c8f78"/>
+        </node>
       </children>
     </node>
   </region>
