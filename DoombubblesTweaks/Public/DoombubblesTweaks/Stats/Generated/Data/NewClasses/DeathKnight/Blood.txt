@@ -1,0 +1,5 @@
+new entry "EmpowerRuneWeapon_Blood"
+type "PassiveData"
+using "EmpowerRuneWeapon"
+data "DescriptionParams" "DealDamage(1d8,Force)"
+data "Boosts" "IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Force)"

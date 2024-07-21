@@ -40,9 +40,29 @@
           <attribute id="UUID" type="guid" value="221b360b-3854-485e-9a34-e8946fb872ee"/>
         </node>
         <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Death Knight always preapred spells level 1"/>
+          <attribute id="Comment" type="LSString" value="Death Knight Initial Spells"/>
           <attribute id="Spells" type="LSString" value="Target_DeathStrike;Target_FrostStrike;Target_DeathCoil"/>
           <attribute id="UUID" type="guid" value="709fe78d-55b8-4756-997c-63593cc06fe9"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Death Knight Initial Frost Spells"/>
+          <attribute id="Spells" type="LSString" value="Projectile_HowlingBlast;Target_Obliterate;Target_Obliterate_DW"/>
+          <attribute id="UUID" type="guid" value="3edf0b1e-5070-4a7d-bbd6-9b98a6f4744b"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Death Knight Inital Blood Spells"/>
+          <attribute id="Spells" type="LSString" value="Shout_BloodBoil;Target_Marrowrend"/>
+          <attribute id="UUID" type="guid" value="52d63179-f3d2-451a-a5e8-a87e11f716ba"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Death Knight Inital Unholy Spells"/>
+          <attribute id="Spells" type="LSString" value="Target_Outbreak;Target_FesteringStrike"/>
+          <attribute id="UUID" type="guid" value="19c8f886-e1bb-42d4-bb6a-7bea2cd0a79d"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Death Knight Level 7 Spells"/>
+          <attribute id="Spells" type="LSString" value="Shout_RuneTap"/>
+          <attribute id="UUID" type="guid" value="3cb7d6a0-97cc-4511-8d2c-f02b629c23b4"/>
         </node>
       </children>
     </node>

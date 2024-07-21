@@ -74,9 +74,10 @@ type "PassiveData"
 data "DisplayName" "h14e0e770g2558g48e7ga72fg82428f99e44d"
 data "Description" "ha2328454gab46g4300gb88dg9d52fa8ad601"
 data "Icon" "GenericIcon_DamageType_Fire"
-data "Properties" "Highlighted"
+data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar;Temporary;OncePerShortRest"
 data "Boosts" "IF(IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Fire) and HasHPPercentageWithoutTemporaryHPEqualOrMoreThan(100, context.Target)):ReduceCriticalAttackThreshold(20)"
-
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Fire) and HasHPPercentageWithoutTemporaryHPEqualOrMoreThan(100, context.Target)"
 
 new entry "Cauterize"
 type "PassiveData"

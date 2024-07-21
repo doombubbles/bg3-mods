@@ -4,12 +4,146 @@
   <region id="PassiveLists">
     <node id="root">
       <children>
-      
+
         <!-- Death Knight Fighting Styles -->
 
         <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_TwoWeaponFighting"/>
           <attribute id="UUID" type="guid" value="61085dc4-b210-48ee-8a57-747bbf2d7881"/>
+        </node>
+
+        <!-- Runic Empowerment Lvl 2 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="657cab0e-8ccc-467f-b792-727dfe5f65c4"/>
+        </node>
+
+
+        <!-- Frost Runic Empowerment Lvl 4 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="Frostscythe;ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="107016c8-7de6-4159-af68-1824eaf538b0"/>
+        </node>
+
+        <!-- Frost Runic Empowerment Lvl 6 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="Frostscythe;ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="aab8c2d5-2e31-4978-a4c8-eb74615fdd9b"/>
+        </node>
+
+        <!-- Frost Runic Empowerment Lvl 8 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="Frostscythe;ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="c55e0335-2091-4e9f-825f-fea26103cbea"/>
+        </node>
+
+        <!-- Frost Runic Empowerment Lvl 10 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="Frostscythe;ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="af647c76-3b2e-47b0-80ea-02e70bd7b9e4"/>
+        </node>
+
+        <!-- Frost Runic Empowerment Lvl 12 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="Frostscythe;ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="cc8a2252-461e-4801-bea1-2af72b57fc87"/>
+        </node>
+
+        <!-- Frost Rune Mastery -->
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="EmpowerRuneWeapon_Frost,Obliteration"/>
+          <attribute id="UUID" type="guid" value="6f6c79ff-bb04-453b-8b17-c4ba48ba6dfa"/>
+        </node>
+
+
+        <!-- Blood Runic Empowerment Lvl 4 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="d47eb875-95af-45e9-a285-8c9d9660af5e"/>
+        </node>
+
+        <!-- Blood Runic Empowerment Lvl 6 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="fe5dde46-2353-4f35-a008-432edbfe4aac"/>
+        </node>
+
+        <!-- Blood Runic Empowerment Lvl 8 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="c538ebb4-9b04-45d6-83a3-024f59f7545a"/>
+        </node>
+
+        <!-- Blood Runic Empowerment Lvl 10 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="34d30fa9-49e1-44b0-80a7-a2dfe11f6da3"/>
+        </node>
+
+        <!-- Blood Runic Empowerment Lvl 12 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="3aa8204b-3b8f-4caa-a151-02584c8cbdaa"/>
+        </node>
+
+        <!-- Blood Rune Mastery -->
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="EmpowerRuneWeapon_Blood"/>
+          <attribute id="UUID" type="guid" value="09ab790a-5bdd-4f5a-b671-9e4b1fd948da"/>
+        </node>
+
+
+
+        <!-- Unholy Runic Empowerment Lvl 4 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="d096cedd-4dc5-4d2e-b81c-1f72507a41ac"/>
+        </node>
+
+        <!-- Unholy Runic Empowerment Lvl 6 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="055a75fc-7c76-4e80-a596-a291cf759ea4"/>
+        </node>
+
+        <!-- Unholy Runic Empowerment Lvl 8 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="f754a268-c96f-4006-a1b7-cf4c55a188f4"/>
+        </node>
+
+        <!-- Unholy Runic Empowerment Lvl 10 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="8d342b10-10d7-4d88-af49-770f005c51a3"/>
+        </node>
+
+        <!-- Unholy Runic Empowerment Lvl 12 -->
+
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="ChainsOfIce"/>
+          <attribute id="UUID" type="guid" value="dbd1c777-582b-4833-8010-7d5f494b6036"/>
+        </node>
+
+        <!-- Unholy Rune Mastery -->
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="EmpowerRuneWeapon_Unholy"/>
+          <attribute id="UUID" type="guid" value="74cc6a1e-5cc6-4b18-8164-ea3eb653435f"/>
         </node>
 
 

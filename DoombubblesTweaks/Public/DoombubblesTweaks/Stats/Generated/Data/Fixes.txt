@@ -78,3 +78,8 @@ type "SpellData"
 data "SpellType" "Shout"
 using "Shout_SpiritGuardians_Radiant_4"
 data "TooltipStatusApply" "ApplyStatus(SPIRIT_GUARDIANS_RADIANT_AURA_4,100,10)"
+
+new entry "DEN_RaidingParty_GoblinCaptain_Gloves_Passive"
+type "PassiveData"
+using "DEN_RaidingParty_GoblinCaptain_Gloves_Passive"
+data "StatsFunctors" "ApplyStatus(BANE,100,2,,,,not SavingThrow(Ability.Charisma,11))"

@@ -164,3 +164,7 @@ function IsSmiteSpells()
   | SpellId('Target_StaggeringSmite')
   | SpellId('Target_Smite_Eldritch') | SpellId('Target_Smite_Eldritch_2') | SpellId('Target_Smite_Eldritch_3') | SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Target_Smite_Eldritch_6')
 end
+
+function KillingMachineSpellCheck()
+  return SpellId('Target_Obliterate') | SpellId('Target_Obliterate_DW') | SpellId('Zone_Frostscythe')
+end

@@ -56,6 +56,14 @@
           <attribute id="UUID" type="guid" value="3ff41f4d-d525-4b96-bbd9-0abda5df175d"/>
         </node>
 
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h5f27023dgdd29g4367g9e99g55c414897a3b" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h9ac5326ega6c2g4733g85c7g43087dcc17ec" version="1"/>
+          <attribute id="ProgressionTableId" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
+          <attribute id="SelectorId" type="FixedString" value="RuneMastery"/>
+          <attribute id="UUID" type="guid" value="d1ab3b9c-c0d1-4478-8d6e-e5d7a1b5960a"/>
+        </node>
+
 
         <node id="ProgressionDescription">
           <attribute id="Description" type="TranslatedString" handle="hbd68976eg391cg46ccg8da6ga12c23823563" version="1"/>

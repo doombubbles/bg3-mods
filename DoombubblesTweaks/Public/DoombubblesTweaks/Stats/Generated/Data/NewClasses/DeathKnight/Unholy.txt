@@ -1,0 +1,5 @@
+new entry "EmpowerRuneWeapon_Unholy"
+type "PassiveData"
+using "EmpowerRuneWeapon"
+data "DescriptionParams" "DealDamage(1d8,Necrotic)"
+data "Boosts" "IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Necrotic)"

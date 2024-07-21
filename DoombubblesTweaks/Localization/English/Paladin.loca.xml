@@ -14,7 +14,7 @@
   <content contentuid="h60f888a2geaafg4953gbe9dgcf61d017be56" version="1">You deal an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[1]&lt;/LSTag&gt;, restore an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[2]&lt;/LSTag&gt; health, and the number you need to roll a critical hit is reduced by 1.</content>
 
   <content contentuid="hdbe3a822g0e3cg4eafg83eeg5e0433173392" version="1">Divine Purpose</content>
-  <content contentuid="hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" version="1">When you land a Critical Hit on a creature, your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
+  <content contentuid="hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
   <content contentuid="hce62265fgcc63g4ba5g9353g7531d7728257" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
 
 </contentList>
