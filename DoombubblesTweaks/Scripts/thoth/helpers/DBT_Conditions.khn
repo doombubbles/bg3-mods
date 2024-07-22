@@ -168,3 +168,19 @@ end
 function KillingMachineSpellCheck()
   return SpellId('Target_Obliterate') | SpellId('Target_Obliterate_DW') | SpellId('Zone_Frostscythe')
 end
+
+function DeathGripCheck()
+  local result = Dead() | Item() | Ally()
+  if not result.Result then
+      local st = ~SavingThrow(Ability.Strength, context.Source.Strength)
+      return ConditionResult(st.Result, {}, {}, st.Chance)
+  end
+
+  return result
+end
+
+function DistanceToTargetLessOrEqual(value)
+    local errorTrue = {ConditionError("DistanceGreaterOrEqualThan_False", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
+    local errorFalse = {ConditionError("DistanceGreaterOrEqualThan_True", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
+    return ConditionResult(DistanceToTarget() <= value, errorFalse, errorTrue)
+end

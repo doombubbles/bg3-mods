@@ -115,6 +115,16 @@
           <attribute id="UUID" type="guid" value="99314339-ce41-4fc0-80e8-1b6cd977415f"/>
         </node>
 
+
+
+        <node id="ProgressionDescription">
+          <attribute id="ExactMatch" type="FixedString" value="StoneskinGargoyle"/>
+          <attribute id="Hidden" type="bool" value="true"/>
+          <attribute id="PassivePrototype" type="FixedString" value="StoneskinGargoyle"/>
+          <attribute id="ProgressionId" type="guid" value="2a86ec61-a603-48de-895c-6cd26a59df53"/>
+          <attribute id="UUID" type="guid" value="6104dac3-144e-4b40-9d0e-f13dedd97aae"/>
+        </node>
+
       </children>
     </node>
   </region>

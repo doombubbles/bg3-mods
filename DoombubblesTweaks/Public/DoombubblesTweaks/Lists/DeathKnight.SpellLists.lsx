@@ -6,7 +6,7 @@
       <children>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Death Knight spell scroll list"/>
-          <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_Command;Target_CompelledDuel;Shout_FalseLife;Target_FogCloud;Target_Hex;Projectile_IceKnife;Target_InflictWounds;Target_RayOfSickness;Target_Blindness;Target_CrownOfMadness;Target_Darkvision;Target_Enthrall;Target_HoldPerson;Target_MagicWeapon;Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_HungerOfHadar;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Shout_SpiritGuardians_DK;Shout_StinkingCloud;Target_VampiricTouch;Target_Blight;Target_DeathWard;Shout_FireShield_DK;Target_FreedomOfMovement;Target_IceStorm;Target_CloudKill;Zone_ConeOfCold;Target_Contagion;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Wall_BladeBarrier;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Harm;Target_FreezingSphere;Wall_WallOfIce"/>
+          <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_Command;Target_CompelledDuel;Shout_FalseLife;Target_FogCloud;Target_Hex;Projectile_IceKnife;Target_InflictWounds;Target_RayOfSickness;Target_Blindness;Target_CrownOfMadness;Target_Darkvision;Target_Enthrall;Target_HoldPerson;Target_MagicWeapon;Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_HungerOfHadar;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Shout_StinkingCloud;Target_VampiricTouch;Target_Blight;Target_DeathWard;Shout_FireShield_DK;Target_FreedomOfMovement;Target_IceStorm;Target_CloudKill;Zone_ConeOfCold;Target_Contagion;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Wall_BladeBarrier;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Harm;Target_FreezingSphere;Wall_WallOfIce"/>
           <attribute id="UUID" type="guid" value="ad96ce7a-36f9-403a-b510-f662351fbe53"/>
         </node>
         <node id="SpellList">
@@ -21,7 +21,7 @@
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Death Knight Slevel 3"/>
-          <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_HungerOfHadar;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Shout_SpiritGuardians_DK;Shout_StinkingCloud;Target_VampiricTouch"/>
+          <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_HungerOfHadar;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Shout_StinkingCloud;Target_VampiricTouch"/>
           <attribute id="UUID" type="guid" value="00db75fd-9e4c-422e-9fa0-906cc715ae31"/>
         </node>
         <node id="SpellList">

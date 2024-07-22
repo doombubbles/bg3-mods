@@ -86,7 +86,7 @@
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value="PassiveFeature_KillingMachine"/>
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_DeathKnight_KillingMachine"/>
           <attribute id="U1" type="float" value="0.28125"/>
           <attribute id="U2" type="float" value="0.3125"/>
           <attribute id="V1" type="float" value="0.0"/>
@@ -149,84 +149,84 @@
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_DeathKnight_PathOfFrost"/>
           <attribute id="U1" type="float" value="0.5625"/>
           <attribute id="U2" type="float" value="0.59375"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_DeathKnight_DeathAndDecay"/>
           <attribute id="U1" type="float" value="0.59375"/>
           <attribute id="U2" type="float" value="0.625"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_DeathKnight_DeathGrip"/>
           <attribute id="U1" type="float" value="0.625"/>
           <attribute id="U2" type="float" value="0.65625"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_DeathKnight_RuneDie"/>
           <attribute id="U1" type="float" value="0.65625"/>
           <attribute id="U2" type="float" value="0.6875"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_DeathKnight_FrozenHeart"/>
           <attribute id="U1" type="float" value="0.6875"/>
           <attribute id="U2" type="float" value="0.71875"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Spell_Conjuration_SpiritGuardians_Necrotic"/>
           <attribute id="U1" type="float" value="0.71875"/>
           <attribute id="U2" type="float" value="0.75"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_DeathKnight_DeathCoil"/>
           <attribute id="U1" type="float" value="0.75"/>
           <attribute id="U2" type="float" value="0.78125"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_DeathKnight_DeathStrike"/>
           <attribute id="U1" type="float" value="0.78125"/>
           <attribute id="U2" type="float" value="0.8125"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_DeathKnight_Lichborne"/>
           <attribute id="U1" type="float" value="0.8125"/>
           <attribute id="U2" type="float" value="0.84375"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Frost"/>
           <attribute id="U1" type="float" value="0.84375"/>
           <attribute id="U2" type="float" value="0.875"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Blood"/>
           <attribute id="U1" type="float" value="0.875"/>
           <attribute id="U2" type="float" value="0.90625"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Unholy"/>
           <attribute id="U1" type="float" value="0.90625"/>
           <attribute id="U2" type="float" value="0.9375"/>
           <attribute id="V1" type="float" value="0.0"/>

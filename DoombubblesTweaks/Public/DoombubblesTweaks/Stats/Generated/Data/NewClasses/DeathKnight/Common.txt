@@ -1,3 +1,15 @@
+new entry "Shout_SpiritGuardians_Necrotic"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritGuardians_Necrotic"
+data "Icon" "Spell_Conjuration_SpiritGuardians_Necrotic"
+
+new entry "SPIRIT_GUARDIANS_NECROTIC_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SPIRIT_GUARDIANS_NECROTIC_AURA"
+data "Icon" "Spell_Conjuration_SpiritGuardians_Necrotic"
+
 new entry "Shout_SpiritGuardians_DK"
 type "SpellData"
 data "SpellType" "Shout"
@@ -42,8 +54,16 @@ new entry "EmpowerRuneWeapon"
 type "PassiveData"
 data "DisplayName" "h180c6943ga45fg4481gb4e0g0774c7740221"
 data "Description" "h03d44092g7887g43f1g8ef5g0e513acdd39e"
-data "Icon" "Action_WeaponBond" // TODO
 data "Properties" "Highlighted"
+
+
+new entry "Lichborne"
+type "PassiveData"
+data "DisplayName" "h7ced0382gcf9ag4cb9ga117geaa13d0bcabd"
+data "Description" "hd2638eddg73ccg4effgbb1ag62cd837b48cb"
+data "Icon" "PassiveFeature_DeathKnight_Lichborne"
+data "Properties" "Highlighted"
+data "Boosts" "Tag(UNDEAD);StatusImmunity('SG_Poisoned')"
 
 
 new entry "Shout_RuneTap"
@@ -170,7 +190,8 @@ type "PassiveData"
 data "DisplayName" "h0442915fg4c13g4097g9e3eg4ab948ebb081"
 data "Description" "h1dcb24acg6d03g4a45gbe65g9689080eb3e3"
 data "Properties" "Highlighted" 
-data "Boosts" "UnlockSpell(Shout_Runeforging);"
+data "Icon" "Action_DeathKnight_Runeforging"
+data "Boosts" "UnlockSpell(Shout_Runeforging)"
 
 new entry "Shout_Runeforging"
 type "SpellData"
@@ -292,3 +313,25 @@ data "Description" "h42543d5fg6c48g41c8g8d87g554785736b58"
 data "Icon" "Action_DeathKnight_Stoneskin_Gargoyle"
 data "Properties" "Hidden"
 data "Boosts" "IF(HasStatus('RUNE_STONESKIN_GARGOYLE', GetActiveWeapon(context.Source, true))):AC(1)"
+
+
+new entry "RuneDie"
+type "PassiveData"
+data "DisplayName" "hf9f56ac2g31b9g44a8ga485gdf09d0a9d948"
+data "Description" "hb3be30f8g049bg4b7ega251g3310cc48eada"
+data "Icon" "PassiveFeature_DeathKnight_RuneDie"
+
+new entry "RuneDieD6"
+type "PassiveData"
+using "RuneDie"
+data "DescriptionParams" "1d6"
+
+new entry "RuneDieD8"
+type "PassiveData"
+using "RuneDie"
+data "DescriptionParams" "1d8"
+
+new entry "RuneDieD10"
+type "PassiveData"
+using "RuneDie"
+data "DescriptionParams" "1d10"

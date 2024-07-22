@@ -11,17 +11,17 @@
   <content contentuid="h70266650g86afg46e5gb212g3ce5e13690a2" version="1">Engrave a rune onto your weapon to enhance it with magical effects.</content>
   <content contentuid="ha1bbf1f9g9007g4e3egb11eg12b7d78976d5" version="1">Runes do not have any effect if their wielders do not have the ability to &lt;LSTag Type="Passive" Tooltip="Runeforging"&gt;Runeforge&lt;/LSTag&gt;.</content>
 
-  <content contentuid="h14f4f779g2c06g457bg9f3ag0abbf171d402" version="1">Runeforging: Razorice</content>
+  <content contentuid="h14f4f779g2c06g457bg9f3ag0abbf171d402" version="1">Runeforge: Razorice</content>
   <content contentuid="ha7dc3e14gc3b1g47c7gb454g5a2ca7ff2988" version="1">Engrave your weapon(s) with a rune that adds [1] to attacks.</content>
   <content contentuid="hc489a2dag1586g424bgb6d7gf428a1f986f2" version="1">Rune of Razorice</content>
   <content contentuid="h1850d71fg3639g468agb007g649e6200d3ff" version="1">Deals an extra [1].</content>
 
-  <content contentuid="hc1257d3ag3be8g4794ga1deg7acefdb1f8d1" version="1">Runeforging: Fallen Crusader</content>
+  <content contentuid="hc1257d3ag3be8g4794ga1deg7acefdb1f8d1" version="1">Runeforge: Fallen Crusader</content>
   <content contentuid="hf14f6741g6c07g4322ga0edg5bb580209a8b" version="1">Engrave your weapon(s) with a rune that restores [1] on a hit.</content>
   <content contentuid="hbbbdcf56g644bg4b71ga4ceg0ad4d4666afb" version="1">Rune of the Fallen Crusader</content>
   <content contentuid="hcb4954a7g43cbg486egb6bfg8ac17fbac347" version="1">Restores [1] on a hit.</content>
 
-  <content contentuid="hf6237d90gdec1g47c1g9effgb79e367e25ff" version="1">Runeforging: Stoneskin Gargoyle</content>
+  <content contentuid="hf6237d90gdec1g47c1g9effgb79e367e25ff" version="1">Runeforge: Stoneskin Gargoyle</content>
   <content contentuid="h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" version="1">Engrave your weapon with a rune that gives its wielder +1 &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;. Works only for Main Hand weapons.</content>
   <content contentuid="hb34442begf6bag46fcg9486g0ddde4857176" version="1">Rune of the Stoneskin Gargoyle</content>
   <content contentuid="h42543d5fg6c48g41c8g8d87g554785736b58" version="1">Wielder has +1 &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
@@ -29,8 +29,11 @@
   <content contentuid="h75877c98g34d8g4aa7g8bb5g2dce48b2185d" version="1">Runic Empowerments</content>
   <content contentuid="h368fe93ag62f3g4df2g9c6dg8e2f085ffe21" version="1">You learn new ways to channel your Runic magic.</content>
 
+  <content contentuid="hf9f56ac2g31b9g44a8ga485gdf09d0a9d948" version="1">Improved Rune Die</content>
+  <content contentuid="hb3be30f8g049bg4b7ega251g3310cc48eada" version="1">The size of die used for most Rune Spells increases to [1].</content>
+
   <content contentuid="h7ced0382gcf9ag4cb9ga117geaa13d0bcabd" version="1">Lichborne</content>
-  <content contentuid="hd2638eddg73ccg4effgbb1ag62cd837b48cb" version="1">You are considered to be Undead. You are can't be &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; and are immune to many mind altering spells, but can't be healed by many traditional healing spells.</content>
+  <content contentuid="hd2638eddg73ccg4effgbb1ag62cd837b48cb" version="1">You are considered to be Undead. You can't be &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; and are immune to many mind altering spells, but can't be healed by many traditional healing spells.</content>
 
   <content contentuid="ha0bc63c4g7f19g4cd2gbfe2g5ac7a3c167a1" version="1">Rune Casting</content>
   <content contentuid="h257de8efg1862g487dgbfd3gd6d00997e5d2" version="1">Your Runes refresh on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
@@ -44,6 +47,7 @@
   <content contentuid="hdc14d9dag0a3fg459bga1cegdbfd36137cef" version="1">Rune Tap: Unholy</content>
   <content contentuid="h7306456ag4e46g4f71g828ag33d178c4f852" version="1">Create 1 &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy Rune&lt;/LSTag&gt;.</content>
 
+  <content contentuid="h27d45cc4g02f1g4748g9a15g70b0d1a45b84" version="1">This bonus increases at Level 8 and again at Level 12.</content>
 
 
   <content contentuid="h180c6943ga45fg4481gb4e0g0774c7740221" version="1">Empower Rune Weapon</content>
@@ -58,6 +62,9 @@
 
   <content contentuid="h14694c6fgaa21g4dd3g8e3dg54b2f873778f" version="1">Frost Rune</content>
   <content contentuid="hde95c872g12e0g43edg99eegbe29bd8539e0" version="1">You gain a Frost Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hc8f4f011ge8a7g4a6agb29age1bf06ba63a8" version="1">Frozen Heart</content>
+  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">All Cold damage you deal is increased by 1.</content>
 
   <content contentuid="hdba145d9gd3b5g4223g9bb2g2a5e928b566c" version="1">Frost Strike</content>
   <content contentuid="h448adaceg9464g44a0g96b4ga01a6f757b7b" version="1">Chill your weapon with icy power and strike an enemy for a bonus [1] and slow their movement speed by [2] for 2 turns.</content>
@@ -76,11 +83,7 @@
   <content contentuid="h02ad57cfg80b7g4873gb696g8072cc641e3c" version="1">Frostscythe</content>
   <content contentuid="hba0e3b53ga06bg4ab4g8539gede1fbf0592c" version="1">A sweeping attack that strikes up to [1] enemies in front of you.</content>
   <content contentuid="h112ce0b6g1ac5g4f69ga831ga93a2fdf1910" version="1">On a &lt;LSTag Tooltip="CriticalHit"&gt;critical hits&lt;/LSTag&gt;, the bonus Cold damage dealt is additionally doubled.</content>
-  <content contentuid="ha5d88622gca4cg4670gb9a0ga90616e4958b" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Zone_Frostscythe"&gt;Frostscythe&lt;/LSTag&gt; using 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt;.</content>
-
-  <content contentuid="h90dbf8a7gc652g4a32gb63eg4eae86d433d8" version="1">Chains of Ice</content>
-  <content contentuid="h2cbcc90dgfe7eg4135g8e2age5096ad6022c" version="1">Shackles the target with frozen chains, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
-  <content contentuid="ha4289bd6gc577g4f51gae4egc39b4be6e9b5" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Projectile_ChainsOfIce"&gt;Chains of Ice&lt;/LSTag&gt; using 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt;.</content>
+  <content contentuid="ha5d88622gca4cg4670gb9a0ga90616e4958b" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to make a sweeping attack that strikes up to [1] enemies in front of you..</content>
 
   <content contentuid="hcaaba427gc8e1g467agbaf3g59ad9c2b1076" version="1">Rime</content>
   <content contentuid="h9ec373dfgad97g4874gafbbg57c47213f12c" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Projectile_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt; has no resource cost.</content>
@@ -92,14 +95,47 @@
   <content contentuid="hbfc367c0g13c8g4fcaga953g08acfd73a3aa" version="1">Obliteration</content>
   <content contentuid="h80bcaa55gc41bg4be3gb9cag1e698d21412a" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Target_Obliterate"&gt;Obliterate&lt;/LSTag&gt;, refund 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt;. On a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, refund 2.</content>
 
+  <content contentuid="h90dbf8a7gc652g4a32gb63eg4eae86d433d8" version="1">Chains of Ice</content>
+  <content contentuid="h2cbcc90dgfe7eg4135g8e2age5096ad6022c" version="1">Shackles the target with frozen chains, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
+  <content contentuid="ha4289bd6gc577g4f51gae4egc39b4be6e9b5" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to shackles a target with frozen chains, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
+
+  <content contentuid="h59689f2eg1398g41ebgab3bgaec9751b4219" version="1">Path of Frost</content>
+  <content contentuid="hb024f73cg90a2g4044gba91g159407a7654e" version="1">Grant the target immunity to the effects of ice surfaces.</content>
+  <content contentuid="h0f8e4965g532cg4ef9g80beg1621de630a7d" version="1">You are immune to the effects of ice surfaces.</content>
+  <content contentuid="hf31f843fg365ag4ffegb130gd2d868478ff2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to make yourself or an ally immune to the effects of Ice Surfaces.</content>
+
+  <content contentuid="hdde9350dge102g4b82g89abg962fde1b3e10" version="1">Avalanche</content>
+  <content contentuid="h66bd65a6gb107g4752gb0edg55517f2a2680" version="1">You can spend 4 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_IceStorm"&gt;Ice Storm&lt;/LSTag&gt;.</content>
+  <content contentuid="h55b1a1b9ged72g4d4aga648g6897efc18e7e" version="1">Breath of Sindragosa</content>
+  <content contentuid="h1f1e4a82gf8bcg4958gac40g2e7fa75c3a17" version="1">You can spend 5 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Zone_ConeOfCold"&gt;Cone of Cold&lt;/LSTag&gt;.</content>
+  <content contentuid="h342a1142g34ddg4a38gacb6ge9794bb223af" version="1">Glacial Advance</content>
+  <content contentuid="hc43dde97ga3ccg4d4bgb82bg4a60daedb008" version="1">You can spend 6 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Wall_WallOfIce"&gt;Wall of Ice&lt;/LSTag&gt;.</content>
+  <content contentuid="h0d57aca7gd7e7g4c6agabb9gfbb25c826e6d" version="1">Cold Heart</content>
+  <content contentuid="h211ad193g3a58g42e4g89f2g99dbe8f39ef4" version="1">You can spend 6 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_FreezingSphere"&gt;Otiluke's Freezing Sphere&lt;/LSTag&gt;.</content>
+
   <content contentuid="hd50bffd5g779bg4aeeg9a39g45e0eebda925" version="1">Blood</content>
   <content contentuid="h2e130e97g1c58g470bgb4ceg991d510e8df4" version="1">You are a dark guardian who manipulates and corrupts life energy to sustain yourself in the face of an enemy onslaught.</content>
 
   <content contentuid="h27e04f6egd24dg494fg8fdfg12ca059a4fed" version="1">Blood Rune</content>
   <content contentuid="ha89797d1g9f45g4d9fgb452g3451a23a3cba" version="1">You gain a Blood Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
+  <content contentuid="h195a155ag01c8g4dc6ga0ffg2697755356eb" version="1">Blood Shield</content>
+  <content contentuid="hef8d5973g16deg428dg8c83g811464cfe765" version="1">While you have &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, all Bludgeoning, Piercing and Slashing damage you take is reduced by [1].</content>
 
+  <content contentuid="h7c0e1687g2c9cg4837gaac3g9c68bffb4b49" version="1">Death Strike</content>
+  <content contentuid="hdf823ca8g47feg4126g96d4gb5c0d30fc627" version="1">A deadly strike that deals an extra [1] and heals you for [2], or twice as much on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
+  <content contentuid="h2f62cf77g1e2bg4d0fg9674g5caedd1b091e" version="1">Death Grip</content>
+  <content contentuid="h724b80b8gb3aeg46adgbbe6g586eacb355fa" version="1">Harnesses the energy that surrounds and binds all matter, drawing a target toward a position of your choice within [1] of you.</content>
+  <content contentuid="h0b1bb04eg04cbg4eefg8ed8g1920fc40a0c5" version="1">The &lt;LSTag Tooltip="DifficultyClass"&gt; DC&lt;/LSTag&gt; of this Spell is equal to your total Strength &lt;LSTag Tooltip="Abilities"&gt;Ability Score&lt;/LSTag&gt;.</content>
+  <content contentuid="hb982502cge3dfg4f79g87fdg189400906504" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to draw a target witiin [1] toward a position of your choice within [2] of you.</content>
+
+  <content contentuid="he3f5eb23ga1dcg46efg8410g0326e2f5611b" version="1">Death and Decay</content>
+  <content contentuid="hd707f45cgbf9dg4a99g90a1g23c832c71626" version="1">Corrupts the targeted ground for [1] turns; it damages enemies only for [1] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
+  <content contentuid="hb2c5db8fgf705g4825g9664ga4346a119e45" version="1">Corrupted ground that damages enemies only for [1] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
+  <content contentuid="h3a66ccf5gd17dg4458g85abg3e9522f2c1be" version="1">Taking [1] each turn.</content>
+  <content contentuid="h11539987g57b6g4fccgb64ag7d820a186623" version="1"></content>
+  <content contentuid="hf50a4f14g3158g4a13ga033g74161962ff5b" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to corrupt the ground, damaging enemies for [1] per turn and making the area &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 
 
   <content contentuid="hfbb5e405g6ba3g406ag9a7fgebd43f49c552" version="1">Unholy</content>
@@ -108,6 +144,11 @@
   <content contentuid="h69fe7aebg3d74g4a37gb8fcgb3a05e0be805" version="1">Unholy Rune</content>
   <content contentuid="h4d9ca6dbg96a7g40ebg951agb6b17db81350" version="1">You gain an Unholy Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
+  <content contentuid="h7fa255afgd600g40d6g94acge027cefe6a0d" version="1">Dreadblade</content>
+  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">Your attacks and the attacks of your summoned undead deal an extra [1].</content>
+
+  <content contentuid="h1f84fc36g03e1g4264g812egfdb4f7c70d31" version="1">Death Coil</content>
+  <content contentuid="h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" version="1">Fire a blast of unholy energy, causing [1] to an enemy target or restoring [2] to an allied Undead target.</content>
 
 
 

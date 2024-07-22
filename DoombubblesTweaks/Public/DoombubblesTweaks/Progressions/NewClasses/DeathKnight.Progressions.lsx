@@ -35,7 +35,7 @@
           <attribute id="Name" type="LSString" value="DeathKnight"/>
           <attribute id="PassivesAdded" type="LSString" value="Runeforging;StoneskinGargoyle;UnlockedSpellSlotLevel1"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
-          <attribute id="Selectors" type="LSString" value="AddSpells(c81c21a5-e121-406e-9edc-15226c884609);SelectPassives(61085dc4-b210-48ee-8a57-747bbf2d7881,1,FightingStyle)"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(c81c21a5-e121-406e-9edc-15226c884609);SelectPassives(61085dc4-b210-48ee-8a57-747bbf2d7881,1,FightingStyle);SelectPassives(657cab0e-8ccc-467f-b792-727dfe5f65c4,2,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
           <attribute id="UUID" type="guid" value="2a86ec61-a603-48de-895c-6cd26a59df53"/>
         </node>
@@ -67,6 +67,7 @@
           <attribute id="Boosts" type="LSString" value=""/>
           <attribute id="Level" type="uint8" value="4"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
+          <attribute id="PassivesAdded" type="LSString" value="RuneDieD6"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
           <attribute id="UUID" type="guid" value="db21d3dd-2bac-4c31-a15b-d399470838e3"/>
@@ -93,6 +94,8 @@
           <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);ActionResource(BloodRune,1,0);ActionResource(FrostRune,1,0);ActionResource(UnholyRune,1,0)"/>
           <attribute id="Level" type="uint8" value="7"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
+          <attribute id="PassivesAdded" type="LSString" value="RuneDieD8"/>
+          <attribute id="PassivesRemoved" type="LSString" value="RuneDieD6"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value="AddSpells(3cb7d6a0-97cc-4511-8d2c-f02b629c23b4,,,,AlwaysPrepared)"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
@@ -120,6 +123,8 @@
           <attribute id="Boosts" type="LSString" value=""/>
           <attribute id="Level" type="uint8" value="10"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
+          <attribute id="PassivesAdded" type="LSString" value="RuneDieD10"/>
+          <attribute id="PassivesRemoved" type="LSString" value="RuneDieD8"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value=""/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
@@ -129,7 +134,6 @@
           <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,3)"/>
           <attribute id="Level" type="uint8" value="11"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
-          <attribute id="PassivesAdded" type="LSString" value=""/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
           <attribute id="UUID" type="guid" value="2b7fce4b-c90f-4776-8cd9-2182bcc3cee2"/>
@@ -158,6 +162,7 @@
           <attribute id="Level" type="uint8" value="4"/>
           <attribute id="Name" type="LSString" value="FrostDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="PassivesAdded" type="LSString" value="FrozenHeart"/>
           <attribute id="Selectors" type="LSString" value="SelectPassives(107016c8-7de6-4159-af68-1824eaf538b0,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="a21f5459-893c-4e9c-a36d-9275c0aa83c5"/>
           <attribute id="UUID" type="guid" value="add2ab5c-35c3-4bfc-aea6-e8146e98e0b9"/>
@@ -175,6 +180,7 @@
           <attribute id="Name" type="LSString" value="FrostDK"/>
           <attribute id="PassivesAdded" type="LSString" value="Rime"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(aab8c2d5-2e31-4978-a4c8-eb74615fdd9b,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="a21f5459-893c-4e9c-a36d-9275c0aa83c5"/>
           <attribute id="UUID" type="guid" value="e6ac0d99-c497-4791-9bb2-1ef62504a3d3"/>
         </node>
@@ -189,6 +195,7 @@
           <attribute id="Level" type="uint8" value="8"/>
           <attribute id="Name" type="LSString" value="FrostDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(c55e0335-2091-4e9f-825f-fea26103cbea,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="a21f5459-893c-4e9c-a36d-9275c0aa83c5"/>
           <attribute id="UUID" type="guid" value="87d76e41-bfb0-4f80-bdce-6ec1b69bfb3c"/>
         </node>
@@ -205,6 +212,7 @@
           <attribute id="Name" type="LSString" value="FrostDK"/>
           <attribute id="PassivesAdded" type="LSString" value="KillingMachine"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(af647c76-3b2e-47b0-80ea-02e70bd7b9e4,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="a21f5459-893c-4e9c-a36d-9275c0aa83c5"/>
           <attribute id="UUID" type="guid" value="3c02e1a0-5142-496d-a4ae-d79977035515"/>
         </node>
@@ -221,6 +229,7 @@
           <attribute id="Level" type="uint8" value="12"/>
           <attribute id="Name" type="LSString" value="FrostDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(cc8a2252-461e-4801-bea1-2af72b57fc87,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="a21f5459-893c-4e9c-a36d-9275c0aa83c5"/>
           <attribute id="UUID" type="guid" value="d0fc4c06-cae0-48a0-b1ae-a9e6a30a4c80"/>
         </node>
@@ -240,6 +249,7 @@
           <attribute id="Level" type="uint8" value="4"/>
           <attribute id="Name" type="LSString" value="BloodDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(d47eb875-95af-45e9-a285-8c9d9660af5e,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="94b66ea2-0ade-44d2-9334-67a7c39f1e45"/>
           <attribute id="UUID" type="guid" value="cefda8a4-374a-4d97-ac5d-53786fdedb77"/>
         </node>
@@ -255,6 +265,7 @@
           <attribute id="Level" type="uint8" value="6"/>
           <attribute id="Name" type="LSString" value="BloodDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(fe5dde46-2353-4f35-a008-432edbfe4aac,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="94b66ea2-0ade-44d2-9334-67a7c39f1e45"/>
           <attribute id="UUID" type="guid" value="a36f9736-bb74-4023-8462-892e4928fc40"/>
         </node>
@@ -269,6 +280,7 @@
           <attribute id="Level" type="uint8" value="8"/>
           <attribute id="Name" type="LSString" value="BloodDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(c538ebb4-9b04-45d6-83a3-024f59f7545a,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="94b66ea2-0ade-44d2-9334-67a7c39f1e45"/>
           <attribute id="UUID" type="guid" value="3d878f5e-6e6d-4d53-abaf-9529330483e7"/>
         </node>
@@ -284,6 +296,7 @@
           <attribute id="Level" type="uint8" value="10"/>
           <attribute id="Name" type="LSString" value="BloodDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(34d30fa9-49e1-44b0-80a7-a2dfe11f6da3,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="94b66ea2-0ade-44d2-9334-67a7c39f1e45"/>
           <attribute id="UUID" type="guid" value="83a41d1f-24d3-4b5b-81a3-fb81ccc02ea0"/>
         </node>
@@ -292,6 +305,7 @@
           <attribute id="Level" type="uint8" value="11"/>
           <attribute id="Name" type="LSString" value="BloodDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(09ab790a-5bdd-4f5a-b671-9e4b1fd948da,1,RuneMastery)"/>
           <attribute id="TableUUID" type="guid" value="94b66ea2-0ade-44d2-9334-67a7c39f1e45"/>
           <attribute id="UUID" type="guid" value="57a02e83-d76a-42af-bb38-0a3eab01a84b"/>
         </node>
@@ -299,7 +313,7 @@
           <attribute id="Level" type="uint8" value="12"/>
           <attribute id="Name" type="LSString" value="BloodDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectPassives(09ab790a-5bdd-4f5a-b671-9e4b1fd948da,1,RuneMastery)"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(3aa8204b-3b8f-4caa-a151-02584c8cbdaa,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="94b66ea2-0ade-44d2-9334-67a7c39f1e45"/>
           <attribute id="UUID" type="guid" value="5e4cb3fa-bb25-4c37-8267-227035e5c95b"/>
         </node>
@@ -319,6 +333,7 @@
           <attribute id="Level" type="uint8" value="4"/>
           <attribute id="Name" type="LSString" value="UnholyDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(d096cedd-4dc5-4d2e-b81c-1f72507a41ac,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="7382b3e8-7602-4164-a3e1-6b1c201367ce"/>
           <attribute id="UUID" type="guid" value="3cec8bbc-39fc-44a5-b289-6f0c69e63ac3"/>
         </node>
@@ -334,6 +349,7 @@
           <attribute id="Level" type="uint8" value="6"/>
           <attribute id="Name" type="LSString" value="UnholyDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(055a75fc-7c76-4e80-a596-a291cf759ea4,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="7382b3e8-7602-4164-a3e1-6b1c201367ce"/>
           <attribute id="UUID" type="guid" value="127bf93a-dd3a-485b-919f-0ebd22cad977"/>
         </node>
@@ -348,6 +364,7 @@
           <attribute id="Level" type="uint8" value="8"/>
           <attribute id="Name" type="LSString" value="UnholyDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(f754a268-c96f-4006-a1b7-cf4c55a188f4,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="7382b3e8-7602-4164-a3e1-6b1c201367ce"/>
           <attribute id="UUID" type="guid" value="91b11765-575e-4fcc-afaa-d3b74b2e4dcb"/>
         </node>
@@ -363,6 +380,7 @@
           <attribute id="Level" type="uint8" value="10"/>
           <attribute id="Name" type="LSString" value="UnholyDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(8d342b10-10d7-4d88-af49-770f005c51a3,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="7382b3e8-7602-4164-a3e1-6b1c201367ce"/>
           <attribute id="UUID" type="guid" value="1b2c0595-4dcc-47a6-86e8-8f436a85a5fe"/>
         </node>
@@ -379,6 +397,7 @@
           <attribute id="Level" type="uint8" value="12"/>
           <attribute id="Name" type="LSString" value="UnholyDK"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(dbd1c777-582b-4833-8010-7d5f494b6036,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="7382b3e8-7602-4164-a3e1-6b1c201367ce"/>
           <attribute id="UUID" type="guid" value="98c6f66a-0495-4869-a141-ea670ea0d57e"/>
         </node>
