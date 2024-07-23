@@ -42,3 +42,182 @@ data "RootSpellID" "Target_Smite_Lunar"
 data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:{{$lvl}}"
 data "PowerLevel" "{{$lvl}}"
 {{ end }}
+
+{{- define "UnarmedSmite" }}
+data "TargetRadius" "1.5"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack)"
+data "TooltipAttackSave" "MeleeWeaponAttack"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "DualWieldingSpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;0579f797-dd8e-408d-b18d-01650f6041e2,,;69345989-e868-432e-9d8c-84f4bcf77494,,;5925204d-590c-4d7c-ac62-a51ba44d4589,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "WeaponTypes" ""
+data "Sheathing" "Sheathed"
+data "RequirementConditions" "HasNoMainHand()"
+data "SpellFlags" "IsMelee;IsHarmful;DisableBlood;{{$}}"
+data "MemoryCost" "0"
+{{- end }}
+
+new entry "Interrupt_Smite_Divine"
+type "InterruptData"
+using "Interrupt_Smite_Divine"
+data "Description" "heb62f548gad42g45afgbd55g16d9fb250416"
+data "Conditions" "IsAbleToReact(context.Observer) and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem()"
+
+new entry "Interrupt_Smite_Divine_Critical"
+type "InterruptData"
+using "Interrupt_Smite_Divine_Critical"
+data "Conditions" "IsAbleToReact(context.Observer) and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem()"
+
+{{ range $lvl := list 1 2 3 4 5 6 }}
+new entry "Target_Smite_Divine{{if gt $lvl 1}}_{{$lvl}}{{end}}_Unarmed"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Divine{{if gt $lvl 1}}_{{$lvl}}{{end}}"
+{{- if gt $lvl 1 }}
+data "RootSpellID" "Target_Smite_Divine_Unarmed"
+{{- end }}
+data "DisplayName" "hc74f08b0g2519g4de6g8a66gcda7c497aee8"
+data "Icon" "Action_Paladin_DivineSmite_Unarmed"
+data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{add $lvl 1}}d8, Radiant,Magical)"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType); ExecuteWeaponFunctors(MainHand);IF(not Tagged('FIEND') and not Tagged('UNDEAD')):DealDamage({{add $lvl 1}}d8,Radiant,Magical);IF(Tagged('FIEND')):DealDamage({{add $lvl 2}}d8,Radiant,Magical);IF(Tagged('UNDEAD')):DealDamage({{add $lvl 2}}d8,Radiant,Magical)"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{add $lvl 1}}d8,Radiant)"
+{{ include "UnarmedSmite" "" }}
+{{ end }}
+
+{{ range $lvl := list 1 2 3 4 5 6 }}
+new entry "Target_Smite_Searing{{if gt $lvl 1}}_{{$lvl}}{{end}}_Unarmed"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Searing{{if gt $lvl 1}}_{{$lvl}}{{end}}"
+{{- if gt $lvl 1 }}
+data "RootSpellID" "Target_Smite_Searing_Unarmed"
+{{- end }}
+data "DisplayName" "hd4d5a3e9g9575g425eg8c5cgb566ff40fe3f"
+data "Icon" "Spell_Evocation_SearingSmite_Unarmed"
+data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{$lvl}}d6, Fire,Magical)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{$lvl}}d6, Fire,Magical);ApplyStatus(SEARING_SMITE, 100, 10)"
+data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d6,Fire)"
+{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{ end }}
+
+{{ range $lvl := list 1 2 3 4 5 6 }}
+new entry "Target_Smite_Wrathful{{if gt $lvl 1}}_{{$lvl}}{{end}}_Unarmed"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Wrathful{{if gt $lvl 1}}_{{$lvl}}{{end}}"
+{{- if gt $lvl 1 }}
+data "RootSpellID" "Target_Smite_Wrathful_Unarmed"
+{{- end }}
+data "DisplayName" "hece39c03gfdceg416fgba4fg2fa11507fbf5"
+data "Icon" "Spell_Evocation_WrathfulSmite_Unarmed"
+data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{$lvl}}d6, Psychic,Magical)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{$lvl}}d6, Psychic,Magical);ApplyStatus(FRIGHTENED,100,2, , , ,not SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnFrightened(), DisadvantageOnFrightened()))"
+data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d6,Psychic)"
+{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{ end }}
+
+{{ range $lvl := list 1 2 3 4 5 6 }}
+new entry "Target_Smite_Thunderous{{if gt $lvl 1}}_{{$lvl}}{{end}}_Unarmed"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Thunderous{{if gt $lvl 1}}_{{$lvl}}{{end}}"
+{{- if gt $lvl 1 }}
+data "RootSpellID" "Target_Smite_Thunderous_Unarmed"
+{{- end }}
+data "DisplayName" "h071d9312gb2beg4697gb3aeg4acb5d0b87ed"
+data "Icon" "Spell_Evocation_ThunderousSmite_Unarmed"
+data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{add $lvl 1}}d6, Thunder,Magical)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{add $lvl 1}}d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()))"
+data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{add $lvl 1}}d6,Thunder)"
+{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{ end }}
+
+
+new entry "Target_Smite_Branding_Container"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Container"
+data "ContainerSpells" "Projectile_Smite_Branding;Target_Smite_Branding;Target_Smite_Branding_Unarmed"
+
+{{ range $lvl := list 2 3 4 5 6 }}
+new entry "Target_Smite_Branding{{if gt $lvl 2}}_{{$lvl}}{{end}}_Unarmed"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding{{if gt $lvl 2}}_{{$lvl}}{{end}}"
+{{- if gt $lvl 2 }}
+data "RootSpellID" "Target_Smite_Branding_Unarmed"
+{{- end }}
+data "DisplayName" "h4df5940dg1998g4082gb8e2ge19a7fa5e25b"
+data "Icon" "Spell_Evocation_BrandingSmite_Unarmed"
+data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{$lvl}}d6, Radiant,Magical)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{$lvl}}d6, Radiant,Magical);ApplyStatus(BRANDING_SMITE, 100, 10)"
+data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d6,Radiant)"
+{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{ end }}
+
+new entry "Target_Smite_Branding_ZarielTiefling_Container"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_ZarielTiefling_Container"
+data "ContainerSpells" "Projectile_Smite_Branding_ZarielTiefling;Target_Smite_Branding_Unarmed_ZarielTiefling"
+
+new entry "Target_Smite_Branding_Unarmed_ZarielTiefling"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_ZarielTiefling"
+data "DisplayName" "h4df5940dg1998g4082gb8e2ge19a7fa5e25b"
+data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage(2d6, Radiant,Magical)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage(2d6, Radiant,Magical);ApplyStatus(BRANDING_SMITE, 100, 10)"
+data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage(2d6,Radiant)"
+{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+
+
+{{ range $lvl := list 3 4 5 6 }}
+new entry "Target_Smite_Blinding{{if gt $lvl 3}}_{{$lvl}}{{end}}_Unarmed"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Blinding{{if gt $lvl 3}}_{{$lvl}}{{end}}"
+{{- if gt $lvl 2 }}
+data "RootSpellID" "Target_Smite_Blinding_Unarmed"
+{{- end }}
+data "DisplayName" "h4df5940dg1998g4082gb8e2ge19a7fa5e25b"
+data "Icon" "Spell_Evocation_BlindingSmite_Unarmed"
+data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{$lvl}}d8, Radiant,Magical)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{$lvl}}d8, Radiant,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(BLINDING_SMITE_BLINDED,100,10)"
+data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d8,Radiant)"
+{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{ end }}
+
+{{ range $lvl := list 5 6 }}
+new entry "Target_Smite_Banishing{{if gt $lvl 5}}_{{$lvl}}{{end}}_Unarmed"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing{{if gt $lvl 5}}_{{$lvl}}{{end}}"
+{{- if gt $lvl 5 }}
+data "RootSpellID" "Target_Smite_Banishing_Unarmed"
+{{- end }}
+data "DisplayName" "h6a58f996gdf5cg448cgb58aga14122b06a0b"
+data "Icon" "Spell_Abjuration_BanishingSmite_Unarmed"
+data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage(5d10, Force,Magical)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage(5d10, Radiant,Magical);DealDamage(5d10, Force,Magical);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE, 100, 2)"
+data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage(5d10,Radiant)"
+{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{ end }}
+
+
+new entry "Target_InquisitorsMight"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_InquisitorsMight"
+data "Description" "h916535e6g144eg4df8gb998g8c8944bf312c"
+
+new entry "INQUISITORS_MIGHT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "INQUISITORS_MIGHT"
+data "Boosts" "CharacterWeaponDamage(max(1,Cause.CharismaModifier),Radiant);CharacterUnarmedDamage(max(1,Cause.CharismaModifier),Radiant)"
+
+new entry "Target_HolyRebuke"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HolyRebuke"
+data "UseCosts" "BonusActionPoint:1"

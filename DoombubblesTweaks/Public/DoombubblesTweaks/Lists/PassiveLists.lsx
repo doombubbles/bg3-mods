@@ -88,14 +88,12 @@
         </node>
 
         <!-- Elemental Adept -->
-
         <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="ElementalAdept_Acid,ElementalAdept_Cold,ElementalAdept_Fire,ElementalAdept_Force,ElementalAdept_Lightning,ElementalAdept_Necrotic,ElementalAdept_Poison,ElementalAdept_Psychic,ElementalAdept_Radiant,ElementalAdept_Thunder"/>
           <attribute id="UUID" type="guid" value="f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39"/>
         </node>
 
         <!-- Light Cleric Choice -->
-
         <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="WardingFlare_Improved,PotentSpellcasting"/>
           <attribute id="UUID" type="guid" value="d9e923c1-f551-4bdf-92f7-5bb85b00b205"/>
@@ -103,14 +101,18 @@
 
 
         <!-- All Fighting Styles -->
-
         <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_MartialArts"/>
           <attribute id="UUID" type="guid" value="da3203d8-750a-4de1-b8eb-1eccfccddf46"/>
         </node>
 
-        <!-- Warlock Pacts -->
+        <!-- Paladin Fighting Styles -->
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_MartialArts"/>
+          <attribute id="UUID" type="guid" value="f8ebba38-932a-4c64-ae55-3df23e2f60fa"/>
+        </node>
 
+        <!-- Warlock Pacts -->
         <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="PactOfTheChain,PactOfTheBlade,PactOfTheTome,PactOfDestruction"/>
           <attribute id="UUID" type="guid" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae"/>

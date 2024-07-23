@@ -233,56 +233,56 @@
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_Paladin_DivineSmite_Unarmed"/>
           <attribute id="U1" type="float" value="0.9375"/>
           <attribute id="U2" type="float" value="0.96875"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Spell_Evocation_SearingSmite_Unarmed"/>
           <attribute id="U1" type="float" value="0.96875"/>
           <attribute id="U2" type="float" value="1.0"/>
           <attribute id="V1" type="float" value="0.0"/>
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Spell_Evocation_ThunderousSmite_Unarmed"/>
           <attribute id="U1" type="float" value="0.0"/>
           <attribute id="U2" type="float" value="0.03125"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Spell_Evocation_WrathfulSmite_Unarmed"/>
           <attribute id="U1" type="float" value="0.03125"/>
           <attribute id="U2" type="float" value="0.0625"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Spell_Evocation_BrandingSmite_Unarmed"/>
           <attribute id="U1" type="float" value="0.0625"/>
           <attribute id="U2" type="float" value="0.09375"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Spell_Evocation_BlindingSmite_Unarmed"/>
           <attribute id="U1" type="float" value="0.09375"/>
           <attribute id="U2" type="float" value="0.125"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Spell_Evocation_StaggeringSmite_Unarmed"/>
           <attribute id="U1" type="float" value="0.125"/>
           <attribute id="U2" type="float" value="0.15625"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Spell_Abjuration_BanishingSmite_Unarmed"/>
           <attribute id="U1" type="float" value="0.15625"/>
           <attribute id="U2" type="float" value="0.1875"/>
           <attribute id="V1" type="float" value="0.03125"/>

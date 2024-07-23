@@ -52,6 +52,10 @@ To Disable:
 
 **Hellish Rebuke** - Damage die upgraded from d10 to d12.
 
+**Divine Favour** - Now also applies to Unarmed Attacks
+
+**Smite Spells** - Added Unarmed Variants to all Smite Spells
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
@@ -216,6 +220,8 @@ A set of staves that are counterparts to the Gold Wyrmling Staff
 
 **Green Wyrmling Staff** (Poison, Poison Spray) - Sold by Auntie Ethel at the Emerald Grove
 
+**Red Wyrmling Staff** (Fire, Rays of Fire) - Sold by A'jak'nir Jeera	at Crèche Y'llek
+
 ### Great Wyrm Staves
 
 A set of staves that are upgrades to the Wyrmling Staves and incorporate Markoheshkir effects. 
@@ -275,6 +281,7 @@ A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony*
 | Amethyst Wyrmling Staff             | `DBT_Psychic_Quarterstaff`        | `e992af9b-e505-41b7-9589-70f9bcb9d17e` |
 | Copper Wyrmling Staff               | `DBT_Acid_Quarterstaff`           | `e933636f-5e9f-4b56-b995-fbf53a150b8c` |
 | Green Wyrmling Staff                | `DBT_Poison_Quarterstaff`         | `f23aa019-03d4-47c9-9387-bd87f5375bfc` |
+| Red Wyrmling Staff                  | `DBT_Fire_Quarterstaff`           | `aca20f20-ebb0-4403-ac2c-94da70b41570` |
 | Great Wyrm Scale                    | `DBT_Dragon_Material`             | `b5217ff7-6ec4-42e8-ad7d-0ba5d23d2359` |
 | Gold Great Wyrm Staff               | `DBT_Chromatic_Fire_staff`        | `ffca3335-73fa-4a44-9035-bff033f31c1b` |
 | Silver Great Wyrm Staff             | `DBT_Chromatic_Cold_staff`        | `e019e7ef-a209-4df3-ad83-b1b6f55ffbda` |
@@ -452,7 +459,7 @@ These are powerful buffs, but they still don't even reach the level of base Swor
 
 ### Fighter
 
-- Added a new Fighting Style "Martial Arts": Your unarmed attacks deal 1d4/1d6/1d8 damage. When not holding anything in your off hand, you can make an unarmed strike as a bonus action.
+- Added a new Fighting Style "Unarmed Fighting": Your unarmed attacks deal 1d4/1d6/1d8 damage. When not holding anything in your off hand, you can make an unarmed strike as a bonus action.
 
 #### Battle Master
 
@@ -556,10 +563,17 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 ### Paladin
 
 - Improved Divine Smite is now toggleable
+- Divine Smite now also works with Unarmed Attacks along with the other Smite spells
+- Is able to choose the new Unarmed Fighting Style at Level 2
 
 #### Oath of Devotion
 
+- Holy Rebuke is now a Bonus Action
 - Sacred Weapon is now a Bonus Action
+
+### Oath of Vengenace
+
+- Inquisitor's Might now also affects Unarmed Attacks
 
 ### Wizard
 
@@ -654,6 +668,11 @@ Additionally, the level 6 damage increase also applies to damage done via Attack
 - Deepened Pact: Eldritch Blast related invocations now affect all your Fire spells.
 
 ### Paladin
+
+#### Oath Forsaker
+
+A copy of Oathbreaker that shares the same progression table but is directly selectable and lacks the technical Oathbreaker tag.
+This allows for respecing at the price of losing out on the couple unique dialogue interactions it has.
 
 #### Oath of Retribution
 

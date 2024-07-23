@@ -1,26 +1,27 @@
-new treasuretable "DEN_Entrance_Trade"
+new treasuretable "DEN_Entrance_Trade" {{/* Arron Gary's Cousin, Emerald Grove */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Lightning_Quarterstaff",1,0,0,0,0,0,0,0
 
-new treasuretable "DEN_Weaponsmith_Trade"
+new treasuretable "DEN_Weaponsmith_Trade" {{/* Dammon, Emerald Grove */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Radiant_Quarterstaff",1,0,0,0,0,0,0,0
 
-new treasuretable "T_ST_DEN_Ethel_Alchemy"
+{{/* TODO doesn't seem to work? */}}
+new treasuretable "T_ST_DEN_Ethel_Alchemy" {{/* Auntie Ethel, Emerald Grove */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Poison_Quarterstaff",1,0,0,0,0,0,0,0
 
-new treasuretable "GOB_Festivities_Trader"
+new treasuretable "GOB_Festivities_Trader"  {{/* Grat, Goblin Camp */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Necrotic_Quarterstaff",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_DBT_Crossbow_Gloves",1,0,0,0,0,0,0,0
 
-new treasuretable "PLA_ZhentarimTrader_Extra"
+new treasuretable "PLA_ZhentarimTrader_Extra"  {{/* Brem, Zhentarim Basement */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_CON_Longbow",1,0,0,0,0,0,0,0
@@ -32,17 +33,17 @@ new subtable "-1"
 object category "I_DBT_CHA_Longbow",1,0,0,0,0,0,0,0
 
 
-new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"  {{/* Blurg, Myconid Colony */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Cold_Quarterstaff",1,0,0,0,0,0,0,0
 
-new treasuretable "UND_MycoVillage_AlchemistDwarf_Trade"
+new treasuretable "UND_MycoVillage_AlchemistDwarf_Trade"  {{/* Derryth Bonecloak, Myconid Colony */}}
 CanMerge 1
 new subtable "-1"
-object category "I_DBT_Acid_Quarterstaff",1,0,0,0,0,0,0,0
+object category "I_DBT_Acid_Quarterstaff",1,0,0,0,0,0,0,0 
 
-new treasuretable "UND_SocietyOfBrilliance_Mindflayer"
+new treasuretable "UND_SocietyOfBrilliance_Mindflayer"  {{/* Omeluum, Myconid Colony */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Psychic_Quarterstaff",1,0,0,0,0,0,0,0
@@ -50,31 +51,33 @@ new subtable "-1"
 object category "I_DBT_WrathfulSmite_Quarterstaff",1,0,0,0,0,0,0,0
 
 
-new treasuretable "CRE_Expeditioner_Magic_Trade"
+new treasuretable "CRE_Expeditioner_Magic_Trade"  {{/* Esther, Mountain Pass */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Force_Quarterstaff",1,0,0,0,0,0,0,0
 
-new treasuretable "CRE_MagicItem_Gith_Trader"
+new treasuretable "CRE_MagicItem_Gith_Trader"   {{/* Ajaknir Jeera, Githyanki Creche */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_CON_Cloth",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_DBT_SearingSmite_Quarterstaff",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_Fire_Quarterstaff",1,0,0,0,0,0,0,0
 
 
-new treasuretable "HAV_Thiefling_Trade"
+new treasuretable "HAV_Thiefling_Trade"   {{/* Mattis, Last Light Inn */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_IntelligenceCaster_Material",1,0,0,0,0,0,0,0
 
-new treasuretable "HAV_HarperQuarterMaster_Magic_Trade"
+new treasuretable "HAV_HarperQuarterMaster_Magic_Trade"  {{/* Quartermaster Talli, Last Light Inn */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_BrandingSmite_Quarterstaff",1,0,0,0,0,0,0,0
 
 
-new treasuretable "MOO_BugBearvendor_Trade"
+new treasuretable "MOO_BugBearvendor_Trade"  {{/* Lann Tarv, Moonrise Towers */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_WIS_Cloth",1,0,0,0,0,0,0,0
@@ -87,12 +90,12 @@ object category "I_DBT_WIS_Longbow",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_DBT_CHA_Longbow",1,0,0,0,0,0,0,0
 
-new treasuretable "MOO_ZhentQuartermaster"
+new treasuretable "MOO_ZhentQuartermaster"  {{/* Roah Moonglow, Moonrise Towers */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_INT_Cloth",1,0,0,0,0,0,0,0
 
-new treasuretable "MOO_InfernalTrader_Trade"
+new treasuretable "MOO_InfernalTrader_Trade"  {{/* Araj Oblodra, Moonrise Towers */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_CHA_Cloth",1,0,0,0,0,0,0,0
@@ -100,22 +103,22 @@ new subtable "-1"
 object category "I_DBT_BlindingSmite_Quarterstaff",1,0,0,0,0,0,0,0
 
 
-new treasuretable "WYR_OrinsImpersonation_Smith"
+new treasuretable "WYR_OrinsImpersonation_Smith"  {{/* Exxvikyap, Moonrise Towers */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_StaggeringSmite_Quarterstaff",1,0,0,0,0,0,0,0
 
-new treasuretable "LOW_SteepsTrader_Weapons"
+new treasuretable "LOW_SteepsTrader_Weapons" {{/* Danthelon, Rivington */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_BanishingSmite_Quarterstaff",1,0,0,0,0,0,0,0
 
-new treasuretable "LOW_Guildhall_FetchersBrat_Trade_Magic"
+new treasuretable "LOW_Guildhall_FetchersBrat_Trade_Magic"  {{/* Sticky Dondo, Guildhall */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_VersatileSneakAttack_Gloves",1,0,0,0,0,0,0,0
 
-new treasuretable "LOW_Grotto_ShadowheartFriend"
+new treasuretable "LOW_Grotto_ShadowheartFriend"  {{/* Nocturne, House of Grief */}}
 CanMerge 1
 new subtable "4,1"
 object category "I_QUEST_GEM_Button",1,0,0,0,0,0,0,0

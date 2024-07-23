@@ -10,7 +10,7 @@
 		"prefix": [
 			"handle"
 		],
-		"scope": "xml,txt",
+		"scope": "xml,txt,yaml",
 		"body": "h${UUID/-/g/g}"
 	},
 	"locale string": {

@@ -8,6 +8,16 @@ data "ExtraDescription" "hef70caa4g3060g48bbga1d0gd50c4c0569fa"
 data "ExtraDescription" "hd86b0644ged20g4a2bgbfb6g123c2fbb6757"
 {{- end }}
 
+new entry "Projectile_MAG_RaysOfFire_Staff"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_FireRay_Warlock"
+{{- if $.Balance.QuickenedCantripsPerCombat }}
+data "ExtraDescription" "hef70caa4g3060g48bbga1d0gd50c4c0569fa"
+{{- else }}
+data "ExtraDescription" "hd86b0644ged20g4a2bgbfb6g123c2fbb6757"
+{{- end }}
+
 {{ $CANTRIP := "" }}
 {{ range $cantrip, $values := $.QuickenedCantrips }}
 {{- $CANTRIP = $cantrip | snakecase | upper }}

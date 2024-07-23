@@ -17,4 +17,20 @@
   <content contentuid="hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
   <content contentuid="hce62265fgcc63g4ba5g9353g7531d7728257" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
 
+  <content contentuid="haad2a2feg3184g4599g9182gf8d08b00331f" version="1">Oath Forsaker</content>
+
+  <content contentuid="hc74f08b0g2519g4de6g8a66gcda7c497aee8" version="1">Divine Smite (Unarmed)</content>
+  <content contentuid="heb62f548gad42g45afgbd55g16d9fb250416" version="1">Your attack deals an additional [1], increased by [2] when attacking fiends or undead.</content>
+  <content contentuid="hd4d5a3e9g9575g425eg8c5cgb566ff40fe3f" version="1">Searing Smite (Unarmed)</content>
+  <content contentuid="hece39c03gfdceg416fgba4fg2fa11507fbf5" version="1">Wrathful Smite (Unarmed)</content>
+  <content contentuid="h071d9312gb2beg4697gb3aeg4acb5d0b87ed" version="1">Thunderous Smite (Unarmed)</content>
+  <content contentuid="h4df5940dg1998g4082gb8e2ge19a7fa5e25b" version="1">Branding Smite (Unarmed)</content>
+  <content contentuid="ha596ec4bg665dg4f5fg909dg1a2e25419360" version="1">Blinding Smite (Unarmed)</content>
+  <content contentuid="h6a58f996gdf5cg448cgb58aga14122b06a0b" version="1">Banishing Smite (Unarmed)</content>
+
+  <content contentuid="h916535e6g144eg4df8gb998g8c8944bf312c" version="1">You or an ally's weapon and unarmed attacks deal an additional [1] and can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; enemies for 1 turn.</content>
+  <content contentuid="hb99d5280g7e45g4663ga660gffdd83928f58" version="2">Your weapon and unarmed attacks deal an additional [1].</content>
+  <content contentuid="h9306f199g05f0g421dgba75g7805ee1ee6ee" version="1">Weapon and unarmed attacks deal an additional [1].</content>
+	
+
 </contentList>

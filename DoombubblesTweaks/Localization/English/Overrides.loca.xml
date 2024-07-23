@@ -46,6 +46,7 @@
   <content contentuid="hcf0ce1d8gc3d0g45b9g9f8ag48c7a0cb13ee" version="1">Tyrant's Fist</content>
 
   <content contentuid="h5b3a41ebg1cd2g41f5gb0aeg226a3de0d28f" version="1">When you hit a creature with a weapon or unarmed attack, it has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against a spell you cast before the end of your next turn.</content>
-
+  
+  <content contentuid="h9e477996gfc2dg4c87gaf7bgb2c3a5bd8e04" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 
 </contentList>

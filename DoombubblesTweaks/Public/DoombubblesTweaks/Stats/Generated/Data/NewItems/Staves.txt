@@ -68,6 +68,14 @@ data "RootTemplate" "f23aa019-03d4-47c9-9387-bd87f5375bfc"
 data "Boosts" "UnlockSpell(Projectile_MAG_PoisonSpray_Staff)"
 data "StatusOnEquip" "QUICKENED_POISON_SPRAY"
 
+new entry "DBT_Fire_Quarterstaff"
+type "Weapon"
+using "MAG_Fire_FireDamage_Quarterstaff"
+data "RootTemplate" "aca20f20-ebb0-4403-ac2c-94da70b41570"
+data "Boosts" "UnlockSpell(Projectile_MAG_RaysOfFire_Staff)"
+data "StatusOnEquip" "QUICKENED_RAYS_OF_FIRE"
+
+
 // new entry "Target_MAG_ThunderousSmite"
 // type "SpellData"
 // data "SpellType" "Target"

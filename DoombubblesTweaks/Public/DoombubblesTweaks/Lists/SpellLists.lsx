@@ -65,6 +65,21 @@
           <attribute id="UUID" type="guid" value="17803035-4762-4143-8f2f-1143d47e4f40"/>
         </node>
         <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin always prepared spells level 2"/>
+          <attribute id="Spells" type="LSString" value="Target_Smite_Divine;Target_Smite_Divine_Unlock;Target_Smite_Divine_Critical_Unlock;Target_Smite_Divine_Unarmed"/>
+          <attribute id="UUID" type="guid" value="58aef51d-a46c-44c8-8bed-df90870eb55f"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin SLevel 1"/>
+          <attribute id="Spells" type="LSString" value="Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Target_Smite_Wrathful;Target_Smite_Wrathful_Unarmed;Target_Bless;Shout_DivineFavor;Target_Heroism;Target_ProtectionFromEvilAndGood;Target_Smite_Searing;Target_Smite_Searing_Unarmed;Target_ShieldOfFaith;Target_Smite_Thunderous;Target_Smite_Thunderous_Unarmed"/>
+          <attribute id="UUID" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin SLevel 3"/>
+          <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_Smite_Blinding;Target_Smite_Blinding_Unarmed;Shout_CrusadersMantle;Target_Daylight_Container;Target_ElementalWeapon;Target_RemoveCurse;Teleportation_Revivify"/>
+          <attribute id="UUID" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
+        </node>
+        <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Paladin, Retribution spell scroll list"/>
           <attribute id="Spells" type="LSString" value="Target_Smite_Lunar;Shout_Shield_Sorcerer;Target_HoldPerson;Target_SpiritualWeapon;Target_Haste;Shout_SpiritGuardians_Paladin"/>
           <attribute id="UUID" type="guid" value="6705e5e0-55a0-49d5-9f2e-78640afa8c85"/>

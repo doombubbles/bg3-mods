@@ -245,6 +245,36 @@
           </children>
         </node>
 
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h3111c3edgf1a4g49acga6c1gab528e80b635" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h4bb0a9eegd2f1g4f1ag9e41gcfabb979282e" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="aca20f20-ebb0-4403-ac2c-94da70b41570" />
+          <attribute id="Name" type="LSString" value="DBT_Fire_Quarterstaff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+          <attribute id="Stats" type="FixedString" value="DBT_Fire_Quarterstaff" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="f2c78f41-28c8-37c7-756c-c2071ede7d50" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
       </children>
     </node>
   </region>
