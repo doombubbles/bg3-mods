@@ -50,10 +50,10 @@
             <node id="SubClasses">
               <children>
                 <node id="SubClass">
-                  <attribute id="Object" type="guid" value="1ba6dbd8-35f4-4517-8d88-c9024b456db3"/>
+                  <attribute id="Object" type="guid" value="7c9881c1-3806-477b-a37e-0c39d845fc5c"/>
                 </node>
                 <node id="SubClass">
-                  <attribute id="Object" type="guid" value="7c9881c1-3806-477b-a37e-0c39d845fc5c"/>
+                  <attribute id="Object" type="guid" value="1ba6dbd8-35f4-4517-8d88-c9024b456db3"/>
                 </node>
                 <node id="SubClass">
                   <attribute id="Object" type="guid" value="54315fcc-86df-4e08-994e-1f81f57f014b"/>

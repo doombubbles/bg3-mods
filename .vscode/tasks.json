@@ -7,7 +7,7 @@
       "command": "bin/busybox.exe",
       "args": [
         "bash",
-        "build.sh"
+        "scripts/build.sh"
       ],
       "group": "build",
       "presentation": {
@@ -42,7 +42,7 @@
     },
     {
       "label": "Update Mod",
-      "command": "UpdateDoombubblesTweaks.bat",
+      "command": "scripts/UpdateDoombubblesTweaks.bat",
       "args": ["-y"],
       "type": "process",
       "group": "none",
@@ -64,6 +64,53 @@
         "showReuseMessage": false,
         "revealProblems": "onProblem"
       },
-    }
+    },
+    {
+      "label": "Enable Hot Reload",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": [
+        "bash",
+        "scripts/symlinks_create.sh"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {
+      "label": "Disable Hot Reload",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": [
+        "bash",
+        "scripts/symlinks_delete.sh"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {
+      "label": "Process Hot Reload",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": [
+        "bash",
+        "scripts/hotreload.sh",
+        "${file}"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {}
   ]
 }

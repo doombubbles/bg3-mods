@@ -10,7 +10,10 @@
                 "*.go": "Go: Launch File",
                 "*.tmpl": "Go: Launch Main File",
                 "*.yaml": "Go: Launch Main File",
-                "*.bat": "Node: Run File"
+                "*.bat": "Node: Run File",
+                "*.txt": "Node: Process Hot Reload",
+                "*.lua": "BG3 Script Extender Lua Debug",
+                "*.js": "Node: Launch Program"
             }
         },
         {
@@ -39,12 +42,34 @@
            "postDebugTask": "Update Mod"
         },
         {
+            "name": "Node: Launch Program",
+            "program": "${file}",
+            "request": "launch",
+            "cwd": "${fileDirname}",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
             "name": "Go: Launch Main File",
             "type": "go",
             "request": "launch",
             "mode": "debug",
             "program": "${workspaceFolder}/ProcessTemplates//ProcessTemplates.go",
             "cwd": "${workspaceFolder}"
-        }
+        },
+        {
+            "name": "BG3 Script Extender Lua Debug",
+            "type": "bg3lua",
+            "request": "launch",
+            "program": "${workspaceFolder}\\bin\\DebugAdapter\\LuaDebugger.exe",
+            "backendHost": "127.0.0.1",
+            "backendPort": 9998,
+            "dbgOptions": {
+                "breakOnError": true,
+                "breakOnGenericError": false
+            }
+        },
     ]
 }

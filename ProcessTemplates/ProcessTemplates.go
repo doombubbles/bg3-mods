@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"bytes"
 	"fmt"
 	"io"
@@ -12,6 +13,7 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 	jsoniter "github.com/simonwu-os/json-iterator-go"
+	flag "github.com/spf13/pflag"
 	"gopkg.in/yaml.v2"
 )
 
@@ -21,7 +23,11 @@ var nonTemplateExtensions = []string{
 	".dds",
 }
 
-const buildDir = "build"
+var src (string)
+var destination (string)
+var valuesFiles ([]string)
+var resultValues (string)
+var singleFile = false
 
 type Values map[string]interface{}
 type AnyValue interface{}
@@ -33,22 +39,36 @@ func main() {
 		log.Fatalf("error getting current directory: %v", err)
 	}
 
-	modDir := filepath.Base(rootDir)
+	flag.StringVarP(&src, "source", "s", filepath.Base(rootDir), "The source folder to read from")
+	flag.StringVarP(&destination, "destination", "d", "build/"+filepath.Base(rootDir), "The destination folder to put things in")
+	flag.StringArrayVarP(&valuesFiles, "values", "v", []string{}, "Places to read values files from other than the source folder")
+	flag.StringVarP(&resultValues, "result-values", "r", "", "Place to save the result values to, if any")
+	flag.Parse()
+
+	buildDir := destination
+	buildInfo, err := os.Stat(destination)
+	if err != nil || buildInfo.IsDir() {
+		buildDir = filepath.Join(destination, filepath.Base(src))
+	}
+	singleFile = filepath.Ext(src) != "" && filepath.Ext(destination) != ""
 
 	// Delete all files in the build directory
-	err = cleanBuildDirectory(filepath.Join(buildDir, modDir))
+	err = cleanBuildDirectory(buildDir)
 	if err != nil {
 		log.Fatalf("error cleaning build directory: %v", err)
 	}
 
 	// Build the values map
-	values, err := buildValuesMap(modDir)
-	if err != nil {
-		log.Fatalf("error building values map: %v", err)
+	values := make(Values)
+	for _, valuePath := range append(valuesFiles, src) {
+		err = buildValuesMap(valuePath, &values)
+		if err != nil {
+			log.Fatalf("error building values map: %v", err)
+		}
 	}
 
 	// Walk through and process all files
-	err = filepath.Walk(modDir, func(path string, info os.FileInfo, err error) error {
+	err = filepath.Walk(src, func(path string, info os.FileInfo, err error) error {
 		return processFile(path, info, err, values)
 	})
 	if err != nil {
@@ -59,7 +79,7 @@ func main() {
 func cleanBuildDirectory(path string) error {
 	// Create build directory if not exists
 	if _, err := os.Stat(path); os.IsNotExist(err) {
-		os.Mkdir(buildDir, os.ModePerm)
+		os.Mkdir(path, os.ModePerm)
 	}
 
 	// Remove the results directory if it exists
@@ -72,8 +92,7 @@ func cleanBuildDirectory(path string) error {
 	return nil
 }
 
-func buildValuesMap(rootDir string) (Values, error) {
-	values := make(Values)
+func buildValuesMap(rootDir string, values *Values) error {
 
 	err := filepath.Walk(rootDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
@@ -82,7 +101,11 @@ func buildValuesMap(rootDir string) (Values, error) {
 
 		// Ignore buildDir and directories starting with "."
 		if info.IsDir() {
-			if info.Name() == buildDir || strings.HasPrefix(info.Name(), ".") {
+			rel, err := filepath.Rel(destination, path)
+			if err != nil {
+				return err
+			}
+			if !strings.HasPrefix(rel, "..") || strings.HasPrefix(info.Name(), ".") {
 				return filepath.SkipDir
 			}
 			return nil
@@ -108,8 +131,11 @@ func buildValuesMap(rootDir string) (Values, error) {
 
 			// Add the parsed values to the main values map
 			parts := strings.Split(fileName, ".")
-			current := values
+			current := *values
 			for i, part := range parts {
+				if part == "" {
+					continue
+				}
 				if i == len(parts)-1 {
 					// Last part, assign the actual value
 					current[part] = fileValue
@@ -132,22 +158,25 @@ func buildValuesMap(rootDir string) (Values, error) {
 	})
 
 	if err != nil {
-		return nil, fmt.Errorf("error processing YAML files: %v", err)
+		return fmt.Errorf("error processing YAML files: %v", err)
 	}
 
 	yamlData, err := yaml.Marshal(values)
 	if err != nil {
 		fmt.Printf("  Error marshaling YAML: %v\n", err)
-	} else {
-		fmt.Printf("%s\n", string(yamlData))
-		filePath := filepath.Join(buildDir, "values.yaml")
+	} else if resultValues != "" {
+		filePath := resultValues
+		resultInfo, err := os.Stat(resultValues)
+		if err == nil && resultInfo.IsDir() {
+			filePath = filepath.Join(resultValues, "values.yaml")
+		}
 		err = os.WriteFile(filePath, yamlData, 0644)
 		if err != nil {
 			fmt.Printf("error writing values.yaml: %v", err)
 		}
 	}
 
-	return values, nil
+	return nil
 }
 
 func include(tmpl *template.Template) func(name string, data interface{}) (string, error) {
@@ -174,14 +203,23 @@ func processFile(path string, info os.FileInfo, err error, values Values) error 
 	}
 
 	// Create the output directory structure
-	outputDir := filepath.Join(buildDir, filepath.Dir(path))
-	err = os.MkdirAll(outputDir, os.ModePerm)
-	if err != nil {
-		log.Printf("error creating output directory %s: %v", outputDir, err)
-		return err
-	}
+	outputPath := destination
 
-	outputPath := filepath.Join(outputDir, filepath.Base(path))
+	if !singleFile {
+		rel, err := filepath.Rel(src, path)
+		if err != nil {
+			log.Printf("prevent panic by handling failure accessing a path %q: %v\n", path, err)
+			return err
+		}
+		outputDir := filepath.Join(destination, filepath.Dir(rel))
+		err = os.MkdirAll(outputDir, os.ModePerm)
+		if err != nil {
+			log.Printf("error creating output directory %s: %v", outputDir, err)
+			return err
+		}
+
+		outputPath = filepath.Join(outputDir, filepath.Base(path))
+	}
 
 	// Check if the file should be excluded from template processing
 	if isExcluded(path) {
@@ -195,7 +233,18 @@ func processFile(path string, info os.FileInfo, err error, values Values) error 
 		return err
 	}
 
-	text := string(content)
+	var builder strings.Builder
+	scanner := bufio.NewScanner(strings.NewReader(string(content)))
+	for scanner.Scan() {
+		line := scanner.Text()
+		if !strings.HasPrefix(line, "//") {
+			builder.WriteString(line + "\n")
+		}
+	}
+	if err := scanner.Err(); err != nil {
+		fmt.Println("Error reading string:", err)
+	}
+	text := builder.String()
 
 	// Parse and execute template
 	tmpl := template.New("template").Funcs(sprig.FuncMap())

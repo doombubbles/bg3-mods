@@ -5,7 +5,7 @@
     <node id="root">
       <children>
 
-        {{ if $.Local.DeathKnightEnabled }}
+        {{ if $.Balance.DeathKnightEnabled }}
         <node id="ClassDescription">
           <attribute id="BaseHp" type="int32" value="10"/>
           <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>

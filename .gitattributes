@@ -2,3 +2,5 @@
 *.lsx linguist-language=XML linguist-detectable
 *.khn linguist-language=Lua linguist-detectable
 *.txt linguist-language=Text linguist-detectable
+lib/** linguist-vendored
+bin/** linguist-vendored

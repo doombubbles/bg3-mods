@@ -1,0 +1,5 @@
+{{- if $.Balance.TrueInitiative }}
+key "InitiativeDie","20"
+{{- end}}
+
+key "PingCooldownTime","0"

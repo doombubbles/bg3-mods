@@ -9,8 +9,11 @@ NerfTavernBrawler: false
 NerfArcaneAcuity: false
 NerfSlashingFlourish: false
 FixSlashingFlourish: false
-ScrollsCostSpellSlots: false
 PotionSickness: false
 
 # Base Game Buffs
 HealingBuffs: true
+
+# In Progress Features
+ScrollsCostSpellSlots: false
+DeathKnightEnabled: false

@@ -35,7 +35,11 @@ jobs:
           zipBall: false
           latest: true
           extract: true
-  
+      
+      - name: Remove Debug Script Extender
+        run: del /f /q "${{ env.PROJECT_NAME }}\\Mods\\${{ env.PROJECT_NAME }}\\ScriptExtender\\Config.json"
+        shell: cmd
+
       - name: Process Templates
         run: ./bin/ProcessTemplates.exe
 

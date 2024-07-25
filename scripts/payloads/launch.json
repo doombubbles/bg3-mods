@@ -1,0 +1,15 @@
+{
+  "command": "launch",
+  "arguments": {
+    "name": "BG3 Script Extender Lua Debug",
+    "type": "bg3lua",
+    "request": "launch",
+    "program": "C:\\Users\\jpgale\\Documents\\BG3 Mods\\DoombubblesTweaks\\bin\\DebugAdapter\\LuaDebugger.exe",
+    "backendHost": "127.0.0.1",
+    "backendPort": 9998,
+    "dbgOptions": { "breakOnError": true, "breakOnGenericError": false },
+    "__configurationTarget": 6,
+    "__sessionId": "67113811-08ca-4643-92e4-154855209c5f"
+  },
+  "type": "request"
+}

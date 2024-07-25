@@ -1,0 +1,8 @@
+{
+  "command": "evaluate",
+  "arguments": {
+    "context": "repl",
+    "expression": "reset"
+  },
+  "type": "request"
+}

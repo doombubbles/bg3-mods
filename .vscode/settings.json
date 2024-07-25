@@ -42,5 +42,10 @@
   "yaml.schemas": {
     "./ProcessTemplates/CompatibilityFrameworkConfig.schema.json": "**/*/CompatibilityFrameworkConfig.yaml"
   },
-  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?" // removed dash - for uuids
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "Lua.workspace.library": [
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Baldurs Gate 3\\Data\\Mods\\DoombubblesTweaks\\ScriptExtender\\Lua",
+    "${workspaceFolder}/lib"
+  ],
+  "Lua.workspace.preloadFileSize": 2000
 }

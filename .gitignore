@@ -1,3 +1,5 @@
 temp
 build
-Local.yaml
+output
+.*.yaml
+*.log

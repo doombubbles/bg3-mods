@@ -16,7 +16,8 @@
 	"locale string": {
 		"prefix": [
 			"content",
-			"loca"
+			"loca",
+			"con"
 		],
 		"scope": "xml",
 		"body": [
@@ -117,5 +118,21 @@
 		"prefix": ["temphp", "temporaryhp", "temporaryhitpoints", "temphitpoints"],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"TemporaryHitPoints\"&gt;temporary hit points&lt;/LSTag&gt;"
-	}
+	},
+	
+	"resistance": {
+		"prefix": ["resistance"],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Resistant\"&gt;Resistance&lt;/LSTag&gt;"
+	},
+	"resistant": {
+		"prefix": ["resistant"],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Resistant\"&gt;Resistant&lt;/LSTag&gt;"
+	},
+	"concentration": {
+		"prefix": ["concentration"],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Concentration\"&gt;concentration&lt;/LSTag&gt;"
+	},
 }
