@@ -50,12 +50,21 @@ data "Conditions" "StatusId('ALCH_POTION_REST_SLEEP_LESSER_RESTORATION') or Stat
 data "StatsFunctors" "RestoreResource(FrostRune,100%,0);RestoreResource(BloodRune,100%,0);RestoreResource(UnholyRune,100%,0);"
 
 
-new entry "EmpowerRuneWeapon"
+new entry "RuneCasting_Technical"
 type "PassiveData"
-data "DisplayName" "h180c6943ga45fg4481gb4e0g0774c7740221"
-data "Description" "h03d44092g7887g43f1g8ef5g0e513acdd39e"
-data "Properties" "Highlighted"
-
+data "DisplayName" "ha0bc63c4g7f19g4cd2gbfe2g5ac7a3c167a1"
+data "Description" "h257de8efg1862g487dgbfd3gd6d00997e5d2"
+data "Properties" "IsHidden"
+data "BoostContext" "OnCreate;OnCast;OnStatusApplied;OnStatusRemoved;OnShortRest;OnLongRest"
+data "Boosts" "
+{{- range $i := list 1 2 -}}
+{{- range $comboRune, $runes := $.Common.RuneCombos -}}
+IF({{- range $j, $rune := $runes -}}
+{{if not (eq $j 0) }} or {{end}}HasActionResource('{{$rune}}',{{$i}},0,false,false,context.Source)
+{{- end -}}):ActionResource({{$comboRune}},1,0);
+{{- end -}}
+{{- end -}}
+"
 
 new entry "Lichborne"
 type "PassiveData"
@@ -279,6 +288,7 @@ type "PassiveData"
 data "DisplayName" "hbbbdcf56g644bg4b71ga4ceg0ad4d4666afb"
 data "Description" "hcb4954a7g43cbg486egb6bfg8ac17fbac347"
 data "DescriptionParams" "RegainHitPoints(1)"
+data "Properties" "Hidden;OncePerAttack"
 data "Icon" "Action_DeathKnight_FallenCrusader"
 data "StatsFunctorContext" "OnDamage"
 data "Boosts" "RollBonus(SavingThrow,1)"

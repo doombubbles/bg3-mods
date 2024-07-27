@@ -1,3 +1,5 @@
+---@diagnostic disable: undefined-global
+
 function ShouldPactBladeOverride(entity)
   local weapon = entity or context.Source
   local owner = GetOwner(weapon)
@@ -22,36 +24,35 @@ end
 
 function MagicMissileSpellCheck()
   return SpellId('Projectile_MAG_MagicMissile_Shot')
-  | SpellId('Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet') 
-  | SpellId('Projectile_MagicMissile')
-  | IsSpellChildOrVariantFromContext('Projectile_MagicMissile')
-  | SpellId('Projectile_MagicMissile_Cantrip')
+      | SpellId('Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet')
+      | SpellId('Projectile_MagicMissile')
+      | IsSpellChildOrVariantFromContext('Projectile_MagicMissile')
+      | SpellId('Projectile_MagicMissile_Cantrip')
 end
 
 function GuidingBoltCheck()
   return SpellId('Projectile_GuidingBolt')
-  | SpellId('Projectile_MAG_GuidingBolt_MonkGloves')
-  | IsSpellChildOrVariantFromContext('Projectile_GuidingBolt')
-end 
+      | SpellId('Projectile_MAG_GuidingBolt_MonkGloves')
+      | IsSpellChildOrVariantFromContext('Projectile_GuidingBolt')
+end
 
 function EldritchBlastCheck()
   return SpellId('Projectile_EldritchBlast')
-  | SpellId('Projectile_MAG_EldritchBlast_Staff')
-  | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
-  | SpellId('Projectile_FireRay_Warlock')
-  | (IsSpell() & SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction',context.Source) & HasPassive('ThirstingBlade_Check',context.Source))
+      | SpellId('Projectile_MAG_EldritchBlast_Staff')
+      | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
+      | SpellId('Projectile_FireRay_Warlock')
+      |
+      (IsSpell() & SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction', context.Source) & HasPassive('ThirstingBlade_Check', context.Source))
 end
 
 function FlySpellCheck()
-  return SpellId('Projectile_Fly') 
-  | SpellId('Projectile_Fly_Spell')
-  | SpellId('Projectile_TAD_Levitate')
+  return SpellId('Projectile_Fly') | SpellId('Projectile_Fly_Spell') | SpellId('Projectile_TAD_Levitate')
 end
 
 function AttackingWithPiercingWeapon(entity)
   entity = entity or context.Target
   local weapon = GetAttackWeapon(entity)
-  
+
   if HasWeaponProperty(WeaponProperties.Ammunition, weapon).Result then
     return ConditionResult(true)
   end
@@ -67,8 +68,8 @@ function AttackingWithPiercingWeapon(entity)
     'Tridents',
     'Pikes'
   }
-  
-  for i,group in ipairs(piercingWeapons) do
+
+  for i, group in ipairs(piercingWeapons) do
     if IsOfProficiencyGroup(group, weapon).Result then
       return ConditionResult(true)
     end
@@ -88,7 +89,7 @@ end
 
 function HeightenedConjurationSpellCheck()
   return (HasStringInSpellRoll('SavingThrow') | HasStringInFunctorConditions('SavingThrow') | HasStringInSpellRoll('SpellAutoResolveOnAlly')) &
-  (HasSpellFlag(SpellFlags.Spell) & IsSpellOfSchool(SpellSchool.Conjuration))
+      (HasSpellFlag(SpellFlags.Spell) & IsSpellOfSchool(SpellSchool.Conjuration))
 end
 
 function HotStreakSpellCheck()
@@ -96,19 +97,26 @@ function HotStreakSpellCheck()
 end
 
 function SplittingIceProjectileSpellCheck()
-  return ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Projectile) & SpellDamageTypeIs(DamageType.Cold)
+  return ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) &
+      SpellTypeIs(SpellType.Projectile) & SpellDamageTypeIs(DamageType.Cold)
 end
 
 function SplittingIceTargetSpellCheck()
-  return TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & SpellDamageTypeIs(DamageType.Cold) & ~NumberOfTargetsGreaterThan(1)
+  return TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) &
+      SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & SpellDamageTypeIs(DamageType.Cold) &
+      ~NumberOfTargetsGreaterThan(1)
 end
 
 function SplittingIceTargetTouchSpellCheck()
-  return TargetRadiusGreaterThan(0) & ~TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & SpellDamageTypeIs(DamageType.Cold) & ~NumberOfTargetsGreaterThan(1)
+  return TargetRadiusGreaterThan(0) & ~TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) &
+      HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) &
+      SpellDamageTypeIs(DamageType.Cold) & ~NumberOfTargetsGreaterThan(1)
 end
 
 function FingersOfFrostSpellCheck()
-  return SpellDamageTypeIs(DamageType.Cold) & (HasStringInSpellRoll('AttackType.RangedSpellAttack') | HasStringInSpellRoll('AttackType.MeleeSpellAttack')) & HasEnoughIciclesCheck(context.Source)
+  return SpellDamageTypeIs(DamageType.Cold) &
+      (HasStringInSpellRoll('AttackType.RangedSpellAttack') | HasStringInSpellRoll('AttackType.MeleeSpellAttack')) &
+      HasEnoughIciclesCheck(context.Source)
 end
 
 function HasEnoughIciclesCheck(entity)
@@ -127,17 +135,22 @@ end
 function HasNoMainHand(entity)
   entity = entity or context.Source
   result = ~WieldingWeapon('Melee', false, false, entity)
-  return ConditionResult(result.Result, {ConditionError("HasWeaponInMainHand")}, {ConditionError("HasNotWeaponInMainHand")})
+  return ConditionResult(result.Result, { ConditionError("HasWeaponInMainHand") },
+    { ConditionError("HasNotWeaponInMainHand") })
 end
 
 function HasNoOffHand(entity)
   entity = entity or context.Source
-  result = ~WieldingWeapon('Melee', true, false, entity) & ~HasShieldEquipped(entity) & ~(WieldingWeapon('Twohanded', false, false, entity) & WieldingWeapon('Melee', false, false, entity))
-  return ConditionResult(result.Result, {ConditionError("HasWeaponInOffHand")}, {ConditionError("HasNotWeaponInOffHand")})
+  result = ~WieldingWeapon('Melee', true, false, entity) & ~HasShieldEquipped(entity) &
+      ~(WieldingWeapon('Twohanded', false, false, entity) & WieldingWeapon('Melee', false, false, entity))
+  return ConditionResult(result.Result, { ConditionError("HasWeaponInOffHand") },
+    { ConditionError("HasNotWeaponInOffHand") })
 end
 
 function IEC(passive)
-  return ~IsWeaponAttack() & ~IsUnarmedAttack() & (HasUseCosts('KiPoint') | SpellId('Projectile_RayOfFrost_Monk') | SpellId('Target_ShockingGrasp_Monk')) & HasPassive(passive, context.Source)
+  return ~IsWeaponAttack() & ~IsUnarmedAttack() &
+      (HasUseCosts('KiPoint') | SpellId('Projectile_RayOfFrost_Monk') | SpellId('Target_ShockingGrasp_Monk')) &
+      HasPassive(passive, context.Source)
 end
 
 function BM(passive)
@@ -145,7 +158,8 @@ function BM(passive)
 end
 
 function IsUnarmedWildshape()
-  return (HasStatus('SG_Polymorph_BeastShape',context.Source) | HasStatus('SLAYER_PLAYER',context.Source) | HasStatus('SLAYER_PLAYER_10',context.Source)) & ~(Tagged('MYRMIDON_AIR',context.Source) | Tagged('MYRMIDON_FIRE',context.Source) | Tagged('MYRMIDON_WATER',context.Source))
+  return (HasStatus('SG_Polymorph_BeastShape', context.Source) | HasStatus('SLAYER_PLAYER', context.Source) | HasStatus('SLAYER_PLAYER_10', context.Source)) &
+      ~(Tagged('MYRMIDON_AIR', context.Source) | Tagged('MYRMIDON_FIRE', context.Source) | Tagged('MYRMIDON_WATER', context.Source))
 end
 
 function DivinePurposeSpellCheck()
@@ -154,15 +168,24 @@ end
 
 function IsSmiteSpells()
   return
-  SpellId('Target_Smite_Branding_ZarielTiefling') | SpellId('Projectile_Smite_Branding') | SpellId('Projectile_Smite_Branding_3') | SpellId('Target_Smite_Branding') | SpellId('Target_Smite_Branding_3') | SpellId('Target_Smite_Branding_4') | SpellId('Target_Smite_Branding_5') | SpellId('Target_Smite_Branding_6')
-  | SpellId('Target_Smite_Searing_ZarielTiefling') | SpellId('Target_FOR_Smite_Searing_DeathOfATrueSoul') | SpellId('Target_UND_Smite_Searing_DuergarBlacksmithHammer') | SpellId('Target_Smite_Searing') | SpellId('Target_Smite_Searing_2') | SpellId('Target_Smite_Searing_3') | SpellId('Target_Smite_Searing_4') | SpellId('Target_Smite_Searing_5') | SpellId('Target_Smite_Searing_6')
-  | SpellId('Projectile_Smite_Banishing') | SpellId('Projectile_Smite_Banishing_4') | SpellId('Projectile_Smite_Banishing_5') | SpellId('Projectile_Smite_Banishing_6') | SpellId('Target_Smite_Banishing')
-  | SpellId('Target_Smite_Blinding')
-  | SpellId('Target_Smite_Divine') | SpellId('Target_Smite_Divine_2') | SpellId('Target_Smite_Divine_3') | SpellId('Target_Smite_Divine_4') | SpellId('Target_Smite_Divine_5') | SpellId('Target_Smite_Divine_6')
-  | SpellId('Target_Smite_Thunderous') | SpellId('Target_Smite_Thunderous_2') | SpellId('Target_Smite_Thunderous_3') | SpellId('Target_Smite_Thunderous_4') | SpellId('Target_Smite_Thunderous_5') | SpellId('Target_Smite_Thunderous_6') | SpellId('Target_MAG_ThunderousSmite')
-  | SpellId('Target_Smite_Wrathful') | SpellId('Target_Smite_Wrathful_2') | SpellId('Target_Smite_Wrathful_3') | SpellId('Target_Smite_Wrathful_4') | SpellId('Target_Smite_Wrathful_5') | SpellId('Target_Smite_Wrathful_6') | SpellId('Target_MAG_Smite_Wrathful')
-  | SpellId('Target_StaggeringSmite')
-  | SpellId('Target_Smite_Eldritch') | SpellId('Target_Smite_Eldritch_2') | SpellId('Target_Smite_Eldritch_3') | SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Target_Smite_Eldritch_6')
+      SpellId('Target_Smite_Branding_ZarielTiefling') | SpellId('Projectile_Smite_Branding') |
+      SpellId('Projectile_Smite_Branding_3') | SpellId('Target_Smite_Branding') | SpellId('Target_Smite_Branding_3') |
+      SpellId('Target_Smite_Branding_4') | SpellId('Target_Smite_Branding_5') | SpellId('Target_Smite_Branding_6') |
+      SpellId('Target_Smite_Searing_ZarielTiefling') | SpellId('Target_FOR_Smite_Searing_DeathOfATrueSoul') |
+      SpellId('Target_UND_Smite_Searing_DuergarBlacksmithHammer') | SpellId('Target_Smite_Searing') |
+      SpellId('Target_Smite_Searing_2') | SpellId('Target_Smite_Searing_3') | SpellId('Target_Smite_Searing_4') |
+      SpellId('Target_Smite_Searing_5') | SpellId('Target_Smite_Searing_6') |SpellId('Projectile_Smite_Banishing') |
+      SpellId('Projectile_Smite_Banishing_4') | SpellId('Projectile_Smite_Banishing_5') |
+      SpellId('Projectile_Smite_Banishing_6') | SpellId('Target_Smite_Banishing')| SpellId('Target_Smite_Blinding') |
+      SpellId('Target_Smite_Divine') | SpellId('Target_Smite_Divine_2') | SpellId('Target_Smite_Divine_3') |
+      SpellId('Target_Smite_Divine_4') | SpellId('Target_Smite_Divine_5') | SpellId('Target_Smite_Divine_6')  |
+      SpellId('Target_Smite_Thunderous') | SpellId('Target_Smite_Thunderous_2') | SpellId('Target_Smite_Thunderous_3') |
+      SpellId('Target_Smite_Thunderous_4') | SpellId('Target_Smite_Thunderous_5') | SpellId('Target_Smite_Thunderous_6') |
+      SpellId('Target_MAG_ThunderousSmite')   | SpellId('Target_Smite_Wrathful') | SpellId('Target_Smite_Wrathful_2') |
+      SpellId('Target_Smite_Wrathful_3') | SpellId('Target_Smite_Wrathful_4') | SpellId('Target_Smite_Wrathful_5') |
+      SpellId('Target_Smite_Wrathful_6') | SpellId('Target_MAG_Smite_Wrathful') | SpellId('Target_StaggeringSmite')   |
+      SpellId('Target_Smite_Eldritch') | SpellId('Target_Smite_Eldritch_2') | SpellId('Target_Smite_Eldritch_3') |
+      SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Target_Smite_Eldritch_6')
 end
 
 function KillingMachineSpellCheck()
@@ -172,15 +195,27 @@ end
 function DeathGripCheck()
   local result = Dead() | Item() | Ally()
   if not result.Result then
-      local st = ~SavingThrow(Ability.Strength, context.Source.Strength)
-      return ConditionResult(st.Result, {}, {}, st.Chance)
+    local st = ~SavingThrow(Ability.Strength, context.Source.Strength)
+    return ConditionResult(st.Result, {}, {}, st.Chance)
   end
 
   return result
 end
 
 function DistanceToTargetLessOrEqual(value)
-    local errorTrue = {ConditionError("DistanceGreaterOrEqualThan_False", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
-    local errorFalse = {ConditionError("DistanceGreaterOrEqualThan_True", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
-    return ConditionResult(DistanceToTarget() <= value, errorFalse, errorTrue)
+  local errorTrue = { ConditionError("DistanceGreaterOrEqualThan_False",
+    { ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance) }) }
+  local errorFalse = { ConditionError("DistanceGreaterOrEqualThan_True",
+    { ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance) }) }
+  return ConditionResult(DistanceToTarget() <= value, errorFalse, errorTrue)
+end
+
+function HasRuneWeapon()
+  local entity = entity or context.Source
+  local weaponEntity = GetActiveWeapon(entity, true)
+  if weaponEntity.IsValid then
+    local result = Character(entity) & (HasAnyStatus({'RUNE_RAZORICE','RUNE_FALLEN_CRUSADER','RUNE_STONESKIN_GARGOYLE'}, {}, {}, weaponEntity))
+    return ConditionResult(result.Result, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
+  end
+  return ConditionResult(false, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
 end

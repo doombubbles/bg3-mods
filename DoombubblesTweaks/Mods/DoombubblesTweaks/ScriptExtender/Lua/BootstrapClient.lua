@@ -3,6 +3,7 @@ local function on_reset_completed()
     local hotreload = Ext.IO.LoadFile(root .. "/__HotReload.txt", "data")
 
     if hotreload == nil then
+        ---@diagnostic disable-next-line: undefined-field
         Ext.Stats.LoadStatsFile(root .. "/__Data.txt", 1)
         return
     end

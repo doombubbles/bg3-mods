@@ -3,7 +3,7 @@ type "PassiveData"
 using "EmpowerRuneWeapon"
 data "Icon" "PassiveFeature_DeathKnight_EmpowerRuneWeapon_Unholy"
 data "DescriptionParams" "DealDamage(1d8,Necrotic)"
-data "Boosts" "IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Necrotic)"
+data "Boosts" "IF(IsMeleeAttack() and HasRuneWeapon()):CharacterWeaponDamage(1d8,Necrotic)"
 
 new entry "Target_DeathCoil"
 type "SpellData"

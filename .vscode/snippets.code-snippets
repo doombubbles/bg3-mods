@@ -135,4 +135,24 @@
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"Concentration\"&gt;concentration&lt;/LSTag&gt;"
 	},
+	"hitpoints": {
+		"prefix": ["hp", "hitpoints"],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"HitPoints\"&gt;hit points&lt;/LSTag&gt;"
+	},
+	"disadvantage": {
+		"prefix": "disadvantage",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Disadvantage\"&gt;Disadvantage&lt;/LSTag&gt;"
+	},
+	"advantage": {
+		"prefix": "advantage",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Advantage\"&gt;Advantage&lt;/LSTag&gt;"
+	},
+	"attackroll": {
+		"prefix": "attackroll",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"AttackRoll\"&gt;Attack Roll$1&lt;/LSTag&gt;$0"
+	}
 }

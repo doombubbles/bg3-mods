@@ -2881,8 +2881,8 @@ Osi = {}
 --- @class NoesisBaseObject
 --- @field Type Noesis::Symbol
 --- @field GetAllProperties fun(self:NoesisBaseObject, a1:NoesisBaseObject)
---- @field GetProperty fun(self:NoesisBaseObject, a1:NoesisBaseObject, a2:Noesis::Symbol)
---- @field SetProperty fun(self:NoesisBaseObject, a1:NoesisBaseObject, a2:Noesis::Symbol, a3:AnyRef)
+--- @field GetProperty fun(self:NoesisBaseObject, a1:NoesisBaseObject, a2:Noesis.Symbol)
+--- @field SetProperty fun(self:NoesisBaseObject, a1:NoesisBaseObject, a2:Noesis.Symbol, a3:AnyRef)
 --- @field ToString fun(self:NoesisBaseObject, a1:NoesisBaseObject):string
 --- @field TypeInfo fun(self:NoesisBaseObject, a1:NoesisBaseObject):NoesisTypeClass
 

@@ -338,42 +338,42 @@
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_DeathKnight_BloodBoil"/>
           <attribute id="U1" type="float" value="0.40625"/>
           <attribute id="U2" type="float" value="0.4375"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Status_DeathKnight_FrostFever"/>
           <attribute id="U1" type="float" value="0.4375"/>
           <attribute id="U2" type="float" value="0.46875"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Status_DeathKnight_BloodPlague"/>
           <attribute id="U1" type="float" value="0.46875"/>
           <attribute id="U2" type="float" value="0.5"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Status_DeathKnight_VirulentPlague"/>
           <attribute id="U1" type="float" value="0.5"/>
           <attribute id="U2" type="float" value="0.53125"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_DeathKnight_Marrowrend"/>
           <attribute id="U1" type="float" value="0.53125"/>
           <attribute id="U2" type="float" value="0.5625"/>
           <attribute id="V1" type="float" value="0.03125"/>
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Status_DeathKnight_BoneShield"/>
           <attribute id="U1" type="float" value="0.5625"/>
           <attribute id="U2" type="float" value="0.59375"/>
           <attribute id="V1" type="float" value="0.03125"/>

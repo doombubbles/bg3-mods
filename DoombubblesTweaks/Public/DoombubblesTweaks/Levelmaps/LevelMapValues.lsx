@@ -95,6 +95,26 @@
           <attribute id="PreferredClassUUID" type="guid" value="1b770a0d-f689-4fa9-bcca-62e472a44f24"/>
           <attribute id="UUID" type="guid" value="5e35da49-c080-474d-b6aa-3fef45d7008c"/>
         </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="4"/>
+          <attribute id="Level1" type="LSString" value="4"/>
+          <attribute id="Level4" type="LSString" value="6"/>
+          <attribute id="Level7" type="LSString" value="8"/>
+          <attribute id="Level10" type="LSString" value="10"/>
+          <attribute id="Name" type="FixedString" value="RuneDieTotal"/>
+          <attribute id="PreferredClassUUID" type="guid" value="1b770a0d-f689-4fa9-bcca-62e472a44f24"/>
+          <attribute id="UUID" type="guid" value="44c85024-1a1d-4ddc-9d16-5a06c433d74b"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="8"/>
+          <attribute id="Level1" type="LSString" value="8"/>
+          <attribute id="Level4" type="LSString" value="12"/>
+          <attribute id="Level7" type="LSString" value="16"/>
+          <attribute id="Level10" type="LSString" value="20"/>
+          <attribute id="Name" type="FixedString" value="2RuneDieTotal"/>
+          <attribute id="PreferredClassUUID" type="guid" value="1b770a0d-f689-4fa9-bcca-62e472a44f24"/>
+          <attribute id="UUID" type="guid" value="1397c6e0-5b1b-433a-a175-56b1f2276974"/>
+        </node>
       </children>
     </node>
   </region>

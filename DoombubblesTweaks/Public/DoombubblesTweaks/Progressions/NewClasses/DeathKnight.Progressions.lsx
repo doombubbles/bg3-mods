@@ -10,7 +10,7 @@
           <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(BloodRune,1,0);ActionResource(FrostRune,1,0);ActionResource(UnholyRune,1,0)"/>
           <attribute id="Level" type="uint8" value="1"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
-          <attribute id="PassivesAdded" type="LSString" value="Lichborne;RuneCasting"/>
+          <attribute id="PassivesAdded" type="LSString" value="Lichborne;RuneCasting;RuneCasting_Technical"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value="SelectSkills(d0f1174b-869a-4827-ad33-a79b8455a897,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);AddSpells(709fe78d-55b8-4756-997c-63593cc06fe9,,,,AlwaysPrepared)"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
@@ -22,7 +22,7 @@
           <attribute id="IsMulticlass" type="bool" value="true"/>
           <attribute id="Level" type="uint8" value="1"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
-          <attribute id="PassivesAdded" type="LSString" value="RuneCasting"/>
+          <attribute id="PassivesAdded" type="LSString" value="RuneCasting;RuneCasting_Technical"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value="AddSpells(709fe78d-55b8-4756-997c-63593cc06fe9,,,,AlwaysPrepared)"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
@@ -264,6 +264,7 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="6"/>
           <attribute id="Name" type="LSString" value="BloodDK"/>
+          <attribute id="PassivesAdded" type="LSString" value="DarkSuccor" />
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="Selectors" type="LSString" value="SelectPassives(fe5dde46-2353-4f35-a008-432edbfe4aac,1,RunicEmpowerments)"/>
           <attribute id="TableUUID" type="guid" value="94b66ea2-0ade-44d2-9334-67a7c39f1e45"/>

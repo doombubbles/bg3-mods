@@ -131,12 +131,28 @@
   <content contentuid="hdf823ca8g47feg4126g96d4gb5c0d30fc627" version="1">A deadly strike that deals an extra [1] and heals you for [2], or twice as much on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
   <content contentuid="hbd2e555bg2debg4984gad36gd7f6b740379e" version="1">Death Pact</content>
-  <content contentuid="h4d2235dagb94ag44b9gabf8g3224be6a4ab2" version="1">Destroy a summoned Undead ally to recover a third of your hit points.</content>
+  <content contentuid="h4d2235dagb94ag44b9gabf8g3224be6a4ab2" version="1">Destroy a summoned Undead ally to recover a third of your &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
   <content contentuid="h0d509ae8ge8bbg4928g8f92gedfc3377da69" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt; to destroy an summoned Undead ally to recover a third of your hit points.</content>
 
   <content contentuid="he41dc631geae6g4e7dg91f8gec8a206649e0" version="1">Heart Strike</content>
   <content contentuid="h242d09f1gf2a0g4466ga270g83af0d3a9545" version="1">Strike the target with a bonus [1]. If you're within &lt;LSTag Type="Spell" Tooltip="Target_DeathAndDecay"&gt;Death and Decay&lt;/LSTag&gt;, also deal [2] to all enemies within [3].</content>
   <content contentuid="h7dda772bgba08g4c80g9325g19b0ca061cf2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_HeartStrike"&gt;Heart Strike&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hdf2b093cg7179g481dgb3fdg6e79014a0b55" version="1">Blood Boil</content>
+  <content contentuid="hf05664efgfe07g4b87ga5e3g64edfc6c1beb" version="1">Damage nearby enemies and inflict them with &lt;LSTag Type="Status" Tooltip="BLOOD_PLAGUE"&gt;Blood Plague&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h03045c4fg634ag4efegb96dgb349686d32d6" version="1">Blood Plague</content>
+  <content contentuid="ha1224b6cg481eg420bgaa13g359e598f75fa" version="1">Taking [1] per turn. Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against targets other than the Death Knight.</content>
+
+  <content contentuid="h9e672809g60fbg44f1g9af7gb59fe45d7335" version="1">Marrowrend</content>
+  <content contentuid="hc857ea31gb601g4319ga792gedd0bfa96c02" version="1">Smash the target, dealing an extra [1] and gaining [2] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h1b95919dgf496g4421g8c47g3a44407a5e63" version="1">Bone Shield</content>
+
+  <content contentuid="h6a39ebd1ge80bg4316g8206g60cf48b0e550" version="1">Dark Succor</content>
+  <content contentuid="h1ed81167g8940g4984gbd3dg072b9f71e0c0" version="1">Whenever you kill an enemy, your next &lt;LSTag Type="Spell" Tooltip="Target_DeathStrike"&gt;Death Strike&lt;/LSTag&gt; does not consume a &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt;.</content>
+
+
 
   <content contentuid="hfbb5e405g6ba3g406ag9a7fgebd43f49c552" version="1">Unholy</content>
   <content contentuid="hbeb5ac97g8faeg4e7egbe96g79bb2b48cf70" version="1">You are a master of death and decay, spreading infection and controlling undead minions to do your bidding.</content>
@@ -164,19 +180,31 @@
   <content contentuid="hb982502cge3dfg4f79g87fdg189400906504" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to draw a target witiin [1] toward a position of your choice within [2] of you.</content>
 
   <content contentuid="he3f5eb23ga1dcg46efg8410g0326e2f5611b" version="1">Death and Decay</content>
-  <content contentuid="hd707f45cgbf9dg4a99g90a1g23c832c71626" version="1">Corrupts the targeted ground for [1] turns; it damages enemies only for [1] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
+  <content contentuid="hd707f45cgbf9dg4a99g90a1g23c832c71626" version="1">Corrupts the targeted ground for [1] turns; it damages enemies for [2] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
   <content contentuid="hb2c5db8fgf705g4825g9664ga4346a119e45" version="1">Corrupted ground that damages enemies only for [1] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
+  <content contentuid="h72c8cbb4g7ecfg484egb835ge127d721fde4" version="1">Shift your corrupted ground. It deals [2] per turn and causes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="hf1e437adgc1f8g422bgbcccg6bd1cf63289b" version="1">You can recast this spell using a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
   <content contentuid="h3a66ccf5gd17dg4458g85abg3e9522f2c1be" version="1">Taking [1] each turn.</content>
   <content contentuid="hf50a4f14g3158g4a13ga033g74161962ff5b" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to corrupt the ground, damaging enemies for [1] per turn and making the area &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 
   <content contentuid="hccd8c386ge25dg488eg99degcffe5c784813" version="1">Death's Advance</content>
   <content contentuid="h18aed6bag014dg4573g83c0g23fc5be8a61b" version="1">Double your movement speed. Your movement speed can't be reduced by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, spells, or magical effects. You can't be moved against your will.</content>
-  <content contentuid="hea1679bcgf77bg4fb3gb826g51a1562feb93" version="1">Your movement speed can't be reduced by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, spells, or magical effects. You can't be moved against your will</content>
+  <content contentuid="hea1679bcgf77bg4fb3gb826g51a1562feb93" version="1">Your movement speed can't be reduced by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, spells, or magical effects. You can't be moved against your will.</content>
   <content contentuid="h5339e642g06efg4098g9822g22f7beb99207" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to double your movement speed and become immune to movement impairing effects.</content>
 
   <content contentuid="ha0369d40gd801g40c9g8c18g7e9387e5a3cb" version="1">Anti-Magic Zone</content>
   <content contentuid="h95b2897ag4a39g48cfgb08agcb66b6c47b16" version="1">Create a barrier that makes creatures inside &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Magic damage.</content>
   <content contentuid="h8f7394a4gc568g4dd7gb950g3b3be9404479" version="1">You can spend 2 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Runes to create a barrier that makes creatures inside &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Magic damage.</content>
+
+  <content contentuid="hb9d194b9g70c0g4316gbbadgdcc3c89b9592" version="1">Targets still take half damage and lower status duration.</content>
+
+  <content contentuid="h1bbd9e63gb94ag488aga938g528f1d96541b" version="1">Can't have Rune Weapon</content>
+  <content contentuid="hacbf3bfdg93adg4bfcgb233g491602dabded" version="1">Must have Rune Weapon</content>
+
+  <content contentuid="hcf6824a7g0f3eg4ed2g82fcgcd5d9f0a78c8" version="1">Blood or Frost Rune</content>
+  <content contentuid="h082fc229g23d6g4ec4gaf27g4f15cf069986" version="1">Blood or Unholy Rune</content>
+  <content contentuid="h2518392fg4a53g4542ga57bg8fde373665d7" version="1">Frost or Unhole Rune</content>
+  <content contentuid="h4cf32a31g432cg4915gac66g08bf1b526434" version="1">Any Rune</content>
 
   <content contentuid="hb2c30a75g3fb5g4642g92c3gd83694b7b82d" version="1">Ebon Mail</content>
   <content contentuid="h63b06204g8bcfg4bf0gb411g22bfcbd40078" version="1">Death Knight Chain Mail Description</content>
