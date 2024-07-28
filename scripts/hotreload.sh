@@ -1,3 +1,5 @@
+set -e
+
 MODNAME=$(basename "$(pwd)")
 DATA_DIR="output/$MODNAME/Public/$MODNAME/Stats/Generated/Data"
 FILE=$(basename "$1")

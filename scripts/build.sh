@@ -1,3 +1,5 @@
+set -e
+
 VERSION="1.0.0.$(($(git rev-list --count HEAD) + 1))"
 MODNAME=$(basename "$(pwd)")
 BUILD="./build/$MODNAME"

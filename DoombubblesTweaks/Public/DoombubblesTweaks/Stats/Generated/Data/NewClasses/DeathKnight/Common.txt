@@ -10,36 +10,6 @@ data "StatusType" "BOOST"
 using "SPIRIT_GUARDIANS_NECROTIC_AURA"
 data "Icon" "Spell_Conjuration_SpiritGuardians_Necrotic"
 
-new entry "Shout_SpiritGuardians_DK"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_SpiritGuardians_Necrotic"
-data "SpellContainerID" ""
-
-{{ range $lvl := list 4 5 6 }}
-new entry "Shout_SpiritGuardians_DK_{{$lvl}}"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_SpiritGuardians_Necrotic_{{$lvl}}"
-data "SpellContainerID" ""
-data "RootSpellID" "Shout_SpiritGuardians_DK"
-{{ end }}
-
-new entry "Shout_FireShield_DK"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_FireShield_Chill"
-data "SpellContainerID" ""
-
-{{ range $lvl := list 4 5 6 }}
-new entry "Shout_FireShield_DK_{{$lvl}}"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_FireShield_Chill_{{$lvl}}"
-data "SpellContainerID" ""
-data "RootSpellID" "Shout_FireShield_DK"
-{{ end }}
-
 new entry "RuneCasting"
 type "PassiveData"
 data "DisplayName" "ha0bc63c4g7f19g4cd2gbfe2g5ac7a3c167a1"
@@ -49,22 +19,18 @@ data "StatsFunctorContext" "OnStatusApplied"
 data "Conditions" "StatusId('ALCH_POTION_REST_SLEEP_LESSER_RESTORATION') or StatusId('ALCH_POTION_REST_SLEEP_GREATER_RESTORATION')"
 data "StatsFunctors" "RestoreResource(FrostRune,100%,0);RestoreResource(BloodRune,100%,0);RestoreResource(UnholyRune,100%,0);"
 
-
-new entry "RuneCasting_Technical"
+{{ range $lvl := list 1 2 3 4 5 6 }}
+new entry "UnlockedRuneLevel{{$lvl}}"
 type "PassiveData"
 data "DisplayName" "ha0bc63c4g7f19g4cd2gbfe2g5ac7a3c167a1"
-data "Description" "h257de8efg1862g487dgbfd3gd6d00997e5d2"
 data "Properties" "IsHidden"
 data "BoostContext" "OnCreate;OnCast;OnStatusApplied;OnStatusRemoved;OnShortRest;OnLongRest"
-data "Boosts" "
-{{- range $i := list 1 2 -}}
-{{- range $comboRune, $runes := $.Common.RuneCombos -}}
+data "Boosts" "{{- range $comboRune, $runes := $.DK.RuneCombos -}}
 IF({{- range $j, $rune := $runes -}}
-{{if not (eq $j 0) }} or {{end}}HasActionResource('{{$rune}}',{{$i}},0,false,false,context.Source)
+{{if not (eq $j 0) }} or {{end}}HasActionResource('{{$rune}}',{{$lvl}},0,false,false,context.Source)
 {{- end -}}):ActionResource({{$comboRune}},1,0);
-{{- end -}}
-{{- end -}}
-"
+{{- end -}}"
+{{ end }}
 
 new entry "Lichborne"
 type "PassiveData"

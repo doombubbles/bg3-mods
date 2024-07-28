@@ -38,6 +38,9 @@
   <content contentuid="ha0bc63c4g7f19g4cd2gbfe2g5ac7a3c167a1" version="1">Rune Casting</content>
   <content contentuid="h257de8efg1862g487dgbfd3gd6d00997e5d2" version="1">Your Runes refresh on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
+  <content contentuid="h481777b6gfe47g4f29g8a4ag455a8c8af8dc" version="1">Rune Spells</content>
+  <content contentuid="h0c89d5f3gf50fg4d81gb0eeg6fb383202b5f" version="1">Choose the spells you know from the list below. Spells require &lt;LSTag Type="ActionResource" Tooltip="AnyRune"&gt;Runes&lt;/LSTag&gt; to cast to cast, unless a feature states otherwise.</content>
+
   <content contentuid="h1e0c9759gd53dg43fbg9f9agd2e3b09a23d0" version="1">Rune Tap</content>
   <content contentuid="hd1e4ba78g33deg446cg9262g11118d6283cd" version="1">Convert 2 of one Rune into 1 of another Rune.</content>
   <content contentuid="h7aeca00egfde6g497dgb321g8886905bf704" version="1">Rune Tap: Blood</content>
@@ -104,15 +107,6 @@
   <content contentuid="h0f8e4965g532cg4ef9g80beg1621de630a7d" version="1">You are immune to the effects of ice surfaces.</content>
   <content contentuid="hf31f843fg365ag4ffegb130gd2d868478ff2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to make yourself or an ally immune to the effects of Ice Surfaces.</content>
 
-  <content contentuid="hdde9350dge102g4b82g89abg962fde1b3e10" version="1">Avalanche</content>
-  <content contentuid="h66bd65a6gb107g4752gb0edg55517f2a2680" version="1">You can spend 4 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_IceStorm"&gt;Ice Storm&lt;/LSTag&gt;.</content>
-  <content contentuid="h55b1a1b9ged72g4d4aga648g6897efc18e7e" version="1">Breath of Sindragosa</content>
-  <content contentuid="h1f1e4a82gf8bcg4958gac40g2e7fa75c3a17" version="1">You can spend 5 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Zone_ConeOfCold"&gt;Cone of Cold&lt;/LSTag&gt;.</content>
-  <content contentuid="h342a1142g34ddg4a38gacb6ge9794bb223af" version="1">Glacial Advance</content>
-  <content contentuid="hc43dde97ga3ccg4d4bgb82bg4a60daedb008" version="1">You can spend 6 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Wall_WallOfIce"&gt;Wall of Ice&lt;/LSTag&gt;.</content>
-  <content contentuid="h0d57aca7gd7e7g4c6agabb9gfbb25c826e6d" version="1">Cold Heart</content>
-  <content contentuid="h211ad193g3a58g42e4g89f2g99dbe8f39ef4" version="1">You can spend 6 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Runes&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_FreezingSphere"&gt;Otiluke's Freezing Sphere&lt;/LSTag&gt;.</content>
-
   <content contentuid="h3a2c82fdge584g4931gbddfg64b7452c74ec" version="1">Mind Freeze</content>
   <content contentuid="h43a22f0cgca41g4484g9885g6f8214b189ba" version="1">Break a target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and possibly preventing them from casting spells.</content>
   <content contentuid="h8fab1155ga840g49d4gb007g04f062c077a5" version="1">Can't speak or cast spells with a verbal component.</content>
@@ -130,7 +124,7 @@
   <content contentuid="h7c0e1687g2c9cg4837gaac3g9c68bffb4b49" version="1">Death Strike</content>
   <content contentuid="hdf823ca8g47feg4126g96d4gb5c0d30fc627" version="1">A deadly strike that deals an extra [1] and heals you for [2], or twice as much on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
-  <content contentuid="hbd2e555bg2debg4984gad36gd7f6b740379e" version="1">Death Pact</content>
+  <content contentuid="hbd2e555bg2debg4984gad36gd7f6b740379e" version="1">Sacrificial Pact</content>
   <content contentuid="h4d2235dagb94ag44b9gabf8g3224be6a4ab2" version="1">Destroy a summoned Undead ally to recover a third of your &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
   <content contentuid="h0d509ae8ge8bbg4928g8f92gedfc3377da69" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt; to destroy an summoned Undead ally to recover a third of your hit points.</content>
 
@@ -171,7 +165,6 @@
   <content contentuid="h6ee96dceg1b67g42c1g8617gfab0cbe5bfeb" version="1">You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing or Slashing.</content>
   <content contentuid="hf6d5913eg7bc5g4dd8gb7d1g50dabbad05ea" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy Rune&lt;/LSTag&gt; to &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing or Slashing.</content>
 
-  <content contentuid="h5dca01e1g0854g4d68g8c01gc73ddbd658be" version="1">Raise Ally</content>
   <content contentuid="hd12e3b63gdbd6g46c5g9542gf63f793a427e" version="1">You can spend 2 &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy Runes&lt;/LSTag&gt; to restore a companion to life with 1 HP.</content>
 
   <content contentuid="h2f62cf77g1e2bg4d0fg9674g5caedd1b091e" version="1">Death Grip</content>
@@ -217,5 +210,22 @@
 
   <content contentuid="hd23a3240g5445g4f23g923fg16b6cb121258" version="1">Rune Blade</content>
   <content contentuid="h50dd2759g6362g40f4g8d76gb7f5d8e362c0" version="1">Rune Blade Description</content>
+
+  <content contentuid="hd4f2619eg171cg4974g9a97g55f1a81c1037" version="1">Armor of Arthas</content>
+  <content contentuid="h451b0a04gfad2g4f4bg9b22g6e8ebf930f91" version="1">Abomination Limb</content>
+  <content contentuid="hd5cf015eg1f0fg4be7gb7a0g11fcfa8ade2f" version="1">Myrkul</content>
+  <content contentuid="h41e55817g6c6eg4ffega88bg0e569d75e402" version="1">Evenly Matched</content>
+  <content contentuid="h7ab121c7g99f7g465ag8c08g48de963955b3" version="1">Dark Comand</content>
+  {{- range $command, $handle := $.DK.Commands}}
+  <content contentuid="{{$handle}}" version="1">Dark Command: {{$command}}</content>
+  {{- end}}
+  <content contentuid="h08193fe8gbf9dg48d4gac40g9b81c8571b0e" version="1">Gloom Ward</content>
+
+  <content contentuid="h5dca01e1g0854g4d68g8c01gc73ddbd658be" version="1">Raise Ally</content>
+
+  <content contentuid="hdde9350dge102g4b82g89abg962fde1b3e10" version="1">Avalanche</content>
+  <content contentuid="h55b1a1b9ged72g4d4aga648g6897efc18e7e" version="1">Breath of Sindragosa</content>
+  <content contentuid="h342a1142g34ddg4a38gacb6ge9794bb223af" version="1">Glacial Advance</content>
+
 
 </contentList>

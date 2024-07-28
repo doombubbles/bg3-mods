@@ -1,0 +1,68 @@
+Runes: ["Blood", "Frost", "Unholy"]
+RuneCombos:
+  BloodOrFrostRune: ["BloodRune", "FrostRune"]
+  BloodOrUnholyRune: ["BloodRune", "UnholyRune"]
+  FrostOrUnholyRune: ["FrostRune", "UnholyRune"]
+  AnyRune: ["BloodRune", "FrostRune", "UnholyRune"]
+RuneDieMap:
+  4:
+    Low: 1
+    High: 3
+  6:
+    Low: 4
+    High: 6
+  8:
+    Low: 7
+    High: 9
+  10:
+    Low: 10
+    High: 12
+  12:
+    Low: 13
+    High: 20
+Commands:
+  Approach: ha9c9f67eg8646g4745g96c9gdeec52ba2318
+  Drop: h2f2022a9gfcd3g4550gb304g0f51f0cef28c
+  Flee: hd40fe859gd817g4320ga623g71640ea427ed
+  Grovel: hb9d6f99ag5baeg4577g9543g7b81a9660684
+  Halt: h2a126cc0gf3abg4035gb717gb99be82c5fbf
+Spells:
+  "1":
+    Frost:
+      - Shout_ArmorOfAgathys_DK
+      - Target_ChainsOfIce
+      - Target_MindFreeze
+      - Target_PathOfFrost
+    Blood:
+      - Shout_FalseLife_DK
+      - Target_Command_DK
+      - Target_CompelledDuel_DK
+    Unholy:
+      - Shout_ArmsOfHadar_DK
+      - Shout_AntiMagicShell
+    Death:
+      - Target_Bane_DK
+      - Target_DeathAndDecay
+      - Shout_DeathsAdvance
+  "2":
+    Death:
+      - Throw_DeathGrip
+      - Target_SacrificialPact
+  "3":
+    Frost:
+      - Zone_Frostscythe
+    Unholy:
+      - Shout_SpiritGuardians_DK
+      - Teleportation_RaiseAlly
+  "4":
+    Frost:
+      - Target_IceStorm_DK
+    Death:
+      - Target_AntiMagicZone
+      - Teleportation_RaiseAlly
+  "5":
+    Frost:
+      - Zone_ConeOfCold_DK
+  "6":
+    Frost:
+      - Wall_WallOfIce_DK

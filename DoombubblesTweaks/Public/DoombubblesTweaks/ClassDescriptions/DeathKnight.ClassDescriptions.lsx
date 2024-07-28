@@ -15,8 +15,6 @@
           <attribute id="HasGod" type="bool" value="false"/>
           <attribute id="HpPerLevel" type="int32" value="6"/>
           <attribute id="LearningStrategy" type="uint8" value="1"/>
-          <attribute id="MulticlassSpellcasterModifier" type="double" value="0.5"/>
-          <attribute id="MustPrepareSpells" type="bool" value="true"/>
           <attribute id="Name" type="FixedString" value="DeathKnight"/>
           <attribute id="PrimaryAbility" type="uint8" value="1"/>
           <attribute id="ProgressionTableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>

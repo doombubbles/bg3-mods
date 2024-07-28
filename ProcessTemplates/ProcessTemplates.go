@@ -73,6 +73,7 @@ func main() {
 	})
 	if err != nil {
 		log.Fatalf("error walking the path: %v", err)
+		os.Exit(1)
 	}
 }
 

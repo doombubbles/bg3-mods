@@ -100,43 +100,66 @@
 		"body": "&lt;LSTag Tooltip=\"ArmorClass\"&gt;Armour Class&lt;/LSTag&gt;$0"
 	},
 	"difficultyclass": {
-		"prefix": ["dc", "difficultyclass"],
+		"prefix": [
+			"dc",
+			"difficultyclass"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"DifficultyClass\"&gt; DC&lt;/LSTag&gt;"
 	},
 	"spelldifficultyclass": {
-		"prefix": ["spelldifficultyclass", "spellsave", "spelldc"],
+		"prefix": [
+			"spelldifficultyclass",
+			"spellsave",
+			"spelldc"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"SpellDifficultyClass\"&gt;Spell Save DC&lt;/LSTag&gt;"
 	},
 	"abilityscore": {
-		"prefix": ["abilityscore", "abilities"],
+		"prefix": [
+			"abilityscore",
+			"abilities"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"Abilities\"&gt;Ability Score&lt;/LSTag&gt;"
 	},
 	"temporaryhitpoints": {
-		"prefix": ["temphp", "temporaryhp", "temporaryhitpoints", "temphitpoints"],
+		"prefix": [
+			"temphp",
+			"temporaryhp",
+			"temporaryhitpoints",
+			"temphitpoints"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"TemporaryHitPoints\"&gt;temporary hit points&lt;/LSTag&gt;"
 	},
-	
 	"resistance": {
-		"prefix": ["resistance"],
+		"prefix": [
+			"resistance"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"Resistant\"&gt;Resistance&lt;/LSTag&gt;"
 	},
 	"resistant": {
-		"prefix": ["resistant"],
+		"prefix": [
+			"resistant"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"Resistant\"&gt;Resistant&lt;/LSTag&gt;"
 	},
 	"concentration": {
-		"prefix": ["concentration"],
+		"prefix": [
+			"concentration"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"Concentration\"&gt;concentration&lt;/LSTag&gt;"
 	},
 	"hitpoints": {
-		"prefix": ["hp", "hitpoints"],
+		"prefix": [
+			"hp",
+			"hitpoints"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"HitPoints\"&gt;hit points&lt;/LSTag&gt;"
 	},
@@ -154,5 +177,10 @@
 		"prefix": "attackroll",
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"AttackRoll\"&gt;Attack Roll$1&lt;/LSTag&gt;$0"
+	},
+	"spelllist": {
+		"prefix": "spelllist",
+		"scope": "xml",
+		"body": "<node id=\"SpellList\">\n  <attribute id=\"Comment\" type=\"LSString\" value=\"$1\"/>\n  <attribute id=\"Spells\" type=\"LSString\" value=\"$0\"/>\n  <attribute id=\"UUID\" type=\"guid\" value=\"$UUID\"/>\n</node>"
 	}
 }
