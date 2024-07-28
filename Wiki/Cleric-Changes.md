@@ -1,5 +1,3 @@
-## Cleric Changes
-
 - Blessed Strikes - Divine Strike can now also be applied when you deal damage with a Cantrip
 <!-- - ~~Harness Divine Power - Spend Channel Divinity to recharge a Spell Slot (up to half of your highest known Spell Slot level rounded up)~~ -->
 

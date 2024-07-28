@@ -1,5 +1,3 @@
-## Feat Changes
-
 **Polearm Master** - Bonus Attack now correctly adds Damage Modifiers like Great Weapon Master
 
 **Charger** - Also increase STR or DEX by 1.

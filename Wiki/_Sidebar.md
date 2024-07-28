@@ -1,58 +1,40 @@
-## DoombubblesTweaks
+### DoombubblesTweaks
 
-### Changes
+#### __Changes__
 
-[[ Item Changes | Item-Changes ]]
+- [[ Item Changes | Item-Changes ]]
+- [[ Spell Changes | Spell-Changes ]]
+  - [[ Downcasting | Downcasting ]]
+  - [[ Upcasting | Upcasting ]]
+- [[ Feat Changes | Feat-Changes ]]
+- [[ Buff Changes | Buff-Changes ]]
+- [[ Other Changes | Other-Changes ]]
 
-[[ Spell Changes | Spell-Changes ]]
+##### Class Changes
 
-- [[ Downcasting | Downcasting ]]
-- [[ Upcasting | Upcasting ]]
+- [[ Barbarian | Barbarian-Changes ]]
+- [[ Bard | Bard-Changes ]]
+- [[ Cleric | Cleric-Changes ]]
+- [[ Fighter | Fighter-Changes ]]
+- [[ Monk | Monk-Changes ]]
+- [[ Paladin | Paladin-Changes]]
+- [[ Rogue | Rogue-Changes ]]
+- [[ Sorcerer | Sorcerer-Changes ]]
+- [[ Warlock | Warlock-Changes ]]
+- [[ Wizard | Wizard-Changes ]]
 
-[[ Feat Changes | Feat-Changes ]]
+#### Additions
 
-[[ Buff Changes | Buff-Changes ]]
+- [[ New Items | New-Items ]] *([[ UUIDs | UUIDs ]])*
+- [[ New Feats | New-Feats ]]
 
-[[ Other Changes | Other-Changes ]]
+##### New Classes
 
-#### Class Changes
+- [[ Witch | Witch ]]
+- [[ Death Knight | DeathKnight ]]
 
-[[ Barbarian | Barbarian-Changes ]]
+##### New Subclasses
 
-[[ Bard | Bard-Changes ]]
-
-[[ Cleric | Cleric-Changes ]]
-
-[[ Figher | Fighter-Changes ]]
-
-[[ Monk | Monk-Changes ]]
-
-[[ Paladin | Paladin-Changes]]
-
-[[ Rogue | Rogue-Changes ]]
-
-[[ Sorcerer | Sorcerer-Changes ]]
-
-[[ Warlock | Warlock-Changes ]]
-
-[[ Wizard | Wizard-Changes ]]
-
-### Additions
-
-**[[New Items|New-Items]]** *([[ UUIDs | UUIDs ]])*
-
-[[ New Feats | New-Feats ]]
-
-#### New Classes
-
-[[ Witch | Witch ]]
-
-[[ Death Knight | DeathKnight ]]
-
-#### New Subclasses
-
-[[ Paladin | Paladin-Subclasses ]]
-
-[[ Warlock | Warlock-Subclasses ]]
-
-[[ Wizard | Wizard-Subclasses ]]
+- [[ Paladin | Paladin-Subclasses ]]
+- [[ Warlock | Warlock-Subclasses ]]
+- [[ Wizard | Wizard-Subclasses ]]

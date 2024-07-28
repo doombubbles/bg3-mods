@@ -1,5 +1,3 @@
-## Monk
-
 ### Way of the Four Elements
 
 - Reduced the Ki Point costs of most Disciple of the Elements spells by 1.

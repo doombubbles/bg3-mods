@@ -1,5 +1,3 @@
-## Other Changes
-
 **Heat** - Deals 1 damage per turn instead of 1d4 (this then goes to 0 if you have Fire Resistance)
 
 **Goaded and Taunted** - No longer makes player characters actually lose control (theoretically), just keeps their real listed effects of Disadvantage against others.

@@ -1,5 +1,3 @@
-## Fighter Changes
-
 - Added a new Fighting Style "Unarmed Fighting": Your unarmed attacks deal 1d4/1d6/1d8 damage. When not holding anything in your off hand, you can make an unarmed strike as a bonus action.
 
 ### Battle Master

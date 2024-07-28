@@ -1,5 +1,3 @@
-## Buff Changes
-
 Made a number of temporary unique buffs that usually only last until long rest instead last until character death like the Loviatar buff. 
 Some of the effects have been nerfed to compensate for this, however. This includes:
 

@@ -1,5 +1,3 @@
-## Paladin Subclasses
-
 ### Oath Forsaker
 
 A copy of Oathbreaker that shares the same progression table but is directly selectable and lacks the technical Oathbreaker tag.

@@ -1,6 +1,3 @@
-
-## Wizard Subclasses
-
 ### Fire
 
 *"Beyond the eight traditional schools of magic, Wizards can also specialize in mastering primordial elements like Fire."*

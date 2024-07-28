@@ -1,5 +1,3 @@
-### New "Downcast" Effects
-
 Many spells now have "cantrip versions" in the way that Create Water used to (and now does again). That is, a weaker version of a spell that is "downcasted" to the power of a cantrip, costing no spell slots. Each one become available once you're first capable of upcasting the spell.
 
 **Magic Missile** - Shoots 1/2/3 missiles that deal 1d4 damage.

@@ -1,5 +1,3 @@
-## Rogue Changes
-
 - (EXPERIMENTAL) Now gains Extra Attack at Level 5
 - Reliable Talent at level 11 now also makes the minimum result you can roll on damage die be 3
 

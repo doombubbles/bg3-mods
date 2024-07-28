@@ -1,5 +1,3 @@
-## Item Changes
-
 **Adamatine Weapons** - Now have +2 Enchantment and send targets Reeling on hit
 
 **Mourning Frost**

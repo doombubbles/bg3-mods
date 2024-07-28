@@ -1,5 +1,3 @@
-## Wizard Changes
-
 ### School of Necromancy
 
 - Now gains Control Undead at Level 10, castable once per Short Rest

@@ -1,5 +1,3 @@
-## Sorcerer Changes
-
 ### Draconic Bloodline
 
 Adapted [Malady's Descents of the Gem Dragons Mod](https://www.nexusmods.com/baldursgate3/mods/4701) to match the Terraria gems, and have more colour coordinated damage

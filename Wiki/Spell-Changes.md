@@ -1,5 +1,3 @@
-## Spell Changes
-
 **Chromatic Orb** - All variants now deal the traditional 3d8 damage
 
 **Longstrider and Enhance Leap** - Applies to all nearby allies in an AOE like Feather Fall

@@ -1,5 +1,3 @@
-## Paladin Changes
-
 - Improved Divine Smite is now toggleable
 - Divine Smite now also works with Unarmed Attacks along with the other Smite spells
 - Is able to choose the new Unarmed Fighting Style at Level 2

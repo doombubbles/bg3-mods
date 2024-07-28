@@ -1,5 +1,3 @@
-## Warlock
-
 - Now gains the "Magical Cunning" ability from OneDnD allowing them to recover half their warlock spell slots once a day
 
 ### Pact of the Blade

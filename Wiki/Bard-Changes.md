@@ -1,5 +1,3 @@
-## Bard Changes
- 
 ### College of Valour
 
 - Now grants Proficiency with Heavy Armour

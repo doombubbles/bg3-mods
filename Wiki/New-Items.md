@@ -1,6 +1,3 @@
-
-## New Items
-
 **Sacred Ring** - Your Cantrips that require saving throws still deal half damage on a failed save. Drops from the Scared Boar on the Ravaged Beach.
 
 **Ring of Unreasonable Force** - Whenever you deal Force damage to a creature, you can push the creature up to 3m away from you. Grants a special Magic Missile cantrip that shoots one projectile. Found as loot from one of the (yellow lootable) Flaming Fist Bodies in Waukeen's Rest (TODO needs fixing).

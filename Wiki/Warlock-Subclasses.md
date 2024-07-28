@@ -1,6 +1,3 @@
-
-## Warlock Subclasses
-
 ### Pact of Destruction
 
 #### Level 3

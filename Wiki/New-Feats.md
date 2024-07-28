@@ -1,5 +1,3 @@
-## Added Feats
-
 **Eldritch Adept** - Learn 1 Eldritch Invocation. Increase INT or WIS or CHA by 1.
 
 **Metamagic Adept** - Learn 2 Metamagic options and get 3 Sorcery Points to spend on them. Increase INT or WIS or CHA by 1.
