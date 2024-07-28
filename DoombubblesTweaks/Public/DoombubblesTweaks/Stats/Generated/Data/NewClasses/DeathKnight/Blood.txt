@@ -16,11 +16,14 @@ new entry "Target_DeathStrike"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MainHandAttack"
-data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(LevelMapValue(RuneDie),Force,Magical);RegainHitPoints(SELF,LevelMapValue(RuneDie));IF(IsCritical()):RegainHitPoints(SELF,LevelMapValue(2RuneDie))"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(LevelMapValue(RuneDie),Force,Magical);IF(not HasMaxHPWithoutTemporaryHP(context.Source)):RegainHitPoints(SELF,LevelMapValue(2RuneDie));
+{{- range $die, $lvl := $.DK.RuneDieMap -}}
+IF(HasMaxHPWithoutTemporaryHP(context.Source) and ClassLevelHigherOrEqualThan({{$lvl.Low}}, 'DeathKnight') and not ClassLevelHigherOrEqualThan({{add $lvl.High 1}},'DeathKnight')):ApplyStatus(SELF, BONE_SHIELD_{{$die}}, 100, -1);
+{{- end -}}"
 data "Icon" "Action_DeathKnight_DeathStrike"
 data "DisplayName" "h7c0e1687g2c9cg4837gaac3g9c68bffb4b49"
 data "Description" "hdf823ca8g47feg4126g96d4gb5c0d30fc627"
-data "DescriptionParams" "DealDamage(LevelMapValue(RuneDie),Force);RegainHitPoints(LevelMapValue(RuneDie))"
+data "DescriptionParams" "DealDamage(LevelMapValue(RuneDie),Force);RegainHitPoints(LevelMapValue(2RuneDie));LevelMapValue(RuneDieTotal)"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(RuneDie),Force)"
 data "TooltipAttackSave" "MeleeWeaponAttack"
 data "PrepareLoopSound" "CrSpell_Loop_Azer_SearingSmite"
@@ -174,10 +177,9 @@ data "Description" "hc857ea31gb601g4319ga792gedd0bfa96c02"
 data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);GROUND:DealDamage(LevelMapValue(2RuneDie),Force,Magical)"
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(2RuneDie),Force,Magical);
 {{- range $die, $lvl := $.DK.RuneDieMap -}}
-IF(ClassLevelHigherOrEqualThan({{$lvl.Low}}, 'DeathKnight') and not ClassLevelHigherOrEqualThan({{add $lvl.High 1}},'DeathKnight')):ApplyStatus(SELF, BONE_SHIELD_{{$die}}, 100, -1);
-{{- end -}}
-"
-data "DescriptionParams" "DealDamage(LevelMapValue(2RuneDie),Force);LevelMapValue(RuneDieTotal)"
+IF(ClassLevelHigherOrEqualThan({{$lvl.Low}}, 'DeathKnight') and not ClassLevelHigherOrEqualThan({{add $lvl.High 1}},'DeathKnight')):ApplyStatus(SELF, BONE_SHIELD_{{mul $die 2}}, 100, -1);
+{{- end -}}"
+data "DescriptionParams" "DealDamage(LevelMapValue(2RuneDie),Force);LevelMapValue(2RuneDieTotal)"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(2RuneDie),Force)"
 data "TooltipStatusApply" "ApplyStatus(BONE_SHIELD, 100, -1)"
 data "TargetConditions" "Character() and not Self()"
@@ -209,7 +211,7 @@ data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
 data "StatusGroups" "SG_RemoveOnRespec"
 
-{{ range $die, $lvl := $.DK.RuneDieMap }}
+{{ range $die := list 4 6 8 10 12 16 20 24 }}
 new entry "BONE_SHIELD_{{$die}}"
 type "StatusData"
 data "StatusType" "BOOST"

@@ -19,8 +19,11 @@ jobs:
       - name: Set Permissions
         run: chmod +x ./bin/ProcessTemplates
 
-      - name: Process Templates
-        run: ./bin/ProcessTemplates -s Wiki -d build/Wiki -v DoombubblesTweaks
+      - name: Process Mod Templates
+        run: ./bin/ProcessTemplates
+
+      - name: Process Wiki Templates
+        run: ./bin/ProcessTemplates -s Wiki -d build/Wiki -v DoombubblesTweaks -v build/DoombubblesTweaks/Localization
           
       - name: Upload to Wiki
         uses: SwiftDocOrg/github-wiki-publish-action@v1

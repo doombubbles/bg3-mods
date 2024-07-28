@@ -122,7 +122,7 @@
   <content contentuid="hef8d5973g16deg428dg8c83g811464cfe765" version="1">While you have &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, all Bludgeoning, Piercing and Slashing damage you take is reduced by [1].</content>
 
   <content contentuid="h7c0e1687g2c9cg4837gaac3g9c68bffb4b49" version="1">Death Strike</content>
-  <content contentuid="hdf823ca8g47feg4126g96d4gb5c0d30fc627" version="1">A deadly strike that deals an extra [1] and heals you for [2], or twice as much on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+  <content contentuid="hdf823ca8g47feg4126g96d4gb5c0d30fc627" version="1">A deadly strike that deals an extra [1] and heals you for [2]. If you already have full &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, gain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; instead.</content>
 
   <content contentuid="hbd2e555bg2debg4984gad36gd7f6b740379e" version="1">Sacrificial Pact</content>
   <content contentuid="h4d2235dagb94ag44b9gabf8g3224be6a4ab2" version="1">Destroy a summoned Undead ally to recover a third of your &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
@@ -167,10 +167,25 @@
 
   <content contentuid="hd12e3b63gdbd6g46c5g9542gf63f793a427e" version="1">You can spend 2 &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy Runes&lt;/LSTag&gt; to restore a companion to life with 1 HP.</content>
 
+  <content contentuid="h0b9e2216g69fcg47d1ga433g41a357df768c" version="1">Dark Transformation</content>
+  <content contentuid="h15eda73bg9db5g4735g9c14g4afa7ce57766" version="1">Destroy a summoned Undead ally to transform it into a stronger one.</content>
+  <content contentuid="ha9b9edc9g241bg4408ga202g681f4c9cecb6" version="1">Dark Transformation: Ghoul</content>
+  <content contentuid="he6973013gb187g42cfga675g1144ee882302" version="1">Transform a Zombie into a Goul.</content>
+  <content contentuid="h603415c8g9948g4e8fg864ag9dd289c229fc" version="1">Dark Transformation: Flying Ghoul</content>
+  <content contentuid="h5fd22e09g9034g4a6dgac9fg0897fb7dde9a" version="1">Transform a Skeleton into a Flying Ghoul.</content>
+  <content contentuid="h94135142g6143g4511gbc1cg7d7e48c9275d" version="1">Dark Transformation: Mummy</content>
+  <content contentuid="h25d8b88eg5b92g4491gac56g702e8e9b4483" version="1">Transform a Ghoul or Flying Ghoul into a Mummy.</content>
+
+  <content contentuid="h247cfcdbg413eg4406g8ed7g9034b97cabfd" version="1">Zombie</content>
+  <content contentuid="hecd15e70gbaccg40b6g9a81ga6bbc42db8de" version="1">Skeleton</content>
+  <content contentuid="hf1a93fdagdbaeg41c8g8fc6g10887ccc754d" version="1">Ghoul</content>
+  <content contentuid="h51af922fg7f73g4dc6g987ege73d3bdb79d5" version="1">Flying Ghoul</content>
+  <content contentuid="h585c851cg6f9bg4c6dg8bdfg69dcf82604f2" version="1">Mummy</content>
+
   <content contentuid="h2f62cf77g1e2bg4d0fg9674g5caedd1b091e" version="1">Death Grip</content>
   <content contentuid="h724b80b8gb3aeg46adgbbe6g586eacb355fa" version="1">Harnesses the energy that surrounds and binds all matter, drawing a target toward a position of your choice within [1] of you.</content>
   <content contentuid="h0b1bb04eg04cbg4eefg8ed8g1920fc40a0c5" version="1">The &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; of this Spell is equal to your total Strength &lt;LSTag Tooltip="Abilities"&gt;Ability Score&lt;/LSTag&gt;.</content>
-  <content contentuid="hb982502cge3dfg4f79g87fdg189400906504" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to draw a target witiin [1] toward a position of your choice within [2] of you.</content>
+  <content contentuid="hb982502cge3dfg4f79g87fdg189400906504" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to draw a target within [1] toward a position of your choice within [2] of you.</content>
 
   <content contentuid="he3f5eb23ga1dcg46efg8410g0326e2f5611b" version="1">Death and Decay</content>
   <content contentuid="hd707f45cgbf9dg4a99g90a1g23c832c71626" version="1">Corrupts the targeted ground for [1] turns; it damages enemies for [2] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
@@ -216,16 +231,31 @@
   <content contentuid="hd5cf015eg1f0fg4be7gb7a0g11fcfa8ade2f" version="1">Myrkul</content>
   <content contentuid="h41e55817g6c6eg4ffega88bg0e569d75e402" version="1">Evenly Matched</content>
   <content contentuid="h7ab121c7g99f7g465ag8c08g48de963955b3" version="1">Dark Comand</content>
+  <content contentuid="h08193fe8gbf9dg48d4gac40g9b81c8571b0e" version="1">Gloom Ward</content>
   {{- range $command, $handle := $.DK.Commands}}
   <content contentuid="{{$handle}}" version="1">Dark Command: {{$command}}</content>
   {{- end}}
-  <content contentuid="h08193fe8gbf9dg48d4gac40g9b81c8571b0e" version="1">Gloom Ward</content>
 
+  <content contentuid="h4518ce8ag4f35g4517gaabbgc69fcd3b3b76" version="1">Subduing Grasp</content>
   <content contentuid="h5dca01e1g0854g4d68g8c01gc73ddbd658be" version="1">Raise Ally</content>
+  <content contentuid="h5c7fd873gfb58g4d1egb678g029a332977e2" version="1">Raise Dead</content>
+  <content contentuid="hc3bb50c0gcfa1g4bffgad26g7541b0213518" version="1">Raise Dead: Skeleton(s)</content>
+  <content contentuid="hfb628497gca79g4beagaab3g6a5d8468b681" version="1">Create [1] skeleton(s) that specialise in ranged combat.</content>
+  <content contentuid="h90b1913egb4fag4bdcgb345g2b53a2487039" version="1">Raise Dead: Zombie(s)</content>
+  <content contentuid="he5e51308g0e6eg454dg8e22gf18b16ac1a3c" version="1">Create [1] zombie(s) that specialise in melee combat.</content>
+
+  <content contentuid="h60647f04g0907g4a2fgae3cg3198d3a3ec4a" version="1">Spirit Guardians</content>
+  <content contentuid="hce15f55fg7951g4068g9e8fg5928e4267d75" version="1">Hunger of Hadar</content>
 
   <content contentuid="hdde9350dge102g4b82g89abg962fde1b3e10" version="1">Avalanche</content>
-  <content contentuid="h55b1a1b9ged72g4d4aga648g6897efc18e7e" version="1">Breath of Sindragosa</content>
-  <content contentuid="h342a1142g34ddg4a38gacb6ge9794bb223af" version="1">Glacial Advance</content>
+  <content contentuid="h43d7fec8g351fg463agbddfgbbf27671eaf5" version="1">Defile</content>
+  <content contentuid="h24cd4c24gc89dg458ag8ddag854573bd898a" version="1">Raise Gargoyle</content>
 
+  <content contentuid="h55b1a1b9ged72g4d4aga648g6897efc18e7e" version="1">Breath of Sindragosa</content>
+  <content contentuid="hc20cfe19gdcdcg430bg88b0ga36dfc649701" version="1">Army of the Dead</content>
+
+  <content contentuid="h342a1142g34ddg4a38gacb6ge9794bb223af" version="1">Glacial Advance</content>
+  <content contentuid="ha946752ag719eg4eacgae2bge586ec1d9577" version="1">Apocalypse</content>
+  <content contentuid="he72599a8gcdbfg48d7gb877g08631e655b6f" version="1">Commander of the Dead</content>
 
 </contentList>

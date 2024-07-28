@@ -236,12 +236,8 @@ data "Description" "h23f1149agda6eg4a8bgb2a9g6ab4f9a27562"
 data "Icon" "PassiveFeature_RitualCaster_MemorizeSpells"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCast"
-data "Conditions" "HasUseCosts('SpellSlot') and not HasStatus('CLEARCASTING_ACTIVE', context.Source) and not HasStatus('MAG_MAGIC_ITEM_POWERED_CAST', context.Source)"
-data "StatsFunctors" "
-{{- range $lvl := list 1 2 3 4 5 6 -}}
-IF(SpellPowerLevelEqualTo({{$lvl}})):TriggerRandomCast({{sub 21 $lvl}},,Clearcasting);
-{{- end -}}
-"
+data "Conditions" "Combat() and HasUseCosts('SpellSlot') and not HasStatus('CLEARCASTING_ACTIVE', context.Source) and not HasStatus('MAG_MAGIC_ITEM_POWERED_CAST', context.Source)"
+data "StatsFunctors" "{{- range $lvl := list 1 2 3 4 5 6 -}}IF(SpellPowerLevelEqualTo({{$lvl}})):TriggerRandomCast({{sub 21 $lvl}},,Clearcasting);{{- end -}}"
 
 new entry "Shout_Clearcasting"
 type "SpellData"

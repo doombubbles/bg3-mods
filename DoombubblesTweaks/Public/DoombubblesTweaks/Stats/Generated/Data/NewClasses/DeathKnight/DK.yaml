@@ -45,24 +45,39 @@ Spells:
       - Target_DeathAndDecay
       - Shout_DeathsAdvance
   "2":
+    Blood:
+      - Target_HoldPerson_DK
+    Unholy:
+      - Target_AnimateDead_DK
     Death:
       - Throw_DeathGrip
       - Target_SacrificialPact
   "3":
     Frost:
       - Zone_Frostscythe
+      - Target_HungerOfHadar_DK
     Unholy:
       - Shout_SpiritGuardians_DK
-      - Teleportation_RaiseAlly
+      - Teleportation_Revivify_DK
+      - Target_DarkTransformation
   "4":
     Frost:
       - Target_IceStorm_DK
+    Unholy:
+      - Target_Blight_DK
+      - Target_AnimateDead_Improved_DK
     Death:
       - Target_AntiMagicZone
-      - Teleportation_RaiseAlly
+      - Teleportation_Revivify_DK
+      - Target_HungerOfHadar_DK
   "5":
     Frost:
       - Zone_ConeOfCold_DK
+    Unholy:
+      - Target_CursedTome_WakeTheDead_DK
   "6":
     Frost:
       - Wall_WallOfIce_DK
+    Unholy:
+      - Target_CircleOfDeath
+      - Target_CreateUndead

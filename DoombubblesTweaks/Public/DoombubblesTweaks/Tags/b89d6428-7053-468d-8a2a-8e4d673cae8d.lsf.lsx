@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="UUID" type="guid" value="b89d6428-7053-468d-8a2a-8e4d673cae8d" />
+			<attribute id="Name" type="FixedString" value="MUMMY" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h585c851cg6f9bg4c6dg8bdfg69dcf82604f2" version="1" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h585c851cg6f9bg4c6dg8bdfg69dcf82604f2" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Description" type="LSString" value="" />
+			<children>
+				<node id="Categories" />
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="UUID" type="guid" value="a18a4c90-b2e1-46d4-a8bc-93414b3b0878" />
+			<attribute id="Name" type="FixedString" value="SKELETON" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hecd15e70gbaccg40b6g9a81ga6bbc42db8de" version="1" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hecd15e70gbaccg40b6g9a81ga6bbc42db8de" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Description" type="LSString" value="" />
+			<children>
+				<node id="Categories" />
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

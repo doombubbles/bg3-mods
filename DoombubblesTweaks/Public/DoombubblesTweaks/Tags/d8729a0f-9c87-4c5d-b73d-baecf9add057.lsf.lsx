@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="UUID" type="guid" value="d8729a0f-9c87-4c5d-b73d-baecf9add057" />
+			<attribute id="Name" type="FixedString" value="GHOUL" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hf1a93fdagdbaeg41c8g8fc6g10887ccc754d" version="1" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hf1a93fdagdbaeg41c8g8fc6g10887ccc754d" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Description" type="LSString" value="" />
+			<children>
+				<node id="Categories" />
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

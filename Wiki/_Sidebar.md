@@ -25,7 +25,7 @@
 
 #### Additions
 
-- [[ New Items | New-Items ]] *([[ UUIDs | UUIDs ]])*
+- [[ New Items | New-Items ]] *([[ IDs | UUIDs ]])*
 - [[ New Feats | New-Feats ]]
 
 ##### New Classes

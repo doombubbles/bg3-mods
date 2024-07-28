@@ -1,6 +1,6 @@
 ### Fire
 
-*"Beyond the eight traditional schools of magic, Wizards can also specialize in mastering primordial elements like Fire."*
+*{{ get .loca "hed3a9cd0gf34bg4a8dg935agb32ee5ab0168" | quote }}*
 
 #### Level 2
 - Hot Streak: When you deal a Critical Hit with a Fire spell, the next Fire spell you cast costs a Bonus Action instead of an Action.
@@ -15,7 +15,7 @@
 
 ### Frost
 
-*"Beyond the eight traditional schools of magic, Wizards can also specialize in mastering the force of cold."*
+*{{ get .loca "hd76d5d39g9c18g4c34g8c4ag3ee5b9237ced" | quote }}*
 
 #### Level 2
 - Shatter: When you attack a creatue that is Frozen or Prone with a Cold Spell, the number you need to roll a Critical Hit is reduced by 5.
@@ -29,10 +29,10 @@
 
 ### Arcane
 
-*"Beyond the eight traditional schools of magic, Wizards can also specialize in manipulating the very weave itself."*
+*{{ get .loca "h85acb321g0934g4e65g8e1ag910fa4927572" | quote }}*
 
 #### Level 2
-- Clearcasting: Whenever you expend a spell slot, you have a chance based on the spell's level to make your next spell not cost a spell slot.
+- Clearcasting: {{ get $.loca "h23f1149agda6eg4a8bgb2a9g6ab4f9a27562" }}
 
 #### Level 6
 - Savant: You regain your Arcane Recovery charges on a Short Rest.

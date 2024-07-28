@@ -15,3 +15,17 @@
 **Haste Helm** - Renamed to Momentum Helm
 
 **Thermodynamic Axe** - Renamed to Thermodynamxe
+
+### Other Mods Changes
+
+These changes will apply to other mods if you have DoombubblesTweaks below them in the Mod Manager load order.
+
+#### Cleric Subclasses
+
+Arcane Domain now gets Counterspell instead of Dispel Magic as a domain spell
+
+#### Artificer
+
+Arcane Firearm changed to {{ get .loca "h3a5390c0gc1c0g4ebeg851fg634bb80d803c" | quote }}
+
+This makes the effect actually passive and actually apply well to AOE spells.

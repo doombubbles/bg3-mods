@@ -3,11 +3,13 @@ package main
 import (
 	"bufio"
 	"bytes"
+	"encoding/xml"
 	"fmt"
 	"io"
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"text/template"
 
@@ -42,7 +44,7 @@ func main() {
 	flag.StringVarP(&src, "source", "s", filepath.Base(rootDir), "The source folder to read from")
 	flag.StringVarP(&destination, "destination", "d", "build/"+filepath.Base(rootDir), "The destination folder to put things in")
 	flag.StringArrayVarP(&valuesFiles, "values", "v", []string{}, "Places to read values files from other than the source folder")
-	flag.StringVarP(&resultValues, "result-values", "r", "", "Place to save the result values to, if any")
+	flag.StringVarP(&resultValues, "result-values", "r", "build/values.yaml", "Place to save the result values to, if any")
 	flag.Parse()
 
 	buildDir := destination
@@ -155,6 +157,41 @@ func buildValuesMap(rootDir string, values *Values) error {
 			}
 		}
 
+		// Struct for parsing XML content
+		type Content struct {
+			ContentUID string `xml:"contentuid,attr"`
+			Text       string `xml:",chardata"`
+		}
+
+		type ContentList struct {
+			Contents []Content `xml:"content"`
+		}
+
+		// Handle .loca.xml files
+		if strings.HasSuffix(info.Name(), ".loca.xml") {
+			// Read the XML file
+			data, err := os.ReadFile(path)
+			if err != nil {
+				return fmt.Errorf("error reading file %s: %v", path, err)
+			}
+
+			// Parse the XML content
+			var contentList ContentList
+			err = xml.Unmarshal(data, &contentList)
+			if err != nil {
+				return fmt.Errorf("error parsing XML in file %s: %v", path, err)
+			}
+
+			// Add the parsed values to the main values map
+			if _, exists := (*values)["loca"]; !exists {
+				(*values)["loca"] = make(Values)
+			}
+			locaValues := (*values)["loca"].(Values)
+			for _, content := range contentList.Contents {
+				locaValues[content.ContentUID] = replacePlaceholdersAndTags(content.Text)
+			}
+		}
+
 		return nil
 	})
 
@@ -178,6 +215,19 @@ func buildValuesMap(rootDir string, values *Values) error {
 	}
 
 	return nil
+}
+
+// Function to replace [1], [2], etc., with %s and remove XML tags
+func replacePlaceholdersAndTags(text string) string {
+	// Replace placeholders
+	rePlaceholder := regexp.MustCompile(`\[\d+\]`)
+	text = rePlaceholder.ReplaceAllString(text, "%s")
+
+	// Remove XML tags and retain inner text
+	reTags := regexp.MustCompile(`<.*?>`)
+	text = reTags.ReplaceAllString(text, "")
+
+	return strings.TrimSpace(text)
 }
 
 func include(tmpl *template.Template) func(name string, data interface{}) (string, error) {
