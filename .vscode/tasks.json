@@ -110,6 +110,30 @@
         "showReuseMessage": false,
         "revealProblems": "onProblem"
       }
-    }
+    },
+    {
+        "label": "Build Go (Linux)",
+        "type": "process",
+        "command": "go",
+        "args": [
+          "build",
+          "-o",
+          "../bin/ProcessTemplates",
+          "ProcessTemplates.go"
+        ],
+        "group": "build",
+        "presentation": {
+          "reveal": "silent",
+          "showReuseMessage": false,
+          "revealProblems": "onProblem"
+        },
+        "options": {
+          "cwd": "ProcessTemplates",
+          "env": {
+            "GOOS": "linux",
+            "GOARCH": "amd64"
+          }
+        }
+    },
   ]
 }

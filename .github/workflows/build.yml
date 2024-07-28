@@ -6,6 +6,8 @@ on:
     tags: ['*']
     paths-ignore: 
       - "**/*.md"
+      - "Wiki/**/*"
+      - "**/wiki.yml"
 
 env:
   PROJECT_NAME: DoombubblesTweaks

@@ -1,0 +1,30 @@
+name: Wiki
+
+on:
+  push:
+    branches: ['main']
+    paths:  
+      - "Wiki/**/*"
+
+env:
+  PROJECT_NAME: DoombubblesTweaks
+
+jobs:
+  wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repo
+        uses: actions/checkout@master
+
+      - name: Set Permissions
+        run: chmod +x ./bin/ProcessTemplates
+
+      - name: Process Templates
+        run: ./bin/ProcessTemplates -s wiki -d build/wiki -v DoombubblesTweaks
+          
+      - name: Upload to Wiki
+        uses: SwiftDocOrg/github-wiki-publish-action@v1
+        with:
+          path: "build/wiki"
+        env:
+          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
