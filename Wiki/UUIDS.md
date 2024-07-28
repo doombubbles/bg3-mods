@@ -19,6 +19,7 @@
 | 'A Song of Ice and Fire' Review     | `DBT_FrostFire_Material`          | `58d4ccea-9f5e-4321-aaac-9c089f51b80f` |
 | Portent Robe                        | `DBT_IntelligenceCaster_Robe`     | `62599197-16f8-40cc-9294-2a7ce9141821` |
 | Potent Rope                         | `DBT_IntelligenceCaster_Material` | `38143e8f-7c6f-46eb-a5e8-79888cf0fdf8` |
+| Important Robe                      | `DBT_WisdomCaster_Robe`           | `fa50039b-1863-40b5-a431-26c40d29e2a4` |
 | Silver Wyrmling Staff               | `DBT_Cold_Quarterstaff`           | `4e2348a5-7c5d-45fc-ad77-55cb99c6302f` |
 | Ruby Wyrmling Staff                 | `DBT_Force_Quarterstaff`          | `ce282515-7004-4dd9-a183-4201db2786dd` |
 | Bronze Wyrmling Staff               | `DBT_Lightning_Quarterstaff`      | `6cace241-2066-43d3-a044-f36e68b85e04` |

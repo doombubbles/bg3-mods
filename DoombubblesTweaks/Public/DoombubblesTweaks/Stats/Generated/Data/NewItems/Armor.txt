@@ -1,37 +1,46 @@
-new entry "DBT_IntelligenceCaster_Robe"
+{{- $STAT := "" -}}
+{{ range $Stat, $_ := $.Armor.PotentRobes }}
+{{- $STAT = $Stat | upper -}}
+
+new entry "DBT_{{$Stat}}Caster_Robe"
 type "Armor"
 using "MAG_CharismaCaster_Robe"
-data "RootTemplate" "62599197-16f8-40cc-9294-2a7ce9141821"
-data "PassivesOnEquip" "MAG_IntelligenceCaster_CantripBooster_Passive;MAG_IntelligenceCaster_TempHP_Passive"
-data "StatusOnEquip" "MAG_INTELLIGENCE_CASTER_TEMP_HP_TECHNICAL"
+data "RootTemplate" "{{.RootTemplate}}"
+data "PassivesOnEquip" "MAG_{{$Stat}}Caster_CantripBooster_Passive;MAG_{{$Stat}}Caster_TempHP_Passive"
+data "StatusOnEquip" "MAG_{{$STAT}}_CASTER_TEMP_HP_TECHNICAL"
 
-new entry "MAG_IntelligenceCaster_CantripBooster_Passive"
+new entry "MAG_{{$Stat}}Caster_CantripBooster_Passive"
 type "PassiveData"
 using "MAG_CharismaCaster_CantripBooster_Passive"
-data "DisplayName" "hbfcbd05bga23bg4e97g80a4g069d79d16a73"
+data "DisplayName" "{{.CasterName}}"
 data "Description" "h26237120g21bfg4a26gaa6agb329a34689b5"
-data "Boosts" "IF(IsCantrip()):DamageBonus(max(1,IntelligenceModifier))"
+data "DescriptionParams" "{{$Stat}}"
+data "Boosts" "IF(IsCantrip()):DamageBonus(max(1,{{$Stat}}Modifier))"
 
-new entry "MAG_IntelligenceCaster_TempHP_Passive"
+new entry "MAG_{{$Stat}}Caster_TempHP_Passive"
 type "PassiveData"
 using "MAG_PHB_Displacement_Cloak_Passive"
-data "DisplayName" "he1312320g5b2cg4456gb26fg7e6dc13d8786"
+data "DisplayName" "{{.FortifiedName}}"
 data "Description" "hce54833cg6a38g42c4g8560g7c6edff53a29"
+data "DescriptionParams" "{{$Stat}}"
 
-new entry "MAG_INTELLIGENCE_CASTER_TEMP_HP"
+new entry "MAG_{{$STAT}}_CASTER_TEMP_HP"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_TEMPORARY_HP"
-data "Description" "h61d7d980gcfb6g49b4g91edgfbcb7a6a562e"
-data "Boosts" "TemporaryHP(IntelligenceModifier)"
+data "Description" "hce54833cg6a38g42c4g8560g7c6edff53a29"
+data "DescriptionParams" "{{$Stat}}"
+data "Boosts" "TemporaryHP($StatModifier)"
 
-new entry "MAG_INTELLIGENCE_CASTER_TEMP_HP_TECHNICAL"
+new entry "MAG_{{$STAT}}_CASTER_TEMP_HP_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_CHARISMA_CASTER_TEMP_HP_TECHNICAL"
-data "StackId" "MAG_INTELLIGENCE_CASTER_TEMP_HP_TECHNICAL"
-data "TickFunctors" "IF(Combat() and not Dead()):ApplyStatus(MAG_INTELLIGENCE_CASTER_TEMP_HP, 100, -1)"
-data "OnRemoveFunctors" "RemoveStatus(MAG_INTELLIGENCE_CASTER_TEMP_HP)"
+data "StackId" "MAG_{{$STAT}}_CASTER_TEMP_HP_TECHNICAL"
+data "TickFunctors" "IF(Combat() and not Dead()):ApplyStatus(MAG_{{$STAT}}_CASTER_TEMP_HP, 100, -1)"
+data "OnRemoveFunctors" "RemoveStatus(MAG_{{$STAT}}_CASTER_TEMP_HP)"
+
+{{ end }}
 
 new entry "DBT_Spell_Robe_Combo"
 type "Armor"

@@ -22,7 +22,7 @@ These changes will apply to other mods if you have DoombubblesTweaks below them 
 
 #### Cleric Subclasses
 
-Arcane Domain now gets Counterspell instead of Dispel Magic as a domain spell
+Arcana Domain now gets Mage Armor instead of Detect Magic, Counterspell instead of Dispel Magic, Polymoprh instead of Arcane Eye as domain spells.
 
 #### Artificer
 

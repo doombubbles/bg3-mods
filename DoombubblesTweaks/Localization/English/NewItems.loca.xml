@@ -35,15 +35,20 @@
 	<content contentuid="h0f2160c8g392bg47c4ga7degafeca14e57e6" version="1">This robe is a difficult look to pull off unless you're Sherlock Holmes and you always work alone because no else can compete with your massive intellect.</content>
 
 	<content contentuid="hbfcbd05bga23bg4e97g80a4g069d79d16a73" version="1">Erudite Caster</content>
-	<content contentuid="h26237120g21bfg4a26gaa6agb329a34689b5" version="1">Your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; deal additional damage equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="h26237120g21bfg4a26gaa6agb329a34689b5" version="1">Your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; deal additional damage equal to your [1] &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="he1312320g5b2cg4456gb26fg7e6dc13d8786" version="1">Well-Read and Well-Fortified</content>
-	<content contentuid="hce54833cg6a38g42c4g8560g7c6edff53a29" version="2">At the beginning of the wearer's turn, the robe activates, granting them &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to their Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h61d7d980gcfb6g49b4g91edgfbcb7a6a562e" version="1">Well-Read and Well-Fortified: instead of dying, you have gained &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point&lt;/LSTag&gt; equal to your Intelligence modifier.</content>
+	<content contentuid="hce54833cg6a38g42c4g8560g7c6edff53a29" version="1">At the beginning of the wearer's turn, the robe activates, granting them &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to their [1] &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h8bca3bc6g303bg4f74g8a23gaf38604d838a" version="1">Potent Rope</content>
 	<content contentuid="h3b6ad061gca48g4e26gb4f5g6da3a7ae49fd" version="1">More useful than any other rope you've ever seen! Still not when it comes to climbing things though...</content>
+
+	<content contentuid="h46d13966g5c52g4d02gb35agaae91df86eab" version="1">Important Robe</content>
+	<content contentuid="h2ae7fcbagb781g4662g9fa3g4e15dc931f7d" version="1">This robe is a difficult look to pull off unless you're Sherlock Holmes and you always work alone because no else can compete with your massive wisdom.</content>
+
+	<content contentuid="ha16f6323g4c4dg458fga7b1g31c6d24a5dbc" version="1">Sophistic Caster</content>
+	<content contentuid="h5c171170g0085g4385g8a24g375e103c9743" version="1">Well-Traveled and Well Fortified</content>
+
 
 	<content contentuid="hd3b21f82gbb3dg40c6ga306g0932baab6faf" version="1">Great Wyrm's Scale</content>
 	<content contentuid="h41649e0cg927eg4b87gb25bg28e22b1498e5" version="1">The last part of the great wyrm Ansur that has not succombed to decay. It shines with a more &lt;i&gt;chromatic&lt;/i&gt; glow than you would expect from just a Bronze dragon. You feel as if this scale could be used to transmute powerful draconic magic into new receptacles.</content>

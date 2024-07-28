@@ -41,8 +41,7 @@ function EldritchBlastCheck()
       | SpellId('Projectile_MAG_EldritchBlast_Staff')
       | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
       | SpellId('Projectile_FireRay_Warlock')
-      |
-      (IsSpell() & SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction', context.Source) & HasPassive('ThirstingBlade_Check', context.Source))
+      | (IsSpell() & SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction', context.Source) & HasPassive('ThirstingBlade_Check', context.Source))
 end
 
 function FlySpellCheck()
