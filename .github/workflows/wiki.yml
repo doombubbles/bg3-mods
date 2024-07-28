@@ -20,11 +20,11 @@ jobs:
         run: chmod +x ./bin/ProcessTemplates
 
       - name: Process Templates
-        run: ./bin/ProcessTemplates -s wiki -d build/wiki -v DoombubblesTweaks
+        run: ./bin/ProcessTemplates -s Wiki -d build/Wiki -v DoombubblesTweaks
           
       - name: Upload to Wiki
         uses: SwiftDocOrg/github-wiki-publish-action@v1
         with:
-          path: "build/wiki"
+          path: "build/Wiki"
         env:
           GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
