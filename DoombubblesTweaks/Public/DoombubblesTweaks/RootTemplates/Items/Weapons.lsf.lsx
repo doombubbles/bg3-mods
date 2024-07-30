@@ -356,6 +356,61 @@
           </children>
         </node>
 
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb14b02ccgae40g4e18gb229g2dd35ec97a42" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h52ddda9fg9819g4532g98b6g194eeb92c8bd" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="4135c6a5-78b6-4c6d-85df-f77df52ce775" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GOB_Branding_Tool_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="28373d60-893f-411c-a029-35c31665c821" />
+					<attribute id="Name" type="LSString" value="WPN_GOB_Club_BrandingTool_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="54f4b97c-ede8-49e2-a5aa-50c6f15c232f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="93b61606-9afc-1b49-9874-5da075566b5b" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="WPN_GOB_Club_BrandingTool_A" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="9907d5c7-652f-dde1-5f80-1b1c97102425" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855930" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.230058" />
+									<attribute id="Max" type="fvec3" value="0.0310075 0.0561398 0.180559" />
+									<attribute id="Min" type="fvec3" value="-0.0308737 -0.00601974 -0.721243" />
+									<attribute id="Radius" type="float" value="0.233461" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.230058" />
+									<attribute id="Max" type="fvec3" value="0.01550375 0.0561398 0.0902795" />
+									<attribute id="Min" type="fvec3" value="-0.01543685 -0.00601974 -0.3606215" />
+									<attribute id="Radius" type="float" value="0.1167305" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.230058" />
+									<attribute id="Max" type="fvec3" value="0.0971075 0.060989797 0.31690907" />
+									<attribute id="Min" type="fvec3" value="-0.0969737 -0.010869734 -1.147393" />
+									<attribute id="Radius" type="float" value="0.233461" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
       </children>
     </node>
   </region>

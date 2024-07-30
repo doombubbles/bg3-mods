@@ -182,5 +182,35 @@
 		"prefix": "spelllist",
 		"scope": "xml",
 		"body": "<node id=\"SpellList\">\n  <attribute id=\"Comment\" type=\"LSString\" value=\"$1\"/>\n  <attribute id=\"Spells\" type=\"LSString\" value=\"$0\"/>\n  <attribute id=\"UUID\" type=\"guid\" value=\"$UUID\"/>\n</node>"
+	},
+	"strength": {
+		"prefix": "strength",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Strength\"&gt;Strength&lt;/LSTag&gt;"
+	},
+	"dexterity": {
+		"prefix": "dexterity",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Dexterity\"&gt;Dexterity&lt;/LSTag&gt;"
+	},
+	"constitution": {
+		"prefix": "constitution",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Constitution\"&gt;Constitution&lt;/LSTag&gt;"
+	},
+	"intelligence": {
+		"prefix": "intelligence",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Intelligence\"&gt;Intelligence&lt;/LSTag&gt;"
+	},
+	"wisdom": {
+		"prefix": "wisdom",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Wisdom\"&gt;Wisdom&lt;/LSTag&gt;"
+	},
+	"charisma": {
+		"prefix": "charisma",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Charisma\"&gt;Charisma&lt;/LSTag&gt;"
 	}
 }

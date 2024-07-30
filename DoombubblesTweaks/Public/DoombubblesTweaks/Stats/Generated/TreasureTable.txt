@@ -70,6 +70,8 @@ new treasuretable "HAV_Thiefling_Trade"   {{/* Mattis, Last Light Inn */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_IntelligenceCaster_Material",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_WisdomCaster_Material",1,0,0,0,0,0,0,0
 
 new treasuretable "HAV_HarperQuarterMaster_Magic_Trade"  {{/* Quartermaster Talli, Last Light Inn */}}
 CanMerge 1
@@ -122,6 +124,12 @@ new treasuretable "LOW_Grotto_ShadowheartFriend"  {{/* Nocturne, House of Grief 
 CanMerge 1
 new subtable "4,1"
 object category "I_QUEST_GEM_Button",1,0,0,0,0,0,0,0
+
+
+new treasuretable "END_CircusTrader"  {{/* Koll the Red, Upper City */}}
+CanMerge 1
+new subtable "1,1"
+object category "I_DBT_Cloth_Material_2",1,0,0,0,0,0,0,0
 
 
 new treasuretable "WLD_Boar"
@@ -177,7 +185,7 @@ new subtable "-1"
 object category "I_DBT_ExtraAttack_Ring",1,0,0,0,0,0,0,0
 
 new treasuretable "INT_GishraLieutenat"
-new subtable "3,1"
+new subtable "2,1"
 object category "I_DBT_Cloth_Material",1,0,0,0,0,0,0,0
 
 

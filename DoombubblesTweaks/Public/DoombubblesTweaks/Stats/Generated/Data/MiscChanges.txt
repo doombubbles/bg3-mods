@@ -122,3 +122,72 @@ using "MAG_Force_UnarmedAttack_Passive"
 data "DisplayName" "hcf0ce1d8gc3d0g45b9g9f8ag48c7a0cb13ee"
 data "DescriptionParams" "DealDamage(1d8, Force)"
 data "Boosts" "CharacterUnarmedDamage(1d8, Force)"
+
+new entry "WPN_GOB_Club_BrandingTool_A"
+type "Weapon"
+using "WPN_Club"
+data "RootTemplate" "28373d60-893f-411c-a029-35c31665c821"
+data "Boosts" "UnlockSpell(Target_ApplyBrand)"
+
+
+new entry "Shoud_ApplyBrand"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GOB_PainPriest_DaggerSpell"
+data "SpellProperties" "DealDamage(1d6,Fire);ApplyStatus(SELF,ABSOLUTES_BRAND,100,1)"
+data "Icon" "Action_SoulBranding"
+data "DisplayName" "h7cc7adeag848fg491cga683g0faeaea082c3"
+data "Description" "h79bb4af0g3ca6g4817ga157g8679fde3dae8;4"
+data "TooltipStatusApply" "ApplyStatus(ABSOLUTES_BRAND,100,-1)"
+data "DescriptionParams" "DealDamage(1d6,Fire);"
+data "UseCosts" "ActionPoint:1"
+data "RequirementConditions" "not Tagged('BRANDED')"
+
+
+new entry "ABSOLUTES_BRAND"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h99f52818gf61cg4747ga16age70b9d87fe29"
+data "Description" "h352f5f74g0c11g4a7fgb02cgdecc84f7a1fa"
+data "Boosts" "Tag(BRANDED)"
+data "StatusPropertyFlags" "DisablePortraitIndicator;DisableCombatlog;ApplyToDead;IgnoreResting"
+
+
+new entry "MAG_BG_DragonsBreath_Glaive"
+type "Weapon"
+using "MAG_BG_DragonsBreath_Glaive"
+data "StatusInInventory" "DRAKETHROAT_GLAIVE_CAST"
+
+new entry "DRAKETHROAT_GLAIVE_CAST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hba1e047cgb3e6g49d2ga209gf6e6e1dfbecf"
+data "Icon" "Spell_Transmutation_ElementalWeapon"
+data "Boosts" "UnlockSpell(Target_MAG_ElementalWeapon_Temp)"
+// data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisablePortraitIndicator;DisableCombatlog;DisableOverhead"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead"
+
+{{ $elements := list "Acid" "Cold" "Fire" "Lightning" "Thunder" }}
+
+new entry "Target_MAG_ElementalWeapon_Temp"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ElementalWeapon"
+data "Cooldown" "OncePerRest"
+data "ContainerSpells" "{{ range $e := $elements }}Target_MAG_ElementalWeapon_Temp_{{$e}};{{end}}"
+
+{{ range $e := $elements }}
+new entry "Target_MAG_ElementalWeapon_Temp_{{$e}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MAG_ElementalWeapon_{{$e}}"
+data "Cooldown" "OncePerRest"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_TEMP_{{$e | upper}},100,-1);IF(not Item()):ApplyEquipmentStatus(MainHand,ELEMENTAL_WEAPON_TEMP_{{$e | upper}},100,-1)"
+
+new entry "ELEMENTAL_WEAPON_TEMP_{{$e | upper}}"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ELEMENTAL_WEAPON_{{$e | upper}}"
+data "RemoveConditions" "not HasStatus('DRAKETHROAT_GLAIVE_CAST', GetOwner(context.Source))"
+data "RemoveEvents" "OnTurn;OnStatusRemoved"
+{{ end }}

@@ -20,12 +20,27 @@ RuneDieMap:
   12:
     Low: 13
     High: 20
+Mastery:
+  1: 4
+  2: 8
+  3: 12
 Commands:
   Approach: ha9c9f67eg8646g4745g96c9gdeec52ba2318
   Drop: h2f2022a9gfcd3g4550gb304g0f51f0cef28c
   Flee: hd40fe859gd817g4320ga623g71640ea427ed
   Grovel: hb9d6f99ag5baeg4577g9543g7b81a9660684
   Halt: h2a126cc0gf3abg4035gb717gb99be82c5fbf
+Eyebites:
+  Asleep: h44d30647g1eedg4bdeg8824g1bca037dee7e
+  Panicked: hb5375d52g8456g4b07g930ag8eb7d3f1778a
+  Sickened: he34be15bg2ceag4a60gade8gd0d2a311ab52
+SpiritualWeapons:
+  Greataxe: h19cb4405g2b1cg4319gb8b7g239fd691e665
+  Greatsword: hbfbac8a7geda0g4e19gbc08g93a9cfb4ea46
+  Halberd: hfafeaa83gdf66g4348g94f9gfba033ca5db1
+  Maul: h60c39555g18a0g4697gb3d2ge55b0595d612
+  Spear: h529a41b4g1a8ag4982gb5fdg749810b67ac3
+  Trident: habcb21f1gab4cg4c83gbfc9g34eb0910a449
 Spells:
   "1":
     Frost:
@@ -47,14 +62,19 @@ Spells:
   "2":
     Blood:
       - Target_HoldPerson_DK
+      - Target_SpiritualWeapon_DK
     Unholy:
       - Target_AnimateDead_DK
     Death:
       - Throw_DeathGrip
       - Target_SacrificialPact
+      - Shout_BloodBoil
+      - Projectile_HowlingBlast
+      - Target_Outbreak
   "3":
+    Blood:
+      - Target_VampiricTouch_DK
     Frost:
-      - Zone_Frostscythe
       - Target_HungerOfHadar_DK
     Unholy:
       - Shout_SpiritGuardians_DK
@@ -70,12 +90,17 @@ Spells:
       - Target_AntiMagicZone
       - Teleportation_Revivify_DK
       - Target_HungerOfHadar_DK
+      - Target_VampiricTouch_DK
   "5":
+    Blood:
+      - Target_HoldMonster_DK
     Frost:
       - Zone_ConeOfCold_DK
     Unholy:
       - Target_CursedTome_WakeTheDead_DK
   "6":
+    Blood:
+      - Target_Eyebite_DK
     Frost:
       - Wall_WallOfIce_DK
     Unholy:

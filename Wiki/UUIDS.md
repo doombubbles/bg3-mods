@@ -12,6 +12,7 @@
 | A Staff of Ice and Fire             | `DBT_FrostFire_Staff`             | `d75bfa7e-aac9-482f-ae67-08a6e520af7a` |
 | Hat of Frostfire Acuity             | `DBT_FrostFire_Hat`               | `c4247b73-bb7a-4072-8bfc-a50f7b4e5a46` |
 | Thread of Uninhibited Kushigo       | `DBT_Cloth_Material`              | `5925af05-beb1-4561-9ba4-31738bda6179` |
+| Thread of Universal Kushigo         | `DBT_Cloth_Material_2`            | `a26780f7-ab09-455d-9051-8dc9290f38f7` |
 | The Physical Cloth                  | `DBT_Physical_Cloth`              | `a93ec861-f0ab-4da4-a083-d01fdb73d1e7` |
 | The Mental Cloth                    | `DBT_Mental_Cloth`                | `b822eb60-7f60-4941-8c17-d9ab69cd647f` |
 | The Universal Cloth                 | `DBT_Universal_Cloth`             | `efc3c81f-0eda-4dad-a963-401055ab0b60` |
@@ -20,6 +21,7 @@
 | Portent Robe                        | `DBT_IntelligenceCaster_Robe`     | `62599197-16f8-40cc-9294-2a7ce9141821` |
 | Potent Rope                         | `DBT_IntelligenceCaster_Material` | `38143e8f-7c6f-46eb-a5e8-79888cf0fdf8` |
 | Important Robe                      | `DBT_WisdomCaster_Robe`           | `fa50039b-1863-40b5-a431-26c40d29e2a4` |
+| Important Rose                      | `DBT_WisdomCaster_Material`       | `ebe2f3ec-8bbf-4b61-a99e-8cb390f85374` |
 | Silver Wyrmling Staff               | `DBT_Cold_Quarterstaff`           | `4e2348a5-7c5d-45fc-ad77-55cb99c6302f` |
 | Ruby Wyrmling Staff                 | `DBT_Force_Quarterstaff`          | `ce282515-7004-4dd9-a183-4201db2786dd` |
 | Bronze Wyrmling Staff               | `DBT_Lightning_Quarterstaff`      | `6cace241-2066-43d3-a044-f36e68b85e04` |

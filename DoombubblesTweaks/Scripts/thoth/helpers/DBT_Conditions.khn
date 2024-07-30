@@ -41,7 +41,8 @@ function EldritchBlastCheck()
       | SpellId('Projectile_MAG_EldritchBlast_Staff')
       | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
       | SpellId('Projectile_FireRay_Warlock')
-      | (IsSpell() & SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction', context.Source) & HasPassive('ThirstingBlade_Check', context.Source))
+      |
+      (IsSpell() & SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction', context.Source) & HasPassive('ThirstingBlade_Check', context.Source))
 end
 
 function FlySpellCheck()
@@ -213,8 +214,27 @@ function HasRuneWeapon()
   local entity = entity or context.Source
   local weaponEntity = GetActiveWeapon(entity, true)
   if weaponEntity.IsValid then
-    local result = Character(entity) & (HasAnyStatus({'RUNE_RAZORICE','RUNE_FALLEN_CRUSADER','RUNE_STONESKIN_GARGOYLE'}, {}, {}, weaponEntity))
+    local result = Character(entity) &
+        (HasAnyStatus({ 'RUNE_RAZORICE', 'RUNE_FALLEN_CRUSADER', 'RUNE_STONESKIN_GARGOYLE' }, {}, {}, weaponEntity))
     return ConditionResult(result.Result, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
   end
   return ConditionResult(false, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
+end
+
+function RuneSpellCheck()
+  return (
+    HasUseCosts('BloodRune') | HasUseCosts('FrostRune') | HasUseCosts('UnholyRune') | HasUseCosts('AnyRune') | HasUseCosts('BloodOrFrostRune') | HasUseCosts('BloodOrUnholyRune') | HasUseCosts('FrostOrUnholyRune') |
+    SpellId('Target_VampiricTouch_Free_DK') | SpellId('Target_Eyebite_Asleep_Free_DK') | SpellId('Target_Eyebite_Panicked_Free_DK') | SpellId('Target_Eyebite_Sickened_Free_DK') |
+    SpellId('Target_FrostStrike') | SpellId('Target_Obliterate_DW')  | SpellId('Target_Obliterate') |
+    SpellId('Target_DeathStrike')  | SpellId('Target_Marrowrend') | SpellId('Target_HeartStrike') |
+    SpellId('Target_ScourgeStrike')  | SpellId('Target_FesteringStrike')
+  )
+end
+
+function CarnageSpellCheck()
+  return HasUseCosts('ActionPoint') & RuneSpellCheck() & ~ExtraAttackSpellCheck()
+end
+
+function IsKillingBlowish()
+  return ~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1)
 end

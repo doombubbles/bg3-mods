@@ -67,7 +67,7 @@
   <content contentuid="hde95c872g12e0g43edg99eegbe29bd8539e0" version="1">You gain a Frost Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hc8f4f011ge8a7g4a6agb29age1bf06ba63a8" version="1">Frozen Heart</content>
-  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">All Cold damage you deal is increased by 1.</content>
+  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">The Cold damage dealt by your Rune spells is increased by 1.</content>
 
   <content contentuid="hdba145d9gd3b5g4223g9bb2g2a5e928b566c" version="1">Frost Strike</content>
   <content contentuid="h448adaceg9464g44a0g96b4ga01a6f757b7b" version="1">Chill your weapon with icy power and strike an enemy for a bonus [1] and slow their movement speed by [2] for 2 turns.</content>
@@ -103,7 +103,7 @@
   <content contentuid="ha4289bd6gc577g4f51gae4egc39b4be6e9b5" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to shackle a target with frozen chains, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
 
   <content contentuid="h59689f2eg1398g41ebgab3bgaec9751b4219" version="1">Path of Frost</content>
-  <content contentuid="hb024f73cg90a2g4044gba91g159407a7654e" version="1">Grant the target immunity to the effects of ice surfaces.</content>
+  <content contentuid="hb024f73cg90a2g4044gba91g159407a7654e" version="1">Grant a target immunity to the effects of ice surfaces.</content>
   <content contentuid="h0f8e4965g532cg4ef9g80beg1621de630a7d" version="1">You are immune to the effects of ice surfaces.</content>
   <content contentuid="hf31f843fg365ag4ffegb130gd2d868478ff2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to make yourself or an ally immune to the effects of Ice Surfaces.</content>
 
@@ -136,7 +136,7 @@
   <content contentuid="hf05664efgfe07g4b87ga5e3g64edfc6c1beb" version="1">Damage nearby enemies and inflict them with &lt;LSTag Type="Status" Tooltip="BLOOD_PLAGUE"&gt;Blood Plague&lt;/LSTag&gt;.</content>
 
   <content contentuid="h03045c4fg634ag4efegb96dgb349686d32d6" version="1">Blood Plague</content>
-  <content contentuid="ha1224b6cg481eg420bgaa13g359e598f75fa" version="1">Taking [1] per turn. Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against targets other than the Death Knight.</content>
+  <content contentuid="ha1224b6cg481eg420bgaa13g359e598f75fa" version="1">Draining [1] per turn. Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against targets other than the Death Knight.</content>
 
   <content contentuid="h9e672809g60fbg44f1g9af7gb59fe45d7335" version="1">Marrowrend</content>
   <content contentuid="hc857ea31gb601g4319ga792gedd0bfa96c02" version="1">Smash the target, dealing an extra [1] and gaining [2] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
@@ -145,6 +145,12 @@
 
   <content contentuid="h6a39ebd1ge80bg4316g8206g60cf48b0e550" version="1">Dark Succor</content>
   <content contentuid="h1ed81167g8940g4984gbd3dg072b9f71e0c0" version="1">Whenever you kill an enemy, your next &lt;LSTag Type="Spell" Tooltip="Target_DeathStrike"&gt;Death Strike&lt;/LSTag&gt; does not consume a &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h1f9812e7g157eg4fdfgb252gbbdf94056724" version="1">Crimson Scourge</content>
+  <content contentuid="h9d3e694bg69e3g4770gaf76g05eb3a753102" version="1">&lt;LSTag Type="Passive" Tooltip="DarkSuccor"&gt;Dark Succor&lt;/LSTag&gt; also makes your next &lt;LSTag Type="Spell" Tooltip="Target_DeathAndDecay"&gt;Death and Decay&lt;/LSTag&gt; consume no &lt;LSTag Type="ActionResource" Tooltip="BloodOrUnholyRune"&gt;Runes&lt;/LSTag&gt;, or your next &lt;LSTag Type="Spell" Tooltip="Target_DeathAndDecay_Recast"&gt;Death and Decay Recast&lt;/LSTag&gt; consume no resources.</content>
+
+  <content contentuid="h3a321b18g6ba5g484dg9813ge033e5d539be" version="1">Carnage</content>
+  <content contentuid="h18cbd986gdebeg402eg9f05g3acc845a6b3e" version="1">While you have &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, you can cast Rune spells as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 
 
@@ -155,10 +161,36 @@
   <content contentuid="h4d9ca6dbg96a7g40ebg951agb6b17db81350" version="1">You gain an Unholy Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h7fa255afgd600g40d6g94acge027cefe6a0d" version="1">Dreadblade</content>
-  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">Your attacks and the attacks of your summoned undead deal an extra [1].</content>
+  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">The attacks of your summoned Undead deal an extra [1].</content>
+  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">Attacks deal an extra [1].</content>
 
   <content contentuid="h1f84fc36g03e1g4264g812egfdb4f7c70d31" version="1">Death Coil</content>
   <content contentuid="h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" version="1">Fire a blast of unholy energy, causing [1] to an enemy target or restoring [2] to an allied Undead target.</content>
+
+  <content contentuid="he90698a3g23c3g4ef0g9941g3e601f5f1f4e" version="1">Festering Strike</content>
+  <content contentuid="hd73ab209g0483g498eg9e81g0804c87fa444" version="1">Strikes for an extra [1] and infects the target with &lt;LSTag Type="Status" Tooltip="FESTERING_WOUNDS"&gt;Festering Wounds&lt;/LSTag&gt;. When the wound expires, they take a further [2].</content>
+
+  <content contentuid="hee4dcf43g61beg4798g9982gf7143a8fea3d" version="1">Festering Wound</content>
+  <content contentuid="h2354ebe6gb628g4bf6g92f9g8fc7bbbfe739" version="1">Disadvantage on &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;. On removal, takes [1]. Further attacks from the Death Knight hasten removal.</content>
+
+  <content contentuid="h5390e245gc2eeg464eg8f3egd6549addd1f0" version="1">Outbreak</content>
+  <content contentuid="he9edb0feg97e0g45a8ga0a7g24b0561f492c" version="1">Infect surrounding enemies with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hd2e44806g085dg4cb5g897bg8b4d298a6f20" version="1">Virulent Plague</content>
+  <content contentuid="h5a6cf0adg5981g4624g8423g06ca6dd13f80" version="1">Takes [1] per turn. On death, deal [1] to creatures within [2] and possibly infect them with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h0e16a213gc40eg4d7dg9936g798bdc2996d1" version="1">Scourge Strike</content>
+  <content contentuid="ha55ed165g6ad3g44f9g8187g7a5deaf8f048" version="1">An unholy strike that deals an extra [1], plus an additional [1] for each Disease you've applied to the target.</content>
+
+  <content contentuid="h249ada55g19f5g4f4cg8ec7gd8cd83973898" version="1">Sudden Doom</content>
+  <content contentuid="hbfe516fdgc602g4171g9fe5g569688d7980e" version="1">When an enemy dies while infected with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virtulent Plague&lt;/LSTag&gt;, your next &lt;LSTag Type="Spell" Tooltip="Target_DeathCoil"&gt;Death Coil&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and no Runes.</content>
+  <content contentuid="hc283dde1g2bedg45c4g902cgff5a77f03b93" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_DeathCoil"&gt;Death Coil&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and no Runes.</content>
+
+  <content contentuid="h03fbdc15g5600g4c09g8debg15af54f2dfc6" version="1">Improved Death Coil</content>
+  <content contentuid="hef462443g560bg4dadgb97cga30552db67e9" version="1">&lt;LSTag Type="Spell" Tooltip="Target_DeathCoil"&gt;Death Coil&lt;/LSTag&gt; can target an additional creature.</content>
+
+  <content contentuid="h7bd0244ega26cg4926g8f29g01de5771079b" version="1">Superstrain</content>
+  <content contentuid="h28a2a031g12dfg4b1ag9dc9gd3efc89a38a8" version="1">When you apply &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;, also apply &lt;LSTag Type="Status" Tooltip="FROST_FEVER"&gt;Frost Fever&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="BLOOD_PLAGUE"&gt;Blood Plague&lt;/LSTag&gt; for [1] turns.</content>
 
   <content contentuid="h63314a8ag1c14g41ddga09dg1a9e6ad71340" version="1">Anti-Magic Shell</content>
   <content contentuid="h9b4092aegad19g4e7dga2bdg276a27e06c44" version="1">Become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing or Slashing.</content>
@@ -236,16 +268,26 @@
   <content contentuid="{{$handle}}" version="1">Dark Command: {{$command}}</content>
   {{- end}}
 
-  <content contentuid="h4518ce8ag4f35g4517gaabbgc69fcd3b3b76" version="1">Subduing Grasp</content>
+  <content contentuid="h4518ce8ag4f35g4517gaabbgc69fcd3b3b76" version="1">Subduing Grasp: Person</content>
   <content contentuid="h5dca01e1g0854g4d68g8c01gc73ddbd658be" version="1">Raise Ally</content>
   <content contentuid="h5c7fd873gfb58g4d1egb678g029a332977e2" version="1">Raise Dead</content>
   <content contentuid="hc3bb50c0gcfa1g4bffgad26g7541b0213518" version="1">Raise Dead: Skeleton(s)</content>
   <content contentuid="hfb628497gca79g4beagaab3g6a5d8468b681" version="1">Create [1] skeleton(s) that specialise in ranged combat.</content>
   <content contentuid="h90b1913egb4fag4bdcgb345g2b53a2487039" version="1">Raise Dead: Zombie(s)</content>
   <content contentuid="he5e51308g0e6eg454dg8e22gf18b16ac1a3c" version="1">Create [1] zombie(s) that specialise in melee combat.</content>
+  <content contentuid="h312cf7e1g7016g4777g808agef64dc4f2458" version="1">Dancing Rune Weapon</content>
+  <content contentuid="h19cb4405g2b1cg4319gb8b7g239fd691e665" version="1">Dancing Rune Weapon: Greataxe</content>
+  <content contentuid="hbfbac8a7geda0g4e19gbc08g93a9cfb4ea46" version="1">Dancing Rune Weapon: Greatsowrd</content>
+  <content contentuid="hfafeaa83gdf66g4348g94f9gfba033ca5db1" version="1">Dancing Rune Weapon: Halberd</content>
+  <content contentuid="h60c39555g18a0g4697gb3d2ge55b0595d612" version="1">Dancing Rune Weapon: Maul</content>
+  <content contentuid="h529a41b4g1a8ag4982gb5fdg749810b67ac3" version="1">Dancing Rune Weapon: Spear</content>
+  <content contentuid="habcb21f1gab4cg4c83gbfc9g34eb0910a449" version="1">Dancing Rune Weapon: Trident</content>
 
-  <content contentuid="h60647f04g0907g4a2fgae3cg3198d3a3ec4a" version="1">Spirit Guardians</content>
-  <content contentuid="hce15f55fg7951g4068g9e8fg5928e4267d75" version="1">Hunger of Hadar</content>
+  <content contentuid="h60647f04g0907g4a2fgae3cg3198d3a3ec4a" version="1">Unholy Aura</content>
+  <content contentuid="hce15f55fg7951g4068g9e8fg5928e4267d75" version="1">Absolute Zero</content>
+  <content contentuid="hdb66a1a9gda10g4fb9g89fcg872db299081e" version="1">San'layn Touch</content>
+  <content contentuid="h3dfb079bg1b04g471dg892dg09830a48fa27" version="1">For 10 turns, you can use San'layn Touch again without expending any additional Runes.</content>
+
 
   <content contentuid="hdde9350dge102g4b82g89abg962fde1b3e10" version="1">Avalanche</content>
   <content contentuid="h43d7fec8g351fg463agbddfgbbf27671eaf5" version="1">Defile</content>
@@ -253,9 +295,15 @@
 
   <content contentuid="h55b1a1b9ged72g4d4aga648g6897efc18e7e" version="1">Breath of Sindragosa</content>
   <content contentuid="hc20cfe19gdcdcg430bg88b0ga36dfc649701" version="1">Army of the Dead</content>
+  <content contentuid="hd7dfeb5fg8c5bg4841gb0f1g1e59da625705" version="1">Subduing Grasp: Monster</content>
 
   <content contentuid="h342a1142g34ddg4a38gacb6ge9794bb223af" version="1">Glacial Advance</content>
   <content contentuid="ha946752ag719eg4eacgae2bge586ec1d9577" version="1">Apocalypse</content>
   <content contentuid="he72599a8gcdbfg48d7gb877g08631e655b6f" version="1">Commander of the Dead</content>
+  <content contentuid="h713db710gad7dg426cg91f0ga5b12005844b" version="1">Bloodshot</content>
+  <content contentuid="h3a945e60ga8dbg42caga407g87ed793b5b2b" version="2">While &lt;LSTag Tooltip="Concentration"&gt;Concentrating&lt;/LSTag&gt;,  you may cast &lt;LSTag Type="Spell" Tooltip="Target_Eyebite_DK"&gt;Bloodshot&lt;/LSTag&gt; without expending any &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Runes&lt;/LSTag&gt;.</content>
+  <content contentuid="h44d30647g1eedg4bdeg8824g1bca037dee7e" version="1">Bloodshot: Asleep</content>
+  <content contentuid="hb5375d52g8456g4b07g930ag8eb7d3f1778a" version="1">Bloodshot: Panicked</content>
+  <content contentuid="he34be15bg2ceag4a60gade8gd0d2a311ab52" version="1">Bloodshot: Sickened</content>
 
 </contentList>

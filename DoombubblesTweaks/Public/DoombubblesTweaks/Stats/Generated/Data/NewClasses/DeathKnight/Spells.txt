@@ -1,4 +1,5 @@
-{{- $IsSpell := "" }}
+{{- $IsSpell := "" -}}
+{{- $_LVL := "" -}}
 
 // 1 Rune
 
@@ -8,8 +9,24 @@ data "SpellType" "Shout"
 using "Shout_ArmorOfAgathys"
 data "DisplayName" "hd4f2619eg171cg4974g9a97g55f1a81c1037"
 data "UseCosts" "ActionPoint:1;FrostRune:1"
+data "SpellFlags" "{{$IsSpell}};HasSomaticComponent;HasVerbalComponent;IsLinkedSpellContainer"
+data "Level" ""
+data "ContainerSpells" "{{range $lvl := list 1 2 3 4 5 6}}Shout_ArmorOfAgathys_{{$lvl}}_DK;{{end}}"
+
+{{ range $lvl := list 1 2 3 4 5 6 }}
+{{- $_LVL = (gt $lvl 1) | ternary (print "_" $lvl) "" }}
+new entry "Shout_ArmorOfAgathys_{{$lvl}}_DK"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_ArmorOfAgathys{{$_LVL}}"
+data "DisplayName" "hd4f2619eg171cg4974g9a97g55f1a81c1037"
+data "UseCosts" "ActionPoint:1;FrostRune:{{$lvl}}"
 data "SpellFlags" "{{$IsSpell}};HasSomaticComponent;HasVerbalComponent"
 data "Level" ""
+data "PowerLevel" ""
+data "RootSpellID" ""
+data "SpellContainerID" "Shout_ArmorOfAgathys_DK"
+{{ end }}
 
 new entry "Shout_ArmsOfHadar_DK"
 type "SpellData"
@@ -85,6 +102,23 @@ data "DisplayName" "h08193fe8gbf9dg48d4gac40g9b81c8571b0e"
 data "UseCosts" "ActionPoint:1;BloodRune:1"
 data "SpellFlags" "{{$IsSpell}};HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer"
 data "Level" ""
+data "ContainerSpells" "{{range $lvl := list 1 2 3 4 5 6}}Shout_FalseLife_{{$lvl}}_DK;{{end}}"
+
+{{ range $lvl := list 1 2 3 4 5 6 }}
+{{- $_LVL = (gt $lvl 1) | ternary (print "_" $lvl) "" }}
+new entry "Shout_FalseLife_{{$lvl}}_DK"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FalseLife{{$_LVL}}"
+data "DisplayName" "h08193fe8gbf9dg48d4gac40g9b81c8571b0e"
+data "UseCosts" "ActionPoint:1;BloodRune:{{$lvl}}"
+data "SpellFlags" "{{$IsSpell}};HasVerbalComponent;HasSomaticComponent"
+data "Level" ""
+data "PowerLevel" ""
+data "RootSpellID" ""
+data "SpellContainerID" "Shout_FalseLife_DK"
+{{ end }}
+
 
 // 2 Rune
 
@@ -127,10 +161,10 @@ data "DisplayName" "h5c7fd873gfb58g4d1egb678g029a332977e2"
 data "UseCosts" "ActionPoint:1;UnholyRune:2"
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;{{$IsSpell}};IsLinkedSpellContainer"
 data "Level" ""
-data "ContainerSpells" "{{range $num := list 1 2 3}}Target_AnimateDead_Skeleton_DK_{{$num}};Target_AnimateDead_Zombie_DK_{{$num}};{{end}}"
+data "ContainerSpells" "{{range $num := list 1 2 3}}Target_AnimateDead_{{$num}}_Skeleton_DK;Target_AnimateDead_{{$num}}_Zombie_DK;{{end}}"
 
 {{ range $num := list 1 2 3 }}
-new entry "Target_AnimateDead_Skeleton_DK_{{$num}}"
+new entry "Target_AnimateDead_{{$num}}_Skeleton_DK"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_AnimateDead_Skeleton"
@@ -144,7 +178,7 @@ data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;{{$IsSpell}};IgnorePre
 data "Level" ""
 data "PowerLevel" ""
 
-new entry "Target_AnimateDead_Zombie_DK_{{$num}}"
+new entry "Target_AnimateDead_{{$num}}_Zombie_DK"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_AnimateDead_Zombie"
@@ -159,6 +193,28 @@ data "Level" ""
 data "PowerLevel" ""
 {{ end }}
 
+
+new entry "Target_SpiritualWeapon_DK"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SpiritualWeapon"
+data "DisplayName" "h312cf7e1g7016g4777g808agef64dc4f2458"
+data "UseCosts" "ActionPoint:1;BloodRune:2"
+data "SpellFlags" "{{$IsSpell}};HasSomaticComponent;HasVerbalComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter"
+data "Level" ""
+data "ContainerSpells" "{{range $wpn, $_ := $.DK.SpiritualWeapons}}Target_SpiritualWeapon_{{$wpn}}_DK;{{end}}"
+
+{{range $wpn, $name := $.DK.SpiritualWeapons}}
+new entry "Target_SpiritualWeapon_{{$wpn}}_DK"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SpiritualWeapon_{{$wpn}}"
+data "DisplayName" "{{$name}}"
+data "UseCosts" "ActionPoint:1;BloodRune:2"
+data "SpellFlags" "{{$IsSpell}};HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter"
+data "Level" ""
+data "SpellContainerID" "Target_SpiritualWeapon_DK"
+{{end}}
 
 // 3 Rune
 
@@ -180,6 +236,35 @@ data "DisplayName" "hce15f55fg7951g4068g9e8fg5928e4267d75"
 data "UseCosts" "ActionPoint:1;FrostRune:2;UnholyRune:1"
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;{{$IsSpell}};CannotTargetItems"
 data "Level" ""
+
+new entry "Target_VampiricTouch_DK"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_VampiricTouch"
+data "DisplayName" "hdb66a1a9gda10g4fb9g89fcg872db299081e"
+data "ExtraDescription" "h3dfb079bg1b04g471dg892dg09830a48fa27"
+data "UseCosts" "ActionPoint:1;BloodRune:2;UnholyRune:1"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;{{$IsSpell}};IsMelee;IsConcentration;IsHarmful"
+data "Level" ""
+data "ConcentrationSpellID" "Target_VampiricTouch_Free_DK"
+data "SpellProperties" "ApplyStatus(SELF,VAMPIRIC_TOUCH_DK,100,10)"
+data "TooltipStatusApply" "ApplyStatus(VAMPIRIC_TOUCH_DK,100,10)"
+
+new entry "Target_VampiricTouch_Free_DK"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_VampiricTouch_Free"
+data "DisplayName" "hdb66a1a9gda10g4fb9g89fcg872db299081e"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsMelee;{{$IsSpell}};IsHarmful;Temporary"
+data "Level" ""
+
+new entry "VAMPIRIC_TOUCH_DK"
+type "StatusData"
+data "StatusType" "BOOST"
+using "VAMPIRIC_TOUCH"
+data "DisplayName" "hdb66a1a9gda10g4fb9g89fcg872db299081e"
+data "Boosts" "UnlockSpell(Target_VampiricTouch_Free_DK)"
+data "FollowUpOriginalSpell" "Target_VampiricTouch_DK"
 
 // 4 Rune
 
@@ -207,6 +292,7 @@ data "SpellType" "Target"
 using "Target_AnimateDead"
 data "DisplayName" "h24cd4c24gc89dg458ag8ddag854573bd898a"
 data "UseCosts" "ActionPoint:1;UnholyRune:4"
+data "Icon" "Spell_Necromancy_AnimateDead_HigherLevel"
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;{{$IsSpell}};IgnorePreviouslyPickedEntities"
 data "Level" ""
 data "RootSpellID" ""
@@ -218,7 +304,7 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_AnimateDead_Ghoul"
 data "UseCosts" "ActionPoint:1;UnholyRune:4"
-data "SpellContainerID" "Target_AnimateDead_DK"
+data "SpellContainerID" "Target_AnimateDead_Improved_DK"
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;{{$IsSpell}};IgnorePreviouslyPickedEntities"
 data "Level" ""
 data "RootSpellID" ""
@@ -229,7 +315,7 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_AnimateDead_FlyingGhoul"
 data "UseCosts" "ActionPoint:1;UnholyRune:4"
-data "SpellContainerID" "Target_AnimateDead_DK"
+data "SpellContainerID" "Target_AnimateDead_Improved_DK"
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;{{$IsSpell}};IgnorePreviouslyPickedEntities"
 data "Level" ""
 data "RootSpellID" ""
@@ -256,6 +342,15 @@ data "UseCosts" "ActionPoint:1;UnholyRune:5"
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsHarmful;{{$IsSpell}}"
 data "Level" ""
 data "Cooldown" ""
+
+new entry "Target_HoldMonster_DK"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HoldMonster"
+data "DisplayName" "hd7dfeb5fg8c5bg4841gb0f1g1e59da625705"
+data "UseCosts" "ActionPoint:1;BloodRune:5"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsHarmful;{{$IsSpell}}"
+data "Level" ""
 
 // 6 Rune
 
@@ -285,3 +380,42 @@ data "DisplayName" "he72599a8gcdbfg48d7gb877g08631e655b6f"
 data "UseCosts" "ActionPoint:1;UnholyRune:6"
 data "SpellFlags" "{{$IsSpell}};HasVerbalComponent;HasSomaticComponent"
 data "Level" ""
+
+new entry "Target_Eyebite_DK"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Eyebite"
+data "DisplayName" "h713db710gad7dg426cg91f0ga5b12005844b"
+data "ExtraDescription" "h3a945e60ga8dbg42caga407g87ed793b5b2b"
+data "UseCosts" "ActionPoint:1;BloodRune:6"
+data "SpellFlags" "HasSomaticComponent;HasVerbalComponent;{{$IsSpell}};IsLinkedSpellContainer;IsConcentration;IsHarmful"
+data "Level" ""
+data "TooltipStatusApply" "ApplyStatus(EYEBITE_SELF_DK,100,10)"
+data "ContainerSpells" "{{range $effect, $_ := $.DK.Eyebites}}Target_Eyebite_{{$effect}}_DK;{{end}}"
+
+{{range $effect, $name := $.DK.Eyebites}}
+new entry "Target_Eyebite_{{$effect}}_DK"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Eyebite_{{$effect}}"
+data "DisplayName" "{{$name}}"
+data "UseCosts" "ActionPoint:1;BloodRune:6"
+data "SpellFlags" "HasSomaticComponent;HasVerbalComponent;{{$IsSpell}};IsConcentration;CannotTargetItems;CannotTargetTerrain;IsHarmful"
+data "Level" ""
+data "SpellProperties" "ApplyStatus(SELF,EYEBITE_SELF_DK,100,10)"
+
+new entry "Target_Eyebite_{{$effect}}_Free_DK"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Eyebite_{{$effect}}_Free"
+data "DisplayName" "{{$name}}"
+data "SpellFlags" "HasSomaticComponent;HasVerbalComponent;{{$IsSpell}};CannotTargetItems;CannotTargetTerrain;Temporary;IsHarmful"
+data "Level" ""
+{{end}}
+
+new entry "EYEBITE_SELF_DK"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EYEBITE_SELF"
+data "DisplayName" "h713db710gad7dg426cg91f0ga5b12005844b"
+data "Boosts" "{{range $effect, $_ := $.DK.Eyebites}}UnlockSpell(Target_Eyebite_{{$effect}}_Free_DK);{{end}}"

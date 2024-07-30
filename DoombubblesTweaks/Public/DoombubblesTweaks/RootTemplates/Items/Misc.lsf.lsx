@@ -243,18 +243,48 @@
           </children>
         </node>
 
-        
-				<node id="GameObjects">
-					<attribute id="DisplayName" type="TranslatedString" handle="h52bf5080gebc1g48abgae84ga30dbdc9112d" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="h8bd3dd8ag8670g4d87ga230g8479ed96dcc9" version="1" />
-					<attribute id="Icon" type="FixedString" value="Item_LOOT_Dye_BlackRed_01" />
-					<attribute id="MapKey" type="FixedString" value="e43d8f32-0d34-40f4-a344-4f8688754d6e" />
-					<attribute id="Name" type="LSString" value="Black_Dye" />
-					<attribute id="Stats" type="FixedString" value="Black_Dye" />
-					<attribute id="ColorPreset" type="guid" value="873fc4c9-16bd-4fef-b18c-6f475364b456" />
-					<attribute id="ParentTemplateId" type="FixedString" value="1a750a66-e5c2-40be-9f62-0a4bf3ddb403" />
-					<attribute id="Type" type="FixedString" value="item" />
-				</node>
+
+        <node id="GameObjects">
+          <attribute id="DisplayName" type="TranslatedString" handle="h52bf5080gebc1g48abgae84ga30dbdc9112d" version="1" />
+          <attribute id="Description" type="TranslatedString" handle="h8bd3dd8ag8670g4d87ga230g8479ed96dcc9" version="1" />
+          <attribute id="Icon" type="FixedString" value="Item_LOOT_Dye_BlackRed_01" />
+          <attribute id="MapKey" type="FixedString" value="e43d8f32-0d34-40f4-a344-4f8688754d6e" />
+          <attribute id="Name" type="LSString" value="Black_Dye" />
+          <attribute id="Stats" type="FixedString" value="Black_Dye" />
+          <attribute id="ColorPreset" type="guid" value="873fc4c9-16bd-4fef-b18c-6f475364b456" />
+          <attribute id="ParentTemplateId" type="FixedString" value="1a750a66-e5c2-40be-9f62-0a4bf3ddb403" />
+          <attribute id="Type" type="FixedString" value="item" />
+        </node>
+
+
+
+        <node id="GameObjects">
+          <attribute id="DisplayName" type="TranslatedString" handle="hf7fb2181gf1bcg447agb7b1g9c0aef4575e2" version="1" />
+          <attribute id="Description" type="TranslatedString" handle="hcdcdc8b5g4df4g4eebga536g59d6c5b54240" version="1" />
+          <attribute id="Icon" type="FixedString" value="Item_ALCH_Ingredient_Herb_NightOrchid" />
+          <attribute id="MapKey" type="FixedString" value="ebe2f3ec-8bbf-4b61-a99e-8cb390f85374" />
+          <attribute id="Name" type="LSString" value="DBT_WisdomCaster_Material" />
+          <attribute id="OnUseDescription" type="TranslatedString" handle="h040b1f64g325eg4b46gb957gc2347cf3fb0d" version="1" />
+          <attribute id="Stats" type="FixedString" value="DBT_WisdomCaster_Material" />
+          <attribute id="ParentTemplateId" type="FixedString" value="11f6de17-4682-419c-808f-8a328d2cce15" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <children>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="23"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="CombineSlots" type="int8" value="1"/>
+                      <attribute id="IsBase" type="bool" value="True"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
 
       </children>
     </node>

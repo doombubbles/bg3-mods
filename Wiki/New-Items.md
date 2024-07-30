@@ -24,9 +24,11 @@
 
 **The Mental Cloth** - Combines most of the effects of The Cunning Cloth, The Lucid Cloth, and The Splendid Cloth. Combine using a Thread of Uninhibited Kushigo dropped by Oprheus' Honour Guard.
 
-**The Universal Cloth** - Combines most of the effects of The Physical Cloth and The Mental Cloth. Combine using a Thread of Uninhibited Kushigo, and supply the final power up using the Orphic Ring (loot).
+**The Universal Cloth** - Combines most of the effects of The Physical Cloth and The Mental Cloth. Combine using a Thread of Universal Kushigo, purchased from Koll the Red at High Hall.
 
 **Portent Robe** - Version of the Potent Robe that scales with Intelligence instead of Charisma. Can be created from the Potent Robe by combining using a 'Potent Rope' sold by Mattis at Last Light Inn.
+
+**Important Robe** - Version of the Potent Robe that scales with Wisdom instead of Charisma. Can be created from the Portent Robe by combining using an 'Important Rose' sold by Mattis at Last Light Inn.
 
 **Gloves of Finesse** - Lets you Sneak Attack with non-finesse weapons. Sold by Sticky Dondo at the Guildhall.
 
