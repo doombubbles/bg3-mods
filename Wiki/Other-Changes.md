@@ -44,4 +44,4 @@ Arcana Domain now gets Mage Armor instead of Detect Magic, Counterspell instead 
 
 Arcane Firearm changed to {{ get .loca "h3a5390c0gc1c0g4ebeg851fg634bb80d803c" | quote }}
 
-This makes the effect actually passive and actually apply well to AOE spells.
+This makes it actually follow the BG3 precedent of changing "add to one damage roll" effects like Empowered Evocation to be always applying.

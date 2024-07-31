@@ -26,8 +26,8 @@ jobs:
         run: ./bin/ProcessTemplates -s Wiki -d build/Wiki -v DoombubblesTweaks -v build/DoombubblesTweaks/Localization
           
       - name: Upload to Wiki
-        uses: SwiftDocOrg/github-wiki-publish-action@v1
+        uses: Andrew-Chen-Wang/github-wiki-action@v4
         with:
-          path: "build/Wiki"
-        env:
-          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+          strategy: init
+          token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+          path: build/Wiki/

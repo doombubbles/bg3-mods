@@ -23,6 +23,7 @@ var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
 var nonTemplateExtensions = []string{
 	".dds",
+	".png",
 }
 
 var src (string)
