@@ -4,10 +4,8 @@ on:
   push:
     branches: ['*']
     tags: ['*']
-    paths-ignore: 
-      - "**/*.md"
-      - "Wiki/**/*"
-      - "**/wiki.yml"
+    paths:
+      - "DoombubblesTweaks"
 
 env:
   PROJECT_NAME: DoombubblesTweaks

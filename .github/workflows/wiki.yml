@@ -5,6 +5,7 @@ on:
     branches: ['main']
     paths:  
       - "Wiki/**/*"
+      - "**/wiki.yml"
 
 env:
   PROJECT_NAME: DoombubblesTweaks
@@ -18,6 +19,10 @@ jobs:
 
       - name: Set Permissions
         run: chmod +x ./bin/ProcessTemplates
+
+      - name: Prepare Wiki Folder
+        run: |
+          mv Wiki/README.md Wiki/Home.md
 
       - name: Process Mod Templates
         run: ./bin/ProcessTemplates

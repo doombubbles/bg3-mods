@@ -31,7 +31,7 @@
 ##### New Classes
 
 - [[ Witch | Witch ]]
-- [[ Death Knight | DeathKnight ]]
+- [[ Death Knight | Death-Knight ]]
 
 ##### New Subclasses
 
