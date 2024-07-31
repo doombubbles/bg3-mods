@@ -10,7 +10,7 @@
           <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(BloodRune,1,0);ActionResource(FrostRune,1,0);ActionResource(UnholyRune,1,0)"/>
           <attribute id="Level" type="uint8" value="1"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
-          <attribute id="PassivesAdded" type="LSString" value="Lichborne;RuneCasting;UnlockedRuneLevel1"/>
+          <attribute id="PassivesAdded" type="LSString" value="Lichborne;RuneCasting;UnlockedRuneLevel1;RuneCastingTutorialFix"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value="SelectSkills(d0f1174b-869a-4827-ad33-a79b8455a897,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);AddSpells(709fe78d-55b8-4756-997c-63593cc06fe9,,,,AlwaysPrepared)"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
@@ -22,7 +22,7 @@
           <attribute id="IsMulticlass" type="bool" value="true"/>
           <attribute id="Level" type="uint8" value="1"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
-          <attribute id="PassivesAdded" type="LSString" value="RuneCasting;UnlockedRuneLevel1"/>
+          <attribute id="PassivesAdded" type="LSString" value="RuneCasting;UnlockedRuneLevel1;RuneCastingTutorialFix"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value="AddSpells(709fe78d-55b8-4756-997c-63593cc06fe9,,,,AlwaysPrepaered)"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
@@ -34,6 +34,7 @@
           <attribute id="Level" type="uint8" value="2"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
           <attribute id="PassivesAdded" type="LSString" value="Runeforging;StoneskinGargoyle"/>
+          <attribute id="PassivesRemoved" type="LSString" value="RuneCastingTutorialFix"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value="SelectSpells(24b88839-1dda-4bee-901d-86b944385762,2,0,RuneSpell,,,AlwaysPrepared);SelectPassives(61085dc4-b210-48ee-8a57-747bbf2d7881,1,FightingStyle)"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>

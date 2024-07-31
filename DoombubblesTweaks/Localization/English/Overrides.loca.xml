@@ -32,9 +32,9 @@
 
   <content contentuid="hb48f4cd6gd2f9g47f6ga8f9g54ba995bd988" version="1">Affected entity has a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until death.</content>
 
-  <content contentuid="h2610ebdbg7852g4783ga76cg0c67ed2f75dc" version="1">Has earned Shar's approval through their charming nature. Has a +[1] bonus to &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; until death.</content>
-  <content contentuid="h081d28d5g11e6g4d5fgb922g07db502bb23f" version="1">Has earned Shar's approval through an impressive display of wit. Has a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; until death.</content>
-  <content contentuid="h8ac40669g106dg446eg9160g19f355946fa6" version="1">Has earned Shar's approval through a demonstration of their good sense. Has a +[1] bonus to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; until death.</content>
+  <content contentuid="h2610ebdbg7852g4783ga76cg0c67ed2f75dc" version="1">Has earned Shar's approval through their charming nature. Has a +1 bonus to &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; until death.</content>
+  <content contentuid="h081d28d5g11e6g4d5fgb922g07db502bb23f" version="1">Has earned Shar's approval through an impressive display of wit. Has a +1 bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; until death.</content>
+  <content contentuid="h8ac40669g106dg446eg9160g19f355946fa6" version="1">Has earned Shar's approval through a demonstration of their good sense. Has a +1 bonus to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; until death.</content>
 
   <content contentuid="h315d0a43ged8eg4d9agbcb6gd2208b3a08aa" version="1">When you inflicts a condition, gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; for 2 turns.</content>
   <content contentuid="h757091c2gd122g4859g8bfbg875d7baf0eff" version="1">Whenever you deal damage to an enemy within [1], gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; for [2] turns.</content>
@@ -51,6 +51,6 @@
 
   <!-- Other Mods -->
 
-  <content contentuid="h3a5390c0gc1c0g4ebeg851fg634bb80d803c" version="1">You know how to utilize a staff as an arcane firearm--a conduit for your destructive spells. While wielding a staff, add 1d8 to the initial Damage Rolls of your spells.</content>
+  <content contentuid="h3a5390c0gc1c0g4ebeg851fg634bb80d803c" version="1">You know how to utilize a staff as an arcane firearm--a conduit for your destructive spells. While wielding a staff, you can add an extra 1d8 to damage rolls with your spells.</content>
 
 </contentList>

@@ -36,19 +36,22 @@ using "MAG_Warlock_Quickened_Cantrips_Passive"
 data "DisplayName" "{{.DisplayName}}"
 data "Description" "{{.Description}}"
 data "Icon" "{{.Icon}}"
-data "StatsFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_AVAILABLE)"
 data "ToggleOnFunctors" "ApplyStatus(QUICKENED_{{$CANTRIP}}_ON, 100, -1)"
 data "ToggleOffFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_ON)"
 data "ToggleOffContext" ""
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnCreate;OnInventoryChanged"
 {{- if $.Balance.QuickenedCantripsPerCombat }}
+data "StatsFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_AVAILABLE)"
 data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn"
 data "Boosts" "UnlockSpellVariant(SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff'), ModifyTooltipDescription(), ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
 data "Conditions" "SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff') and HasStatus('QUICKENED_{{$CANTRIP}}_AVAILABLE', context.Source)"
 data "BoostConditions" "HasStatus('QUICKENED_{{$CANTRIP}}_AVAILABLE',context.Source)"
 {{- else }}
-data "Properties" "IsToggled;ToggledDefaultAddToHotbar;Temporary;OncePerShortRest"
-data "Boosts" "UnlockSpellVariant(SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff'), ModifyIconGlow(), ModifyTooltipDescription(), ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
+data "EnabledContext" "OnCastResolved;OnActionResourcesChanged;OnShortRest"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff') and HasStatus('QUICKENED_{{$CANTRIP}}_ON', context.Source)"
+data "StatsFunctors" "RemoveStatus(QUICKENED_{{$CANTRIP}}_ON)"
+data "Properties" "IsToggled;Temporary;OncePerShortRest"
 {{- end }}
 
 new entry "Quickened{{$cantrip}}_Trigger"
@@ -63,7 +66,6 @@ data "Conditions" "Combat()"
 data "StatsFunctors" "ApplyStatus(QUICKENED_{{$CANTRIP}}_AVAILABLE,100,-1)"
 {{- end }}
 
-// This is just to trigger the BoostContext
 new entry "QUICKENED_{{$CANTRIP}}_ON"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -72,6 +74,9 @@ data "Description" "{{.Description}}"
 data "Icon" "{{.Icon}}"
 data "StackId" "QUICKENED_{{$CANTRIP}}_ON"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+{{- if not $.Balance.QuickenedCantripsPerCombat }}
+data "Boosts" "UnlockSpellVariant(SpellId('{{.SpellType}}_MAG_{{$cantrip}}_Staff'), ModifyIconGlow(), ModifyTooltipDescription(), ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
+{{- end }}
 
 new entry "QUICKENED_{{$CANTRIP}}_AVAILABLE"
 type "StatusData"

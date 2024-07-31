@@ -164,8 +164,7 @@ data "StatusType" "BOOST"
 data "DisplayName" "hba1e047cgb3e6g49d2ga209gf6e6e1dfbecf"
 data "Icon" "Spell_Transmutation_ElementalWeapon"
 data "Boosts" "UnlockSpell(Target_MAG_ElementalWeapon_Temp)"
-// data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisablePortraitIndicator;DisableCombatlog;DisableOverhead"
-data "StatusPropertyFlags" "IgnoreResting;ApplyToDead"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisablePortraitIndicator;DisableCombatlog;DisableOverhead"
 
 {{ $elements := list "Acid" "Cold" "Fire" "Lightning" "Thunder" }}
 
