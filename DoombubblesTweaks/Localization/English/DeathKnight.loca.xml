@@ -17,9 +17,9 @@
   <content contentuid="h1850d71fg3639g468agb007g649e6200d3ff" version="1">Deals an extra [1].</content>
 
   <content contentuid="hc1257d3ag3be8g4794ga1deg7acefdb1f8d1" version="1">Runeforge: Fallen Crusader</content>
-  <content contentuid="hf14f6741g6c07g4322ga0edg5bb580209a8b" version="1">Engrave your weapon(s) with a rune that restores [1] on a hit.</content>
+  <content contentuid="hf14f6741g6c07g4322ga0edg5bb580209a8b" version="1">Engrave your weapon(s) with a rune that restores [1] when you hit an enemy in combat.</content>
   <content contentuid="hbbbdcf56g644bg4b71ga4ceg0ad4d4666afb" version="1">Rune of the Fallen Crusader</content>
-  <content contentuid="hcb4954a7g43cbg486egb6bfg8ac17fbac347" version="1">Restores [1] on a hit while in combat.</content>
+  <content contentuid="hcb4954a7g43cbg486egb6bfg8ac17fbac347" version="1">Restores [1] when you hit an enemy in combat.</content>
 
   <content contentuid="hf6237d90gdec1g47c1g9effgb79e367e25ff" version="1">Runeforge: Stoneskin Gargoyle</content>
   <content contentuid="h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" version="1">Engrave your weapon with a rune that gives its wielder +1 &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;. Works only for weapons being wielded with two hands.</content>

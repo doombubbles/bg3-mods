@@ -32,6 +32,9 @@
 
 - [[ Witch | Witch ]]
 - [[ Death Knight | Death-Knight ]]
+  - [[ Blood | Death-Knight---Blood ]]
+  - [[ Frost | Death-Knight---Frost ]]
+  - [[ Unholy | Death-Knight---Unholy ]]
 
 ##### New Subclasses
 

@@ -113,3 +113,10 @@ type "PassiveData"
 using "ShadowBlade_Passive"
 data "BoostContext" ""
 data "Boosts" "IF(IsMeleeWeaponAttack() and not HasObscuredState(ObscuredState.Clear, context.Target)):Advantage(AttackRoll)"
+
+
+new entry "CLICK_HEELS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CLICK_HEELS"
+data "Boosts" "ActionResourceMultiplier(Movement,200,0);IF(IsReactionAttack(context.Source)):Disadvantage(AttackTarget)"

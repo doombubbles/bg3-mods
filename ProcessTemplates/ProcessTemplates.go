@@ -242,6 +242,14 @@ func include(tmpl *template.Template) func(name string, data interface{}) (strin
 	}
 }
 
+func getf(obj Values, key string, args ...interface{}) string {
+	format := ""
+	if val, ok := obj[key].(string); ok {
+		format = val
+	}
+	return fmt.Sprintf(format, args...)
+}
+
 func processFile(path string, info os.FileInfo, err error, values Values) error {
 	if err != nil {
 		log.Printf("prevent panic by handling failure accessing a path %q: %v\n", path, err)
@@ -302,6 +310,7 @@ func processFile(path string, info os.FileInfo, err error, values Values) error 
 	tmpl := template.New("template").Funcs(sprig.FuncMap())
 	tmpl.Funcs(template.FuncMap{
 		"include": include(tmpl),
+		"getf": getf,
 	})
 
 	_, err = tmpl.Parse(text)
