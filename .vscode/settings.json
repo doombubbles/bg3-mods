@@ -48,7 +48,13 @@
     "${workspaceFolder}/lib"
   ],
   "Lua.workspace.preloadFileSize": 2000,
-  "Lua.diagnostics.globals": [
-    "ConditionError"
-  ]
+  "Lua.diagnostics.globals": ["ConditionError"],
+  "emmet.excludeLanguages": [],
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.includeLanguages": {
+    "markdown": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": false,
+  "emmet.useInlineCompletions": true
 }

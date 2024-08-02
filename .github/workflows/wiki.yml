@@ -33,6 +33,5 @@ jobs:
       - name: Upload to Wiki
         uses: Andrew-Chen-Wang/github-wiki-action@v4
         with:
-          strategy: init
-          token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
           path: build/Wiki/
+          token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}

@@ -1,0 +1,202 @@
+{
+	"locale string": {
+		"prefix": [
+			"content",
+			"loca",
+			"con"
+		],
+		"scope": "xml",
+		"body": [
+			"<content contentuid=\"h${UUID/-/g/g}\" version=\"1\">${1}</content>"
+		]
+	},
+	"status": {
+		"prefix": "status",
+		"scope": "xml",
+		"body": "&lt;LSTag Type=\"Status\" Tooltip=\"$1\"&gt;$2&lt;/LSTag&gt;$0",
+	},
+	"spell": {
+		"prefix": "spell",
+		"scope": "xml",
+		"body": "&lt;LSTag Type=\"Spell\" Tooltip=\"$1\"&gt;$2&lt;/LSTag&gt;$0",
+	},
+	"spellslot": {
+		"prefix": "spellslot",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"SpellSlot\"&gt;spell slot&lt;/LSTag&gt;"
+	},
+	"warlockspellslot": {
+		"prefix": "warlockspellslot",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"WarlockSpellSlot\"&gt;Warlock spell slot&lt;/LSTag&gt;"
+	},
+	"proficiencybonus": {
+		"prefix": "proficiencybonus",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"ProficiencyBonus\"&gt;Proficiency Bonus&lt;/LSTag&gt;"
+	},
+	"actionresource": {
+		"prefix": "actionresource",
+		"scope": "xml",
+		"body": "&lt;LSTag Type=\"ActionResource\" Tooltip=\"$1\"&gt;$2&lt;/LSTag&gt;$0"
+	},
+	"proficie": {
+		"prefix": "proficie",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Proficiency\"&gt;Proficien$1&lt;/LSTag&gt;$0"
+	},
+	"shortrest": {
+		"prefix": "shortrest",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"ShortRest\"&gt;Short Rest&lt;/LSTag&gt;"
+	},
+	"longrest": {
+		"prefix": "longrest",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"LongRest\"&gt;Long Rest&lt;/LSTag&gt;"
+	},
+	"spellslots": {
+		"prefix": "spellslot",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"SpellSlot\"&gt;spell slot&lt;/LSTag&gt;"
+	},
+	"alwaysprepared": {
+		"prefix": "alwaysprepared",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"AlwaysPrepared\"&gt;Always Prepared&lt;/LSTag&gt;"
+	},
+	"criticalhit": {
+		"prefix": "criticalhit",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"CriticalHit\"&gt;Critical Hit&lt;/LSTag&gt;"
+	},
+	"passive": {
+		"prefix": "passive",
+		"scope": "xml",
+		"body": "&lt;LSTag Type=\"Passive\" Tooltip=\"$1\"&gt;$2&lt;/LSTag&gt;$0"
+	},
+	"savingthrows": {
+		"prefix": "savingthrows",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"SavingThrows\"&gt;Saving Throws&lt;/LSTag&gt;$0"
+	},
+	"armorclass": {
+		"prefix": "armorclass",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"ArmorClass\"&gt;Armour Class&lt;/LSTag&gt;$0"
+	},
+	"difficultyclass": {
+		"prefix": [
+			"dc",
+			"difficultyclass"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"DifficultyClass\"&gt; DC&lt;/LSTag&gt;"
+	},
+	"spelldifficultyclass": {
+		"prefix": [
+			"spelldifficultyclass",
+			"spellsave",
+			"spelldc"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"SpellDifficultyClass\"&gt;Spell Save DC&lt;/LSTag&gt;"
+	},
+	"abilityscore": {
+		"prefix": [
+			"abilityscore",
+			"abilities"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Abilities\"&gt;Ability Score&lt;/LSTag&gt;"
+	},
+	"temporaryhitpoints": {
+		"prefix": [
+			"temphp",
+			"temporaryhp",
+			"temporaryhitpoints",
+			"temphitpoints"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"TemporaryHitPoints\"&gt;temporary hit points&lt;/LSTag&gt;"
+	},
+	"resistance": {
+		"prefix": [
+			"resistance"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Resistant\"&gt;Resistance&lt;/LSTag&gt;"
+	},
+	"resistant": {
+		"prefix": [
+			"resistant"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Resistant\"&gt;Resistant&lt;/LSTag&gt;"
+	},
+	"concentration": {
+		"prefix": [
+			"concentration"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Concentration\"&gt;concentration&lt;/LSTag&gt;"
+	},
+	"hitpoints": {
+		"prefix": [
+			"hp",
+			"hitpoints"
+		],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"HitPoints\"&gt;hit points&lt;/LSTag&gt;"
+	},
+	"disadvantage": {
+		"prefix": "disadvantage",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Disadvantage\"&gt;Disadvantage&lt;/LSTag&gt;"
+	},
+	"advantage": {
+		"prefix": "advantage",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Advantage\"&gt;Advantage&lt;/LSTag&gt;"
+	},
+	"attackroll": {
+		"prefix": "attackroll",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"AttackRoll\"&gt;Attack Roll$1&lt;/LSTag&gt;$0"
+	},
+	"spelllist": {
+		"prefix": "spelllist",
+		"scope": "xml",
+		"body": "<node id=\"SpellList\">\n  <attribute id=\"Comment\" type=\"LSString\" value=\"$1\"/>\n  <attribute id=\"Spells\" type=\"LSString\" value=\"$0\"/>\n  <attribute id=\"UUID\" type=\"guid\" value=\"$UUID\"/>\n</node>"
+	},
+	"strength": {
+		"prefix": "strength",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Strength\"&gt;Strength&lt;/LSTag&gt;"
+	},
+	"dexterity": {
+		"prefix": "dexterity",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Dexterity\"&gt;Dexterity&lt;/LSTag&gt;"
+	},
+	"constitution": {
+		"prefix": "constitution",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Constitution\"&gt;Constitution&lt;/LSTag&gt;"
+	},
+	"intelligence": {
+		"prefix": "intelligence",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Intelligence\"&gt;Intelligence&lt;/LSTag&gt;"
+	},
+	"wisdom": {
+		"prefix": "wisdom",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Wisdom\"&gt;Wisdom&lt;/LSTag&gt;"
+	},
+	"charisma": {
+		"prefix": "charisma",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Charisma\"&gt;Charisma&lt;/LSTag&gt;"
+	}
+}
