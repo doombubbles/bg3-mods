@@ -70,9 +70,19 @@ func main() {
 		}
 	}
 
+	tmpl := template.New("template").Funcs(sprig.FuncMap())
+	tmpl.Funcs(template.FuncMap{
+		"include": include(tmpl),
+		"getf":    getf,
+		"ireplace": func(old string, new string, src string) string {
+			searchRegex := regexp.MustCompile("(?i)" + old)
+			return searchRegex.ReplaceAllString(src, new)
+		},
+	})
+
 	// Walk through and process all files
 	err = filepath.Walk(src, func(path string, info os.FileInfo, err error) error {
-		return processFile(path, info, err, values)
+		return processFile(path, info, err, values, tmpl)
 	})
 	if err != nil {
 		log.Fatalf("error walking the path: %v", err)
@@ -250,7 +260,7 @@ func getf(obj Values, key string, args ...interface{}) string {
 	return fmt.Sprintf(format, args...)
 }
 
-func processFile(path string, info os.FileInfo, err error, values Values) error {
+func processFile(path string, info os.FileInfo, err error, values Values, tmpl *template.Template) error {
 	if err != nil {
 		log.Printf("prevent panic by handling failure accessing a path %q: %v\n", path, err)
 		return err
@@ -307,11 +317,6 @@ func processFile(path string, info os.FileInfo, err error, values Values) error 
 	text := builder.String()
 
 	// Parse and execute template
-	tmpl := template.New("template").Funcs(sprig.FuncMap())
-	tmpl.Funcs(template.FuncMap{
-		"include": include(tmpl),
-		"getf": getf,
-	})
 
 	_, err = tmpl.Parse(text)
 	if err != nil {

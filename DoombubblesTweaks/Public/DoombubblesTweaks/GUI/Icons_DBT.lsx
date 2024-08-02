@@ -457,7 +457,7 @@
           <attribute id="V2" type="float" value="0.0625"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="PassiveFeature_DeathKnight_WillOfTheNecropolis"/>
           <attribute id="U1" type="float" value="0.9375"/>
           <attribute id="U2" type="float" value="0.96875"/>
           <attribute id="V1" type="float" value="0.03125"/>

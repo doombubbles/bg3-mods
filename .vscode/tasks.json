@@ -66,6 +66,27 @@
       },
     },
     {
+      "label": "Process Wiki",
+      "type": "process",
+      "command": "bin/ProcessTemplates.exe",
+      "args": [
+        "-s",
+        "Wiki",
+        "-d",
+        "build/Wiki",
+        "-v",
+        "DoombubblesTweaks",
+        "-v",
+        "build/DoombubblesTweaks/Localization"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      },
+    },
+    {
       "label": "Enable Hot Reload",
       "type": "process",
       "command": "bin/busybox.exe",

@@ -1,216 +1,226 @@
 {
 	"Image": {
 		"prefix": "img",
-		"scope": "markdown",
+		"scope": "markdown,helm",
 		"body": "<img src=\"${1:$CLIPBOARD}\" height=\"${2:25}\" align=\"${3:top}\" />$0"
 	},
 	"Icon": {
 		"prefix": "icon",
-		"scope": "markdown",
+		"scope": "markdown,helm",
 		"body": "<img src=\"images/ControllerIcons/skills_png/$1\" height=\"40\" align=\"left\" alt=\"$1\" />$0"
 	},
 	"Small Icon": {
 		"prefix": "iconsm",
-		"scope": "markdown",
+		"scope": "markdown,helm",
 		"body": "<img src=\"images/ControllerIcons/skills_png/$1\" height=\"25\" align=\"top\" alt=\"$1\" />$0"
 	},
-  "BG3 Wiki Link": {
-    "prefix": "bg3",
-		"scope": "markdown",
-    "body": [
-      "[$TM_SELECTED_TEXT](https://bg3.wiki/wiki/${TM_SELECTED_TEXT/ /_/g})"
-    ]
-  },
+	"Small Icon Single Quote": {
+		"prefix": "iconsms",
+		"scope": "markdown,helm",
+		"body": "<img src='images/ControllerIcons/skills_png/$1' height='25' align='top' alt='$1' />$0"
+	},
+	"BG3 Wiki Link": {
+		"prefix": "bg3",
+		"scope": "markdown,helm",
+		"body": [
+			"[$TM_SELECTED_TEXT](https://bg3.wiki/wiki/${TM_SELECTED_TEXT/ /_/g})"
+		]
+	},
 	"Rune Spell": {
 		"prefix": "runespell",
-		"scope": "markdown",
-		"body": "<a href=\"Death Knight Spells#$TM_SELECTED_TEXT\">$TM_SELECTED_TEXT</a>"
+		"scope": "markdown,helm",
+		"body": "<a href='Death Knight Spells#$TM_SELECTED_TEXT'>$TM_SELECTED_TEXT</a>"
+	},
+	"Tooltip": {
+		"prefix": "tooltip",
+		"scope": "markdown,helm",
+		"body": "[$TM_SELECTED_TEXT](## '$0')"
 	} ,
 	"Blood Rune": {
 		"prefix": [
 			"bloodrune",
 			"blood"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"BloodRune\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png\" height=\"25\" align=\"top\" alt=\"BloodRune\" />$0"
 	},
 	"Frost Rune": {
 		"prefix": [
 			"frostrune",
 			"frost"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"FrostRune\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png\" height=\"25\" align=\"top\" alt=\"FrostRune\" />$0"
 	},
 	"Unholy Rune": {
 		"prefix": [
 			"unholyrune",
 			"unholy"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"UnholyRune\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png\" height=\"25\" align=\"top\" alt=\"UnholyRune\" />$0"
 	},
 	"Action": {
 		"prefix": [
 			"actionpoint",
 			"action"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/f/f2/Action_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"ActionPoint\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/f/f2/Action_Icon.png\" height=\"25\" align=\"top\" alt=\"ActionPoint\" />$0"
 	},
 	"Bonus Action": {
 		"prefix": [
 			"bonusactionpoint",
 			"bonusaction"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/c/c9/Bonus_Action_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"ActionPoint\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/c/c9/Bonus_Action_Icon.png\" height=\"25\" align=\"top\" alt=\"ActionPoint\" />$0"
 	},
 	"Hit Points": {
 		"prefix": [
 			"hp",
 			"hitpoints"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/a/ac/Healing_Icon.png/50px-Healing_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Hit Points\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/a/ac/Healing_Icon.png/50px-Healing_Icon.png\" height=\"25\" align=\"top\" alt=\"Hit Points\" />$0"
 	},
 	"Strength": {
 		"prefix": [
 			"strength",
 			"STR"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/4/43/Strength_Small_Icon.png/50px-Strength_Small_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Strength\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/4/43/Strength_Small_Icon.png/50px-Strength_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Strength\" />$0"
 	},
 	"Dexterity": {
 		"prefix": [
 			"dexterity",
 			"DEX"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/d/d1/Dexterity_Small_Icon.png/50px-Dexterity_Small_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Dexterity\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/d/d1/Dexterity_Small_Icon.png/50px-Dexterity_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Dexterity\" />$0"
 	},
 	"Constituion": {
 		"prefix": [
 			"constitution",
 			"CON"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/6/6b/Constitution_Small_Icon.png/50px-Constitution_Small_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Constituion\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/6/6b/Constitution_Small_Icon.png/50px-Constitution_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Constituion\" />$0"
 	},
 	"Intelligence": {
 		"prefix": [
 			"intelligence",
 			"INT"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/7/7d/Intelligence_Small_Icon.png/50px-Intelligence_Small_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Intelligence\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/7/7d/Intelligence_Small_Icon.png/50px-Intelligence_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Intelligence\" />$0"
 	},
 	"Wisdom": {
 		"prefix": [
 			"wisdom",
 			"WIS"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/b/b7/Wisdom_Small_Icon.png/50px-Wisdom_Small_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Wisdom\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/b/b7/Wisdom_Small_Icon.png/50px-Wisdom_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Wisdom\" />$0"
 	},
 	"Charisma": {
 		"prefix": [
 			"charisma",
 			"CHA"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/8/8f/Charisma_Small_Icon.png/50px-Charisma_Small_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Charisma\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/8/8f/Charisma_Small_Icon.png/50px-Charisma_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Charisma\" />$0"
 	},
 	"Bludgeoning": {
 		"prefix": [
 			"bludgeoning"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/7/7d/Bludgeoning_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Bludgeoning Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/7/7d/Bludgeoning_Damage_Icon.png' height='25' align='top' alt='Bludgeoning Damage' />$0"
 	},
 	"Piercing": {
 		"prefix": [
 			"piercing"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/0/0b/Piercing_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Piercing Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/0/0b/Piercing_Damage_Icon.png' height='25' align='top' alt='Piercing Damage' />$0"
 	},
 	"Slashing": {
 		"prefix": [
 			"slashing"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/f/f0/Slashing_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Slashing Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/f/f0/Slashing_Damage_Icon.png' height='25' align='top' alt='Slashing Damage' />$0"
 	},
 	"Cold": {
 		"prefix": [
 			"cold"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/0/05/Cold_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Cold Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/0/05/Cold_Damage_Icon.png' height='25' align='top' alt='Cold Damage' />$0"
 	},
 	"Fire": {
 		"prefix": [
 			"fire"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/8/84/Fire_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Fire Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/8/84/Fire_Damage_Icon.png' height='25' align='top' alt='Fire Damage' />$0"
 	},
 	"Lightning": {
 		"prefix": [
 			"lightning"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/3/31/Lightning_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Lightning Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/3/31/Lightning_Damage_Icon.png' height='25' align='top' alt='Lightning Damage' />$0"
 	},
 	"Thunder": {
 		"prefix": [
 			"thunder"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/8/87/Thunder_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Thunder Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/8/87/Thunder_Damage_Icon.png' height='25' align='top' alt='Thunder Damage' />$0"
 	},
 	"Acid": {
 		"prefix": [
 			"acid"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/5/5f/Acid_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Acid Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/5/5f/Acid_Damage_Icon.png' height='25' align='top' alt='Acid Damage' />$0"
 	},
 	"Poison": {
 		"prefix": [
 			"poison"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/5/55/Poison_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Poison Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/5/55/Poison_Damage_Icon.png' height='25' align='top' alt='Poison Damage' />$0"
 	},
 	"Radiant": {
 		"prefix": [
 			"radiant"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/7/78/Radiant_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Radiant Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/7/78/Radiant_Damage_Icon.png' height='25' align='top' alt='Radiant Damage' />$0"
 	},
 	"Necrotic": {
 		"prefix": [
 			"necrotic"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/3/39/Necrotic_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Necrotic Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/3/39/Necrotic_Damage_Icon.png' height='25' align='top' alt='Necrotic Damage' />$0"
 	},
 	"Force": {
 		"prefix": [
 			"force"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/d/d1/Force_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Force Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/d/d1/Force_Damage_Icon.png' height='25' align='top' alt='Force Damage' />$0"
 	},
 	"Psychic": {
 		"prefix": [
 			"Psychic"
 		],
-		"scope": "markdown",
-		"body": "<img src=\"https://bg3.wiki/w/images/0/04/Psychic_Damage_Icon.png\" height=\"${1:25}\" align=\"${2:top}\" alt=\"Psychic Damage\" />$0"
+		"scope": "markdown,helm",
+		"body": "<img src='https://bg3.wiki/w/images/0/04/Psychic_Damage_Icon.png' height='25' align='top' alt='Psychic Damage' />$0"
 	},
 }

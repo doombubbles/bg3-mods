@@ -110,10 +110,9 @@
           <attribute id="UUID" type="guid" value="38de1b2d-9849-47cd-a740-5917de9f77d1"/>
         </node>
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value=""/>
           <attribute id="Level" type="uint8" value="9"/>
           <attribute id="Name" type="LSString" value="DeathKnight"/>
-          <attribute id="PassivesAdded" type="LSString" value="UnlockedRuneLevel5"/>
+          <attribute id="PassivesAdded" type="LSString" value="WillOfTheNecropolis;UnlockedRuneLevel5"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
           <attribute id="UUID" type="guid" value="58d16407-b3c8-41ff-a233-e79ba6115a43"/>

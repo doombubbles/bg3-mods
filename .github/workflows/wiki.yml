@@ -12,23 +12,17 @@ env:
 
 jobs:
   wiki:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
+
     steps:
       - name: Clone Repo
         uses: actions/checkout@master
 
-      - name: Set Permissions
-        run: chmod +x ./bin/ProcessTemplates
-
-      - name: Prepare Wiki Folder
-        run: |
-          mv Wiki/README.md Wiki/Home.md
-
       - name: Process Mod Templates
-        run: ./bin/ProcessTemplates
+        run: ./bin/ProcessTemplates.exe
 
       - name: Process Wiki Templates
-        run: ./bin/ProcessTemplates -s Wiki -d build/Wiki -v DoombubblesTweaks -v build/DoombubblesTweaks/Localization
+        run: ./bin/ProcessTemplates.exe -s Wiki -d build/Wiki -v DoombubblesTweaks -v build/DoombubblesTweaks/Localization
           
       - name: Upload to Wiki
         uses: Andrew-Chen-Wang/github-wiki-action@v4

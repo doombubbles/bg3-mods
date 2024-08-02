@@ -9,7 +9,7 @@ Death Knights use Strength (or Dexterity) for their attacks, and Intelligence fo
 
 <h3>
 
-> "You were raised from death to be a servant of a tyrant Lich, but have broken free and now wield Runic might for your own aims."
+> {{ get .loca "h53fbfa3dgcb23g45c5gb3c3g94e7dbd69fde" | quote }}
 
 </h3>
 
@@ -41,134 +41,134 @@ The Death Knight subclasses are:
       <th><div align="center">Rune<br/>Die</div></th>
     </tr>
     <tr>
-      <td><a href="#Level 1">1st</a></th>
-      <td rowspan="4"><div align="center">+2</div></th>
+      <td><a href="#Level 1">1st</a></td>
+      <td rowspan="4"><div align="center">+2</div></td>
       <td>
         <a href="#Rune Casting">Rune Casting</a>,
         <a href="#Level 1"> <img align="top"  height="25" src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_Lichborne.png" alt="PassiveFeature_DeathKnight_Lichborne.png" /> Lichborne</a>
-      </th>
-      <td><div align="center">-</div></th>
-      <td><div align="center">1</div></th>
-      <td><div align="center">1</div></th>
-      <td><div align="center">1</div></th>
-      <td rowspan="3"><div align="center">1d4</div></th>
+      </td>
+      <td><div align="center">-</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">1</div></td>
+      <td rowspan="3"><div align="center">1d4</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 2">2nd</a></th>
+      <td><a href="#Level 2">2nd</a></td>
       <td>
         <a href="https://bg3.wiki/wiki/Fighting_Stylye">Fighting Style</a>,
         <a href="#Runeforging"> <img align="top"  height="25" src="images/ControllerIcons/skills_png/Action_DeathKnight_Runeforging.png" alt="Action_DeathKnight_Runeforging.png" /> Runeforging</a>
-      </th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">1</div></th>
-      <td><div align="center">1</div></th>
-      <td><div align="center">1</div></th>
+      </td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 3">3rd</a></th>
+      <td><a href="#Level 3">3rd</a></td>
       <td>
         <a href="#Level 3"> <img src="images/ClassIcons/DeathKnight.png" height="25" align="top" /> Choose a subclass</a>
-      </th>
-      <td><div align="center">3</div></th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">1</div></th>
-      <td><div align="center">1</div></th>
+      </td>
+      <td><div align="center">3</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 4">4th</a></th>
+      <td><a href="#Level 4">4th</a></td>
       <td>
         <a href="https://bg3.wiki/wiki/Feat"> <img src="https://bg3.wiki/w/images/thumb/a/a9/Generic_Feature_Icon.webp/48px-Generic_Feature_Icon.webp.png" height="25" align="top" /> Feat</a>,
         <a href="#Level 4"> <img src="images/ClassIcons/DeathKnight.png" height="25" align="top" /> Subclass Feature</a>
-      </th>
-      <td><div align="center">4</div></th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">1</div></th>
-      <td><div align="center">1</div></th>
-      <td rowspan="3"><div align="center">1d6</div></th>
+      </td>
+      <td><div align="center">4</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">1</div></td>
+      <td rowspan="3"><div align="center">1d6</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 5">5th</a></th>
-      <td rowspan="4"><div align="center">+3</div></th>
+      <td><a href="#Level 5">5th</a></td>
+      <td rowspan="4"><div align="center">+3</div></td>
       <td>
         <a href="https://bg3.wiki/wiki/Extra_Attack"> <img src="https://bg3.wiki/w/images/thumb/5/5a/Extra_Attack_Icon.webp/50px-Extra_Attack_Icon.webp.png" height="25" align="top" /> Extra Attack</a>
-      </th>
-      <td><div align="center">5</div></th>
-      <td><div align="center">3</div></th>
-      <td><div align="center">1</div></th>
-      <td><div align="center">1</div></th>
+      </td>
+      <td><div align="center">5</div></td>
+      <td><div align="center">3</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 6">6th</a></th>
+      <td><a href="#Level 6">6th</a></td>
       <td>
         <a href="#Level 6"> <img src="images/ClassIcons/DeathKnight.png" height="25" align="top" /> Subclass Feature</a>
-      </th>
-      <td><div align="center">6</div></th>
-      <td><div align="center">3</div></th>
-      <td><div align="center">1</div></th>
-      <td><div align="center">1</div></th>
+      </td>
+      <td><div align="center">6</div></td>
+      <td><div align="center">3</div></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 7">7th</a></th>
+      <td><a href="#Level 7">7th</a></td>
       <td>
         <a href="#Rune Tap"> <img align="top"  height="25" src="images/ControllerIcons/skills_png/Action_DeathKnight_RuneTap.png" alt="Action_DeathKnight_RuneTap.png" /> Rune Tap</a>
-      </th>
-      <td><div align="center">7</div></th>
-      <td><div align="center">4</div></th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">2</div></th>
-      <td rowspan="3"><div align="center">1d8</div></th>
+      </td>
+      <td><div align="center">7</div></td>
+      <td><div align="center">4</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">2</div></td>
+      <td rowspan="3"><div align="center">1d8</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 8">8th</a></th>
+      <td><a href="#Level 8">8th</a></td>
       <td>
         <a href="https://bg3.wiki/wiki/Feat"> <img src="https://bg3.wiki/w/images/thumb/a/a9/Generic_Feature_Icon.webp/48px-Generic_Feature_Icon.webp.png" height="25" align="top" /> Feat</a>
-      </th>
-      <td><div align="center">8</div></th>
-      <td><div align="center">4</div></th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">2</div></th>
+      </td>
+      <td><div align="center">8</div></td>
+      <td><div align="center">4</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 9">9th</a></th>
-      <td rowspan="4"><div align="center">+4</div></th>
-      <td>
-        -
-      </th>
-      <td><div align="center">9</div></th>
-      <td><div align="center">5</div></th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">2</div></th>
+      <td><a href="#Level 9">9th</a></td>
+      <td rowspan="4"><div align="center">+4</div></td>
+      <td> 
+        <a href="#Will of the Necropolis"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_WillOfTheNecropolis.png" height="25" align="top" alt="PassiveFeature_DeathKnight_WillOfTheNecropolis.png" /> Will of the Necropolis</a> 
+      </td>
+      <td><div align="center">9</div></td>
+      <td><div align="center">5</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 10">10th</a></th>
+      <td><a href="#Level 10">10th</a></td>
       <td>
         <a href="#Level 10"> <img src="images/ClassIcons/DeathKnight.png" height="25" align="top" /> Subclass Feature</a>
-      </th>
-      <td><div align="center">10</div></th>
-      <td><div align="center">6</div></th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">2</div></th>
-      <td rowspan="3"><div align="center">1d10</div></th>
+      </td>
+      <td><div align="center">10</div></td>
+      <td><div align="center">6</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">2</div></td>
+      <td rowspan="3"><div align="center">1d10</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 11">11th</a></th>
+      <td><a href="#Level 11">11th</a></td>
       <td>
         <a href="#Rune Mastery"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" height="25" align="top" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" /> Rune Mastery</a> (Passive Feature)
-      </th>
-      <td><div align="center">11</div></th>
-      <td><div align="center">6</div></th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">2</div></th>
+      </td>
+      <td><div align="center">11</div></td>
+      <td><div align="center">6</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td><a href="#Level 12">12th</a></th>
+      <td><a href="#Level 12">12th</a></td>
       <td>
         <a href="https://bg3.wiki/wiki/Feat"> <img src="https://bg3.wiki/w/images/thumb/a/a9/Generic_Feature_Icon.webp/48px-Generic_Feature_Icon.webp.png" height="25" align="top" /> Feat</a>
-      </th>
-      <td><div align="center">12</div></th>
-      <td><div align="center">6</div></th>
-      <td><div align="center">2</div></th>
-      <td><div align="center">2</div></th>
+      </td>
+      <td><div align="center">12</div></td>
+      <td><div align="center">6</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">2</div></td>
     </tr>
   </tbody>
 </table>
@@ -266,13 +266,13 @@ The Death Knight subclasses are:
 
 #### Rune of Razorice
 
-{{ getf .loca "ha7dc3e14gc3b1g47c7gb454g5a2ca7ff2988" "1 <img src="https://bg3.wiki/w/images/0/05/Cold_Damage_Icon.png" height="25" align="top" alt="Cold Damage" /> Cold damage" }}
+{{ getf .loca "ha7dc3e14gc3b1g47c7gb454g5a2ca7ff2988" "1 <img src='https://bg3.wiki/w/images/0/05/Cold_Damage_Icon.png' height='25' align='top' alt='Cold Damage' /> Cold damage" }}
 
 <img align="left" alt="Action_DeathKnight_FallenCrusader.png" height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_FallenCrusader.png" />
 
 #### Rune of the Fallen Crusader
 
-{{ getf .loca "hf14f6741g6c07g4322ga0edg5bb580209a8b" "1 <img src="https://bg3.wiki/w/images/thumb/a/ac/Healing_Icon.png/50px-Healing_Icon.png" height="25" align="top" alt="Hit Points" /> hit point" }}
+{{ getf .loca "hf14f6741g6c07g4322ga0edg5bb580209a8b" "1 <img src='https://bg3.wiki/w/images/thumb/a/ac/Healing_Icon.png/50px-Healing_Icon.png' height='25' align='top' alt='Hit Points' /> hit point" }}
 
 <img align="left" alt="Action_DeathKnight_Stoneskin_Gargoyle.png" height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_Stoneskin_Gargoyle.png" />
 
@@ -287,7 +287,7 @@ The Death Knight subclasses are:
 ### New Rune Spells
 
 <a href="Death Knight Spells#Anti-Magic Shell"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_AntiMagicShell.png" height="25" align="top" alt="Action_DeathKnight_AntiMagicShell.png" /> Anti-Magic Shell</a>,
-<a href="Death Knight Spells#Armor of Arthas"> <img src="https://bg3.wiki/w/images/8/87/Armour_Of_Agathys_2_Icon.png" height="25" align="top" /> Armor of Arthas</a>,
+<a href="Death Knight Spells#Armor of Arthas"> <img src="https://bg3.wiki/w/images/8/87/Armour_Of_Agathys_2_Icon.png" height="25" align="top" /> Armour of Arthas</a>,
 <a href="Death Knight Spells#Abomination Limb"> <img src="https://bg3.wiki/w/images/3/3e/Arms_of_Hadar_Icon.webp" height="25" align="top" /> Abomination Limb</a>,
 <a href="Death Knight Spells#Death's Advance"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathsAdvance.png" height="25" align="top" alt="Action_DeathKnight_DeathsAdvance.png" /> Death's Advance</a>,
 <a href="Death Knight Spells#Gloom Ward"> <img src="https://bg3.wiki/w/images/f/f2/False_Life_Icon.webp" height="25" align="top" /> Gloom Ward</a>,
@@ -788,6 +788,12 @@ Extra Attack
     </tr>
   </tbody>
 </table>
+
+<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_WillOfTheNecropolis.png" height="40" align="left" alt="PassiveFeature_DeathKnight_WillOfTheNecropolis.png" />
+
+### Will of the Necropolis
+
+{{ get .loca "hf65fbb88g1d96g4034ga675g45612b6c7d46" }}
 
 ## Level 10
 

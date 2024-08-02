@@ -50,14 +50,16 @@
   <content contentuid="hdc14d9dag0a3fg459bga1cegdbfd36137cef" version="1">Rune Tap: Unholy</content>
   <content contentuid="h7306456ag4e46g4f71g828ag33d178c4f852" version="1">Create 1 &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy Rune&lt;/LSTag&gt;.</content>
 
-  <content contentuid="h27d45cc4g02f1g4748g9a15g70b0d1a45b84" version="1">This bonus increases at Level 8 and again at Level 12.</content>
+  <content contentuid="h27d45cc4g02f1g4748g9a15g70b0d1a45b84" version="1">This bonus increases to 2 at Level 8 and to 3 at Level 12.</content>
 
+  <content contentuid="h3c6fb7c5g25d2g4a67g9a35g58eb137f4bb1" version="1">Will of the Necropolis</content>
+  <content contentuid="hf65fbb88g1d96g4034ga675g45612b6c7d46" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and Death &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;. </content>
 
   <content contentuid="h180c6943ga45fg4481gb4e0g0774c7740221" version="1">Empower Rune Weapon</content>
   <content contentuid="h03d44092g7887g43f1g8ef5g0e513acdd39e" version="1">When attacking with a Runeforged weapon, you deal an additional [1].</content>
 
   <content contentuid="h9ac5326ega6c2g4733g85c7g43087dcc17ec" version="1">Rune Mastery</content>
-  <content contentuid="h5f27023dgdd29g4367g9e99g55c414897a3b" version="1">You gain power that rivals even that of the Lich that turned you.</content>
+  <content contentuid="h5f27023dgdd29g4367g9e99g55c414897a3b" version="1">You gain power that rivals even that of the Lich that turned you. Choose one of the following Passive Features.</content>
 
 
   <content contentuid="hd18eda6eg6a60g43a5g9f54gc586f1807ec2" version="1">Frost</content>
@@ -67,7 +69,7 @@
   <content contentuid="hde95c872g12e0g43edg99eegbe29bd8539e0" version="1">You gain a Frost Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hc8f4f011ge8a7g4a6agb29age1bf06ba63a8" version="1">Frozen Heart</content>
-  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">The Cold damage dealt by your Rune spells is increased by 1.</content>
+  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">The Cold damage dealt by your Rune spells is increased by [1].</content>
 
   <content contentuid="hdba145d9gd3b5g4223g9bb2g2a5e928b566c" version="1">Frost Strike</content>
   <content contentuid="h448adaceg9464g44a0g96b4ga01a6f757b7b" version="1">Chill your weapon with icy power and strike an enemy for a bonus [1] and slow their movement speed by [2] for 2 turns.</content>
@@ -99,7 +101,7 @@
   <content contentuid="h80bcaa55gc41bg4be3gb9cag1e698d21412a" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Target_Obliterate"&gt;Obliterate&lt;/LSTag&gt;, refund 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt;. On a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, refund 2.</content>
 
   <content contentuid="h90dbf8a7gc652g4a32gb63eg4eae86d433d8" version="1">Chains of Ice</content>
-  <content contentuid="h2cbcc90dgfe7eg4135g8e2age5096ad6022c" version="1">Shackles the target with frozen chains, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
+  <content contentuid="h2cbcc90dgfe7eg4135g8e2age5096ad6022c" version="1">Shackles the target with frozen chains, dealing [1] and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
   <content contentuid="ha4289bd6gc577g4f51gae4egc39b4be6e9b5" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to shackle a target with frozen chains, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
 
   <content contentuid="h59689f2eg1398g41ebgab3bgaec9751b4219" version="1">Path of Frost</content>
@@ -108,7 +110,7 @@
   <content contentuid="hf31f843fg365ag4ffegb130gd2d868478ff2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to make yourself or an ally immune to the effects of Ice Surfaces.</content>
 
   <content contentuid="h3a2c82fdge584g4931gbddfg64b7452c74ec" version="1">Mind Freeze</content>
-  <content contentuid="h43a22f0cgca41g4484g9885g6f8214b189ba" version="1">Break a target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and possibly preventing them from casting spells.</content>
+  <content contentuid="h43a22f0cgca41g4484g9885g6f8214b189ba" version="1">Break a target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and possibly prevent them from casting spells for [1] turns.</content>
   <content contentuid="h8fab1155ga840g49d4gb007g04f062c077a5" version="1">Can't speak or cast spells with a verbal component.</content>
   <content contentuid="h93a063e0g01a7g42a9g83ffg102debe26ed2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to break a target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and possibly prevent them from casting spells.</content>
 
@@ -183,7 +185,7 @@
   <content contentuid="ha55ed165g6ad3g44f9g8187g7a5deaf8f048" version="1">An unholy strike that deals an extra [1], plus an additional [1] for each Disease you've applied to the target.</content>
 
   <content contentuid="h249ada55g19f5g4f4cg8ec7gd8cd83973898" version="1">Sudden Doom</content>
-  <content contentuid="hbfe516fdgc602g4171g9fe5g569688d7980e" version="1">When an enemy dies while infected with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virtulent Plague&lt;/LSTag&gt;, your next &lt;LSTag Type="Spell" Tooltip="Target_DeathCoil"&gt;Death Coil&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and no Runes.</content>
+  <content contentuid="hbfe516fdgc602g4171g9fe5g569688d7980e" version="1">When an enemy dies while infected with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;, your next &lt;LSTag Type="Spell" Tooltip="Target_DeathCoil"&gt;Death Coil&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and no Runes.</content>
   <content contentuid="hc283dde1g2bedg45c4g902cgff5a77f03b93" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_DeathCoil"&gt;Death Coil&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and no Runes.</content>
 
   <content contentuid="h03fbdc15g5600g4c09g8debg15af54f2dfc6" version="1">Improved Death Coil</content>
@@ -223,7 +225,7 @@
   <content contentuid="hd707f45cgbf9dg4a99g90a1g23c832c71626" version="1">Corrupts the targeted ground for [1] turns; it damages enemies for [2] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
   <content contentuid="hb2c5db8fgf705g4825g9664ga4346a119e45" version="1">Corrupted ground that damages enemies only for [1] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
   <content contentuid="h72c8cbb4g7ecfg484egb835ge127d721fde4" version="1">Shift your corrupted ground. It deals [2] per turn and causes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
-  <content contentuid="hf1e437adgc1f8g422bgbcccg6bd1cf63289b" version="1">You can recast this spell using a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+  <content contentuid="hf1e437adgc1f8g422bgbcccg6bd1cf63289b" version="1">You can recast this spell using a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to shift your corrupted ground.</content>
   <content contentuid="h3a66ccf5gd17dg4458g85abg3e9522f2c1be" version="1">Taking [1] each turn.</content>
   <content contentuid="hf50a4f14g3158g4a13ga033g74161962ff5b" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to corrupt the ground, damaging enemies for [1] per turn and making the area &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 
@@ -267,6 +269,7 @@
   {{- range $command, $handle := $.DK.Commands}}
   <content contentuid="{{$handle}}" version="1">Dark Command: {{$command}}</content>
   {{- end}}
+  <content contentuid="h619a0ec0g813cg40efga1bfg6b480b2af7be" version="1">Works on Undead.</content>
 
   <content contentuid="h4518ce8ag4f35g4517gaabbgc69fcd3b3b76" version="1">Subduing Grasp: Person</content>
   <content contentuid="h5dca01e1g0854g4d68g8c01gc73ddbd658be" version="1">Raise Ally</content>
