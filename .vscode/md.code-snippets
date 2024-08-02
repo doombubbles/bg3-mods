@@ -100,13 +100,13 @@
 		"scope": "markdown,helm",
 		"body": "<img src=\"https://bg3.wiki/w/images/thumb/d/d1/Dexterity_Small_Icon.png/50px-Dexterity_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Dexterity\" />$0"
 	},
-	"Constituion": {
+	"Constitution": {
 		"prefix": [
 			"constitution",
 			"CON"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/6/6b/Constitution_Small_Icon.png/50px-Constitution_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Constituion\" />$0"
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/6/6b/Constitution_Small_Icon.png/50px-Constitution_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Constitution\" />$0"
 	},
 	"Intelligence": {
 		"prefix": [

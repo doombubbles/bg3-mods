@@ -233,14 +233,6 @@ data "Boosts" "StatusImmunity(SG_DifficultTerrain);ActionResourcePreventReductio
 data "StatusEffect" "ac4aaa41-0e86-4bb9-b8b7-34cb619ea86c"
 
 
-new entry "AntiMagicZone"
-type "PassiveData"
-data "DisplayName" "ha0369d40gd801g40c9g8c18g7e9387e5a3cb"
-data "Description" "h8f7394a4gc568g4dd7gb950g3b3be9404479"
-data "Icon" "Action_DeathKnight_AntiMagicZone"
-data "Properties" "Hidden"
-data "Boosts" "UnlockSpell(Target_AntiMagicZone)"
-
 new entry "Target_AntiMagicZone"
 type "SpellData"
 data "SpellType" "Target"

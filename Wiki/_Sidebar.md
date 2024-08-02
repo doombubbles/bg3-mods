@@ -1,6 +1,26 @@
-### DoombubblesTweaks
+## DoombubblesTweaks
 
-#### __Changes__
+### Additions
+
+- [[ New Items | New-Items ]] *([[ IDs | UUIDs ]])*
+- [[ New Feats | New-Feats ]]
+
+#### New Classes
+
+- **[[ Death Knight | Death-Knight ]]**
+  - [[ Blood | Death-Knight---Blood ]]
+  - [[ Frost | Death-Knight---Frost ]]
+  - [[ Unholy | Death-Knight---Unholy ]]
+  - [[ Spell List | Death-Knight-Spells ]]
+- [[ Witch | Witch ]]
+
+#### New Subclasses
+
+- [[ Paladin | Paladin-Subclasses ]]
+- [[ Warlock | Warlock-Subclasses ]]
+- [[ Wizard | Wizard-Subclasses ]]
+
+### Changes
 
 - [[ Item Changes | Item-Changes ]]
 - [[ Spell Changes | Spell-Changes ]]
@@ -10,7 +30,7 @@
 - [[ Buff Changes | Buff-Changes ]]
 - [[ Other Changes | Other-Changes ]]
 
-##### Class Changes
+#### Class Changes
 
 - [[ Barbarian | Barbarian-Changes ]]
 - [[ Bard | Bard-Changes ]]
@@ -22,22 +42,3 @@
 - [[ Sorcerer | Sorcerer-Changes ]]
 - [[ Warlock | Warlock-Changes ]]
 - [[ Wizard | Wizard-Changes ]]
-
-#### Additions
-
-- [[ New Items | New-Items ]] *([[ IDs | UUIDs ]])*
-- [[ New Feats | New-Feats ]]
-
-##### New Classes
-
-- [[ Witch | Witch ]]
-- [[ Death Knight | Death-Knight ]]
-  - [[ Blood | Death-Knight---Blood ]]
-  - [[ Frost | Death-Knight---Frost ]]
-  - [[ Unholy | Death-Knight---Unholy ]]
-
-##### New Subclasses
-
-- [[ Paladin | Paladin-Subclasses ]]
-- [[ Warlock | Warlock-Subclasses ]]
-- [[ Wizard | Wizard-Subclasses ]]

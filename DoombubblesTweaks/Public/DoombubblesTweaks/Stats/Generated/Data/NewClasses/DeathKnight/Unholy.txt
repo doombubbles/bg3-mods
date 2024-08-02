@@ -205,7 +205,7 @@ data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);Exec
 data "Icon" "Action_DeathKnight_FesteringStrike"
 data "DisplayName" "he90698a3g23c3g4ef0g9941g3e601f5f1f4e"
 data "Description" "hd73ab209g0483g498eg9e81g0804c87fa444"
-data "DescriptionParams" "DealDamage(LevelMapValue(2RuneDie),Necrotic);DealDamage(LevelMapValue(2RuneDie),Necrotic)"
+data "DescriptionParams" "DealDamage(LevelMapValue(2RuneDie),Necrotic);3;DealDamage(LevelMapValue(2RuneDie),Necrotic)"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(2RuneDie), Necrotic,Magical)"
 data "TooltipStatusApply" "ApplyStatus(FESTERING_WOUND, 100, 3)"
 data "TooltipAttackSave" "MeleeWeaponAttack"

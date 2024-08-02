@@ -80,16 +80,15 @@
   <content contentuid="haa8f582dg2c61g4bbdg9ed1gfda1439e51f1" version="1">A brutal attack with both weapons that deals a bonus [1].</content>
 
   <content contentuid="h9822c267gf939g4312g90afg673f17d55132" version="1">Howling Blast</content>
-  <content contentuid="hdc82e1f9g7ba0g45e6gaea8gaef3d7f96ef3" version="1">Blast the target with a frigid wind, inflicting targets with &lt;LSTag Type="Status" Tooltip="FROST_FEVER"&gt;Frost Fever&lt;/LSTag&gt;.</content>
+  <content contentuid="hdc82e1f9g7ba0g45e6gaea8gaef3d7f96ef3" version="1">Blast the target with a frigid wind, dealing [1] and inflicting targets with &lt;LSTag Type="Status" Tooltip="FROST_FEVER"&gt;Frost Fever&lt;/LSTag&gt;.</content>
 
   <content contentuid="h59bf0dd0gd6bfg444ag9defg7bc7a35abb72" version="1">Frost Fever</content>
   <content contentuid="ha8710349g043dg4faagabfag7c66d34d137a" version="1">Movement speed reduced by [1]. Takes [2] per turn.</content>
 
   <content contentuid="h02ad57cfg80b7g4873gb696g8072cc641e3c" version="1">Frostscythe</content>
-  <content contentuid="hba0e3b53ga06bg4ab4g8539gede1fbf0592c" version="1">A sweeping attack that strikes up to [1] enemies in front of you.</content>
+  <content contentuid="hba0e3b53ga06bg4ab4g8539gede1fbf0592c" version="1">A sweeping attack that strikes up to [1] enemies in front of you for an additional [1].</content>
   <content contentuid="h112ce0b6g1ac5g4f69ga831ga93a2fdf1910" version="1">On a &lt;LSTag Tooltip="CriticalHit"&gt;critical hits&lt;/LSTag&gt;, the bonus Cold damage dealt is additionally doubled.</content>
-  <content contentuid="ha5d88622gca4cg4670gb9a0ga90616e4958b" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to make a sweeping attack that strikes up to [1] enemies in front of you..</content>
-
+  
   <content contentuid="hcaaba427gc8e1g467agbaf3g59ad9c2b1076" version="1">Rime</content>
   <content contentuid="h9ec373dfgad97g4874gafbbg57c47213f12c" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Projectile_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt; has no resource cost.</content>
   <content contentuid="hb6941177g221bg4a57ga87cgd9f43263b4a5" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Projectile_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt; has no resource cost.</content>
@@ -102,17 +101,14 @@
 
   <content contentuid="h90dbf8a7gc652g4a32gb63eg4eae86d433d8" version="1">Chains of Ice</content>
   <content contentuid="h2cbcc90dgfe7eg4135g8e2age5096ad6022c" version="1">Shackles the target with frozen chains, dealing [1] and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
-  <content contentuid="ha4289bd6gc577g4f51gae4egc39b4be6e9b5" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to shackle a target with frozen chains, possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
 
   <content contentuid="h59689f2eg1398g41ebgab3bgaec9751b4219" version="1">Path of Frost</content>
   <content contentuid="hb024f73cg90a2g4044gba91g159407a7654e" version="1">Grant a target immunity to the effects of ice surfaces.</content>
   <content contentuid="h0f8e4965g532cg4ef9g80beg1621de630a7d" version="1">You are immune to the effects of ice surfaces.</content>
-  <content contentuid="hf31f843fg365ag4ffegb130gd2d868478ff2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to make yourself or an ally immune to the effects of Ice Surfaces.</content>
 
   <content contentuid="h3a2c82fdge584g4931gbddfg64b7452c74ec" version="1">Mind Freeze</content>
   <content contentuid="h43a22f0cgca41g4484g9885g6f8214b189ba" version="1">Break a target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and possibly prevent them from casting spells for [1] turns.</content>
   <content contentuid="h8fab1155ga840g49d4gb007g04f062c077a5" version="1">Can't speak or cast spells with a verbal component.</content>
-  <content contentuid="h93a063e0g01a7g42a9g83ffg102debe26ed2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt; to break a target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and possibly prevent them from casting spells.</content>
 
   <content contentuid="hd50bffd5g779bg4aeeg9a39g45e0eebda925" version="1">Blood</content>
   <content contentuid="h2e130e97g1c58g470bgb4ceg991d510e8df4" version="1">You are a dark guardian who manipulates and corrupts life energy to sustain yourself in the face of an enemy onslaught.</content>
@@ -128,11 +124,9 @@
 
   <content contentuid="hbd2e555bg2debg4984gad36gd7f6b740379e" version="1">Sacrificial Pact</content>
   <content contentuid="h4d2235dagb94ag44b9gabf8g3224be6a4ab2" version="1">Destroy a summoned Undead ally to recover a third of your &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
-  <content contentuid="h0d509ae8ge8bbg4928g8f92gedfc3377da69" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt; to destroy an summoned Undead ally to recover a third of your hit points.</content>
 
   <content contentuid="he41dc631geae6g4e7dg91f8gec8a206649e0" version="1">Heart Strike</content>
   <content contentuid="h242d09f1gf2a0g4466ga270g83af0d3a9545" version="1">Strike the target with a bonus [1]. If you're within &lt;LSTag Type="Spell" Tooltip="Target_DeathAndDecay"&gt;Death and Decay&lt;/LSTag&gt;, also deal [2] to all enemies within [3].</content>
-  <content contentuid="h7dda772bgba08g4c80g9325g19b0ca061cf2" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_HeartStrike"&gt;Heart Strike&lt;/LSTag&gt;.</content>
 
   <content contentuid="hdf2b093cg7179g481dgb3fdg6e79014a0b55" version="1">Blood Boil</content>
   <content contentuid="hf05664efgfe07g4b87ga5e3g64edfc6c1beb" version="1">Damage nearby enemies and inflict them with &lt;LSTag Type="Status" Tooltip="BLOOD_PLAGUE"&gt;Blood Plague&lt;/LSTag&gt;.</content>
@@ -170,19 +164,19 @@
   <content contentuid="h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" version="1">Fire a blast of unholy energy, causing [1] to an enemy target or restoring [2] to an allied Undead target.</content>
 
   <content contentuid="he90698a3g23c3g4ef0g9941g3e601f5f1f4e" version="1">Festering Strike</content>
-  <content contentuid="hd73ab209g0483g498eg9e81g0804c87fa444" version="1">Strikes for an extra [1] and infects the target with &lt;LSTag Type="Status" Tooltip="FESTERING_WOUNDS"&gt;Festering Wounds&lt;/LSTag&gt;. When the wound expires, they take a further [2].</content>
+  <content contentuid="hd73ab209g0483g498eg9e81g0804c87fa444" version="1">Strikes for an extra [1] and infects the target with a &lt;LSTag Type="Status" Tooltip="FESTERING_WOUND"&gt;Festering Wound&lt;/LSTag&gt; for [2] turns. When the wound expires, they take a further [3].</content>
 
   <content contentuid="hee4dcf43g61beg4798g9982gf7143a8fea3d" version="1">Festering Wound</content>
-  <content contentuid="h2354ebe6gb628g4bf6g92f9g8fc7bbbfe739" version="1">Disadvantage on &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;. On removal, takes [1]. Further attacks from the Death Knight hasten removal.</content>
+  <content contentuid="h2354ebe6gb628g4bf6g92f9g8fc7bbbfe739" version="1">Disadvantage on &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;. On removal, takes [1]. Further attacks from the Death Knight hasten removal by 1 turn.</content>
 
   <content contentuid="h5390e245gc2eeg464eg8f3egd6549addd1f0" version="1">Outbreak</content>
-  <content contentuid="he9edb0feg97e0g45a8ga0a7g24b0561f492c" version="1">Infect surrounding enemies with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;.</content>
+  <content contentuid="he9edb0feg97e0g45a8ga0a7g24b0561f492c" version="1">Deal [1] to target and infect it and nearby enemies with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;.</content>
 
   <content contentuid="hd2e44806g085dg4cb5g897bg8b4d298a6f20" version="1">Virulent Plague</content>
   <content contentuid="h5a6cf0adg5981g4624g8423g06ca6dd13f80" version="1">Takes [1] per turn. On death, deal [1] to creatures within [2] and possibly infect them with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;.</content>
 
   <content contentuid="h0e16a213gc40eg4d7dg9936g798bdc2996d1" version="1">Scourge Strike</content>
-  <content contentuid="ha55ed165g6ad3g44f9g8187g7a5deaf8f048" version="1">An unholy strike that deals an extra [1], plus an additional [1] for each Disease you've applied to the target.</content>
+  <content contentuid="ha55ed165g6ad3g44f9g8187g7a5deaf8f048" version="1">An unholy strike that deals an extra [1], plus an additional [1] for each Disease applied to the target.</content>
 
   <content contentuid="h249ada55g19f5g4f4cg8ec7gd8cd83973898" version="1">Sudden Doom</content>
   <content contentuid="hbfe516fdgc602g4171g9fe5g569688d7980e" version="1">When an enemy dies while infected with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;, your next &lt;LSTag Type="Spell" Tooltip="Target_DeathCoil"&gt;Death Coil&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and no Runes.</content>
@@ -197,14 +191,11 @@
   <content contentuid="h63314a8ag1c14g41ddga09dg1a9e6ad71340" version="1">Anti-Magic Shell</content>
   <content contentuid="h9b4092aegad19g4e7dga2bdg276a27e06c44" version="1">Become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing or Slashing.</content>
   <content contentuid="h6ee96dceg1b67g42c1g8617gfab0cbe5bfeb" version="1">You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing or Slashing.</content>
-  <content contentuid="hf6d5913eg7bc5g4dd8gb7d1g50dabbad05ea" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy Rune&lt;/LSTag&gt; to &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing or Slashing.</content>
-
-  <content contentuid="hd12e3b63gdbd6g46c5g9542gf63f793a427e" version="1">You can spend 2 &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy Runes&lt;/LSTag&gt; to restore a companion to life with 1 HP.</content>
 
   <content contentuid="h0b9e2216g69fcg47d1ga433g41a357df768c" version="1">Dark Transformation</content>
   <content contentuid="h15eda73bg9db5g4735g9c14g4afa7ce57766" version="1">Destroy a summoned Undead ally to transform it into a stronger one.</content>
   <content contentuid="ha9b9edc9g241bg4408ga202g681f4c9cecb6" version="1">Dark Transformation: Ghoul</content>
-  <content contentuid="he6973013gb187g42cfga675g1144ee882302" version="1">Transform a Zombie into a Goul.</content>
+  <content contentuid="he6973013gb187g42cfga675g1144ee882302" version="1">Transform a Zombie into a Ghoul.</content>
   <content contentuid="h603415c8g9948g4e8fg864ag9dd289c229fc" version="1">Dark Transformation: Flying Ghoul</content>
   <content contentuid="h5fd22e09g9034g4a6dgac9fg0897fb7dde9a" version="1">Transform a Skeleton into a Flying Ghoul.</content>
   <content contentuid="h94135142g6143g4511gbc1cg7d7e48c9275d" version="1">Dark Transformation: Mummy</content>
@@ -219,7 +210,6 @@
   <content contentuid="h2f62cf77g1e2bg4d0fg9674g5caedd1b091e" version="1">Death Grip</content>
   <content contentuid="h724b80b8gb3aeg46adgbbe6g586eacb355fa" version="1">Harnesses the energy that surrounds and binds all matter, drawing a target toward a position of your choice within [1] of you.</content>
   <content contentuid="h0b1bb04eg04cbg4eefg8ed8g1920fc40a0c5" version="1">The &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; of this Spell is equal to your total Strength &lt;LSTag Tooltip="Abilities"&gt;Ability Score&lt;/LSTag&gt;.</content>
-  <content contentuid="hb982502cge3dfg4f79g87fdg189400906504" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to draw a target within [1] toward a position of your choice within [2] of you.</content>
 
   <content contentuid="he3f5eb23ga1dcg46efg8410g0326e2f5611b" version="1">Death and Decay</content>
   <content contentuid="hd707f45cgbf9dg4a99g90a1g23c832c71626" version="1">Corrupts the targeted ground for [1] turns; it damages enemies for [2] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>
@@ -227,16 +217,13 @@
   <content contentuid="h72c8cbb4g7ecfg484egb835ge127d721fde4" version="1">Shift your corrupted ground. It deals [2] per turn and causes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
   <content contentuid="hf1e437adgc1f8g422bgbcccg6bd1cf63289b" version="1">You can recast this spell using a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to shift your corrupted ground.</content>
   <content contentuid="h3a66ccf5gd17dg4458g85abg3e9522f2c1be" version="1">Taking [1] each turn.</content>
-  <content contentuid="hf50a4f14g3158g4a13ga033g74161962ff5b" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to corrupt the ground, damaging enemies for [1] per turn and making the area &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 
   <content contentuid="hccd8c386ge25dg488eg99degcffe5c784813" version="1">Death's Advance</content>
   <content contentuid="h18aed6bag014dg4573g83c0g23fc5be8a61b" version="1">Double your movement speed. Your movement speed can't be reduced by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, spells, or magical effects. You can't be moved against your will.</content>
   <content contentuid="hea1679bcgf77bg4fb3gb826g51a1562feb93" version="1">Your movement speed can't be reduced by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, spells, or magical effects. You can't be moved against your will.</content>
-  <content contentuid="h5339e642g06efg4098g9822g22f7beb99207" version="1">You can spend 1 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Rune to double your movement speed and become immune to movement impairing effects.</content>
 
   <content contentuid="ha0369d40gd801g40c9g8c18g7e9387e5a3cb" version="1">Anti-Magic Zone</content>
-  <content contentuid="h95b2897ag4a39g48cfgb08agcb66b6c47b16" version="1">Create a barrier that makes creatures inside &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Magic damage.</content>
-  <content contentuid="h8f7394a4gc568g4dd7gb950g3b3be9404479" version="1">You can spend 2 &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="UnholyRune"&gt;Unholy&lt;/LSTag&gt; Runes to create a barrier that makes creatures inside &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Magic damage.</content>
+  <content contentuid="h95b2897ag4a39g48cfgb08agcb66b6c47b16" version="1">Create a barrier that makes creatures inside &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing or Slashing.</content>
 
   <content contentuid="hb9d194b9g70c0g4316gbbadgdcc3c89b9592" version="1">Targets still take half damage and lower status duration.</content>
 
