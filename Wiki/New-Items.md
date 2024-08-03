@@ -1,6 +1,10 @@
-**Sacred Ring** - Your Cantrips that require saving throws still deal half damage on a failed save. Drops from the Scared Boar on the Ravaged Beach.
+{{- if $.Balance.PotentSacredRing }}
+**Sacred Ring** - Gain the [Potent Cantrips](https://bg3.wiki/wiki/Potent_Cantrips) passive. Drops from the Scared Boar on the Ravaged Beach.
+{{- else }}
+**Sacred Ring** - Your Sacred Flame still does half damage on a failed save. Drops from the Scared Boar on the Ravaged Beach.
+{{- end }}
 
-**Ring of Unreasonable Force** - Whenever you deal Force damage to a creature, you can push the creature up to 3m away from you. Grants a special Magic Missile cantrip that shoots one projectile. Found as loot from one of the (yellow lootable) Flaming Fist Bodies in Waukeen's Rest (TODO needs fixing).
+**Ring of Unreasonable Force** - Whenever you deal Force damage to a creature, you can push the creature up to 3m away from you. Found as loot from one of the (yellow lootable) Flaming Fist Bodies in Waukeen's Rest.
 
 **Sculptor's Gloves** - Allies automatically succeed saving throws against your Evocation Spells and take no damage from them. Found in the Mason's Guild basement chest.
 
@@ -38,7 +42,7 @@
 
 **Arcane Striker's Gloves** - When you make a melee weapon attack, gain Arcane Charge for 2 turns. When you make a melee spell attack, gain Arcane Synergy for 2 turns. Dropped from the Cloaker in the Gauntlet of Shar.
 
-**Gloves of the Arcane Warrior** - Most of the effects of Daredevil Gloves, Gloves of Battlemage's Power and Arcane Striker's Gloves.  Combine using a "Practical Caster's Guide to Glove Making" found in the Sorcerous Vault.
+**Gloves of the Arcane Warrior** - Most of the effects of Daredevil Gloves, Gloves of Battlemage's Power and Arcane Striker's Gloves.  Combine using a "Elminster's Tailoring Notes" found in the Sorcerous Vault.
 
 **Gloves of Crossbowmanship** - You gain Proficiency with heavy and hand crossbows. In addition, your ranged weapon attacks deal an additional 2 damage. Sold by Grat the Trader.
 

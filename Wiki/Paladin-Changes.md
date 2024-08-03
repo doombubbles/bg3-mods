@@ -5,7 +5,7 @@
 ### Oath of Devotion
 
 - Holy Rebuke is now a Bonus Action
-- Sacred Weapon is now a Bonus Action
+- Sacred Weapon is now a Bonus Action and can be used as an Interrupt if you miss
 
 ### Oath of Vengenace
 

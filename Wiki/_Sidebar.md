@@ -38,6 +38,7 @@
 - [[ Fighter | Fighter-Changes ]]
 - [[ Monk | Monk-Changes ]]
 - [[ Paladin | Paladin-Changes]]
+- [[ Ranger | Ranger-Changes ]]
 - [[ Rogue | Rogue-Changes ]]
 - [[ Sorcerer | Sorcerer-Changes ]]
 - [[ Warlock | Warlock-Changes ]]

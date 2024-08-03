@@ -229,7 +229,7 @@ data "DisplayName" "h390901fagec4eg49e4gb2a1gd5865a57f56c"
 data "Description" "h249c99dfgacd2g4c2cg98b5gbf0286da7529"
 data "Icon" "PassiveFeature_GreatWeaponMaster_BonusAttack"
 data "Properties" "Highlighted"
-data "Boosts" "IF(HeavyWeaponMasterMelee() or HeavyWeaponMasterRanged()):CharacterWeaponDamage(ProficiencyBonus)"
+data "Boosts" "IF(HeavyWeaponMasterMelee(context.Source) or HeavyWeaponMasterRanged(context.Source, true)):CharacterWeaponDamage(ProficiencyBonus)"
 
 new entry "HEAVY_WEAPON_MASTER_MELEE"
 type "StatusData"

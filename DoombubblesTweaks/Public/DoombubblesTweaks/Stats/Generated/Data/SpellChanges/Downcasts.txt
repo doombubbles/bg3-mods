@@ -26,6 +26,9 @@ data "Level" "0"
 data "UseCosts" "ActionPoint:1"
 data "SpellSuccess" "DealDamage(LevelMapValue(D6Cantrip),Radiant,Magical); IF(not HasStatus('DBT_GUIDED_BOLT', context.Source) or HasStatus('DBT_GRAVITY_GLOBE', context.Source)):ApplyStatus(GUIDING_BOLT, 100, 2)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D6Cantrip),Radiant)"
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D6Cantrip)/2,Radiant,Magical);"
+{{- end }}
 
 new entry "Projectile_WitchBolt_0"
 type "SpellData"
@@ -39,6 +42,9 @@ data "SpellProperties" "GROUND:DealDamage(LevelMapValue(D10Cantrip),Lightning)"
 data "SpellSuccess" "DealDamage(LevelMapValue(D10Cantrip),Lightning,Magical)"
 data "ConcentrationSpellID" ""
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D10Cantrip)/2,Lightning,Magical);"
+{{- end }}
 
 new entry "Projectile_RayOfSickness_0"
 type "SpellData"
@@ -102,6 +108,9 @@ data "Level" "0"
 data "UseCosts" "ActionPoint:1"
 data "SpellSuccess" "DealDamage(LevelMapValue(D10Cantrip),Necrotic,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D10Cantrip),Necrotic)"
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D10Cantrip)/2,Necrotic,Magical);"
+{{- end }}
 
 new entry "Target_CreateWater_0"
 type "SpellData"
@@ -146,6 +155,10 @@ data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Acid,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Acid)"
 data "SpellProperties" ""
 data "Description" ""
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Acid,Magical);"
+{{- end }}
+
 
 new entry "Projectile_ChromaticOrb_Cold_0"
 type "SpellData"
@@ -157,6 +170,9 @@ data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Cold,Magical);RemoveSta
 data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Cold)"
 data "SpellProperties" ""
 data "Description" ""
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Cold,Magical);"
+{{- end }}
 
 new entry "Projectile_ChromaticOrb_Fire_0"
 type "SpellData"
@@ -168,6 +184,9 @@ data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Fire,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Fire)"
 data "SpellProperties" ""
 data "Description" ""
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Fire,Magical);"
+{{- end }}
 
 new entry "Projectile_ChromaticOrb_Lightning_0"
 type "SpellData"
@@ -179,6 +198,9 @@ data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Lightning)"
 data "SpellProperties" ""
 data "Description" ""
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Lightning,Magical);"
+{{- end }}
 
 new entry "Projectile_ChromaticOrb_Poison_0"
 type "SpellData"
@@ -190,6 +212,9 @@ data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Poison,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Poison)"
 data "SpellProperties" ""
 data "Description" ""
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Poison,Magical);"
+{{- end }}
 
 new entry "Projectile_ChromaticOrb_Thunder_0"
 type "SpellData"
@@ -201,7 +226,9 @@ data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Thunder,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Thunder)"
 data "SpellProperties" ""
 data "Description" ""
-
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Thunder,Magical);"
+{{- end }}
 
 new entry "Projectile_ScorchingRay_0"
 type "SpellData"
@@ -213,6 +240,9 @@ data "AmountOfTargets" "LevelMapValue(EldritchBlast)"
 data "DescriptionParams" "DealDamage(2d4,Fire);LevelMapValue(EldritchBlast)"
 data "SpellSuccess" "DealDamage(2d4,Fire,Magical)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D4Cantrip)+LevelMapValue(D4Cantrip),Fire)"
+{{- if $.Balance.PotenterCantrip }}
+data "SpellFail" "IF(HasPassive('PotentCantrip',context.Source)):DealDamage(2d4/2,Fire,Magical);"
+{{- end }}
 
 new entry "Projectile_AcidArrow_0"
 type "SpellData"

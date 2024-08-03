@@ -1,0 +1,39 @@
+new entry "FavoredEnemy_DemonHunter"
+type "PassiveData"
+data "DisplayName" "h64b034ebg7b7bg4d20g94ccge595e2e1c0ba"
+data "Description" "h589346c1g110bg4927gadc1gcc9664af27eb"
+data "DescriptionParams" "Distance(24)"
+data "Icon" "PassiveFeature_FavoredEnemy_DemonHunter"
+data "Properties" "Highlighted"
+data "Boosts" "ProficiencyBonus(Skill,Perception);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"
+
+{{- $_LVL := "" -}}
+{{ range $lvl := list 1 2 3 4 5 6 }}
+{{- $_LVL = (gt $lvl 1) | ternary (print "_" $lvl) "" }}
+new entry "Projectile_HailOfThorns{{$_LVL}}"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_HailOfThorns{{$_LVL}}"
+data "TargetRadius" "RangedMainWeaponRange"
+data "SpellRoll" "Attack(AttackType.RangedWeaponAttack)"
+data "SpellSuccess" "TARGET:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);TARGET:ExecuteWeaponFunctors(MainHand);TARGET:AOE:ApplyStatus(HAIL_OF_THORNS{{$_LVL}},100,0)"
+data "SpellFail" "TARGET:AOE:ApplyStatus(HAIL_OF_THORNS{{$_LVL}},100,0)"
+data "UseCosts" "ActionPoint:1;BonusActionPoint:1;SpellSlotsGroup:1:1:{{$lvl}}"
+data "TargetConditions" "Character() and not Ally()"
+
+new entry "HAIL_OF_THORNS{{$_LVL}}"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "DisplayName" "hec3e702ege82bg4096gb1f0g71c07209f8da"
+data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(), false, HasPassive('FavoredEnemy_BountyHunter', context.Source))"
+data "OnApplySuccess" "DealDamage({{$lvl}}d10,Piercing,Magical);"
+data "OnApplyFail" "DealDamage({{$lvl}}d10/2,Piercing,Magical)"
+
+new entry "ENSNARING_STRIKE{{$_LVL}}"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ENSNARING_STRIKE{{$_LVL}}"
+data "OnApplyFunctors" "DealDamage({{$lvl}}d6, Piercing,Magical)"
+{{ end }}
+

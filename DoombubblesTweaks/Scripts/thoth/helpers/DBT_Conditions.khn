@@ -150,8 +150,8 @@ function IsUnarmedWildshape()
       ~(Tagged('MYRMIDON_AIR', context.Source) | Tagged('MYRMIDON_FIRE', context.Source) | Tagged('MYRMIDON_WATER', context.Source))
 end
 
-function DivinePurposeSpellCheck()
-  return SpellId('Target_TemplarsVerdict') | SpellId('Shout_DivineStorm')
+function EldritchPurposeSpellCheck()
+  return SpellId('Target_TemplarsVerdict') | SpellId('Shout_EldritchStorm')
 end
 
 function KillingMachineSpellCheck()
@@ -221,14 +221,21 @@ function HeavyWeaponMasterMelee(entity)
   return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
 end
 
-function HeavyWeaponMasterRanged(entity)
+function HeavyWeaponMasterRanged(entity, allowBows)
   entity = entity or context.Source
+  allowBows = allowBows or false
   local weapon = GetActiveWeapon(entity, true)
 
   local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
   local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
+  local isLoading = HasWeaponProperty(WeaponProperties.Loading, weapon)
 
   local res = IsProficientWith(entity, weapon) & ~isMelee & isHeavy
 
-  return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
+  return ConditionResult(res.Result and (isLoading.Result or allowBows), { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
+end
+
+function IsEldritchSmite()
+  return SpellId('Target_Smite_Eldritch') | SpellId('Target_Smite_Eldritch_2') | SpellId('Target_Smite_Eldritch_3') |
+  SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Target_Smite_Eldritch_6')
 end

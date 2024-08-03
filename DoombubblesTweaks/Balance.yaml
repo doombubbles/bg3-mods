@@ -4,6 +4,8 @@ ClothesAlwaysBuff: true
 UniversalClothGivesBoth: true
 RepellingWallOfFire: false
 WildshapeDoubleDip: true
+PotenterCantrip: true
+PotentSacredRing: true
 
 # Base Game nerfs
 NerfTavernBrawler: false
@@ -17,5 +19,4 @@ FixEarthMyrmidon: false
 HealingBuffs: true
 
 # In Progress Features
-ScrollsCostSpellSlots: false
-DeathKnightEnabled: false
+DeathKnightEnabled: true

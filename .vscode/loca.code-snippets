@@ -203,5 +203,10 @@
 		"prefix": "heavy",
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"Heavy\"&gt;Heavy&lt;/LSTag&gt;"
+	},
+	"modifier": {
+		"prefix": ["modifier","abilitymodifier"],
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"AbilityModifier\"&gt;Modifier&lt;/LSTag&gt;"
 	}
 }

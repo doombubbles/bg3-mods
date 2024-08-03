@@ -7,6 +7,9 @@
 	<content contentuid="hb956962cgf51dg49b1gae2fgdc7aba62a5fc" version="1">Sacred Ring</content>
 	<content contentuid="h0df7ce71gc7acg46a9g9835ge77c7897b271" version="1">A small engraving on the ring reads: "Sometimes that what others see as sacred is really just something as scared as you are."</content>
 
+	<content contentuid="h7b49f089ge276g47eega8cag1f7d98216e2a" version="1">Sacred Cantrip</content>
+	<content contentuid="h7a08b047g9cd4g4762gaeddg49833f122c1f" version="1">When a creature succeeds its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against your &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame&lt;/LSTag&gt; cantrip, it still takes half damage.</content>
+
 	<content contentuid="hfd07ffc1gdb04g45b9g8ac6g6d2a446bac29" version="1">Sculptor's Gloves</content>
 	<content contentuid="h5b7e373eg6064g4db3g8409g58e914ea2340" version="1">Gloves for when you want to keep your hands clean while you're getting your hands dirty.</content>
 
@@ -26,10 +29,10 @@
 
 
 	<content contentuid="h9287a72eg8e48g41fcga4fcge006d3e21616" version="1">Elminster's Tailoring Notes</content>
-	<content contentuid="ha95899bfg7a28g4502ga249gbb6206fa6d98" version="1">A short set of notes illustrating how different spell casting gloves and robes can be carefully stitched together to combine their effects.</content>
+	<content contentuid="ha95899bfg7a28g4502ga249gbb6206fa6d98" version="1">A short set of notes illustrating how different spell casting gloves and robes can be carefully stitched together to combine their effects.&lt;br&gt;&lt;br&gt;Combines the Quickspell Gloves, Gemini Gloves, and Spellmight Gloves.&lt;br&gt;Combines the Daredevil Gloves, Gloves of Battlemage's Power, and Arcane Striker's Gloves.&lt;br&gt;Combines  The Protecty Sparkswall, Obsidian Laced Robe, and Robe of Summer.</content>
 
 	<content contentuid="h369fca54gc986g4edcga333g2cbacfc78480" version="1">'A Song of Ice and Fire' Review</content>
-	<content contentuid="h742c49dfg6502g4217gbbf3g476e1a64c122" version="1">A scathing review for some story you've never heard of. It evidently was unfinished, but told the tale of the forces of Cold and Heat joining together.</content>
+	<content contentuid="h742c49dfg6502g4217gbbf3g476e1a64c122" version="1">A scathing review for some story you've never heard of. It evidently was unfinished, but told the tale of the forces of Cold and Heat joining together.&lt;br&gt;&lt;br&gt;Combines the Mourning Frost and Incandescent Staff.&lt;br&gt;Combines the Thermoarcanic Gloves and Winter's Clutches.&lt;br&gt;Combines the Hat of Fire Acuity and Coldbrim Hat.</content>
 
 	<content contentuid="hddd6cbbagb083g40b9g871eg27761d4f1b5c" version="1">Portent Robe</content>
 	<content contentuid="h0f2160c8g392bg47c4ga7degafeca14e57e6" version="1">This robe is a difficult look to pull off unless you're Sherlock Holmes and you always work alone because no else can compete with your massive intellect.</content>
@@ -41,7 +44,7 @@
 	<content contentuid="hce54833cg6a38g42c4g8560g7c6edff53a29" version="1">At the beginning of the wearer's turn, the robe activates, granting them &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to their [1] &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h8bca3bc6g303bg4f74g8a23gaf38604d838a" version="1">Potent Rope</content>
-	<content contentuid="h3b6ad061gca48g4e26gb4f5g6da3a7ae49fd" version="1">More useful than any other rope you've ever seen! Still not when it comes to climbing things though...</content>
+	<content contentuid="h3b6ad061gca48g4e26gb4f5g6da3a7ae49fd" version="1">More useful than any other rope you've ever seen! Still not when it comes to climbing things though...&lt;br&gt;&lt;br&gt;Combines with the Potent Robe.</content>
 
 	<content contentuid="h46d13966g5c52g4d02gb35agaae91df86eab" version="1">Important Robe</content>
 	<content contentuid="h2ae7fcbagb781g4662g9fa3g4e15dc931f7d" version="1">This robe is a difficult look to pull off unless you're Sherlock Holmes and you always work alone because no else can compete with your massive wisdom.</content>
@@ -50,10 +53,10 @@
 	<content contentuid="h5c171170g0085g4385g8a24g375e103c9743" version="1">Well-Traveled and Well-Fortified</content>
 
 	<content contentuid="hf7fb2181gf1bcg447agb7b1g9c0aef4575e2" version="1">Important Rose</content>
-	<content contentuid="hcdcdc8b5g4df4g4eebga536g59d6c5b54240" version="1"></content>
+	<content contentuid="hcdcdc8b5g4df4g4eebga536g59d6c5b54240" version="1">A rose by any other name would be just as stupid as this name is.&lt;br&gt;&lt;br&gt;Combines with the Portent Robe.</content>
 
 	<content contentuid="hd3b21f82gbb3dg40c6ga306g0932baab6faf" version="1">Great Wyrm's Scale</content>
-	<content contentuid="h41649e0cg927eg4b87gb25bg28e22b1498e5" version="1">The last part of the great wyrm Ansur that has not succombed to decay. It shines with a more &lt;i&gt;chromatic&lt;/i&gt; glow than you would expect from just a Bronze dragon. You feel as if this scale could be used to transmute powerful draconic magic into new receptacles.</content>
+	<content contentuid="h41649e0cg927eg4b87gb25bg28e22b1498e5" version="1">The last part of the great wyrm Ansur that has not succombed to decay. It shines with a more &lt;i&gt;chromatic&lt;/i&gt; glow than you would expect from just a Bronze dragon. You feel as if this scale could be used to transmute powerful draconic magic into new receptacles.&lt;br&gt;&lt;br&gt;Combines with Markoheshkir and the Wyrmling Staves.</content>
 
 	<content contentuid="hc4af0393gfa89g4acfgb8bfgfcfffd0d4ae6" version="1">Gloves of Finesse</content>
 	<content contentuid="ha0cce89cg4496g45d2gabdegca3ef3fcf60b" version="1">Wearing these gloves makes the motions of your hands feel fluid and deadly, letting you wield even the least elegant of weapons with surprising grace.</content>
@@ -62,7 +65,7 @@
 	<content contentuid="h94be2ec1gb633g4276g9c76gb0fa3e99d511" version="1">With these gloves, you will fell your enemies quicker than they can ask "What the hells is 'Skullduggery' anyway?"</content>
 
 	<content contentuid="h9b1a161bgaa70g44c8g8ae9gb7e43c59d24c" version="1">Secrets to Skullduggery</content>
-	<content contentuid="h7ad18ed9g7745g4e2bg9c64g54d3b0b65c23" version="1">A worn out piece of parchment that simply reads "Stick 'em with the pointy end".</content>
+	<content contentuid="h7ad18ed9g7745g4e2bg9c64g54d3b0b65c23" version="1">A worn out piece of parchment that simply reads "Stick 'em with the pointy end".&lt;br&gt;&lt;br&gt;Combines the Stalker Gloves and Gloves of Finesse.</content>
 
 	<content contentuid="h8a4deeabg6139g4f26gb4c8g963ffbeb302f" version="1">Second Strike Ring</content>
 	<content contentuid="hd4ae808cg8b91g4ad0g8370g47a1dad3c58b" version="1">You can discern a small inscription around the ring that reads "Those that want me already have me. Those that don't have me don't want me. What am I?"</content>
@@ -83,10 +86,6 @@
 
 	<content contentuid="hf285326dgae82g482cg9a89gaf39439e33a4" version="1">Ring of Arcane Ferocity</content>
 	<content contentuid="ha5a6384fg34b2g41abg9bb5geafa5678b7fd" version="1"></content>
-
-	<content contentuid="h99e3c87agea0cg4caegaf0bg91301783e978" version="1">Arcane Ferocity</content>
-	<content contentuid="h036f0904g63e4g41a0g8fd3g57216059efbd" version="1">Bonuses you receive to your spell &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; also get added to your &lt;LSTag Tooltip="AttackRoll"&gt;Weapon Attack Rolls&lt;/LSTag&gt;.</content>
-	<content contentuid="h086cfac8g9c93g43e8g9e37g06235f065f84" version="1">Your &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt; also applies its bonus to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hec0d4caagb582g4ee1g8db6g7ad832659561" version="1">Gloves of Crossbowmanship</content>
 	<content contentuid="h524e0b9dgd904g4ab9ga59ag111128790a4e" version="1">Banded in dark steel, these gloves are embossed with the bronze likeness of an elf against a trio of arrows in flight.</content>

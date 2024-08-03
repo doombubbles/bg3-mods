@@ -118,6 +118,19 @@
           <attribute id="UUID" type="guid" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae"/>
         </node>
 
+        <!-- Favoured Enemies -->
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="FavoredEnemy_BountyHunter,FavoredEnemy_KeeperOfTheVeil,FavoredEnemy_MageBreaker,FavoredEnemy_RangerKnight,FavoredEnemy_SanctifiedStalker,FavoredEnemy_DemonHunter"/>
+          <attribute id="UUID" type="guid" value="d0f13dda-eb37-41f5-aea5-2683f0229e2e"/>
+        </node>
+
+        <!-- Evocation Wizard Choice -->
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="SculptSpells,PotentCantrip"/>
+          <attribute id="UUID" type="guid" value="4cd42d3b-20cf-44cb-be14-9aae7c111766"/>
+        </node>
+
+
       </children>
     </node>
   </region>

@@ -13,6 +13,15 @@
           <attribute id="UUID" type="guid" value="ed49e9a0-8730-4df2-b113-cda9dca68fe3"/>
         </node>
 
+        <node id="ActionResourceDefinition">
+          <attribute id="DisplayName" type="TranslatedString" handle="hb9af9c49gb2a8g4288gb717g553ad38aadda" version="1"/>
+          <attribute id="IsHidden" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="EldritchSmite_Charge"/>
+          <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+          <attribute id="UUID" type="guid" value="affb7245-1fc3-4656-be2d-064242ea638d"/>
+        </node>
+
 
         <node id="ActionResourceDefinition">
           <attribute id="DisplayName" type="TranslatedString" handle="h27e04f6egd24dg494fg8fdfg12ca059a4fed" version="1"/>

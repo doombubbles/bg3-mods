@@ -144,6 +144,11 @@
           <attribute id="Spells" type="LSString" value="Target_Polymorph;Teleportation_DimensionDoor"/>
           <attribute id="UUID" type="guid" value="33a48378-13da-4c07-8470-aec6b38e1a7e"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Devotion Spells level 3"/>
+          <attribute id="Spells" type="LSString" value="Shout_SacredWeapon;Shout_TurnTheUnholy;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Shout_SacredWeapon_Unlock"/>
+          <attribute id="UUID" type="guid" value="660eb07b-ea07-4ff1-91e7-7ca44694dbe7"/>
+        </node>
       </children>
     </node>
   </region>

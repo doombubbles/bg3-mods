@@ -49,3 +49,4 @@ function CL_WarlockSpellSlotsExpended(entity)
   | (~HasActionResource('WarlockSpellSlot', 1, 5, false, false, entity) & CL_ClassLevelEqualOrGreaterThan('Warlock',9,entity))
   return ConditionResult(result.Result, {ConditionError("CL_ConditionError_WarlockSpellSlotsExpended_False")})
 end
+

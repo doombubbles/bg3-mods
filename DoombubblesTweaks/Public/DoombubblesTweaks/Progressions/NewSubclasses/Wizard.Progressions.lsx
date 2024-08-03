@@ -253,7 +253,7 @@
         </node>
 
         <!-- Arcane -->
-        
+
         <node id="Progression">
           <attribute id="Level" type="uint8" value="2"/>
           <attribute id="Name" type="LSString" value="Arcane"/>

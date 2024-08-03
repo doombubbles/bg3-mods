@@ -395,6 +395,7 @@ data "SpellType" "Target"
 using "Target_EnhanceAbility_BullsStrength"
 data "SpellProperties" "ApplyStatus(MAG_BULLS_STRENGTH, 100, -1)"
 {{- include "EnhanceAbilityChanges" "" }}
+data "RequirementConditions" "not HasStatus('MAG_BULLS_STRENGTH')"
 
 new entry "Target_EnhanceAbility_BullsStrength_Physical"
 type "SpellData"
@@ -415,6 +416,7 @@ data "SpellType" "Target"
 using "Target_EnhanceAbility_CatsGrace"
 data "SpellProperties" "ApplyStatus(MAG_CATS_GRACE, 100, -1)"
 {{- include "EnhanceAbilityChanges" "" }}
+data "RequirementConditions" "not HasStatus('MAG_CATS_GRACE')"
 
 new entry "Target_EnhanceAbility_CatsGrace_Physical"
 type "SpellData"
@@ -435,6 +437,7 @@ data "SpellType" "Target"
 using "Target_EnhanceAbility_BearsEndurance"
 data "SpellProperties" "ApplyStatus(MAG_BEARS_ENDURANCE, 100, -1)"
 {{- include "EnhanceAbilityChanges" "" }}
+data "RequirementConditions" "not HasStatus('MAG_BEARS_ENDURANCE')"
 
 new entry "Target_EnhanceAbility_BearsEndurance_Physical"
 type "SpellData"
@@ -455,6 +458,7 @@ data "SpellType" "Target"
 using "Target_EnhanceAbility_FoxsCunning"
 data "SpellProperties" "ApplyStatus(MAG_FOXS_CUNNING, 100, -1)"
 {{- include "EnhanceAbilityChanges" "" }}
+data "RequirementConditions" "not HasStatus('MAG_FOXS_CUNNING')"
 
 new entry "Target_EnhanceAbility_FoxsCunning_Mental"
 type "SpellData"
@@ -476,6 +480,7 @@ data "SpellType" "Target"
 using "Target_EnhanceAbility_OwlsWisdom"
 data "SpellProperties" "ApplyStatus(MAG_OWLS_WISDOM, 100, -1)"
 {{- include "EnhanceAbilityChanges" "" }}
+data "RequirementConditions" "not HasStatus('MAG_OWLS_WISDOM')"
 
 new entry "Target_EnhanceMentalAbility_OwlsWisdom_Mental"
 type "SpellData"
@@ -495,6 +500,7 @@ data "SpellType" "Target"
 using "Target_EnhanceAbility_EaglesSplendor"
 data "SpellProperties" "ApplyStatus(MAG_EAGLES_SPLENDOR, 100, -1)"
 {{- include "EnhanceAbilityChanges" "" }}
+data "RequirementConditions" "not HasStatus('MAG_EAGLES_SPLENDOR')"
 
 new entry "Target_EnhanceAbility_EaglesSplendor_Mental"
 type "SpellData"

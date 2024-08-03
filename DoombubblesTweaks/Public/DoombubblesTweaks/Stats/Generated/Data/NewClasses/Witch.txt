@@ -37,4 +37,4 @@ data "Boosts" "UnlockSpell(Target_ConjureElemental_Container,AddChildren,d136c5d
 new entry "EldritchSmite_Witch"
 type "PassiveData"
 using "EldritchSmite"
-data "Boosts" "UnlockSpell(Target_Smite_Eldritch,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Charisma)"
+data "Boosts" "UnlockSpell(Target_Smite_Eldritch,AddChildren);UnlockSpell(Target_Smite_Eldritch_Unlock,AddChildren);ActionResource(EldritchSmite_Charge, 1, 0)"

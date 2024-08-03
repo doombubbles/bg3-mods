@@ -4,6 +4,31 @@
   <region id="Progressions">
     <node id="root">
       <children>
+
+        <!-- Base Wizard -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Savant(Evocation)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="EvocationSchool"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,2,0);SelectPassives(4cd42d3b-20cf-44cb-be14-9aae7c111766,1,EvocationWizardSpecialChoice)"/>
+          <attribute id="TableUUID" type="guid" value="953e6528-acd2-48b5-95e7-9d54ad555d39"/>
+          <attribute id="UUID" type="guid" value="8c55b8f1-e340-4c35-9171-f677e80e9dc8"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="EvocationSchool"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,2,0);SelectPassives(4cd42d3b-20cf-44cb-be14-9aae7c111766,1,EvocationWizardSpecialChoice)"/>
+          <attribute id="TableUUID" type="guid" value="953e6528-acd2-48b5-95e7-9d54ad555d39"/>
+          <attribute id="UUID" type="guid" value="5d56c038-f48f-419a-8afa-e8898713e89c"/>
+        </node>
+        
+
         <!-- Necromancy Wizard Control Undead -->
         <node id="Progression">
           <attribute id="Level" type="uint8" value="10"/>

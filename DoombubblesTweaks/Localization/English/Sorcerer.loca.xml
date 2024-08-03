@@ -53,4 +53,7 @@
 	<content contentuid="h112a7f50g3634g4956g9148gf980f7507714" version="1">Elemental Affinity: Thunder Resistance</content>
 	<content contentuid="hc0b82ba2g4945g40f2gbb2cg15373b63fc55" version="1">You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Thunder damage.</content>
 
+	<content contentuid="h1661fbfcgc84bg4a50g926fgc691443273e0" version="1">Dragon-like scales cover parts of your skin. When you aren't wearing armour, your add your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+	<content contentuid="h3de9cbfbg99a9g413cgbc2bg91b52ff3b536" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to the damage type associated with your draconic ancestry.</content>
+
 </contentList>

@@ -53,6 +53,8 @@ data "Boosts" "RollBonus(Attack,1);RollBonus(SavingThrow,1);RollBonus(SkillCheck
 data "StatusPropertyFlags" "IgnoreResting;DisablePortraitIndicator"
 data "StatusEffect" ""
 data "Passives" "UndBlissSpores"
+data "RemoveEvents" "OnStatusApplied"
+data "RemoveConditions" "Tagged('ACT2_SHADOW_CURSE_IMMUNE')"
 
 new entry "UndBlissSpores"
 type "PassiveData"
@@ -70,6 +72,8 @@ data "Boosts" "CharacterWeaponDamage(1,Radiant)"
 data "StatusPropertyFlags" "IgnoreResting;DisablePortraitIndicator"
 data "StatusEffect" ""
 data "Passives" "CreMagLathanderPuzzleBoon"
+data "RemoveEvents" "OnStatusApplied"
+data "RemoveConditions" "Tagged('ACT2_SHADOW_CURSE_IMMUNE')"
 
 new entry "CreMagLathanderPuzzleBoon"
 type "PassiveData"

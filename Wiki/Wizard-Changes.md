@@ -1,3 +1,7 @@
+{{- if $.Balance.PotenterCantrip }}
+- Potent Cantrips now also applies half damage for missing attack roll cantrips
+{{- end }}
+
 ### School of Necromancy
 
 - Now gains Control Undead at Level 10, castable once per Short Rest
