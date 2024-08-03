@@ -3,6 +3,7 @@ QuickenedCantripsPerCombat: true
 ClothesAlwaysBuff: true
 UniversalClothGivesBoth: true
 RepellingWallOfFire: false
+WildshapeDoubleDip: true
 
 # Base Game nerfs
 NerfTavernBrawler: false
@@ -10,6 +11,7 @@ NerfArcaneAcuity: false
 NerfSlashingFlourish: false
 FixSlashingFlourish: false
 PotionSickness: false
+FixEarthMyrmidon: false
 
 # Base Game Buffs
 HealingBuffs: true

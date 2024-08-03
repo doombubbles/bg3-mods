@@ -207,6 +207,13 @@
           <attribute id="FeatId" type="guid" value="18fde1d4-a067-46fe-96eb-7352ef10a4af"/>
           <attribute id="UUID" type="guid" value="36378f32-4cbe-4652-91f0-6dccb89495c3"/>
         </node>
+        <node id="FeatDescription">
+          <attribute id="Description" type="TranslatedString" handle="h8b4f5841g6677g4af2g8668g7ca7b78e6d71" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="headc10e8g8c64g4921g9df1g35109de92220" version="1"/>
+          <attribute id="ExactMatch" type="FixedString" value="HeavyWeaponMaster"/>
+          <attribute id="FeatId" type="guid" value="c332e1c7-4750-4afa-a39f-04e34163e873"/>
+          <attribute id="UUID" type="guid" value="25cf167e-cfe6-46cb-88ff-489f670d37dd"/>
+        </node>
       </children>
     </node>
   </region>

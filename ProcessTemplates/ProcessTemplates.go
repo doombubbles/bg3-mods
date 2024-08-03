@@ -237,6 +237,7 @@ func replacePlaceholdersAndTags(text string) string {
 	// Remove XML tags and retain inner text
 	reTags := regexp.MustCompile(`<.*?>`)
 	text = reTags.ReplaceAllString(text, "**")
+	text = strings.ReplaceAll(text, "****", " ")
 
 	return strings.TrimSpace(text)
 }

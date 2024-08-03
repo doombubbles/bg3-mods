@@ -65,6 +65,19 @@
 	<content contentuid="h29e15670g3379g403dg957ega0d49c64992e" version="1">Double Fist Puncher</content>
 	<content contentuid="h149cb06dg7bafg45b7g9130g7b18dbebdef8" version="1">When making an unarmed strike when you have nothing in your main hand or off hand, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; take a -5 penalty, but their damage increases by 10.</content>
 
+	<content contentuid="headc10e8g8c64g4921g9df1g35109de92220" version="1">Heavy Weapon Master</content>
+	<content contentuid="h8b4f5841g6677g4af2g8668g7ca7b78e6d71" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; or kill a target with a &lt;LSTag Tooltip="Heavy"&gt;Heavy&lt;/LSTag&gt; weapon you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, you can make another attack with it as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; that turn.&lt;br&gt;&lt;br&gt;When attacking with a &lt;LSTag Tooltip="Heavy"&gt;Heavy&lt;/LSTag&gt; weapon you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
+	
+	<content contentuid="h390901fagec4eg49e4gb2a1gd5865a57f56c" version="1">Heavy Weapon Master: Always In</content>
+	<content contentuid="h249c99dfgacd2g4c2cg98b5gbf0286da7529" version="1">When attacking with a &lt;LSTag Tooltip="Heavy"&gt;Heavy&lt;/LSTag&gt; weapon you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage.</content>
+
+	<content contentuid="h6c0ee47dgeff0g4038ga1c8g6b795c11bf7c" version="1">Heavy Weapon Master: Bonus Attack</content>
+	<content contentuid="h71faaec3gabf2g45b7g8c95g2bcee85cfb07" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; or kill a target with a &lt;LSTag Tooltip="Heavy"&gt;Heavy&lt;/LSTag&gt; weapon you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, you can make another attack with it as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; that turn.</content>
+	<content contentuid="h921d257fg12d9g4a8aga476g30a42f848250" version="1">Can make an attack with your &lt;LSTag Tooltip="Heavy"&gt;Heavy&lt;/LSTag&gt; weapon as a bonus action.</content>
+
+	<content contentuid="h59fc1de3g0d22g4a99gba7bg1597f9aa08f9" version="1">Weapon must be &lt;LSTag Tooltip="Heavy"&gt;Heavy&lt;/LSTag&gt;.</content>
+	<content contentuid="h5c887ddag87aeg4f8agbe38g50babdc95ada" version="1">Weapon can't be &lt;LSTag Tooltip="Heavy"&gt;Heavy&lt;/LSTag&gt;.</content>
+
 	<content contentuid="hf1cc5dc0g058bg456dg9084g3c87cef6f249" version="1">Savage Pugilist</content>
 	<content contentuid="h8e6e7f22g6f38g4b64g9447g73c47ca2a045" version="1">When making unarmed attacks, you roll your damage dice twice and use the highest result.</content>
 

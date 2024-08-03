@@ -59,7 +59,11 @@ new entry "Target_ThunderousPunch_Wildshape_Myrmidon_Earth"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_ThunderousPunch_Wildshape_Myrmidon_Earth"
+{{- if $.Balance.FixEarthMyrmidon }}
+data "SpellSuccess" "IF(not SavingThrow(Ability.Constitution,13)):ApplyStatus(PRONE,100,2);DealDamage(1d10+UnarmedMeleeAbilityModifier, Bludgeoning, Bludgeoning,Magical);DealDamage(1d10,Thunder,Magical)"
+{{- else }}
 data "TooltipDamageList" "DealDamage(5+UnarmedMeleeAbilityModifier, Bludgeoning);DealDamage(3d10,Thunder)"
+{{ end }}
 
 new entry "Target_ORI_Wyll_SummonCambion"
 type "SpellData"

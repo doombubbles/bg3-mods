@@ -22,14 +22,6 @@ function ShouldWeaponBondOverride(entity)
   end
 end
 
-function MagicMissileSpellCheck()
-  return SpellId('Projectile_MAG_MagicMissile_Shot')
-      | SpellId('Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet')
-      | SpellId('Projectile_MagicMissile')
-      | IsSpellChildOrVariantFromContext('Projectile_MagicMissile')
-      | SpellId('Projectile_MagicMissile_Cantrip')
-end
-
 function GuidingBoltCheck()
   return SpellId('Projectile_GuidingBolt')
       | SpellId('Projectile_MAG_GuidingBolt_MonkGloves')
@@ -128,10 +120,6 @@ function ClearCastingSpellCheck()
   return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot'))
 end
 
-function ClearCastingMMSpellCheck()
-  return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot')) & MagicMissileSpellCheck()
-end
-
 function HasNoMainHand(entity)
   entity = entity or context.Source
   result = ~WieldingWeapon('Melee', false, false, entity)
@@ -164,28 +152,6 @@ end
 
 function DivinePurposeSpellCheck()
   return SpellId('Target_TemplarsVerdict') | SpellId('Shout_DivineStorm')
-end
-
-function IsSmiteSpells()
-  return
-      SpellId('Target_Smite_Branding_ZarielTiefling') | SpellId('Projectile_Smite_Branding') |
-      SpellId('Projectile_Smite_Branding_3') | SpellId('Target_Smite_Branding') | SpellId('Target_Smite_Branding_3') |
-      SpellId('Target_Smite_Branding_4') | SpellId('Target_Smite_Branding_5') | SpellId('Target_Smite_Branding_6') |
-      SpellId('Target_Smite_Searing_ZarielTiefling') | SpellId('Target_FOR_Smite_Searing_DeathOfATrueSoul') |
-      SpellId('Target_UND_Smite_Searing_DuergarBlacksmithHammer') | SpellId('Target_Smite_Searing') |
-      SpellId('Target_Smite_Searing_2') | SpellId('Target_Smite_Searing_3') | SpellId('Target_Smite_Searing_4') |
-      SpellId('Target_Smite_Searing_5') | SpellId('Target_Smite_Searing_6') |SpellId('Projectile_Smite_Banishing') |
-      SpellId('Projectile_Smite_Banishing_4') | SpellId('Projectile_Smite_Banishing_5') |
-      SpellId('Projectile_Smite_Banishing_6') | SpellId('Target_Smite_Banishing')| SpellId('Target_Smite_Blinding') |
-      SpellId('Target_Smite_Divine') | SpellId('Target_Smite_Divine_2') | SpellId('Target_Smite_Divine_3') |
-      SpellId('Target_Smite_Divine_4') | SpellId('Target_Smite_Divine_5') | SpellId('Target_Smite_Divine_6')  |
-      SpellId('Target_Smite_Thunderous') | SpellId('Target_Smite_Thunderous_2') | SpellId('Target_Smite_Thunderous_3') |
-      SpellId('Target_Smite_Thunderous_4') | SpellId('Target_Smite_Thunderous_5') | SpellId('Target_Smite_Thunderous_6') |
-      SpellId('Target_MAG_ThunderousSmite')   | SpellId('Target_Smite_Wrathful') | SpellId('Target_Smite_Wrathful_2') |
-      SpellId('Target_Smite_Wrathful_3') | SpellId('Target_Smite_Wrathful_4') | SpellId('Target_Smite_Wrathful_5') |
-      SpellId('Target_Smite_Wrathful_6') | SpellId('Target_MAG_Smite_Wrathful') | SpellId('Target_StaggeringSmite')   |
-      SpellId('Target_Smite_Eldritch') | SpellId('Target_Smite_Eldritch_2') | SpellId('Target_Smite_Eldritch_3') |
-      SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Target_Smite_Eldritch_6')
 end
 
 function KillingMachineSpellCheck()
@@ -237,4 +203,32 @@ end
 
 function IsKillingBlowish()
   return ~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1)
+end
+
+function IsDamageTypeUnarmed()
+  return ConditionResult(context.HitDescription.GetDamageDoneForType(DamageType.Bludgeoning) > 0)
+end
+
+function HeavyWeaponMasterMelee(entity)
+  local entity = entity or context.Source
+  local weapon = GetActiveWeapon(entity, true)
+
+  local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
+  local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
+
+  local res = IsProficientWith(entity, weapon) & isMelee & isHeavy
+
+  return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
+end
+
+function HeavyWeaponMasterRanged(entity)
+  entity = entity or context.Source
+  local weapon = GetActiveWeapon(entity, true)
+
+  local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
+  local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
+
+  local res = IsProficientWith(entity, weapon) & ~isMelee & isHeavy
+
+  return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
 end

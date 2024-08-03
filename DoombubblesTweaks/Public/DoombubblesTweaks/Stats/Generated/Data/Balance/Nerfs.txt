@@ -3,7 +3,7 @@
 new entry "TavernBrawler"
 type "PassiveData"
 using "TavernBrawler"
-data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,{{$TavernBrawlerModifier}}));IF(IsUnarmedWildshape() and IsUnarmedAttack()):DamageBonus(max(0,{{$TavernBrawlerModifier}}))"
+data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,{{$TavernBrawlerModifier}}));IF(IsUnarmedWildshape() and IsUnarmedAttack(){{if not $.Balance.WildshapeDoubleDip}} and (IsDamageTypeBludgeoning() or IsDamageTypePiercing() or IsDamageTypeSlashing()){{end}}):DamageBonus(max(0,{{$TavernBrawlerModifier}}))"
 data "StatsFunctorContext" ""
 data "Conditions" ""
 data "StatsFunctors" ""

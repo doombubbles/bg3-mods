@@ -175,6 +175,12 @@
           <attribute id="PassivesAdded" type="LSString" value="DoubleFistPuncher"/>
           <attribute id="UUID" type="guid" value="18fde1d4-a067-46fe-96eb-7352ef10a4af" />
         </node>
+        <node id="Feat">
+          <attribute id="Name" type="FixedString" value="HeavyWeaponMaster"/>
+          <attribute id="PassivesAdded" type="LSString" value="HeavyWeaponMaster_BonusAttack;HeavyWeaponMaster_BonusDamage"/>
+          <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1)"/>
+          <attribute id="UUID" type="guid" value="c332e1c7-4750-4afa-a39f-04e34163e873"/>
+        </node>
       </children>
     </node>
   </region>

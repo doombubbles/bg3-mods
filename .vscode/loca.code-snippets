@@ -198,5 +198,10 @@
 		"prefix": "charisma",
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"Charisma\"&gt;Charisma&lt;/LSTag&gt;"
+	},
+	"heavy": {
+		"prefix": "heavy",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Heavy\"&gt;Heavy&lt;/LSTag&gt;"
 	}
 }

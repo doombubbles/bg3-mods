@@ -20,6 +20,7 @@
 
 | replace "**hit points**" "<img src='https://bg3.wiki/w/images/thumb/a/ac/Healing_Icon.png/50px-Healing_Icon.png' height='25' align='top' />**hit points**"
 | replace "Strength" "<img src=\"https://bg3.wiki/w/images/thumb/4/43/Strength_Small_Icon.png/50px-Strength_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Strength\" />Strength"
+| replace "Dexterity" "<img src=\"https://bg3.wiki/w/images/thumb/d/d1/Dexterity_Small_Icon.png/50px-Dexterity_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Dexterity\" /> Dexterity"
 
 
 | ireplace "Critical Hit" "[Critical Hit](https://bg3.wiki/wiki/Critical_Hit)"
