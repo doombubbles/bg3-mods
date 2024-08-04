@@ -49,6 +49,8 @@
 
 **Thermodynamaxe** - Is now permanently dipped in Fire, and passive changed slightly to "Whenever you deal damage with a melee weapon attack, you gain 2 turns of Heat."
 
+**Shar's Aegis** - Usable per Short Rest
+
 ### Phalar Aluve
 
 - Added new "Screech" option

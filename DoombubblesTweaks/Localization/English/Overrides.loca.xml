@@ -53,4 +53,6 @@
 
   <content contentuid="h3a5390c0gc1c0g4ebeg851fg634bb80d803c" version="1">You know how to utilize a staff as an arcane firearm--a conduit for your destructive spells. While wielding a staff, you can add an extra 1d8 to damage rolls with your spells.</content>
 
+  <content contentuid="h87aafe33ga1b1g46fbg94b9gbb3931c10b7b" version="1">After you reach 5th level as a Cleric, creatures that fail their saving throw are additionally &lt;LSTag Type="Status" Tooltip="BANISHED"&gt;Banished&lt;/LSTag&gt; for the duration.</content>
+
 </contentList>

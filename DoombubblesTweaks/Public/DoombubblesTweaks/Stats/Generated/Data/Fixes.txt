@@ -124,3 +124,11 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "CLICK_HEELS"
 data "Boosts" "ActionResourceMultiplier(Movement,200,0);IF(IsReactionAttack(context.Source)):Disadvantage(AttackTarget)"
+
+
+new entry "Target_ArcaneAbjuration"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ArcaneAbjuration"
+data "SpellSuccess" "ApplyStatus(TURNED,100,10);IF(ClassLevelHigherOrEqualThan(5, 'Cleric')):ApplyStatus(BANISHED,100,10)"
+data "ExtraDescription" "h87aafe33ga1b1g46fbg94b9gbb3931c10b7b"

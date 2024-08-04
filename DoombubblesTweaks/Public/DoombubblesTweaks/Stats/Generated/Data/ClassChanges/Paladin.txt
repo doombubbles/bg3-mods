@@ -1,7 +1,9 @@
 new entry "ImprovedDivineSmite"
 type "PassiveData"
 using "ImprovedDivineSmite"
+data "Description" "h0f80020egd031g46c1g86e8g534e4746df10"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
+data "Boosts" "IF(IsMeleeAttack()):CharacterWeaponDamage(1d8,Radiant);IF(IsMeleeAttack()):CharacterUnarmedDamage(1d8,Radiant)"
 
 new entry "Shout_SacredWeapon"
 type "SpellData"

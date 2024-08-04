@@ -190,3 +190,9 @@ using "ELEMENTAL_WEAPON_{{$e | upper}}"
 data "RemoveConditions" "not HasStatus('DRAKETHROAT_GLAIVE_CAST', GetOwner(context.Source))"
 data "RemoveEvents" "OnTurn;OnStatusRemoved"
 {{ end }}
+
+new entry "Shout_MAG_DarkJusticiarArmor_ShieldOfFaith"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MAG_DarkJusticiarArmor_ShieldOfFaith"
+data "Cooldown" "OncePerShortRestPerItem"

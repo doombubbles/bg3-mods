@@ -40,6 +40,8 @@ These changes will apply to other mods if you have DoombubblesTweaks below them 
 
 Arcana Domain now gets Mage Armor instead of Detect Magic, Counterspell instead of Dispel Magic, Polymoprh instead of Arcane Eye as domain spells.
 
+Their Channel Divinity also now correctly starts Banishing creatures at 5th level like in tabletop
+
 #### Artificer
 
 Arcane Firearm changed to {{ get .loca "h3a5390c0gc1c0g4ebeg851fg634bb80d803c" | quote }}

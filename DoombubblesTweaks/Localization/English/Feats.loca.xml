@@ -15,7 +15,7 @@
 	<content contentuid="h84ab4b22g0d7bg4609g9c5fg6627b21abcfc" version="1">Elemental Adept: Psychic</content>
 	<content contentuid="h45ab2e0dg876eg40f9g9139g47fbd5452cf7" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage. In addition, whenever you deal Psychic damage, you deal [1] more.</content>
 	<content contentuid="h06eb8788g4402g4f12g9cf9gbb917f9a4981" version="1">Elemental Adept: Radiant</content>
-	<content contentuid="h3fe8d652g2b08g4934g99c9g014a8c8d4aef" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. In addition, whenever you deal Psychic damage, you deal [1] more.</content>
+	<content contentuid="h3fe8d652g2b08g4934g99c9g014a8c8d4aef" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. In addition, whenever you deal Radiant damage, you deal [1] more.</content>
 	<content contentuid="he29f5a05g91b2g41ecg967eg3bc62b2ef429" version="1">Elemental Adept: Poison</content>
 	<content contentuid="h915a16a8ge16cg4d7eg8d24g296f25ca401d" version="1">Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage. In addition, whenever you deal Poison damage, you deal [1] more.</content>
 
