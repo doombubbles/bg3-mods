@@ -150,8 +150,8 @@ function IsUnarmedWildshape()
       ~(Tagged('MYRMIDON_AIR', context.Source) | Tagged('MYRMIDON_FIRE', context.Source) | Tagged('MYRMIDON_WATER', context.Source))
 end
 
-function EldritchPurposeSpellCheck()
-  return SpellId('Target_TemplarsVerdict') | SpellId('Shout_EldritchStorm')
+function DivinePurposeSpellCheck()
+  return SpellId('Target_TemplarsVerdict') | SpellId('Shout_DivineStorm')
 end
 
 function KillingMachineSpellCheck()
