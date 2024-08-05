@@ -190,7 +190,7 @@ new entry "Target_Smite_Branding_ZarielTiefling_Container"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_Smite_Branding_ZarielTiefling_Container"
-data "ContainerSpells" "Projectile_Smite_Branding_ZarielTiefling;Target_Smite_Branding_Unarmed_ZarielTiefling"
+data "ContainerSpells" "Projectile_Smite_Branding_ZarielTiefling;Target_Smite_Branding_ZarielTiefling;Target_Smite_Branding_Unarmed_ZarielTiefling"
 
 new entry "Target_Smite_Branding_Unarmed_ZarielTiefling"
 type "SpellData"

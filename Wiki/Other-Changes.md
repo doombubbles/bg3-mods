@@ -22,6 +22,10 @@
 
 **Drakethroat Glaive** - For QoL purposes you can now cast Elemental Weapon from the Glaive without needing to equip it, however the buff granted will go away if the Glaive leaves your inventory.
 
+**Ring of Mind-Shielding** - Now also gives Advantage on Intelligence Saving Throws
+
+**Shield Dwarves** - Now actually have innate Shield Proficiency
+
 ### Non-Gameplay Changes
 
 **Disintegrate** - Changed VFX slightly to include some more red
@@ -47,3 +51,5 @@ Their Channel Divinity also now correctly starts Banishing creatures at 5th leve
 Arcane Firearm changed to {{ get .loca "h3a5390c0gc1c0g4ebeg851fg634bb80d803c" | quote }}
 
 This makes it actually follow the BG3 precedent of changing "add to one damage roll" effects like Empowered Evocation to be always applying.
+
+Fixed Flash of Genius to not show up as an interrupt if it wouldn't help

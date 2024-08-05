@@ -49,10 +49,14 @@
 
   <content contentuid="h9e477996gfc2dg4c87gaf7bgb2c3a5bd8e04" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 
+  <content contentuid="he0bf7eecgd59eg4dbcgab40g86157ba291a8" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+
   <!-- Other Mods -->
 
   <content contentuid="h3a5390c0gc1c0g4ebeg851fg634bb80d803c" version="1">You know how to utilize a staff as an arcane firearm--a conduit for your destructive spells. While wielding a staff, you can add an extra 1d8 to damage rolls with your spells.</content>
 
   <content contentuid="h87aafe33ga1b1g46fbg94b9gbb3931c10b7b" version="1">After you reach 5th level as a Cleric, creatures that fail their saving throw are additionally &lt;LSTag Type="Status" Tooltip="BANISHED"&gt;Banished&lt;/LSTag&gt; for the duration.</content>
+
+  <content contentuid="hda6ce8a9g9a00g46a5g9a61gcee81e2c1ceb" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light and Medium Armour and Shields.</content>
 
 </contentList>
