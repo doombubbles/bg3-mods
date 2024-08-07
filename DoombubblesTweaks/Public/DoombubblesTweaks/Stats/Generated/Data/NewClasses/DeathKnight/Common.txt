@@ -16,6 +16,7 @@ data "DisplayName" "ha0bc63c4g7f19g4cd2gbfe2g5ac7a3c167a1"
 data "Description" "h257de8efg1862g487dgbfd3gd6d00997e5d2"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnStatusApplied"
+data "Conditions" "StatusId('TUT_RESTORATION') or StatusId('ALCH_POTION_REST_SLEEP_GREATER_RESTORATION') or StatusId('ALCH_POTION_REST_SLEEP_LESSER_RESTORATION')"
 data "StatsFunctors" "RestoreResource(FrostRune,100%,0);RestoreResource(BloodRune,100%,0);RestoreResource(UnholyRune,100%,0);"
 
 new entry "RuneCastingTutorialFix"
@@ -24,7 +25,7 @@ data "DisplayName" "ha0bc63c4g7f19g4cd2gbfe2g5ac7a3c167a1"
 data "Description" "h257de8efg1862g487dgbfd3gd6d00997e5d2"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnHealed"
-data "Conditions" "not Combat() and not SpellId('Target_DeathStrike') and not SpellId('Target_DeathCoil') and not SpellId('Target_CureWounds') and not SpellId('Target_HealingWord') and not SpellId('Shout_HealingRadiance') and not StatusId('POTION_OF_HEALING') and not HasStatus('POTION_OF_HEALING')"
+data "Conditions" "not Combat() and not SpellId('Target_DeathStrike') and not SpellId('Target_DeathCoil') and not SpellId('Target_CureWounds') and not SpellId('Target_HealingWord') and not SpellId('Shout_HealingRadiance') and not StatusId('POTION_OF_HEALING')"
 data "StatsFunctors" "RestoreResource(FrostRune,100%,0);RestoreResource(BloodRune,100%,0);RestoreResource(UnholyRune,100%,0);"
 // TODO potions fix?
 

@@ -29,6 +29,7 @@
 
         <node id="ClassDescription">
           <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Vengance"/>
           <attribute id="Description" type="TranslatedString" handle="h23db7ea6g6882g428bg9af2g50b797dba11b" version="1"/>
           <attribute id="DisplayName" type="TranslatedString" handle="haad2a2feg3184g4599g9182gf8d08b00331f" version="1"/>
           <attribute id="LearningStrategy" type="uint8" value="1"/>
