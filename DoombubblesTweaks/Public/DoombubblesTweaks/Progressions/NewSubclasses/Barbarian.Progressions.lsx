@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(Rage,1,0)"/>
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Barbarian"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
+          <attribute id="UUID" type="guid" value="0d4a6b4b-8162-414b-81ef-1838e36e778a"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="2e585948-d775-451d-b58b-15b75321d11e"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="d6bf00fc-3518-4d63-ba8b-03532c1abc4d"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="345899c8-8d56-4460-9262-13dac0534b84"/>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="PassivesAdded" type="LSString" value="RageRampageUnlock;SingleMindedFury"/>
+          <attribute id="PassivesRemoved" type="LSString" value="RageUnlock"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,2,0,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="f38da18f-54c9-46bc-a4e5-58822f1f78ed"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="aa1e127f-c478-4030-b0b0-6dedf7aec21e"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="e25dc7b1-23ed-4c55-8051-4bd4d3eb1b76"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="PassivesAdded" type="LSString" value="AngerManagement;TitansGrip"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,2,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="eabaace9-fb25-46a8-8ef2-49f0a902a55b"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="44d124ad-0eba-4cf7-a938-f48ba0d6d6d6"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="7093062d-e0ad-464a-9ac6-bbd4d18d196c"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="2494433f-3df1-4a3c-82f7-8a661fa24502"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(d3806701-3175-46d2-9117-7ebaeec6f90a);SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,2,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="23fce3a1-021a-45fb-becb-70203715f086"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="cc1714be-c8f6-4878-8706-a467e5858268"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="Fury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
+          <attribute id="UUID" type="guid" value="0e808636-c744-4332-91c8-8604452c82c3"/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>

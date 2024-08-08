@@ -16,9 +16,16 @@
 
 #### New Subclasses
 
-- [[ Paladin | Paladin-Subclasses ]]
-- [[ Warlock | Warlock-Subclasses ]]
-- [[ Wizard | Wizard-Subclasses ]]
+- Barbarian
+  - [[ Fury | Barbarian---Fury ]]
+- Paladin
+  - [[ Oath of Retribution | Paladin---Retribution ]]
+- Warlock
+  - [[ Pact of Destruction | Warlock---Destruction ]]
+- Wizard
+  - [[ Fire | Wizard---Fire ]]
+  - [[ Frost | Wizard---Frost ]]
+  - [[ Arcane | Wizard---Arcane ]]
 
 ### Changes
 

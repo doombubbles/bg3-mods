@@ -7,17 +7,17 @@
 	"Icon": {
 		"prefix": "icon",
 		"scope": "markdown,helm",
-		"body": "<img src=\"images/ControllerIcons/skills_png/$1\" height=\"40\" align=\"left\" alt=\"$1\" />$0"
+		"body": "<img src=\"${1:images/ControllerIcons/skills_png/}\" height=\"40\" align=\"left\" alt=\"$2\" />$0"
 	},
 	"Small Icon": {
 		"prefix": "iconsm",
 		"scope": "markdown,helm",
-		"body": "<img src=\"images/ControllerIcons/skills_png/$1\" height=\"25\" align=\"top\" alt=\"$1\" />$0"
+		"body": "<img src=\"${1:images/ControllerIcons/skills_png/}\" height=\"25\" align=\"top\" alt=\"$2\" />$0"
 	},
 	"Small Icon Single Quote": {
 		"prefix": "iconsms",
 		"scope": "markdown,helm",
-		"body": "<img src='images/ControllerIcons/skills_png/$1' height='25' align='top' alt='$1' />$0"
+		"body": "<img src='${1:images/ControllerIcons/skills_png/}' height='25' align='top' alt='$2' />$0"
 	},
 	"BG3 Wiki Link": {
 		"prefix": "bg3",
@@ -30,6 +30,11 @@
 		"prefix": "runespell",
 		"scope": "markdown,helm",
 		"body": "<a href='Death Knight Spells#$TM_SELECTED_TEXT'>$TM_SELECTED_TEXT</a>"
+	},
+	"Loca": {
+			"prefix": ["loca"],
+			"scope": "markdown",
+			"body": "{{ getf .loca \"$CLIPBOARD\"$0 | include \"wikify\" }}"
 	},
 	"Tooltip": {
 		"prefix": "tooltip",
@@ -75,6 +80,15 @@
 		],
 		"scope": "markdown,helm",
 		"body": "<img src=\"https://bg3.wiki/w/images/c/c9/Bonus_Action_Icon.png\" height=\"25\" align=\"top\" alt=\"ActionPoint\" />$0"
+	},
+	"Rage Charges": {
+		"prefix": [
+			"rage",
+			"ragecharge",
+			"ragecharges"
+		],
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/d/d6/Rage_Charges_Icons.png/27px-Rage_Charges_Icons.png\" height=\"25\" align=\"top\" alt=\"RageCharges\" />$0"
 	},
 	"Hit Points": {
 		"prefix": [

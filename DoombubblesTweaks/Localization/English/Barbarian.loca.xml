@@ -21,4 +21,52 @@
   <content contentuid="h70bf2a77gd03dg453bg8a0cg4ea555a51ee1" version="1">Your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; turns into a frenzy! You gain &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike"&gt;Frenzied Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_FrenziedThrow"&gt;Enraged Throw&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike_Unarmed"&gt;Enraged Strike&lt;/LSTag&gt;. You can also make an &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeaponBerserker"&gt;Improvised Weapon Attack&lt;/LSTag&gt; as a bonus action.</content>
 	<content contentuid="h34edddd3gd049g4dd8gbfd9g76908f74c2d2" version="2">While raging, your melee attacks deal an additional [1]. &lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You can use &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike_Boar"&gt;Frenzied Strike&lt;/LSTag&gt;.</content>
 
+  <content contentuid="hb718963cged2eg416cgb4d0gd1427646ebb9" version="1">Fury</content>
+  <content contentuid="hf66e9153gca0eg4a51gba5bg7bc315652d59" version="1">You are a furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve your opponents to pieces.</content>
+
+  <content contentuid="he9db3c9agd435g407cg8039g10fab044e30c" version="1">Fury Attacks</content>
+  <content contentuid="hc141b2edgf41dg45f6gbb53g27ad7bfd4b1a" version="1">Your fury knows no bounds. You learn new attacks that expend your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h035c8cdege828g4a41ga3beg8f61f911a195" version="1">Rage Becomes Rampage</content>
+  <content contentuid="haa4d01a9g591fg4694gb818g1ee27b2538cd" version="1">Your fury becomes so great that you forego &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage during your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;. But, beginning your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; no longer requires a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, and all of your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; are regained after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  
+  <content contentuid="h35cd0519g94a9g4a42g8837g59c9408c6da7" version="1">Rampage</content>
+  <content contentuid="h03fb0ce8ga23fg4a3eg97acg6b9186ef8777" version="1">Your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; turns into a rampage! You don't get &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage, but beginning a &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; no longer requires a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, and all of your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; are regained after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="hc81987e4g4447g4b1bga5dag0ca65944e636" version="1">Deals an additional [1] damage with melee and improvised weapons, and when throwing objects.</content>
+
+  <content contentuid="h4327de52g4e1eg4469gbd25g2340b2c7bb20" version="1">Single-Minded Fury</content>
+  <content contentuid="hdea1f1dcgc20fg4e5eg9d05g57b31eedfeef" version="1">Titan's Grip</content>
+
+  <content contentuid="h7afca5dbgec1cg4bf1ga073g912612bf8718" version="1">Bloodthirst</content>
+  <content contentuid="h7cfa12d9ga912g4421ga9b8g4b18f0c93fcb" version="1">Assault the target in a bloodthirsty craze, restoring [1].</content>
+
+  <content contentuid="hb740fd8cgf26cg456dga27eg997b74a2d4c3" version="1">Raging Blow</content>
+  <content contentuid="hcdffe4f3gd2ffg4fecg80c0g0ef6e608c252" version="1">A mighty blow with both of your weapons.</content>
+
+  <content contentuid="hab8f617dgaf3dg4d7fg8027g95db51cdee7a" version="1">Wild Strike</content>
+  <content contentuid="h769dce28g69f7g46f1g9cafg69714b51c3d1" version="1">A quick strike with your off-hand weapon. After hitting, you can use this attack once more this turn at no resource cost.</content>
+  <content contentuid="h359c4045g45a2g4e8aga0aeg7d601c3c53af" version="1">You can use Wild Strike once more this turn without expending any resources.</content>
+
+  <content contentuid="he597f078g9cf1g41e5g8931g977e2293c55a" version="1">Execute</content>
+  <content contentuid="h9baff8c6gb3d0g4292gb126gf254ec89fb28" version="1">Attempt to finish off a foe below [2] hit points, dealing an extra [1] damage. If the target dies, you refund the &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charge&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h65117e65g6090g484fga574g0bc24616d302" version="1">Whirlwind</content>
+  <content contentuid="ha331a835gf3c8g4043gaa9ag68646d8ff4ac" version="1">Unleashes a whirlwind of steel, striking all nearby enemies. Until the end of your next turn, your melee weapon &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; can target 1 additional creature within range.</content>
+  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your melee weapon attacks can target 1 additional creature within range.</content>
+
+  <content contentuid="h5503c669g7ccbg4545g9ae2gabee40642259" version="1">Anger Management</content>
+  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">While &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Raging&lt;/LSTag&gt;, whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature you refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent on the &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hde4e9cfbgf9fcg4632ga0d2gd94b84091616" version="1">Reckless Abandon</content>
+  <content contentuid="h5aa4a6f6g98f5g4c47gaf23gbfa94f446d62" version="1">For the first turn of your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;, all your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent.</content>
+  <content contentuid="hfebb0530g198dg4563gbdf8g2c2aadfed775" version="1">This can occur Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h75592a87g7fe0g4feeg959ag67aa6c9fabb0" version="1">Recklessness</content>
+  <content contentuid="hb02d2a55gb259g4629ga232ga4e0fd8b8751" version="1">Go berserk, immediately activating &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt; and making all your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent until the end of your turn.</content>
+  <content contentuid="h0819b966ga34cg4e2cg8c24g280574de881b" version="1">All your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent until the end of your turn.</content>
+
+
+  <content contentuid="h221edabdg494bg4180g8c5fgbef3e3193d1e" version="1">Charge</content>
+  <content contentuid="hf0da666cg2c85g4ec5g8e19g809ec529afbf" version="1">Charge to an enemy, striking them and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restraining&lt;/LSTag&gt; them for [1] turn(s).</content>
+
 </contentList>

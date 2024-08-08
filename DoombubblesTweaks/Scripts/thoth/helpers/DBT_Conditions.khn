@@ -202,7 +202,7 @@ function CarnageSpellCheck()
 end
 
 function IsKillingBlowish()
-  return ~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1)
+  return IsKillingBlow() | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
 end
 
 function IsDamageTypeUnarmed()
@@ -232,10 +232,28 @@ function HeavyWeaponMasterRanged(entity, allowBows)
 
   local res = IsProficientWith(entity, weapon) & ~isMelee & isHeavy
 
-  return ConditionResult(res.Result and (isLoading.Result or allowBows), { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
+  return ConditionResult(res.Result and (isLoading.Result or allowBows), { ConditionError("HasNotHeavyWeapon") },
+    { ConditionError("HasHeavyWeapon") })
 end
 
 function IsEldritchSmite()
   return SpellId('Target_Smite_Eldritch') | SpellId('Target_Smite_Eldritch_2') | SpellId('Target_Smite_Eldritch_3') |
-  SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Target_Smite_Eldritch_6')
+      SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Target_Smite_Eldritch_6')
+end
+
+function WhirlwindSpellCheck()
+  return SpellTypeIs(SpellType.Target) &
+  (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))
+end
+
+function IsFuryAttack()
+  return (HasUseCosts('Rage') & (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))) |
+      SpellId('Target_Bloodthirst') | SpellId('Target_RagingBlow') | SpellId('Target_Execute_Fury') |
+      SpellId('Shout_Whirlwind_Fury') | (SpellId('Target_WildStrike') & ~HasStatus('WILD_STRIKE', context.Source))
+end
+
+function HasWeaponInOffHand()
+  result = WieldingWeapon('Melee', true)
+  return ConditionResult(result.Result, { ConditionError("HasNotWeaponInMainHand") },
+    { ConditionError("HasWeaponInMainHand") })
 end

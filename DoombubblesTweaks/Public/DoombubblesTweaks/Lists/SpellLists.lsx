@@ -149,6 +149,16 @@
           <attribute id="Spells" type="LSString" value="Shout_SacredWeapon;Shout_TurnTheUnholy;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Shout_SacredWeapon_Unlock"/>
           <attribute id="UUID" type="guid" value="660eb07b-ea07-4ff1-91e7-7ca44694dbe7"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Fury Barbarian Level 10 Spells"/>
+          <attribute id="Spells" type="LSString" value="Shout_Recklessness"/>
+          <attribute id="UUID" type="guid" value="d3806701-3175-46d2-9117-7ebaeec6f90a"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Fury Barbarian Attacks"/>
+          <attribute id="Spells" type="LSString" value="Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury"/>
+          <attribute id="UUID" type="guid" value="b73fd83d-ad43-44f8-8f23-a20d3bfed7a3"/>
+        </node>
       </children>
     </node>
   </region>

@@ -40,6 +40,18 @@
           <attribute id="Identifier" type="FixedString" value="HasNotHeavyWeapon"/>
           <attribute id="UUID" type="guid" value="d0a846a8-cc3e-47b4-9c0e-1ea24261dfbf"/>
         </node>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="h2bc6513cg23c6g4047g8ce1gfca3182e6fd7" version="2"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="HasWeaponInOffHand"/>
+          <attribute id="UUID" type="guid" value="a7b3a2c8-9c24-452e-94dd-8f8027849798"/>
+        </node>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="heb20b921g993ag45f9g8beag2ed9ea0fedab" version="1"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="HasNotWeaponInOffHand"/>
+          <attribute id="UUID" type="guid" value="18c30282-aa96-4c5d-ad23-f66b8deb830c"/>
+        </node>
       </children>
     </node>
   </region>

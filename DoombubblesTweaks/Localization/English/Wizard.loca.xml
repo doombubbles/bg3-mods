@@ -63,7 +63,7 @@
 	<content contentuid="hd76d5d39g9c18g4c34g8c4ag3ee5b9237ced" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in mastering the force of cold.</content>
 
 	<content contentuid="he8ae9e01g8426g4fccga9abg4f74d5d0142e" version="1">Shatter</content>
-	<content contentuid="hf458858dg5a2bg4c9egaae1g13e8ccf5ab3d" version="1">When &lt;LSTag Tooltip="AttackRoll"&gt;attacking&lt;/LSTag&gt; a creatue that is &lt;LSTag Type="Status" Tooltip="FROZEN"&gt;Frozen&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; with a Cold spell, the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by [1]. This effect can stack.</content>
+	<content contentuid="hf458858dg5a2bg4c9egaae1g13e8ccf5ab3d" version="1">When &lt;LSTag Tooltip="AttackRoll"&gt;attacking&lt;/LSTag&gt; a creatue that is &lt;LSTag Type="Status" Tooltip="FROZEN"&gt;Frozen&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; with a Cold spell, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by [1]. This effect can stack.</content>
 	<content contentuid="h8325aaf4g3c70g4617gb1fbg7de290412be8" version="1">Splitting Ice</content>
 	<content contentuid="h79cb1734gb7f4g4f81gb0abg9ff98fd84a90" version="1">Your Cold spells that would normally target only 1 creature can target an additional creature.</content>
 	<content contentuid="h5c0ffd74gcfa9g401ega9e6g3669ee967fe8" version="1">Fingers of Frost</content>
@@ -86,7 +86,7 @@
 	<content contentuid="ha3a3048cg0480g41a6gbdf8gaf945e80bbc6" version="1">Savant</content>
 	<content contentuid="h244a9a72g71c4g4c42g949cg3e3ff6c96b3f" version="1">You now regain all your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h84e066e5g75e7g4d64ga375ga994ea3b3606" version="1">Arcane Intellect</content>
-	<content contentuid="h5ac6cad7g0f2eg4bbfg9ea4ge18c0b6de2f4" version="1">You and your members of your party gain a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; to a maximum of 22.</content>
+	<content contentuid="h5ac6cad7g0f2eg4bbfg9ea4ge18c0b6de2f4" version="1">You and other members of your party gain a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; to a maximum of 22.</content>
 	<content contentuid="hd14d6e14gb942g4822g96b4g9aaf55e01fc0" version="1">Has a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; to a maximum of 22.</content>
 
 	<content contentuid="h3f7f3e27g6112g4db5g863dg80e54b3a331f" version="1">Your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; become harder to evade entirely.&lt;br&gt;&lt;br&gt;When a creature succeeds its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or you miss your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; for one of your cantrips, it still takes half the cantrip's damage, but suffers no additional effects.</content>

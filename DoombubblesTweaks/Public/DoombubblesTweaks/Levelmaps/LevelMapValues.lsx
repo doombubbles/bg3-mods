@@ -115,6 +115,14 @@
           <attribute id="PreferredClassUUID" type="guid" value="1b770a0d-f689-4fa9-bcca-62e472a44f24"/>
           <attribute id="UUID" type="guid" value="1397c6e0-5b1b-433a-a175-56b1f2276974"/>
         </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="2d6"/>
+          <attribute id="Level1" type="LSString" value="2d6"/>
+          <attribute id="Level5" type="LSString" value="3d6"/>
+          <attribute id="Level9" type="LSString" value="4d6"/>
+          <attribute id="Name" type="FixedString" value="ExecuteDamage"/>
+          <attribute id="UUID" type="guid" value="dcfb9d3b-900c-4b60-8261-a546228fbdc9"/>
+        </node>
       </children>
     </node>
   </region>

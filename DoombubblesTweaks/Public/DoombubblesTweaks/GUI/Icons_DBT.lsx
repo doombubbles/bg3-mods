@@ -506,14 +506,14 @@
           <attribute id="V2" type="float" value="0.09375"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_Paladin_TemplarsVerdict"/>
           <attribute id="U1" type="float" value="0.15625"/>
           <attribute id="U2" type="float" value="0.1875"/>
           <attribute id="V1" type="float" value="0.0625"/>
           <attribute id="V2" type="float" value="0.09375"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Action_Paladin_AvengingWrath"/>
           <attribute id="U1" type="float" value="0.1875"/>
           <attribute id="U2" type="float" value="0.21875"/>
           <attribute id="V1" type="float" value="0.0625"/>
