@@ -159,6 +159,11 @@
           <attribute id="Spells" type="LSString" value="Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury"/>
           <attribute id="UUID" type="guid" value="b73fd83d-ad43-44f8-8f23-a20d3bfed7a3"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Warlock Mysic Arcanum SLevel 6"/>
+          <attribute id="Spells" type="LSString" value="Target_CircleOfDeath;Teleportation_ArcaneGate;Target_Eyebite;Target_FleshToStone;Target_CreateUndead;Target_ConjureElemental_6"/>
+          <attribute id="UUID" type="guid" value="e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6"/>
+        </node>
       </children>
     </node>
   </region>

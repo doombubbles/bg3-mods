@@ -350,3 +350,26 @@ data "SpellContainerID" "Target_Hex_Enduring"
 data "Cooldown" "OncePerShortRest"
 data "UseCosts" "BonusActionPoint:1"
 {{ end }}
+
+
+{{- $elements := list "Earth" "Fire" "Air" "Water" -}}
+{{- $guys := list "Elemental" "Myrmidon" }}
+
+new entry "Target_ConjureElemental_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ConjureElemental_Container_6"
+data "Level" "6"
+data "RootSpellID" ""
+data "ContainerSpells" "{{range $guy := $guys}}{{range $element := $elements}}Target_ConjureElemental_{{$guy}}_{{$element}}_6;{{end}}{{end}}"
+
+{{range $guy := $guys}}
+{{range $element := $elements}}
+new entry "Target_ConjureElemental_{{$guy}}_{{$element}}_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ConjureElemental_{{$guy}}_{{$element}}"
+data "SpellContainerID" "Target_ConjureElemental_6"
+data "RootSpellID" ""
+{{end}}
+{{end}}

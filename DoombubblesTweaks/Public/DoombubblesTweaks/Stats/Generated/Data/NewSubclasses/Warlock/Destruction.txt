@@ -5,6 +5,9 @@ data "Description" "hc19d5973g8425g4969gb956g5ae5448e67f5"
 data "Icon" "PassiveFeature_DraconicAncestry_Gold"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Projectile_FireRay_Warlock)"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "Conditions" "not HasStatus('PACT_OF_DESTRUCTION_AURA', context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF, PACT_OF_DESTRUCTION_AURA, 100, -1)"
 
 new entry "Projectile_FireRay_Warlock"
 type "SpellData"
@@ -24,3 +27,102 @@ new entry "ThirstingBlade_Check"
 type "PassiveData"
 using "ThirstingBlade_Check"
 data "Description" "h7cdc9284g9ba0g453ag8b72gcdcf1bc34ec8"
+
+
+new entry "PACT_OF_DESTRUCTION_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h4ecbe33eg5d2cg483cg97c2gc99109000e40"
+data "Description" "hc19d5973g8425g4969gb956g5ae5448e67f5"
+data "Icon" "PassiveFeature_DraconicAncestry_Gold"
+data "StackId" "PACT_OF_DESTRUCTION_AURA"
+data "AuraRadius" "30"
+data "AuraStatuses" "TARGET:IF(PactOfDestructionSummonCheck('AgonizingBlast')):ApplyStatus(PACT_OF_DESTRUCTION_AGONIZING_BLAST,100,-1);TARGET:IF(PactOfDestructionSummonCheck('RepellingBlast')):ApplyStatus(PACT_OF_DESTRUCTION_REPELLING_BLAST,100,-1);TARGET:IF(PactOfDestructionSummonCheck('GraspOfHadar')):ApplyStatus(PACT_OF_DESTRUCTION_GRASP_OF_HADAR,100,-1);TARGET:IF(PactOfDestructionSummonCheck('LanceOfLethargy')):ApplyStatus(PACT_OF_DESTRUCTION_LANCE_OF_LETHERGY,100,-1);TARGET:IF(PactOfDestructionSummonCheck('EldritchSpear')):ApplyStatus(PACT_OF_DESTRUCTION_ELDRITCH_SPEAR,100,-1)"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "PACT_OF_DESTRUCTION_AGONIZING_BLAST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "AgonizingBlast_Summon"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "AgonizingBlast_Summon"
+type "PassiveData"
+using "AgonizingBlast"
+data "Properties" "IsHidden"
+data "Boosts" "IF(SpellDamageTypeIs(DamageType.Fire) and IsDamageTypeFire()):DamageBonus(Owner.CharismaModifier, Fire)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "SpellDamageTypeIs(DamageType.Fire)"
+
+
+new entry "PACT_OF_DESTRUCTION_REPELLING_BLAST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "RepellingBlast_Summon"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "RepellingBlast_Summon"
+type "PassiveData"
+using "RepellingBlast"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "SpellDamageTypeIs(DamageType.Fire)"
+data "StatsFunctors" "Force(4.5, OriginToTarget);ApplyStatus(PASSIVE_REPELLING_BLAST,100,0)"
+
+
+new entry "PACT_OF_DESTRUCTION_GRASP_OF_HADAR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "GraspOfHadar_Summon"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "GraspOfHadar_Summon"
+type "PassiveData"
+using "GraspOfHadar"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "SpellDamageTypeIs(DamageType.Fire)"
+data "StatsFunctors" "Force(-4.5, OriginToTarget);ApplyStatus(PASSIVE_REPELLING_BLAST,100,0)"
+
+
+new entry "PACT_OF_DESTRUCTION_LANCE_OF_LETHERGY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "LanceOfLethargy_Summon"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "LanceOfLethargy_Summon"
+type "PassiveData"
+using "LanceOfLethargy"
+data "Properties" "IsHidden"
+data "Conditions" "SpellDamageTypeIs(DamageType.Fire)"
+
+
+new entry "PACT_OF_DESTRUCTION_ELDRITCH_SPEAR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "EldritchSpear_Summon"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "EldritchSpear_Summon"
+type "PassiveData"
+using "EldritchSpear"
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpellVariant(SpellDamageTypeIs(DamageType.Fire),ModifyTargetRadius(Multiplicative,1.5),)"
+
+
+
+new entry "Target_SmolderingTouch_Elemental_Fire"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SmolderingTouch_Elemental_Fire"
+data "DamageType" "Fire"
+
+
+new entry "Target_FieryStrike_Myrmidon_Fire"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FieryStrike_Myrmidon_Fire"
+data "DamageType" "Fire"

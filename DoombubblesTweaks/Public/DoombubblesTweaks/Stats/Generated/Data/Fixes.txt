@@ -71,6 +71,12 @@ data "SpellType" "Target"
 using "Target_ORI_Wyll_SummonCambion"
 data "SpellProperties" "Ground:Summon(6708ae4b-8dcf-4812-bdba-fd5fe1c343f6, -1,Projectile_AiHelper_Summon_Strong,,'PlanarAllyStack',MAG_CAMBION_SUMMON,SHADOWCURSE_SUMMON_CHECK,UNSUMMON_ABLE)"
 
+new entry "MAG_CAMBION_SUMMON"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_CAMBION_SUMMON"
+data "Passives" "ExtraAttack"
+
 new entry "Shout_SpiritGuardians_Necrotic_4"
 type "SpellData"
 data "SpellType" "Shout"

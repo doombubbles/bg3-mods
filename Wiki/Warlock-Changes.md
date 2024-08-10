@@ -21,3 +21,7 @@
 **Eldritch Smite** - Once per turn you can cast Eldritch Smite, making a weapon attack and dealing 1d8 Force damage + 1d8 per Spell Slot Level, and knocking the target Prone. Available at Level 5.
 
 **Improved Eldritch Smite** - All your melee attacks deal an additional 1d8 Force damage. Available at Level 12.
+
+### Mystic Arcanum
+
+- Can now choose a 6th Level Conjure Elemental as an option
