@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="UUID" type="guid" value="969438ba-51c5-46fd-b2bc-d185e7a8127d" />
+			<attribute id="Name" type="FixedString" value="RUNEBLADE" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hd23a3240g5445g4f23g923fg16b6cb121258" version="1" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h50dd2759g6362g40f4g8d76gb7f5d8e362c0" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Description" type="LSString" value="" />
+			<children>
+				<node id="Categories" />
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

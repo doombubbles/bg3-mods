@@ -520,7 +520,7 @@
           <attribute id="V2" type="float" value="0.09375"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="Icon_DBT_Frostmourne"/>
           <attribute id="U1" type="float" value="0.21875"/>
           <attribute id="U2" type="float" value="0.25"/>
           <attribute id="V1" type="float" value="0.0625"/>

@@ -24,7 +24,7 @@ data "TargetSound" "Action_Impact_Cleric_DivineStrikeMeleeDamageCold"
 data "SpellAnimation" "71369b20-18f1-4d33-89ad-a99b10f0444c,,;48beee2b-7124-4fa1-b820-dab4d89198d4,,;bcecc5ce-e7c9-4391-b4b6-5f93872ba2e6,,;9add032c-e500-4e88-a2ea-ef6c905bd656,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;d9feef5a-3726-4e23-95e5-6ec295efdc96,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," // Many Smites
 data "DualWieldingSpellAnimation" "71369b20-18f1-4d33-89ad-a99b10f0444c,,;48beee2b-7124-4fa1-b820-dab4d89198d4,,;bcecc5ce-e7c9-4391-b4b6-5f93872ba2e6,,;9add032c-e500-4e88-a2ea-ef6c905bd656,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;d9feef5a-3726-4e23-95e5-6ec295efdc96,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
 data "DualWieldingUseCosts" ""
-data "PrepareEffect" "f4aab3ad-a4ad-48e1-9052-3808e2b65981" // Cold Spell
+data "PrepareEffect" "e50b62f4-00b4-445d-a53a-57f857b35a7d"
 data "CastEffect" "d1c023ef-5836-49ca-8c60-2354a49df6ed" // Divine Strike
 data "HitEffect" "77226a08-8779-4433-a1a2-6e14fdbcf9d4" // Divine Strike Cold
 data "HitAnimationType" "MagicalDamage_External"
@@ -64,7 +64,7 @@ data "TargetSound" "Action_Impact_Cleric_DivineStrikeMeleeDamageCold"
 data "SpellAnimation" "79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
 data "DualWieldingSpellAnimation" "6f9e662c-b10c-4388-9e56-d74320efa0c0,,;d668f9d6-bd9d-435c-83b5-6d46ac54761f,,;8e60eacb-12be-4711-96e2-d6d906a1ce25,,;603a7bfb-d53e-41c2-98dd-e004fdf5a0e8,,;003e58fc-f11d-41b6-90d9-ea8bc943826b,,;b850a756-6bd6-4c4d-a3fc-6c524a49a818,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
 data "DualWieldingUseCosts" ""
-data "PrepareEffect" "47d27785-1a0d-403a-a5d4-e441f4f49b4f" // Cold Spell
+data "PrepareEffect" "e50b62f4-00b4-445d-a53a-57f857b35a7d"
 data "CastEffect" "2e53ea08-27eb-414b-b2d8-3b3f00e8ce10" // Searing Smite ??
 data "TargetEffect" "7d30207d-4c3f-4f01-8e50-aaff803e1992" // Cone of Cold
 data "HitAnimationType" "MagicalDamage_External"
@@ -134,6 +134,8 @@ data "MaterialApplyWeapon" "No"
 data "MaterialApplyNormalMap" "Yes"
 data "MaterialFadeAmount" "3000"
 data "StackId" "FROST_FEVER"
+data "TickType" "StartTurn"
+data "StackType" "Overwrite"
 data "HitAnimationType" "MagicalDamage_External"
 data "Boosts" "ActionResource(Movement,-3,0)"
 data "TooltipDamage" "DealDamage(LevelMapValue(RuneDie),Cold)"

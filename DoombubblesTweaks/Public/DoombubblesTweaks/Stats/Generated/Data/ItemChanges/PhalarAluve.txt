@@ -6,6 +6,12 @@ data "Description" "hddb80daag943bg4197g89a5g3cb5efc4237f"
 data "ContainerSpells" "Shout_MAG_Harpers_SingingSword_Sing;Shout_MAG_Harpers_SingingSword_Shriek;Shout_MAG_Harpers_SingingSword_Screech;Shout_MAG_Harpers_SingingSword_Shout"
 // TODO change the spell name to fix alphabetical ordering?
 
+new entry "MAG_SWORD_IN_STONE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_HARPERS_SINGING_SWORD_SHRIEKING_AURA"
+data "OnRemoveFunctors" "RemoveStatus(MAG_HARPERS_SINGING_SWORD_SHRIEKING_AURA);RemoveStatus(MAG_HARPERS_SINGING_SWORD_SINGING_AURA);RemoveStatus(MAG_HARPERS_SINGING_SWORD_SCREECHING);RemoveStatus(MAG_HARPERS_SINGING_SWORD_SHOUTING)"
+
 new entry "Shout_MAG_Harpers_SingingSword_Screech"
 type "SpellData"
 data "SpellType" "Shout"

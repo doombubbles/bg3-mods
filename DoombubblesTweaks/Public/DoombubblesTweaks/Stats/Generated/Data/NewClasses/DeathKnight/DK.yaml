@@ -1,4 +1,5 @@
 Runes: ["Blood", "Frost", "Unholy"]
+Runeforges: ["RUNE_RAZORICE", "RUNE_FALLEN_CRUSADER", "RUNE_STONESKIN_GARGOYLE"]
 RuneCombos:
   BloodOrFrostRune: ["BloodRune", "FrostRune"]
   BloodOrUnholyRune: ["BloodRune", "UnholyRune"]

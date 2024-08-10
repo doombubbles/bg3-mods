@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="602" lslib_meta="v1,bswap_guids" />
+	<region id="PhysicsBank">
+		<node id="PhysicsBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="c7c67380-25fe-6814-78fa-2ed1cb511dab" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="WPN_GTY_Longsword_A" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Weapons/WPN_GTY_Longsword_A.bin" />
+					<attribute id="Template" type="FixedString" value="Public/Shared/Assets/Weapons/WPN_GTY_Longsword_A" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+				</node>
+			</children>
+		</node>
+	</region>
+	<region id="MaterialBank">
+		<node id="MaterialBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="Curotar_HUM_Frostmourne" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274213" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="0Textures" />
+							<attribute id="ID" type="FixedString" value="581ab316-4604-44fe-8bf6-093e155b2395" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_normalmap_DefaultWrapSampler" />
+							<children>
+								<node id="SkinnedDeferred">
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="2" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="SkinnedForward">
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="2" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticBake">
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="2" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticDeferred">
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="2" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticForward">
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="2" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticInstancedDeferred">
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="2" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticInstancedForward">
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="a90992f1-5dbf-9893-dba2-35386614d20d" />
+							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="4b15df1c-c270-4163-b816-c93c8ef1d0c2" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="0Textures" />
+							<attribute id="ID" type="FixedString" value="43dcde39-82ff-4f12-bd20-29a7860d6a03" />
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_physicalmap_DefaultWrapSampler" />
+							<children>
+								<node id="SkinnedDeferred">
+									<attribute id="DxPsIndex" type="int8" value="4" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="6" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="SkinnedForward">
+									<attribute id="DxPsIndex" type="int8" value="4" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="6" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticBake">
+									<attribute id="DxPsIndex" type="int8" value="4" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="6" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticDeferred">
+									<attribute id="DxPsIndex" type="int8" value="4" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="6" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticForward">
+									<attribute id="DxPsIndex" type="int8" value="4" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="6" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticInstancedDeferred">
+									<attribute id="DxPsIndex" type="int8" value="4" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="6" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+								<node id="StaticInstancedForward">
+									<attribute id="DxPsIndex" type="int8" value="4" />
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="5" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="581ab316-4604-44fe-8bf6-093e155b2395" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Curotar_HUM_Frostmourne_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/Curotar_HUM_Frostmourne/Curotar_HUM_Frostmourne_NM.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Curotar_HUM_Frostmourne_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="0" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="4b15df1c-c270-4163-b816-c93c8ef1d0c2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Curotar_HUM_Frostmourne_BM" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/Curotar_HUM_Frostmourne/Curotar_HUM_Frostmourne_BM.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Curotar_HUM_Frostmourne_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="43dcde39-82ff-4f12-bd20-29a7860d6a03" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Curotar_HUM_Frostmourne_PM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/Curotar_HUM_Frostmourne/Curotar_HUM_Frostmourne_PM.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Curotar_HUM_Frostmourne_PM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
+				</node>
+			</children>
+		</node>
+	</region>
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="6624c3fc-0fa8-411d-bedf-d06014dcbf9d" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="Curotar_HUM_Frostmourne" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/Curotar_HUM_Frostmourne_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/Curotar_HUM_Frostmourne_Mesh.Dummy_Curotar_HUM_Frostmourne.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
+							<attribute id="ObjectID" type="FixedString" value="Curotar_HUM_Frostmourne_Mesh.Curotar_HUM_Frostmourne_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="d08ceb56-1c6c-4a36-a85a-edb50339e901" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="Curotar_HUM_Frostmourne_Longsword" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/Curotar_HUM_Frostmourne_Mesh_Longsword.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/Curotar_HUM_Frostmourne_Mesh_Longsword.Dummy_Curotar_HUM_Frostmourne_Mesh_Longsword.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
+							<attribute id="ObjectID" type="FixedString" value="Curotar_HUM_Frostmourne_Mesh_Longsword.Curotar_HUM_Frostmourne_Mesh_Longsword.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

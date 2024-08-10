@@ -50,19 +50,3 @@ data "ValueUUID" "240eb257-ef20-4877-89bd-6956b4b7c41a"
 data "Boosts" "Resistance(Fire, Resistant);Resistance(Lightning, Resistant);Resistance(Cold, Resistant)"
 data "PassivesOnEquip" "MAG_SpellSaveDC_Enchantment_Lesser_Passive;MAG_Heat_Fire_Robe_Passive;MAG_ChargedLightning_ArmorMagicBoost_Passive;MAG_Heat_Fire_ArmorMagicBoost_Passive"
 data "StatusOnEquip" "MAG_HEAT_FIRE_AC_BONUS_TECHNICAL;MAG_CHARGED_LIGHTNING_AC_BONUS_TECHNICAL"
-
-
-new entry "ARM_ChainMail_Body_DeathKnight"
-type "Armor"
-using "ARM_ChainMail_Body"
-data "RootTemplate" "574ea115-bb33-4674-997a-4eb9316cf244"
-
-new entry "ARM_Boots_Metal_DeathKnight"
-type "Armor"
-using "ARM_Boots_Metal"
-data "RootTemplate" "34b8bab0-ce76-41bc-b838-51dbda91ce48"
-
-new entry "ARM_Gloves_Metal_DeathKnight"
-type "Armor"
-using "ARM_Gloves_Metal"
-data "RootTemplate" "ee77531d-951b-4ef5-b5a3-73db925f7361"

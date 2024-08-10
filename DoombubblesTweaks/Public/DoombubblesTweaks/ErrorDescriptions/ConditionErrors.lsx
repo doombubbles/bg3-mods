@@ -52,6 +52,12 @@
           <attribute id="Identifier" type="FixedString" value="HasNotWeaponInOffHand"/>
           <attribute id="UUID" type="guid" value="18c30282-aa96-4c5d-ad23-f66b8deb830c"/>
         </node>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="hfe1f0612g3ce8g4f71g9664g4c1a32134fb3" version="1"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="NotKilledByFrostmourne"/>
+          <attribute id="UUID" type="guid" value="7f8cca72-4c1f-40ca-922c-42247de60805"/>
+        </node>
       </children>
     </node>
   </region>

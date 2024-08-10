@@ -140,7 +140,6 @@ data "TickType" "StartTurn"
 data "TooltipSave" "Constitution"
 data "TooltipDamage" ""
 data "TickFunctors" "DealDamage(LevelMapValue(RuneDie),Necrotic,Magical)"
-data "OnApplyFunctors" "DealDamage(LevelMapValue(RuneDie),Necrotic,Magical)"
 data "StatusEffectOnTurn" "373e24b0-f0ec-4b5d-8333-3668d1516fdc"
 
 new entry "DEATH_AND_DECAY_OWNER"

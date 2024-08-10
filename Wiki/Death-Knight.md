@@ -262,6 +262,8 @@ The Death Knight subclasses are:
 
 {{ get .loca "h1dcb24acg6d03g4a45gbe65g9689080eb3e3" }}
 
+{{ get .loca "ha1bbf1f9g9007g4e3egb11eg12b7d78976d5" | replace "Runeblades" "[Runeblades](#runeblades)" }}
+
 <img align="left" alt="Action_DeathKnight_Razorice.png" height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_Razorice.png" />
 
 #### Rune of Razorice
@@ -279,6 +281,17 @@ The Death Knight subclasses are:
 #### Rune of the Stoneskin Gargoyle
 
 {{ getf .loca "h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" | replace "Armour Class" "[Armour Class](https://bg3.wiki/wiki/Armour_Class)" }}
+
+
+<img src="https://bg3.wiki/w/images/9/92/Adamantine_Longsword_Unfaded_Icon.png" height="40" align="left" alt="" />
+
+#### Runeblades
+
+The Death Knight starter longsword "Runed Soulblade" is a special weapon classified as a **Runeblade**.
+
+{{get .loca "h2e8654a0g6056g4b96ga4f0g96338c13ad56" }}
+
+**More Runeblades may be added in the future**
 
 ### Rune Spells Known: 2
 

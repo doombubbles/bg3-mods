@@ -116,6 +116,14 @@
           <attribute id="UUID" type="guid" value="1397c6e0-5b1b-433a-a175-56b1f2276974"/>
         </node>
         <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1"/>
+          <attribute id="Level4" type="LSString" value="2"/>
+          <attribute id="Level7" type="LSString" value="3"/>
+          <attribute id="Level10" type="LSString" value="4"/>
+          <attribute id="Name" type="FixedString" value="Runeforge"/>
+          <attribute id="UUID" type="guid" value="31496223-4b93-4e7e-b3d8-7d775b4b2703"/>
+        </node>
+        <node id="LevelMapSeries">
           <attribute id="FallbackValue" type="LSString" value="2d6"/>
           <attribute id="Level1" type="LSString" value="2d6"/>
           <attribute id="Level5" type="LSString" value="3d6"/>

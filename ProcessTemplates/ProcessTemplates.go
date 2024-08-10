@@ -234,6 +234,9 @@ func replacePlaceholdersAndTags(text string) string {
 	rePlaceholder := regexp.MustCompile(`\[\d+\]`)
 	text = rePlaceholder.ReplaceAllString(text, "%s")
 
+	reBreaks := regexp.MustCompile(`<br>`)
+	text = reBreaks.ReplaceAllString(text, "\n\n")
+
 	// Remove XML tags and retain inner text
 	reTags := regexp.MustCompile(`<.*?>`)
 	text = reTags.ReplaceAllString(text, "**")

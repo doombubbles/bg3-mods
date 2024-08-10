@@ -176,12 +176,17 @@ function DistanceToTargetLessOrEqual(value)
   return ConditionResult(DistanceToTarget() <= value, errorFalse, errorTrue)
 end
 
+function HasRuneforge(entity)
+  local entity = entity or context.Source
+  local result = HasAnyStatus({ 'RUNE_RAZORICE', 'RUNE_FALLEN_CRUSADER', 'RUNE_STONESKIN_GARGOYLE' }, {}, {}, entity)
+  return ConditionResult(result.Result, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
+end
+
 function HasRuneWeapon()
   local entity = entity or context.Source
   local weaponEntity = GetActiveWeapon(entity, true)
   if weaponEntity.IsValid then
-    local result = Character(entity) &
-        (HasAnyStatus({ 'RUNE_RAZORICE', 'RUNE_FALLEN_CRUSADER', 'RUNE_STONESKIN_GARGOYLE' }, {}, {}, weaponEntity))
+    local result = Character(entity) & HasRuneforge(weaponEntity)
     return ConditionResult(result.Result, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
   end
   return ConditionResult(false, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
@@ -243,7 +248,7 @@ end
 
 function WhirlwindSpellCheck()
   return SpellTypeIs(SpellType.Target) &
-  (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))
+      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))
 end
 
 function IsFuryAttack()
@@ -256,4 +261,19 @@ function HasWeaponInOffHand()
   result = WieldingWeapon('Melee', true)
   return ConditionResult(result.Result, { ConditionError("HasNotWeaponInMainHand") },
     { ConditionError("HasWeaponInMainHand") })
+end
+
+function BlowsUp(die) -- Never Stop Blowing Up!
+  return ConditionResult(math.random(1, die) == die)
+end
+
+function FrostmourneSoulCheck(entity)
+  entity = entity or context.Target
+  return ~Tagged('UNDEAD',entity) & ~Party() & ~Tagged('PLAYABLE') & ~Tagged('AVATAR') & ~Tagged('CONSTRUCT') & ~Tagged('ELEMENTAL') & ~Tagged('PLANT') & ~Tagged('OOZE') & ~Tagged('MINDFLAYER') -- According to Withers
+end
+
+function KilledByFrostmourne(entity)
+  local entity = entity or context.Target
+  local soul = HasStatus('FROSTMOURNE_SOUL', entity)
+  return ConditionResult(soul.Result, {ConditionError("NotKilledByFrostmourne")})
 end

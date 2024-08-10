@@ -9,25 +9,44 @@
   <content contentuid="h0442915fg4c13g4097g9e3eg4ab948ebb081" version="1">Runeforging</content>
   <content contentuid="h1dcb24acg6d03g4a45gbe65g9689080eb3e3" version="1">You gain the ability to engrave runes onto your weapons to enhance them with magical effects.</content>
   <content contentuid="h70266650g86afg46e5gb212g3ce5e13690a2" version="1">Engrave a rune onto your weapon to enhance it with magical effects.</content>
-  <content contentuid="ha1bbf1f9g9007g4e3egb11eg12b7d78976d5" version="1">Runes do not have any effect if their wielders do not have the ability to &lt;LSTag Type="Passive" Tooltip="Runeforging"&gt;Runeforge&lt;/LSTag&gt;.</content>
+  <content contentuid="ha1bbf1f9g9007g4e3egb11eg12b7d78976d5" version="1">Runes do not have any effect if their wielders do not have the ability to &lt;LSTag Type="Passive" Tooltip="Runeforging"&gt;Runeforge&lt;/LSTag&gt;.&lt;br&gt;Runes are more powerful when forged on &lt;LSTag Type="Status" Tooltip="RUNEBLADE"&gt;Runeblades&lt;/LSTag&gt;.</content>
 
   <content contentuid="h14f4f779g2c06g457bg9f3ag0abbf171d402" version="1">Runeforge: Razorice</content>
   <content contentuid="ha7dc3e14gc3b1g47c7gb454g5a2ca7ff2988" version="1">Engrave your weapon(s) with a rune that adds [1] to attacks.</content>
-  <content contentuid="hc489a2dag1586g424bgb6d7gf428a1f986f2" version="1">Rune of Razorice</content>
+  <content contentuid="hc489a2dag1586g424bgb6d7gf428a1f986f0" version="1">Rune of Razorice</content>
   <content contentuid="h1850d71fg3639g468agb007g649e6200d3ff" version="1">Deals an extra [1].</content>
+  <content contentuid="hc489a2dag1586g424bgb6d7gf428a1f986f1" version="1">Rune of Razorice II</content>
+  <content contentuid="hc489a2dag1586g424bgb6d7gf428a1f986f2" version="1">Rune of Razorice III</content>
+  <content contentuid="hc489a2dag1586g424bgb6d7gf428a1f986f3" version="1">Rune of Razorice IV</content>
 
   <content contentuid="hc1257d3ag3be8g4794ga1deg7acefdb1f8d1" version="1">Runeforge: Fallen Crusader</content>
   <content contentuid="hf14f6741g6c07g4322ga0edg5bb580209a8b" version="1">Engrave your weapon(s) with a rune that restores [1] when you hit an enemy in combat.</content>
-  <content contentuid="hbbbdcf56g644bg4b71ga4ceg0ad4d4666afb" version="1">Rune of the Fallen Crusader</content>
+  <content contentuid="hbbbdcf56g644bg4b71ga4ceg0ad4d4666af0" version="1">Rune of the Fallen Crusader</content>
   <content contentuid="hcb4954a7g43cbg486egb6bfg8ac17fbac347" version="1">Restores [1] when you hit an enemy in combat.</content>
+  <content contentuid="hbbbdcf56g644bg4b71ga4ceg0ad4d4666af1" version="1">Rune of the Fallen Crusader II</content>
+  <content contentuid="hbbbdcf56g644bg4b71ga4ceg0ad4d4666af2" version="1">Rune of the Fallen Crusader III</content>
+  <content contentuid="hbbbdcf56g644bg4b71ga4ceg0ad4d4666af3" version="1">Rune of the Fallen Crusader IV</content>
 
   <content contentuid="hf6237d90gdec1g47c1g9effgb79e367e25ff" version="1">Runeforge: Stoneskin Gargoyle</content>
-  <content contentuid="h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" version="1">Engrave your weapon with a rune that gives its wielder +1 &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;. Works only for weapons being wielded with two hands.</content>
-  <content contentuid="hb34442begf6bag46fcg9486g0ddde4857176" version="1">Rune of the Stoneskin Gargoyle</content>
-  <content contentuid="h42543d5fg6c48g41c8g8d87g554785736b58" version="1">Wielder has +1 &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+  <content contentuid="h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" version="1">Engrave your weapon with a rune that gives its wielder +[1] to Strength and Constituion &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;. Works only for weapons being wielded with two hands.</content>
+  <content contentuid="hb34442begf6bag46fcg9486g0ddde4857170" version="1">Rune of the Stoneskin Gargoyle</content>
+  <content contentuid="h42543d5fg6c48g41c8g8d87g554785736b58" version="1">Wielder has +[1] to Strength and Constituion &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="hb34442begf6bag46fcg9486g0ddde4857171" version="1">Rune of the Stoneskin Gargoyle II</content>
+  <content contentuid="hb34442begf6bag46fcg9486g0ddde4857172" version="1">Rune of the Stoneskin Gargoyle III</content>
+  <content contentuid="hb34442begf6bag46fcg9486g0ddde4857173" version="1">Rune of the Stoneskin Gargoyle IV</content>
 
-  <content contentuid="h75877c98g34d8g4aa7g8bb5g2dce48b2185d" version="1">Runic Empowerments</content>
-  <content contentuid="h368fe93ag62f3g4df2g9c6dg8e2f085ffe21" version="1">You learn new ways to channel your Runic magic.</content>
+  <content contentuid="hd1507970g44b4g461eg8290g747d06c50baa" version="1">Runeblade</content>
+  <content contentuid="h2e8654a0g6056g4b96ga4f0g96338c13ad56" version="1">When &lt;LSTag Type="Spell" Tooltip="Shout_Runeforging"&gt;Runeforged&lt;/LSTag&gt;, this weapon grows in power, as do the applied Runes.&lt;br&gt;When a Rune is applied, this becomes Magical. At 4th Death Knight level, this gains up to a +1 Enchantment, increasing to +2 at 7th level and +3 at 10th level.&lt;br&gt;These enchantments also increase the power of applied Runes.</content>
+
+  <content contentuid="hd1507970g44b4g461eg8290g747d06c50ba0" version="1">Runeblade +0</content>
+  <content contentuid="hd1507970g44b4g461eg8290g747d06c50ba1" version="1">Runeblade +1</content>
+  <content contentuid="hd1507970g44b4g461eg8290g747d06c50ba2" version="1">Runeblade +2</content>
+  <content contentuid="hd1507970g44b4g461eg8290g747d06c50ba3" version="1">Runeblade +3</content>
+
+  <content contentuid="h15b934f2gc9deg4022g913cg23ada215a4f0" version="1">Rune</content>
+  <content contentuid="h15b934f2gc9deg4022g913cg23ada215a4f1" version="1">Rune 1</content>
+  <content contentuid="h15b934f2gc9deg4022g913cg23ada215a4f2" version="1">Rune 2</content>
+  <content contentuid="h15b934f2gc9deg4022g913cg23ada215a4f3" version="1">Rune 3</content>
 
   <content contentuid="hf9f56ac2g31b9g44a8ga485gdf09d0a9d948" version="1">Improved Rune Die</content>
   <content contentuid="hb3be30f8g049bg4b7ega251g3310cc48eada" version="1">The size of die used for most Rune Spells increases to [1].</content>
@@ -88,7 +107,7 @@
   <content contentuid="h02ad57cfg80b7g4873gb696g8072cc641e3c" version="1">Frostscythe</content>
   <content contentuid="hba0e3b53ga06bg4ab4g8539gede1fbf0592c" version="1">A sweeping attack that strikes up to [1] enemies in front of you for an additional [1].</content>
   <content contentuid="h112ce0b6g1ac5g4f69ga831ga93a2fdf1910" version="1">On a &lt;LSTag Tooltip="CriticalHit"&gt;critical hits&lt;/LSTag&gt;, the bonus Cold damage dealt is additionally doubled.</content>
-  
+
   <content contentuid="hcaaba427gc8e1g467agbaf3g59ad9c2b1076" version="1">Rime</content>
   <content contentuid="h9ec373dfgad97g4874gafbbg57c47213f12c" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Projectile_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt; has no resource cost.</content>
   <content contentuid="hb6941177g221bg4a57ga87cgd9f43263b4a5" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Projectile_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt; has no resource cost.</content>
@@ -123,7 +142,7 @@
   <content contentuid="hdf823ca8g47feg4126g96d4gb5c0d30fc627" version="1">A deadly strike that deals an extra [1] and heals you for [2]. If you already have full &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, gain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; instead.</content>
 
   <content contentuid="hbd2e555bg2debg4984gad36gd7f6b740379e" version="1">Sacrificial Pact</content>
-  <content contentuid="h4d2235dagb94ag44b9gabf8g3224be6a4ab2" version="1">Destroy a summoned Undead ally to recover a third of your &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h4d2235dagb94ag44b9gabf8g3224be6a4ab2" version="1">Destroy a summoned Undead ally to recover half your &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
 
   <content contentuid="he41dc631geae6g4e7dg91f8gec8a206649e0" version="1">Heart Strike</content>
   <content contentuid="h242d09f1gf2a0g4466ga270g83af0d3a9545" version="1">Strike the target with a bonus [1]. If you're within &lt;LSTag Type="Spell" Tooltip="Target_DeathAndDecay"&gt;Death and Decay&lt;/LSTag&gt;, also deal [2] to all enemies within [3].</content>
@@ -170,7 +189,7 @@
   <content contentuid="h2354ebe6gb628g4bf6g92f9g8fc7bbbfe739" version="1">Disadvantage on &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;. On removal, takes [1]. Further attacks from the Death Knight hasten removal by 1 turn.</content>
 
   <content contentuid="h5390e245gc2eeg464eg8f3egd6549addd1f0" version="1">Outbreak</content>
-  <content contentuid="he9edb0feg97e0g45a8ga0a7g24b0561f492c" version="1">Deal [1] to target and infect it and nearby enemies with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;.</content>
+  <content contentuid="he9edb0feg97e0g45a8ga0a7g24b0561f492c" version="1">Deal [1] to the target and infect it and nearby enemies with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;.</content>
 
   <content contentuid="hd2e44806g085dg4cb5g897bg8b4d298a6f20" version="1">Virulent Plague</content>
   <content contentuid="h5a6cf0adg5981g4624g8423g06ca6dd13f80" version="1">Takes [1] per turn. On death, deal [1] to creatures within [2] and possibly infect them with &lt;LSTag Type="Status" Tooltip="VIRULENT_PLAGUE"&gt;Virulent Plague&lt;/LSTag&gt;.</content>
@@ -295,5 +314,32 @@
   <content contentuid="h44d30647g1eedg4bdeg8824g1bca037dee7e" version="1">Bloodshot: Asleep</content>
   <content contentuid="hb5375d52g8456g4b07g930ag8eb7d3f1778a" version="1">Bloodshot: Panicked</content>
   <content contentuid="he34be15bg2ceag4a60gade8gd0d2a311ab52" version="1">Bloodshot: Sickened</content>
+
+  <content contentuid="he938b6bcg76b1g4f16g9acag38b4ddc243de" version="1">Frostmourne</content>
+  <content contentuid="h80e33a66gc161g423cgaa58gd7e419ca0e90" version="1">Whomsoever takes up this blade shall wield power eternal. Just as the blade rends flesh, so must power scar the spirit.</content>
+
+  <content contentuid="h3b6706a7g103dg4108g8f5dgc7afd6d31b78" version="1">Power Eternal</content>
+  <content contentuid="h5a92edb6gd8dag4736g81f4g3cfa196b7401" version="1">As you kill enemies with this blade, Frostmourne consume their souls to grow in power. You can reanimate these souls as Undead servants.</content>
+
+  <content contentuid="h69942abfg7078g4745g88f8gfc81ed86aca7" version="1">Rend Flesh</content>
+  <content contentuid="ha84a7070g3b51g4a55g98f8g011edbe5ff39" version="1">Unleash the might of the frozen wastes in a </content>
+
+  <content contentuid="h3a062263g6dacg40f2ga296gefb06fb924a2" version="1">Scar the Spirit</content>
+  <content contentuid="h8f58bf8dgc04ag422cgaec7g445f4999db34" version="1">You take [1] when attacking with this weapon, unless you are Undead.</content>
+  
+  <content contentuid="hfbfae035g0d7eg4f37g817eg7d674fb7a181" version="1">All Must Serve</content>
+  <content contentuid="h6f377be4gda65g4463g9087g494a547e8144" version="1">Raise a soul that was consumed by Frostmourne as an Undead servant. Summons either a Zombie, Ghoul, or Mummy depending on the level of the soul.</content>
+
+  <content contentuid="h98f72d67g2196g44e1ga048g676c6f703983" version="1">Frostmourne Hungers</content>
+  <content contentuid="h23e80931g5d12g429fg882agebdc79e7e8ad" version="1">Frostmourne deals an additional [1]. Whenever you kill an enemy with Frostmourne, roll [2]. If you get a [3], then Frostmourne grows in power to [4]. Frostmourne can grow this way up to [5].</content>
+  <content contentuid="h13383673ge9a6g4981g883agf6b609ca8218" version="1">Frostmourne deals an additional [1].</content>
+
+  <content contentuid="hf687b503g1479g4aa2g9eb0g8f6e82e85df0" version="1">Frostmourne Soul</content>
+  <content contentuid="h424f3460g3ae8g4bd7gb7bdgab4aad1d7e04" version="1">This soul can be raised by the wielder of Frostmourne to summon a [1].</content>
+  <content contentuid="h45a905e7gcb32g4ea9ga3f6g89840dbc1abd" version="1">Frostmourne Soul: Pitiful</content>
+  <content contentuid="hf1dd2d76g8615g448eg963cg7b4b61b2ea28" version="1">Frostmourne Soul: Meager</content>
+  <content contentuid="h2f777575ga93fg46a6gb9cfg41f899018266" version="1">Frostmourne Soul: Acceptable</content>
+
+  <content contentuid="hfe1f0612g3ce8g4f71g9664g4c1a32134fb3" version="1">Must have been killed by Frostmourne.</content>
 
 </contentList>
