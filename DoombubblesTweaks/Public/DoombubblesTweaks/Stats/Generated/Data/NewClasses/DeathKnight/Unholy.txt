@@ -302,7 +302,7 @@ data "OnApplyFunctors" "DealDamage(LevelMapValue(RuneDie),Necrotic)"
 data "StatusGroups" "SG_Disease;SG_Condition"
 data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Death)):CreateExplosion(Projectile_VirulentPlague);IF(RemoveCause(StatusRemoveCause.Death) and HasPassive('SuddenDoom', context.Source)):ApplyStatus(SELF, SUDDEN_DOOM, 100, -1)"
 data "StatusEffect" "b297f0bb-13a8-4bc7-9551-fd82cfb05ea6"
-data "StatusPropertyFlags" "InitiateCombat;TickingWithSource"
+data "StatusPropertyFlags" "InitiateCombat"
 
 new entry "Projectile_VirulentPlague"
 type "SpellData"

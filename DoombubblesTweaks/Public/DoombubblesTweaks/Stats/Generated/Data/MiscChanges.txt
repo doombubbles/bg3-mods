@@ -28,7 +28,6 @@ data "Cooldown" "OncePerShortRestPerItem"
 // data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_LOW_MistyEscape_Astarion);CharacterWeaponDamage(1d10,Necrotic);CharacterUnarmedDamage(1d10,Necrotic)"
 // data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_LOW_MistyEscape_Astarion);DamageBonus(1d10,Necrotic)"
 
-// TODO just 1 damage eventually?
 new entry "UNI_DoomHammer"
 type "Weapon"
 using "UNI_DoomHammer"

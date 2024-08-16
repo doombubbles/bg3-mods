@@ -143,3 +143,25 @@ new entry "Interrupt_FlashOfGenius_SavingThrow"
 type "InterruptData"
 using "Interrupt_FlashOfGenius_SavingThrow"
 data "Conditions" "not Dead(context.Observer) and HasInterruptedSavingThrow() and Ally(context.Observer,context.Target) and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(context.Observer.ProficiencyBonus, context.Target)"
+
+
+
+new entry "BLADE_BARRIER_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BLADE_BARRIER_AURA"
+data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(15))"
+
+new entry "Projectile_Wall_Of_Ice_Explode"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Wall_Of_Ice_Explode"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(15))"
+
+new entry "ICECLOUD"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ICECLOUD"
+data "OnApplyRoll" "not SavingThrow(Ability.Constitution,SourceSpellDC(16))"
+data "OnApplySuccess" "DealDamage(10d6,Cold)"
+data "OnApplyFail" "DealDamage(10d6/2,Cold)"

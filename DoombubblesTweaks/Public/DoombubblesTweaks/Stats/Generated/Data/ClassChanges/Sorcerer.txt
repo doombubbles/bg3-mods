@@ -61,7 +61,7 @@ data "Boosts" "IF((IsSpell() or IsBreathWeapon() or IsAttack()) and IsDamageType
 new entry "ELEMENTALAFFINITY_COLD_EXTRA_DAMAGE_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
-using "ELEMENTALAFFINITY_COL_EXTRA_DAMAGE_TECHNICAL"
+using "ELEMENTALAFFINITY_COLD_EXTRA_DAMAGE_TECHNICAL"
 data "Boosts" "IF((IsSpell() or IsBreathWeapon() or IsAttack()) and IsDamageTypeCold()):DamageBonus(max(0, CharismaModifier), Cold)"
 
 new entry "ELEMENTALAFFINITY_FIRE_EXTRA_DAMAGE_TECHNICAL"

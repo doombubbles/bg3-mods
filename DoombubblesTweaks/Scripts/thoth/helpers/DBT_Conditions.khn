@@ -160,7 +160,7 @@ end
 
 function DeathGripCheck()
   local result = Dead() | Item() | Ally()
-  if not result.Result then
+  if ~result.Result then
     local st = ~SavingThrow(Ability.Strength, context.Source.Strength)
     return ConditionResult(st.Result, {}, {}, st.Chance)
   end
