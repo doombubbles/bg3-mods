@@ -77,7 +77,7 @@ data "Icon" "Action_Monster_ElementalFire_SmoulderingTouch"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar;Temporary;OncePerShortRest"
 data "Boosts" "IF(IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Fire) and HasHPPercentageWithoutTemporaryHPEqualOrMoreThan(100, context.Target)):ReduceCriticalAttackThreshold(20)"
 data "StatsFunctorContext" "OnCast"
-data "Conditions" "IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Fire) and HasHPPercentageWithoutTemporaryHPEqualOrMoreThan(100, context.Target)"
+data "Conditions" "IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Fire)"
 
 new entry "Cauterize"
 type "PassiveData"
