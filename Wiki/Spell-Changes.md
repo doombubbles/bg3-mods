@@ -22,6 +22,8 @@
 
 **Smite Spells** - Added Unarmed Variants to all Smite Spells
 
+**Dip** - Can now dip weapons onto Karlach or characters with Fire Shield to light weapons on fire
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
