@@ -30,7 +30,7 @@ data "StatusType" "BOOST"
 data "DisplayName" "h6829a9d1ga919g44afga73fg49cc1378ad95;1"
 data "Description" "h26b30cbag7290g402ag8c7cg0510cd5ac2f2;1"
 data "Icon" "PassiveFeature_WarMagic"
-data "StackID" "WM_CANTRIP"
+data "StackId" "WM_CANTRIP"
 data "Boosts" "UnlockSpellVariant(QuickenedCantripCheck(),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())"
 data "RemoveConditions" "IsCantrip() or not HasActionResource('BonusActionPoint', 1, 0, false, false)"
 data "RemoveEvents" "OnSpellCast"
@@ -50,12 +50,10 @@ data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndi
 new entry "Shout_WeaponBond"
 type "SpellData"
 using "Shout_WeaponBond"
-data "ExtraDescription" "h61f5b2fbg1b82g41bdgad79g51b91e31b330"
 
 new entry "WEAPON_BOND"
 type "StatusData"
 using "WEAPON_BOND"
-data "ExtraDescription" "h61f5b2fbg1b82g41bdgad79g51b91e31b330"
 data "Boosts" "CannotBeDisarmed();ItemReturnToOwner();IF(ShouldWeaponBondOverride(context.Source)):WeaponAttackRollAbilityOverride(Intelligence)"
 
 

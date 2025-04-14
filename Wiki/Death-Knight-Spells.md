@@ -243,7 +243,7 @@
 - Cast [False Life](https://bg3.wiki/wiki/False_Life) as a 1st level "spell"
 
 
-<img src="https://bg3.wiki/w/images/6/62/Bane_Spell_Icon.webp" height="40" align="left" alt="" />
+<img src="https://bg3.wiki/w/images/1/19/Bane_spell_Icon.webp" height="40" align="left" alt="" />
 
 ### Scourge
 - Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /><img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /><img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Any Rune

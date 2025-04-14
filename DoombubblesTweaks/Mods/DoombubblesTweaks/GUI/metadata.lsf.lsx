@@ -108,6 +108,28 @@
 							</children>
 						</node>
 						{{- end }}
+						{{- range $class := list "Arcane" "ArchfeyWitch" "BloodDK" "DeathDK" "DeathKnight" "FiendWitch" "Fire" "Frost" "FrostDK" "Fury" "GreatOldOneWitch" "Retribution" "UnholyDK" "Witch" }}
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/{{$class}}.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="140" />
+									<attribute id="mipcount" type="int8" value="8" />
+									<attribute id="w" type="int16" value="140" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/{{$class}}.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="9" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						{{- end }}
 					</children>
 				</node>
 			</children>

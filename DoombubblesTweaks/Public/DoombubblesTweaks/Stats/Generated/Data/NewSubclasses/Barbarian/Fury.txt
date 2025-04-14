@@ -106,7 +106,7 @@ data "SpellSuccess" "DealDamage(max(1,OffhandMeleeWeapon), OffhandMeleeWeaponDam
 data "SpellFail" "IF(not HasStatus('WILD_STRIKE', context.Source) and not HasStatus('WHIRLWIND', context.Source)):RestoreResource(SELF,Rage,1,0)"
 data "UseCosts" "BonusActionPoint:1;Rage:1"
 data "SpellFlags" "IsMelee;IsHarmful"
-data "RequirementConditions" HasWeaponInOffHand()"
+data "RequirementConditions" "HasWeaponInOffHand()"
 data "CastSound" "Action_Cast_RecklessAttack"
 data "TargetSound" "Action_Impact_RecklessAttack"
 data "PrepareEffect" "13fd2ef9-25e3-4e61-91bb-62b62fc481df"

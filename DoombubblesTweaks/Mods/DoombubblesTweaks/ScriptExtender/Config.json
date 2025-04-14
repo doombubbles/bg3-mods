@@ -1,7 +1,0 @@
-{
-	"RequiredVersion": 10,
-	"ModTable": "DoomBubblesTweaks",
-	"FeatureFlags": [
-		"Lua"
-	]
-}

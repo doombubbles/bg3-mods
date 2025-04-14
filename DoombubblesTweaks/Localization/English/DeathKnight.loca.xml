@@ -109,14 +109,14 @@
   <content contentuid="h112ce0b6g1ac5g4f69ga831ga93a2fdf1910" version="1">On a &lt;LSTag Tooltip="CriticalHit"&gt;critical hits&lt;/LSTag&gt;, the bonus Cold damage dealt is additionally doubled.</content>
 
   <content contentuid="hcaaba427gc8e1g467agbaf3g59ad9c2b1076" version="1">Rime</content>
-  <content contentuid="h9ec373dfgad97g4874gafbbg57c47213f12c" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Projectile_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt; has no resource cost.</content>
+  <content contentuid="h9ec373dfgad97g4874gafbbg57c47213f12c" version="1">Once per turn, when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Projectile_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt; has no resource cost.</content>
   <content contentuid="hb6941177g221bg4a57ga87cgd9f43263b4a5" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Projectile_HowlingBlast"&gt;Howling Blast&lt;/LSTag&gt; has no resource cost.</content>
 
   <content contentuid="h00411652ga436g4c16g8affg2db90f866cff" version="1">Killing Machine</content>
   <content contentuid="h98fa3d36gd69cg45abgadfdgf19bef322d3a" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Obliterate"&gt;Obliterate&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Zone_Frostscythe"&gt;Frostscythe&lt;/LSTag&gt; will be a guaranteed &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
   <content contentuid="hbfc367c0g13c8g4fcaga953g08acfd73a3aa" version="1">Obliteration</content>
-  <content contentuid="h80bcaa55gc41bg4be3gb9cag1e698d21412a" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Target_Obliterate"&gt;Obliterate&lt;/LSTag&gt;, refund 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt;. On a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, refund 2.</content>
+  <content contentuid="h80bcaa55gc41bg4be3gb9cag1e698d21412a" version="1">Once per turn, when you hit a creature with &lt;LSTag Type="Spell" Tooltip="Target_Obliterate"&gt;Obliterate&lt;/LSTag&gt;, refund 1 &lt;LSTag Type="ActionResource" Tooltip="FrostRune"&gt;Frost Rune&lt;/LSTag&gt;. If it's a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, refund 2.</content>
 
   <content contentuid="h90dbf8a7gc652g4a32gb63eg4eae86d433d8" version="1">Chains of Ice</content>
   <content contentuid="h2cbcc90dgfe7eg4135g8e2age5096ad6022c" version="1">Shackles the target with frozen chains, dealing [1] and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;restraining&lt;/LSTag&gt; them.</content>
@@ -180,7 +180,7 @@
   <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">Attacks deal an extra [1].</content>
 
   <content contentuid="h1f84fc36g03e1g4264g812egfdb4f7c70d31" version="1">Death Coil</content>
-  <content contentuid="h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" version="1">Fire a blast of unholy energy, causing [1] to an enemy target or restoring [2] to an allied Undead target.</content>
+  <content contentuid="h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" version="1">Release a blast of unholy energy, causing [1] to an enemy target or restoring [2] to an allied Undead target.</content>
 
   <content contentuid="he90698a3g23c3g4ef0g9941g3e601f5f1f4e" version="1">Festering Strike</content>
   <content contentuid="hd73ab209g0483g498eg9e81g0804c87fa444" version="1">Strikes for an extra [1] and infects the target with a &lt;LSTag Type="Status" Tooltip="FESTERING_WOUND"&gt;Festering Wound&lt;/LSTag&gt; for [2] turns. When the wound expires, they take a further [3].</content>
@@ -322,7 +322,7 @@
   <content contentuid="h5a92edb6gd8dag4736g81f4g3cfa196b7401" version="1">As you kill enemies with this blade, Frostmourne consume their souls to grow in power. You can reanimate these souls as Undead servants.</content>
 
   <content contentuid="h69942abfg7078g4745g88f8gfc81ed86aca7" version="1">Rend Flesh</content>
-  <content contentuid="ha84a7070g3b51g4a55g98f8g011edbe5ff39" version="1">Unleash the might of the frozen wastes in a </content>
+  <content contentuid="ha84a7070g3b51g4a55g98f8g011edbe5ff39" version="1">Unleash the might of the frozen wastes in an area in front of you</content>
 
   <content contentuid="h3a062263g6dacg40f2ga296gefb06fb924a2" version="1">Scar the Spirit</content>
   <content contentuid="h8f58bf8dgc04ag422cgaec7g445f4999db34" version="1">You take [1] when attacking with this weapon, unless you are Undead.</content>

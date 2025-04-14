@@ -217,7 +217,7 @@ The Death Knight subclasses are:
 - Death Knight Spells are Always Prepared. In exchange, Death Knights know fewer Spells at low levels.
 
 **Rune Casting**
-- Instead of spell slots, Death Knights use <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, and <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Runes to cast rune "spells"[*](# "Like Way of the Four Elements 'spells', these do not have the IsSpell tag and are considred Class Actions.").
+- Instead of spell slots, Death Knights use <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, and <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Runes to cast rune "spells"[*](# "Like Way of the Four Elements 'spells', these do not have the `IsSpell` tag and are instead considered Class Actions.").
 - Death Knights have a limited number of Runes, but regain them by taking a [Short Rest](https://bg3.wiki/wiki/Short_Rest) or [Long Rest](https://bg3.wiki/wiki/Long_Rest).
 - Death Knights learn higher level spells than other Martial/Caster hybrids, but they can't use them as often.
 
@@ -280,7 +280,7 @@ The Death Knight subclasses are:
 
 #### Rune of the Stoneskin Gargoyle
 
-{{ getf .loca "h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" | replace "Armour Class" "[Armour Class](https://bg3.wiki/wiki/Armour_Class)" }}
+{{ getf .loca "h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" "1" | replace "Armour Class" "[Armour Class](https://bg3.wiki/wiki/Armour_Class)" }}
 
 
 <img src="https://bg3.wiki/w/images/9/92/Adamantine_Longsword_Unfaded_Icon.png" height="40" align="left" alt="" />
@@ -304,7 +304,7 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 <a href="Death Knight Spells#Abomination-Limb"> <img src="https://bg3.wiki/w/images/3/3e/Arms_of_Hadar_Icon.webp" height="25" align="top" /> Abomination Limb</a>,
 <a href="Death Knight Spells#Deaths-Advance"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathsAdvance.png" height="25" align="top" alt="Action_DeathKnight_DeathsAdvance.png" /> Death's Advance</a>,
 <a href="Death Knight Spells#Gloom-Ward"> <img src="https://bg3.wiki/w/images/f/f2/False_Life_Icon.webp" height="25" align="top" /> Gloom Ward</a>,
-<a href="Death Knight Spells#Scourge"> <img src="https://bg3.wiki/w/images/6/62/Bane_Spell_Icon.webp" height="25" align="top" /> Scourge</a>,
+<a href="Death Knight Spells#Scourge"> <img src="https://bg3.wiki/w/images/1/19/Bane_spell_Icon.webp" height="25" align="top" /> Scourge</a>,
 <a href="Death Knight Spells#Chains-of-Ice"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_ChainsOfIce.png" height="25" align="top" alt="Action_DeathKnight_ChainsOfIce.png" /> Chains of Ice</a>,
 <a href="Death Knight Spells#Dark-Command"> <img src="https://bg3.wiki/w/images/7/7f/Command_Halt_Icon.webp" height="25" align="top" /> Dark Command</a>,
 <a href="Death Knight Spells#Evenly-Matched"> <img src="https://bg3.wiki/w/images/7/73/Compelled_Duel_Icon.webp" height="25" align="top" /> Evenly Matched</a>,

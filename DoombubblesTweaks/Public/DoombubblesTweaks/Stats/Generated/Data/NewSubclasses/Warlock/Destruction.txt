@@ -110,7 +110,7 @@ new entry "EldritchSpear_Summon"
 type "PassiveData"
 using "EldritchSpear"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpellVariant(SpellDamageTypeIs(DamageType.Fire),ModifyTargetRadius(Multiplicative,1.5),)"
+data "Boosts" "UnlockSpellVariant(SpellDamageTypeIs(DamageType.Fire),ModifyTargetRadius(Multiplicative,1.5))"
 
 
 

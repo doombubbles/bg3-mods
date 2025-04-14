@@ -87,12 +87,12 @@
       },
     },
     {
-      "label": "Enable Hot Reload",
+      "label": "Clear Toolkit Folders",
       "type": "process",
       "command": "bin/busybox.exe",
       "args": [
         "bash",
-        "scripts/symlinks_create.sh"
+        "scripts/clear.sh"
       ],
       "group": "build",
       "presentation": {
@@ -101,36 +101,5 @@
         "revealProblems": "onProblem"
       }
     },
-    {
-      "label": "Disable Hot Reload",
-      "type": "process",
-      "command": "bin/busybox.exe",
-      "args": [
-        "bash",
-        "scripts/symlinks_delete.sh"
-      ],
-      "group": "build",
-      "presentation": {
-        "reveal": "silent",
-        "showReuseMessage": false,
-        "revealProblems": "onProblem"
-      }
-    },
-    {
-      "label": "Process Hot Reload",
-      "type": "process",
-      "command": "bin/busybox.exe",
-      "args": [
-        "bash",
-        "scripts/hotreload.sh",
-        "${file}"
-      ],
-      "group": "build",
-      "presentation": {
-        "reveal": "silent",
-        "showReuseMessage": false,
-        "revealProblems": "onProblem"
-      }
-    }
   ]
 }

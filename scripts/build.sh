@@ -5,6 +5,7 @@ MODNAME=$(basename "$(pwd)")
 BUILD="./build/$MODNAME"
 RESULT="./output/$MODNAME.pak"
 DESTINATION="$LOCALAPPDATA/Larian Studios/Baldur's Gate 3/Mods/$MODNAME.pak"
+BG3_DATA="C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3/Data"
 
 # Process Templates
 bin/ProcessTemplates.exe -s "$MODNAME" -d "$BUILD" -r build/values.yaml
@@ -21,3 +22,37 @@ rm -rf ./output/$MODNAME
 bg3-modders-multitool.exe -s "$RESULT" -d "./output"
 
 mv "$(find "./output/$MODNAME/Localization/English" -iname *.loca.xml)" "./output/$MODNAME/Localization/English/$MODNAME.loca.xml"
+
+# Convert output
+find "./output/$MODNAME" -type f -name "*.lsf.lsx" | while read -r file; do
+  lsf_lsx_file=$(realpath "$file")
+  lsf_file="${lsf_lsx_file%.lsf.lsx}.lsf"
+  lsx_file="${lsf_lsx_file%.lsf.lsx}.lsx"
+
+  if [ ! -f "$lsx_file" ]; then
+    Divine -g bg3 -a convert-resource -s "$lsf_lsx_file" -d "$lsf_file"
+  fi
+
+  rm "$lsf_lsx_file"
+done
+
+# Copy to Toolkit
+
+
+rm -rf "$BG3_DATA/Generated/$MODNAME"
+mkdir -p "$BG3_DATA/Generated/$MODNAME"
+cp -r "./output/$MODNAME/Generated/." "$BG3_DATA/Generated/$MODNAME"
+
+rm -rf "$BG3_DATA/Mods/$MODNAME"
+mkdir -p "$BG3_DATA/Mods/$MODNAME"
+cp -r "./output/$MODNAME/Mods/$MODNAME/." "$BG3_DATA/Mods/$MODNAME"
+cp -r "./output/$MODNAME/Localization" "$BG3_DATA/Mods/$MODNAME"
+cp -r "./output/$MODNAME/Scripts" "$BG3_DATA/Mods/$MODNAME"
+cp -r "./output/$MODNAME/Public/Game/." "$BG3_DATA/Mods/$MODNAME"
+# cp -r "$BG3_DATA/Mods/$MODNAME/GUI/Assets" "$BG3_DATA/Mods/$MODNAME/GUI/AssetsLowRes"
+
+rm -rf "$BG3_DATA/Public/$MODNAME"
+mkdir -p "$BG3_DATA/Public/"
+cp -r "./output/$MODNAME/Public/$MODNAME" "$BG3_DATA/Public"
+
+echo "Finished Build!"

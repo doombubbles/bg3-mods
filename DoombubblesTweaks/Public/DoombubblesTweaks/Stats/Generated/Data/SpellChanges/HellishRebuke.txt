@@ -31,5 +31,6 @@ new entry "HELLISH_REBUKE{{$_LVL}}"
 type "StatusData"
 data "StatusType" "BOOST"
 using "HELLISH_REBUKE{{$_LVL}}"
+data "DisplayName" "ha5b96b2fg6411g4f32ga541g5b466adfcf46"
 data "DescriptionParams" "DealDamage({{add $lvl 1}}d12,Fire)"
 {{ end }}

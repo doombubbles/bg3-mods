@@ -117,6 +117,7 @@
         </node>
         <node id="LevelMapSeries">
           <attribute id="FallbackValue" type="LSString" value="1"/>
+          <attribute id="Level1" type="LSString" value="1"/>
           <attribute id="Level4" type="LSString" value="2"/>
           <attribute id="Level7" type="LSString" value="3"/>
           <attribute id="Level10" type="LSString" value="4"/>

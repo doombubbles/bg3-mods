@@ -65,19 +65,22 @@
           <attribute id="UUID" type="guid" value="17803035-4762-4143-8f2f-1143d47e4f40"/>
         </node>
         <node id="SpellList">
+          <attribute id="MergedInto" type="guid" value="58aef51d-a46c-44c8-8bed-df90870eb55f"/>
           <attribute id="Comment" type="LSString" value="Paladin always prepared spells level 2"/>
-          <attribute id="Spells" type="LSString" value="Target_Smite_Divine;Target_Smite_Divine_Unlock;Target_Smite_Divine_Critical_Unlock;Target_Smite_Divine_Unarmed"/>
-          <attribute id="UUID" type="guid" value="58aef51d-a46c-44c8-8bed-df90870eb55f"/>
+          <attribute id="Spells" type="LSString" value="Target_Smite_Divine_Unarmed"/>
+          <attribute id="UUID" type="guid" value="bc492970-dd62-4526-8951-f7ebf7d3b6f7"/>
         </node>
         <node id="SpellList">
+          <attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
           <attribute id="Comment" type="LSString" value="Paladin SLevel 1"/>
-          <attribute id="Spells" type="LSString" value="Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Target_Smite_Wrathful;Target_Smite_Wrathful_Unarmed;Target_Bless;Shout_DivineFavor;Target_Heroism;Target_ProtectionFromEvilAndGood;Target_Smite_Searing;Target_Smite_Searing_Unarmed;Target_ShieldOfFaith;Target_Smite_Thunderous;Target_Smite_Thunderous_Unarmed"/>
-          <attribute id="UUID" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
+          <attribute id="Spells" type="LSString" value="Target_Smite_Wrathful_Unarmed;Target_Smite_Searing_Unarmed;Target_Smite_Thunderous_Unarmed"/>
+          <attribute id="UUID" type="guid" value="9b14ee1e-69b0-4211-9689-c8aa80090e99"/>
         </node>
         <node id="SpellList">
+          <attribute id="MergedInto" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
           <attribute id="Comment" type="LSString" value="Paladin SLevel 3"/>
-          <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_Smite_Blinding;Target_Smite_Blinding_Unarmed;Shout_CrusadersMantle;Target_Daylight_Container;Target_ElementalWeapon;Target_RemoveCurse;Teleportation_Revivify"/>
-          <attribute id="UUID" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
+          <attribute id="Spells" type="LSString" value="Target_Smite_Blinding_Unarmed"/>
+          <attribute id="UUID" type="guid" value="8f978a65-8fbe-4c4c-83ef-ab6a5b732819"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Paladin, Retribution spell scroll list"/>
@@ -145,9 +148,10 @@
           <attribute id="UUID" type="guid" value="33a48378-13da-4c07-8470-aec6b38e1a7e"/>
         </node>
         <node id="SpellList">
+          <attribute id="MergedInto" type="guid" value="660eb07b-ea07-4ff1-91e7-7ca44694dbe7"/>
           <attribute id="Comment" type="LSString" value="Paladin Devotion Spells level 3"/>
-          <attribute id="Spells" type="LSString" value="Shout_SacredWeapon;Shout_TurnTheUnholy;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Shout_SacredWeapon_Unlock"/>
-          <attribute id="UUID" type="guid" value="660eb07b-ea07-4ff1-91e7-7ca44694dbe7"/>
+          <attribute id="Spells" type="LSString" value="Shout_SacredWeapon_Unlock"/>
+          <attribute id="UUID" type="guid" value="c4cc8f47-e87a-4e9a-94f2-82f09ad6cf7e"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Fury Barbarian Level 10 Spells"/>
@@ -160,9 +164,10 @@
           <attribute id="UUID" type="guid" value="b73fd83d-ad43-44f8-8f23-a20d3bfed7a3"/>
         </node>
         <node id="SpellList">
+          <attribute id="MergedInto" type="guid" value="e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6"/>
           <attribute id="Comment" type="LSString" value="Warlock Mysic Arcanum SLevel 6"/>
-          <attribute id="Spells" type="LSString" value="Target_CircleOfDeath;Teleportation_ArcaneGate;Target_Eyebite;Target_FleshToStone;Target_CreateUndead;Target_ConjureElemental_6"/>
-          <attribute id="UUID" type="guid" value="e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6"/>
+          <attribute id="Spells" type="LSString" value="Target_ConjureElemental_6"/>
+          <attribute id="UUID" type="guid" value="12e56e7f-7c84-497e-b2c9-84e99b48dc8f"/>
         </node>
       </children>
     </node>

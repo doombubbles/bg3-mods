@@ -53,7 +53,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "DIVINE_FAVOR"
 data "Description" "h9306f199g05f0g421dgba75g7805ee1ee6ee"
-data "Boosts" "CharacterWeaponDamage(1d4,Radiant);CharacterUnarmedDamage(1d4,Radiant)""
+data "Boosts" "CharacterWeaponDamage(1d4,Radiant);CharacterUnarmedDamage(1d4,Radiant)"
 
 new entry "DIVINE_FAVOR_2"
 type "StatusData"

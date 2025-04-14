@@ -101,6 +101,7 @@ data "RemoveEvents" ""
 data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "ARCANE_INTELLECT_BUFF"
+type "StatusData"
 data "StatusType" "BOOST"
 using "AURA_OF_PROTECTION_BUFF"
 data "DisplayName" "h84e066e5g75e7g4d64ga375ga994ea3b3606"

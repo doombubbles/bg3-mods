@@ -6,7 +6,7 @@ data "SpellType" "Shout"
 using "Shout_Shield_Wizard_2"
 data "Description" "hdb29329eg49eag4588g979cg34d2da2e310e;4"
 data "DescriptionParams" "6"
-data "TooltipUpcastDescription" "h16192c0egf5e2g4042gb89ag8e3600fde5e6"
+data "TooltipUpcastDescription" "7dc9b2f3-d761-41a6-b8f9-83aec6e48b10"
 data "TooltipStatusApply" "ApplyStatus(SHIELD_2,100,1)"
 
 new entry "Shout_Shield_Wizard_3"
@@ -64,7 +64,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "SHIELD_2"
 data "DescriptionParams" "8"
-data "Boosts" "AC(8);IF(IsSpellChildOrVariantFromContext('Projectile_MagicMissile')):DamageReduction(Force,Flat,100)
+data "Boosts" "AC(8);IF(IsSpellChildOrVariantFromContext('Projectile_MagicMissile')):DamageReduction(Force,Flat,100)"
 
 new entry "SHIELD_5"
 type "StatusData"

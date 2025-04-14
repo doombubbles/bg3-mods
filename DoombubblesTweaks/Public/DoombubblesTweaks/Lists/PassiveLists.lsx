@@ -16,32 +16,37 @@
 
         <!-- 2+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchArmor,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
-          <attribute id="UUID" type="guid" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed"/>
+          <attribute id="MergedInto" type="guid" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed"/>
+          <attribute id="Passives" type="LSString" value="EldritchArmor,EldritchMind,EldritchSpear,GraspOfHadar,MaskOfManyFaces,OtherworldlyLeap,WhispersOfTheGrave"/>
+          <attribute id="UUID" type="guid" value="62ae6b25-c15d-4481-bc09-fade87d71c3f"/>
         </node>
 
         <!-- 5+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="EldritchSmite,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchArmor,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
-          <attribute id="UUID" type="guid" value="8adab8f9-e360-4f79-851b-2c7e050ca23d"/>
+          <attribute id="MergedInto" type="guid" value="8adab8f9-e360-4f79-851b-2c7e050ca23d"/>
+          <attribute id="Passives" type="LSString" value="EldritchSmite,EldritchArmor,EldritchMind,EldritchSpear,GraspOfHadar,MaskOfManyFaces,OtherworldlyLeap,WhispersOfTheGrave"/>
+          <attribute id="UUID" type="guid" value="0fe96a1c-3729-48a7-a45a-8f21460f48f1"/>
         </node>
 
         <!-- 7+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,EldritchSmite,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchArmor,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
-          <attribute id="UUID" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
+          <attribute id="MergedInto" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
+          <attribute id="Passives" type="LSString" value="EldritchSmite,EldritchArmor,EldritchMind,EldritchSpear,GraspOfHadar,MaskOfManyFaces,OtherworldlyLeap,WhispersOfTheGrave"/>
+          <attribute id="UUID" type="guid" value="c52797a7-ae44-4e78-98e4-679c26f0f535"/>
         </node>
 
         <!-- 9+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="MinionsOfChaos,BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,EldritchSmite,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchArmor,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
-          <attribute id="UUID" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+          <attribute id="MergedInto" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+          <attribute id="Passives" type="LSString" value="EldritchSmite,EldritchArmor,EldritchMind,EldritchSpear,GraspOfHadar,MaskOfManyFaces,OtherworldlyLeap,WhispersOfTheGrave"/>
+          <attribute id="UUID" type="guid" value="17180795-7979-4873-a7a0-6bba2ccfe36f"/>
         </node>
 
         <!-- 12+ Eldritch Invocations -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="ImprovedEldritchSmite,Lifedrinker,MinionsOfChaos,BookOfAncientSecrets,DreadfulWord,SculptorOfFlesh,EldritchSmite,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchArmor,EldritchMind,EldritchSpear,FiendishVigor,GraspOfHadar,LanceOfLethargy,MaskOfManyFaces,OneWithShadows,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates,WhispersOfTheGrave"/>
-          <attribute id="UUID" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+          <attribute id="MergedInto" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+          <attribute id="Passives" type="LSString" value="ImprovedEldritchSmite,EldritchSmite,EldritchArmor,EldritchMind,EldritchSpear,GraspOfHadar,MaskOfManyFaces,OtherworldlyLeap,WhispersOfTheGrave"/>
+          <attribute id="UUID" type="guid" value="dac78098-7a08-459e-9f25-a2b2284744be"/>
         </node>
 
         <!-- Eldritch Adept -->
@@ -83,14 +88,16 @@
 
         <!-- Draconic Ancestries -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="DraconicAncestry_Red,DraconicAncestry_Black,DraconicAncestry_Blue,DraconicAncestry_White,DraconicAncestry_Green,DraconicAncestry_Gold,DraconicAncestry_Silver,DraconicAncestry_Bronze,DraconicAncestry_Copper,DraconicAncestry_Brass,DraconicAncestry_Ruby,DraconicAncestry_Diamond,DraconicAncestry_Amethyst,DraconicAncestry_Emerald,DraconicAncestry_Sapphire,DraconicAncestry_Topaz"/>
-          <attribute id="UUID" type="guid" value="c69c33a2-671c-46e1-a92c-656fe64ed447"/>
+          <attribute id="MergedInto" type="guid" value="c69c33a2-671c-46e1-a92c-656fe64ed447"/>
+          <attribute id="Passives" type="LSString" value="DraconicAncestry_Brass,DraconicAncestry_Ruby,DraconicAncestry_Diamond,DraconicAncestry_Amethyst,DraconicAncestry_Emerald,DraconicAncestry_Sapphire,DraconicAncestry_Topaz"/>
+          <attribute id="UUID" type="guid" value="874cc765-90f5-4b04-90f7-fad879d150f4"/>
         </node>
 
         <!-- Elemental Adept -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="ElementalAdept_Acid,ElementalAdept_Cold,ElementalAdept_Fire,ElementalAdept_Force,ElementalAdept_Lightning,ElementalAdept_Necrotic,ElementalAdept_Poison,ElementalAdept_Psychic,ElementalAdept_Radiant,ElementalAdept_Thunder"/>
-          <attribute id="UUID" type="guid" value="f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39"/>
+          <attribute id="MergedInto" type="guid" value="f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39"/>
+          <attribute id="Passives" type="LSString" value="ElementalAdept_Necrotic,ElementalAdept_Poison,ElementalAdept_Psychic,ElementalAdept_Radiant,ElementalAdept_Thunder"/>
+          <attribute id="UUID" type="guid" value="42252c24-5947-42b5-b010-f6c4f968dc0e"/>
         </node>
 
         <!-- Light Cleric Choice -->
@@ -102,26 +109,30 @@
 
         <!-- All Fighting Styles -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_MartialArts"/>
-          <attribute id="UUID" type="guid" value="da3203d8-750a-4de1-b8eb-1eccfccddf46"/>
+          <attribute id="MergedInto" type="guid" value="da3203d8-750a-4de1-b8eb-1eccfccddf46"/>
+          <attribute id="Passives" type="LSString" value="FightingStyle_MartialArts"/>
+          <attribute id="UUID" type="guid" value="f397be61-a82f-46fb-9e82-3babdf2133b6"/>
         </node>
 
         <!-- Paladin Fighting Styles -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_MartialArts"/>
-          <attribute id="UUID" type="guid" value="f8ebba38-932a-4c64-ae55-3df23e2f60fa"/>
+          <attribute id="MergedInto" type="guid" value="f8ebba38-932a-4c64-ae55-3df23e2f60fa"/>
+          <attribute id="Passives" type="LSString" value="FightingStyle_MartialArts"/>
+          <attribute id="UUID" type="guid" value="c024a9cd-050f-4f7d-99c3-cbafa88798b5"/>
         </node>
 
         <!-- Warlock Pacts -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="PactOfTheChain,PactOfTheBlade,PactOfTheTome,PactOfDestruction"/>
-          <attribute id="UUID" type="guid" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae"/>
+          <attribute id="MergedInto" type="guid" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae"/>
+          <attribute id="Passives" type="LSString" value="PactOfDestruction"/>
+          <attribute id="UUID" type="guid" value="89f502f1-4b0f-46de-9ecf-7fa70fcea0db"/>
         </node>
 
         <!-- Favoured Enemies -->
         <node id="PassiveList">
-          <attribute id="Passives" type="LSString" value="FavoredEnemy_BountyHunter,FavoredEnemy_KeeperOfTheVeil,FavoredEnemy_MageBreaker,FavoredEnemy_RangerKnight,FavoredEnemy_SanctifiedStalker,FavoredEnemy_DemonHunter"/>
-          <attribute id="UUID" type="guid" value="d0f13dda-eb37-41f5-aea5-2683f0229e2e"/>
+          <attribute id="MergedInto" type="guid" value="d0f13dda-eb37-41f5-aea5-2683f0229e2e"/>
+          <attribute id="Passives" type="LSString" value="FavoredEnemy_DemonHunter"/>
+          <attribute id="UUID" type="guid" value="e678d28c-87a4-4bfc-9287-fd803183334d"/>
         </node>
 
         <!-- Evocation Wizard Choice -->

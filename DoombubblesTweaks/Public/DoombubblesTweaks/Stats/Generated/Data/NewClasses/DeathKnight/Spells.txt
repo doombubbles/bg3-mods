@@ -268,7 +268,6 @@ data "StatusType" "BOOST"
 using "VAMPIRIC_TOUCH"
 data "DisplayName" "hdb66a1a9gda10g4fb9g89fcg872db299081e"
 data "Boosts" "UnlockSpell(Target_VampiricTouch_Free_DK)"
-data "FollowUpOriginalSpell" "Target_VampiricTouch_DK"
 
 // 4 Rune
 

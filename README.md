@@ -43,3 +43,8 @@ Optional steps
 To Disable:
 1. Drag DoombubblesTweaks and any other Active Mods back into the inactive mods section
 2. Use the `File -> Export Order to Game` option in the menu (Ctrl + E or the button next to "Export")
+
+
+### Building
+
+To use the build.sh script, you will need to have bg3-modders-multitool installed and its folder add to your path ENV var, and same with lslib with it's Tools folder added to path

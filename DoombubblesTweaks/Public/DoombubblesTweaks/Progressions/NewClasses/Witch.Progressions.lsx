@@ -114,7 +114,7 @@
           <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4);"/>
           <attribute id="Level" type="uint8" value="7"/>
           <attribute id="Name" type="LSString" value="Witch"/>
-          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel4"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value="SelectPassives(a4f4ca2a-dd77-41aa-9f1b-dde8fc3e0a3f,1,WarlockInvocations)"/>
           <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
@@ -133,7 +133,7 @@
           <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5)"/>
           <attribute id="Level" type="uint8" value="9"/>
           <attribute id="Name" type="LSString" value="Witch"/>
-          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel5"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="Selectors" type="LSString" value="SelectPassives(ce8ade0e-0253-4eae-b5ef-da63da40d117,1,WarlockInvocations)"/>
           <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
@@ -152,7 +152,7 @@
           <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,6)"/>
           <attribute id="Level" type="uint8" value="11"/>
           <attribute id="Name" type="LSString" value="Witch"/>
-          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel6"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <!-- <attribute id="Selectors" type="LSString" value="SelectSpells(e6ccab5e-3b3b-4b34-8fa2-1058dff2b3e6,1,0,MysticArcanum,,None,AlwaysPrepared,UntilRest)"/> -->
           <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>

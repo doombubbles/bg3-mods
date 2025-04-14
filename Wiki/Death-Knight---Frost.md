@@ -45,7 +45,7 @@ alt="Action_DeathKnight_Frostscythe.png" /> Frostscythe</a>
 
 ### Frozen Heart
 
-{{ get .loca "h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" | include "wikify" }}
+{{ getf .loca "h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" "1" | include "wikify" }}
 
 {{ get .loca "h27d45cc4g02f1g4748g9a15g70b0d1a45b84" | include "wikify" }}
 
