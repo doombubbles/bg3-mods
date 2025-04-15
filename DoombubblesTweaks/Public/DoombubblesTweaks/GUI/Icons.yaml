@@ -1,0 +1,22 @@
+IconSize: 64
+TotalSize: 640
+Icons:
+  - Action_Warlock_EldritchSmite
+  - PassiveFeature_Warlock_EldritchSmite
+  - PassiveFeature_ImprovedEldritchSmite
+  - Action_Barbarian_RecklessAttack_Unarmed
+  - Action_Paladin_DivineSmite_Unarmed
+  - Spell_Evocation_SearingSmite_Unarmed
+  - Spell_Evocation_ThunderousSmite_Unarmed
+  - Spell_Evocation_WrathfulSmite_Unarmed
+  - Spell_Evocation_BrandingSmite_Unarmed
+  - Spell_Evocation_BlindingSmite_Unarmed
+  - Spell_Evocation_StaggeringSmite_Unarmed
+  - Spell_Abjuration_BanishingSmite_Unarmed
+  - Action_Mag_PhalarAluve_Screech
+  - Action_Mag_PhalarAluve_Shout
+  - PassiveFeature_ElementalAdept_Force
+  - PassiveFeature_ElementalAdept_Necrotic
+  - PassiveFeature_ElementalAdept_Psychic
+  - PassiveFeature_ElementalAdept_Radiant
+  - PassiveFeature_ElementalAdept_Poison

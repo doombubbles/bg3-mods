@@ -1,0 +1,72 @@
+---@diagnostic disable: undefined-global
+
+function EldritchBlastCheck()
+  return SpellId('Projectile_EldritchBlast')
+      | SpellId('Projectile_MAG_EldritchBlast_Staff')
+      | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
+      | SpellId('Projectile_FireRay_Warlock')
+      |
+      (IsSpell() & SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction', context.Source) & HasPassive('ThirstingBlade_Check', context.Source))
+end
+
+function HotStreakSpellCheck()
+  return QuickenedSpellCheck() & SpellDamageTypeIs(DamageType.Fire)
+end
+
+function SplittingIceProjectileSpellCheck()
+  return ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) &
+      SpellTypeIs(SpellType.Projectile) & SpellDamageTypeIs(DamageType.Cold)
+end
+
+function SplittingIceTargetSpellCheck()
+  return TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) &
+      SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & SpellDamageTypeIs(DamageType.Cold) &
+      ~NumberOfTargetsGreaterThan(1)
+end
+
+function SplittingIceTargetTouchSpellCheck()
+  return TargetRadiusGreaterThan(0) & ~TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) &
+      HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) &
+      SpellDamageTypeIs(DamageType.Cold) & ~NumberOfTargetsGreaterThan(1)
+end
+
+function FingersOfFrostSpellCheck()
+  return SpellDamageTypeIs(DamageType.Cold) &
+      (HasStringInSpellRoll('AttackType.RangedSpellAttack') | HasStringInSpellRoll('AttackType.MeleeSpellAttack')) &
+      HasEnoughIciclesCheck(context.Source)
+end
+
+function HasEnoughIciclesCheck(entity)
+  local entity = entity or context.Target
+  return ConditionResult(GetStatusDuration('ICICLES', entity) >= 4)
+end
+
+function ClearCastingSpellCheck()
+  return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot'))
+end
+
+function DivinePurposeSpellCheck()
+  return SpellId('Target_TemplarsVerdict') | SpellId('Shout_DivineStorm')
+end
+
+function WhirlwindSpellCheck()
+  return SpellTypeIs(SpellType.Target) &
+      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))
+end
+
+function IsFuryAttack()
+  return (HasUseCosts('Rage') & (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))) |
+      SpellId('Target_Bloodthirst') | SpellId('Target_RagingBlow') | SpellId('Target_Execute_Fury') |
+      SpellId('Shout_Whirlwind_Fury') | (SpellId('Target_WildStrike') & ~HasStatus('WILD_STRIKE', context.Source))
+end
+
+function HasWeaponInOffHand()
+  result = WieldingWeapon('Melee', true)
+  return ConditionResult(result.Result, { ConditionError("HasNotWeaponInMainHand") },
+    { ConditionError("HasWeaponInMainHand") })
+end
+
+function PactOfDestructionSummonCheck(passive)
+  local passive = passive or ""
+  return HasPassive(passive, context.Source) & Tagged('SUMMON') & SummonOwner(context.Target, context.Source) & HasPassive('ThirstingBlade_Check', context.Source)
+end

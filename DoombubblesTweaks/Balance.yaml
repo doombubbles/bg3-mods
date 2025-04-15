@@ -17,6 +17,3 @@ FixEarthMyrmidon: false
 
 # Base Game Buffs
 HealingBuffs: true
-
-# In Progress Features
-DeathKnightEnabled: true

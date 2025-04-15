@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="322"/>
+  <region id="ProgressionDescriptions">
+    <node id="root">
+      <children>
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="hc141b2edgf41dg45f6gbb53g27ad7bfd4b1a" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="he9db3c9agd435g407cg8039g10fab044e30c" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="FuryAttacks"/>
+          <attribute id="UUID" type="guid" value="bc2c1bc0-a518-4d3e-b09a-aef10d1f3ebf"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -20,7 +20,7 @@ data "DescriptionParams" "Distance(4.5)"
 data "Icon" "Spell_Evocation_EvardsBlackTentacles"
 data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "EldritchBlastCheck(){{if not $.Balance.RepellingWallOfFire}} and not IsSpellChildOrVariantFromContext('Wall_WallOfFire'){{end}}"
+data "Conditions" "EldritchBlastCheck() and not IsSpellChildOrVariantFromContext('Wall_WallOfFire')"
 data "StatsFunctors" "Force(-4.5, OriginToTarget);ApplyStatus(PASSIVE_REPELLING_BLAST,100,0)"
 
 new entry "LanceOfLethargy"

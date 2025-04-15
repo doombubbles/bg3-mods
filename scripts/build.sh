@@ -1,7 +1,7 @@
 set -e
 
 VERSION="1.0.0.$(($(git rev-list --count HEAD) + 1))"
-MODNAME=$(basename "$(pwd)")
+MODNAME=${1:-$(basename "$(pwd)")}
 BUILD="./build/$MODNAME"
 RESULT="./output/$MODNAME.pak"
 DESTINATION="$LOCALAPPDATA/Larian Studios/Baldur's Gate 3/Mods/$MODNAME.pak"
@@ -38,10 +38,11 @@ done
 
 # Copy to Toolkit
 
-
 rm -rf "$BG3_DATA/Generated/$MODNAME"
-mkdir -p "$BG3_DATA/Generated/$MODNAME"
-cp -r "./output/$MODNAME/Generated/." "$BG3_DATA/Generated/$MODNAME"
+if [ -d "./output/$MODNAME/Generated" ]; then
+  mkdir -p "$BG3_DATA/Generated/$MODNAME"
+  cp -r "./output/$MODNAME/Generated/." "$BG3_DATA/Generated/$MODNAME"
+fi
 
 rm -rf "$BG3_DATA/Mods/$MODNAME"
 mkdir -p "$BG3_DATA/Mods/$MODNAME"
@@ -54,5 +55,9 @@ cp -r "./output/$MODNAME/Public/Game/." "$BG3_DATA/Mods/$MODNAME"
 rm -rf "$BG3_DATA/Public/$MODNAME"
 mkdir -p "$BG3_DATA/Public/"
 cp -r "./output/$MODNAME/Public/$MODNAME" "$BG3_DATA/Public"
+
+rm -rf "$BG3_DATA/Projects/$MODNAME"
+mkdir -p "$BG3_DATA/Projects/"
+cp -r "./output/$MODNAME/Projects/$MODNAME" "$BG3_DATA/Projects"
 
 echo "Finished Build!"

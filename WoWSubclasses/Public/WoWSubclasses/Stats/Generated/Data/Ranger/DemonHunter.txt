@@ -1,0 +1,8 @@
+new entry "FavoredEnemy_DemonHunter"
+type "PassiveData"
+data "DisplayName" "h64b034ebg7b7bg4d20g94ccge595e2e1c0ba"
+data "Description" "h589346c1g110bg4927gadc1gcc9664af27eb"
+data "DescriptionParams" "Distance(24)"
+data "Icon" "PassiveFeature_FavoredEnemy_DemonHunter"
+data "Properties" "Highlighted"
+data "Boosts" "ProficiencyBonus(Skill,Perception);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"

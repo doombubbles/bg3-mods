@@ -84,42 +84,6 @@ function HeightenedConjurationSpellCheck()
       (HasSpellFlag(SpellFlags.Spell) & IsSpellOfSchool(SpellSchool.Conjuration))
 end
 
-function HotStreakSpellCheck()
-  return QuickenedSpellCheck() & SpellDamageTypeIs(DamageType.Fire)
-end
-
-function SplittingIceProjectileSpellCheck()
-  return ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) &
-      SpellTypeIs(SpellType.Projectile) & SpellDamageTypeIs(DamageType.Cold)
-end
-
-function SplittingIceTargetSpellCheck()
-  return TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) &
-      SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & SpellDamageTypeIs(DamageType.Cold) &
-      ~NumberOfTargetsGreaterThan(1)
-end
-
-function SplittingIceTargetTouchSpellCheck()
-  return TargetRadiusGreaterThan(0) & ~TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) &
-      HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) &
-      SpellDamageTypeIs(DamageType.Cold) & ~NumberOfTargetsGreaterThan(1)
-end
-
-function FingersOfFrostSpellCheck()
-  return SpellDamageTypeIs(DamageType.Cold) &
-      (HasStringInSpellRoll('AttackType.RangedSpellAttack') | HasStringInSpellRoll('AttackType.MeleeSpellAttack')) &
-      HasEnoughIciclesCheck(context.Source)
-end
-
-function HasEnoughIciclesCheck(entity)
-  local entity = entity or context.Target
-  return ConditionResult(GetStatusDuration('ICICLES', entity) >= 4)
-end
-
-function ClearCastingSpellCheck()
-  return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot'))
-end
-
 function HasNoMainHand(entity)
   entity = entity or context.Source
   result = ~WieldingWeapon('Melee', false, false, entity)
@@ -148,62 +112,6 @@ end
 function IsUnarmedWildshape()
   return (HasStatus('SG_Polymorph_BeastShape', context.Source) | HasStatus('SLAYER_PLAYER', context.Source) | HasStatus('SLAYER_PLAYER_10', context.Source)) &
       ~(Tagged('MYRMIDON_AIR', context.Source) | Tagged('MYRMIDON_FIRE', context.Source) | Tagged('MYRMIDON_WATER', context.Source))
-end
-
-function DivinePurposeSpellCheck()
-  return SpellId('Target_TemplarsVerdict') | SpellId('Shout_DivineStorm')
-end
-
-function KillingMachineSpellCheck()
-  return SpellId('Target_Obliterate') | SpellId('Target_Obliterate_DW') | SpellId('Zone_Frostscythe')
-end
-
-function DeathGripCheck()
-  local result = Dead() | Item() | Ally()
-  if ~result.Result then
-    local st = ~SavingThrow(Ability.Strength, context.Source.Strength)
-    return ConditionResult(st.Result, {}, {}, st.Chance)
-  end
-
-  return result
-end
-
-function DistanceToTargetLessOrEqual(value)
-  local errorTrue = { ConditionError("DistanceGreaterOrEqualThan_False",
-    { ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance) }) }
-  local errorFalse = { ConditionError("DistanceGreaterOrEqualThan_True",
-    { ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance) }) }
-  return ConditionResult(DistanceToTarget() <= value, errorFalse, errorTrue)
-end
-
-function HasRuneforge(entity)
-  local entity = entity or context.Source
-  local result = HasAnyStatus({ 'RUNE_RAZORICE', 'RUNE_FALLEN_CRUSADER', 'RUNE_STONESKIN_GARGOYLE' }, {}, {}, entity)
-  return ConditionResult(result.Result, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
-end
-
-function HasRuneWeapon()
-  local entity = entity or context.Source
-  local weaponEntity = GetActiveWeapon(entity, true)
-  if weaponEntity.IsValid then
-    local result = Character(entity) & HasRuneforge(weaponEntity)
-    return ConditionResult(result.Result, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
-  end
-  return ConditionResult(false, { ConditionError("HasNotRuneWeapon") }, { ConditionError("HasRuneWeapon") })
-end
-
-function RuneSpellCheck()
-  return (
-    HasUseCosts('BloodRune') | HasUseCosts('FrostRune') | HasUseCosts('UnholyRune') | HasUseCosts('AnyRune') | HasUseCosts('BloodOrFrostRune') | HasUseCosts('BloodOrUnholyRune') | HasUseCosts('FrostOrUnholyRune') |
-    SpellId('Target_VampiricTouch_Free_DK') | SpellId('Target_Eyebite_Asleep_Free_DK') | SpellId('Target_Eyebite_Panicked_Free_DK') | SpellId('Target_Eyebite_Sickened_Free_DK') |
-    SpellId('Target_FrostStrike') | SpellId('Target_Obliterate_DW')  | SpellId('Target_Obliterate') |
-    SpellId('Target_DeathStrike')  | SpellId('Target_Marrowrend') | SpellId('Target_HeartStrike') |
-    SpellId('Target_ScourgeStrike')  | SpellId('Target_FesteringStrike')
-  )
-end
-
-function CarnageSpellCheck()
-  return HasUseCosts('ActionPoint') & RuneSpellCheck() & ~ExtraAttackSpellCheck()
 end
 
 function IsKillingBlowish()
@@ -246,39 +154,8 @@ function IsEldritchSmite()
       SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Target_Smite_Eldritch_6')
 end
 
-function WhirlwindSpellCheck()
-  return SpellTypeIs(SpellType.Target) &
-      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))
-end
-
-function IsFuryAttack()
-  return (HasUseCosts('Rage') & (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))) |
-      SpellId('Target_Bloodthirst') | SpellId('Target_RagingBlow') | SpellId('Target_Execute_Fury') |
-      SpellId('Shout_Whirlwind_Fury') | (SpellId('Target_WildStrike') & ~HasStatus('WILD_STRIKE', context.Source))
-end
-
 function HasWeaponInOffHand()
   result = WieldingWeapon('Melee', true)
   return ConditionResult(result.Result, { ConditionError("HasNotWeaponInMainHand") },
     { ConditionError("HasWeaponInMainHand") })
-end
-
-function BlowsUp(die) -- Never Stop Blowing Up!
-  return ConditionResult(math.random(1, die) == die)
-end
-
-function FrostmourneSoulCheck(entity)
-  entity = entity or context.Target
-  return ~Tagged('UNDEAD',entity) & ~Party() & ~Tagged('PLAYABLE') & ~Tagged('AVATAR') & ~Tagged('CONSTRUCT') & ~Tagged('ELEMENTAL') & ~Tagged('PLANT') & ~Tagged('OOZE') & ~Tagged('MINDFLAYER') -- According to Withers
-end
-
-function KilledByFrostmourne(entity)
-  local entity = entity or context.Target
-  local soul = HasStatus('FROSTMOURNE_SOUL', entity)
-  return ConditionResult(soul.Result, {ConditionError("NotKilledByFrostmourne")})
-end
-
-function PactOfDestructionSummonCheck(passive)
-  local passive = passive or ""
-  return HasPassive(passive, context.Source) & Tagged('SUMMON') & SummonOwner(context.Target, context.Source) & HasPassive('ThirstingBlade_Check', context.Source)
 end

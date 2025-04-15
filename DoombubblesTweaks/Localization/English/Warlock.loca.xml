@@ -23,16 +23,6 @@
 	<content contentuid="h88ab50bcgfcb9g4bf8g915dg3472b9101449" version="1">Eldritch Smite on Critical Hit</content>
 	<content contentuid="h5957f9e2g4c94g437bg91c3g4e80161a2f04" version="1">This reaction only triggers on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h4ecbe33eg5d2cg483cg97c2gc99109000e40" version="1">Pact of Destruction</content>
-	<content contentuid="h85db2e05g22c5g4569gb0f0gede017efdaee" version="1">Rays of Fire</content>
-	<content contentuid="h1cd4d745g0c41g4838gb50ag1cc3cef2da22" version="1">Hurl [1] ray(s) of fire.</content>
-
-	<content contentuid="hc19d5973g8425g4969gb956g5ae5448e67f5" version="1">Your patron grants you the power of fire and brimstone. You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_FireRay_Warlock"&gt;Rays of Fire&lt;/LSTag&gt; cantrip. It is also affected by your Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h812aad05gb95fg45afg9c51gd3c8b010e9bd" version="1">Also affected by your Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h7cdc9284g9ba0g453ag8b72gcdcf1bc34ec8" version="1">Pleased with your service, your otherworldly patron added new boons to the terms of your pact.&lt;br&gt;&lt;br&gt;Blade pactholders gain an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;extra attack&lt;/LSTag&gt; with their pact weapon.&lt;br&gt;&lt;br&gt;The Pact of the Chain's &lt;LSTag Type="Spell" Tooltip="Target_FindFamiliar"&gt;familiar&lt;/LSTag&gt; also gains an extra attack.&lt;br&gt;&lt;br&gt;Pact of the Tome warlocks can cast &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;Animate Dead&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;Call Lightning&lt;/LSTag&gt; once per long rest.&lt;br&gt;&lt;br&gt;For Pact of Destruction warlocks, Eldritch Invocations that affect &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; now affect all Fire spells.</content>
-
 	<content contentuid="hb5f404dfg8bf0g4508g94bag1404f5e58f1a" version="1">Improved Eldritch Smite</content>
 	<content contentuid="hdad1e613gec4eg422bgbfe4ga8f2e05a9bee" version="1">Your attacks are suffused with eldritch might.&lt;br&gt;&lt;br&gt;Melee weapon attacks deal an additional [1].</content>
 

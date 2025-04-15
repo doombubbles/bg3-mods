@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="8a8ca382-6d25-4923-931c-74e8966ca296"/>
+            <attribute id="Name" type="LSString" value="DoombubblesTweaks"/>
+            <attribute id="UUID" type="LSString" value="23e41dad-8ec2-36da-3b43-c019402943a8"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

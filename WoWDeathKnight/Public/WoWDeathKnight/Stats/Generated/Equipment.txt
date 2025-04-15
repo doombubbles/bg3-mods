@@ -1,0 +1,26 @@
+new equipment "EQP_CC_DeathKnight"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword_DeathKnight"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+add equipmentgroup
+add equipment entry "ARM_Boots_Metal_DeathKnight"
+add equipmentgroup
+add equipment entry "ARM_ChainMail_Body_DeathKnight"
+add equipmentgroup
+add equipment entry "ARM_Gloves_Metal_DeathKnight"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "ARM_Camp_Body"
+add equipmentgroup
+add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"

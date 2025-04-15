@@ -2,13 +2,10 @@ name: Wiki
 
 on:
   push:
-    branches: ['main']
-    paths:  
+    branches: ["main"]
+    paths:
       - "Wiki/**/*"
       - "**/wiki.yml"
-
-env:
-  PROJECT_NAME: DoombubblesTweaks
 
 jobs:
   wiki:
@@ -22,8 +19,8 @@ jobs:
         run: ./bin/ProcessTemplates.exe
 
       - name: Process Wiki Templates
-        run: ./bin/ProcessTemplates.exe -s Wiki -d build/Wiki -v DoombubblesTweaks -v build/DoombubblesTweaks/Localization
-          
+        run: ./bin/ProcessTemplates.exe -s Wiki -d build/Wiki -v DoombubblesTweaks -v build/DoombubblesTweaks/Localization -v WoWDeathKnight -v build/WoWDeathKnight/Localization -v WoWSubclasses -v build/WoWSubclasses/Localization
+
       - name: Upload to Wiki
         uses: Andrew-Chen-Wang/github-wiki-action@v4
         with:

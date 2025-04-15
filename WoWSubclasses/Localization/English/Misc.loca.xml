@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h9419d463g2e05g466ag869cg013805c8db7b" version="1">Can't wield anything in off hand.</content>
+	<content contentuid="h53c4373ag638eg4788ga8d4gfde048471dbe" version="1">Target must have something in off hand.</content>
+
+	<content contentuid="h2bc6513cg23c6g4047g8ce1gfca3182e6fd7" version="1">Can't wield a weapon in off hand.</content>
+	<content contentuid="heb20b921g993ag45f9g8beag2ed9ea0fedab" version="1">Must have a weapon in off hand.</content>
+</contentList>

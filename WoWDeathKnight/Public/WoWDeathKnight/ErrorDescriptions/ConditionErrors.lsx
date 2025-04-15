@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="4" revision="0" build="200"/>
+  <region id="ConditionErrors">
+    <node id="root">
+      <children>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="h1bbd9e63gb94ag488aga938g528f1d96541b" version="1"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="HasRuneWeapon"/>
+          <attribute id="UUID" type="guid" value="8c709663-acf4-415d-b119-83e6a2d99659"/>
+        </node>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="hacbf3bfdg93adg4bfcgb233g491602dabded" version="1"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="HasNotRuneWeapon"/>
+          <attribute id="UUID" type="guid" value="fe2e4920-072e-4cd8-98f9-694d629b5382"/>
+        </node>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="hfe1f0612g3ce8g4f71g9664g4c1a32134fb3" version="1"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="NotKilledByFrostmourne"/>
+          <attribute id="UUID" type="guid" value="7f8cca72-4c1f-40ca-922c-42247de60805"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

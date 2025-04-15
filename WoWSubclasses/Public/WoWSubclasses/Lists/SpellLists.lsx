@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="3" revision="0" build="300"/>
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Fire Wizard Flamestrike"/>
+          <attribute id="Spells" type="LSString" value="Target_FlameStrike"/>
+          <attribute id="UUID" type="guid" value="fe98c85b-f168-47ad-9c66-11b202c26612"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Frost Wizard Ice Barrier"/>
+          <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys"/>
+          <attribute id="UUID" type="guid" value="d4350867-2888-4d46-adb8-26d514dc3265"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Frost Wizard Ice Block"/>
+          <attribute id="Spells" type="LSString" value="Shout_IceBlock"/>
+          <attribute id="UUID" type="guid" value="bfe54150-c4aa-4135-82ed-5605e3023233"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin, Retribution spell scroll list"/>
+          <attribute id="Spells" type="LSString" value="Target_Smite_Lunar;Shout_Shield_Sorcerer;Target_HoldPerson;Target_SpiritualWeapon;Target_Haste;Shout_SpiritGuardians_Paladin"/>
+          <attribute id="UUID" type="guid" value="6705e5e0-55a0-49d5-9f2e-78640afa8c85"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 1"/>
+          <attribute id="Spells" type="LSString" value="Target_TemplarsVerdict"/>
+          <attribute id="UUID" type="guid" value="5a686dba-dddf-421f-bcbe-ff7f4ee2c1d0"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 3"/>
+          <attribute id="Spells" type="LSString" value="Shout_DivineStorm;Shout_AvengingWrath;Target_Smite_Lunar;Shout_Shield_Sorcerer"/>
+          <attribute id="UUID" type="guid" value="5b0668b3-de72-4980-a332-7e90f0638c6d"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 5"/>
+          <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_SpiritualWeapon"/>
+          <attribute id="UUID" type="guid" value="1e061f06-b996-4548-a7c3-9b157e07d8e6"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 9"/>
+          <attribute id="Spells" type="LSString" value="Target_Haste;Shout_SpiritGuardians_Paladin"/>
+          <attribute id="UUID" type="guid" value="63b5d1b4-8fe5-463b-acd1-4b3569e6597d"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Fury Barbarian Level 10 Spells"/>
+          <attribute id="Spells" type="LSString" value="Shout_Recklessness"/>
+          <attribute id="UUID" type="guid" value="d3806701-3175-46d2-9117-7ebaeec6f90a"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Fury Barbarian Attacks"/>
+          <attribute id="Spells" type="LSString" value="Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury"/>
+          <attribute id="UUID" type="guid" value="b73fd83d-ad43-44f8-8f23-a20d3bfed7a3"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -1,7 +1,0 @@
-{
-  "command": "disconnect",
-  "arguments": {
-    "restart": false
-  },
-  "type": "request"
-}

@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-  <content contentuid="h72fbfac4g9edeg4a52gafdagb652b1b2b638" version="1">Oath of Retribution</content>
-  <content contentuid="h65193088g5aeeg4328ga0b5g955e3ea1f9d9" version="1">You are an instrument of retribution against those who dare defy the laws of the divine, a crusader judging and punishing the wicked.</content>
-
-  <content contentuid="h09a4c7d3g82b3g4fdega4edg18d8eab05262" version="1">Templar's Verdict</content>
-  <content contentuid="h3a0dac4fg287eg4bdfgaa29g1daf32cde6c1" version="1">Unleashes a powerful weapon strike that damages an enemy from a distance for an additional [1].</content>
-
-  <content contentuid="h0628f3ddg3adeg4073g932fg142350363c82" version="1">Divine Storm</content>
-  <content contentuid="he49e8c36g2400g4d9dgb6acgc3b41127eddf" version="1">Unleashes a whirl of divine energy, dealing your weapon's damage plus [1] to all nearby enemies.</content>
-
-  <content contentuid="h1f10a30dg0503g451egb472ga42bf65920de" version="1">Avenging Wrath</content>
-  <content contentuid="h23729422g8d2dg49bag9170g1ff5e9de7b5f" version="1">Call upon the Light and become an avatar of retribution, giving you bonus Radiant damage and healing equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and reducing the number you need to roll a critical hit by 1.</content>
-  <content contentuid="h60f888a2geaafg4953gbe9dgcf61d017be56" version="1">You deal an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[1]&lt;/LSTag&gt;, restore an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[2]&lt;/LSTag&gt; health, and the number you need to roll a critical hit is reduced by 1.</content>
-
-  <content contentuid="hdbe3a822g0e3cg4eafg83eeg5e0433173392" version="1">Divine Purpose</content>
-  <content contentuid="hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
-  <content contentuid="hce62265fgcc63g4ba5g9353g7531d7728257" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
-
   <content contentuid="haad2a2feg3184g4599g9182gf8d08b00331f" version="1">Oath Forsaker</content>
 
   <content contentuid="hc74f08b0g2519g4de6g8a66gcda7c497aee8" version="1">Divine Smite (Unarmed)</content>

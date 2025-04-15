@@ -1,0 +1,137 @@
+{{- define "RuneSpellList" -}}
+{{- $runes := set (omit . "Spells") "Death" (max .Blood .Frost .Unholy) -}}
+{{- $spells := list -}}
+{{- $currentSpells := list -}}
+{{- range $lvl, $spellMap := $.Spells -}}
+  {{- $currentSpells = list -}}
+  {{- range $rune, $runeSpells := $spellMap -}}
+    {{- if ge (get $runes $rune) (atoi $lvl) -}}
+      {{- $currentSpells = concat $currentSpells $runeSpells -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $spells = concat (sortAlpha $currentSpells) $spells  -}}
+{{- end -}}
+{{- $spells := $spells | reverse | uniq | reverse -}}
+"{{- join ";" $spells -}}"
+{{- end -}}
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="3" revision="0" build="300"/>
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK spell scroll list"/>
+          <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_Command;Target_CompelledDuel;Shout_FalseLife;Target_FogCloud;Target_Hex;Projectile_IceKnife;Target_InflictWounds;Target_RayOfSickness;Target_Blindness;Target_CrownOfMadness;Target_Darkvision;Target_Enthrall;Target_HoldPerson;Target_MagicWeapon;Target_AnimateDead;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_HungerOfHadar;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Shout_StinkingCloud;Target_VampiricTouch;Target_Blight;Target_DeathWard;Shout_FireShield_DK;Target_FreedomOfMovement;Target_IceStorm;Target_CloudKill;Zone_ConeOfCold;Target_Contagion;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Wall_BladeBarrier;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Harm;Target_FreezingSphere;Wall_WallOfIce"/>
+          <attribute id="UUID" type="guid" value="ad96ce7a-36f9-403a-b510-f662351fbe53"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK Initial Spells"/>
+          <attribute id="Spells" type="LSString" value="Target_DeathStrike;Target_FrostStrike;Target_DeathCoil"/>
+          <attribute id="UUID" type="guid" value="709fe78d-55b8-4756-997c-63593cc06fe9"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK Initial Frost Spells"/>
+          <attribute id="Spells" type="LSString" value="Projectile_HowlingBlast;Target_Obliterate;Target_Obliterate_DW;Zone_Frostscythe"/>
+          <attribute id="UUID" type="guid" value="3edf0b1e-5070-4a7d-bbd6-9b98a6f4744b"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK Inital Blood Spells"/>
+          <attribute id="Spells" type="LSString" value="Shout_BloodBoil;Target_Marrowrend;Target_HeartStrike"/>
+          <attribute id="UUID" type="guid" value="52d63179-f3d2-451a-a5e8-a87e11f716ba"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK Inital Unholy Spells"/>
+          <attribute id="Spells" type="LSString" value="Target_Outbreak;Target_FesteringStrike;Target_ScourgeStrike"/>
+          <attribute id="UUID" type="guid" value="19c8f886-e1bb-42d4-bb6a-7bea2cd0a79d"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK Level 7 Spells"/>
+          <attribute id="Spells" type="LSString" value="Shout_RuneTap"/>
+          <attribute id="UUID" type="guid" value="3cb7d6a0-97cc-4511-8d2c-f02b629c23b4"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 1B 1F 1U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 1 "Frost" 1 "Unholy" 1 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="24b88839-1dda-4bee-901d-86b944385762"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 1B 2F 1U Rune Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 1 "Frost" 2 "Unholy" 1 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="84c99f52-1f9a-4e4a-b3ab-6ef3e9916acd"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 1B 3F 1U Rune Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 1 "Frost" 3 "Unholy" 1 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="9e73f15c-3018-4dba-9d6f-78d6a1d07428"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 2B 4F 2U Rune Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 2 "Frost" 4 "Unholy" 2 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="8c1d3f77-04c8-4f3e-a73a-a9a13bd588c4"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 2B 5F 2U Rune Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 2 "Frost" 5 "Unholy" 2 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="54579f13-b2f6-4355-b64a-929f38c23511"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 2B 6F 2U Rune Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 2 "Frost" 6 "Unholy" 2 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="2ed57332-b6b7-4547-9509-a456bc9f4860"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 2B 1F 1U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 2 "Frost" 1 "Unholy" 1 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="8196f1b4-ce88-48bf-bec3-868ac176e0f5"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 3B 1F 1U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 3 "Frost" 1 "Unholy" 1 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="8dc54404-538a-48d0-95e9-c3adc21f842f"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 4B 2F 2U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 4 "Frost" 2 "Unholy" 2 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="b7e4b8e9-8acb-4d9e-ace7-d3b4ff61b3e6"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 5B 2F 2U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 5 "Frost" 2 "Unholy" 2 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="3051c8f2-09b3-4b93-8bac-2ab7407eee12"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 6B 2F 2U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 6 "Frost" 2 "Unholy" 2 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="e2b118e3-2bb1-4bec-ac02-d5a7e2d86aa5"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 1B 1F 2U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 1 "Frost" 1 "Unholy" 2 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="731a3b57-6a41-4b2f-9fbc-3cadbb5b8dad"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 1B 1F 3U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 1 "Frost" 1 "Unholy" 3 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="3b70c98c-c6c0-4753-942a-27ea30fb4e93"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 2B 2F 4U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 2 "Frost" 2 "Unholy" 4 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="da9bdb7a-9bf7-449e-8b94-dbf17c82cf2e"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 2B 2F 5U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 2 "Frost" 2 "Unholy" 5 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="e47d7577-5773-4041-8bed-a1a7833bdc6e"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="DK 2B 2F 6U Spells"/>
+          <attribute id="Spells" type="LSString" value={{include "RuneSpellList" (dict "Blood" 2 "Frost" 2 "Unholy" 6 "Spells" $.DK.Spells) }}/>
+          <attribute id="UUID" type="guid" value="78a6767a-8c81-4bea-b306-3dc133ae18cf"/>
+        </node>
+        
+      </children>
+    </node>
+  </region>
+</save>

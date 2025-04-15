@@ -31,7 +31,8 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "*.txt": "${capture}*.yaml"
+    "*.txt": "${capture}*.yaml",
+    "*.lsx": "${capture}*.yaml"
   },
   "json.schemas": [
     {

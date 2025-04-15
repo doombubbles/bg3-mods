@@ -60,9 +60,10 @@
           <attribute id="UUID" type="guid" value="bfe54150-c4aa-4135-82ed-5605e3023233"/>
         </node>
         <node id="SpellList">
+          <attribute id="MergedInto" type="guid" value="17803035-4762-4143-8f2f-1143d47e4f40"/>
           <attribute id="Comment" type="LSString" value="Berserker Barbarian level 3"/>
-          <attribute id="Spells" type="LSString" value="Target_FrenziedStrike;Throw_FrenziedThrow;Target_FrenziedStrike_Unarmed"/>
-          <attribute id="UUID" type="guid" value="17803035-4762-4143-8f2f-1143d47e4f40"/>
+          <attribute id="Spells" type="LSString" value="Target_FrenziedStrike_Unarmed"/>
+          <attribute id="UUID" type="guid" value="3f48e5ae-638f-4d75-9e49-28ee5d395068"/>
         </node>
         <node id="SpellList">
           <attribute id="MergedInto" type="guid" value="58aef51d-a46c-44c8-8bed-df90870eb55f"/>

@@ -2,12 +2,45 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Build Project",
+      "label": "Build DoombubblesTweaks",
       "type": "process",
       "command": "bin/busybox.exe",
       "args": [
         "bash",
-        "scripts/build.sh"
+        "scripts/build.sh",
+        "DoombubblesTweaks"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {
+      "label": "Build WoWDeathKnight",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": [
+        "bash",
+        "scripts/build.sh",
+        "WoWDeathKnight"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {
+      "label": "Build WoWSubclasses",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": [
+        "bash",
+        "scripts/build.sh",
+        "WoWSubclasses"
       ],
       "group": "build",
       "presentation": {
@@ -77,7 +110,15 @@
         "-v",
         "DoombubblesTweaks",
         "-v",
-        "build/DoombubblesTweaks/Localization"
+        "build/DoombubblesTweaks/Localization",
+        "-v",
+        "WoWDeathKnight",
+        "-v",
+        "build/WoWDeathKnight/Localization",
+        "-v",
+        "WoWSubclasses",
+        "-v",
+        "build/WoWSubclasses/Localization"
       ],
       "group": "build",
       "presentation": {

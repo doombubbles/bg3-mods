@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="TextureAtlasInfo">
+    <node id="root">
+      <children>
+        <node id="TextureAtlasIconSize">
+          <attribute id="Height" type="int64" value="{{$.Icons.IconSize}}"/>
+          <attribute id="Width" type="int64" value="{{$.Icons.IconSize}}"/>
+        </node>
+        <node id="TextureAtlasPath">
+          <attribute id="Path" type="LSString" value="Assets/Textures/Icons/Icons_WOWSC.DDS"/>
+          <attribute id="UUID" type="FixedString" value="822ff992-bc1f-4ee0-b561-b15f84722ef2"/>
+        </node>
+        <node id="TextureAtlasTextureSize">
+          <attribute id="Height" type="int64" value="{{$.Icons.TotalSize}}"/>
+          <attribute id="Width" type="int64" value="{{$.Icons.TotalSize}}"/>
+        </node>
+      </children>
+    </node>
+  </region>
+  <region id="IconUVList">
+    <node id="root">
+      <children>
+        {{- $row := div $.Icons.TotalSize $.Icons.IconSize }}
+        {{- $factor := divf $.Icons.IconSize $.Icons.TotalSize }}
+        {{- range $i, $icon := $.Icons.Icons }}
+        <node id="IconUV">
+          <attribute id="MapKey" type="FixedString" value="{{$icon}}"/>
+          <attribute id="U1" type="float" value="{{mulf $factor (mod $i $row)}}"/>
+          <attribute id="U2" type="float" value="{{mulf $factor (add (mod $i $row) 1)}}"/>
+          <attribute id="V1" type="float" value="{{mulf $factor (div $i $row)}}"/>
+          <attribute id="V2" type="float" value="{{mulf $factor (add (div $i $row) 1)}}"/>
+        </node>
+        {{- end }}
+      </children>
+    </node>
+  </region>
+</save>

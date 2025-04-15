@@ -40,56 +40,6 @@
 	<content contentuid="h058b45bbgd61bg4aa0g83dbga3b13fe0b51c" version="1">Sublimation</content>
 	<content contentuid="h53508b7agdb99g44e3g9a30g401de3b20614" version="1">Remote Leverage</content>
 
-
-	<content contentuid="h4598485cg8579g426eg818agcc8a893677e6" version="1">Fire</content>
-	<content contentuid="hed3a9cd0gf34bg4a8dg935agb32ee5ab0168" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in mastering primordial elements like Fire.</content>
-
-	<content contentuid="h0c71f663gd232g4e0bg9380g460187775309" version="1">Hot Streak</content>
-	<content contentuid="h12baa293g17c2g4ea6gb45fg4fbe2978590d" version="1">When you land a Critical Hit against a creature using a Fire spell, the next Fire spell you cast costs a bonus action instead of an action.</content>
-	<content contentuid="hc35c7d24g558fg440dg8d77gbae67e9419dc" version="1">Heating Up</content>
-	<content contentuid="h84f697c6g24d1g4874ga510g009c4ac6eb0c" version="1">Activate &lt;LSTag Type="Status" Tooltip="HOT_STREAK"&gt;Hot Streak!&lt;/LSTag&gt; to make the next Fire spell you cast cost a bonus action instead of an action.</content>
-	<content contentuid="h9b12c82ega624g4af8ga5a2g19314ef6239d" version="1">Hot Streak!</content>
-	<content contentuid="hfce95c9dg1493g4a5dgb4f3ge7efd43585b2" version="1">The next Fire spell you cast costs a bonus action instead of an action.</content>
-	<content contentuid="he82dbec1g6274g4ccdg98b2g8e2db368ef0a" version="1">Critical Mass</content>
-	<content contentuid="h48b215bagb7e3g4fd0gab3eg18c6b4889403" version="1">The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with Fire spells is reduced by 1. This effect can stack.</content>
-	<content contentuid="h26e7d6f8g57b6g4867g85d4g170c29722b59" version="1">Ignite</content>
-	<content contentuid="h0c1220a6gfc31g483bga7aeg0df6567e0522" version="1">Dealing Fire damage with a spell applies [1] turns of &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; to the target.</content>
-	<content contentuid="h14e0e770g2558g48e7ga72fg82428f99e44d" version="1">Firestarter</content>
-	<content contentuid="ha2328454gab46g4300gb88dg9d52fa8ad601" version="1">Attacking a creature at full HP with a Fire Spell is a guaranteed Critical Hit.</content>
-	<content contentuid="h904d4cc7g991eg4565g946ag1eb32a0f4016" version="1">Cauterize</content>
-	<content contentuid="hfd0426f6g9efcg49cbgb8c4ge3e5bb978a9e" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, if you drop to [1] &lt;LSTag Tooltip="HitPoints"&gt;hit point&lt;/LSTag&gt;, you regain [2] instead of being &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; and gain &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h86117c92g20b5g456fg93b0gf112d2326b0a" version="1">Frost</content>
-	<content contentuid="hd76d5d39g9c18g4c34g8c4ag3ee5b9237ced" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in mastering the force of cold.</content>
-
-	<content contentuid="he8ae9e01g8426g4fccga9abg4f74d5d0142e" version="1">Shatter</content>
-	<content contentuid="hf458858dg5a2bg4c9egaae1g13e8ccf5ab3d" version="1">When &lt;LSTag Tooltip="AttackRoll"&gt;attacking&lt;/LSTag&gt; a creatue that is &lt;LSTag Type="Status" Tooltip="FROZEN"&gt;Frozen&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; with a Cold spell, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by [1]. This effect can stack.</content>
-	<content contentuid="h8325aaf4g3c70g4617gb1fbg7de290412be8" version="1">Splitting Ice</content>
-	<content contentuid="h79cb1734gb7f4g4f81gb0abg9ff98fd84a90" version="1">Your Cold spells that would normally target only 1 creature can target an additional creature.</content>
-	<content contentuid="h5c0ffd74gcfa9g401ega9e6g3669ee967fe8" version="1">Fingers of Frost</content>
-	<content contentuid="h3a93972ag6704g4bd4gb1ddgf25f3392d00e" version="1">Dealing Cold damage to a creature with spell grants you [1] turns of &lt;LSTag Type="Status" Tooltip="ICICLES"&gt;Icicles&lt;/LSTag&gt;. You can expend [2] turns of &lt;LSTag Type="Status" Tooltip="ICICLES"&gt;Icicles&lt;/LSTag&gt; to make your next Cold spell benefit from &lt;LSTag Type="Passive" Tooltip="Shatter"&gt;Shatter&lt;/LSTag&gt; regardless of conditions.</content>
-	<content contentuid="hd2623b05g6e88g42bbgb2fcg6733571c3427" version="1">Icicles</content>
-	<content contentuid="hded6caeag34bfg4034g9fb8gfba2b07989eb" version="1">Accumulating Icicles from dealing Cold damage with Spells.</content>
-	<content contentuid="h59dc1c3bgcb7dg4f08g9234gdcd820ad2e16" version="1">Expend [1] turns of &lt;LSTag Type="Status" Tooltip="ICICLES"&gt;Icicles&lt;/LSTag&gt; to make your next Cold spell benefit from &lt;LSTag Type="Passive" Tooltip="Shatter"&gt;Shatter&lt;/LSTag&gt; regardless of conditions.</content>
-	<content contentuid="h8943e5acg663ag4c6bg9409g71822eba00f7" version="1">Your next Cold spell benefit from &lt;LSTag Type="Passive" Tooltip="Shatter"&gt;Shatter&lt;/LSTag&gt; regardless of conditions.</content>
-	<content contentuid="h16a21990gca5eg4638gb5bfg468fd733f743" version="1">Ice Block</content>
-	<content contentuid="hf5bbbc92gc99cg4b99gb7e4g45402de6d2c1" version="1">Encase yourself in ice, becoming &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage but unable to move or take actions until the start of your next turn.</content>
-	<content contentuid="h93b5b0e9g6447g424fgb4dfg7b0e25ed50ae" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage but unable to move or take actions until the start of your next turn.</content>
-
-	<content contentuid="h44517b41geaa5g462fgba7cg6ad65b29adfe" version="1">Arcane</content>
-	<content contentuid="h85acb321g0934g4e65g8e1ag910fa4927572" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in manipulating the very weave itself.</content>
-
-	<content contentuid="h096d2a11g49edg4fe2gb2e5g431740d574c5" version="1">Clearcasting</content>
-	<content contentuid="h528e8449g04a4g486dgbaecgfc6c2d683b3f" version="1">You can directly spend your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; to cast spells. The cost is equal to [1] less than the &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; level (minimum 1), or [2] less for &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt;.</content>
-	<content contentuid="h23f1149agda6eg4a8bgb2a9g6ab4f9a27562" version="1">Whenever you expend a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; in combat, you have a chance based on the spell's level to gain &lt;LSTag Type="Status" Tooltip="CLEARCASTING"&gt;Clearcasting&lt;/LSTag&gt;, allowing you to cast your next spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
-	<content contentuid="h7d14fd26g6c8eg48d8gaa9cgee7e47ab5af2" version="1">The next spell you cast doesn't cost a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
-	<content contentuid="ha3a3048cg0480g41a6gbdf8gaf945e80bbc6" version="1">Savant</content>
-	<content contentuid="h244a9a72g71c4g4c42g949cg3e3ff6c96b3f" version="1">You now regain all your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
-	<content contentuid="h84e066e5g75e7g4d64ga375ga994ea3b3606" version="1">Arcane Intellect</content>
-	<content contentuid="h5ac6cad7g0f2eg4bbfg9ea4ge18c0b6de2f4" version="1">You and other members of your party gain a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; to a maximum of 22.</content>
-	<content contentuid="hd14d6e14gb942g4822g96b4g9aaf55e01fc0" version="1">Has a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; to a maximum of 22.</content>
-
 	<content contentuid="h3f7f3e27g6112g4db5g863dg80e54b3a331f" version="1">Your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; become harder to evade entirely.&lt;br&gt;&lt;br&gt;When a creature succeeds its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or you miss your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; for one of your cantrips, it still takes half the cantrip's damage, but suffers no additional effects.</content>
-
 
 </contentList>
