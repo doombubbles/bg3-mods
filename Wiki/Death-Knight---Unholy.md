@@ -66,9 +66,6 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Dark Transformation"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="25" align="top" alt="Action_DeathKnight_DarkTransformation.png" /> Dark Transformation</a>
-  </li>
-  <li>
     <a href="Death Knight Spells#Raise Ally"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_RaiseAlly.png" height="25" align="top" alt="Action_DeathKnight_RaiseAlly.png" /> Raise Ally</a>
   </li>
   <li>
@@ -97,7 +94,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Raise Gargoyle"> <img src="https://bg3.wiki/w/images/4/4f/Animate_Dead_Ghoul_Icon.webp" height="25" align="top" /> Raise Gargoyle</a>
+    <a href="Death Knight Spells#Dark Transformation"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="25" align="top" alt="Action_DeathKnight_DarkTransformation.png" /> Dark Transformation</a>
   </li>
   <li>
     <a href="Death Knight Spells#Defile"> <img src="https://bg3.wiki/w/images/e/e0/Blight_Icon.webp" height="25" align="top" /> Defile</a>
@@ -116,6 +113,9 @@ Runes:
 ### New Rune Spells
 
 <ul>
+  <li>
+    <a href="Death Knight Spells#Raise Gargoyle"> <img src="https://bg3.wiki/w/images/4/4f/Animate_Dead_Ghoul_Icon.webp" height="25" align="top" /> Raise Gargoyle</a>
+  </li>
   <li>
     <a href="Death Knight Spells#Army of the Dead"> <img src="https://bg3.wiki/w/images/9/92/Danse_Macabre_Icon.webp" height="25" align="top" /> Army of the Dead</a>
   </li>

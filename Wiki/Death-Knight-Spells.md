@@ -178,10 +178,12 @@
 - {{ get .loca "h95b2897ag4a39g48cfgb08agcb66b6c47b16" | include "wikify" }}
 
 
+## Available Level 9
+
 <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="40" align="left" alt="Action_DeathKnight_DarkTransformation.png" />
 
 ### Dark Transformation
-- Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 3 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" />Unholy Runes
+- Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 4 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" />Unholy Runes
 - 3m range
 - {{ getf .loca "h15eda73bg9db5g4735g9c14g4afa7ce57766" | include "wikify" }}
   - [Zombie](https://bg3.wiki/wiki/Zombie) -> [Ghoul](https://bg3.wiki/wiki/Ghoul_(Animate_Dead))
@@ -283,11 +285,11 @@
 - Cast [Hold Person](https://bg3.wiki/wiki/Hold_Person) as a 2nd level "spell"
 
 
-<img src="https://bg3.wiki/w/images/9/91/Animate_Dead_Skeleton_Icon.webp" height="40" align="left" alt="" />
+<img src="https://bg3.wiki/w/images/1/16/Ray_Of_Enfeeblement_Icon.png" height="40" align="left" />
 
-### Raise Dead
-- Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" />Unholy Runes per corpse
-- Cast [Animate Dead](https://bg3.wiki/wiki/Animate_Dead) as a 2nd level "spell"
+### Enfeeble
+- Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" />Unholy Runes
+- Cast [Ray of Enfeeblement](https://bg3.wiki/wiki/Ray_of_Enfeeblement) as a 2nd level "spell"
 
 
 <img src="images/ControllerIcons/skills_png/Action_DeathKnight_RaiseAlly.png" height="40" align="left" alt="Action_DeathKnight_RaiseAlly.png" />
@@ -298,6 +300,12 @@
 
 
 ## 3 Rune
+
+<img src="https://bg3.wiki/w/images/9/91/Animate_Dead_Skeleton_Icon.webp" height="40" align="left" alt="" />
+
+### Raise Dead
+- Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" />Unholy Runes per corpse
+- Cast [Animate Dead](https://bg3.wiki/wiki/Animate_Dead) as a 2nd level "spell"
 
 
 <img src="https://bg3.wiki/w/images/8/85/Vampiric_Touch_Icon.webp" height="40" align="left" alt="" />

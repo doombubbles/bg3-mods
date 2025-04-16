@@ -25,6 +25,10 @@ Mastery:
   1: 4
   2: 8
   3: 12
+Proficiency:
+  2: 1
+  3: 5
+  4: 9
 Commands:
   Approach: ha9c9f67eg8646g4745g96c9gdeec52ba2318
   Drop: h2f2022a9gfcd3g4550gb304g0f51f0cef28c
@@ -46,7 +50,7 @@ Spells:
   "1":
     Frost:
       - Shout_ArmorOfAgathys_DK
-      - Target_ChainsOfIce
+      - Projectile_ChainsOfIce
       - Target_MindFreeze
       - Target_PathOfFrost
     Blood:
@@ -65,7 +69,7 @@ Spells:
       - Target_HoldPerson_DK
       - Target_SpiritualWeapon_DK
     Unholy:
-      - Target_AnimateDead_DK
+      - Projectile_RayOfEnfeeblement_DK
     Death:
       - Throw_DeathGrip
       - Target_SacrificialPact
@@ -80,24 +84,25 @@ Spells:
     Unholy:
       - Shout_SpiritGuardians_DK
       - Teleportation_Revivify_DK
-      - Target_DarkTransformation
+      - Target_AnimateDead_DK
   "4":
     Frost:
       - Target_IceStorm_DK
     Unholy:
       - Target_Blight_DK
-      - Target_AnimateDead_Improved_DK
     Death:
       - Target_AntiMagicZone
       - Teleportation_Revivify_DK
       - Target_HungerOfHadar_DK
       - Target_VampiricTouch_DK
+      - Target_DarkTransformation
   "5":
     Blood:
       - Target_HoldMonster_DK
     Frost:
       - Zone_ConeOfCold_DK
     Unholy:
+      - Target_AnimateDead_Improved_DK
       - Target_CursedTome_WakeTheDead_DK
   "6":
     Blood:

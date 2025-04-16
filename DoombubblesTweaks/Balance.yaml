@@ -4,7 +4,7 @@ ClothesAlwaysBuff: true
 UniversalClothGivesBoth: true
 RepellingWallOfFire: false
 WildshapeDoubleDip: true
-PotenterCantrip: true
+PotenterCantrip: false
 PotentSacredRing: true
 
 # Base Game nerfs

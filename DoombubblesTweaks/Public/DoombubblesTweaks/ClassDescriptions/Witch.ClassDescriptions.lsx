@@ -16,7 +16,8 @@
           <attribute id="MulticlassSpellcasterModifier" type="double" value="1"/>
           <attribute id="Name" type="FixedString" value="Witch"/>
           <attribute id="PrimaryAbility" type="uint8" value="6"/>
-          <attribute id="ProgressionTableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/> <!-- a7a958f1-d858-4021-9fa7-cf87e7d71377 -->
+          <!-- a7a958f1-d858-4021-9fa7-cf87e7d71377 -->
+          <attribute id="ProgressionTableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
           <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
           <attribute id="SpellCastingAbility" type="uint8" value="6"/>
           <attribute id="SpellList" type="guid" value="32879c22-4858-48ef-8f8d-22e6d395b396"/>
@@ -36,7 +37,8 @@
           <attribute id="Name" type="FixedString" value="FiendWitch"/>
           <attribute id="ParentGuid" type="guid" value="0a90ce14-7c31-4181-8204-36a39c0c2416"/>
           <attribute id="PrimaryAbility" type="uint8" value="6"/>
-          <attribute id="ProgressionTableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/> <!-- 2700b42c-3b2f-4fc7-b881-4acc4f0a3a1f -->
+          <!-- 2700b42c-3b2f-4fc7-b881-4acc4f0a3a1f -->
+          <attribute id="ProgressionTableUUID" type="guid" value="67e877e1-2679-48c1-a070-ce9da8776fa7"/>
           <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
           <attribute id="SpellCastingAbility" type="uint8" value="6"/>
           <attribute id="SpellList" type="guid" value="69d140ce-e988-4007-b069-30fe2e5f0d2f"/>
@@ -56,7 +58,8 @@
           <attribute id="Name" type="FixedString" value="GreatOldOneWitch"/>
           <attribute id="ParentGuid" type="guid" value="0a90ce14-7c31-4181-8204-36a39c0c2416"/>
           <attribute id="PrimaryAbility" type="uint8" value="6"/>
-          <attribute id="ProgressionTableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/> <!-- 216e779e-3452-466c-933d-fb5723b90802 -->
+          <!-- 216e779e-3452-466c-933d-fb5723b90802 -->
+          <attribute id="ProgressionTableUUID" type="guid" value="a9910eb4-57d6-45b5-a50e-7a9f547df34c"/>
           <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
           <attribute id="SpellCastingAbility" type="uint8" value="6"/>
           <attribute id="SpellList" type="guid" value="9bcde680-356e-445e-abdb-c21f3400648b"/>
@@ -77,7 +80,8 @@
           <attribute id="Name" type="FixedString" value="ArchfeyWitch"/>
           <attribute id="ParentGuid" type="guid" value="0a90ce14-7c31-4181-8204-36a39c0c2416"/>
           <attribute id="PrimaryAbility" type="uint8" value="6"/>
-          <attribute id="ProgressionTableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/> <!-- 7e1e0190-bd32-4ca6-9623-8adebeba74d4 -->
+          <!-- 7e1e0190-bd32-4ca6-9623-8adebeba74d4 -->
+          <attribute id="ProgressionTableUUID" type="guid" value="9d5fb017-c8bb-4b75-a640-325c912c1b0f"/>
           <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
           <attribute id="SpellCastingAbility" type="uint8" value="6"/>
           <attribute id="SpellList" type="guid" value="f95ef4cc-5f75-4274-bda5-589175d2ac66"/>
@@ -85,6 +89,25 @@
           <children>
             <node id="Tags">
               <attribute id="Object" type="guid" value="86de94fa-91a2-4abb-8601-f2ad96c70659"/>
+            </node>
+          </children>
+        </node>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="h1d4478b3g7acdg450fg82d4g4854276893f2" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="hac0c681cg54a1g4a2egbeebgfa3a1adad49a" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="Name" type="FixedString" value="HexbladeWitch"/>
+          <attribute id="ParentGuid" type="guid" value="0a90ce14-7c31-4181-8204-36a39c0c2416"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="6a9cd3b7-8531-40ad-8a10-103a50f4902c"/>
+          <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="UUID" type="guid" value="92566166-4e64-486f-9d9e-edfe5b387d08"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="5e06f1e7-474f-4d46-b8e7-feac2315ebf9"/>
             </node>
           </children>
         </node>

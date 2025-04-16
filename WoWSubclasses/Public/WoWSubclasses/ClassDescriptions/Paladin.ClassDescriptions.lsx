@@ -26,24 +26,6 @@
           </children>
         </node>
 
-
-        <node id="ClassDescription">
-          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-          <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Vengance"/>
-          <attribute id="Description" type="TranslatedString" handle="h23db7ea6g6882g428bg9af2g50b797dba11b" version="1"/>
-          <attribute id="DisplayName" type="TranslatedString" handle="haad2a2feg3184g4599g9182gf8d08b00331f" version="1"/>
-          <attribute id="LearningStrategy" type="uint8" value="1"/>
-          <attribute id="MustPrepareSpells" type="bool" value="true"/>
-          <attribute id="Name" type="FixedString" value="Oathbreaker"/>
-          <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
-          <attribute id="PrimaryAbility" type="uint8" value="1"/>
-          <attribute id="ProgressionTableUUID" type="guid" value="f0d6f933-4532-463f-b378-a1e8b0164325"/>
-          <attribute id="SoundClassType" type="FixedString" value="Paladin"/>
-          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
-          <attribute id="SpellList" type="guid" value="ba84af1b-cd77-458f-b99f-0062be22745c"/>
-          <attribute id="UUID" type="guid" value="e11dbbc9-cd7f-4239-809d-a693084a0072"/>
-        </node>
-
       </children>
     </node>
   </region>

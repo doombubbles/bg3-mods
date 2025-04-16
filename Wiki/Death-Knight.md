@@ -428,7 +428,7 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#Raise-Dead"> <img src="https://bg3.wiki/w/images/9/91/Animate_Dead_Skeleton_Icon.webp" height="25" align="top" /> Raise Dead</a>
+                <a href="Death Knight Spells#Enfeeble"> <img src="https://bg3.wiki/w/images/1/16/Ray_Of_Enfeeblement_Icon.png" height="25" align="top" /> Enfeeble</a>
               </li>
             </ul>
           </li>
@@ -573,13 +573,13 @@ Extra Attack
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#Dark-Transformation"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="25" align="top" alt="Action_DeathKnight_DarkTransformation.png" /> Dark Transformation</a>
-              </li>
-              <li>
                 <a href="Death Knight Spells#Raise-Ally"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_RaiseAlly.png" height="25" align="top" alt="Action_DeathKnight_RaiseAlly.png" /> Raise Ally</a>
               </li>
               <li>
                 <a href="Death Knight Spells#Unholy-Aura"> <img src="images/ControllerIcons/skills_png/Spell_Conjuration_SpiritGuardians_Necrotic.png" height="25" align="top" alt="Spell_Conjuration_SpiritGuardians_Necrotic.png" /> Unholy Aura</a>
+              </li>
+              <li>
+                <a href="Death Knight Spells#Raise-Dead"> <img src="https://bg3.wiki/w/images/9/91/Animate_Dead_Skeleton_Icon.webp" height="25" align="top" /> Raise Dead</a>
               </li>
             </ul>
           </li>
@@ -688,6 +688,7 @@ Extra Attack
         (none)
       </td>
       <td>
+        New Rune Spells:
         <ul>
           <li>
             <a href="Death Knight Spells#Avalanche"> <img src="https://bg3.wiki/w/images/9/9b/Ice_Storm_Icon.webp" height="25" align="top" /> Avalanche</a>
@@ -695,7 +696,11 @@ Extra Attack
         </ul>
       </td>
       <td>
+        New Rune Spells:
         <ul>
+          <li>
+            <a href="Death Knight Spells#Dark-Transformation"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="25" align="top" alt="Action_DeathKnight_DarkTransformation.png" /> Dark Transformation</a>
+          </li>
           <li>
             <a href="Death Knight Spells#Raise-Gargoyle"> <img src="https://bg3.wiki/w/images/4/4f/Animate_Dead_Ghoul_Icon.webp" height="25" align="top" /> Raise Gargoyle</a>
           </li>

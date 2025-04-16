@@ -6,7 +6,7 @@
 			<children>
 				<node id="entries">
 					<children>
-						{{- range $class := list "ArchfeyWitch" "FiendWitch" "GreatOldOneWitch" "Witch" }}
+						{{- range $class := list "ArchfeyWitch" "FiendWitch" "GreatOldOneWitch" "HexbladeWitch" "Witch" }}
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/{{$class}}.png" />
 							<children>

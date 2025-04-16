@@ -88,7 +88,7 @@
   <content contentuid="hde95c872g12e0g43edg99eegbe29bd8539e0" version="1">You gain a Frost Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hc8f4f011ge8a7g4a6agb29age1bf06ba63a8" version="1">Frozen Heart</content>
-  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">The Cold damage dealt by your Rune spells is increased by [1].</content>
+  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">Your spells and Rune abilities deal additional Cold damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
   <content contentuid="hdba145d9gd3b5g4223g9bb2g2a5e928b566c" version="1">Frost Strike</content>
   <content contentuid="h448adaceg9464g44a0g96b4ga01a6f757b7b" version="1">Chill your weapon with icy power and strike an enemy for a bonus [1] and slow their movement speed by [2] for 2 turns.</content>
@@ -136,7 +136,7 @@
   <content contentuid="ha89797d1g9f45g4d9fgb452g3451a23a3cba" version="1">You gain a Blood Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h195a155ag01c8g4dc6ga0ffg2697755356eb" version="1">Blood Shield</content>
-  <content contentuid="hef8d5973g16deg428dg8c83g811464cfe765" version="1">While you have &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, all Bludgeoning, Piercing and Slashing damage you take is reduced by [1].</content>
+  <content contentuid="hef8d5973g16deg428dg8c83g811464cfe765" version="1">While you have &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, all Bludgeoning, Piercing and Slashing damage you take is reduced by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
   <content contentuid="h7c0e1687g2c9cg4837gaac3g9c68bffb4b49" version="1">Death Strike</content>
   <content contentuid="hdf823ca8g47feg4126g96d4gb5c0d30fc627" version="1">A deadly strike that deals an extra [1] and heals you for [2]. If you already have full &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, gain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; instead.</content>
@@ -176,8 +176,8 @@
   <content contentuid="h4d9ca6dbg96a7g40ebg951agb6b17db81350" version="1">You gain an Unholy Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h7fa255afgd600g40d6g94acge027cefe6a0d" version="1">Dreadblade</content>
-  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">The attacks of your summoned Undead deal an extra [1].</content>
-  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">Attacks deal an extra [1].</content>
+  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">Your summons deal additional Necrotic damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+  <content contentuid="heea88cb9g2c88g4e3egba25gf79b286b150c" version="1">Deals an extra [1].</content>
 
   <content contentuid="h1f84fc36g03e1g4264g812egfdb4f7c70d31" version="1">Death Coil</content>
   <content contentuid="h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" version="1">Release a blast of unholy energy, causing [1] to an enemy target or restoring [2] to an allied Undead target.</content>
@@ -277,6 +277,7 @@
   {{- end}}
   <content contentuid="h619a0ec0g813cg40efga1bfg6b480b2af7be" version="1">Works on Undead.</content>
 
+  <content contentuid="h98dadabcg75cbg4e77gbf44g8927e383ba48" version="1">Enfeeble</content>
   <content contentuid="h4518ce8ag4f35g4517gaabbgc69fcd3b3b76" version="1">Subduing Grasp: Person</content>
   <content contentuid="h5dca01e1g0854g4d68g8c01gc73ddbd658be" version="1">Raise Ally</content>
   <content contentuid="h5c7fd873gfb58g4d1egb678g029a332977e2" version="1">Raise Dead</content>
@@ -326,7 +327,7 @@
 
   <content contentuid="h3a062263g6dacg40f2ga296gefb06fb924a2" version="1">Scar the Spirit</content>
   <content contentuid="h8f58bf8dgc04ag422cgaec7g445f4999db34" version="1">You take [1] when attacking with this weapon, unless you are Undead.</content>
-  
+
   <content contentuid="hfbfae035g0d7eg4f37g817eg7d674fb7a181" version="1">All Must Serve</content>
   <content contentuid="h6f377be4gda65g4463g9087g494a547e8144" version="1">Raise a soul that was consumed by Frostmourne as an Undead servant. Summons either a Zombie, Ghoul, or Mummy depending on the level of the soul.</content>
 
