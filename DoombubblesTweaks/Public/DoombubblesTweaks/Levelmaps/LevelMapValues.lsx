@@ -5,12 +5,8 @@
     <node id="root">
       <children>
         <node id="LevelMapSeries">
-          <attribute id="Level1" type="LSString" value="1d4"/>
-          <attribute id="Level11" type="LSString" value="6d4"/>
-          <attribute id="Level3" type="LSString" value="2d4"/>
-          <attribute id="Level5" type="LSString" value="3d4"/>
-          <attribute id="Level7" type="LSString" value="4d4"/>
-          <attribute id="Level9" type="LSString" value="5d4"/>
+          <attribute id="Level1" type="LSString" value="1d6"/>
+          <attribute id="Level11" type="LSString" value="3d6"/>
           <attribute id="Name" type="FixedString" value="SkullduggeryAttack"/>
           <attribute id="PreferredClassUUID" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
           <attribute id="UUID" type="guid" value="c10def17-c55b-4ee7-935c-cd89b13aeceb"/>

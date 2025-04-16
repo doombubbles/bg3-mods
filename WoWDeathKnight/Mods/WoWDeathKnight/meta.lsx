@@ -112,10 +112,10 @@
           <attribute id="PublishHandle" type="uint64" value="4871497" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
           <attribute id="UUID" type="FixedString" value="364eba6a-cb34-e376-f43f-38748740136e" />
-          <attribute id="Version64" type="int64" value="901282907639776012" />
+          <attribute id="Version64" type="int64" value="{{ packVersionS $.Version.Version }}" />
           <children>
             <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="901282907639776012" />
+              <attribute id="Version64" type="int64" value="{{ packVersionS $.Version.Version }}" />
             </node>
             <node id="Scripts">
               <children>

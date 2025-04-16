@@ -1,11 +1,10 @@
 # DoombubblesTweaks balance
 QuickenedCantripsPerCombat: true
-ClothesAlwaysBuff: true
+ClothesAlwaysBuff: false
 UniversalClothGivesBoth: true
-RepellingWallOfFire: false
-WildshapeDoubleDip: true
+WildshapeDoubleDip: false
 PotenterCantrip: false
-PotentSacredRing: true
+PotentSacredRing: false
 
 # Base Game nerfs
 NerfTavernBrawler: false

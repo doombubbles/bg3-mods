@@ -1,6 +1,5 @@
 set -e
 
-VERSION="$(date +'%y.%-m.%-d').$(( $(date "+10#%H * 60 + 10#%M") ))"
 MODNAME=${1:-$(basename "$(pwd)")}
 BUILD="./build/$MODNAME"
 RESULT="./output/$MODNAME.pak"
@@ -12,11 +11,9 @@ rm -rf "$BUILD/Mods/$MODNAME"
 bin/ProcessTemplates.exe -s "$MODNAME" -d "$BUILD" -r build/values.yaml
 
 # Build Mod
-bg3-modders-multitool.exe -s "$BUILD" -d "$RESULT" -c "1" -v "$VERSION"
+bg3-modders-multitool.exe -s "$BUILD" -d "$RESULT" -c "1"
 
-cp "$BUILD/Mods/$MODNAME/meta.lsx" "./$MODNAME/Mods/$MODNAME/meta.lsx"
-
-cp "$RESULT" "$DESTINATION" && echo "Build Complete for $MODNAME $VERSION $DESTINATION" || echo "Build Complete for $MODNAME $VERSION $RESULT"
+cp "$RESULT" "$DESTINATION" && echo "Build Complete for $MODNAME $DESTINATION" || echo "Build Complete for $MODNAME $RESULT"
 
 # Unpack to Output
 rm -rf ./output/$MODNAME

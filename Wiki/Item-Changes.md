@@ -29,13 +29,11 @@
 
 **Unseen Menace** - Now has Finesse property
 
-**Stalker Glovess** - Additional 1d4 Force damage now applies per Sneak Attack die
+**Stalker Gloves** - Damage is now 1d6, or 3d6 if you have Reliable Talent
 
 **Circlet of Psionic Revenge** - Now also unlocks the Psychic Rend cantrip and grants the Githyanki War Magic effect to Githyanki wearers. Rarity increased to Very Rare.
 
 **Daredevil Gloves** - Now give +2 to Melee Spell Attack Rolls (still +1 to Ranged) and doesn't specifically rely on the Threatened Condition
-
-**Gloves of Battlemage's Power** - This item is nonfunctional in the base game, so its effect is now: Whenever you deal damage to an enemy within 1.5m / 5ft, gain Arcane Acuity for 2 turns.
 
 **Ring of Elemental Infusion** - Different Elemental Infusions on your weapon can now stack together
 
@@ -45,7 +43,7 @@
 
 **Gauntlet of the Tyrant** - Now adds 1d8 Force to unarmed attacks instead of 1d4
 
-**Obsidian Laced Robe** - Now has the additional affed Obsidian Armour: You have +1 to Armour Class and Saving Throws as long as you've had Heat within the past turn
+**Obsidian Laced Robe** - Now has the additional effect Obsidian Armour: You have +1 to Armour Class and Saving Throws as long as you've had Heat within the past turn
 
 **Thermodynamaxe** - Is now permanently dipped in Fire, and passive changed slightly to "Whenever you deal damage with a melee weapon attack, you gain 2 turns of Heat."
 

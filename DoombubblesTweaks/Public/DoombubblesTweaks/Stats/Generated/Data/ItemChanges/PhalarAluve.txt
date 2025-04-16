@@ -9,7 +9,7 @@ data "ContainerSpells" "Shout_MAG_Harpers_SingingSword_Sing;Shout_MAG_Harpers_Si
 new entry "MAG_SWORD_IN_STONE_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
-using "MAG_HARPERS_SINGING_SWORD_SHRIEKING_AURA"
+using "MAG_SWORD_IN_STONE_TECHNICAL"
 data "OnRemoveFunctors" "RemoveStatus(MAG_HARPERS_SINGING_SWORD_SHRIEKING_AURA);RemoveStatus(MAG_HARPERS_SINGING_SWORD_SINGING_AURA);RemoveStatus(MAG_HARPERS_SINGING_SWORD_SCREECHING);RemoveStatus(MAG_HARPERS_SINGING_SWORD_SHOUTING)"
 
 new entry "Shout_MAG_Harpers_SingingSword_Screech"

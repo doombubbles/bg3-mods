@@ -7,6 +7,6 @@
 
   <content contentuid="hb6374ae0gb096g4db1g876ag7ef2b68957d1" version="1">In addition, when you deal damage, the lowest result you can roll on the die is [1].</content>
 
-  <content contentuid="h58254325ga049g45f4g910cg2f090494ec7b" version="1">Your &lt;LSTag Type="Spell" Tooltip="Target_Sneak_Attack"&gt;Sneak Attack&lt;/LSTag&gt; deals an additional [1] per Sneak Attack die.</content>
+  <content contentuid="h58254325ga049g45f4g910cg2f090494ec7b" version="1">Your &lt;LSTag Type="Spell" Tooltip="Target_Sneak_Attack"&gt;Sneak Attack&lt;/LSTag&gt; deals an additional [1]. If you have &lt;LSTag Type="Passive" Tooltip="ReliableTalent"&gt;Reliable Talent&lt;/LSTag&gt;, this becomes [2].</content>
 
 </contentList>

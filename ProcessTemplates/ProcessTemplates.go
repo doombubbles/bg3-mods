@@ -7,9 +7,11 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"math/big"
 	"os"
 	"path/filepath"
 	"regexp"
+	"strconv"
 	"strings"
 	"text/template"
 
@@ -77,6 +79,16 @@ func main() {
 		"ireplace": func(old string, new string, src string) string {
 			searchRegex := regexp.MustCompile("(?i)" + old)
 			return searchRegex.ReplaceAllString(src, new)
+		},
+		"packVersion": func(major, minor, revision, build uint32) string {
+			return packVersion(major, minor, revision, build).String()
+		},
+		"packVersionS": func(versionStr string) string {
+			result, err := packVersionS(versionStr)
+			if err != nil {
+				return fmt.Sprintf("error: %v", err)
+			}
+			return result.String()
 		},
 	})
 
@@ -262,6 +274,63 @@ func getf(obj Values, key string, args ...interface{}) string {
 		format = val
 	}
 	return fmt.Sprintf(format, args...)
+}
+
+func packVersion(major, minor, revision, build uint32) *big.Int {
+	result := big.NewInt(0)
+
+	// (int64(major) & 0x7f) << 55
+	majorPart := big.NewInt(int64(major & 0x7f))
+	majorPart.Lsh(majorPart, 55)
+
+	// (int64(minor) & 0xff) << 47
+	minorPart := big.NewInt(int64(minor & 0xff))
+	minorPart.Lsh(minorPart, 47)
+
+	// (int64(revision) & 0xffff) << 31
+	revisionPart := big.NewInt(int64(revision & 0xffff))
+	revisionPart.Lsh(revisionPart, 31)
+
+	// (int64(build) & 0x7fffffff)
+	buildPart := big.NewInt(int64(build & 0x7fffffff))
+
+	// result = majorPart | minorPart | revisionPart | buildPart
+	result.Or(majorPart, minorPart)
+	result.Or(result, revisionPart)
+	result.Or(result, buildPart)
+
+	return result
+}
+
+func packVersionS(versionStr string) (*big.Int, error) {
+	parts := strings.Split(versionStr, ".")
+	if len(parts) != 4 {
+		return nil, fmt.Errorf("expected 4 components in version string, got %d", len(parts))
+	}
+
+	toUint32 := func(s string) (uint32, error) {
+		val, err := strconv.ParseUint(s, 10, 32)
+		return uint32(val), err
+	}
+
+	major, err := toUint32(parts[0])
+	if err != nil {
+		return nil, fmt.Errorf("invalid major version: %w", err)
+	}
+	minor, err := toUint32(parts[1])
+	if err != nil {
+		return nil, fmt.Errorf("invalid minor version: %w", err)
+	}
+	revision, err := toUint32(parts[2])
+	if err != nil {
+		return nil, fmt.Errorf("invalid revision version: %w", err)
+	}
+	build, err := toUint32(parts[3])
+	if err != nil {
+		return nil, fmt.Errorf("invalid build version: %w", err)
+	}
+
+	return packVersion(major, minor, revision, build), nil
 }
 
 func processFile(path string, info os.FileInfo, err error, values Values, tmpl *template.Template) error {

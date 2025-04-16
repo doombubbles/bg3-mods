@@ -15,8 +15,14 @@ jobs:
       - name: Clone Repo
         uses: actions/checkout@master
 
-      - name: Process Mod Templates
-        run: ./bin/ProcessTemplates.exe
+      - name: Process DoombubblesTweaks
+        run: ./bin/ProcessTemplates.exe -s DoombubblesTweaks -d build/DoombubblesTweaks
+
+      - name: Process WoWSubclasses
+        run: ./bin/ProcessTemplates.exe -s WoWSubclasses -d build/WoWSubclasses
+
+      - name: Process WoWDeathKnight
+        run: ./bin/ProcessTemplates.exe -s WoWDeathKnight -d build/WoWDeathKnight
 
       - name: Process Wiki Templates
         run: ./bin/ProcessTemplates.exe -s Wiki -d build/Wiki -v DoombubblesTweaks -v build/DoombubblesTweaks/Localization -v WoWDeathKnight -v build/WoWDeathKnight/Localization -v WoWSubclasses -v build/WoWSubclasses/Localization
