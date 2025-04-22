@@ -56,4 +56,13 @@
 	<content contentuid="h1661fbfcgc84bg4a50g926fgc691443273e0" version="1">Dragon-like scales cover parts of your skin. When you aren't wearing armour, your add your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 	<content contentuid="h3de9cbfbg99a9g413cgbc2bg91b52ff3b536" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to the damage type associated with your draconic ancestry.</content>
 
+	<content contentuid="he4dae88ag5107g448bgbb11g344c4e3ab6f0" version="1">They Were The Footprints of a Gigantic Hound</content>
+	<content contentuid="h4d49dfc0ged2fg4357gb7ebg5ea87e0a2f27" version="1">...of Ill Omen</content>
+
+	<content contentuid="h1c3e6087g5557g4936g8777g5f997baba3f8" version="1">From the Shadows</content>
+	<content contentuid="ha30f8318g635dg4949gb888g8ea62c1c7290" version="1">You deal an extra [1] with Psychic spells, or any spell cast while you're within &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;. You deal an extra [2] with Necrotic spells, or any spell cast on targets within &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h0cfe6ad8gda46g4060gaff5g407f697a2972" version="1">The Shadow Within</content>
+	<content contentuid="he8f53777g5947g4671g88ffg0481fee79849" version="1">Both damage bonuses of &lt;LSTag Type="Passive" Tooltip="FromTheShadows"&gt;From The Shadows&lt;/LSTag&gt; are always applied to your Psychic and Necrotic spells.</content>
+
 </contentList>

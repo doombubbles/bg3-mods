@@ -18,6 +18,16 @@ data "ExtraDescription" "hef70caa4g3060g48bbga1d0gd50c4c0569fa"
 data "ExtraDescription" "hd86b0644ged20g4a2bgbfb6g123c2fbb6757"
 {{- end }}
 
+new entry "Target_MAG_BoomingBlade_Staff"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_BoomingBlade_ClassSpell"
+{{- if $.Balance.QuickenedCantripsPerCombat }}
+data "ExtraDescription" "hef70caa4g3060g48bbga1d0gd50c4c0569fa"
+{{- else }}
+data "ExtraDescription" "hd86b0644ged20g4a2bgbfb6g123c2fbb6757"
+{{- end }}
+
 {{ $CANTRIP := "" }}
 {{ range $cantrip, $values := $.QuickenedCantrips }}
 {{- $CANTRIP = $cantrip | snakecase | upper }}

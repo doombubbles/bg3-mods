@@ -8,12 +8,13 @@
         <!-- Rogue Extra Attack -->
 
         <node id="Progression">
-          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Level" type="uint8" value="6"/>
           <attribute id="Name" type="LSString" value="Rogue"/>
-          <attribute id="PassivesAdded" type="LSString" value="UncannyDodge;ExtraAttack"/>
+          <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2,true)"/>
           <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
-          <attribute id="UUID" type="guid" value="19857e46-f5dc-4a9f-847e-5f714ceef7b1"/>
+          <attribute id="UUID" type="guid" value="7e1ce634-c599-427a-b992-d4208ce99e6d"/>
         </node>
 
         <!-- Swap Magical Ambush and Mage Hand Legerdemanin  -->
@@ -36,6 +37,19 @@
           <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,ArcaneTricksterAny)"/>
           <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
           <attribute id="UUID" type="guid" value="530341bc-d996-49ee-a63d-e1007fccad90"/>
+        </node>
+
+        <!-- Swashbuckler Scimitars -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Proficiency(Scimitars)"/>
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Swashbuckler"/>
+          <attribute id="PassivesAdded" type="LSString" value="FancyFootwork;RakishAudacity;SneakAttackSwitch"/>
+          <attribute id="PassivesRemoved" type="LSString" value="SneakAttack_Unlock"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="0a0f8dbb-ca06-4753-ac64-7c6876deeeae"/>
+          <attribute id="UUID" type="guid" value="8a40ab89-549d-49c2-8fb5-7ba8215eeeca"/>
         </node>
 
       </children>

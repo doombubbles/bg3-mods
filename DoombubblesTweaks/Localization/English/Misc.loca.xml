@@ -29,4 +29,7 @@
 
 	<content contentuid="h2bc6513cg23c6g4047g8ce1gfca3182e6fd7" version="1">Can't wield a weapon in off hand.</content>
 	<content contentuid="heb20b921g993ag45f9g8beag2ed9ea0fedab" version="1">Must have a weapon in off hand.</content>
+
+	<content contentuid="h1fef40c3g9453g4e2bg8b7fgeaeb6380c0d5" version="2">Destructive Wave: Thunder</content>
+	<content contentuid="hae69f2a1g5957g4c82g9493gdd05955827f3" version="7">Emit a shockwave of pure thunder that damages nearby creatures and possibly knocks them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 </contentList>

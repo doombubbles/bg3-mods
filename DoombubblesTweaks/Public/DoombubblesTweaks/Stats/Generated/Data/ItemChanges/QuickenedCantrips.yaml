@@ -65,3 +65,9 @@ RaysOfFire:
   Description: h6201d802gdb7bg4597g8009gf2e70b568b76
   Icon: Action_Monster_Cambion_FireRay
   Title: Rays of Fire
+BoomingBlade:
+  SpellType: Target
+  DisplayName: hc909cd12gaf73g4dafgb856ga7d360ac1d8b
+  Description: h50951018gb3eeg4af7gb0beg9479ca3dc067
+  Icon: Spell_Evocation_BoomingBlade
+  Title: Booming Blade

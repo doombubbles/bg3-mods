@@ -59,4 +59,6 @@
 
   <content contentuid="hda6ce8a9g9a00g46a5g9a61gcee81e2c1ceb" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light and Medium Armour and Shields.</content>
 
+  <content contentuid="hcc7d4350g378dg4656gad9cgb4b398a078f4" version="1">You may change your cantrip by selecting another one from the Wizard spell list below. This cantrip doesn't use &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; and can be cast at will.</content>
+    
 </contentList>

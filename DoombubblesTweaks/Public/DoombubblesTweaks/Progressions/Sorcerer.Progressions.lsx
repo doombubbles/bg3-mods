@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="ShadowMagic"/>
+          <attribute id="PassivesAdded" type="LSString" value="FromTheShadows"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(f4791675-9f08-433f-8ee2-e90a5ea072e9,HoundOfIllOmen,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="02d68ea9-5b8d-4f3f-a37a-96ae78d233cd"/>
+          <attribute id="UUID" type="guid" value="3be78c04-e36c-478d-95f3-4de6149c97df"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="ShadowMagic"/>
+          <attribute id="PassivesAdded" type="LSString" value="TheShadowWithin"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(e95177b1-f243-4837-868e-8e84563f518e,,,,AlwaysPrepared))"/>
+          <attribute id="TableUUID" type="guid" value="02d68ea9-5b8d-4f3f-a37a-96ae78d233cd"/>
+          <attribute id="UUID" type="guid" value="8942a99c-a3f7-43a9-afc3-c0bbb8655903"/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>

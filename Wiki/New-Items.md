@@ -84,6 +84,8 @@ A set of staves that are counterparts to the Gold Wyrmling Staff
 
 **Green Wyrmling Staff** (Poison, Poison Spray) - Sold by Auntie Ethel at the Emerald Grove
 
+**Sapphire Wyrmling Staff** (Thunder, Booming Blade) - Sold by A'jak'nir Jeera	at Crèche Y'llek
+
 **Red Wyrmling Staff** (Fire, Rays of Fire) - Sold by A'jak'nir Jeera	at Crèche Y'llek
 
 ### Great Wyrm Staves

@@ -239,7 +239,7 @@ data "Description" "h7ef16af7g41a7g4f53g8a94gfa6e9ad95af7"
 data "Icon" "PassiveFeature_HeavilyArmored"
 data "Properties" "Highlighted"
 data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
-data "BoostConditions" "HasPactWeapon()"
+data "BoostConditions" "HasPactWeapon() or HasHexbladeWeapon()"
 data "Boosts" "Proficiency(MediumArmor);Proficiency(HeavyArmor)"
 
 new entry "EnduringHex"

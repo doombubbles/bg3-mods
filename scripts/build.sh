@@ -3,7 +3,6 @@ set -e
 MODNAME=${1:-$(basename "$(pwd)")}
 BUILD="./build/$MODNAME"
 RESULT="./output/$MODNAME.pak"
-DESTINATION="$LOCALAPPDATA/Larian Studios/Baldur's Gate 3/Mods/$MODNAME.pak"
 BG3_DATA="C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3/Data"
 
 # Process Templates
@@ -12,8 +11,6 @@ bin/ProcessTemplates.exe -s "$MODNAME" -d "$BUILD" -r build/values.yaml
 
 # Build Mod
 bg3-modders-multitool.exe -s "$BUILD" -d "$RESULT" -c "1"
-
-cp "$RESULT" "$DESTINATION" && echo "Build Complete for $MODNAME $DESTINATION" || echo "Build Complete for $MODNAME $RESULT"
 
 # Unpack to Output
 rm -rf ./output/$MODNAME

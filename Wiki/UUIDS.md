@@ -31,6 +31,7 @@
 | Copper Wyrmling Staff               | `DBT_Acid_Quarterstaff`           | `e933636f-5e9f-4b56-b995-fbf53a150b8c` |
 | Green Wyrmling Staff                | `DBT_Poison_Quarterstaff`         | `f23aa019-03d4-47c9-9387-bd87f5375bfc` |
 | Red Wyrmling Staff                  | `DBT_Fire_Quarterstaff`           | `aca20f20-ebb0-4403-ac2c-94da70b41570` |
+| Sapphire Wyrmling Staff             | `DBT_Thunder_Quarterstaff`        | `da8dab6b-86f7-4b80-9313-a4ab773b9c37` |
 | Great Wyrm Scale                    | `DBT_Dragon_Material`             | `b5217ff7-6ec4-42e8-ad7d-0ba5d23d2359` |
 | Gold Great Wyrm Staff               | `DBT_Chromatic_Fire_staff`        | `ffca3335-73fa-4a44-9035-bff033f31c1b` |
 | Silver Great Wyrm Staff             | `DBT_Chromatic_Cold_staff`        | `e019e7ef-a209-4df3-ad83-b1b6f55ffbda` |
@@ -41,6 +42,7 @@
 | Amethyst Great Wyrm Staff           | `DBT_Chromatic_Psychic_staff`     | `50c440d5-20be-4b60-94a3-e44e507edb3d` |
 | Copper Great Wyrm Staff             | `DBT_Chromatic_Acid_staff`        | `7ac10001-2070-485e-a4bf-ee13656aa85c` |
 | Green Great Wyrm Staff              | `DBT_Chromatic_Poison_staff`      | `d5c7e3db-ff0a-49aa-8965-0e2f2804c1f9` |
+| Sapphire Great Wyrm Staff           | `DBT_Chromatic_Thunder_staff`     | `e46a29aa-4299-4e2c-9030-f2c14cd3d3fa` |
 | Gloves of Finesse                   | `DBT_VersatileSneakAttack_Gloves` | `cb873bb4-24d6-40b3-9c1e-eb1c24a6f030` |
 | Gloves of Ultimate Skullduggery     | `DBT_Skullduggery_Gloves`         | `59c3172b-dd49-486c-a664-a71291a0face` |
 | Secrets to Skullduggery             | `DBT_Skullduggery_Material`       | `b78f6fe6-8aa9-4b98-a46e-6185f54a2de0` |

@@ -8,8 +8,7 @@ CanMerge 1
 new subtable "-1"
 object category "I_DBT_Radiant_Quarterstaff",1,0,0,0,0,0,0,0
 
-{{/* TODO doesn't seem to work? */}}
-new treasuretable "T_ST_DEN_Ethel_Alchemy" {{/* Auntie Ethel, Emerald Grove */}}
+new treasuretable "DEN_Ethel" {{/* Auntie Ethel, Emerald Grove */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Poison_Quarterstaff",1,0,0,0,0,0,0,0
@@ -64,6 +63,8 @@ new subtable "-1"
 object category "I_DBT_SearingSmite_Quarterstaff",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_DBT_Fire_Quarterstaff",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_DBT_Thunder_Quarterstaff",1,0,0,0,0,0,0,0
 
 
 new treasuretable "HAV_Thiefling_Trade"   {{/* Mattis, Last Light Inn */}}

@@ -36,7 +36,7 @@
   <content contentuid="hb34442begf6bag46fcg9486g0ddde4857173" version="1">Rune of the Stoneskin Gargoyle IV</content>
 
   <content contentuid="hd1507970g44b4g461eg8290g747d06c50baa" version="1">Runeblade</content>
-  <content contentuid="h2e8654a0g6056g4b96ga4f0g96338c13ad56" version="1">When &lt;LSTag Type="Spell" Tooltip="Shout_Runeforging"&gt;Runeforged&lt;/LSTag&gt;, this weapon grows in power, as do the applied Runes.&lt;br&gt;When a Rune is applied, this becomes Magical. At 4th Death Knight level, this gains up to a +1 Enchantment, increasing to +2 at 7th level and +3 at 10th level.&lt;br&gt;These enchantments also increase the power of applied Runes.</content>
+  <content contentuid="h2e8654a0g6056g4b96ga4f0g96338c13ad56" version="1">When &lt;LSTag Type="Spell" Tooltip="Shout_Runeforging"&gt;Runeforged&lt;/LSTag&gt;, this weapon binds to you and becomes Magical. At 4th Death Knight level, this gains up to a +1 Enchantment, increasing to +2 at 7th level and +3 at 10th level.&lt;br&gt;These enchantments also increase the power of applied Runes.</content>
 
   <content contentuid="hd1507970g44b4g461eg8290g747d06c50ba0" version="1">Runeblade +0</content>
   <content contentuid="hd1507970g44b4g461eg8290g747d06c50ba1" version="1">Runeblade +1</content>

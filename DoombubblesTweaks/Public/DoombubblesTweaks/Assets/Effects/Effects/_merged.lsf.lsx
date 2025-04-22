@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids,lsf_adjacency" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+      <node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Spells_Cast_Cleric_Shout_DestructiveWave_Thunder_TextKey_01" />
+					<attribute id="ID" type="FixedString" value="b45e4657-1948-4240-848c-4cfc3e605e56" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Spells_Cast_Cleric_Shout_DestructiveWave_Thunder_TextKey_01" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/DoombubblesTweaks/Assets/Effects/Effects_Banks/VFX_Spells_Cast_Cleric_Shout_DestructiveWave_Thunder_TextKey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241810" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="305c04c6-b37c-d841-2d96-c18d92741777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="402b6075-2365-4009-b655-005121f722af" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="768b77e0-4a9c-fdfa-569e-023d1d26b488" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6e1df8de-84a8-ace7-661e-902cb125b655" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="46e0c900-3481-d86b-9f1f-e97ac61b8a04" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c1ea5d5e-ba6d-e492-5ed3-8c8d7696ab9b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="317bf423-2205-46f1-6932-c1e980336040" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0baf3704-8a44-96b6-0dc4-1e3e1cc951f6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ce9ec693-ae2c-ebe2-cbea-3e36ae441c4b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fa83a158-7ce2-2241-2602-3186ca09d7d4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="022413d7-0e40-43f8-ba85-6aeeacb2a13a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="29c0aa1f-7de3-8dbd-be47-2aa7d4a88447" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="972b996e-282d-711a-72e5-cc2f0fc6e811" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e596320-9d50-68ab-0bb7-8e978d539450" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="99807c2b-3a92-c604-65ec-e7148ebb34c3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="25c790de-e82f-c3bc-dfd2-a20247033e46" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -24,6 +24,10 @@
 
 **Dip** - Can now dip weapons onto Karlach or characters with Fire Shield to light weapons on fire
 
+**Concentrated Blast** - No longer ends your own concentration, but has a cooldown of once per short rest
+
+**Destuctive Wave** - Added a pure Thunder variant
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat

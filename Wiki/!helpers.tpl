@@ -10,6 +10,7 @@
 | replace "Force" "<img src='https://bg3.wiki/w/images/d/d1/Force_Damage_Icon.png' height='25' align='top' alt='Force Damage' />Force"
 | replace "Fire" "<img src='https://bg3.wiki/w/images/8/84/Fire_Damage_Icon.png' height='25' align='top' alt='Fire Damage' />Fire"
 | replace "Radiant" "<img src='https://bg3.wiki/w/images/7/78/Radiant_Damage_Icon.png' height='25' align='top' alt='Radiant Damage' />Radiant"
+| replace "Psychic" "<img src='https://bg3.wiki/w/images/0/04/Psychic_Damage_Icon.png' height='25' align='top' alt='Psychic Damage' />Psychic"
 
 | replace "**Action**" "<img src='https://bg3.wiki/w/images/f/f2/Action_Icon.png' height='25' align='top' alt='ActionPoint' />Action"
 | replace "Bonus Action" "<img src='https://bg3.wiki/w/images/c/c9/Bonus_Action_Icon.png' height='25' align='top' alt='ActionPoint' />Bonus Action"

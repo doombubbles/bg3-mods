@@ -1,0 +1,8 @@
+
+new entry "Target_TAD_ConcentratedBlast"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TAD_ConcentratedBlast"
+data "Cooldown" "OncePerShortRest"
+data "ExtraDescription" ""
+data "SpellProperties" "DealDamage(3d6,Psychic,Magical);IF(IsConcentrating()):RegainHitPoints(SELF,DamageDone)"

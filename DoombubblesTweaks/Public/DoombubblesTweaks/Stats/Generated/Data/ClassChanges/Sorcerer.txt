@@ -188,3 +188,21 @@ type "PassiveData"
 using "DraconicResilience"
 data "Description" "h1661fbfcgc84bg4a50g926fgc691443273e0"
 data "Boosts" "ACOverrideFormula(10,true,Dexterity,Charisma)"
+
+
+new entry "FromTheShadows"
+type "PassiveData"
+data "DisplayName" "h1c3e6087g5557g4936g8777g5f997baba3f8"
+data "Description" "ha30f8318g635dg4949gb888g8ea62c1c7290"
+data "DescriptionParams" "DealDamage(1d6,Psychic);DealDamage(1d6,Necrotic)"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "Properties" "Highlighted"
+data "Boosts" "IF(InSurface('SurfaceDarknessCloud', context.Source) or IsDamageTypePsychic() or (HasPassive('TheShadowWithin', context.Source) and IsDamageTypeNecrotic())):DamageBonus(1d6, Psychic, true);IF(InSurface('SurfaceDarknessCloud', context.Target) or HasStatus('VOID_AURA',context.Target) or IsDamageTypeNecrotic() or (HasPassive('TheShadowWithin', context.Source) and IsDamageTypePsychic())):DamageBonus(1d6, Necrotic, true)"
+
+
+new entry "TheShadowWithin"
+type "PassiveData"
+data "DisplayName" "h0cfe6ad8gda46g4060gaff5g407f697a2972"
+data "Description" "he8f53777g5947g4671g88ffg0481fee79849"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "Properties" "Highlighted"

@@ -169,3 +169,9 @@ data "UseCosts" "BonusActionPoint:1;ChannelDivinity:1"
 data "SpellFlags" ""
 data "RootSpellID" "Shout_HarnessDivinePower_1"
 data "PowerLevel" "5"
+
+
+new entry "Reaper"
+type "PassiveData"
+using "Reaper"
+data "Boosts" "UnlockSpellVariant(IsCantrip() & IsSpellOfSchool(SpellSchool.Necromancy),ModifyNumberOfTargets(AdditiveBase,1,false))"

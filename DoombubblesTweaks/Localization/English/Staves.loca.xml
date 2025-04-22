@@ -28,6 +28,9 @@
 	<content contentuid="h4bb0a9eegd2f1g4f1ag9e41gcfabb979282e" version="1">Red Wyrmling Staff</content>
 	<content contentuid="h3111c3edgf1a4g49acga6c1gab528e80b635" version="1">The flame enveloping this staff seems to feed off thin air, never once singeing the dark wood.</content>
 
+	<content contentuid="h140c34b9g7ddcg4b2cgaadege4afbbad3a4a" version="1">Sapphire Wyrmling Staff</content>
+	<content contentuid="hdc399946g956fg4164gb480g93c467f89b93" version="1">The thunder contained within this staff seems to shake the air, never once affecting the dark wood.</content>
+
 
 	<content contentuid="h78ff4679gb39ag49d9g9166g6f1680f5fff3" version="1">Gold Great Wyrm Staff</content>
 	<content contentuid="h20b2c18dga094g443ag980fg2e46c87e8e5b" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. As a great man once said: "Fire".</content>
@@ -36,7 +39,7 @@
 	<content contentuid="h3ee48b31g7ca2g4615g8601g893ffb15dfd8" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. The cold never bothered you anyway.</content>
 
 	<content contentuid="hfbd8793fg9d51g4804gaeeegab5b1799fbf6" version="1">Ruby Great Wyrm Staff</content>
-	<content contentuid="h72ec3914g18b4g4a72g9c0eg52f80a7800ce" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. The force will surround you, penetrates you, and bind Faerun together.</content>
+	<content contentuid="h72ec3914g18b4g4a72g9c0eg52f80a7800ce" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. The force will surround you, penetrate you, and bind Faerun together.</content>
 
 	<content contentuid="h8dc4b5f6g286ag462ag8385g62a72a306cee" version="1">Bronze Great Wyrm Staff</content>
 	<content contentuid="hf6bca5ffg258fg49adg9773g29de7d15b22d" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Lightning Bolts will shoot from your finger tips.</content>
@@ -56,13 +59,16 @@
 	<content contentuid="hf164c319g2898g409eg8176g3e051b73cb70" version="1">Green Great Wyrm Staff</content>
 	<content contentuid="hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Your opponents will fall victim to one of the classic blunders: not developing an immunity to poison.</content>
 
+	<content contentuid="h3bb4b634g3510g4cd4g8240g6b9cdd4004d3" version="1">Sapphire Great Wyrm Staff</content>
+	<content contentuid="h8dfd7043g42b6g4b76g8af0gc7002619baf0" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. You will become a seductive lord of thunder.</content>
+
 
 	<content contentuid="hef70caa4g3060g48bbga1d0gd50c4c0569fa" version="1">Once per combat, your staff will allow you to cast this using a bonus action instead of an action.</content>
 	<content contentuid="hd86b0644ged20g4a2bgbfb6g123c2fbb6757" version="1">Once per short rest, your staff will allow you to cast this using a bonus action instead of an action.</content>
 
 	{{ range $cantrip, $values := $.QuickenedCantrips }}
 	<content contentuid="{{.DisplayName}}" version="1">Quickened {{.Title}}</content>
-	<content contentuid="{{.Description}}" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="{{.SpellType}}_MAG_{{$cantrip}}_Staff"&gt;{{.Title}}&lt;/LSTag&gt; using a bonus action instead of an action.</content>
+	<content contentuid="{{.Description}}" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="{{.SpellType}}_MAG_{{$cantrip}}_Staff"&gt;{{.Title}}&lt;/LSTag&gt; using a bonus action instead of an action. Usable once per {{ if $.Balance.QuickenedCantripsPerCombat }}combat{{else}}short rest{{end}}.</content>
 	{{ end }}
 	
 </contentList>

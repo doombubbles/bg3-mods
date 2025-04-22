@@ -30,7 +30,7 @@
 	<content contentuid="h937f0745ge0c7g4551g92b6g296afa8d73a1" version="1">Replenish half of your expended &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; (rounded up) while out of combat.</content>
 
 	<content contentuid="hf30a0830g55ffg4ec0gb0e4g20e6d643766a" version="1">Eldritch Armour</content>
-	<content contentuid="h7ef16af7g41a7g4f53g8a94gfa6e9ad95af7" version="1">While wielding a &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, you gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with Medium and Heavy Armour.</content>
+	<content contentuid="h7ef16af7g41a7g4f53g8a94gfa6e9ad95af7" version="1">While wielding a &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="HEXBLADE_BIND"&gt;Hexblade&lt;/LSTag&gt;, you gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with Medium and Heavy Armour.</content>
 
 	<content contentuid="h385176beg812cg401eg843agb1499593dad9" version="1">Enduring Hex</content>
 	<content contentuid="ha5b2e7c0g86dbg4a70gab04g70b4ce79a908" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_Hex_Enduring"&gt;Hex&lt;/LSTag&gt; once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>

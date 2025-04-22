@@ -142,5 +142,28 @@
         "revealProblems": "onProblem"
       }
     },
+    {
+      "label": "Open In Toolkit",
+      "type": "process",
+      "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
+      "args": [
+        "-project",
+        "DoombubblesTweaks",
+        "-lvl",
+        "WLD_Campfire_E"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem",
+      },
+      "options": {
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
+      },
+      "dependsOn": [
+        "Build DoombubblesTweaks"
+      ],
+    },
   ]
 }

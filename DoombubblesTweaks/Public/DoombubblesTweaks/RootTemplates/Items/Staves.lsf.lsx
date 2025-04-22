@@ -275,6 +275,36 @@
           </children>
         </node>
 
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hdc399946g956fg4164gb480g93c467f89b93" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h140c34b9g7ddcg4b2cgaadege4afbbad3a4a" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="da8dab6b-86f7-4b80-9313-a4ab773b9c37" />
+          <attribute id="Name" type="LSString" value="DBT_Thunder_Quarterstaff" />
+          <attribute id="ParentTemplateId" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+          <attribute id="Stats" type="FixedString" value="DBT_Thunder_Quarterstaff" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="f2c78f41-28c8-37c7-756c-c2071ede7d50" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_THUNDER_WEAPON" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
       </children>
     </node>
   </region>

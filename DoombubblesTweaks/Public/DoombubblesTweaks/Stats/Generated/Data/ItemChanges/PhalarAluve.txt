@@ -41,7 +41,7 @@ data "Description" "h1c044479g6651g4c43gb5fbg94c9f7ea0eb6"
 data "Icon" "Action_Mag_PhalarAluve_Screech"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsDamageTypeThunder()"
-data "StatsFunctors" "ApplyStatus(MAG_HARPERS_SINGING_SWORD_BANE, 100, 2)"
+data "StatsFunctors" "IF(HasStatus('MAG_HARPERS_SINGING_SWORD_BANE',context.Target)):SetStatusDuration(MAG_HARPERS_SINGING_SWORD_BANE, 2);IF(not HasStatus('MAG_HARPERS_SINGING_SWORD_BANE',context.Target)):ApplyStatus(MAG_HARPERS_SINGING_SWORD_BANE, 100, 2)"
 
 
 new entry "Shout_MAG_Harpers_SingingSword_Shout"

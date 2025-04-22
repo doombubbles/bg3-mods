@@ -17,6 +17,7 @@ new entry "WPN_Longsword_DeathKnight"
 type "Weapon"
 using "WPN_Longsword"
 data "RootTemplate" "ea9effa4-172d-4d0e-be3d-2cb01fd71468"
+data "ValueLevel" "7"
 
 new entry "DBT_WPN_Frostmourne"
 type "Weapon"
