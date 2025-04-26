@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="314"/>
+  <region id="ClassDescriptions">
+    <node id="root">
+      <children>
+        <node id="ClassDescription">
+          <attribute id="BaseHp" type="int32" value="6"/>
+          <attribute id="CanLearnSpells" type="bool" value="true"/>
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer"/>
+          <attribute id="Description" type="TranslatedString" handle="hd7f56516g6903g45d9ga56ag553e468e99a1" version="2"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h5a9ebda5g8413g4ab3g906ag90c86d5d7933" version="1"/>
+          <attribute id="HpPerLevel" type="int32" value="4"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MulticlassSpellcasterModifier" type="double" value="1"/>
+          <attribute id="MustPrepareSpells" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="Magician"/>
+          <!-- e2416b02-953a-4ce8-aa8f-eb98d549d86d -->
+          <attribute id="ProgressionTableUUID" type="guid" value="dad920dc-ae5f-4a2d-be36-31efcb0ca8b9"/>
+          <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+          <attribute id="PrimaryAbility" type="uint8" value="4"/>
+          {{- else }}
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          {{- end }}
+          <attribute id="SpellList" type="guid" value="2ba5248a-f014-409d-ab26-b50116f7e477"/>
+          <!-- 784001e2-c96d-4153-beb6-2adbef5abc92 -->
+          <attribute id="UUID" type="guid" value="18f0f4d3-7ae2-4687-8c95-93b614556fda"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/>
+            </node>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="18266c0b-efbc-4c80-8784-ada4a37218d7"/>
+            </node>
+          </children>
+        </node>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer_StormSorcery"/>
+          <attribute id="Description" type="TranslatedString" handle="h6cc6b6fega327g411ag9b33g098e0c8636b1" version="3"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="hd862715eg884cg4039ga1a6g59c36e569ddf" version="2"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MustPrepareSpells" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="StormSorceryMagician"/>
+          <attribute id="ParentGuid" type="guid" value="18f0f4d3-7ae2-4687-8c95-93b614556fda"/>
+          <!-- fac6ea25-a7f8-4793-b331-d884041e5adb -->
+          <attribute id="ProgressionTableUUID" type="guid" value="e7324941-873b-45f5-ab2b-3c81c6baec39"/>
+          <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+          <attribute id="PrimaryAbility" type="uint8" value="4"/>
+          {{- else }}
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          {{- end }}
+          <!-- d379fdae-b401-4731-8d50-277c73919ae3 -->
+          <attribute id="UUID" type="guid" value="4f3713f8-a77f-4d06-b876-5f7f7e7491ab"/>
+        </node>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer_DraconicAncestry"/>
+          <attribute id="Description" type="TranslatedString" handle="h8653dfceg5163g42e3gb4c4g5acc4dd573c8" version="2"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h25454982g837eg4451g88ddgf9ea0d89187f" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MustPrepareSpells" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="DraconicBloodlineMagician"/>
+          <attribute id="ParentGuid" type="guid" value="18f0f4d3-7ae2-4687-8c95-93b614556fda"/>
+          <!-- 35aa255d-3eb7-4e93-8092-7545ced25b09 -->
+          <attribute id="ProgressionTableUUID" type="guid" value="dac4721a-506d-43ce-9e24-d52d71012bcd"/>
+          <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+          <attribute id="PrimaryAbility" type="uint8" value="4"/>
+          {{- else }}
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          {{- end }}
+          <!-- 36286b0a-26f9-4b4e-9311-fd1404301d20 -->
+          <attribute id="UUID" type="guid" value="960f3c42-95e0-4d4b-ae78-21a8eccb1b76"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="f6d0e042-5b90-41d8-ab4a-a2239e27a13e"/>
+            </node>
+          </children>
+        </node>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="hedfe3092ga840g4e10gb962g092566a89852" version="2"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h04ded653gcf76g4ad4gaa36g523db04a9487" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MustPrepareSpells" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="WildMagicMagician"/>
+          <attribute id="ParentGuid" type="guid" value="18f0f4d3-7ae2-4687-8c95-93b614556fda"/>
+          <!-- dbf5281b-5a6e-486d-92db-ff67a0a3842b -->
+          <attribute id="ProgressionTableUUID" type="guid" value="b6aa7b36-0f07-482c-b446-00c15bac6dd8"/>
+          <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+          <attribute id="PrimaryAbility" type="uint8" value="4"/>
+          {{- else }}
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          {{- end }}
+          <!-- 14374d37-a70e-41a8-9dc5-85a23f8b5dd2 -->
+          <attribute id="UUID" type="guid" value="56bfbd22-4ce9-4c48-b063-5e0ff0038bb8"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="885f8675-e400-4d53-924d-6204ff1d9558"/>
+            </node>
+          </children>
+        </node>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer_ShadowMagic"/>
+          <attribute id="Description" type="TranslatedString" handle="hec37ca35g480cg4de1gae65g3986c3592aa7" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h16312bfag01a2g42f8g943bg3fcba8ecfcc3" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MustPrepareSpells" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="ShadowMagicMagician"/>
+          <attribute id="ParentGuid" type="guid" value="18f0f4d3-7ae2-4687-8c95-93b614556fda"/>
+          <!-- 02d68ea9-5b8d-4f3f-a37a-96ae78d233cd -->
+          <attribute id="ProgressionTableUUID" type="guid" value="cd7b963d-4ed5-486b-93a9-b876ebf98cbd"/>
+          <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+          <attribute id="PrimaryAbility" type="uint8" value="4"/>
+          {{- else }}
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          {{- end }}
+          <!-- b443a7fa-b36a-4cbc-9e4b-f3167de34d1b -->
+          <attribute id="UUID" type="guid" value="c55f9f54-6e07-4a6e-a226-63490a496e65"/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>

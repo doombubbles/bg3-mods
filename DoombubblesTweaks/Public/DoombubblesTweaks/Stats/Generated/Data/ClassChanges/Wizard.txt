@@ -303,3 +303,31 @@ data "Icon" "PassiveFeature_PotentCantrip"
 data "Passives" "PotentCantrip"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StatusGroups" "SG_RemoveOnRespec"
+
+// Bladesong Short Rest Option
+
+new entry "Bladesong_ShortRest"
+type "PassiveData"
+data "DisplayName" "h926da65bg102ag4390gb20fg545c38607e37"
+data "Description" "h282208a7gea29g43f2g8cf5gcbb30f5796a9"
+data "Icon" "Action_Bladesong"
+data "Properties" "IsToggled"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_Bladesong', ModifyTooltipDescription(),ModifyStatusDuration(Override,3)))"
+data "StatsFunctorContext" "OnStatusApplied;OnShortRest"
+data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('BLADESONG')):ApplyStatus(SELF,BLADESONG_SHORT_REST,100,-1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('BLADESONG')):SetStatusDuration(SELF,BLADESONG,3,ForceSet);IF(context.HasContextFlag(StatsFunctorContext.OnShortRest) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('ALCH_POTION_REST_SLEEP_LESSER_RESTORATION'))):RemoveStatus(SELF,BLADESONG_SHORT_REST)"
+
+new entry BLADESONG_SHORT_REST
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h926da65bg102ag4390gb20fg545c38607e37"
+data "Icon" "Action_Bladesong"
+data "StatusPropertyFlags" "ApplyToDead"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnRemoveFunctors" "RestoreResource(SELF,Bladesong,1,0)"
+
+// Make work with Flame Blade
+new entry "Bladesong_Healing"
+type "PassiveData"
+using "Bladesong_Healing"
+data "Conditions" "(IsWeaponAttack() or (IsAttackType(AttackType.MeleeSpellAttack) and not HasSpellFlag(SpellFlags.Spell))) and HasDamageEffectFlag(DamageFlags.Hit) and not HasAnyStatus({'BLADESONG_ARMOR_MESSAGE','BLADESONG_SHIELD_MESSAGE','BLADESONG_WEAPON_MESSAGE'},{},{},context.Source) and Combat();"

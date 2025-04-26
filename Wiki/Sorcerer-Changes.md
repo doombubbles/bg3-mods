@@ -1,3 +1,5 @@
+- Flame Blade is now included on the Sorcrer Spell list, as it is in 5e
+
 ### Draconic Bloodline
 
 - Implemented the 2024 PHB change to Draconic Resilience: Unarmoured AC is now 10+DEX+CHA

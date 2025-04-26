@@ -5,9 +5,10 @@
 - [[ New Items | New-Items ]] *([[ IDs | UUIDs ]])*
 - [[ New Feats | New-Feats ]]
 
-#### New Classes
+#### New Class Variants
 
 - [[ Witch | Witch ]]
+- [[ Magician | Magician ]]
 
 ### Changes
 

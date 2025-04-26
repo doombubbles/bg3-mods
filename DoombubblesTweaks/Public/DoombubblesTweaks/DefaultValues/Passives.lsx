@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="319"/>
+  <region id="DefaultValues">
+    <node id="root">
+      <children>
+        <node id="DefaultValue">
+          <attribute id="Add" type="LSString" value="DraconicAncestry_Copper_Magician"/>
+          <attribute id="Level" type="int32" value="1"/>
+          <attribute id="SelectorId" type="LSString" value="DraconicAncestryMagician"/>
+          <attribute id="TableUUID" type="guid" value="dac4721a-506d-43ce-9e24-d52d71012bcd"/>
+          <attribute id="UUID" type="guid" value="b67c0451-70d2-41b1-aa39-a75a314c15df"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

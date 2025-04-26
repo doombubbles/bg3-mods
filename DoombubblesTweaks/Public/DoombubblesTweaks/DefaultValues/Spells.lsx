@@ -4,6 +4,9 @@
   <region id="DefaultValues">
     <node id="root">
       <children>
+
+        <!-- Witch -->
+
         <node id="DefaultValue">
           <attribute id="Add" type="LSString" value="Projectile_EldritchBlast;Shout_BladeWard;Target_ChillTouch;Target_MinorIllusion"/>
           <attribute id="Level" type="int32" value="1"/>
@@ -37,6 +40,23 @@
           <attribute id="Level" type="int32" value="1"/>
           <attribute id="TableUUID" type="guid" value="6a9cd3b7-8531-40ad-8a10-103a50f4902c"/>
           <attribute id="UUID" type="guid" value="12924ed3-5aa6-4d93-90d1-ebc5351b2971"/>
+        </node>
+
+        <!-- Magician -->
+
+        <node id="DefaultValue">
+          <attribute id="Add" type="LSString" value="Target_ChillTouch;Projectile_AcidSplash;Target_TrueStrike;Target_Light;Target_MageHand;Projectile_RayOfFrost;Projectile_FireBolt;Shout_BladeWard;Target_DancingLights;Projectile_PoisonSpray;Target_ShockingGrasp;Target_MinorIllusion;Target_Friends"/>
+          <attribute id="Level" type="int32" value="1"/>
+          <attribute id="SelectorId" type="LSString" value="MagicianCantrip"/>
+          <attribute id="TableUUID" type="guid" value="dad920dc-ae5f-4a2d-be36-31efcb0ca8b9"/>
+          <attribute id="UUID" type="guid" value="345becc0-9c51-4a69-9ab6-0def901fb601"/>
+        </node>
+        <node id="DefaultValue">
+          <attribute id="Add" type="LSString" value="Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Target_FogCloud;Target_CharmPerson;Target_Sleep;Target_Jump;Zone_BurningHands;Shout_FeatherFall;Zone_ColorSpray;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_FalseLife;Projectile_RayOfSickness;Shout_ExpeditiousRetreat"/>
+          <attribute id="Level" type="int32" value="1"/>
+          <attribute id="SelectorId" type="LSString" value="MagicianSpell"/>
+          <attribute id="TableUUID" type="guid" value="dad920dc-ae5f-4a2d-be36-31efcb0ca8b9"/>
+          <attribute id="UUID" type="guid" value="bf57802d-ad9e-45f0-9a3f-85c6b2016c1b"/>
         </node>
       </children>
     </node>

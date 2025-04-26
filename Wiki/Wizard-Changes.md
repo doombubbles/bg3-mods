@@ -26,3 +26,7 @@
 - At Level 2, gain "An Illusion? What are you Hiding?" - Whenever you are revealed after being Invisible, gain 2 turns of Blur and Mirror Image.
 - At Level 6, can cast Invisibility once per Short Rest without consumming a spell slot.
 - At Level 10, can cast Greater Invisibility once per Short Rest without consumming a spell slot.
+
+### Bladesinging
+
+- New toggleable passive "Blade Song Encore" that makes Blade Song last for 3 rounds only, but the Bladesong Power spent is restored when you next take a short rest

@@ -1,0 +1,160 @@
+// new entry "Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet"
+// type "SpellData"
+// data "SpellType" "Projectile"
+// using "Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet"
+// data "Cooldown" "OncePerShortRestPerItem"
+
+new entry "UND_StrengthChair_Leg_Passive"
+type "PassiveData"
+using "UND_StrengthChair_Leg_Passive"
+data "Description" "he8e1cc2bgc396g49f4g882bgf8d3c5451f15"
+data "Boosts" "AbilityOverrideMinimum(Strength,21)"
+
+new entry "MAG_SHA_SeluneBlessing_Spear"
+type "Weapon"
+using "MAG_SHA_SeluneBlessing_Spear"
+data "DefaultBoosts" "WeaponEnchantment(3);WeaponProperty(Magical);WeaponDamage(1d4, Radiant)"
+
+new entry "Target_SHA_SeluneBlessing_Moonfire"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SHA_SeluneBlessing_Moonfire"
+data "Cooldown" "OncePerShortRestPerItem"
+
+new entry "UNI_DoomHammer"
+type "Weapon"
+using "UNI_DoomHammer"
+data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(1, Lightning)"
+
+
+// new entry "MAG_MONK_UNARMED_EXPLOIT"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// using "MAG_MONK_UNARMED_EXPLOIT"
+// data "TickType" "StartTurn"
+// data "StackId" "MAG_MONK_UNARMED_EXPLOIT"
+// data "StackType" "Additive"
+// data "StatusPropertyFlags" "MultiplyEffectsByDuration"
+// data "Passives" "MAG_Monk_Magic_Hat_ReduceDurationPerDamage_Passive"
+
+// new entry "MAG_Monk_Magic_Hat_ReduceDurationPerDamage_Passive"
+// type "PassiveData"
+// using "MAG_Monk_Magic_Hat_Passive"
+// data "Description" ""
+// data "Properties" "IsHidden"
+// data "StatsFunctorContext" "OnDamaged"
+// data "Conditions" ""
+// data "StatsFunctors" "SetStatusDuration(MAG_MONK_UNARMED_EXPLOIT,-1,Add)"
+
+new entry "ARM_Toy_Shield"
+type "Armor"
+using "ARM_Toy_Shield"
+data "PassivesOnEquip" "ARM_Toy_Shield_Passive"
+
+new entry "ARM_Toy_Shield_Passive"
+type "PassiveData"
+data "DisplayName" "h7b63ed7fg392fg4ac8gad50gbc2a9e1b98e4"
+data "Description" "h82022716g353cg41f9g9222g9055d5a0e72b"
+data "Boosts" "Proficiency(Shields)"
+
+new entry "MAG_Invisible_Pike"
+type "Weapon"
+using "MAG_Invisible_Pike"
+data "Weapon Properties" "Reach;Melee;Twohanded;Heavy;Dippable;Magical;Finesse"
+
+
+new entry "UNI_RobeOfSummer"
+type "Armor"
+using "UNI_RobeOfSummer"
+data "Boosts" "Resistance(Cold, Resistant);UnlockSpell(Target_Daylight_Enchantment_Robe)"
+
+new entry "Target_Daylight_Enchantment_Robe"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Daylight_Enchantment"
+data "DisplayName" "h635fd469g1961g498bg9c10g8b824732d7f4;2"
+data "SpellContainerID" ""
+data "UseCosts" "ActionPoint:1"
+data "Cooldown" "OncePerRestPerItem"
+
+new entry "MAG_Gortash_Gloves"
+type "Armor"
+using "MAG_Gortash_Gloves"
+data "PassivesOnEquip" "MAG_Force_Tyrant_Passive;MAG_SpellSaveDC_Enchantment_Lesser_Passive"
+
+new entry "MAG_Force_Tyrant_Passive"
+type "PassiveData"
+using "MAG_Force_UnarmedAttack_Passive"
+data "DisplayName" "hcf0ce1d8gc3d0g45b9g9f8ag48c7a0cb13ee"
+data "DescriptionParams" "DealDamage(1d8, Force)"
+data "Boosts" "CharacterUnarmedDamage(1d8, Force)"
+
+new entry "WPN_GOB_Club_BrandingTool_A"
+type "Weapon"
+using "WPN_Club"
+data "RootTemplate" "28373d60-893f-411c-a029-35c31665c821"
+data "Boosts" "UnlockSpell(Target_ApplyBrand)"
+
+
+new entry "Shoud_ApplyBrand"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GOB_PainPriest_DaggerSpell"
+data "SpellProperties" "DealDamage(1d6,Fire);ApplyStatus(SELF,ABSOLUTES_BRAND,100,1)"
+data "Icon" "Action_SoulBranding"
+data "DisplayName" "h7cc7adeag848fg491cga683g0faeaea082c3"
+data "Description" "h79bb4af0g3ca6g4817ga157g8679fde3dae8;4"
+data "TooltipStatusApply" "ApplyStatus(ABSOLUTES_BRAND,100,-1)"
+data "DescriptionParams" "DealDamage(1d6,Fire);"
+data "UseCosts" "ActionPoint:1"
+data "RequirementConditions" "not Tagged('BRANDED')"
+
+
+new entry "ABSOLUTES_BRAND"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h99f52818gf61cg4747ga16age70b9d87fe29"
+data "Description" "h352f5f74g0c11g4a7fgb02cgdecc84f7a1fa"
+data "Boosts" "Tag(BRANDED)"
+data "StatusPropertyFlags" "DisablePortraitIndicator;DisableCombatlog;ApplyToDead;IgnoreResting"
+
+new entry "Shout_MAG_DarkJusticiarArmor_ShieldOfFaith"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MAG_DarkJusticiarArmor_ShieldOfFaith"
+data "Cooldown" "OncePerShortRestPerItem"
+
+new entry "UNI_UND_RingOfMindShielding_Passive"
+type "PassiveData"
+using "UNI_UND_RingOfMindShielding_Passive"
+data "Description" "he0bf7eecgd59eg4dbcgab40g86157ba291a8"
+data "ExtraDescription" "h6c0a9cf9g5804g42b4gb909gcb0cfd6e322a"
+data "Boosts" "Tag(CHARMED_ADV);Advantage(SavingThrow, Intelligence)"  
+
+
+// Fix it mistakenly removing the bonus action in some instances
+new entry "MAG_Fire_BonusActionOnFireSpell_Passive"
+type "PassiveData"
+using "MAG_Fire_BonusActionOnFireSpell_Passive"
+data "Conditions" "((IsSpell() and not IsCantrip()) or IsAttackType(AttackType.MeleeSpellAttack)) and not HasStatus('MAG_BONUS_ACTION',context.Source)"
+
+
+new entry "Target_MAG_Shadow_Shadowstep"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ShadowStep"
+data "UseCosts" "BonusActionPoint:1"
+
+
+
+new entry "Target_MAG_Spectator_FearRay"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UND_Spectator_Ray_Fear"
+data "Cooldown" "OncePerCombat"
+
+new entry "Target_MAG_Spectator_WoundingRay"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UND_Spectator_Ray_Wounding"
+data "Cooldown" "OncePerCombat"

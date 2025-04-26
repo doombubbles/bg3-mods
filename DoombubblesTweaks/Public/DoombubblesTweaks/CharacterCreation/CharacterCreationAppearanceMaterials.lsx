@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
   <version major="4" minor="999" revision="999" build="999" />
-    <region id="CharacterCreationAppearanceMaterials">
-        <node id="root">
-            <children>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="hc0056a42g7e0ag41a8g854fgd7c4f26c7a7d" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="0ca13315-4755-add4-cd88-6ba34d84828d"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="Passive_Amethyst_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FF0A001C"/>
-                    <attribute id="UUID" type="guid" value="b11b0edf-ca8f-4f95-a8d9-df4ce12fbca3"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h5680804bgf5e8g4380gbe74g5bb2cb2b0850" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="6d3892ae-608a-d070-bca6-a3b3b0834d8c"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="Passive_Diamond_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FFE8DED5"/>
-                    <attribute id="UUID" type="guid" value="4dc58cc3-1bf2-40d7-8fc3-c4ea1e27149e"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="he5634d57g98bag42a0g8fcag1f44dbf9b684" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="4170c50d-a72e-1d59-587c-f87c497ac920"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="Passive_Emerald_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FF5E840C"/>
-                    <attribute id="UUID" type="guid" value="660a6c20-83b7-4cc0-9ae7-fcd213221aba"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h91887497g6177g415eg973fgf08ed5253dd2" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="86ee605f-6110-0aa4-74ed-51289376f62f"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="Passive_Ruby_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FF990408"/>
-                    <attribute id="UUID" type="guid" value="82e1b49f-f409-433b-bb94-db15436162c1"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="ha6de9117g8e10g4c24g8133g1c882905d24f" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="74cdd720-ffb6-ec38-d08d-f60a59c5fc26"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="Passive_Sapphire_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FF004479"/>
-                    <attribute id="UUID" type="guid" value="b05b3553-0c4f-4a1a-ba78-5917cac9366c"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h718d6176g4f6dg4bd0g9ccdg1598e4686751" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="e89e52e6-ae3b-926f-65b2-d8562ec3f0f7"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="Passive_Topaz_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FFD8A656"/>
-                    <attribute id="UUID" type="guid" value="b993d525-b69b-49d5-806b-9d6ae17de990"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h9c8915e7g5ef8g4450g9870gf522d6c7634c" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="83d0143a-dc91-a094-fa64-c8da6799a5f5"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="DGB Passive_Amethyst_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FF001708"/>
-                    <attribute id="UUID" type="guid" value="395c35fe-6e21-4a6f-bd78-2022b2b5c44d"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="hd22104b3g6d72g4331g9b55gcb2fde70f342" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="ba404461-396c-ffb1-a961-181401ae2831"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="DGB Passive_Diamond_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FFE8DED5"/>
-                    <attribute id="UUID" type="guid" value="b58f1a7d-725a-4a8a-8022-23a8fded4a91"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="hb919e320g0376g400agbfc0g6bfea1f07032" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="6483d002-479a-721f-d1e0-b4da471d01f4"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="DGB Passive_Emerald_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FF5E840C"/>
-                    <attribute id="UUID" type="guid" value="e4512bb9-bb95-4b86-ab57-ee6a76065a0c"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h636c4763g7c2fg4ea8g838cg29c04d599cbb" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="d1397ab4-061b-7d38-1601-a447b7e8aaaa"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="DGB Passive_Ruby_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FF990408"/>
-                    <attribute id="UUID" type="guid" value="c8111de8-520f-432a-bd87-d9b62d610482"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h5dc0bbccg8255g48c3g8ec3g49c03c2f5c37" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="8182b8a1-d416-3e2c-9be4-86d96d40527b"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="DGB Passive_Sapphire_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FF004479"/>
-                    <attribute id="UUID" type="guid" value="952753d1-283f-41f8-89d9-c053ad7231d6"/>
-                </node>
-                <node id="CharacterCreationAppearanceMaterial">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h3a1334cbg625eg45a3g82f6g16a784da4699" version="1"/>
-                    <attribute id="MaterialPresetUUID" type="guid" value="182cac8c-87b5-aac4-7875-dd33d96dbfe2"/>
-                    <attribute id="MaterialType" type="FixedString" value="Passive"/>
-                    <attribute id="Name" type="FixedString" value="DGB Passive_Topaz_1"/>
-                    <attribute id="UIColor" type="LSString" value="#FFD8A656"/>
-                    <attribute id="UUID" type="guid" value="ec23433a-bb25-4c22-a9af-ce6075480c62"/>
-                </node>
-            </children>
+  <region id="CharacterCreationAppearanceMaterials">
+    <node id="root">
+      <children>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="hc0056a42g7e0ag41a8g854fgd7c4f26c7a7d" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="0ca13315-4755-add4-cd88-6ba34d84828d"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="Passive_Amethyst_1"/>
+          <attribute id="UIColor" type="LSString" value="#FF0A001C"/>
+          <attribute id="UUID" type="guid" value="b11b0edf-ca8f-4f95-a8d9-df4ce12fbca3"/>
         </node>
-    </region>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="h5680804bgf5e8g4380gbe74g5bb2cb2b0850" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="6d3892ae-608a-d070-bca6-a3b3b0834d8c"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="Passive_Diamond_1"/>
+          <attribute id="UIColor" type="LSString" value="#FFE8DED5"/>
+          <attribute id="UUID" type="guid" value="4dc58cc3-1bf2-40d7-8fc3-c4ea1e27149e"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="he5634d57g98bag42a0g8fcag1f44dbf9b684" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="4170c50d-a72e-1d59-587c-f87c497ac920"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="Passive_Emerald_1"/>
+          <attribute id="UIColor" type="LSString" value="#FF5E840C"/>
+          <attribute id="UUID" type="guid" value="660a6c20-83b7-4cc0-9ae7-fcd213221aba"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="h91887497g6177g415eg973fgf08ed5253dd2" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="86ee605f-6110-0aa4-74ed-51289376f62f"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="Passive_Ruby_1"/>
+          <attribute id="UIColor" type="LSString" value="#FF990408"/>
+          <attribute id="UUID" type="guid" value="82e1b49f-f409-433b-bb94-db15436162c1"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="ha6de9117g8e10g4c24g8133g1c882905d24f" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="74cdd720-ffb6-ec38-d08d-f60a59c5fc26"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="Passive_Sapphire_1"/>
+          <attribute id="UIColor" type="LSString" value="#FF004479"/>
+          <attribute id="UUID" type="guid" value="b05b3553-0c4f-4a1a-ba78-5917cac9366c"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="h718d6176g4f6dg4bd0g9ccdg1598e4686751" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="e89e52e6-ae3b-926f-65b2-d8562ec3f0f7"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="Passive_Topaz_1"/>
+          <attribute id="UIColor" type="LSString" value="#FFD8A656"/>
+          <attribute id="UUID" type="guid" value="b993d525-b69b-49d5-806b-9d6ae17de990"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="h9c8915e7g5ef8g4450g9870gf522d6c7634c" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="83d0143a-dc91-a094-fa64-c8da6799a5f5"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="DGB Passive_Amethyst_1"/>
+          <attribute id="UIColor" type="LSString" value="#FF001708"/>
+          <attribute id="UUID" type="guid" value="395c35fe-6e21-4a6f-bd78-2022b2b5c44d"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="hd22104b3g6d72g4331g9b55gcb2fde70f342" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="ba404461-396c-ffb1-a961-181401ae2831"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="DGB Passive_Diamond_1"/>
+          <attribute id="UIColor" type="LSString" value="#FFE8DED5"/>
+          <attribute id="UUID" type="guid" value="b58f1a7d-725a-4a8a-8022-23a8fded4a91"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="hb919e320g0376g400agbfc0g6bfea1f07032" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="6483d002-479a-721f-d1e0-b4da471d01f4"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="DGB Passive_Emerald_1"/>
+          <attribute id="UIColor" type="LSString" value="#FF5E840C"/>
+          <attribute id="UUID" type="guid" value="e4512bb9-bb95-4b86-ab57-ee6a76065a0c"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="h636c4763g7c2fg4ea8g838cg29c04d599cbb" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="d1397ab4-061b-7d38-1601-a447b7e8aaaa"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="DGB Passive_Ruby_1"/>
+          <attribute id="UIColor" type="LSString" value="#FF990408"/>
+          <attribute id="UUID" type="guid" value="c8111de8-520f-432a-bd87-d9b62d610482"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="h5dc0bbccg8255g48c3g8ec3g49c03c2f5c37" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="8182b8a1-d416-3e2c-9be4-86d96d40527b"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="DGB Passive_Sapphire_1"/>
+          <attribute id="UIColor" type="LSString" value="#FF004479"/>
+          <attribute id="UUID" type="guid" value="952753d1-283f-41f8-89d9-c053ad7231d6"/>
+        </node>
+        <node id="CharacterCreationAppearanceMaterial">
+          <attribute id="DisplayName" type="TranslatedString" handle="h3a1334cbg625eg45a3g82f6g16a784da4699" version="1"/>
+          <attribute id="MaterialPresetUUID" type="guid" value="182cac8c-87b5-aac4-7875-dd33d96dbfe2"/>
+          <attribute id="MaterialType" type="FixedString" value="Passive"/>
+          <attribute id="Name" type="FixedString" value="DGB Passive_Topaz_1"/>
+          <attribute id="UIColor" type="LSString" value="#FFD8A656"/>
+          <attribute id="UUID" type="guid" value="ec23433a-bb25-4c22-a9af-ce6075480c62"/>
+        </node>
+      </children>
+    </node>
+  </region>
 </save>

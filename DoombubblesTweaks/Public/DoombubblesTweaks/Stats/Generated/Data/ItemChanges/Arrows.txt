@@ -1,21 +1,58 @@
-new entry "ARROW_OF_RICOCHET_AURA"
-type "StatusData"
-data "StatusType" "BOOST"
-data "AuraRadius" "1"
-data "AuraStatuses" "IF(Character() and ConditionResult(GetOwner(context.Source) == context.Target)):ApplyStatus(ARROW_OF_RICOCHET)"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-
-new entry "ARROW_OF_RICOCHET"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h0b80a0c0g7281g431egb624g3c496b59ce67;1"
-data "StackId" "ARROW_OF_RICOCHET"
-data "Boosts" "UnlockSpell(Projectile_ArrowOfRicochet_Free)"
-data "StatusPropertyFlags" ""
-
-new entry "Projectile_ArrowOfRicochet_Free"
+new entry "Projectile_ArrowOfAntimagic"
 type "SpellData"
 data "SpellType" "Projectile"
-using "Projectile_ArrowOfRicochet"
+using "Projectile_ArrowOfAntimagic"
+data "SpellSuccess" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);BreakConcentration();ApplyStatus(SILENCED,100,2)"
+data "TooltipStatusApply" "ApplyStatus(SILENCED,100,2)"
+
+new entry "Projectile_ArrowOfWraithsEmbrace"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ArrowOfWraithsEmbrace"
+data "SpellSuccess" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(1d4, Necrotic,Magical);ApplyStatus(WRAITHS_EMBRACE,100,2)
+data "TooltipStatusApply" "ApplyStatus(WRAITHS_EMBRACE,100,2)"
+
+new entry "Projectile_ArrowOfDetonation"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ArrowOfDetonation"
+data "SpellSuccess" "TARGET:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);TARGET:DealDamage(1d4,Thunder,Magical);TARGET:ExecuteWeaponFunctors(MainHand);"
+data "TooltipDamageList" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);DealDamage(1d4, Thunder)"
+
+
+new entry "UNI_ARM_OfArchery_Gloves"
+type "Armor"
+using "UNI_ARM_OfArchery_Gloves"
+data "PassivesOnEquip" "MAG_OfArchery_Gloves_Passive;DBT_Arrows_Passive"
+
+new entry DBT_Arrows_Passive
+type "PassiveData"
+data "DisplayName" "h4d77ec93gd4c5g4678gad2dg4487ab3ee2bf"
+data "Description" "hb4fcf64dg33b9g424ag84c1ge4b577abc9cf"
+data "Properties" "IsHidden"
+data "BoostContext" "OnCreate;OnInventoryChanged"
+{{- if $.Balance.SpecialArrowsPerCombat }}
+data "Boosts" "{{- range $arrow := $.Arrows -}}IF(HasStatus('{{$arrow | upper}}',context.Source)):UnlockSpell(Projectile_{{$arrow}}_Free);{{- end -}}"
+{{- end }}
+
+{{ range $arrow := $.Arrows }}
+new entry "OBJ_{{$arrow}}"
+type "Object"
+using "OBJ_{{$arrow}}"
+{{- if $.Balance.SpecialArrowsPerCombat }}
+data "StatusInInventory" "{{$arrow | upper}}"
+{{- end }}
+
+new entry "{{$arrow | upper}}"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "{{$arrow | upper}}"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "Boosts" "IF(HasPassive('DBT_Arrows_Passive',context.Source)):UnlockSpell(Projectile_{{$arrow}}_Free)"
+
+new entry "Projectile_{{$arrow}}_Free"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_{{$arrow}}"
 data "Cooldown" "OncePerCombat"
-data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+{{ end }}

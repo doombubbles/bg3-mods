@@ -27,7 +27,7 @@
           <attribute id="TableUUID" type="guid" value="953e6528-acd2-48b5-95e7-9d54ad555d39"/>
           <attribute id="UUID" type="guid" value="5d56c038-f48f-419a-8afa-e8898713e89c"/>
         </node>
-        
+
 
         <!-- Necromancy Wizard Control Undead -->
         <node id="Progression">
@@ -116,6 +116,19 @@
           <attribute id="Selectors" type="LSString" value="AddSpells(503ef992-4df6-468d-84ce-e1b298feed01,,,,AlwaysPrepared);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(f781a25e-d288-43b4-bf5d-3d8d98846687,2,0)"/>
           <attribute id="TableUUID" type="guid" value="a78bdb33-84e2-4943-a593-3d68f178ba32"/>
           <attribute id="UUID" type="guid" value="9df5a0c5-98b2-4ede-8e18-6956064d66e2"/>
+        </node>
+
+        <!-- Bladesinging -->
+
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Daggers);Proficiency(Sickles);Proficiency(Shortswords);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Longswords);ProficiencyBonus(Skill,Performance);ActionResource(Bladesong,2,0)"/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="BladesingingSchool"/>
+          <attribute id="PassivesAdded" type="LSString" value="TraininginWarandSong;Bladesong_Armor_Message;Bladesong_Weapon_Message;Bladesong_Shield_Message;Bladesong_Weapon;Bladesong_Shield;Bladesong_Unarmed;Bladesong_ShortRest"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectEquipment(5309613d-e7cb-4176-95b6-0c8b796d47d0,1,WarAndSong);AddSpells(e97297e2-5cc9-45c9-ae8d-5a24257dd176,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,2,0)"/>
+          <attribute id="TableUUID" type="guid" value="eb51387c-6990-4f9b-965a-3acae7ba49d1"/>
+          <attribute id="UUID" type="guid" value="fb80a80b-d512-4ff5-89d8-b4fa6c29f96e"/>
         </node>
 
       </children>

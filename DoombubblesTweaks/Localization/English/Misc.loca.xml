@@ -32,4 +32,13 @@
 
 	<content contentuid="h1fef40c3g9453g4e2bg8b7fgeaeb6380c0d5" version="2">Destructive Wave: Thunder</content>
 	<content contentuid="hae69f2a1g5957g4c82g9493gdd05955827f3" version="7">Emit a shockwave of pure thunder that damages nearby creatures and possibly knocks them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h797d0b9fgcc3dg4773ga4beg0d4a75cd049e" version="1">Under Where?</content>
+	<content contentuid="hf65eed04g1428g434eg9e0dg5be680b67e7c" version="1">No seriously, where?</content>
+
+	<content contentuid="ha2796c0bg16a4g4958g8252gd49b5123ae05" version="1">I Nap Periodically</content>
+	<content contentuid="hb7dbaf12g2b28g46dfg8c02g77d98ad4fd29" version="1">You gain the full benefit of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; whenever you &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h4d77ec93gd4c5g4678gad2dg4487ab3ee2bf" version="1">Archer's Alacrity</content>
+	<content contentuid="hb4fcf64dg33b9g424ag84c1ge4b577abc9cf" version="1">Your faith of the heart is so strong that you can cast your special arrows once per combat without consuming them.</content>
 </contentList>

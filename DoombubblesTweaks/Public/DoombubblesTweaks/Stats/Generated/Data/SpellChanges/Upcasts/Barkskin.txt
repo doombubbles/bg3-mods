@@ -1,0 +1,16 @@
+{{ range $lvl := list 3 4 5 6 }}
+new entry "Target_Barkskin_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Barkskin_{{$lvl}}"
+data "DescriptionParams" "{{add $lvl 15}}"
+data "SpellProperties" "ApplyStatus(BARKSKIN_{{$lvl}},100,-1)"
+data "TooltipStatusApply" "ApplyStatus(BARKSKIN_{{$lvl}},100,-1)"
+
+new entry "BARKSKIN_{{$lvl}}"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BARKSKIN"
+data "DescriptionParams" "{{add $lvl 15}}"
+data "Boosts" "ACOverrideFormula({{add $lvl 15}},false)"
+{{ end }}

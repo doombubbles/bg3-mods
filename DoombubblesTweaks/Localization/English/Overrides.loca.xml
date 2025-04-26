@@ -61,4 +61,6 @@
 
   <content contentuid="hcc7d4350g378dg4656gad9cgb4b398a078f4" version="1">You may change your cantrip by selecting another one from the Wizard spell list below. This cantrip doesn't use &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; and can be cast at will.</content>
     
+	<content contentuid="h5bcb9564gdedbg41cegb1ddg24758bee7bf9" version="1">Protect a creature from attacks: increase its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; up to [1].</content>
+  <content contentuid="h6e39528cgfaf6g478cg9d83g05e788751ff9" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to [1].</content>
 </contentList>

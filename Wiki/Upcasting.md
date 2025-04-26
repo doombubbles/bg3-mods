@@ -12,6 +12,8 @@
 
 **Blinding Smite** - Now deals an extra 1d8 damage per additional spell slot level
 
+**Barkskin** - Upcasts now give +1 more AC per additional spell slot level
+
 ### Cantrips
 
 Many cantrips can now be upcasted to be stronger but actually cost a spell slot.

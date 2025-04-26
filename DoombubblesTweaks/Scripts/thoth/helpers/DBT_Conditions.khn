@@ -123,15 +123,16 @@ function IsDamageTypeUnarmed()
 end
 
 function HeavyWeaponMasterMelee(entity)
-  local entity = entity or context.Source
-  local weapon = GetActiveWeapon(entity, true)
+  -- local entity = entity or context.Source
+  -- local weapon = GetActiveWeapon(entity, true)
 
-  local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
-  local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
+  -- local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
+  -- local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
 
-  local res = IsProficientWith(entity, weapon) & isMelee & isHeavy
+  -- local res = IsProficientWith(entity, weapon) & isMelee & isHeavy
 
-  return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
+  -- return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
+  return GreatWeaponMaster(entity)
 end
 
 function HeavyWeaponMasterRanged(entity, allowBows)

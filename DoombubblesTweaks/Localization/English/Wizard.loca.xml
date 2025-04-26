@@ -42,4 +42,6 @@
 
 	<content contentuid="h3f7f3e27g6112g4db5g863dg80e54b3a331f" version="1">Your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; become harder to evade entirely.&lt;br&gt;&lt;br&gt;When a creature succeeds its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or you miss your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; for one of your cantrips, it still takes half the cantrip's damage, but suffers no additional effects.</content>
 
+	<content contentuid="h926da65bg102ag4390gb20fg545c38607e37" version="1">Bladesong Encore</content>
+	<content contentuid="h282208a7gea29g43f2g8cf5gcbb30f5796a9" version="1">Your &lt;LSTag Type="Spell" Tooltip="Shout_Bladesong"&gt;Bladesongs&lt;/LSTag&gt; will last for only 3 turns, but you will restore the &lt;LSTag Type="ActionResource" Tooltip="BladeSong"&gt;Bladesong Power&lt;/LSTag&gt; spent when you next take a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 </contentList>

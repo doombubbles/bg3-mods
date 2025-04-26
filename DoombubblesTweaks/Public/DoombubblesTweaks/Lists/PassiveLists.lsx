@@ -141,6 +141,11 @@
           <attribute id="UUID" type="guid" value="4cd42d3b-20cf-44cb-be14-9aae7c111766"/>
         </node>
 
+        <!-- Draconic Ancestries Magician -->
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="DraconicAncestry_Red_Magician,DraconicAncestry_Black_Magician,DraconicAncestry_Blue_Magician,DraconicAncestry_White_Magician,DraconicAncestry_Green_Magician,DraconicAncestry_Gold_Magician,DraconicAncestry_Silver_Magician,DraconicAncestry_Bronze_Magician,DraconicAncestry_Copper_Magician,DraconicAncestry_Brass_Magician,DraconicAncestry_Brass_Magician,DraconicAncestry_Ruby_Magician,DraconicAncestry_Diamond_Magician,DraconicAncestry_Amethyst_Magician,DraconicAncestry_Emerald_Magician,DraconicAncestry_Sapphire_Magician,DraconicAncestry_Topaz_Magician"/>
+          <attribute id="UUID" type="guid" value="2b1495fb-2f41-4632-bf7e-814c6a71b7b4"/>
+        </node>
 
       </children>
     </node>

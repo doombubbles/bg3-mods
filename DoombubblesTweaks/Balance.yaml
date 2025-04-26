@@ -2,9 +2,11 @@
 QuickenedCantripsPerCombat: true
 ClothesAlwaysBuff: false
 UniversalClothGivesBoth: true
-WildshapeDoubleDip: false
 PotenterCantrip: false
 PotentSacredRing: false
+MagicianCastingAbility: Intelligence
+MagicianLessSorceryPoints: false
+SpecialArrowsPerCombat: true
 
 # Base Game nerfs
 NerfTavernBrawler: false
@@ -13,6 +15,7 @@ NerfSlashingFlourish: false
 FixSlashingFlourish: false
 PotionSickness: false
 FixEarthMyrmidon: false
+WildshapeDontDoubleDip: true
 
 # Base Game Buffs
 HealingBuffs: true

@@ -28,6 +28,10 @@
 
 **Destuctive Wave** - Added a pure Thunder variant
 
+**Flame Blade** - Now lasts until long rest like Shadow Blade does
+
+**Barksin** - No longer concentration, base AC is 17
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat

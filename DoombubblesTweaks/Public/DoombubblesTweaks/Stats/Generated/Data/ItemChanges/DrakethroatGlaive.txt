@@ -1,0 +1,37 @@
+new entry "MAG_BG_DragonsBreath_Glaive"
+type "Weapon"
+using "MAG_BG_DragonsBreath_Glaive"
+data "StatusInInventory" "DRAKETHROAT_GLAIVE_CAST"
+
+new entry "DRAKETHROAT_GLAIVE_CAST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hba1e047cgb3e6g49d2ga209gf6e6e1dfbecf"
+data "Icon" "Spell_Transmutation_ElementalWeapon"
+data "Boosts" "UnlockSpell(Target_MAG_ElementalWeapon_Temp)"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisablePortraitIndicator;DisableCombatlog;DisableOverhead"
+
+{{ $elements := list "Acid" "Cold" "Fire" "Lightning" "Thunder" }}
+
+new entry "Target_MAG_ElementalWeapon_Temp"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ElementalWeapon"
+data "Cooldown" "OncePerRest"
+data "ContainerSpells" "{{ range $e := $elements }}Target_MAG_ElementalWeapon_Temp_{{$e}};{{end}}"
+
+{{ range $e := $elements }}
+new entry "Target_MAG_ElementalWeapon_Temp_{{$e}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MAG_ElementalWeapon_{{$e}}"
+data "Cooldown" "OncePerRest"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_TEMP_{{$e | upper}},100,-1);IF(not Item()):ApplyEquipmentStatus(MainHand,ELEMENTAL_WEAPON_TEMP_{{$e | upper}},100,-1)"
+
+new entry "ELEMENTAL_WEAPON_TEMP_{{$e | upper}}"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ELEMENTAL_WEAPON_{{$e | upper}}"
+data "RemoveConditions" "not HasStatus('DRAKETHROAT_GLAIVE_CAST', GetOwner(context.Source))"
+data "RemoveEvents" "OnTurn;OnStatusRemoved"
+{{ end }}

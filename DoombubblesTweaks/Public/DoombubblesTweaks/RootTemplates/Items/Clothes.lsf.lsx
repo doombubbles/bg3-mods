@@ -2820,6 +2820,21 @@
           </children>
         </node>
 
+
+        <node id="GameObjects">
+					<attribute id="ColorPreset" type="guid" value="cef04a87-1fbf-a2d3-3755-93725ceb7896" />
+					<attribute id="Description" type="TranslatedString" handle="hf65eed04g1428g434eg9e0dg5be680b67e7c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h797d0b9fgcc3dg4773ga4beg0d4a75cd049e" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_DLC_TWITCH_Underwear_B" />
+					<attribute id="MapKey" type="FixedString" value="562a4721-7c6f-41ff-83e6-fd64605c8835" />
+					<attribute id="Name" type="LSString" value="DBT_Rest_Underwear" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6af55dd-a75a-46ea-87f0-89ebf4e7b74e" />
+          <attribute id="Stats" type="FixedString" value="DBT_Rest_Underwear" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="47ed3950-be9b-a6a1-3d03-3cff04a85f07" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209029" />
+				</node>
+
       </children>
     </node>
   </region>

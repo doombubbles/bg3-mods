@@ -3,13 +3,10 @@
 new entry "TavernBrawler"
 type "PassiveData"
 using "TavernBrawler"
-data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,{{$TavernBrawlerModifier}}));IF(IsUnarmedWildshape() and IsUnarmedAttack(){{if not $.Balance.WildshapeDoubleDip}} and (IsDamageTypeBludgeoning() or IsDamageTypePiercing() or IsDamageTypeSlashing()){{end}}):DamageBonus(max(0,{{$TavernBrawlerModifier}}))"
+data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,{{$TavernBrawlerModifier}}));IF(IsUnarmedWildshape(){{if $.Balance.WildshapeDontDoubleDip}} and IsUnarmedAttack() and (IsDamageTypeBludgeoning() or IsDamageTypePiercing() or IsDamageTypeSlashing()){{end}}):DamageBonus(max(0,{{$TavernBrawlerModifier}}))"
 data "StatsFunctorContext" ""
 data "Conditions" ""
 data "StatsFunctors" ""
-data "StatsFunctorContext" "OnAttack"
-data "Conditions" "(IsRangedUnarmedAttack() or SpellId('Throw_ImprovisedWeapon') or SpellId('Throw_ImprovisedWeaponBerserker')) and HasDamageEffectFlag(DamageFlags.Hit)"
-data "StatsFunctors" "DealDamage({{$TavernBrawlerModifier}});"
 {{- if $.Balance.NerfTavernBrawler }}
 data "Description" "h1fecb306g6183g4f42gbd47gcaf6810fe343"
 {{- end }}
