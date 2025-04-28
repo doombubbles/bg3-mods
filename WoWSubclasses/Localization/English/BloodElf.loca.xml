@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+  <content contentuid="h1936a9aag714ag4c21g91d3g18ccdcb45a3f" version="1">Blood Elf</content>
+  <content contentuid="h4da495bcgefb4g4bfcga0cagca7a9dafc51c" version="1">Blood Half-Elf</content>
+
+  <content contentuid="h1ff7536bg6f42g4d36gad70gdb46799e3cc1" version="1">Heirs to the mystical Sunwell, Blood Elves crave magic in all its forms, and even those who do not study spellcraft can siphon the weave from others.</content>
+  <content contentuid="h715306bfg2a45g4c20g9c1dg2fa1e65d0c5d" version="1">The craving of the Sunwell remains in half-elves with this bloodline, and even those untrained in magic possess a hint of Weave addiction.</content>
+
+  <content contentuid="h624846a2g7efcg4bb2g9248g67efc3e8122a" version="1">Arcane Torrent</content>
+  <content contentuid="hdf6fe348gc9dcg4ac6gad33gd98e74002045" version="1">Break the &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt; of any enemies near you, and restore an expended level [1] spell slot and/or other class resources.</content>
+  <content contentuid="h2915b6c3g2a0bg4af0gae19g12ce699d7fbb" version="1">Includes: &lt;LSTag Type="ActionResource" Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;, &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity Charges&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charges&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wild Shape Charges&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Recovery Charges&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charges&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;War Priest Attacks&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="ArcaneShot"&gt;Arcane Shots&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="StarMapPoint"&gt;Star Maps&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="CosmicOmen"&gt;Cosmic Omens&lt;/LSTag&gt;, and &lt;LSTag Type="ActionResource" Tooltip="Bladesong"&gt;Bladesong Charges&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h771f67fcg490fg470cgafc8gf8ed50e7a300" version="1">Arcane Affinity</content>
+  <content contentuid="h53863d2dgf576g4fd3g902agda577d1f7e38" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt;.</content>
+
+</contentList>

@@ -143,7 +143,7 @@
       }
     },
     {
-      "label": "Open In Toolkit",
+      "label": "Open DoombubblesTweaks In Toolkit",
       "type": "process",
       "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
       "args": [
@@ -163,6 +163,52 @@
       },
       "dependsOn": [
         "Build DoombubblesTweaks"
+      ],
+    },
+    {
+      "label": "Open WoWSubclasses In Toolkit",
+      "type": "process",
+      "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
+      "args": [
+        "-project",
+        "WoWSubclasses",
+        "-lvl",
+        "WLD_Campfire_E"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem",
+      },
+      "options": {
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
+      },
+      "dependsOn": [
+        "Build WoWSubclasses"
+      ],
+    },
+    {
+      "label": "Open WoWDeathKnight In Toolkit",
+      "type": "process",
+      "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
+      "args": [
+        "-project",
+        "WoWDeathKnight",
+        "-lvl",
+        "WLD_Campfire_E"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem",
+      },
+      "options": {
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
+      },
+      "dependsOn": [
+        "Build WoWDeathKnight"
       ],
     },
   ]

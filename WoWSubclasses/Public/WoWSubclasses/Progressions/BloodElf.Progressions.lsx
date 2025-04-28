@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Arcana)"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="BloodElf"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(a95e2264-3e59-42fa-b61e-d2f4f7edf396,ArcaneTorrent,,,AlwaysPrepared,UntilRest)"/>
+          <attribute id="TableUUID" type="guid" value="36d981cc-c118-4923-a37a-c93b76bd34bb"/>
+          <attribute id="UUID" type="guid" value="f3bca47a-aca9-4d63-8308-a4ba1ae049f1"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Arcana)"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="BloodHalfElf"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(a95e2264-3e59-42fa-b61e-d2f4f7edf396,ArcaneTorrent,,,AlwaysPrepared,UntilRest)"/>
+          <attribute id="TableUUID" type="guid" value="16d9538f-9658-4857-84fb-21437413c46a"/>
+          <attribute id="UUID" type="guid" value="3c65d7b7-70bf-433c-9aa7-7cae12c8e695"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

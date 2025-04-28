@@ -10,6 +10,42 @@
           <attribute id="SelectorId" type="FixedString" value="FuryAttacks"/>
           <attribute id="UUID" type="guid" value="bc2c1bc0-a518-4d3e-b09a-aef10d1f3ebf"/>
         </node>
+
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h1ff7536bg6f42g4d36gad70gdb46799e3cc1" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h1936a9aag714ag4c21g91d3g18ccdcb45a3f" version="1"/>
+          <attribute id="ProgressionTableId" type="guid" value="36d981cc-c118-4923-a37a-c93b76bd34bb"/>
+          <attribute id="Type" type="FixedString" value="BloodElf"/>
+          <attribute id="UUID" type="guid" value="f85e7f25-560d-4bf4-803f-0be5f5326ed5"/>
+        </node>
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h53863d2dgf576g4fd3g902agda577d1f7e38" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h771f67fcg490fg470cgafc8gf8ed50e7a300" version="1"/>
+          <attribute id="ExactMatch" type="FixedString" value="ProficiencyBonus(Skill,Arcana)"/>
+          <attribute id="ProgressionId" type="guid" value="f3bca47a-aca9-4d63-8308-a4ba1ae049f1"/>
+          <attribute id="UUID" type="guid" value="e37ec9c7-8206-4cd8-b6b4-4a46f5dc67de"/>
+        </node>
+
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h715306bfg2a45g4c20g9c1dg2fa1e65d0c5d" version="2"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h4da495bcgefb4g4bfcga0cagca7a9dafc51c" version="1"/>
+          <attribute id="ProgressionTableId" type="guid" value="16d9538f-9658-4857-84fb-21437413c46a"/>
+          <attribute id="Type" type="FixedString" value="BloodHalfElf"/>
+          <attribute id="UUID" type="guid" value="c96da7ac-1525-4215-8820-134122e1a97b"/>
+        </node>
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h53863d2dgf576g4fd3g902agda577d1f7e38" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h771f67fcg490fg470cgafc8gf8ed50e7a300" version="1"/>
+          <attribute id="ExactMatch" type="FixedString" value="ProficiencyBonus(Skill,Arcana)"/>
+          <attribute id="ProgressionId" type="guid" value="3c65d7b7-70bf-433c-9aa7-7cae12c8e695"/>
+          <attribute id="UUID" type="guid" value="5700e11d-b82c-47d7-adde-a86fa66c2d58"/>
+        </node>
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="hdf6fe348gc9dcg4ac6gad33gd98e74002045" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h624846a2g7efcg4bb2g9248g67efc3e8122a" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="ArcaneTorrent"/>
+          <attribute id="UUID" type="guid" value="4d4fc27e-34c8-4ca4-a8e0-8a64e2efea3b"/>
+        </node>
       </children>
     </node>
   </region>

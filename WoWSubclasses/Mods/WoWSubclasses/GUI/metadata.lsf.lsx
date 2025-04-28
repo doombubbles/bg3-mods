@@ -6,6 +6,26 @@
 			<children>
 				<node id="entries">
 					<children>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/CC/icons_races/Elf_BloodElf.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="196" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="196" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/CC/icons_races/HalfElf_Blood.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="196" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="196" />
+								</node>
+							</children>
+						</node>
 						{{- range $class := list "Arcane" "Fire" "Frost" "Fury" "Retribution" }}
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/{{$class}}.png" />

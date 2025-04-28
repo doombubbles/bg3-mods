@@ -54,6 +54,11 @@
           <attribute id="Spells" type="LSString" value="Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury"/>
           <attribute id="UUID" type="guid" value="b73fd83d-ad43-44f8-8f23-a20d3bfed7a3"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Blood Elf Arcane Torrent"/>
+          <attribute id="Spells" type="LSString" value="Shout_ArcaneTorrent"/>
+          <attribute id="UUID" type="guid" value="a95e2264-3e59-42fa-b61e-d2f4f7edf396"/>
+        </node>
       </children>
     </node>
   </region>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="24bcc44f-4168-1468-222a-b1bb6370e000" />
+					<attribute id="Icon" type="FixedString" value="24bcc44f-4168-1468-222a-b1bb6370e000-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9b56cece-a0a1-4416-94ca-d78c978dd9c4" />
+					<attribute id="Name" type="LSString" value="BASE_Elves_Female_Blood" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4c3d8aa0-2e31-4dce-a792-84fc07fa63d8" />
+					<attribute id="Race" type="guid" value="b29f70c6-5258-4497-88fc-e26b63c3132c" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855903" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="54a1d7d5-ff38-e96b-3473-86abf7130668" />
+					<attribute id="Icon" type="FixedString" value="54a1d7d5-ff38-e96b-3473-86abf7130668-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0c5ed536-a2fa-4e19-a574-c67c46e83b31" />
+					<attribute id="Name" type="LSString" value="BASE_Elves_Male_Blood" />
+					<attribute id="ParentTemplateId" type="FixedString" value="858a8c1e-b8fa-429f-9a31-41033042ede3" />
+					<attribute id="Race" type="guid" value="b29f70c6-5258-4497-88fc-e26b63c3132c" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855903" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+        <node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="92ee0e6c-939c-a1f0-cad6-95aa80a1ed5d" />
+					<attribute id="Icon" type="FixedString" value="92ee0e6c-939c-a1f0-cad6-95aa80a1ed5d-_(Icon_HalfElf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7e3b1942-36b8-4ae7-b445-aa4be3e1ccb8" />
+					<attribute id="Name" type="LSString" value="BASE_HalfElves_Female_Blood" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ebd9d3bf-9759-4244-b20a-a57c1f4bafe6" />
+					<attribute id="Race" type="guid" value="360b24eb-f615-414d-8c7e-f9a37ee4d2cb" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855905" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+        <node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="8ea197bb-82db-9375-cbcc-065e148ca70e" />
+					<attribute id="Icon" type="FixedString" value="8ea197bb-82db-9375-cbcc-065e148ca70e-_(Icon_HalfElf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="39036eea-5a09-49a5-8534-887b17121a08" />
+					<attribute id="Name" type="LSString" value="BASE_HalfElves_Male_Blood" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cee79608-12bc-47dc-8577-d2e46e8ba48d" />
+					<attribute id="Race" type="guid" value="360b24eb-f615-414d-8c7e-f9a37ee4d2cb" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855905" />
+					<children>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+
+        
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d67bd924-3c1f-c33a-5298-feca5bbdc284" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="d67bd924-3c1f-c33a-5298-feca5bbdc284-_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="3b0a62e2-2e68-4217-971a-323e274f21c2" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Blood_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9b56cece-a0a1-4416-94ca-d78c978dd9c4" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="e1254a4e-3d52-76c2-7b19-52e93941b6dd" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="5064dd4e-d4ec-e30a-c784-a98596d7070f" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="Icon" type="FixedString" value="5064dd4e-d4ec-e30a-c784-a98596d7070f-_(Icon_Human_Female_Strong)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="020b2556-6eb7-447e-9798-4ba0416e3110" />
+					<attribute id="Name" type="LSString" value="Elves_Female_High_Blood_Strong" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3b0a62e2-2e68-4217-971a-323e274f21c2" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="8d3b10f3-7f7c-626d-0d13-4d6223de9f94" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+        
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="015bd884-82d1-cc15-2a0f-0cb8524028f4" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="015bd884-82d1-cc15-2a0f-0cb8524028f4-_(Icon_Elf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d8cd13aa-5915-4332-86ed-5727aa88e439" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Blood_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0c5ed536-a2fa-4e19-a574-c67c46e83b31" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="f7af9f10-cd33-3b88-e96a-d52952e81f5b" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c457d519-ddf4-a023-667a-38d2565511e3" />
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="Icon" type="FixedString" value="c457d519-ddf4-a023-667a-38d2565511e3-_(Icon_Human_Male_Strong)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ade1b1d4-c69a-414c-8943-47aace634625" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Blood_Player_Strong" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d8cd13aa-5915-4332-86ed-5727aa88e439" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="76172a38-007d-6213-d75c-820a8b67004a" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+        <node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d598ca76-ca77-2fb1-3010-ebff8dcaf3c5" />
+					<attribute id="Icon" type="FixedString" value="d598ca76-ca77-2fb1-3010-ebff8dcaf3c5-_(Icon_HalfElf_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="24e0c833-7d1e-4464-af39-a8cbc086928c" />
+					<attribute id="Name" type="LSString" value="HalfElves_Male_Blood_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="39036eea-5a09-49a5-8534-887b17121a08" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="345d747b-fd96-f13c-cae5-a7f750e65040" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroHalfElfMale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.499" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="9f573c86-3162-1d53-884b-05d8a00511ab" />
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="Icon" type="FixedString" value="9f573c86-3162-1d53-884b-05d8a00511ab-_(Icon_Human_Male_Strong)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f2a4c658-815a-46ca-9f83-25bb0654378b" />
+					<attribute id="Name" type="LSString" value="HalfElves_Male_Blood_Player_Strong" />
+					<attribute id="ParentTemplateId" type="FixedString" value="24e0c833-7d1e-4464-af39-a8cbc086928c" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="a97ff4b7-f9d9-0c00-9c1b-65275ba4b704" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+        
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="1c36f857-0a5e-a0e2-66d9-9c5b24daf824" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="1c36f857-0a5e-a0e2-66d9-9c5b24daf824-_(Icon_HalfElf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d50d4cbe-e12b-4512-b03e-e4c91606eaf6" />
+					<attribute id="Name" type="LSString" value="HalfElves_Female_Blood_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7e3b1942-36b8-4ae7-b445-aa4be3e1ccb8" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="a58738bb-b385-080c-11da-85a2787a9b3d" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroHalfElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3a01c388-506f-3b91-721a-9c5692db3357" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="Icon" type="FixedString" value="3a01c388-506f-3b91-721a-9c5692db3357-_(Icon_Human_Female_Strong)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ecd4a7ce-d2c7-4481-81ae-edb43faf07e6" />
+					<attribute id="Name" type="LSString" value="HalfElves_Female_Blood_Player_Strong" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d50d4cbe-e12b-4512-b03e-e4c91606eaf6" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="93acb59c-c9d9-f59d-41dc-b6d7e0e6fba6" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632512" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+      </children>
+    </node>
+  </region>
+</save>
