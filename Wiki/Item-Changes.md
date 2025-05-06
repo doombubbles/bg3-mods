@@ -49,6 +49,8 @@
 
 **Shar's Aegis** - Usable per Short Rest
 
+**Ironwood Club** - Damage bonus increased from 1d4 to 1d8
+
 ### Phalar Aluve
 
 - Added new "Screech" option
@@ -78,3 +80,10 @@
   - Can cast Dissonant Whispers and Phantasmal Killer per Short Rest
 - Kereska Buffs no longer go away when you're polymorphed like with Shapechanger
 
+### Throwing
+
+The following weapons should now have special effects when thrown (may only apply for newly acquired versions of them)
+- The Sparky Points: Gives Lightning Charges
+- Sussur Dagger: Chance to silence
+- Trident of the Waves: Applying Wet + Puddle
+- Bloodthirst: Applying vulnerability

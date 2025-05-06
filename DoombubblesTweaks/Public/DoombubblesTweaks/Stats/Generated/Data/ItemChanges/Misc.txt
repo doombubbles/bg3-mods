@@ -129,7 +129,7 @@ type "PassiveData"
 using "UNI_UND_RingOfMindShielding_Passive"
 data "Description" "he0bf7eecgd59eg4dbcgab40g86157ba291a8"
 data "ExtraDescription" "h6c0a9cf9g5804g42b4gb909gcb0cfd6e322a"
-data "Boosts" "Tag(CHARMED_ADV);Advantage(SavingThrow, Intelligence)"  
+data "Boosts" "Tag(CHARMED_ADV);Advantage(SavingThrow, Intelligence)"
 
 
 // Fix it mistakenly removing the bonus action in some instances
@@ -158,3 +158,17 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_UND_Spectator_Ray_Wounding"
 data "Cooldown" "OncePerCombat"
+
+
+new entry "MAG_DRUID_SHILLELAGH_SUPPORT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_DRUID_SHILLELAGH_SUPPORT"
+data "DescriptionParams" "DealDamage(1d8, Bludgeoning)"
+data "Boosts" "IF(HasStatus('SHILLELAGH',GetAttackWeapon())):WeaponDamage(1d8,Bludgeoning)"
+data "StatusPropertyFlags" "IgnoreResting"
+
+new entry "MAG_BardicInspiration_Heal_Hat_Passive"
+type "PassiveData"
+using "MAG_BardicInspiration_Heal_Hat_Passive"
+data "StatsFunctors" "RegainHitPoints(1d6);IF(HasPassive('UNI_MassHealRing_Passive', context.Source)):ApplyStatus(BLESS,100,2);IF(HasPassive('UND_SocietyOfBrilliance_PullingRing_Passive', context.Source)):RegainHitPoints(2)"

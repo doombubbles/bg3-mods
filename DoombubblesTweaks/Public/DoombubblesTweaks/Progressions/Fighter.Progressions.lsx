@@ -53,14 +53,14 @@
 
         <!-- Champion Unarmed -->
 
-        <node id="Progression">
+        <!-- <node id="Progression">
           <attribute id="Level" type="uint8" value="3"/>
           <attribute id="Name" type="LSString" value="Champion"/>
           <attribute id="PassivesAdded" type="LSString" value="ImprovedCritical;Champion_Unarmed"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="TableUUID" type="guid" value="9b2ff703-7924-4a66-b119-ae4d716a4522"/>
           <attribute id="UUID" type="guid" value="cbd87913-03ee-484b-bc62-57d6867e8aca"/>
-        </node>
+        </node> -->
 
       </children>
     </node>

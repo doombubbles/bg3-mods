@@ -1,4 +1,3 @@
-
 new entry "GOADING_ATTACK"
 type "StatusData"
 data "StatusType" "BOOST"

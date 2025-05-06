@@ -105,7 +105,7 @@
   <content contentuid="ha8710349g043dg4faagabfag7c66d34d137a" version="1">Movement speed reduced by [1]. Takes [2] per turn.</content>
 
   <content contentuid="h02ad57cfg80b7g4873gb696g8072cc641e3c" version="1">Frostscythe</content>
-  <content contentuid="hba0e3b53ga06bg4ab4g8539gede1fbf0592c" version="1">A sweeping attack that strikes up to [1] enemies in front of you for an additional [1].</content>
+  <content contentuid="hba0e3b53ga06bg4ab4g8539gede1fbf0592c" version="1">A sweeping attack that strikes up to 3 enemies in front of you for an additional [1].</content>
   <content contentuid="h112ce0b6g1ac5g4f69ga831ga93a2fdf1910" version="1">On a &lt;LSTag Tooltip="CriticalHit"&gt;critical hits&lt;/LSTag&gt;, the bonus Cold damage dealt is additionally doubled.</content>
 
   <content contentuid="hcaaba427gc8e1g467agbaf3g59ad9c2b1076" version="1">Rime</content>

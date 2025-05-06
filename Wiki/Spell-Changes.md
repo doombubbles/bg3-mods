@@ -32,6 +32,8 @@
 
 **Barksin** - No longer concentration, base AC is 17
 
+**Shadow Blade / Flame Blade** - While in your inventory, you gain the ability to infuse a different weapon with a coating for extra Psychic / Fire damage
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat

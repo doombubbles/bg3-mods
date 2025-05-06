@@ -41,4 +41,10 @@
 
 	<content contentuid="h4d77ec93gd4c5g4678gad2dg4487ab3ee2bf" version="1">Archer's Alacrity</content>
 	<content contentuid="hb4fcf64dg33b9g424ag84c1ge4b577abc9cf" version="1">Your faith of the heart is so strong that you can cast your special arrows once per combat without consuming them.</content>
+
+	<content contentuid="h1154b886g9a80g4c43ga56cgb3dc5166e842" version="1">Shadow Blade Infusion</content>
+	<content contentuid="ha5da6f08gfae7g4394g86f4ga663a1a8ae69" version="1">Use your magical blade to infuse another weapon, making it deal an extra [1].</content>
+	<content contentuid="h037e7784ga5bcg4a59g8e3bgdc516bfbeeaf" version="1">Counts as a weapon dip / coating. Only lasts while the weapon remains in the possession of the caster.</content>
+	<content contentuid="h028ee228g7319g492cg9fc9gaab3c33579b3" version="1">Dealing an extra [1].</content>
+	<content contentuid="hd15fc4c1ge45ag4440g9317ge4bfde92ac1a" version="1">Flame Blade Infusion</content>
 </contentList>

@@ -12,3 +12,4 @@ MAG_Force_Tyrant_Passive: 1d8, Force
 MAG_Barbarian_Hide_Helmet_Bloodthirsty_Passive: 2, Necrotic
 TavernBrawler: StrengthModifier
 MAG_Monk_Magic_Boots_Passive: WisdomModifier
+ImprovedUnarmedOffense_Barbarian: ConstitutionModifier

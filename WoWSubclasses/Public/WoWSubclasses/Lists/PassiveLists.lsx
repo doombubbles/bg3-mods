@@ -6,9 +6,10 @@
       <children>
         <!-- Warlock Pacts -->
         <node id="PassiveList">
-          <attribute id="MergedInto" type="guid" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae"/>
-          <attribute id="Passives" type="LSString" value="PactOfDestruction"/>
-          <attribute id="UUID" type="guid" value="89f502f1-4b0f-46de-9ecf-7fa70fcea0db"/>
+          <attribute id="MergedInto" type="guid" value="0e140900-14d9-4c38-8720-49936dbb8ba7"/>
+          <attribute id="Name" type="FixedString" value="Warlock Pact options updated"/>
+          <attribute id="Passives" type="LSString" value="PactOfDestruction,PactOfDemonology"/>
+          <attribute id="UUID" type="guid" value="049a0b08-12d5-4f7c-87d6-7b222c0d41d2"/>
         </node>
 
         <!-- Favoured Enemies -->

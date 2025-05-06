@@ -20,7 +20,7 @@
 	<content contentuid="heeb02e43g1283g41cega922g3843b75b713c" version="1">Improved Critical Jab</content>
 	<content contentuid="hac8acb98gdf36g4ab7g95dbgbc31332c6c37" version="1">For unarmed attacks, the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by an additional 1. This effect can stack.</content>
 	<content contentuid="h228b48e3g0fd7g40b3ga2f2ga0c7071d9e8e" version="1">Brawl Magic</content>
-	<content contentuid="h4d4bd79fg82b1g4e01ga5feg410678f0d7db" version="1">While unarmed, your &lt;LSTag Type="Status" Tooltip="WM_BONUS_CANTRIP"&gt;War Magic&lt;/LSTag&gt; cantrip spell attacks will be affected by your unarmed damage bonuses.</content>
+	<content contentuid="h4d4bd79fg82b1g4e01ga5feg410678f0d7db" version="1">While you have no weapon in your main hand, damage bonuses for your unarmed attacks also apply to your cantrips.</content>
 
 	<content contentuid="h61f5b2fbg1b82g41bdgad79g51b91e31b330" version="1">Bound weapons use the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; instead of &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, if it's higher.</content>
 	

@@ -1,0 +1,150 @@
+// Flame Blades should be Magical and Finesse
+new entry "WPN_Scimitar_FlameBlade"
+type "Weapon"
+using "WPN_Scimitar_FlameBlade"
+data "Weapon Properties" "Melee;Unstowable;Light;Magical;Finesse"
+
+// Flame blade all day like shadow blade
+
+new entry "Shout_FlameBlade"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade"
+data "SpellProperties" "AI_IGNORE:SummonInInventory(dfb5a6ef-baee-4c0e-9b9d-7f5bd9458131,-1,1,true,true,true,,,FLAME_BLADE,FLAME_BLADE);ApplyStatus(SELF, MAG_FLAME_BLADE_OWNER, 100, -1);AI_ONLY:IF(not HasStatus('FLAME_BLADE',GetActiveWeapon())):ApplyStatus(AI_HELPER_FLAMEBLADE,100,5)"
+
+
+new entry "Shout_FlameBlade_3"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade_3"
+data "SpellProperties" "AI_IGNORE:SummonInInventory(dfb5a6ef-baee-4c0e-9b9d-7f5bd9458131,-1,1,true,true,true,,,FLAME_BLADE,FLAME_BLADE);ApplyStatus(SELF, MAG_FLAME_BLADE_OWNER, 100, -1);AI_ONLY:IF(not HasStatus('FLAME_BLADE',GetActiveWeapon())):ApplyStatus(AI_HELPER_FLAMEBLADE,100,5)"
+
+
+new entry "Shout_FlameBlade_MephistophelesTiefling"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade_MephistophelesTiefling"
+data "SpellProperties" "AI_IGNORE:SummonInInventory(dfb5a6ef-baee-4c0e-9b9d-7f5bd9458131,-1,1,true,true,true,,,FLAME_BLADE,FLAME_BLADE_MEPHISTOPHELES);ApplyStatus(SELF, MAG_FLAME_BLADE_OWNER, 100, -1);AI_ONLY:IF(not HasStatus('FLAME_BLADE_MEPHISTOPHELES',GetActiveWeapon())):ApplyStatus(AI_HELPER_FLAMEBLADE,100,5)"
+
+new entry "Shout_FlameBlade_4"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade_4"
+data "SpellProperties" "AI_IGNORE:SummonInInventory(7bbfed72-1302-4709-8da5-2220343d7d29,-1,1,true,true,true,,,FLAME_BLADE,FLAME_BLADE);ApplyStatus(SELF, MAG_FLAME_BLADE_OWNER_1, 100, -1);AI_ONLY:IF(not HasStatus('FLAME_BLADE',GetActiveWeapon())):ApplyStatus(AI_HELPER_FLAMEBLADE_4,100,5)"
+
+new entry "Shout_FlameBlade_5"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade_5"
+data "SpellProperties" "AI_IGNORE:SummonInInventory(7bbfed72-1302-4709-8da5-2220343d7d29,-1,1,true,true,true,,,FLAME_BLADE,FLAME_BLADE);ApplyStatus(SELF, MAG_FLAME_BLADE_OWNER_1, 100, -1);AI_ONLY:IF(not HasStatus('FLAME_BLADE',GetActiveWeapon())):ApplyStatus(AI_HELPER_FLAMEBLADE_4,100,5)"
+
+new entry "Shout_FlameBlade_6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade_6"
+data "SpellProperties" "AI_IGNORE:SummonInInventory(86792fbe-2344-4742-b114-e3836442c943,-1,1,true,true,true,,,FLAME_BLADE,FLAME_BLADE);ApplyStatus(SELF, MAG_FLAME_BLADE_OWNER_2, 100, -1);AI_ONLY:IF(not HasStatus('FLAME_BLADE',GetActiveWeapon())):ApplyStatus(AI_HELPER_FLAMEBLADE_6,100,5)"
+
+
+new entry "MAG_FLAME_BLADE_OWNER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h7a973781g041bg46aag9554g83de88b20158;1"
+data "StackId" "MAG_FLAME_BLADE_OWNER"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Passives" "FlameBladeBuffApply"
+
+new entry "MAG_FLAME_BLADE_OWNER_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_FLAME_BLADE_OWNER"
+data "StackPriority" "1"
+data "Passives" "FlameBladeBuffApply1"
+
+new entry "MAG_FLAME_BLADE_OWNER_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_FLAME_BLADE_OWNER"
+data "StackPriority" "2"
+data "Passives" "FlameBladeBuffApply2"
+
+
+new entry "FlameBladeBuffApply"
+type "PassiveData"
+data "DisplayName" "hd15fc4c1ge45ag4440g9317ge4bfde92ac1a"
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Shout_FlameBlade_Buff)"
+
+new entry "FlameBladeBuffApply1"
+type "PassiveData"
+using "FlameBladeBuffApply"
+data "Boosts" "UnlockSpell(Shout_FlameBlade_Buff_1)"
+
+new entry "FlameBladeBuffApply2"
+type "PassiveData"
+using "FlameBladeBuffApply"
+data "Boosts" "UnlockSpell(Shout_FlameBlade_Buff_2)"
+
+
+
+new entry "Shout_FlameBlade_Buff"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade"
+data "DisplayName" "hd15fc4c1ge45ag4440g9317ge4bfde92ac1a"
+data "Description" "ha5da6f08gfae7g4394g86f4ga663a1a8ae69"
+data "DescriptionParams" "DealDamage(1d6, Fire)"
+data "ExtraDescription" "h037e7784ga5bcg4a59g8e3bgdc516bfbeeaf"
+data "SpellProperties" "ApplyEquipmentStatus(MeleeMainHand, FLAME_BLADE_BUFF, 100, -1)"
+data "RequirementConditions" "HasCoatableWeapon() and not HasStatus('FLAME_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and not HasStatus('FLAME_BLADE_BUFF', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))"
+data "TooltipUpcastDescription" ""
+data "TooltipUpcastDescriptionParams" ""
+data "UseCosts" "BonusActionPoint:1"
+data "Level" ""
+data "SpellSchool" ""
+
+
+new entry "Shout_FlameBlade_Buff_1"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade_Buff"
+data "DescriptionParams" "DealDamage(1d8, Fire)"
+data "SpellProperties" "ApplyEquipmentStatus(MeleeMainHand, FLAME_BLADE_BUFF_1, 100, -1)"
+data "RequirementConditions" "HasCoatableWeapon() and not HasStatus('FLAME_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and not HasStatus('FLAME_BLADE_BUFF_1', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))"
+
+
+new entry "Shout_FlameBlade_Buff_2"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade_Buff"
+data "DescriptionParams" "DealDamage(1d10, Fire)"
+data "SpellProperties" "ApplyEquipmentStatus(MeleeMainHand, FLAME_BLADE_BUFF_2, 100, -1)"
+data "RequirementConditions" "HasCoatableWeapon() and not HasStatus('FLAME_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and not HasStatus('FLAME_BLADE_BUFF_2', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))"
+
+
+new entry "FLAME_BLADE_BUFF"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1154b886g9a80g4c43ga56cgb3dc5166e842"
+data "Description" "h028ee228g7319g492cg9fc9gaab3c33579b3"
+data "DescriptionParams" "DealDamage(1d6, Fire)"
+data "StackId" "DIPPED"
+data "Boosts" "WeaponDamage(1d6, Fire)"
+data "RemoveConditions" "not HasStatus('MAG_FLAME_BLADE_OWNER', GetOwner(context.Source))"
+data "RemoveEvents" "OnStatusRemoved;OnInventoryChanged;OnAttack"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator"
+
+new entry "FLAME_BLADE_BUFF_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FLAME_BLADE_BUFF"
+data "DescriptionParams" "DealDamage(1d8, Fire)"
+data "Boosts" "WeaponDamage(1d8, Fire)"
+data "RemoveConditions" "not HasStatus('MAG_FLAME_BLADE_OWNER_1', GetOwner(context.Source))"
+
+new entry "FLAME_BLADE_BUFF_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FLAME_BLADE_BUFF"
+data "DescriptionParams" "DealDamage(1d10, Fire)"
+data "Boosts" "WeaponDamage(1d10, Fire)"
+data "RemoveConditions" "not HasStatus('MAG_FLAME_BLADE_OWNER_2', GetOwner(context.Source))"

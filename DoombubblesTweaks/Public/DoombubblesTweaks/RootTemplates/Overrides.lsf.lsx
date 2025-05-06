@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="6" build="5" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h84f31ad2g0973g44f6g83b4g2d426952d82d" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="had809a02gb07dg409fg9f5bgfd42240e4ac4" version="1" />
+          <attribute id="Icon" type="FixedString" value="Item_MAG_Mobility_MomentumOnCombatStart_Helmet" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="94cc605d-e407-408d-acb6-9e2e31dfb283" />
+          <attribute id="Name" type="LSString" value="MAG_Mobility_MomentumOnCombatStart_Helmet" />
+          <attribute id="ParentTemplateId" type="FixedString" value="39f85c55-fea3-4ba1-8cd3-2b226e4fee67" />
+          <attribute id="Stats" type="FixedString" value="MAG_Mobility_MomentumOnCombatStart_Helmet" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="7" />
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+                      <attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+                      <attribute id="Consume" type="bool" value="True" />
+                      <attribute id="IsHiddenStatus" type="bool" value="False" />
+                      <attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+                      <attribute id="StatusDuration" type="int32" value="0" />
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+                </node>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h172d710dg2d86g454bga607g6dc0ae46380f" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h1223d569ga290g441bg8d04gf83d7085363b" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="b8f28da8-f8f5-4679-8c5f-ecc505811208" />
+          <attribute id="Name" type="LSString" value="MAG_Fire_HeatOnWeaponDamage_Battleaxe" />
+          <attribute id="ParentTemplateId" type="FixedString" value="7faff867-9cb3-432b-aa27-8de281b7428e" />
+          <attribute id="Stats" type="FixedString" value="MAG_Fire_HeatOnWeaponDamage_Battleaxe" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="1d180e5a-c7c8-20dc-5083-c22c86368513" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hecbc17d9g0e3ag4be1gab2fg839031a37960" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h6575fa95gb207g4f1egb3aeg8936005dac0d" version="2" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="657678f2-5924-4d8e-b8ce-a2079154c91b" />
+          <attribute id="Name" type="LSString" value="MAG_LC_Wave_Trident" />
+          <attribute id="ParentTemplateId" type="FixedString" value="6cf827d6-5bae-480a-a1b4-d7fdb0e68801" />
+          <attribute id="Stats" type="FixedString" value="MAG_LC_Wave_Trident" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="e0c8766b-9319-e0b4-8535-d196d37bc159" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_FROST_FROST_WEAPON" />
+                </node>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_LC_WAVE_TRIDENT" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h0496d826gfd8dg4ac2gbab7gf8d8bf831be0" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="hd3f607a8gbd0fg4b9aga683g965c06fb6055" version="1" />
+          <attribute id="DropSound" type="FixedString" value="f55dc72a-13b8-6e3d-7500-559a5d1f3031" />
+          <attribute id="EquipmentTypeID" type="guid" value="2d85d633-d496-44a1-a643-0e95ef879a6d" />
+          <attribute id="Icon" type="FixedString" value="Item_QUEST_FOR_SussurDagger" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="8733edb7-f04e-4b6d-ad48-7d49fb782bef" />
+          <attribute id="Name" type="LSString" value="QUEST_FOR_SussurDagger" />
+          <attribute id="ParentTemplateId" type="FixedString" value="569b0f3d-abcd-4b01-aaf0-979091288163" />
+          <attribute id="PhysicsTemplate" type="FixedString" value="8ac37274-b0d9-484b-e10d-c7780f674d9f" />
+          <attribute id="PickupSound" type="FixedString" value="28ea7a9f-b66a-3410-7985-d7cd5cb896f0" />
+          <attribute id="Stats" type="FixedString" value="FOR_IncompleteMasterwork_SussurDagger" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="h1c4249a3gb72dg4f30g8ce2gb48f01e7a2c0" version="1" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="e3914979-3da4-6d51-39d7-58c63c07ea56" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144537400540921856" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_SUSSUR_WEAPON" />
+                </node>
+              </children>
+            </node>
+            <node id="Bounds">
+              <children>
+                <node id="Bound">
+                  <attribute id="Height" type="float" value="0.0374908" />
+                  <attribute id="Max" type="fvec3" value="0.07255268 0.030913964 0.19064903" />
+                  <attribute id="Min" type="fvec3" value="-0.08224723 -0.008343428 -0.3625664" />
+                  <attribute id="Radius" type="float" value="0.0833395" />
+                  <attribute id="Shape" type="uint8" value="1" />
+                  <attribute id="Type" type="uint8" value="0" />
+                </node>
+                <node id="Bound">
+                  <attribute id="Height" type="float" value="0.0374908" />
+                  <attribute id="Max" type="fvec3" value="0.07255268 0.030913964 0.19064903" />
+                  <attribute id="Min" type="fvec3" value="-0.08224723 -0.008343428 -0.3625664" />
+                  <attribute id="Radius" type="float" value="0.166679" />
+                  <attribute id="Shape" type="uint8" value="1" />
+                  <attribute id="Type" type="uint8" value="1" />
+                </node>
+                <node id="Bound">
+                  <attribute id="Height" type="float" value="0.0374908" />
+                  <attribute id="Max" type="fvec3" value="0.07255268 0.030913964 0.19064903" />
+                  <attribute id="Min" type="fvec3" value="-0.08224723 -0.008343428 -0.3625664" />
+                  <attribute id="Radius" type="float" value="0.166679" />
+                  <attribute id="Shape" type="uint8" value="1" />
+                  <attribute id="Type" type="uint8" value="2" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hefe5c63ag9dcbg4193g8c3cgab47da358c66" version="2" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h3744342bg3711g4be3g9139gc4d88f8d1615" version="2" />
+          <attribute id="Icon" type="FixedString" value="Item_MAG_ChargedLightning_Trident" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="cfdc8fdc-9f59-415f-8098-70035585eadb" />
+          <attribute id="Name" type="LSString" value="MAG_ChargedLightning_Trident" />
+          <attribute id="ParentTemplateId" type="FixedString" value="2fab5801-76b1-4669-95d9-7df76bed12dd" />
+          <attribute id="ReadinessFlags" type="uint32" value="128" />
+          <attribute id="Stats" type="FixedString" value="MAG_ChargedLightning_Trident" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="609ac808-647f-05ea-3ebc-592b09ebd6d0" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_CHARGED_LIGHTNING_TRIDENT" />
+                </node>
+              </children>
+            </node>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="7" />
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+                      <attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+                      <attribute id="Consume" type="bool" value="True" />
+                      <attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+                      <attribute id="StatusDuration" type="int32" value="0" />
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+                </node>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+        
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="hedb18a99gd26fg4995ga388gaab39c341962" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h90423de7gc766g4bfbg96e3gec1739eb223e" version="2" />
+          <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_Orin_A" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="d90abf24-3c4e-4bbf-84aa-def05ca9962a" />
+          <attribute id="Name" type="LSString" value="MAG_WYR_Orin_Bhaalist_Dagger" />
+          <attribute id="ParentTemplateId" type="FixedString" value="c68026c8-8af9-4a05-b77a-246a01bafe61" />
+          <attribute id="PhysicsTemplate" type="FixedString" value="ab71824f-5991-c69a-089e-963a463aa039" />
+          <attribute id="Stats" type="FixedString" value="MAG_WYR_Orin_Bhaalist_Dagger" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="f67bf9d2-2bd7-4d3f-5723-6e41f8e0ee3f" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+          <children>
+            <node id="Bounds">
+              <children>
+                <node id="Bound">
+                  <attribute id="Height" type="float" value="0.0374908" />
+                  <attribute id="Max" type="fvec3" value="0.08468789 0.031222953 0.20307142" />
+                  <attribute id="Min" type="fvec3" value="-0.0843465 0.0036089737 -0.5506349" />
+                  <attribute id="Radius" type="float" value="0.0833395" />
+                  <attribute id="Shape" type="uint8" value="1" />
+                  <attribute id="Type" type="uint8" value="0" />
+                </node>
+                <node id="Bound">
+                  <attribute id="Height" type="float" value="0.0374908" />
+                  <attribute id="Max" type="fvec3" value="0.08468789 0.031222953 0.20307142" />
+                  <attribute id="Min" type="fvec3" value="-0.0843465 0.0036089737 -0.5506349" />
+                  <attribute id="Radius" type="float" value="0.166679" />
+                  <attribute id="Shape" type="uint8" value="1" />
+                  <attribute id="Type" type="uint8" value="1" />
+                </node>
+                <node id="Bound">
+                  <attribute id="Height" type="float" value="0.0374908" />
+                  <attribute id="Max" type="fvec3" value="0.08468789 0.031222953 0.20307142" />
+                  <attribute id="Min" type="fvec3" value="-0.0843465 0.0036089737 -0.5506349" />
+                  <attribute id="Radius" type="float" value="0.166679" />
+                  <attribute id="Shape" type="uint8" value="1" />
+                  <attribute id="Type" type="uint8" value="2" />
+                </node>
+              </children>
+            </node>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_NECROTIC_NECROTIC_WEAPON" />
+                </node>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_WEAPON_BOND" />
+                </node>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="MAG_WYR_ORIN_BHAALSIT_DAGGER" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>
