@@ -20,31 +20,6 @@
           <attribute id="UUID" type="guid" value="bfe54150-c4aa-4135-82ed-5605e3023233"/>
         </node>
         <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin, Retribution spell scroll list"/>
-          <attribute id="Spells" type="LSString" value="Target_Smite_Lunar;Shout_Shield_Sorcerer;Target_HoldPerson;Target_SpiritualWeapon;Target_Haste;Shout_SpiritGuardians_Paladin"/>
-          <attribute id="UUID" type="guid" value="6705e5e0-55a0-49d5-9f2e-78640afa8c85"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 1"/>
-          <attribute id="Spells" type="LSString" value="Target_TemplarsVerdict"/>
-          <attribute id="UUID" type="guid" value="5a686dba-dddf-421f-bcbe-ff7f4ee2c1d0"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 3"/>
-          <attribute id="Spells" type="LSString" value="Shout_DivineStorm;Shout_AvengingWrath;Target_Smite_Lunar;Shout_Shield_Sorcerer"/>
-          <attribute id="UUID" type="guid" value="5b0668b3-de72-4980-a332-7e90f0638c6d"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 5"/>
-          <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_SpiritualWeapon"/>
-          <attribute id="UUID" type="guid" value="1e061f06-b996-4548-a7c3-9b157e07d8e6"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 9"/>
-          <attribute id="Spells" type="LSString" value="Target_Haste;Shout_SpiritGuardians_Paladin"/>
-          <attribute id="UUID" type="guid" value="63b5d1b4-8fe5-463b-acd1-4b3569e6597d"/>
-        </node>
-        <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Fury Barbarian Level 10 Spells"/>
           <attribute id="Spells" type="LSString" value="Shout_Recklessness"/>
           <attribute id="UUID" type="guid" value="d3806701-3175-46d2-9117-7ebaeec6f90a"/>
@@ -59,6 +34,85 @@
           <attribute id="Spells" type="LSString" value="Shout_ArcaneTorrent"/>
           <attribute id="UUID" type="guid" value="a95e2264-3e59-42fa-b61e-d2f4f7edf396"/>
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin, Holy spell scroll list"/>
+          <attribute id="Spells" type="LSString" value="Target_Heroism;Target_HealingWord;Shout_PrayerOfHealing;Target_EnhanceAbility;Shout_HealingWord_Mass;Shout_BeaconOfHope"/>
+          <attribute id="UUID" type="guid" value="3395a9d8-b0b3-4527-bc49-54a5dae01d8e"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 1"/>
+          <attribute id="Spells" type="LSString" value="Target_CrusaderStrike"/>
+          <attribute id="UUID" type="guid" value="5a686dba-dddf-421f-bcbe-ff7f4ee2c1d0"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Holy Spells level 1"/>
+          <attribute id="Spells" type="LSString" value="Target_HolyShock"/>
+          <attribute id="UUID" type="guid" value="d12bfb03-d1e6-4acd-977e-6dd64fd73262"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Protection Spells level 1"/>
+          <attribute id="Spells" type="LSString" value="Throw_AvengersShield"/>
+          <attribute id="UUID" type="guid" value="0131ad30-c4a1-4195-8949-b147b586dfe9"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Paladin Retribution level 7 (Aura)"/>
+          <attribute id="Spells" type="LSString" value="Shout_AuraOf_Retribution"/>
+          <attribute id="UUID" type="guid" value="bb7a5058-b1ce-4a9e-afb8-2351e2a1454c"/>
+        </node>
+
+        {{- with $.PaladinSpells.Ret }}
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Oath Spells Level 3"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="bd924290-d0ed-4d16-8f35-4e190dd9acb4"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Oath Spells Level 5"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl5 $.PaladinSpells.Shared.Lvl5 .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="9231fd8a-5cb7-460d-a548-65be507f9fc6"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Retribution Oath Spells Level 9"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl9  $.PaladinSpells.Shared.Lvl9 .Lvl5 $.PaladinSpells.Shared.Lvl5 .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="57760525-3f3b-4cff-be58-cd2e821765b4"/>
+        </node>
+        {{- end }}
+
+        {{- with $.PaladinSpells.Holy }}
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Holy Oath Spells Level 3"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="e51240ff-23ec-44d1-8d14-64984901a28f"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Holy Oath Spells Level 5"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl5 $.PaladinSpells.Shared.Lvl5 .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="c45e6b6a-5627-453b-9ac5-e52e417f7a18"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Holy Oath Spells Level 9"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl9  $.PaladinSpells.Shared.Lvl9 .Lvl5 $.PaladinSpells.Shared.Lvl5 .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="6be1110d-de81-4d44-95c6-406c10e51c26"/>
+        </node>
+        {{- end }}
+
+        {{- with $.PaladinSpells.Prot }}
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Protection Oath Spells Level 3"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="38940176-e222-48ce-a5fd-d27d587de172"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Protection Oath Spells Level 5"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl5 $.PaladinSpells.Shared.Lvl5 .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="60382928-f290-4bae-97a9-8a7ee1b732a1"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Paladin Protection Oath Spells Level 9"/>
+          <attribute id="Spells" type="LSString" value="{{ concat .Lvl9  $.PaladinSpells.Shared.Lvl9 .Lvl5 $.PaladinSpells.Shared.Lvl5 .Lvl3 $.PaladinSpells.Shared.Lvl3 | join ";" }}"/>
+          <attribute id="UUID" type="guid" value="b234a73a-dcee-4885-ad17-a65bbdfd2b74"/>
+        </node>
+        {{- end }}
       </children>
     </node>
   </region>

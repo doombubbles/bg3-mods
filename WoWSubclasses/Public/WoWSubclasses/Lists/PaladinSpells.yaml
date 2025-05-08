@@ -1,0 +1,47 @@
+Ret:
+  Lvl3:
+    - Shout_DivineFavor
+    - Shout_Shield_Sorcerer
+    - Target_TemplarsVerdict
+    - Shout_DivineStorm
+    - Target_WordOfGlory
+  Lvl5:
+    - Target_HoldPerson
+    - Target_SpiritualWeapon
+  Lvl9:
+    - Target_Haste
+    - Shout_SpiritGuardians_Paladin
+Holy:
+  Lvl3:
+    - Target_Heroism
+    - Target_HealingWord
+    - Target_WordOfGlory
+    - Zone_LightOfDawn
+    - Zone_ShieldOfTheRighteous
+    - Target_CrusaderStrike
+  Lvl5:
+    - Shout_PrayerOfHealing
+    - Target_EnhanceAbility
+  Lvl9:
+    - Shout_HealingWord_Mass
+    - Shout_BeaconOfHope
+Prot:
+  Lvl3:
+    - Target_ProtectionFromEvilAndGood
+    - Target_ShieldOfFaith
+    - Zone_ShieldOfTheRighteous
+    - Shout_GuardianOfAncientKings
+    - Target_WordOfGlory
+  Lvl5:
+    - Target_ProtectionFromPoison
+    - Target_WardingBond
+  Lvl9:
+    - Target_ProtectionFromEnergy
+    - Shout_AuraOfVitality
+Shared:
+  Lvl3:
+    - Projectile_Judgement
+    - Shout_AvengingWrath
+    - Projectile_HammerOfWrath
+  Lvl5: []
+  Lvl9: []

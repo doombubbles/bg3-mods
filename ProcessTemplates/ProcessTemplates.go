@@ -18,7 +18,7 @@ import (
 	"github.com/Masterminds/sprig/v3"
 	jsoniter "github.com/simonwu-os/json-iterator-go"
 	flag "github.com/spf13/pflag"
-	"gopkg.in/yaml.v2"
+	"sigs.k8s.io/yaml"
 )
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary
@@ -173,8 +173,6 @@ func buildValuesMap(rootDir string, values *Values) error {
 
 					if currentPart, ok := current[part].(Values); ok {
 						current = currentPart
-					} else {
-						err = &yaml.TypeError{}
 					}
 				}
 			}

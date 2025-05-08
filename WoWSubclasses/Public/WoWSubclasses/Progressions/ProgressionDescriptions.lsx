@@ -46,6 +46,29 @@
           <attribute id="SelectorId" type="FixedString" value="ArcaneTorrent"/>
           <attribute id="UUID" type="guid" value="4d4fc27e-34c8-4ca4-a8e0-8a64e2efea3b"/>
         </node>
+
+
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h131b2cdfg6198g425dgb6cfg2d0a85f173af" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h69b5a48ega081g48f3g8ec1g8fd1b823eb29" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="DivinePower"/>
+          <attribute id="UUID" type="guid" value="c3bd70ce-41ba-4598-b47a-8ea66704a476"/>
+        </node>
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h2d204b9eg609bg4078g8b14ga78f0669ec77" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h2924ba26g745eg4d21g9369g8d551d12cf61" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="ImprovedDivinePower"/>
+          <attribute id="UUID" type="guid" value="0cd60570-9f41-4c2d-8419-128b9f9942a4"/>
+        </node>
+
+
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="hb05a29a1g103fg446cg92f7g8a4cd5c94ee4" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h6d3e1a0fgf1afg41e9g9710ga4a9911106e7" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="OathSpells"/>
+          <attribute id="UUID" type="guid" value="7e3b42f0-85d1-4ecb-a4c2-de661ac0fc5a"/>
+        </node>
+
       </children>
     </node>
   </region>

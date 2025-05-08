@@ -93,8 +93,8 @@ end
 
 function HasNoOffHand(entity)
   entity = entity or context.Source
-  result = ~WieldingWeapon('Melee', true, false, entity) & ~HasShieldEquipped(entity) &
-      ~(WieldingWeapon('Twohanded', false, false, entity) & WieldingWeapon('Melee', false, false, entity))
+  result = ~WieldingWeapon('Melee', true, false, entity) &
+  ~(WieldingWeapon('Twohanded', false, false, entity) & WieldingWeapon('Melee', false, false, entity))
   return ConditionResult(result.Result, { ConditionError("HasWeaponInOffHand") },
     { ConditionError("HasNotWeaponInOffHand") })
 end

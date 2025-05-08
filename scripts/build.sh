@@ -6,7 +6,7 @@ RESULT="./output/$MODNAME.pak"
 BG3_DATA="C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3/Data"
 
 # Process Templates
-rm -rf "$BUILD/Mods/$MODNAME"
+rm -rf "$BUILD"
 bin/ProcessTemplates.exe -s "$MODNAME" -d "$BUILD" -r build/values.yaml
 
 # Build Mod

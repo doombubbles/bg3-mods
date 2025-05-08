@@ -4,12 +4,16 @@
 // using "Projectile_UND_MagicMissile_SocietyOfBrilliance_Amulet"
 // data "Cooldown" "OncePerShortRestPerItem"
 
+
+// Match up with normal elixir 
 new entry "UND_StrengthChair_Leg_Passive"
 type "PassiveData"
 using "UND_StrengthChair_Leg_Passive"
 data "Description" "he8e1cc2bgc396g49f4g882bgf8d3c5451f15"
 data "Boosts" "AbilityOverrideMinimum(Strength,21)"
 
+
+// Selune's spear should be more powerful given how broken Shar's spear is
 new entry "MAG_SHA_SeluneBlessing_Spear"
 type "Weapon"
 using "MAG_SHA_SeluneBlessing_Spear"
@@ -21,31 +25,15 @@ data "SpellType" "Target"
 using "Target_SHA_SeluneBlessing_Moonfire"
 data "Cooldown" "OncePerShortRestPerItem"
 
+
+// For doomhammer!
 new entry "UNI_DoomHammer"
 type "Weapon"
 using "UNI_DoomHammer"
 data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(1, Lightning)"
 
 
-// new entry "MAG_MONK_UNARMED_EXPLOIT"
-// type "StatusData"
-// data "StatusType" "BOOST"
-// using "MAG_MONK_UNARMED_EXPLOIT"
-// data "TickType" "StartTurn"
-// data "StackId" "MAG_MONK_UNARMED_EXPLOIT"
-// data "StackType" "Additive"
-// data "StatusPropertyFlags" "MultiplyEffectsByDuration"
-// data "Passives" "MAG_Monk_Magic_Hat_ReduceDurationPerDamage_Passive"
-
-// new entry "MAG_Monk_Magic_Hat_ReduceDurationPerDamage_Passive"
-// type "PassiveData"
-// using "MAG_Monk_Magic_Hat_Passive"
-// data "Description" ""
-// data "Properties" "IsHidden"
-// data "StatsFunctorContext" "OnDamaged"
-// data "Conditions" ""
-// data "StatsFunctors" "SetStatusDuration(MAG_MONK_UNARMED_EXPLOIT,-1,Add)"
-
+// Make it not completely useless 
 new entry "ARM_Toy_Shield"
 type "Armor"
 using "ARM_Toy_Shield"
@@ -57,12 +45,15 @@ data "DisplayName" "h7b63ed7fg392fg4ac8gad50gbc2a9e1b98e4"
 data "Description" "h82022716g353cg41f9g9222g9055d5a0e72b"
 data "Boosts" "Proficiency(Shields)"
 
+
+// More 2 handed finesse weapons is fun, it's literally invisble so it very much fits the flavour
 new entry "MAG_Invisible_Pike"
 type "Weapon"
 using "MAG_Invisible_Pike"
 data "Weapon Properties" "Reach;Melee;Twohanded;Heavy;Dippable;Magical;Finesse"
 
 
+// Add another fun summer related effect
 new entry "UNI_RobeOfSummer"
 type "Armor"
 using "UNI_RobeOfSummer"
@@ -77,6 +68,8 @@ data "SpellContainerID" ""
 data "UseCosts" "ActionPoint:1"
 data "Cooldown" "OncePerRestPerItem"
 
+
+// Should be stronger given how late you get them
 new entry "MAG_Gortash_Gloves"
 type "Armor"
 using "MAG_Gortash_Gloves"
@@ -89,12 +82,13 @@ data "DisplayName" "hcf0ce1d8gc3d0g45b9g9f8ag48c7a0cb13ee"
 data "DescriptionParams" "DealDamage(1d8, Force)"
 data "Boosts" "CharacterUnarmedDamage(1d8, Force)"
 
+
+// Let you apply the brand yourself
 new entry "WPN_GOB_Club_BrandingTool_A"
 type "Weapon"
 using "WPN_Club"
 data "RootTemplate" "28373d60-893f-411c-a029-35c31665c821"
 data "Boosts" "UnlockSpell(Target_ApplyBrand)"
-
 
 new entry "Shoud_ApplyBrand"
 type "SpellData"
@@ -109,7 +103,6 @@ data "DescriptionParams" "DealDamage(1d6,Fire);"
 data "UseCosts" "ActionPoint:1"
 data "RequirementConditions" "not Tagged('BRANDED')"
 
-
 new entry "ABSOLUTES_BRAND"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -118,12 +111,15 @@ data "Description" "h352f5f74g0c11g4a7fgb02cgdecc84f7a1fa"
 data "Boosts" "Tag(BRANDED)"
 data "StatusPropertyFlags" "DisablePortraitIndicator;DisableCombatlog;ApplyToDead;IgnoreResting"
 
+
+// Could stand to be stronger
 new entry "Shout_MAG_DarkJusticiarArmor_ShieldOfFaith"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_MAG_DarkJusticiarArmor_ShieldOfFaith"
 data "Cooldown" "OncePerShortRestPerItem"
 
+// Adding advantage on INT saves because that's mostly what Mindflayers will use
 new entry "UNI_UND_RingOfMindShielding_Passive"
 type "PassiveData"
 using "UNI_UND_RingOfMindShielding_Passive"
@@ -138,28 +134,29 @@ type "PassiveData"
 using "MAG_Fire_BonusActionOnFireSpell_Passive"
 data "Conditions" "((IsSpell() and not IsCantrip()) or IsAttackType(AttackType.MeleeSpellAttack)) and not HasStatus('MAG_BONUS_ACTION',context.Source)"
 
-
+// For all the trouble, the least it can do is cost a bonus action
 new entry "Target_MAG_Shadow_Shadowstep"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_ShadowStep"
+using "Target_MAG_Shadow_Shadowstep"
 data "UseCosts" "BonusActionPoint:1"
 
 
-
+// Could stand to be stronger
 new entry "Target_MAG_Spectator_FearRay"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_UND_Spectator_Ray_Fear"
 data "Cooldown" "OncePerCombat"
 
+// Could stand to be stronger
 new entry "Target_MAG_Spectator_WoundingRay"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_UND_Spectator_Ray_Wounding"
 data "Cooldown" "OncePerCombat"
 
-
+// Could stand to be stronger
 new entry "MAG_DRUID_SHILLELAGH_SUPPORT"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -168,7 +165,27 @@ data "DescriptionParams" "DealDamage(1d8, Bludgeoning)"
 data "Boosts" "IF(HasStatus('SHILLELAGH',GetAttackWeapon())):WeaponDamage(1d8,Bludgeoning)"
 data "StatusPropertyFlags" "IgnoreResting"
 
+// Should work with other shield synergies
 new entry "MAG_BardicInspiration_Heal_Hat_Passive"
 type "PassiveData"
 using "MAG_BardicInspiration_Heal_Hat_Passive"
-data "StatsFunctors" "RegainHitPoints(1d6);IF(HasPassive('UNI_MassHealRing_Passive', context.Source)):ApplyStatus(BLESS,100,2);IF(HasPassive('UND_SocietyOfBrilliance_PullingRing_Passive', context.Source)):RegainHitPoints(2)"
+data "StatsFunctors" "RegainHitPoints(1d6);IF(HasPassive('UNI_MassHealRing_Passive', context.Source)):ApplyStatus(BLESS,100,2);IF(HasPassive('UND_SocietyOfBrilliance_PullingRing_Passive', context.Source)):RegainHitPoints(2);IF(HasPassive('MAG_Healer_TempHPOnHeal_Passive', context.Source)):ApplyStatus(MAG_TEMPORARY_HP_3,100,-1)"
+
+// Shouldn't have to be in combat only
+new entry "MAG_Ambushing_Attack_Passive"
+type "PassiveData"
+using "MAG_Ambushing_Attack_Passive"
+data "Description" "h028f721fgbfdbg40edgbe82ga25be769ff32"
+data "Boosts" "IF(not HadTurnInCombat()):CharacterWeaponDamage(1d6, Necrotic)"
+
+// Doesn't need to be once per turn
+new entry "MAG_Violence_ViolenceOnDamaged_Passive"
+type "PassiveData"
+using "MAG_Violence_ViolenceOnDamaged_Passive"
+data "Properties" ""
+
+// Not just weapon attack
+new entry "Interrupt_MAG_CriticalExecution"
+type "InterruptData"
+using "Interrupt_MAG_CriticalExecution"
+data "Conditions" "IsAbleToReact(context.Observer) and not Item() and Self(context.Source,context.Observer) and IsAttack() and not IsCritical()"

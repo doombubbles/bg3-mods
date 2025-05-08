@@ -12,6 +12,114 @@
           <attribute id="Name" type="FixedString" value="ExecuteDamage"/>
           <attribute id="UUID" type="guid" value="dcfb9d3b-900c-4b60-8261-a546228fbdc9"/>
         </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1d4"/>
+          <attribute id="Level1" type="LSString" value="1d4"/>
+          <attribute id="Level5" type="LSString" value="2d4"/>
+          <attribute id="Level10" type="LSString" value="3d4"/>
+          <attribute id="Name" type="FixedString" value="CrusaderStrike"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="0ae621c5-3726-4724-a016-d7db238e389b"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="2d8"/>
+          <attribute id="Level1" type="LSString" value="2d8"/>
+          <attribute id="Level5" type="LSString" value="3d8"/>
+          <attribute id="Level10" type="LSString" value="4d8"/>
+          <attribute id="Name" type="FixedString" value="TemplarsVerdict"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="f455d0e5-e73d-4333-a372-b7a993f897e1"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1d4"/>
+          <attribute id="Level1" type="LSString" value="1d4"/>
+          <attribute id="Level5" type="LSString" value="2d4"/>
+          <attribute id="Level10" type="LSString" value="3d4"/>
+          <attribute id="Name" type="FixedString" value="DivineStorm"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="b0b7e429-ca87-4cb8-99c6-90521aadf3d9"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1d12"/>
+          <attribute id="Level1" type="LSString" value="1d12"/>
+          <attribute id="Level5" type="LSString" value="2d12"/>
+          <attribute id="Level10" type="LSString" value="3d12"/>
+          <attribute id="Name" type="FixedString" value="Judgement"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="574ace97-5724-44a4-8bb0-932f7f563e41"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="2d8"/>
+          <attribute id="Level1" type="LSString" value="2d8"/>
+          <attribute id="Name" type="FixedString" value="HolyShock"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="f6a6c0b2-aa1e-4e95-b688-022b284acc30"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1"/>
+          <attribute id="Level1" type="LSString" value="1"/>
+          <attribute id="Level5" type="LSString" value="5"/>
+          <attribute id="Level10" type="LSString" value="10"/>
+          <attribute id="Name" type="FixedString" value="HolyShockBursts"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="cbe248f5-01a1-44cf-a4b1-d3516df4a936"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="2d12"/>
+          <attribute id="Level1" type="LSString" value="2d12"/>
+          <attribute id="Level5" type="LSString" value="3d12"/>
+          <attribute id="Level10" type="LSString" value="4d12"/>
+          <attribute id="Name" type="FixedString" value="WordOfGlory"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="e4e4f557-dd0e-444f-8ea8-6d3470dc3e37"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="2d8"/>
+          <attribute id="Level1" type="LSString" value="2d8"/>
+          <attribute id="Level5" type="LSString" value="3d8"/>
+          <attribute id="Level10" type="LSString" value="4d8"/>
+          <attribute id="Name" type="FixedString" value="LightOfDawn"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="df416db6-295d-42bc-a31e-8d15b553345a"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1d8"/>
+          <attribute id="Level1" type="LSString" value="1d8"/>
+          <attribute id="Level5" type="LSString" value="2d8"/>
+          <attribute id="Level10" type="LSString" value="3d8"/>
+          <attribute id="Name" type="FixedString" value="AvengersShield"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="dd16eaa0-d4d3-4fa8-90d7-e8efcc44921b"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1d8"/>
+          <attribute id="Level1" type="LSString" value="1d8"/>
+          <attribute id="Level5" type="LSString" value="2d8"/>
+          <attribute id="Level10" type="LSString" value="3d8"/>
+          <attribute id="Name" type="FixedString" value="ShieldOfTheRighteous"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="294a6086-f22e-4270-a53a-5b53f312afe4"/>
+        </node>
       </children>
     </node>
   </region>

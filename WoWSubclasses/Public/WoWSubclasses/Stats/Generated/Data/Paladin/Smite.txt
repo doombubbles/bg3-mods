@@ -1,0 +1,24 @@
+new entry "Smite_Divine"
+type "PassiveData"
+using "Smite_Divine"
+data "Icon" "Action_Paladin_DivineSmite"
+data "Description" "h2574e41fg94c5g4099gba16g5e307661ff32"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_Smite_Divine,AddChildren);UnlockSpell(Target_Smite_Divine_Unlock,AddChildren);UnlockSpell(Target_Smite_Divine_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Divine);UnlockInterrupt(Interrupt_Smite_Divine_Critical);UnlockSpell(Target_Smite_Divine_Unarmed,AddChildren);"
+
+
+
+new entry "Shout_SpiritGuardians_Paladin"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritGuardians_Radiant"
+data "SpellContainerID" ""
+
+{{ range $lvl := list 4 5 6 }}
+new entry "Shout_SpiritGuardians_Paladin_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SpiritGuardians_Radiant_{{$lvl}}"
+data "SpellContainerID" ""
+data "RootSpellID" "Shout_SpiritGuardians_Paladin"
+{{ end }}

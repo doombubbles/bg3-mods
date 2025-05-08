@@ -140,7 +140,7 @@ data "HitAnimationType" "MagicalDamage_External"
 data "Boosts" "ActionResource(Movement,-3,0)"
 data "TooltipDamage" "DealDamage(LevelMapValue(RuneDie),Cold)"
 data "TickFunctors" "DealDamage(LevelMapValue(RuneDie),Cold)"
-data "StatusPropertyFlags" "InitiateCombat;TickingWithSource"
+data "StatusPropertyFlags" "InitiateCombat"
 data "StatusGroups" "SG_Disease"
 
 
@@ -291,7 +291,7 @@ data "DisplayName" "hc8f4f011ge8a7g4a6agb29age1bf06ba63a8"
 data "Description" "h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9"
 data "Icon" "PassiveFeature_DeathKnight_FrozenHeart"
 data "Properties" "Highlighted"
-data "Boosts" "IF(RuneSpellCheck() or IsSpell()):DamageBonus(ProficiencyBonus, Cold)"
+data "Boosts" "IF((RuneSpellCheck() or IsSpell()) and IsDamageTypeCold()):DamageBonus(ProficiencyBonus, Cold)"
 
 
 new entry "Target_MindFreeze"

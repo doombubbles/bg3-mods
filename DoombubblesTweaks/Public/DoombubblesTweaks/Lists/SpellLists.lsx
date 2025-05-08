@@ -45,21 +45,6 @@
           <attribute id="UUID" type="guid" value="503ef992-4df6-468d-84ce-e1b298feed01"/>
         </node>
         <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Fire Wizard Flamestrike"/>
-          <attribute id="Spells" type="LSString" value="Target_FlameStrike"/>
-          <attribute id="UUID" type="guid" value="fe98c85b-f168-47ad-9c66-11b202c26612"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Frost Wizard Ice Barrier"/>
-          <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys"/>
-          <attribute id="UUID" type="guid" value="d4350867-2888-4d46-adb8-26d514dc3265"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Frost Wizard Ice Block"/>
-          <attribute id="Spells" type="LSString" value="Shout_IceBlock"/>
-          <attribute id="UUID" type="guid" value="bfe54150-c4aa-4135-82ed-5605e3023233"/>
-        </node>
-        <node id="SpellList">
           <attribute id="MergedInto" type="guid" value="17803035-4762-4143-8f2f-1143d47e4f40"/>
           <attribute id="Comment" type="LSString" value="Berserker Barbarian level 3"/>
           <attribute id="Spells" type="LSString" value="Target_FrenziedStrike_Unarmed"/>
@@ -82,31 +67,6 @@
           <attribute id="Comment" type="LSString" value="Paladin SLevel 3"/>
           <attribute id="Spells" type="LSString" value="Target_Smite_Blinding_Unarmed"/>
           <attribute id="UUID" type="guid" value="8f978a65-8fbe-4c4c-83ef-ab6a5b732819"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin, Retribution spell scroll list"/>
-          <attribute id="Spells" type="LSString" value="Target_Smite_Lunar;Shout_Shield_Sorcerer;Target_HoldPerson;Target_SpiritualWeapon;Target_Haste;Shout_SpiritGuardians_Paladin"/>
-          <attribute id="UUID" type="guid" value="6705e5e0-55a0-49d5-9f2e-78640afa8c85"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 1"/>
-          <attribute id="Spells" type="LSString" value="Target_TemplarsVerdict"/>
-          <attribute id="UUID" type="guid" value="5a686dba-dddf-421f-bcbe-ff7f4ee2c1d0"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 3"/>
-          <attribute id="Spells" type="LSString" value="Shout_DivineStorm;Shout_AvengingWrath;Target_Smite_Lunar;Shout_Shield_Sorcerer"/>
-          <attribute id="UUID" type="guid" value="5b0668b3-de72-4980-a332-7e90f0638c6d"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 5"/>
-          <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_SpiritualWeapon"/>
-          <attribute id="UUID" type="guid" value="1e061f06-b996-4548-a7c3-9b157e07d8e6"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Paladin Retribution Spells level 9"/>
-          <attribute id="Spells" type="LSString" value="Target_Haste;Shout_SpiritGuardians_Paladin"/>
-          <attribute id="UUID" type="guid" value="63b5d1b4-8fe5-463b-acd1-4b3569e6597d"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Warlock OneDnD Magical Cunning" />
@@ -194,6 +154,13 @@
           <attribute id="Name" type="FixedString" value="Sorcerer SLevel 6"/>
           <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_GlobeOfInvulnerability;Zone_Sunbeam;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_HoldMonster;Target_InsectPlague;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_IceStorm;Target_Polymorph;Target_Stoneskin;Wall_WallOfFire;Shout_Blink;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Target_Shatter;Target_Web;Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Projectile_IceKnife;Target_Jump;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield_Sorcerer;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt"/>
           <attribute id="UUID" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
+        </node>
+
+        <node id="SpellList">
+          <attribute id="MergedInto" type="guid" value="8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d"/>
+          <attribute id="Name" type="FixedString" value="Ritual Caster Feat"/>
+          <attribute id="Spells" type="LSString" value="Shout_FeatherFall;Target_Knock;"/>
+          <attribute id="UUID" type="guid" value="b7889a2a-d60b-412f-99ca-9c37da723929"/>
         </node>
       </children>
     </node>

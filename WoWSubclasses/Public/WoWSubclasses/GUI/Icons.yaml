@@ -1,6 +1,18 @@
 IconSize: 64
-TotalSize: 256
+TotalSize: 512
 Icons:
   - Action_Paladin_DivineStorm
   - Action_Paladin_TemplarsVerdict
   - Action_Paladin_AvengingWrath
+  - Action_Paladin_Judgement_Light
+  - Action_Paladin_Judgement_Justice
+  - Action_Paladin_Judgement_Wisdom
+  - Action_Paladin_CrusaderStrike
+  - Action_Paladin_WordOfGlory
+  - Action_Paladin_HolyShock
+  - Action_Paladin_AuraOfRetribution
+  - Action_Paladin_ShieldOfTheRighteous
+  - Action_Paladin_AvengersShield
+  - Action_Paladin_GuardianOfAncientKings
+  - Action_Paladin_BlessingOfKings
+  - Action_Paladin_HammerOfWrath

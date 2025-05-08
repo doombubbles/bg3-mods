@@ -47,4 +47,7 @@
 	<content contentuid="h037e7784ga5bcg4a59g8e3bgdc516bfbeeaf" version="1">Counts as a weapon dip / coating. Only lasts while the weapon remains in the possession of the caster.</content>
 	<content contentuid="h028ee228g7319g492cg9fc9gaab3c33579b3" version="1">Dealing an extra [1].</content>
 	<content contentuid="hd15fc4c1ge45ag4440g9317ge4bfde92ac1a" version="1">Flame Blade Infusion</content>
+
+	<content contentuid="h15eac919g3815g4912gbaaag2b2517b9f3ff" version="1">If the target has no conditon that can be helped, they instead gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; this turn.</content>
+	<content contentuid="h4df4e120gc9ceg4e0bg9a7dg126b70e64128" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 </contentList>

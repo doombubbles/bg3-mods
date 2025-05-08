@@ -217,7 +217,7 @@ The Death Knight subclasses are:
 - Death Knight Spells are Always Prepared. In exchange, Death Knights know fewer Spells at low levels.
 
 **Rune Casting**
-- Instead of spell slots, Death Knights use <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, and <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Runes to cast rune "spells"[*](# "Like Way of the Four Elements 'spells', these do not have the `IsSpell` tag and are instead considered Class Actions.").
+- Instead of spell slots, Death Knights use <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, and <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Runes to cast rune "spells"[*](# "Like Way of the Four Elements 'spells', these do not have the `IsSpell` tag and are instead considered Class Actions.").
 - Death Knights have a limited number of Runes, but regain them by taking a [Short Rest](https://bg3.wiki/wiki/Short_Rest) or [Long Rest](https://bg3.wiki/wiki/Long_Rest).
 - Death Knights learn higher level spells than other Martial/Caster hybrids, but they can't use them as often.
 
@@ -230,7 +230,7 @@ The Death Knight subclasses are:
 ### Rune Die: 1d4
 
 
-### Runes: 1 <img align="top"  height="25" src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" alt="" /> Blood, 1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="Icon_DK_FrostRune.png" /> Frost, 1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="Icon_DK_UnholyRune.png" /> Unholy
+### Runes: 1 <img align="top"  height="25" src="images/ActionResources_c/Icons/Resources/BloodRune.png" alt="" /> Blood, 1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="Icon_DK_FrostRune.png" /> Frost, 1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="Icon_DK_UnholyRune.png" /> Unholy
 
 ### Initial Rune Spells
 
@@ -355,7 +355,7 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
           </li>
           <li>
             Known Rune Spells:
@@ -387,7 +387,7 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
           </li>
           <li>
             Known Rune Spells:
@@ -408,7 +408,7 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
           </li>
           <li>
             Known Rune Spells:
@@ -537,7 +537,7 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
           </li>
           <li>
             New Rune Spells:
@@ -552,7 +552,7 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
           </li>
           <li>
             New Rune Spells:
@@ -567,7 +567,7 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
           </li>
           <li>
             New Rune Spells:
@@ -654,7 +654,7 @@ Extra Attack
 - Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
 - Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
 
-### Additional Runes: +1 <img align="top"  height="25" src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" alt="" /> Blood, +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="Icon_DK_FrostRune.png" /> Frost, +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="Icon_DK_UnholyRune.png" /> Unholy
+### Additional Runes: +1 <img align="top"  height="25" src="images/ActionResources_c/Icons/Resources/BloodRune.png" alt="" /> Blood, +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="Icon_DK_FrostRune.png" /> Frost, +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="Icon_DK_UnholyRune.png" /> Unholy
 
 ### New Rune Spells
 
@@ -761,7 +761,7 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
           </li>
           <li>
             New Rune Spells:
@@ -776,7 +776,7 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
           </li>
           <li>
             New Rune Spells:
@@ -791,7 +791,7 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
           </li>
           <li>
             New Rune Spells:
@@ -964,7 +964,7 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
           </li>
           <li>
             New Rune Spells:
@@ -979,7 +979,7 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
           </li>
           <li>
             New Rune Spells:
@@ -994,7 +994,7 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            +1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
+            +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
           </li>
           <li>
             New Rune Spells:

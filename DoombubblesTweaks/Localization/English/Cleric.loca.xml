@@ -8,7 +8,7 @@
   <content contentuid="hbe965116g34fag4627g8411g015749c88b4c" version="1">Harness Divine Power: Level 2</content>
   <content contentuid="hfaaaaf20g7f5fg4757gb17cgdb4d1d1f0b49" version="1">Harness Divine Power: Level 3</content>
 
-  <content contentuid="hf284be5eg9a05g4246g8821g0b60d669daa0" version="1">Say a prayer to regain one expended &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;. The level can be up to half of your highest known spell slot level (rounded up).</content>
+  <content contentuid="hf284be5eg9a05g4246g8821g0b60d669daa0" version="1">Say a prayer to regain one expended &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;. The level of the spell slot must be lower than your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 
   <content contentuid="h6a25ebfcg8f78g42bdgbeaagad497ba7945e" version="1">Spiritual Greateaxe</content>
   <content contentuid="h4efcf386g03fbg48b4gb0abg359fb22bb168" version="1">Spiritual Greatsword</content>

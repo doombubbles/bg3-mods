@@ -85,7 +85,7 @@
           <attribute id="Name" type="LSString" value="Witch"/>
           <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel2"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
-          <attribute id="Selectors" type="LSString" value="SelectPassives(049a0b08-12d5-4f7c-87d6-7b222c0d41d2,1,PactBoon)"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(0e140900-14d9-4c38-8720-49936dbb8ba7,1,PactBoon)"/>
           <attribute id="TableUUID" type="guid" value="03754c8e-7cd9-4645-a6eb-b37f48cbeabc"/>
           <attribute id="UUID" type="guid" value="d4dc1675-1d2d-4d90-a06c-a8e5230d8660"/>
         </node>

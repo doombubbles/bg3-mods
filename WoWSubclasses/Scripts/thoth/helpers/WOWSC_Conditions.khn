@@ -1,12 +1,12 @@
 ---@diagnostic disable: undefined-global
 
 function EldritchBlastCheck()
-  return SpellId('Projectile_EldritchBlast')
-      | SpellId('Projectile_MAG_EldritchBlast_Staff')
-      | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
-      | SpellId('Projectile_FireRay_Warlock')
-      |
-      (IsSpell() & SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction', context.Source) & HasPassive('ThirstingBlade_Check', context.Source))
+  return IsSpell() &
+      (SpellId('Projectile_EldritchBlast')
+        | SpellId('Projectile_MAG_EldritchBlast_Staff')
+        | IsSpellChildOrVariantFromContext('Projectile_EldritchBlast')
+        | SpellId('Projectile_FireRay_Warlock')
+        | (SpellDamageTypeIs(DamageType.Fire) & HasPassive('PactOfDestruction', context.Source) & HasPassive('ThirstingBlade_Check', context.Source)))
 end
 
 function HotStreakSpellCheck()
@@ -45,10 +45,6 @@ function ClearCastingSpellCheck()
   return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot'))
 end
 
-function DivinePurposeSpellCheck()
-  return SpellId('Target_TemplarsVerdict') | SpellId('Shout_DivineStorm')
-end
-
 function WhirlwindSpellCheck()
   return SpellTypeIs(SpellType.Target) &
       (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))
@@ -68,5 +64,33 @@ end
 
 function PactOfDestructionSummonCheck(passive)
   local passive = passive or ""
-  return HasPassive(passive, context.Source) & Tagged('SUMMON') & SummonOwner(context.Target, context.Source) & HasPassive('ThirstingBlade_Check', context.Source)
+  return HasPassive(passive, context.Source) & Tagged('SUMMON') & SummonOwner(context.Target, context.Source) &
+      HasPassive('ThirstingBlade_Check', context.Source)
+end
+
+function PretendWeaponAttack()
+  return ConditionResult(false)
+end
+
+function OathSpellCheck()
+  return SpellId('Projectile_Judgement')
+      | SpellId('Projectile_Judgement_Light')
+      | SpellId('Projectile_Judgement_Wisdom')
+      | SpellId('Projectile_Judgement_Justice')
+      | SpellId('Target_CrusaderStrike')
+      | SpellId('Target_TemplarsVerdict')
+      | SpellId('Shout_DivineStorm')
+      | SpellId('Target_HolyShock')
+      | SpellId('Target_HolyShock_Healing')
+      | SpellId('Target_HolyShock_Damage')
+      | SpellId('Target_WordOfGlory')
+      | SpellId('Zone_LightOfDawn')
+      | SpellId('Shout_AvengingWrath')
+end
+
+function OathSpellCheck2()
+  return SpellId('Target_TemplarsVerdict')
+      | SpellId('Shout_DivineStorm')
+      | SpellId('Target_WordOfGlory')
+      | SpellId('Zone_LightOfDawn')
 end

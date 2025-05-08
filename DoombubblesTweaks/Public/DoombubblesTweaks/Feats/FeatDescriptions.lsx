@@ -96,6 +96,7 @@
           <attribute id="FeatId" type="guid" value="c02f22c9-9a06-4001-b917-4d5cf09be399"/>
           <attribute id="UUID" type="guid" value="78660721-cdf0-4218-bb19-e1c8b50b4d4d"/>
         </node>
+        {{- if $.Balance.NerfTavernBrawler }}
         <node id="FeatDescription">
           <attribute id="DisplayName" type="TranslatedString" handle="h1a3b6583g891fg4caag9095g3f557dbee5bd" version="2"/>
           <attribute id="Description" type="TranslatedString" handle="h1fecb306g6183g4f42gbd47gcaf6810fe343" version="1"/>
@@ -103,9 +104,7 @@
           <attribute id="FeatId" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3"/>
           <attribute id="UUID" type="guid" value="31cba9b2-bf42-4f7b-919d-a0bccc2dff5e"/>
         </node>
-
-        <!-- Magic Initiate -->
-
+        {{- end }}
 
         <node id="FeatDescription">
           <attribute id="DisplayName" type="TranslatedString" handle="h4dc7d85ag3aceg412bga8e6g07103b9d2f75" version="1"/>

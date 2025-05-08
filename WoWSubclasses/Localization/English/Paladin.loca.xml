@@ -3,17 +3,100 @@
   <content contentuid="h72fbfac4g9edeg4a52gafdagb652b1b2b638" version="1">Oath of Retribution</content>
   <content contentuid="h65193088g5aeeg4328ga0b5g955e3ea1f9d9" version="1">You are an instrument of retribution against those who dare defy the laws of the divine, a crusader judging and punishing the wicked.</content>
 
+  <content contentuid="hc7d88331gb736g4f78gaa8ag45743d4e33ec" version="1">Oath of Holiness</content>
+  <content contentuid="h20559598gb695g437bg85fag71ee7fc3edbb" version="1">You are a sacred knight dedicated to revitalizing your comrades, invoking the power of the Light to protect and to heal.</content>
+
+  <content contentuid="h9fc4700fga284g41e0ga8a5g7bad42a55422" version="1">Oath of Protection</content>
+  <content contentuid="hadc1315fg068ag4a5fgab8fgaf4652f9381f" version="1">You are an ardent defender of the Light, using holy magic to shield yourself and defend allies from attackers.</content>
+
+  <content contentuid="h6d3e1a0fgf1afg41e9g9710ga4a9911106e7" version="1">Oath Spells</content>
+  <content contentuid="hb05a29a1g103fg446cg92f7g8a4cd5c94ee4" version="1">Choose spells that will be always prepared.</content>
+
   <content contentuid="h09a4c7d3g82b3g4fdega4edg18d8eab05262" version="1">Templar's Verdict</content>
-  <content contentuid="h3a0dac4fg287eg4bdfgaa29g1daf32cde6c1" version="1">Unleashes a powerful weapon strike that damages an enemy from a distance for an additional [1].</content>
+  <content contentuid="h3a0dac4fg287eg4bdfgaa29g1daf32cde6c1" version="1">Unleash a powerful weapon strike that damages a creature from a distance for addional Radiant damage.</content>
 
   <content contentuid="h0628f3ddg3adeg4073g932fg142350363c82" version="1">Divine Storm</content>
-  <content contentuid="he49e8c36g2400g4d9dgb6acgc3b41127eddf" version="1">Unleashes a whirl of divine energy, dealing your weapon's damage plus [1] to all nearby enemies.</content>
+  <content contentuid="he49e8c36g2400g4d9dgb6acgc3b41127eddf" version="1">Unleash a whirl of divine energy, making a weapon attack against nearby enemies for additional Radiant damage.</content>
 
   <content contentuid="h1f10a30dg0503g451egb472ga42bf65920de" version="1">Avenging Wrath</content>
-  <content contentuid="h23729422g8d2dg49bag9170g1ff5e9de7b5f" version="1">Call upon the Light and become an avatar of retribution, giving you bonus Radiant damage and healing equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and reducing the number you need to roll a critical hit by 1.</content>
+  <content contentuid="h23729422g8d2dg49bag9170g1ff5e9de7b5f" version="1">Call upon the Light and become an avatar of retribution, giving you bonus Radiant damage and healing equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bfonus&lt;/LSTag&gt; and reducing the number you need to roll a critical hit by 1.</content>
   <content contentuid="h60f888a2geaafg4953gbe9dgcf61d017be56" version="1">You deal an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[1]&lt;/LSTag&gt;, restore an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[2]&lt;/LSTag&gt; health, and the number you need to roll a critical hit is reduced by 1.</content>
 
   <content contentuid="hdbe3a822g0e3cg4eafg83eeg5e0433173392" version="1">Divine Purpose</content>
-  <content contentuid="hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature, your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
-  <content contentuid="hce62265fgcc63g4ba5g9353g7531d7728257" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_TemplarsVerdict"&gt;Templar's Verdict&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_DivineStorm"&gt;Divine Storm&lt;/LSTag&gt; will not cost a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charge.</content>
+  <content contentuid="hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" version="1">Whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy, your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability will not consume any &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges.</content>
+  <content contentuid="hce62265fgcc63g4ba5g9353g7531d7728257" version="1">Your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability will not consume any &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges.</content>
+  <content contentuid="h93f28502gab63g405cg9c48g149a5807b013" version="1"> &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; against &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt; enemies will only trigger this Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hf333ff4cg5f5cg4967g9309g40e66c6e88b4" version="1">Holy Shock</content>
+  <content contentuid="h6e477fffg7e00g47a3gb730g003ba4b900eb" version="1">Trigger [1] burst(s) of Light on a creature, healing an ally or dealing Radiant damage to an enemy.</content>
+  <content contentuid="h1f9cc1b7g2195g43c4gb733g47493134bb2a" version="1">Trigger [1] burst(s) of Light on a creature, healing them.</content>
+  <content contentuid="hc5e631e3gc944g4e6dgaa69ge27cf6bbd47c" version="1">Trigger [1] burst(s) of Light on a creature, damaging them.</content>
+
+  <content contentuid="h440684f7g0b59g465cg95dfgea36c3c1be75" version="1">Light of Dawn</content>
+  <content contentuid="h172b7e6egd6e0g4f7bg937fg3c5b7a8d0309" version="1">Unleash a wave of Holy energy, healing allies in a cone in front of you.</content>
+
+  <content contentuid="h2574e41fg94c5g4099gba16g5e307661ff32" version="1">You gain the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_Smite_Divine"&gt;Divine Smite&lt;/LSTag&gt; by expending &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h69b5a48ega081g48f3g8ec1g8fd1b823eb29" version="1">Divine Power</content>
+  <content contentuid="h131b2cdfg6198g425dgb6cfg2d0a85f173af" version="1">Choose how you will unleash divine might upon your foes.</content>
+
+  <content contentuid="h2924ba26g745eg4d21g9369g8d551d12cf61" version="1">Improved Divine Power</content>
+  <content contentuid="h2d204b9eg609bg4078g8b14ga78f0669ec77" version="1">Choose how you will further unleash divine might upon your foes.</content>
+
+  <content contentuid="ha72e632ag39d6g4961g95b0gd5c2af4e6c74" version="1">Holy Power</content>
+  <content contentuid="h2b53eb29g0970g40a0g8773g881617e4dd18" version="1">Your maximum number of &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charges&lt;/LSTag&gt; becomes equal to your maximum number of &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charges&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hae98f4cdg567dg4c9dgb7a0g8dca33d40a76" version="1">Aura of Retribution</content>
+  <content contentuid="hd6c97499g7cd2g4170g981egb93bc2575b1a" version="1">If one of your allies within [1] dies or falls unconscious, you gain [2] turns of &lt;LSTag Type="Status" Tooltip="AVENGING_WRATH"&gt;Avenging Wrath&lt;/LSTag&gt;.</content>
+  <content contentuid="ha51b3742g9275g4a5eg8320g79fd3248cc56" version="1">If you die or fall unconscious, the spellcaster gains [1] turns of &lt;LSTag Type="Status" Tooltip="AVENGING_WRATH"&gt;Avenging Wrath&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h949ae83bgb918g49e0gb27bg2f5bf17eb7a7" version="1">Judgement</content>
+  <content contentuid="hbd00c5a2g7fa7g4f8eg94e2g92955050e222" version="1">Judge a creature for [1] turns, applying an effect of your choice. Your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; abilities have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against Judged creatures.</content>
+
+  <content contentuid="h06bed5eag5a20g4e91gbcddg0577d7d6debb" version="1">Judgement of Light</content>
+  <content contentuid="h93a8fc89ge53fg442ega326gb0ea208bb50a" version="1">Judge a creature for [1] turns, causing attacks against them to heal the attacker based on their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+  <content contentuid="h5102b53dg6943g4f5ag8107gdfc6a213afbb" version="1">Attackers are healed based on their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h7a3edae6gcb37g459ag8499g76b00c6631b6" version="1">Judgement of Justice</content>
+  <content contentuid="hdd43f881gb117g495egaa49g75c4f775269b" version="1">Judge a creature for [1] turns, slowing their movement speed by [2] and possibly &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;frightening&lt;/LSTag&gt; them for [3] turns.</content>
+  <content contentuid="h5960a4c7g646bg48d3g80a8g5664f5e8fca0" version="1">Movement speed reduced by [1].</content>
+
+  <content contentuid="h32781620ga795g4e19gaf9fg72001b31a01c" version="1">Judgement of Wisdom</content>
+  <content contentuid="ha8a11440gf890g476bgb2a4g462ab8a437bf" version="1">Judge a creature for [1] turns, causing &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; against them to replenish a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; for the attacker.</content>
+  <content contentuid="hc5b55301g392eg4a5dgb65ag70cb89a8bd65" version="1">Being &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt; will replenish a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; for the attacker.</content>
+
+  <content contentuid="hb947547ag50bbg46f8g86d7g72823a276700" version="1">Does not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; at close range.</content>
+  <content contentuid="h2c82f1ceg5bbcg4f2dga137g27b1658969fc" version="1">Benefits from &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+  <content contentuid="hdb7140c3gba4ag4321g8120g50a5228f86aa" version="1">Does not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; at close range. Benefits from &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h74bd3232g8f0fg4ec2g94b4gc78daac5c30b" version="1">Crusader Strike</content>
+  <content contentuid="h31b68b0ag9c32g42bcg99acg27bfaffcde29" version="1">Strike a creature for bonus Radiant damage.</content>
+
+  <content contentuid="hd0a5ceabgdb8bg4106gb27dgd7452851e1d8" version="1">Word of Glory</content>
+  <content contentuid="h7dc74a0agdc41g4e6aga879g727d02c0eb27" version="1">Call down the Light to heal a character.</content>
+
+  <content contentuid="h426655e2g1f34g41d4g8af6gcc7aa5f31f9b" version="1">Infusion of Light</content>
+  <content contentuid="h74771aa5gf0e4g43d7g96cbg87317bb50892" version="1">Spend 1 &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charge&lt;/LSTag&gt; to make your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability have maximized healing and damage.</content>
+  <content contentuid="h92d5e12fg1958g4202gb4a5g85bfd50ad888" version="1">Your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability has maximized healing and damage.</content>
+
+  <content contentuid="hfb7d041dgbd02g4231g8870g14fb51a51b97" version="1">Avenger's Shield</content>
+  <content contentuid="habbcf45fge9f3g420eg808fg17589821b418" version="1">Hurl your shield, causing a small explosion of Radiant damage that breaks &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt; against enemies.</content>
+  <content contentuid="h9201daa0g5fa9g4977gb87bgdfb349c280b5" version="1">Your shield gains the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property, dealing [1] when thrown and automatically returning to you.</content>
+
+  <content contentuid="h5dbd257cgd030g4f1ag8567g4059feb7e521" version="1">Shield of the Righteous</content>
+  <content contentuid="hcc121619g07e0g4059gafa5gde300039d9ac" version="1">Slam enemies in front of you with your shield, dealing Radiant damage and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. For the next [1] turns, you gain a bonus to your &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt; equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+  <content contentuid="hc24ee4d9g280bg4498g9b31gbc05a2662136" version="1">You gain a bonus to your &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt; equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+  <content contentuid="h244dd022g3352g4126ga193gf2554b30083c" version="1">Counts as an Unarmed Attack.</content>
+
+  <content contentuid="hd947ecb2gb60ag43a9g9acegc433d594b054" version="1">Guardian of Ancient Kings</content>
+  <content contentuid="h2e49ea87g086dg4362g96e1g6115acfc32fd" version="1">Empowers you with the spirit of ancient kings, granting &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage for [1] turns.</content>
+  <content contentuid="h19a3e830g5622g44e9g9773g8468349bd6d6" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage.</content>
+
+  <content contentuid="h638f4979g1318g4a11g9f51g22d9b5143e97" version="1">Grand Crusader</content>
+  <content contentuid="hc47af71dgad4bg44d7g91b9gfc900fa16269" version="1">You restore 1 &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt; whenever an enemy critically misses you in combat.</content>
+
+  <content contentuid="h7e6c0949g48bdg4d49gad6bg08e9466d0707" version="1">Boundless Conviction</content>
+  <content contentuid="h1a41e920ga547g45ffg876egd06e2508ad57" version="1">Spend &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; to regain &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charges&lt;/LSTag&gt;.</content>
+  <content contentuid="hbe3c01d2g14c2g4427g9d86gc018fc63703f" version="1">Regain [1] &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
+
 </contentList>

@@ -18,6 +18,19 @@
           <attribute id="Passives" type="LSString" value="FavoredEnemy_DemonHunter"/>
           <attribute id="UUID" type="guid" value="e678d28c-87a4-4bfc-9287-fd803183334d"/>
         </node>
+
+        
+        <!-- Divine Power -->
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Divine Power Retribution"/>
+          <attribute id="Passives" type="LSString" value="Smite_Divine,HolyPower"/>
+          <attribute id="UUID" type="guid" value="af7c7f74-03d1-4552-b5d7-afbc48ea7471"/>
+        </node>
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Improved Divine Power"/>
+          <attribute id="Passives" type="LSString" value="ImprovedDivineSmite,DivinePurpose"/>
+          <attribute id="UUID" type="guid" value="9df19648-10c4-4f44-b4d4-8d5ea6a52d11"/>
+        </node>
       </children>
     </node>
   </region>

@@ -47,7 +47,7 @@
 			"blood"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png\" height=\"25\" align=\"top\" alt=\"BloodRune\" />$0"
+		"body": "<img src=\"images/ActionResources_c/Icons/Resources/BloodRune.png\" height=\"25\" align=\"top\" alt=\"BloodRune\" />$0"
 	},
 	"Frost Rune": {
 		"prefix": [
@@ -55,7 +55,7 @@
 			"frost"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png\" height=\"25\" align=\"top\" alt=\"FrostRune\" />$0"
+		"body": "<img src=\"images/ActionResources_c/Icons/Resources/FrostRune.png\" height=\"25\" align=\"top\" alt=\"FrostRune\" />$0"
 	},
 	"Unholy Rune": {
 		"prefix": [
@@ -63,7 +63,7 @@
 			"unholy"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png\" height=\"25\" align=\"top\" alt=\"UnholyRune\" />$0"
+		"body": "<img src=\"images/ActionResources_c/Icons/Resources/UnholyRune.png\" height=\"25\" align=\"top\" alt=\"UnholyRune\" />$0"
 	},
 	"Action": {
 		"prefix": [
@@ -89,6 +89,13 @@
 		],
 		"scope": "markdown,helm",
 		"body": "<img src=\"https://bg3.wiki/w/images/thumb/d/d6/Rage_Charges_Icons.png/27px-Rage_Charges_Icons.png\" height=\"25\" align=\"top\" alt=\"RageCharges\" />$0"
+	},
+	"Channel Oath Charges": {
+		"prefix": [
+			"channeloath"
+		],
+		"scope": "markdown,helm",
+		"body": "<img src=\"https://bg3.wiki/w/images/thumb/4/4a/Channel_Oath_Icon.png/25px-Channel_Oath_Icon.png\" height=\"25\" align=\"top\" alt=\"ChannelOath\" />$0"
 	},
 	"Hit Points": {
 		"prefix": [
@@ -236,5 +243,33 @@
 		],
 		"scope": "markdown,helm",
 		"body": "<img src='https://bg3.wiki/w/images/0/04/Psychic_Damage_Icon.png' height='25' align='top' alt='Psychic Damage' />$0"
+	},
+	"replace": {
+		"prefix": [
+			"replace"
+		],
+		"scope": "markdown,helm",
+		"body": "replace \"$CLIPBOARD\" \"<img src='$0' height='25' align='top' alt='$CLIPBOARD' />$CLIPBOARD\""
+	},
+	"get": {
+		"prefix": [
+			"get"
+		],
+		"scope": "markdown",
+		"body": "{{ get .loca \"$CLIPBOARD\" | include \"wikify\" }}"
+	},
+	"getf": {
+		"prefix": [
+			"getf"
+		],
+		"scope": "markdown",
+		"body": "{{ getf .loca \"$CLIPBOARD\" $0 | include \"wikify\" }}"
+	},
+	"wikify": {
+		"prefix": [
+			"wikify"
+		],
+		"scope": "markdown",
+		"body": "{{ include \"wikify\" \"$0\" }}"
 	},
 }

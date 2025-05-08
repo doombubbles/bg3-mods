@@ -68,10 +68,10 @@
           <attribute id="UUID" type="guid" value="0a3b07bf-a806-4c77-9c8f-6e7c0965f9dd"/>
         </node>
         <node id="Feat">
-          <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+          <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
           <attribute id="Name" type="FixedString" value="RitualCaster"/>
           <attribute id="PassivesAdded" type="LSString" value="RitualCaster_FreeSpells"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d,2,0,,,,AlwaysPrepared);SelectAbilities(6d64a5f2-c26a-4af9-8957-7370ff51f0de,1,1)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d,2,0,RitualCasterSpells,,,AlwaysPrepared);SelectAbilities(6d64a5f2-c26a-4af9-8957-7370ff51f0de,1,1)"/>
           <attribute id="UUID" type="guid" value="f3370916-6b35-4c5b-af36-19ca888cb43e"/>
         </node>
         <node id="Feat">

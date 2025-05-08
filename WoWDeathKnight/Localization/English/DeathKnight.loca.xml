@@ -88,7 +88,7 @@
   <content contentuid="hde95c872g12e0g43edg99eegbe29bd8539e0" version="1">You gain a Frost Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hc8f4f011ge8a7g4a6agb29age1bf06ba63a8" version="1">Frozen Heart</content>
-  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">Your spells and Rune abilities deal additional Cold damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+  <content contentuid="h7efee0fcg76d0g4b14gb4adg7aa0d693e7a9" version="1">You add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the Cold damage of your spells and Rune abilities.</content>
 
   <content contentuid="hdba145d9gd3b5g4223g9bb2g2a5e928b566c" version="1">Frost Strike</content>
   <content contentuid="h448adaceg9464g44a0g96b4ga01a6f757b7b" version="1">Chill your weapon with icy power and strike an enemy for a bonus [1] and slow their movement speed by [2] for 2 turns.</content>

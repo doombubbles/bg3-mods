@@ -1,3 +1,3 @@
-Welcome to the DoombubblesTweaks wiki!
+This is the wiki for my Baldur's Gate 3 mods
 
-Navigate with the Sidebar to see all that this mod has to offer.
+Use the sidebar to navigate, each mod has its own section

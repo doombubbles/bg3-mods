@@ -1,7 +1,7 @@
 
 <img align="right" alt="Unholy Death Knight Class Icon" height="150" src="images/ClassIcons/UnholyDK.png" />
 
-**Blood** is one of the Subclasses of <a href="Death Knight">Death Knight</a> that focuses on spending <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Runes to summon and empower undead minions and deal <img src='https://bg3.wiki/w/images/3/39/Necrotic_Damage_Icon.png' height='25' align='top' alt='Necrotic Damage' /> Necrotic damage to enemies.
+**Blood** is one of the Subclasses of <a href="Death Knight">Death Knight</a> that focuses on spending <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Runes to summon and empower undead minions and deal <img src='https://bg3.wiki/w/images/3/39/Necrotic_Damage_Icon.png' height='25' align='top' alt='Necrotic Damage' /> Necrotic damage to enemies.
 <h3>
 
 > {{ get .loca "hbeb5ac97g8faeg4e7egbe96g79bb2b48cf70" | quote }}
@@ -16,9 +16,9 @@
 
 <h3>
 Runes: 
-1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
+1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
+2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
 ### Known Rune Spells
@@ -57,9 +57,9 @@ Runes:
 
 <h3>
 Runes: 
-1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-1 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-3 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
+1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
+3 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
 ### New Rune Spells
@@ -85,9 +85,9 @@ Runes:
 
 <h3>
 Runes: 
-2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-4 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+2 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
+2 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
+4 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
 ### New Rune Spells
@@ -105,9 +105,9 @@ Runes:
 
 <h3>
 Runes: 
-2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-5 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+2 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
+2 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
+5 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
 ### New Rune Spells
@@ -133,9 +133,9 @@ Runes:
 
 <h3>
 Runes: 
-2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-2 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-6 <img src="images/WoWDeathKnightClass/Shared/Resources/Icon_DK_UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+2 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
+2 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
+6 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
 ### New Rune Spells

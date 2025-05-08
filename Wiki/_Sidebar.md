@@ -1,3 +1,35 @@
+## WoW Death Knight
+
+#### New Classes
+
+- **[[ Death Knight | Death-Knight ]]**
+  - [[ Blood | Death-Knight---Blood ]]
+  - [[ Frost | Death-Knight---Frost ]]
+  - [[ Unholy | Death-Knight---Unholy ]]
+  - [[ Spell List | Death-Knight-Spells ]]
+
+## WoW Subclasses
+
+#### New Subraces
+- [[ Blood Elf | Blood-Elf ]]
+
+#### New Subclasses
+
+- Barbarian
+  - [[ Fury | Barbarian---Fury ]]
+- Paladin
+  - [[ Oath of Retribution | Paladin---Retribution ]]
+  - [[ Oath of Holiness | Paladin---Holy ]]
+  - [[ Oath of Protection | Paladin---Protection ]]
+  - [[ Shared Abilities | Paladin---Abilities ]]
+- Warlock
+  - [[ Pact of Destruction | Warlock---Destruction ]]
+  - [[ Pact of Demonology | Warlock---Demonology ]]
+- Wizard
+  - [[ Fire | Wizard---Fire ]]
+  - [[ Frost | Wizard---Frost ]]
+  - [[ Arcane | Wizard---Arcane ]]
+
 ## DoombubblesTweaks
 
 ### Additions
@@ -33,28 +65,3 @@
 - [[ Sorcerer | Sorcerer-Changes ]]
 - [[ Warlock | Warlock-Changes ]]
 - [[ Wizard | Wizard-Changes ]]
-
-## WoW Death Knight
-
-#### New Classes
-
-- **[[ Death Knight | Death-Knight ]]**
-  - [[ Blood | Death-Knight---Blood ]]
-  - [[ Frost | Death-Knight---Frost ]]
-  - [[ Unholy | Death-Knight---Unholy ]]
-  - [[ Spell List | Death-Knight-Spells ]]
-
-## WoW Subclasses
-
-#### New Subclasses
-
-- Barbarian
-  - [[ Fury | Barbarian---Fury ]]
-- Paladin
-  - [[ Oath of Retribution | Paladin---Retribution ]]
-- Warlock
-  - [[ Pact of Destruction | Warlock---Destruction ]]
-- Wizard
-  - [[ Fire | Wizard---Fire ]]
-  - [[ Frost | Wizard---Frost ]]
-  - [[ Arcane | Wizard---Arcane ]]
