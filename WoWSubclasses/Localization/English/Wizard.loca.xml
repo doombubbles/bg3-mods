@@ -15,9 +15,9 @@
 	<content contentuid="h26e7d6f8g57b6g4867g85d4g170c29722b59" version="1">Ignite</content>
 	<content contentuid="h0c1220a6gfc31g483bga7aeg0df6567e0522" version="1">Dealing Fire damage with a spell applies [1] turns of &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; to the target.</content>
 	<content contentuid="h14e0e770g2558g48e7ga72fg82428f99e44d" version="1">Firestarter</content>
-	<content contentuid="ha2328454gab46g4300gb88dg9d52fa8ad601" version="1">Attacking a creature at full HP with a Fire Spell is a guaranteed Critical Hit.</content>
+	<content contentuid="ha2328454gab46g4300gb88dg9d52fa8ad601" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, attacking a creature at full HP with a Fire Spell is a guaranteed Critical Hit.</content>
 	<content contentuid="h904d4cc7g991eg4565g946ag1eb32a0f4016" version="1">Cauterize</content>
-	<content contentuid="hfd0426f6g9efcg49cbgb8c4ge3e5bb978a9e" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, if you drop to [1] &lt;LSTag Tooltip="HitPoints"&gt;hit point&lt;/LSTag&gt;, you regain [2] instead of being &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; and gain &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;.</content>
+	<content contentuid="hfd0426f6g9efcg49cbgb8c4ge3e5bb978a9e" version="1">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, if you drop to [1] &lt;LSTag Tooltip="HitPoints"&gt;hit point&lt;/LSTag&gt;, you regain [2] instead of being &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; and gain &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h86117c92g20b5g456fg93b0gf112d2326b0a" version="1">Frost</content>
 	<content contentuid="hd76d5d39g9c18g4c34g8c4ag3ee5b9237ced" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in mastering the force of cold.</content>

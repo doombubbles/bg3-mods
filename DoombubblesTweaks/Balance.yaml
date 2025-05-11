@@ -6,7 +6,8 @@ PotenterCantrip: false
 PotentSacredRing: false
 MagicianCastingAbility: Intelligence
 MagicianLessSorceryPoints: false
-SpecialArrowsPerCombat: true
+ArcheryGlovesSpecialArrows: true
+GithyankiWarMagicOP: true
 
 # Base Game nerfs
 NerfTavernBrawler: false

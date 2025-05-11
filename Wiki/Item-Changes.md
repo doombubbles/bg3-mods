@@ -27,7 +27,7 @@
 
 **Training Shield** - Can be used without Shield Proficiency
 
-**Unseen Menace** - Now has Finesse property
+<!-- **Unseen Menace** - Now has Finesse property -->
 
 **Stalker Gloves** - Damage is now 1d6, or 3d6 if you have Reliable Talent
 

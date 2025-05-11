@@ -94,3 +94,15 @@ function OathSpellCheck2()
       | SpellId('Target_WordOfGlory')
       | SpellId('Zone_LightOfDawn')
 end
+
+function OathSpellCheckHealing() 
+  return SpellId('Target_HolyShock')
+      | SpellId('Target_HolyShock_Healing')
+      | SpellId('Target_HolyShock_Damage')
+      | SpellId('Target_WordOfGlory')
+      | SpellId('Zone_LightOfDawn')
+end
+
+function IsKillingBlowish()
+  return IsKillingBlow() | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
+end

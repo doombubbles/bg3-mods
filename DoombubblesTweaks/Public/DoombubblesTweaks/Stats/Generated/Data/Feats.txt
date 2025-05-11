@@ -84,6 +84,12 @@ data "Properties" "Highlighted"
 data "Boosts" "IF(HasDamageDoneForType(DamageType.Poison) and not Self()):DamageBonus(1, Poison);IF(not Self()):IgnoreResistance(Poison,Resistant)"
 
 
+new entry "PolearmMaster_BonusAttack"
+type "PassiveData"
+using "PolearmMaster_BonusAttack"
+data "Properties" ""
+
+
 new entry "MetamagicAdept_Passive"
 type "PassiveData"
 data "DisplayName" "h48eefe2fg517ag4245gaf8ag91154e6d5d47"

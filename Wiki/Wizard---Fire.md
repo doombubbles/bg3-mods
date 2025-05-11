@@ -1,3 +1,5 @@
+# Fire Wizard
+
 <img align="right" alt="Fire Wizard Class Icon" height="150" src="images/ClassIcons/Fire.png" />
 
 **Fire** is a modded Subclass of [Wizard](https://bg3.wiki/wiki/Wizard) that focuses on utilizing <img src='https://bg3.wiki/w/images/8/84/Fire_Damage_Icon.png' height='25' align='top' alt='Fire Damage' /> Fire damage spells and synergizing with Critical Hits.
@@ -41,4 +43,8 @@ You learn [<img src="https://bg3.wiki/w/images/b/b8/Flame_Strike_Icon.webp" heig
 
 {{ get .loca "ha2328454gab46g4300gb88dg9d52fa8ad601" | include "wikify" }}
 
-Usable Once per [Short Rest](https://bg3.wiki/wiki/Short_Rest).
+<img src="https://bg3.wiki/w/images/8/8e/Explosive_Blood_Icon.webp" height="40" align="left" alt="Explosive_Blood_Icon.webp" />
+
+### Cauterize
+
+{{ getf .loca "hfd0426f6g9efcg49cbgb8c4ge3e5bb978a9e" "0" "1 hit point" | include "wikify" }}

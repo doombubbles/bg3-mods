@@ -31,7 +31,7 @@ data "DisplayName" "h4d77ec93gd4c5g4678gad2dg4487ab3ee2bf"
 data "Description" "hb4fcf64dg33b9g424ag84c1ge4b577abc9cf"
 data "Properties" "IsHidden"
 data "BoostContext" "OnCreate;OnInventoryChanged"
-{{- if $.Balance.SpecialArrowsPerCombat }}
+{{- if $.Balance.ArcheryGlovesSpecialArrows }}
 data "Boosts" "{{- range $arrow := $.Arrows -}}IF(HasStatus('{{$arrow | upper}}',context.Source)):UnlockSpell(Projectile_{{$arrow}}_Free);{{- end -}}"
 {{- end }}
 
@@ -39,7 +39,7 @@ data "Boosts" "{{- range $arrow := $.Arrows -}}IF(HasStatus('{{$arrow | upper}}'
 new entry "OBJ_{{$arrow}}"
 type "Object"
 using "OBJ_{{$arrow}}"
-{{- if $.Balance.SpecialArrowsPerCombat }}
+{{- if $.Balance.ArcheryGlovesSpecialArrows }}
 data "StatusInInventory" "{{$arrow | upper}}"
 {{- end }}
 
@@ -54,5 +54,5 @@ new entry "Projectile_{{$arrow}}_Free"
 type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_{{$arrow}}"
-data "Cooldown" "OncePerCombat"
+data "Cooldown" "OncePerShortRest"
 {{ end }}

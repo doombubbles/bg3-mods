@@ -52,4 +52,7 @@
   <content contentuid="he0bf7eecgd59eg4dbcgab40g86157ba291a8" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
   <content contentuid="h028f721fgbfdbg40edgbe82ga25be769ff32" version="1">You deal an additional [1] against creatures that haven't taken a turn in combat yet.</content>
+
+  <content contentuid="h01fa7dafgbdd8g4aeag9702g0c3f00ee794e" version="1">After the githyanki casts a spell or &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt; that isn't a weapon attack, they can make a weapon attack using a bonus action.</content>
+	
 </contentList>

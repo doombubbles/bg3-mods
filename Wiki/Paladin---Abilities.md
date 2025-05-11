@@ -73,6 +73,65 @@
 - {{ getf .loca "ha8a11440gf890g476bgb2a4g462ab8a437bf" "10"  | include "wikify" }}
 
 
+<img src="images/ControllerIcons/skills_png/Action_Paladin_Exorcism.png" height="40" align="left" alt="" />
+
+### Exorcism
+- Available for Retribution/Holy/Protection Level 3+
+- {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
+- Spell Attack, 18m range
+- {{ include "wikify" "Deals [2d8/3d8/4d8](# 'Improving at level 5 and 10') + Charisma Modifier Radiant damage" }}
+- {{ get .loca "hff5a5e0ag6d01g4c64g8fddg80af427bea75" | include "wikify" }}
+- {{ get .loca "hdb7140c3gba4ag4321g8120g50a5228f86aa" | include "wikify" }}
+
+
+
+<img src="images/ControllerIcons/skills_png/Action_Paladin_HammerOfWrath.png" height="40" align="left" alt="Action_Paladin_HammerOfWrath.png" />
+
+### Hammer of Wrath
+- Available for Retribution/Holy/Protection Level 3+
+- {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
+- Spell Attack, 18m range
+- {{ include "wikify" "Deals [2d12/3d12/4d12](# 'Improving at level 5 and 10') + Charisma Modifier Radiant damage" }}
+- {{ getf .loca "h945cadafg2b51g4932ga500gf3949365536f" "50%" | include "wikify" }}
+- {{ get .loca "hdb7140c3gba4ag4321g8120g50a5228f86aa" | include "wikify" }}
+
+
+<img src="images/ControllerIcons/skills_png/Action_Paladin_HammerOfJustice.png" height="40" align="left" alt="Action_Paladin_HammerOfJustice.png" />
+
+### Hammer of Justice
+- Available for Retribution/Holy/Protection Level 5+
+- {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
+- {{ include "wikify" "Spell, 9m range, Charisma saving throw" }}
+- {{ get .loca "hd83b9f42g97d1g43a6g8e59gaac60552f79a" | include "wikify" }}
+
+
+<img src="images/ControllerIcons/skills_png/Action_Paladin_BlessingOfFreedom.png" height="40" align="left" alt="Action_Paladin_BlessingOfFreedom.png" />
+
+### Blessing of Freedom
+- Available for Retribution/Holy/Protection Level 5+
+- {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
+- Spell, 18m range
+- {{ getf .loca "hce5cd63fg4aa5g441cgb010ge2f2062c79f9" "5" | include "wikify" }}
+
+
+<img src="images/ControllerIcons/skills_png/Action_Paladin_BlessingOfProtection.png" height="40" align="left" alt="Action_Paladin_BlessingOfProtection.png" />
+
+# Blessing of Protection
+- Available for Retribution/Holy/Protection Level 5+
+- {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
+- Spell, 18m range
+- {{ getf .loca "he989e801g8ab5g44a9gb9f1g40d6bdc504ec" "5" | include "wikify" }}
+- {{ getf .loca "hab541713g5098g412ag8cedgc16592fa963e" "10" | include "wikify" }}
+
+
+<img src="images/ControllerIcons/skills_png/Action_Paladin_BlessingOfSpellwarding.png" height="40" align="left" alt="Action_Paladin_BlessingOfSpellwarding.png" />
+
+# Blessing of Spellwarding
+- Available for Retribution/Holy/Protection Level 5+
+- {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
+- Spell, 18m range
+- {{ getf .loca "hca103f40g8adeg49e4ga10cg7906ff20719c" "5" | include "wikify" }}
+- {{ getf .loca "hab541713g5098g412ag8cedgc16592fa963e" "10" | include "wikify" }}
 
 
 ## 2 Cost
@@ -133,3 +192,15 @@
 - Available for Protection Level 3+
 - {{ include "wikify" "Costs 1 **Bonus Action**, 2 **Channel Oath Charges**" }}
 - {{ getf .loca "h2e49ea87g086dg4362g96e1g6115acfc32fd" "10" }}
+
+
+## 3 Cost
+
+
+<img src="images/ControllerIcons/skills_png/Action_Paladin_DivineShield.png" height="40" align="left" alt="Action_Paladin_DivineShield.png" />
+
+### Divine Shield
+- Available for Retribution/Holy/Protection Level 9+
+- {{ include "wikify" "Costs 1 **Action**, 3 **Channel Oath Charges**" }}
+- {{ getf .loca "hd162d5eegc975g47c8ga9e6gf5720ee876ed" "3" }}
+- {{ getf .loca "hab541713g5098g412ag8cedgc16592fa963e" "10" | include "wikify" }}

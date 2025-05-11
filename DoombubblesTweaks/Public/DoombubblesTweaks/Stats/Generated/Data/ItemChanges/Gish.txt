@@ -3,13 +3,18 @@ new entry "WarMagic_Githyanki"
 type "PassiveData"
 using "WarMagic_Githyanki"
 data "Properties" "Highlighted"
+{{- if $.Balance.GithyankiWarMagicOP }}
 data "Conditions" "Tagged('GITHYANKI', context.Source) and HasSpellFlag(SpellFlags.Spell) and not HasStatus('WARMAGIC_GITHYANKI')"
+{{- else }}
+data "Description" "h01fa7dafgbdd8g4aeag9702g0c3f00ee794e"
+data "Conditions" "Tagged('GITHYANKI', context.Source) and HasSpellFlag(SpellFlags.Spell) and not IsWeaponAttack() and not HasStatus('WARMAGIC_GITHYANKI')"
+{{- end }}
 
 new entry "Target_WarMagic_Githyanki_Attack"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_WarMagic_Githyanki_Attack"
-data "SpellFlags" "IsMelee;IsHarmful;CanDualWield;Temporary"
+data "SpellFlags" "IsMelee;IsHarmful;Temporary"
 
 new entry "Projectile_WarMagic_Githyanki_Attack"
 type "SpellData"

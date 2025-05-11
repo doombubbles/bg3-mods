@@ -66,7 +66,7 @@ You learn 4 new Oath Spells that are always prepared. They can come from the lis
 Choose to either get [ <img src="https://bg3.wiki/w/images/f/fb/Improved_Divine_Smite_Icon.webp" height="25" align="top" alt="Improved_Divine_Smite_Icon.webp" /> Improved Divine Smite](https://bg3.wiki/wiki/Improved_Divine_Smite) like base subclasses, or get the **Divine Purpose** passive
 
 
-<img src="https://bg3.wiki/w/images/6/61/Divine_Intervention_Sunder_the_Heretical_Icon.webp" height="40" align="left" alt="Divine Intervention" />
+<img src="https://bg3.wiki/w/images/4/44/Divine_Favour_Icon.webp" height="40" align="left" alt="Divine_Favour_Icon.webp" />
 
 ### Divine Purpose
 

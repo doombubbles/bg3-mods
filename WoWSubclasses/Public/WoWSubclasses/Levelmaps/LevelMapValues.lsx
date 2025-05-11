@@ -120,6 +120,39 @@
           {{- end }}
           <attribute id="UUID" type="guid" value="294a6086-f22e-4270-a53a-5b53f312afe4"/>
         </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="2d12"/>
+          <attribute id="Level1" type="LSString" value="2d12"/>
+          <attribute id="Level5" type="LSString" value="3d12"/>
+          <attribute id="Level10" type="LSString" value="4d12"/>
+          <attribute id="Name" type="FixedString" value="HammerOfWrath"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="f86f801d-ef86-43d1-a3a3-22a1a8b39cdf"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="2d8"/>
+          <attribute id="Level1" type="LSString" value="2d8"/>
+          <attribute id="Level5" type="LSString" value="3d8"/>
+          <attribute id="Level10" type="LSString" value="4d8"/>
+          <attribute id="Name" type="FixedString" value="Exorcism"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="a3292f50-20eb-45c5-9fb6-e14ea8ec5b83"/>
+        </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="16"/>
+          <attribute id="Level1" type="LSString" value="16"/>
+          <attribute id="Level5" type="LSString" value="24"/>
+          <attribute id="Level10" type="LSString" value="32"/>
+          <attribute id="Name" type="FixedString" value="ExorcismFull"/>
+          {{- if $.Values.ScaleWithPaladinLevel }}
+          <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+          {{- end }}
+          <attribute id="UUID" type="guid" value="08becf9d-5789-49f0-910c-a51c9c6154cd"/>
+        </node>
       </children>
     </node>
   </region>

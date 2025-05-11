@@ -4,7 +4,7 @@ data "SpellType" "Target"
 using "Target_Help"
 data "ExtraDescription" "h15eac919g3815g4912gbaaag2b2517b9f3ff"
 data "SpellProperties" "IF(not HasHelpableCondition()):ApplyStatus(HELP,100,1);RemoveStatus(SG_Sleeping);RemoveStatus(SG_Helpable_Condition);RemoveStatus(BURNING);RemoveStatus(SG_Prone);RemoveStatus(SG_Restrained);RemoveStatus(PRONE);RemoveStatus(SLEEPING);RemoveStatus(SLEEP);RemoveStatus(ENSNARING_STRIKE);RemoveStatus(WEB);IF(IsDowned()):RegainHitPoints(1);RemoveStatus(HYPNOTIC_PATTERN)"
-data "TargetConditions" "Character() and not Self() and (not Enemy() or Player())"
+data "TargetConditions" "Character() and not Self() and (not Enemy() or Player()) and (HasHelpableCondition() or IsSummon())"
 
 new entry "HELP"
 type "StatusData"

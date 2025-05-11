@@ -1,3 +1,5 @@
+# Arcane Wizard
+
 <img align="right" alt="Arcane Wizard Class Icon" height="150" src="images/ClassIcons/Arcane.png" />
 
 **Arcane** is a modded Subclass of [Wizard](https://bg3.wiki/wiki/Wizard) that focuses on utilizing [ <img src="https://bg3.wiki/w/images/thumb/0/04/Arcane_Recovery_Charges_Icons.png/25px-Arcane_Recovery_Charges_Icons.png" height="25" align="top" alt="ArcaneRecovery" /> Arcane Recovery](https://bg3.wiki/wiki/Arcane_Recovery) and generally being able to cast additional spells.

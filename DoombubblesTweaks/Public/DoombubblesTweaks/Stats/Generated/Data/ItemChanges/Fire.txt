@@ -27,6 +27,9 @@ using "MAG_FIRE_HEAT"
 data "DescriptionParams" "DealDamage(1, Fire)"
 data "TooltipDamage" "DealDamage(1, Fire)"
 data "TickFunctors" "IF(not ConditionResult(context.Source.HasAllResistances({DamageType.Fire}, ResistanceType.Resistant)) and not HasStatus('DOWNED')):DealDamage(1,Fire)"
+data "RemoveConditions" "HasStatus('DOWNED') or not Combat()"
+data "RemoveEvents" "OnTurn;OnCombatEnded"
+
 
 new entry "Shout_MAG_Fire_SelfImmolation"
 type "SpellData"

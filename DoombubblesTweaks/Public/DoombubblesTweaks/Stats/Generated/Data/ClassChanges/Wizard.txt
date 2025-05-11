@@ -312,7 +312,7 @@ data "DisplayName" "h926da65bg102ag4390gb20fg545c38607e37"
 data "Description" "h282208a7gea29g43f2g8cf5gcbb30f5796a9"
 data "Icon" "Action_Bladesong"
 data "Properties" "IsToggled"
-data "Boosts" "UnlockSpellVariant(SpellId('Shout_Bladesong', ModifyTooltipDescription(),ModifyStatusDuration(Override,3)))"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_Bladesong'), ModifyTooltipDescription(),ModifyStatusDuration(Override,3))"
 data "StatsFunctorContext" "OnStatusApplied;OnShortRest"
 data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('BLADESONG')):ApplyStatus(SELF,BLADESONG_SHORT_REST,100,-1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('BLADESONG')):SetStatusDuration(SELF,BLADESONG,3,ForceSet);IF(context.HasContextFlag(StatsFunctorContext.OnShortRest) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('ALCH_POTION_REST_SLEEP_LESSER_RESTORATION'))):RemoveStatus(SELF,BLADESONG_SHORT_REST)"
 

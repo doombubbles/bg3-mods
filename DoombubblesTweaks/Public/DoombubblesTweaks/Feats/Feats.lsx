@@ -98,37 +98,37 @@
         <node id="Feat">
           <attribute id="Name" type="FixedString" value="MagicInitiateBard"/>
           <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Bard"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(61f79a30-2cac-4a7a-b5fe-50c89d307dd6,2,0,MIBardCantrips,,,AlwaysPrepared,,92cd50b6-eb1b-4824-8adb-853e90c34c90);SelectSpells(dcb45167-86bd-4297-9b9d-c295be51af5b,1,0,MIBardSpells,,None,AlwaysPrepared,UntilShortRest,92cd50b6-eb1b-4824-8adb-853e90c34c90);SelectAbilities(74fcfab1-895e-4cb4-bcb2-98d0be918c7a,1,1)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(61f79a30-2cac-4a7a-b5fe-50c89d307dd6,2,0,MIBardCantrips,,,AlwaysPrepared,,92cd50b6-eb1b-4824-8adb-853e90c34c90);SelectSpells(dcb45167-86bd-4297-9b9d-c295be51af5b,1,0,MIBardSpells,,None,AlwaysPrepared,,92cd50b6-eb1b-4824-8adb-853e90c34c90);SelectAbilities(74fcfab1-895e-4cb4-bcb2-98d0be918c7a,1,1)"/>
           <attribute id="UUID" type="guid" value="4f744a6e-8589-4a46-89ab-a95415a73245"/>
         </node>
         <node id="Feat">
           <attribute id="Name" type="FixedString" value="MagicInitiateCleric"/>
           <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Cleric"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,2,0,MIClericCantrips,,,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf);SelectSpells(269d1a3b-eed8-4131-8901-a562238f5289,1,0,MIClericSpells,,None,AlwaysPrepared,UntilShortRest,114e7aee-d1d4-4371-8d90-8a2080592faf);SelectAbilities(63652ffa-91ae-44f8-9cd4-4d9ffb52b649,1,1)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,2,0,MIClericCantrips,,,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf);SelectSpells(269d1a3b-eed8-4131-8901-a562238f5289,1,0,MIClericSpells,,None,AlwaysPrepared,,114e7aee-d1d4-4371-8d90-8a2080592faf);SelectAbilities(63652ffa-91ae-44f8-9cd4-4d9ffb52b649,1,1)"/>
           <attribute id="UUID" type="guid" value="28e5fed3-bd41-4b74-ab48-b8e824ad3443"/>
         </node>
         <node id="Feat">
           <attribute id="Name" type="FixedString" value="MagicInitiateDruid"/>
           <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Druid"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,MIDruidCantrips,,,AlwaysPrepared,,457d0a6e-9da8-4f95-a225-18382f0e94b5);SelectSpells(2cd54137-2fe5-4100-aad3-df64735a8145,1,0,MIDruidSpells,,None,AlwaysPrepared,UntilShortRest,457d0a6e-9da8-4f95-a225-18382f0e94b5);SelectAbilities(63652ffa-91ae-44f8-9cd4-4d9ffb52b649,1,1)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,MIDruidCantrips,,,AlwaysPrepared,,457d0a6e-9da8-4f95-a225-18382f0e94b5);SelectSpells(2cd54137-2fe5-4100-aad3-df64735a8145,1,0,MIDruidSpells,,None,AlwaysPrepared,,457d0a6e-9da8-4f95-a225-18382f0e94b5);SelectAbilities(63652ffa-91ae-44f8-9cd4-4d9ffb52b649,1,1)"/>
           <attribute id="UUID" type="guid" value="1e1a9a4d-38f4-4a05-b080-d32c2b872250"/>
         </node>
         <node id="Feat">
           <attribute id="Name" type="FixedString" value="MagicInitiateSorcerer"/>
           <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Sorcerer"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,2,0,MISorcererCantrips,,,AlwaysPrepared,,784001e2-c96d-4153-beb6-2adbef5abc92);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,1,0,MISorcererSpells,,None,AlwaysPrepared,UntilShortRest,784001e2-c96d-4153-beb6-2adbef5abc92);SelectAbilities(74fcfab1-895e-4cb4-bcb2-98d0be918c7a,1,1)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,2,0,MISorcererCantrips,,,AlwaysPrepared,,784001e2-c96d-4153-beb6-2adbef5abc92);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,1,0,MISorcererSpells,,None,AlwaysPrepared,,784001e2-c96d-4153-beb6-2adbef5abc92);SelectAbilities(74fcfab1-895e-4cb4-bcb2-98d0be918c7a,1,1)"/>
           <attribute id="UUID" type="guid" value="93d41226-d7af-495c-b023-08a6af077962"/>
         </node>
         <node id="Feat">
           <attribute id="Name" type="FixedString" value="MagicInitiateWarlock"/>
           <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Warlock"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,MIWarlockCantrips,,,AlwaysPrepared,,b4225a4b-4bbe-4d97-9e3c-4719dbd1487c);SelectSpells(21e1e2b9-81f7-47d2-ab69-90ba67c0c74c,1,0,MIWarlockSpells,,None,AlwaysPrepared,UntilShortRest,b4225a4b-4bbe-4d97-9e3c-4719dbd1487c);SelectAbilities(74fcfab1-895e-4cb4-bcb2-98d0be918c7a,1,1)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,MIWarlockCantrips,,,AlwaysPrepared,,b4225a4b-4bbe-4d97-9e3c-4719dbd1487c);SelectSpells(21e1e2b9-81f7-47d2-ab69-90ba67c0c74c,1,0,MIWarlockSpells,,None,AlwaysPrepared,,b4225a4b-4bbe-4d97-9e3c-4719dbd1487c);SelectAbilities(74fcfab1-895e-4cb4-bcb2-98d0be918c7a,1,1)"/>
           <attribute id="UUID" type="guid" value="1e0ac3c4-5bb5-42d7-941c-9de58d919732"/>
         </node>
         <node id="Feat">
           <attribute id="Name" type="FixedString" value="MagicInitiateWizard"/>
           <attribute id="PassivesAdded" type="LSString" value="MagicInitiate_Wizard"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,MIWizardCantrips,,,AlwaysPrepared,,a865965f-501b-46e9-9eaa-7748e8c04d09);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,0,MIWizardSpells,,None,AlwaysPrepared,UntilShortRest,a865965f-501b-46e9-9eaa-7748e8c04d09);SelectAbilities(527ce981-ec68-4f03-9f82-b9c94d214687,1,1)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,MIWizardCantrips,,,AlwaysPrepared,,a865965f-501b-46e9-9eaa-7748e8c04d09);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,0,MIWizardSpells,,None,AlwaysPrepared,,a865965f-501b-46e9-9eaa-7748e8c04d09);SelectAbilities(527ce981-ec68-4f03-9f82-b9c94d214687,1,1)"/>
           <attribute id="UUID" type="guid" value="26c6990b-d9f0-41a2-8108-209789fafc18"/>
         </node>
 

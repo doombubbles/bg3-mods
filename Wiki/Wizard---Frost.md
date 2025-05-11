@@ -1,3 +1,5 @@
+# Frost Wizard
+
 <img align="right" alt="Frost Wizard Class Icon" height="150" src="images/ClassIcons/Frost.png" />
 
 **Frost** is a modded Subclass of [Wizard](https://bg3.wiki/wiki/Wizard) that focuses on utilizing <img src='https://bg3.wiki/w/images/0/05/Cold_Damage_Icon.png' height='25' align='top' alt='Cold Damage' />Cold damage spells

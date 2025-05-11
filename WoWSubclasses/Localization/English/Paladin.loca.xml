@@ -23,8 +23,8 @@
   <content contentuid="h60f888a2geaafg4953gbe9dgcf61d017be56" version="1">You deal an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[1]&lt;/LSTag&gt;, restore an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[2]&lt;/LSTag&gt; health, and the number you need to roll a critical hit is reduced by 1.</content>
 
   <content contentuid="hdbe3a822g0e3cg4eafg83eeg5e0433173392" version="1">Divine Purpose</content>
-  <content contentuid="hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" version="1">Whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy, your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability will not consume any &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges.</content>
-  <content contentuid="hce62265fgcc63g4ba5g9353g7531d7728257" version="1">Your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability will not consume any &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges.</content>
+  <content contentuid="hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" version="1">Your attacks and spells in combat have a 20% chance to make your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability not expend any &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges.</content>
+  <content contentuid="hce62265fgcc63g4ba5g9353g7531d7728257" version="1">Your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability will not expend any &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; charges.</content>
   <content contentuid="h93f28502gab63g405cg9c48g149a5807b013" version="1"> &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; against &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt; enemies will only trigger this Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hf333ff4cg5f5cg4967g9309g40e66c6e88b4" version="1">Holy Shock</content>
@@ -49,6 +49,7 @@
   <content contentuid="hae98f4cdg567dg4c9dgb7a0g8dca33d40a76" version="1">Aura of Retribution</content>
   <content contentuid="hd6c97499g7cd2g4170g981egb93bc2575b1a" version="1">If one of your allies within [1] dies or falls unconscious, you gain [2] turns of &lt;LSTag Type="Status" Tooltip="AVENGING_WRATH"&gt;Avenging Wrath&lt;/LSTag&gt;.</content>
   <content contentuid="ha51b3742g9275g4a5eg8320g79fd3248cc56" version="1">If you die or fall unconscious, the spellcaster gains [1] turns of &lt;LSTag Type="Status" Tooltip="AVENGING_WRATH"&gt;Avenging Wrath&lt;/LSTag&gt;.</content>
+
 
   <content contentuid="h949ae83bgb918g49e0gb27bg2f5bf17eb7a7" version="1">Judgement</content>
   <content contentuid="hbd00c5a2g7fa7g4f8eg94e2g92955050e222" version="1">Judge a creature for [1] turns, applying an effect of your choice. Your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; abilities have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against Judged creatures.</content>
@@ -76,8 +77,8 @@
   <content contentuid="h7dc74a0agdc41g4e6aga879g727d02c0eb27" version="1">Call down the Light to heal a character.</content>
 
   <content contentuid="h426655e2g1f34g41d4g8af6gcc7aa5f31f9b" version="1">Infusion of Light</content>
-  <content contentuid="h74771aa5gf0e4g43d7g96cbg87317bb50892" version="1">Spend 1 &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charge&lt;/LSTag&gt; to make your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability have maximized healing and damage.</content>
-  <content contentuid="h92d5e12fg1958g4202gb4a5g85bfd50ad888" version="1">Your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability has maximized healing and damage.</content>
+  <content contentuid="h74771aa5gf0e4g43d7g96cbg87317bb50892" version="1">Spend 1 &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charge&lt;/LSTag&gt; to make your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; that can restore hit points ability have maximized healing and damage.</content>
+  <content contentuid="h92d5e12fg1958g4202gb4a5g85bfd50ad888" version="1">Your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability that can restore hit points has maximized healing and damage.</content>
 
   <content contentuid="hfb7d041dgbd02g4231g8870g14fb51a51b97" version="1">Avenger's Shield</content>
   <content contentuid="habbcf45fge9f3g420eg808fg17589821b418" version="1">Hurl your shield, causing a small explosion of Radiant damage that breaks &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt; against enemies.</content>
@@ -95,8 +96,36 @@
   <content contentuid="h638f4979g1318g4a11g9f51g22d9b5143e97" version="1">Grand Crusader</content>
   <content contentuid="hc47af71dgad4bg44d7g91b9gfc900fa16269" version="1">You restore 1 &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt; whenever an enemy critically misses you in combat.</content>
 
-  <content contentuid="h7e6c0949g48bdg4d49gad6bg08e9466d0707" version="1">Boundless Conviction</content>
-  <content contentuid="h1a41e920ga547g45ffg876egd06e2508ad57" version="1">Spend &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; to regain &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charges&lt;/LSTag&gt;.</content>
-  <content contentuid="hbe3c01d2g14c2g4427g9d86gc018fc63703f" version="1">Regain [1] &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
+  <content contentuid="hbeae3253ge041g4d79g8194ga5b611202820" version="1">Blessing of Freedom</content>
+  <content contentuid="hce5cd63fg4aa5g441cgb010ge2f2062c79f9" version="1">Snap an ally out of any &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt;. &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; can't slow them down, and they can't be magically &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; for [1] turns.</content>
+
+  <content contentuid="h3e6b6a35g0ba1g4eb9g966eg89a3bbef9396" version="1">Divine Shield</content>
+  <content contentuid="hd162d5eegc975g47c8ga9e6gf5720ee876ed" version="1">Become &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to all damage for [1] turns.</content>
+
+  <content contentuid="he92b513cgc041g43acg8181ga075df8498f7" version="1">Forbearance</content>
+  <content contentuid="h03814f55g5f14g4998g92d3g834c23848640" version="1">Prevents certain Paladin effects from happening again.</content>
+  <content contentuid="hab541713g5098g412ag8cedgc16592fa963e" version="1">Applies &lt;LSTag Type="Status" Tooltip="FORBEARANCE"&gt;Forbearance&lt;/LSTag&gt; for [1] turns, preventing any Paladin ability that applies &lt;LSTag Type="Status" Tooltip="FORBEARANCE"&gt;Forbearance&lt;/LSTag&gt; from happening again on the target.</content>
+
+  <content contentuid="haf7b88e4g4f3ag42a5g8de8g49cd4cfa7724" version="1">Blessing of Spellwarding</content>
+  <content contentuid="hca103f40g8adeg49e4ga10cg7906ff20719c" version="1">Make a creature &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing, or Slashing for [1] turns.</content>
+  <content contentuid="h38759d18g4f2eg40aeg9fa8gbb158ce61990" version="1">Creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing, or Slashing.</content>
+
+
+  <content contentuid="ha89af4c9g73dfg4c12gb110gb3942b93916c" version="1">Blessing of Protection</content>
+  <content contentuid="he989e801g8ab5g44a9gb9f1g40d6bdc504ec" version="1">Make a creature &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to all Bludgeoning, Piercing, and Slashing damage for [1] turns.</content>
+  <content contentuid="hc5562c2fgcbfag4171gb2cag47d93d8f9a4d" version="1">Creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to all Bludgeoning, Piercing, and Slashing damage.</content>
+
+  <content contentuid="h1bf93ef5g7c0eg4c63g8c96g891faf00f333" version="1">Hammer of Wrath</content>
+  <content contentuid="h945cadafg2b51g4932ga500gf3949365536f" version="1">Only usable against creatures below [1] hit points, or during &lt;LSTag Type="Status" Tooltip="AVENGING_WRATH"&gt;Avenging Wrath&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hf175bb8fga7f2g4f50g9c8dgc2def23239aa" version="1">Hammer of Justice</content>
+  <content contentuid="hd83b9f42g97d1g43a6g8e59gaac60552f79a" version="1">Attempt to &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt; a creature.</content>
+
+  <content contentuid="hb9378ee9gda41g48b3gb38ega2fc7e5870ff" version="1">Exorcism</content>
+  <content contentuid="hff5a5e0ag6d01g4c64g8fddg80af427bea75" version="1">This spell can't miss againt Fiends and Undead, and they always take maximum damage.</content>
+
+  <content contentuid="h5c814c92ged36g4c7bg82a5ga6903e002102" version="1">Art of War</content>
+  <content contentuid="h61412143gc3c9g41a4gac91gd22aaa1c7d54" version="1">After you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy, you can use &lt;LSTag Type="Spell" Tooltip="Target_Exorcism"&gt;Exorcism&lt;/LSTag&gt; once without expending a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
+  <content contentuid="hfd64bde8g91cfg4cfcg9f08g29a34c8dfe06" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Exorcism"&gt;Exorcism&lt;/LSTag&gt; will not expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
 
 </contentList>

@@ -50,7 +50,7 @@ data "Boosts" "Proficiency(Shields)"
 new entry "MAG_Invisible_Pike"
 type "Weapon"
 using "MAG_Invisible_Pike"
-data "Weapon Properties" "Reach;Melee;Twohanded;Heavy;Dippable;Magical;Finesse"
+// data "Weapon Properties" "Reach;Melee;Twohanded;Heavy;Dippable;Magical;Finesse"
 
 
 // Add another fun summer related effect
@@ -146,14 +146,14 @@ data "UseCosts" "BonusActionPoint:1"
 new entry "Target_MAG_Spectator_FearRay"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_UND_Spectator_Ray_Fear"
+using "Target_MAG_Spectator_FearRay"
 data "Cooldown" "OncePerCombat"
 
 // Could stand to be stronger
 new entry "Target_MAG_Spectator_WoundingRay"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_UND_Spectator_Ray_Wounding"
+using "Target_MAG_Spectator_WoundingRay"
 data "Cooldown" "OncePerCombat"
 
 // Could stand to be stronger
@@ -189,3 +189,17 @@ new entry "Interrupt_MAG_CriticalExecution"
 type "InterruptData"
 using "Interrupt_MAG_CriticalExecution"
 data "Conditions" "IsAbleToReact(context.Observer) and not Item() and Self(context.Source,context.Observer) and IsAttack() and not IsCritical()"
+
+
+new entry "Target_MAG_Drow_EnsnaringStrike"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MAG_Drow_EnsnaringStrike"
+data "Cooldown" "OncePerCombat"
+
+
+new entry "MAG_Drowelf_PoisonAgainstEnsnared_Passive"
+type "PassiveData"
+using "MAG_Drowelf_PoisonAgainstEnsnared_Passive"
+data "DescriptionParams" "DealDamage(1d12, Poison)"
+data "Boosts" "IF(IsMeleeAttack() and HasStatus('SG_Restrained', context.Target)):CharacterWeaponDamage(1d12, Poison)"

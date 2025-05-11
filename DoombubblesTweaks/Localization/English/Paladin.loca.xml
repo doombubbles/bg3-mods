@@ -18,4 +18,10 @@
   <content contentuid="h332a0f28g2c21g4cb5ga1d7g6b5847430b1d" version="1">Sacred Weapon: Reaction</content>
   
   <content contentuid="h0f80020egd031g46c1g86e8g534e4746df10" version="1">Your attacks are suffused with divine might.&lt;br&gt;&lt;br&gt;Melee attacks deal an additional [1].</content>
+
+  
+  <content contentuid="h7e6c0949g48bdg4d49gad6bg08e9466d0707" version="1">Create Channel Oath Charges</content>
+  <content contentuid="h1a41e920ga547g45ffg876egd06e2508ad57" version="1">Spend &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; to regain &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charges&lt;/LSTag&gt;.</content>
+  <content contentuid="hbe3c01d2g14c2g4427g9d86gc018fc63703f" version="1">Regain [1] &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
+
 </contentList>

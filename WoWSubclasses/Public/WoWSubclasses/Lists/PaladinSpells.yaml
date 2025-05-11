@@ -43,5 +43,11 @@ Shared:
     - Projectile_Judgement
     - Shout_AvengingWrath
     - Projectile_HammerOfWrath
-  Lvl5: []
-  Lvl9: []
+    - Target_Exorcism
+  Lvl5:
+    - Target_HammerOfJustice
+    - Target_BlessingOfFreedom
+    - Target_BlessingOfProtection
+    - Target_BlessingOfSpellwarding
+  Lvl9:
+    - Shout_DivineShield

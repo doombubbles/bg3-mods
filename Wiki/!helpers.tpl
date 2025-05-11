@@ -71,7 +71,8 @@
 | replace "Festering Wound" "<a href='Death Knight Spells#festering-wound'> <img src='images/ControllerIcons/skills_png/Status_DeathKnight_FesteringWound.png' height='25' align='top' alt='Status_DeathKnight_FesteringWound.png' />Festering Wound</a>"
 | replace "Templar's Verdict" "<a href='#templars-verdict'> <img src='images/ControllerIcons/skills_png/Action_Paladin_TemplarsVerdict.png' height='25' align='top' alt='Action_Paladin_TemplarsVerdict.png' />Templar's Verdict</a>"
 | replace "Divine Storm" "<a href='#divine-storm'> <img src='images/ControllerIcons/skills_png/Action_Paladin_DivineStorm.png' height='25' align='top' alt='Action_Paladin_DivineStorm.png' />Divine Storm</a>"
-| replace "Avenging Wrath" "<a href='#avenging-wrath'> <img src='images/ControllerIcons/skills_png/Action_Paladin_AvengingWrath.png' height='25' align='top' alt='Action_Paladin_AvengingWrath.png.png' />Avenging Wrath</a>"
+| replace "Avenging Wrath" "<a href='#avenging-wrath'> <img src='images/ControllerIcons/skills_png/Action_Paladin_AvengingWrath.png' height='25' align='top' alt='Action_Paladin_AvengingWrath.png' />Avenging Wrath</a>"
+| replace "Exorcism" "<a href='Paladin---Abilities#exorcism'> <img src='images/ControllerIcons/skills_png/Action_Paladin_Exorcism.png' height='25' align='top' alt='Action_Paladin_Exorcism.png' />Exorcism</a>"
 
 
 
