@@ -208,5 +208,10 @@
 		"prefix": ["modifier","abilitymodifier"],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"AbilityModifier\"&gt;Modifier&lt;/LSTag&gt;"
+	},
+	"movementspeed": {
+		"prefix": "movementspeed",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"MovementSpeed\"&gt;Movement Speed&lt;/LSTag&gt;"
 	}
 }

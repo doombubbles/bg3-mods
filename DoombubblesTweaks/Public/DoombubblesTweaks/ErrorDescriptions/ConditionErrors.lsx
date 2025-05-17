@@ -58,6 +58,12 @@
           <attribute id="Identifier" type="FixedString" value="NotKilledByFrostmourne"/>
           <attribute id="UUID" type="guid" value="7f8cca72-4c1f-40ca-922c-42247de60805"/>
         </node>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="hec3fdbddg278eg498eg8cbdg75810602591e" version="2"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="CE_Status_BOOMINGBLADE_BLOCK_True"/>
+          <attribute id="UUID" type="guid" value="7acc37bf-6f93-4cb7-acf7-4663cd94451e"/>
+        </node>
       </children>
     </node>
   </region>

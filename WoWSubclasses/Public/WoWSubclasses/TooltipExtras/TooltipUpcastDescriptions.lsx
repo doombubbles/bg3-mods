@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="10" build="100"/>
+  <region id="TooltipUpcastDescriptions">
+    <node id="root">
+      <children>
+        <node id="TooltipUpcastDescriptions">
+          <attribute id="Name" type="FixedString" value="Holy Shock"/>
+          <attribute id="Text" type="TranslatedString" handle="h1ab8646bg8538g4266g85deg636ee7b58ff6" version="1"/>
+          <attribute id="UUID" type="guid" value="5442078b-e857-4bd1-baaf-e5509bb1b7c5"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

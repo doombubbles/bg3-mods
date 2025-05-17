@@ -54,5 +54,16 @@
   <content contentuid="h028f721fgbfdbg40edgbe82ga25be769ff32" version="1">You deal an additional [1] against creatures that haven't taken a turn in combat yet.</content>
 
   <content contentuid="h01fa7dafgbdd8g4aeag9702g0c3f00ee794e" version="1">After the githyanki casts a spell or &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt; that isn't a weapon attack, they can make a weapon attack using a bonus action.</content>
-	
+
+  <content contentuid="h0f643a86gecbeg46d3gb1f4gd5362c924c03" version="1">A drow elf wielding this weapon deals an additional [1], or [2] against &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; targets.</content>
+
+  <content contentuid="hc7bde4eag6795g4341ga64dg5621a9638b5e" version="1">In combat, when the wearer receives a status that increases their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;, they also gain [1] &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charges&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h357d8227g6579g4a4aga425gf16bc5d3e63d" version="1">You regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy with the Spellthief.</content>
+
+  <content contentuid="ha1d1c82eg520bg4ff0ga3a3g720268205656" version="1">Your next Lightning spell or cantrip deals additional Lightning damage equal to twice your remaining &lt;LSTag Type="Status" Tooltip="MAG_CHARGED_LIGHTNING"&gt;Lightning Charges&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;On hit, all of your Lightning Charges are consumed.</content>
+
+  <content contentuid="h24c1628dgf93bg4a0eg9780g752a29f4c7da" version="1">Recite your Oath to regain your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge(s)&lt;/LSTag&gt;.</content>
+
+
 </contentList>

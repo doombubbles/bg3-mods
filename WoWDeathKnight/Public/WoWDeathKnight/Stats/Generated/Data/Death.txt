@@ -228,7 +228,7 @@ data "DisplayName" "hccd8c386ge25dg488eg99degcffe5c784813"
 data "Description" "hea1679bcgf77bg4fb3gb826g51a1562feb93"
 data "Icon" "Action_DeathKnight_DeathsAdvance"
 data "StackId" "DEATHS_ADVANCE"
-data "Boosts" "StatusImmunity(SG_DifficultTerrain);ActionResourcePreventReduction(Movement);Attribute(Grounded);ActionResource(MovementSpeed,100)"
+data "Boosts" "StatusImmunity(SG_DifficultTerrain);ActionResourcePreventReduction(Movement);Attribute(Grounded)"
 data "StatusEffect" "ac4aaa41-0e86-4bb9-b8b7-34cb619ea86c"
 
 

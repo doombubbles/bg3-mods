@@ -122,3 +122,11 @@ data "TooltipDamageList" "DealDamage(MainRangedWeapon+{{$die}}, MainRangedWeapon
 data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand;Temporary"
 data "ExtraDescription" "h2912845egd877g47f7ga344g5dee380377c8"
 {{ end }}
+
+
+
+new entry "Target_MantleOfMajesty"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MantleOfMajesty"
+data "Cooldown" "OncePerShortRest"

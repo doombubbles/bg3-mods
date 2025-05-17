@@ -16,7 +16,7 @@ new entry "Target_DeathStrike"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MainHandAttack"
-data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(LevelMapValue(RuneDie),Force,Magical);IF(not HasMaxHPWithoutTemporaryHP(context.Source)):RegainHitPoints(SELF,LevelMapValue(2RuneDie));
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(LevelMapValue(RuneDie),Force,Magical,,0,,true,false);IF(not HasMaxHPWithoutTemporaryHP(context.Source)):RegainHitPoints(SELF,LevelMapValue(2RuneDie));
 {{- range $die, $lvl := $.DK.RuneDieMap -}}
 IF(HasMaxHPWithoutTemporaryHP(context.Source) and ClassLevelHigherOrEqualThan({{$lvl.Low}}, 'DeathKnight') and not ClassLevelHigherOrEqualThan({{add $lvl.High 1}},'DeathKnight')):ApplyStatus(SELF, BONE_SHIELD_{{$die}}, 100, -1);
 {{- end -}}"
@@ -79,7 +79,7 @@ using "Target_MainHandAttack"
 data "TargetConditions" "not Self() and Character() and Enemy() and not Dead()"
 data "AreaRadius" "0"
 data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
-data "SpellSuccess" "TARGET:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);TARGET:ExecuteWeaponFunctors(MainHand);TARGET:DealDamage(LevelMapValue(RuneDie), Force, Magical);TARGET:AOE:IF(HasStatus('DEATH_AND_DECAY_OWNER',context.Source)):DealDamage(LevelMapValue(RuneDie), Force, Magical)"
+data "SpellSuccess" "TARGET:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);TARGET:ExecuteWeaponFunctors(MainHand);TARGET:DealDamage(LevelMapValue(RuneDie), Force, Magical,,0,,true,false);TARGET:AOE:IF(HasStatus('DEATH_AND_DECAY_OWNER',context.Source)):DealDamage(LevelMapValue(RuneDie), Force, Magical)"
 data "TargetConditions" "Character() and not Self() and not Ally()"
 data "Icon" "Action_DeathKnight_HeartStrike"
 data "DisplayName" "he41dc631geae6g4e7dg91f8gec8a206649e0"
@@ -158,8 +158,8 @@ data "SpellType" "Target"
 using "Target_MainHandAttack"
 data "DisplayName" "h9e672809g60fbg44f1g9af7gb59fe45d7335"
 data "Description" "hc857ea31gb601g4319ga792gedd0bfa96c02"
-data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);GROUND:DealDamage(LevelMapValue(2RuneDie),Force,Magical)"
-data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(2RuneDie),Force,Magical);
+data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);GROUND:DealDamage(LevelMapValue(2RuneDie),Force,Magical,,0,,true,false)"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(2RuneDie),Force,Magical,,0,,true,false);
 {{- range $die, $lvl := $.DK.RuneDieMap -}}
 IF(ClassLevelHigherOrEqualThan({{$lvl.Low}}, 'DeathKnight') and not ClassLevelHigherOrEqualThan({{add $lvl.High 1}},'DeathKnight')):ApplyStatus(SELF, BONE_SHIELD_{{mul $die 2}}, 100, -1);
 {{- end -}}"

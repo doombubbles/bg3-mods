@@ -15,6 +15,13 @@ data "SpellType" "Target"
 using "Target_MageHand"
 data "Cooldown" ""
 
+new entry "Target_MageHand_GithyankiPsionics"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MageHand_GithyankiPsionics"
+data "Cooldown" ""
+
+
 // new entry "INVISIBLE_MAGEHAND"
 // type "StatusData"
 // data "StatusType" "INVISIBLE"

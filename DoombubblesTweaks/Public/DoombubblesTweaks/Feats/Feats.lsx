@@ -71,7 +71,7 @@
           <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
           <attribute id="Name" type="FixedString" value="RitualCaster"/>
           <attribute id="PassivesAdded" type="LSString" value="RitualCaster_FreeSpells"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d,2,0,RitualCasterSpells,,,AlwaysPrepared);SelectAbilities(6d64a5f2-c26a-4af9-8957-7370ff51f0de,1,1)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d,3,0,RitualCasterSpells,,,AlwaysPrepared);SelectAbilities(6d64a5f2-c26a-4af9-8957-7370ff51f0de,1,1)"/>
           <attribute id="UUID" type="guid" value="f3370916-6b35-4c5b-af36-19ca888cb43e"/>
         </node>
         <node id="Feat">
@@ -170,11 +170,11 @@
           <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1)"/>
           <attribute id="UUID" type="guid" value="a64b152c-cfa1-4c23-8cde-9e834389fc4e"/>
         </node>
-        <node id="Feat">
+        <!-- <node id="Feat">
           <attribute id="Name" type="FixedString" value="DoubleFistPuncher"/>
           <attribute id="PassivesAdded" type="LSString" value="DoubleFistPuncher"/>
           <attribute id="UUID" type="guid" value="18fde1d4-a067-46fe-96eb-7352ef10a4af" />
-        </node>
+        </node> -->
         <node id="Feat">
           <attribute id="Name" type="FixedString" value="HeavyWeaponMaster"/>
           <attribute id="PassivesAdded" type="LSString" value="HeavyWeaponMaster_BonusAttack;HeavyWeaponMaster_BonusDamage"/>

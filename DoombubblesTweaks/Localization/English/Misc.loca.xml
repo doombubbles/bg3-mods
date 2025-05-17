@@ -50,4 +50,10 @@
 
 	<content contentuid="h15eac919g3815g4912gbaaag2b2517b9f3ff" version="1">If the target has no conditon that can be helped, they instead gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; this turn.</content>
 	<content contentuid="h4df4e120gc9ceg4e0bg9a7dg126b70e64128" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hec3fdbddg278eg498eg8cbdg75810602591e" version="1">Cantrips that benefit from Extra Attack can only be used once per Action taken.</content>
+
+	<content contentuid="h1c8b8f27gefb0g4e43gb2c6g5f584b466a31" version="1">Candle Dip</content>
+	<content contentuid="h598ab48eg2c00g4d26g8141gb1b451df50df" version="1">Dip a weapon into the candle to light it on fire. If you are dual-wielding, you dip both weapons.</content>
+	
 </contentList>

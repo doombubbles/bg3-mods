@@ -165,11 +165,12 @@ data "DescriptionParams" "DealDamage(1d8, Bludgeoning)"
 data "Boosts" "IF(HasStatus('SHILLELAGH',GetAttackWeapon())):WeaponDamage(1d8,Bludgeoning)"
 data "StatusPropertyFlags" "IgnoreResting"
 
-// Should work with other shield synergies
+// Should work with other healing synergies
 new entry "MAG_BardicInspiration_Heal_Hat_Passive"
 type "PassiveData"
 using "MAG_BardicInspiration_Heal_Hat_Passive"
-data "StatsFunctors" "RegainHitPoints(1d6);IF(HasPassive('UNI_MassHealRing_Passive', context.Source)):ApplyStatus(BLESS,100,2);IF(HasPassive('UND_SocietyOfBrilliance_PullingRing_Passive', context.Source)):RegainHitPoints(2);IF(HasPassive('MAG_Healer_TempHPOnHeal_Passive', context.Source)):ApplyStatus(MAG_TEMPORARY_HP_3,100,-1)"
+data "Conditions" "SpellId('Target_BardicInspiration') or SpellId('Target_BardicInspiration_Combat') or SpellId('Target_MantleOfInspiration') or SpellId('Target_MantleOfInspiration_2')  or SpellId('Target_MantleOfInspiration_3')"
+data "StatsFunctors" "RegainHitPoints(1d6);IF(HasPassive('UNI_MassHealRing_Passive', context.Source)):ApplyStatus(BLESS,100,2);IF(HasPassive('UND_SocietyOfBrilliance_PullingRing_Passive', context.Source)):RegainHitPoints(2);IF(HasPassive('MAG_Healer_TempHPOnHeal_Passive', context.Source)):ApplyStatus(MAG_TEMPORARY_HP_3,100,-1);IF((HasPassive('DEN_HellridersPride_Passive', context.Source) or HasPassive('MAG_Revivify_Gloves_Passive', context.Source)) and not Self()):ApplyStatus(BLADE_WARD,100,2);IF(HasPassive('UND_Myco_Alchemist_HealerGloves_Passive',context.Source)):RemoveStatus(SG_Poisoned);IF(HasPassive('MAG_Healer_DisengageOnHeal_Passive',context.Source)):ApplyStatus(SELF,DISENGAGE,100,1);IF(HasPassive('MAG_Healer_HealSelf_Passive', context.Source) and not Self() and not HasStatus('MAG_HEAL_SELF_ONCE_TECHNICAL', context.Source)):RegainHitPoints(SELF,1d6);IF(HasPassive('MAG_Healer_HealSelf_Passive', context.Source) and not Self()):ApplyStatus(SELF, MAG_HEAL_SELF_ONCE_TECHNICAL, 100, 0)"
 
 // Shouldn't have to be in combat only
 new entry "MAG_Ambushing_Attack_Passive"
@@ -191,15 +192,97 @@ using "Interrupt_MAG_CriticalExecution"
 data "Conditions" "IsAbleToReact(context.Observer) and not Item() and Self(context.Source,context.Observer) and IsAttack() and not IsCritical()"
 
 
+// Just a shockingly weak weapon
 new entry "Target_MAG_Drow_EnsnaringStrike"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MAG_Drow_EnsnaringStrike"
 data "Cooldown" "OncePerCombat"
 
-
 new entry "MAG_Drowelf_PoisonAgainstEnsnared_Passive"
 type "PassiveData"
 using "MAG_Drowelf_PoisonAgainstEnsnared_Passive"
-data "DescriptionParams" "DealDamage(1d12, Poison)"
-data "Boosts" "IF(IsMeleeAttack() and HasStatus('SG_Restrained', context.Target)):CharacterWeaponDamage(1d12, Poison)"
+data "Description" "h0f643a86gecbeg46d3gb1f4gd5362c924c03"
+data "DescriptionParams" "DealDamage(1d4, Poison);DealDamage(1d12, Poison)"
+data "Boosts" "IF(IsMeleeAttack() and not HasStatus('SG_Restrained', context.Target) and Tagged('PLAYABLE',context.Source)):CharacterWeaponDamage(1d4, Poison);IF(IsMeleeAttack() and HasStatus('SG_Restrained', context.Target) and Tagged('PLAYABLE',context.Source)):CharacterWeaponDamage(1d12, Poison)"
+
+
+// More usability for the classes that would really like it
+new entry "MAG_ChargedLightning_Dash_Boots"
+type "Armor"
+using "MAG_ChargedLightning_Dash_Boots"
+data "ArmorType" "Leather"
+data "Proficiency Group" ""
+
+new entry "MAG_ChargedLightning_Dash_Boots_Passive"
+type "PassiveData"
+using "MAG_ChargedLightning_Dash_Boots_Passive"
+data "Properties" "OncePerAttack"
+data "Description" "hc7bde4eag6795g4341ga64dg5621a9638b5e"
+data "StatsFunctorContext" "OnCast;OnStatusApplied"
+data "Conditions" "Combat() and ((context.HasContextFlag(StatsFunctorContext.OnCast) and SpellCategoryIs(SpellCategory.Dash)) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and IsMovementSpeedStatus()))"
+
+
+// So rare that having the restriction doesn't really feel necessary
+new entry "UNI_Bow_SpellslotRecharge_Passive"
+type "PassiveData"
+using "UNI_Bow_SpellslotRecharge_Passive"
+data "Description" "h357d8227g6579g4a4aga425gf16bc5d3e63d"
+data "Properties" "OncePerCombat"
+
+// Shorter cooldown and better damage
+new entry "Shout_MAG_ChargedLightning_LightningBlast"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MAG_ChargedLightning_LightningBlast"
+data "Cooldown" "OncePerCombat"
+data "ExtraDescription" "ha1d1c82eg520bg4ff0ga3a3g720268205656"
+
+new entry "MAG_CHARGED_LIGHTNING_LIGHTNING_BLAST"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_CHARGED_LIGHTNING_LIGHTNING_BLAST"
+data "Description" "ha1d1c82eg520bg4ff0ga3a3g720268205656"
+
+new entry "MAG_ChargedLightning_LightningBlast_Passive"
+type "PassiveData"
+using "MAG_ChargedLightning_LightningBlast_Passive"
+data "StatsFunctors" "IF(HasDamageDoneForType(DamageType.Lightning)):ApplyStatus(SELF, MAG_CHARGED_LIGHTNING_SHOCK_FX,100,0);IF(HasDamageDoneForType(DamageType.Lightning)):DealDamage(MAG_CHARGED_LIGHTNING.Duration,Lightning,Magical);IF(HasDamageDoneForType(DamageType.Lightning)):DealDamage(MAG_CHARGED_LIGHTNING.Duration,Lightning,Magical);IF(HasDamageDoneForType(DamageType.Lightning)):RemoveStatus(SELF,MAG_CHARGED_LIGHTNING);IF(HasDamageDoneForType(DamageType.Lightning)):RemoveStatus(SELF,MAG_CHARGED_LIGHTNING_LIGHTNING_BLAST);IF(HasDamageDoneForType(DamageType.Lightning)):ApplyStatus(MAG_CHARGED_LIGHTNING_LIGHTNING_BLAST_TARGET_FX, 100,1);"
+
+
+// Shorter cooldown and better damage
+new entry "Shout_MAG_ChargedLightning_LightningAura"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MAG_ChargedLightning_LightningAura"
+data "Cooldown" ""
+data "TooltipDamageList" "DealDamage(LevelMapValue(D12Cantrip),Lightning)"
+data "SpellSuccess" "AOE:IF(not SavingThrow(Ability.Dexterity, 13)):DealDamage(LevelMapValue(D12Cantrip), Lightning,Magical)"
+
+
+// QOL candle dip
+new entry "OBJ_Candle"
+type "Object"
+using "OBJ_Candle"
+data "StatusInInventory" "HAS_CANDLE"
+
+new entry "HAS_CANDLE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h53c479eegbfeeg4202g8cc8gd4a87ceb348d;2"
+data "StackId" "HAS_CANDLE"
+data "StatusPropertyFlags" "IgnoreResting;IgnoredByImmobilized;DisableOverhead;DisableCombatlog;ApplyToDead;DisablePortraitIndicator"
+data "Boosts" "UnlockSpell(Shout_Dip_Candle)"
+
+new entry "Shout_Dip_Candle"
+type "SpellData"
+using "Target_Dip"
+data "DisplayName" "h1c8b8f27gefb0g4e43gb2c6g5f584b466a31"
+data "Description" "h598ab48eg2c00g4d26g8141gb1b451df50df"
+data "SpellType" "Shout"
+data "Icon" "Item_LTS_DUN_Candles_C"
+data "TargetRadius" ""
+data "TargetConditions" "Self()"
+data "SpellProperties" "ApplyEquipmentStatus(SELF,MainHand,DIPPED_FIRE_SWITCH,100,0);ApplyEquipmentStatus(SELF,OffHand,DIPPED_FIRE_SWITCH,100,0)"
+data "TooltipStatusApply" "ApplyStatus(DIPPED_FIRE,100,3)"
+data "SpellFlags" "Stealth;Invisible"

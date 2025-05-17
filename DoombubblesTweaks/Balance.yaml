@@ -20,3 +20,7 @@ WildshapeDontDoubleDip: true
 
 # Base Game Buffs
 HealingBuffs: true
+
+# Other Mod Changes
+PaladinUpCasts: true
+PaladinCantrips: true

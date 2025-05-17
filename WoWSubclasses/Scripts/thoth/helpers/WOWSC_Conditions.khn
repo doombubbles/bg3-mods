@@ -1,5 +1,9 @@
 ---@diagnostic disable: undefined-global
 
+function SpellCheck(spell)
+  return SpellId(spell) | IsSpellChildOrVariantFromContext(spell)
+end
+
 function EldritchBlastCheck()
   return IsSpell() &
       (SpellId('Projectile_EldritchBlast')
@@ -73,34 +77,36 @@ function PretendWeaponAttack()
 end
 
 function OathSpellCheck()
-  return SpellId('Projectile_Judgement')
-      | SpellId('Projectile_Judgement_Light')
-      | SpellId('Projectile_Judgement_Wisdom')
-      | SpellId('Projectile_Judgement_Justice')
-      | SpellId('Target_CrusaderStrike')
-      | SpellId('Target_TemplarsVerdict')
-      | SpellId('Shout_DivineStorm')
-      | SpellId('Target_HolyShock')
-      | SpellId('Target_HolyShock_Healing')
-      | SpellId('Target_HolyShock_Damage')
-      | SpellId('Target_WordOfGlory')
-      | SpellId('Zone_LightOfDawn')
-      | SpellId('Shout_AvengingWrath')
-end
-
-function OathSpellCheck2()
-  return SpellId('Target_TemplarsVerdict')
-      | SpellId('Shout_DivineStorm')
-      | SpellId('Target_WordOfGlory')
-      | SpellId('Zone_LightOfDawn')
+  return SpellCheck('Projectile_Judgement')
+      | SpellCheck('Projectile_Judgement_Light')
+      | SpellCheck('Projectile_Judgement_Wisdom')
+      | SpellCheck('Projectile_Judgement_Justice')
+      | SpellCheck('Target_CrusaderStrike')
+      | SpellCheck('Target_TemplarsVerdict')
+      | SpellCheck('Shout_DivineStorm')
+      | SpellCheck('Target_HolyShock')
+      | SpellCheck('Target_HolyShock_Healing')
+      | SpellCheck('Target_HolyShock_Damage')
+      | SpellCheck('Target_WordOfGlory')
+      | SpellCheck('Zone_LightOfDawn')
+      | SpellCheck('Shout_AvengingWrath')
+      | SpellCheck('Zone_ShieldOfTheRighteous')
+      | SpellCheck('Shout_GuardianOfAncientKings')
+      | SpellCheck('Projectile_HammerOfWrath')
+      | SpellCheck('Target_Exorcism')
+      | SpellCheck('Target_HammerOfJustice')
+      | SpellCheck('Target_BlessingOfFreedom')
+      | SpellCheck('Target_BlessingOfProtection')
+      | SpellCheck('Target_BlessingOfSpellwarding')
+      | SpellCheck('Shout_DivineShield')
 end
 
 function OathSpellCheckHealing() 
-  return SpellId('Target_HolyShock')
-      | SpellId('Target_HolyShock_Healing')
-      | SpellId('Target_HolyShock_Damage')
-      | SpellId('Target_WordOfGlory')
-      | SpellId('Zone_LightOfDawn')
+  return SpellCheck('Target_HolyShock')
+      | SpellCheck('Target_HolyShock_Healing')
+      | SpellCheck('Target_HolyShock_Damage')
+      | SpellCheck('Target_WordOfGlory')
+      | SpellCheck('Zone_LightOfDawn')
 end
 
 function IsKillingBlowish()

@@ -28,6 +28,12 @@
           <attribute id="Identifier" type="FixedString" value="HasNotWeaponInOffHand"/>
           <attribute id="UUID" type="guid" value="18c30282-aa96-4c5d-ad23-f66b8deb830c"/>
         </node>
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="hec3fdbddg278eg498eg8cbdg75810602591e" version="2"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="CE_Status_BOOMINGBLADE_BLOCK_True"/>
+          <attribute id="UUID" type="guid" value="7acc37bf-6f93-4cb7-acf7-4663cd94451e"/>
+        </node>
       </children>
     </node>
   </region>

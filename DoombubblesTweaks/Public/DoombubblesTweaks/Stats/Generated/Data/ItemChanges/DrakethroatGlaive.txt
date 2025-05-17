@@ -16,7 +16,7 @@ data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisablePortraitIndicator;D
 new entry "Target_MAG_ElementalWeapon_Temp"
 type "SpellData"
 data "SpellType" "Target"
-using "Target_ElementalWeapon"
+using "Target_MAG_ElementalWeapon"
 data "Cooldown" "OncePerRest"
 data "ContainerSpells" "{{ range $e := $elements }}Target_MAG_ElementalWeapon_Temp_{{$e}};{{end}}"
 

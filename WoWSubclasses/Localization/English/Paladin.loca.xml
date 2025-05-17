@@ -31,6 +31,8 @@
   <content contentuid="h6e477fffg7e00g47a3gb730g003ba4b900eb" version="1">Trigger [1] burst(s) of Light on a creature, healing an ally or dealing Radiant damage to an enemy.</content>
   <content contentuid="h1f9cc1b7g2195g43c4gb733g47493134bb2a" version="1">Trigger [1] burst(s) of Light on a creature, healing them.</content>
   <content contentuid="hc5e631e3gc944g4e6dgaa69ge27cf6bbd47c" version="1">Trigger [1] burst(s) of Light on a creature, damaging them.</content>
+  <content contentuid="h1ab8646bg8538g4266g85deg636ee7b58ff6" version="1">Triggers an additonal burst per level.</content>
+
 
   <content contentuid="h440684f7g0b59g465cg95dfgea36c3c1be75" version="1">Light of Dawn</content>
   <content contentuid="h172b7e6egd6e0g4f7bg937fg3c5b7a8d0309" version="1">Unleash a wave of Holy energy, healing allies in a cone in front of you.</content>
@@ -53,18 +55,19 @@
 
   <content contentuid="h949ae83bgb918g49e0gb27bg2f5bf17eb7a7" version="1">Judgement</content>
   <content contentuid="hbd00c5a2g7fa7g4f8eg94e2g92955050e222" version="1">Judge a creature for [1] turns, applying an effect of your choice. Your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; abilities have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against Judged creatures.</content>
+  <content contentuid="he6b5f0efg4614g4d72g8a2egd8a306bcad85" version="1">&lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; abilities have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
 
   <content contentuid="h06bed5eag5a20g4e91gbcddg0577d7d6debb" version="1">Judgement of Light</content>
   <content contentuid="h93a8fc89ge53fg442ega326gb0ea208bb50a" version="1">Judge a creature for [1] turns, causing attacks against them to heal the attacker based on their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
-  <content contentuid="h5102b53dg6943g4f5ag8107gdfc6a213afbb" version="1">Attackers are healed based on their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+  <content contentuid="h5102b53dg6943g4f5ag8107gdfc6a213afbb" version="1">Attackers are healed based on their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; abilities have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
 
   <content contentuid="h7a3edae6gcb37g459ag8499g76b00c6631b6" version="1">Judgement of Justice</content>
   <content contentuid="hdd43f881gb117g495egaa49g75c4f775269b" version="1">Judge a creature for [1] turns, slowing their movement speed by [2] and possibly &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;frightening&lt;/LSTag&gt; them for [3] turns.</content>
-  <content contentuid="h5960a4c7g646bg48d3g80a8g5664f5e8fca0" version="1">Movement speed reduced by [1].</content>
+  <content contentuid="h5960a4c7g646bg48d3g80a8g5664f5e8fca0" version="1">Movement speed reduced by [1]. &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; abilities have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
 
   <content contentuid="h32781620ga795g4e19gaf9fg72001b31a01c" version="1">Judgement of Wisdom</content>
   <content contentuid="ha8a11440gf890g476bgb2a4g462ab8a437bf" version="1">Judge a creature for [1] turns, causing &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; against them to replenish a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; for the attacker.</content>
-  <content contentuid="hc5b55301g392eg4a5dgb65ag70cb89a8bd65" version="1">Being &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt; will replenish a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; for the attacker.</content>
+  <content contentuid="hc5b55301g392eg4a5dgb65ag70cb89a8bd65" version="1">Being &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt; will replenish a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; for the attacker. &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; abilities have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
 
   <content contentuid="hb947547ag50bbg46f8g86d7g72823a276700" version="1">Does not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; at close range.</content>
   <content contentuid="h2c82f1ceg5bbcg4f2dga137g27b1658969fc" version="1">Benefits from &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
@@ -77,7 +80,7 @@
   <content contentuid="h7dc74a0agdc41g4e6aga879g727d02c0eb27" version="1">Call down the Light to heal a character.</content>
 
   <content contentuid="h426655e2g1f34g41d4g8af6gcc7aa5f31f9b" version="1">Infusion of Light</content>
-  <content contentuid="h74771aa5gf0e4g43d7g96cbg87317bb50892" version="1">Spend 1 &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charge&lt;/LSTag&gt; to make your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; that can restore hit points ability have maximized healing and damage.</content>
+  <content contentuid="h74771aa5gf0e4g43d7g96cbg87317bb50892" version="1">Spend 1 &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charge&lt;/LSTag&gt; to make your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability that can restore hit points have maximized healing and damage.</content>
   <content contentuid="h92d5e12fg1958g4202gb4a5g85bfd50ad888" version="1">Your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability that can restore hit points has maximized healing and damage.</content>
 
   <content contentuid="hfb7d041dgbd02g4231g8870g14fb51a51b97" version="1">Avenger's Shield</content>
@@ -125,7 +128,9 @@
   <content contentuid="hff5a5e0ag6d01g4c64g8fddg80af427bea75" version="1">This spell can't miss againt Fiends and Undead, and they always take maximum damage.</content>
 
   <content contentuid="h5c814c92ged36g4c7bg82a5ga6903e002102" version="1">Art of War</content>
-  <content contentuid="h61412143gc3c9g41a4gac91gd22aaa1c7d54" version="1">After you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy, you can use &lt;LSTag Type="Spell" Tooltip="Target_Exorcism"&gt;Exorcism&lt;/LSTag&gt; once without expending a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
+  <content contentuid="h61412143gc3c9g41a4gac91gd22aaa1c7d54" version="1">After you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy, your next &lt;LSTag Type="Spell" Tooltip="Target_Exorcism"&gt;Exorcism&lt;/LSTag&gt; will cost an &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead of an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and not expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
   <content contentuid="hfd64bde8g91cfg4cfcg9f08g29a34c8dfe06" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Exorcism"&gt;Exorcism&lt;/LSTag&gt; will not expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
 
+
+  <content contentuid="h171f7dd8g5f72g43cfg9b9fg036e8d540b72" version="1">Does not consume any &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath charges&lt;/LSTag&gt;.</content>
 </contentList>

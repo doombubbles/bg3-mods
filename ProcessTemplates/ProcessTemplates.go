@@ -72,25 +72,46 @@ func main() {
 		}
 	}
 
-	tmpl := template.New("template").Funcs(sprig.FuncMap())
-	tmpl.Funcs(template.FuncMap{
-		"include": include(tmpl),
-		"getf":    getf,
-		"ireplace": func(old string, new string, src string) string {
-			searchRegex := regexp.MustCompile("(?i)" + old)
-			return searchRegex.ReplaceAllString(src, new)
-		},
-		"packVersion": func(major, minor, revision, build uint32) string {
-			return packVersion(major, minor, revision, build).String()
-		},
-		"packVersionS": func(versionStr string) string {
-			result, err := packVersionS(versionStr)
-			if err != nil {
-				return fmt.Sprintf("error: %v", err)
-			}
-			return result.String()
-		},
-	})
+	funcMap := template.FuncMap{}
+	tmpl := template.New("template")
+
+	funcMap["include"] = include(tmpl)
+	funcMap["getf"] = getf
+	funcMap["ireplace"] = func(old string, new string, src string) string {
+		searchRegex := regexp.MustCompile("(?i)" + old)
+		return searchRegex.ReplaceAllString(src, new)
+	}
+	funcMap["packVersion"] = func(major, minor, revision, build uint32) string {
+		return packVersion(major, minor, revision, build).String()
+	}
+	funcMap["packVersionS"] = func(versionStr string) string {
+		result, err := packVersionS(versionStr)
+		if err != nil {
+			return fmt.Sprintf("error: %v", err)
+		}
+		return result.String()
+	}
+	funcMap["readFile"] = func(path string) (string, error) {
+		data, err := os.ReadFile(path)
+		if err != nil {
+			return "", fmt.Errorf("readFile error: %w", err)
+		}
+		return string(data), nil
+	}
+	funcMap["tpl"] = func(tmplStr string, data interface{}) (string, error) {
+		t, err := template.New("inline").Funcs(sprig.FuncMap()).Funcs(funcMap).Parse(tmplStr)
+		if err != nil {
+			return "", fmt.Errorf("tpl parse error: %w", err)
+		}
+		var buf bytes.Buffer
+		if err := t.Execute(&buf, data); err != nil {
+			return "", fmt.Errorf("tpl execute error: %w", err)
+		}
+		return buf.String(), nil
+	}
+
+	// Apply sprig after custom functions so they don't override yours
+	tmpl.Funcs(sprig.FuncMap()).Funcs(funcMap)
 
 	// Walk through and process all files
 	err = filepath.Walk(src, func(path string, info os.FileInfo, err error) error {

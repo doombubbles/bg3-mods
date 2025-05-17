@@ -10,6 +10,6 @@
 
 **Slasher** - Once per turn, when you deal slashing damage to a creature, reduce its movement speed for a turn. When you crit with slashing damage, the target's attacks have disadvantage for 1 turn. Increase STR or DEX by 1.
 
-**Double Fist Puncher** - While you have nothing in your main hand and off hand, toggle to make unarmed attacks have a -5 to hit but deal +10 damage.
+<!-- **Double Fist Puncher** - While you have nothing in your main hand and off hand, toggle to make unarmed attacks have a -5 to hit but deal +10 damage. -->
 
 **Heavy Weapon Master** - {{ get .loca "h8b4f5841g6677g4af2g8668g7ca7b78e6d71" | include "wikify" }}

@@ -495,7 +495,7 @@
           <attribute id="Level" type="uint8" value="2"/>
           <attribute id="Name" type="LSString" value="Hexblade"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(d90e88eb-e5f9-4db2-b7ef-1dccb044839a,2,0,WitchSpell)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(d90e88eb-e5f9-4db2-b7ef-1dccb044839a,2,2,WitchSpell)"/>
           <attribute id="TableUUID" type="guid" value="6a9cd3b7-8531-40ad-8a10-103a50f4902c"/>
           <attribute id="UUID" type="guid" value="aac0f25a-80e4-4c39-98df-ce13dee63f00"/>
         </node>

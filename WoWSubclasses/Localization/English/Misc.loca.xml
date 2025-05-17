@@ -5,4 +5,6 @@
 
 	<content contentuid="h2bc6513cg23c6g4047g8ce1gfca3182e6fd7" version="1">Can't wield a weapon in off hand.</content>
 	<content contentuid="heb20b921g993ag45f9g8beag2ed9ea0fedab" version="1">Must have a weapon in off hand.</content>
+
+	<content contentuid="hec3fdbddg278eg498eg8cbdg75810602591e" version="1">Cantrips that benefit from Extra Attack can only be used once per Action taken.</content>
 </contentList>

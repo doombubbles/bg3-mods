@@ -94,7 +94,7 @@ end
 function HasNoOffHand(entity)
   entity = entity or context.Source
   result = ~WieldingWeapon('Melee', true, false, entity) &
-  ~(WieldingWeapon('Twohanded', false, false, entity) & WieldingWeapon('Melee', false, false, entity))
+      ~(WieldingWeapon('Twohanded', false, false, entity) & WieldingWeapon('Melee', false, false, entity))
   return ConditionResult(result.Result, { ConditionError("HasWeaponInOffHand") },
     { ConditionError("HasNotWeaponInOffHand") })
 end
@@ -159,4 +159,31 @@ function HasWeaponInOffHand()
   result = WieldingWeapon('Melee', true)
   return ConditionResult(result.Result, { ConditionError("HasNotWeaponInMainHand") },
     { ConditionError("HasWeaponInMainHand") })
+end
+
+function IsMovementSpeedStatus()
+  return StatusId('HASTE')
+      | StatusId('MAG_CELESTIAL_HASTE')
+      | StatusId('POTION_OF_SPEED')
+      | StatusId('TAD_MIND_SANCTUARY_HASTE')
+      | StatusId('CONS_DRUG_STIMULANT')
+      | StatusId('HASTE_SURFACE')
+      | StatusId('HASTE_MYRMIDON')
+      | StatusId('MAG_MOMENTUM')
+      | StatusId('BLADESONG')
+      | StatusId('LONGSTRIDER')
+      | StatusId('GOB_DROWCOM_BUFF')
+      | StatusId('MOO_BLOODPOTION_ELF')
+      | StatusId('RAGE_TOTEM_ELK')
+      | StatusId('PACK_HOWL_WOLF_DIRE')
+      | StatusId('MAG_MARTIAL_EXERTION')
+      | StatusId('HALF_MOVEMENT')
+      | StatusId('DREAD_AMBUSHER')
+      | StatusId('ASPECT_OF_THE_ELK')
+      | StatusId('ASPECT_OF_THE_ELK_AURA')
+      | StatusId('TRANSMUTERS_STONE_MOVEMENTSPEED')
+      | StatusId('REGENERATION_SABERTOOTH')
+      | StatusId('WEB_BUFF_SPIDER_ACTIVE')
+      | StatusId('RELENTLESS_AVENGER')
+      | StatusId('DRUNKEN_TECHNIQUE')
 end

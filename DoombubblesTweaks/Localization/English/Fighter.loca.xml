@@ -33,5 +33,7 @@
 	<content contentuid="h6b45f0fbg0907g4748g8ddfgd52d502b154b" version="1">Manoeuvring Attack (Unarmed)</content>
 	<content contentuid="h75287dc9g8340g42acgad51g7d7fecd831d0" version="1">Pushing Attack (Unarmed)</content>
 
+	<content contentuid="h6bd9720eg32cag4c7eg8bd9gb24c470a3e90" version="1">Heroic Surge</content>
+	<content contentuid="h11ba91e5g596ag4c3bg8b81g59d6571d73b2" version="1">Whenever you use &lt;LSTag Type="Spell" Tooltip="Shout_ActionSurge"&gt;Action Surge&lt;/LSTag&gt;, you reset your other Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; cooldowns.</content>
 
 </contentList>

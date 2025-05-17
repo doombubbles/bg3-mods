@@ -9,4 +9,8 @@
 
   <content contentuid="h58254325ga049g45f4g910cg2f090494ec7b" version="1">Your &lt;LSTag Type="Spell" Tooltip="Target_Sneak_Attack"&gt;Sneak Attack&lt;/LSTag&gt; deals an additional [1]. If you have &lt;LSTag Type="Passive" Tooltip="ReliableTalent"&gt;Reliable Talent&lt;/LSTag&gt;, this becomes [2].</content>
 
+  <content contentuid="hbb528c86g1c0cg441cg9d1bg3d8e95557508" version="1">Steady Aim</content>
+  <content contentuid="h82cdbddag58c8g4c96ga4b6gdcaea1424281" version="1">Spend [1] of your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; this turn.</content>
+  <content contentuid="hf4a58728g3952g4fbeg93e3g95e29537c03b" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+
 </contentList>

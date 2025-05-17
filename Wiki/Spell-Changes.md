@@ -28,6 +28,8 @@
 
 **Destuctive Wave** - Added a pure Thunder variant
 
+**Booming Blade** - Now fully counts as a Thunder damage spell
+
 **Flame Blade** - Now lasts until long rest like Shadow Blade does
 
 **Barksin** - No longer concentration, base AC is 17

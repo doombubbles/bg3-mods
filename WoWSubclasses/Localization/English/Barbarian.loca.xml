@@ -30,8 +30,8 @@
   <content contentuid="h9baff8c6gb3d0g4292gb126gf254ec89fb28" version="1">Attempt to finish off a foe below [2] hit points, dealing an extra [1] damage.</content>
 
   <content contentuid="h65117e65g6090g484fga574g0bc24616d302" version="1">Whirlwind</content>
-  <content contentuid="ha331a835gf3c8g4043gaa9ag68646d8ff4ac" version="1">Unleashes a whirlwind of steel, striking all nearby enemies. Until the end of your next turn, your melee weapon &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; can target 1 additional creature within range.</content>
-  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your melee weapon attacks can target 1 additional creature within range.</content>
+  <content contentuid="ha331a835gf3c8g4043gaa9ag68646d8ff4ac" version="1">Unleashes a whirlwind of steel, striking all nearby enemies. For [1] turns, your Fury Attacks can target [2] additional creature(s) within range.</content>
+  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your Fury Attacks can target [1] additional creature(s) within range.</content>
 
   <content contentuid="h5503c669g7ccbg4545g9ae2gabee40642259" version="1">Anger Management</content>
   <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">While &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Raging&lt;/LSTag&gt;, whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature you refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent on the &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>

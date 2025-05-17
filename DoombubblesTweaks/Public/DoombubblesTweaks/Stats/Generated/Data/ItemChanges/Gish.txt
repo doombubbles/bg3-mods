@@ -93,6 +93,12 @@ using "MAG_SPELLBLADE_THUNDER_ENERGY"
 data "StackId" "MAG_SPELLBLADE_THUNDER_ENERGY"
 
 
+new entry "MAG_ElementalGish_ElementalInfusion_Ring_Passive"
+type "PassiveData"
+using "MAG_ElementalGish_ElementalInfusion_Ring_Passive"
+data "StatsFunctors" "IF(IsSpell() and (IsDamageTypeAcid() or SpellDamageTypeIs(DamageType.Acid))):ApplyStatus(SELF,MAG_SPELLBLADE_ACID_ENERGY, 100, 2);IF(IsSpell() and (IsDamageTypeCold() or SpellDamageTypeIs(DamageType.Cold))):ApplyStatus(SELF,MAG_SPELLBLADE_COLD_ENERGY, 100, 2);IF(IsSpell() and (IsDamageTypeFire() or SpellDamageTypeIs(DamageType.Fire))):ApplyStatus(SELF,MAG_SPELLBLADE_FIRE_ENERGY, 100, 2);IF(IsSpell() and (IsDamageTypeLightning() or SpellDamageTypeIs(DamageType.Lightning))):ApplyStatus(SELF,MAG_SPELLBLADE_LIGHTNING_ENERGY, 100, 2);IF(IsSpell() and (IsDamageTypeThunder() or SpellDamageTypeIs(DamageType.Thunder))):ApplyStatus(SELF,MAG_SPELLBLADE_THUNDER_ENERGY, 100, 2);"
+
+
 new entry "MAG_Githborn_PsionicMovement_Boots_Passive"
 type "PassiveData"
 using "MAG_Githborn_PsionicMovement_Boots_Passive"

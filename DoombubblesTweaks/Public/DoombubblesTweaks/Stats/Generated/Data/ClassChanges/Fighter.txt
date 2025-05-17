@@ -264,3 +264,29 @@ data "StatusType" "BOOST"
 using "PRECISION_ATTACK"
 data "Boosts" "IF(IsWeaponAttack() or IsMeleeUnarmedAttack()):RollBonus(Attack,LevelMapValue(SuperiorityDie))"
 data "RemoveConditions" "IsWeaponAttack() or IsMeleeUnarmedAttack()"
+
+
+new entry "ChampionActionSurgeCooldowns"
+type "PassiveData"
+data "DisplayName" "h6bd9720eg32cag4c7eg8bd9gb24c470a3e90"
+data "Description" "h11ba91e5g596ag4c3bg8b81g59d6571d73b2"
+data "Icon" "Skill_Fighter_ActionSurge"
+data "Properties" "Highlighted"
+
+new entry "Shout_ActionSurge"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_ActionSurge"
+data "SpellProperties" "ApplyStatus(ACTION_SURGE,100,1);IF(HasPassive('ChampionActionSurgeCooldowns',context.Source)):ResetCooldowns(UntilShortRest)"
+
+
+new entry "RemarkableAthlete_Proficiency"
+type "PassiveData"
+using "RemarkableAthlete_Proficiency"
+data "Boosts" "IF(not HasProficiencyBonus(context.CheckedAbility,context.CheckedSkill,context.Source) and CheckedPhysicalAbility(context.Source)):RollBonus(SkillCheck,ProficiencyBonus/2);IF(not HasProficiencyBonus(context.CheckedAbility,context.CheckedSkill,context.Source) and CheckedPhysicalAbility(context.Source)):RollBonus(RawAbility,ProficiencyBonus/2);ExpertiseBonus(Athletics)"
+
+
+new entry "Projectile_ArcaneShot_SeekingArrow"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ArcaneShot_SeekingArrow"

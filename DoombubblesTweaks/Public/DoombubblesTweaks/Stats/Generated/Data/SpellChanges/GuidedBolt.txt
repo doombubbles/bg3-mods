@@ -3,7 +3,7 @@ type "PassiveData"
 data "DisplayName" "hb3310c12g63bfg46bdg9c48g6becfe690799"
 data "Description" "h54a34de0gfa77g45c7ga27dgce708a2ce865"
 data "Icon" "Spell_Evocation_GuidingBolt"
-data "Properties" "ToggledDefaultAddToHotbar;IsToggled;IsHidden"
+data "Properties" "ToggledDefaultAddToHotbar;IsToggled"
 data "ToggleOnFunctors" "ApplyStatus(DBT_GUIDED_BOLT, 100, -1)"
 data "ToggleOffFunctors" "RemoveStatus(DBT_GUIDED_BOLT)"
 

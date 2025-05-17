@@ -37,7 +37,7 @@
 
 **Ring of Elemental Infusion** - Different Elemental Infusions on your weapon can now stack together
 
-**Boots of Psionic Movement** - Now also work with Partial Ilithid Fly, but can only proc once per turn in combat.
+**Boots of Psionic Movement** - Now also work with Partial Ilithid Fly, but can only proc once per turn in combat
 
 **Robe of Summer** - Now also lets you cast Daylight Once per Long Rest.
 
@@ -49,7 +49,35 @@
 
 **Shar's Aegis** - Usable per Short Rest
 
+**Ring of Mind Shielding** - Has a new effect that gives Advantage on Intelligence saving throws
+
+**Cultist Brand** - Now has a weapon action that will apply the Absolute's Brand to the wielder
+
+**Dark Justiciar Boots** - Shadow Step now costs a bonus action instead of an action
+
+**The Spectator Eyes** - Spells cooldown is now once per combat
+
 **Ironwood Club** - Damage bonus increased from 1d4 to 1d8
+
+**Cap of Curing** - Now works with the Whispering Promise, the Ring of Salving, the Boots of Aid and Comfort, Mantle of Inspiration, and the Hellrider's Pride / Reviving Hands
+
+**Ambusher** - No longer requires combat to have already started to get the bonus
+
+**Bloodguzzler Garb** - No longer has once per turn restriction
+
+**Killer's Sweetheart** - Now also works on non-weapon attack rolls like it says
+
+**Cruel Sting** - Now will always do 1d4 Poison damage for Drow, increasing to 1d12 against Restrained targets, and Ensnaring Strands can be used once per combat
+
+**Speedy Lightfeet** - No longer Medium armor, and now work for any movement speed buffing status being applied and not just Dash
+
+**Spellthief** - No longer limited to once per short rest
+
+**The Blast Pendant** - Lightning Blast cooldown is now once per combat, and deals damage for 2x the duration
+
+**The Real Sparky Sparkswall** - Lightning Aura cooldown is now once per combat, and now does scaling damage like a D12 Cantrip
+
+**Candle** - Having a Candle in your inventory now unlocks a Candle Dipp spell which functions like dipping your weapon in fire
 
 ### Phalar Aluve
 
@@ -80,10 +108,10 @@
   - Can cast Dissonant Whispers and Phantasmal Killer per Short Rest
 - Kereska Buffs no longer go away when you're polymorphed like with Shapechanger
 
-### Throwing
+<!-- ### Throwing
 
 The following weapons should now have special effects when thrown (may only apply for newly acquired versions of them)
 - The Sparky Points: Gives Lightning Charges
 - Sussur Dagger: Chance to silence
 - Trident of the Waves: Applying Wet + Puddle
-- Bloodthirst: Applying vulnerability
+- Bloodthirst: Applying vulnerability -->
