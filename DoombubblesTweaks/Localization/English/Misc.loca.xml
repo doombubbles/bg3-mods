@@ -55,5 +55,21 @@
 
 	<content contentuid="h1c8b8f27gefb0g4e43gb2c6g5f584b466a31" version="1">Candle Dip</content>
 	<content contentuid="h598ab48eg2c00g4d26g8141gb1b451df50df" version="1">Dip a weapon into the candle to light it on fire. If you are dual-wielding, you dip both weapons.</content>
+
+	<content contentuid="hfdd027bcg4e30g4f0agb80cgb16889c0a8a8" version="1">Call upon Bane's tyrannical aid, gaining [1] along with new strength and powers.</content>
+	<content contentuid="hb0065f9fg79efg4256gab7fga2e7caae6e7f" version="1">Bane has come to your aid! You have [1], advantage to Strength Saving Throws and Strength Ability checks, +[2] to weapon and unarmed damage, increased size. You can cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_CrushingFist_Gortash"&gt;The Closed Fist of Bane&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_MAG_ChainsOfTyranny_Gortash"&gt;Tyrant's Bindings&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_MAG_UnarmedAttack_Bane_Gortash"&gt;Empowered Unarmed Strike&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="h3357c4b5gd482g4952g98c9g845c1de6319f" version="1">Affected entity has only half its movement speed. When the chain breaks, it'll take [1] Force damage.</content>
+
+	<content contentuid="hb76776dbg3553g48eag8e30g2a6934c6f6d6" version="1">A nearby earth myrmidon grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage and an additional [1] to &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The affected entity also gains temporary access to &lt;LSTag Type="Spell" Tooltip="Target_Cloudkill"&gt;Cloudkill&lt;/LSTag&gt;.</content>
+	<content contentuid="hdee60987ga7fbg4ab0g8349g00cd9eb55c64" version="1">A nearby air myrmidon grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning damage and an additional [1] to &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The affected entity also gains temporary access to &lt;LSTag Type="Spell" Tooltip="Zone_LightningBolt"&gt;Lightning Bolt&lt;/LSTag&gt;.</content>
+	<content contentuid="h0ce1d8d1g2f0fg4f87gb2e7gae69005cf3c2" version="1">A nearby fire myrmidon grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and an additional [1] to &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The affected entity also gains temporary access to &lt;LSTag Type="Spell" Tooltip="Projectile_Fireball"&gt;Fireball&lt;/LSTag&gt;.</content>
+	<content contentuid="h10e8fe2dge284g4f9bgadd3g23924cba3190" version="1">A nearby water myrmidon grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage and an additional [1] to &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The affected entity also gains temporary access to &lt;LSTag Type="Spell" Tooltip="Zone_ConeOfCold"&gt;Cone of Cold&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="ha5977a5dg7515g405cg9624gdb479a87e31d" version="1">When attacked, the affected entity can draw on &lt;LSTag Type="Passive" Tooltip="MAG_RamazithsTower_ElementalSiphon"&gt;Siphoned&lt;/LSTag&gt; magic to cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="h466f91eege4e5g48d8gb0ccg5d6010aec1b4" version="1">Blast your foe with the elemental damage of each myrmidon currently &lt;LSTag Type="Passive" Tooltip="MAG_RamazithsTower_ElementalSiphon"&gt;Siphoned&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="h9dc479c2ga355g467fgac63g74115744c18c" version="1">Can be used alongside Myrmidons summoned from other sources.</content>
 	
 </contentList>

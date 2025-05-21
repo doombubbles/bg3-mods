@@ -231,7 +231,7 @@
             <node id="StatusList">
               <children>
                 <node id="Status">
-                  <attribute id="Object" type="FixedString" value="DIPPED_POISON" />
+                  <attribute id="Object" type="FixedString" value="MAG_POISON_WEAPON" />
                 </node>
               </children>
             </node>

@@ -1,24 +1,183 @@
+new entry "MAG_IgnoreHpThreshold"
+type "PassiveData"
+data "DisplayName" "h50722e35g9b41g41f4gbd32g91fbcaf12dc5"
+data "Description" "hf397f0d4g2cc2g4171gb054gd8257ea6247d"
+data "Icon" "Action_RegainHP"
+data "Properties" "Highlighted"
+
+
+new entry "MAG_LowHP_IncreaseDamage_Passive"
+type "PassiveData"
+using "MAG_LowHP_IncreaseDamage_Passive"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and (HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source))"
+
+
+new entry "MAG_LowHP_IncreaseDamagePsychic_Passive"
+type "PassiveData"
+using "MAG_LowHP_IncreaseDamagePsychic_Passive"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and (HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source))"
+
+
+new entry "MAG_LowHP_IncreaseDamagePsychic_Ranged_Passive"
+type "PassiveData"
+using "MAG_LowHP_IncreaseDamagePsychic_Ranged_Passive"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and (HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source))"
+
+
 new entry "MAG_LowHP_BonusAction_Passive"
 type "PassiveData"
 using "MAG_LowHP_BonusAction_Passive"
-data "Description" "h358ebc99g7d16g4883gbb6cg240deb9ed934"
-data "StatsFunctors" "IF(not HasMaxHPWithoutTemporaryHP(context.Source) and not HasStatus('MAG_BONUS_ACTION')):ApplyStatus(MAG_BONUS_ACTION,100,-1);IF(HasMaxHPWithoutTemporaryHP(context.Source)):RemoveStatus(MAG_BONUS_ACTION)"
+data "StatsFunctors" "IF((HasHPPercentageEqualOrLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)) and not HasStatus('MAG_BONUS_ACTION')):ApplyStatus(MAG_BONUS_ACTION,100,-1);IF((HasHPPercentageMoreThan(50, context.Target) and not HasPassive('MAG_IgnoreHpThreshold',context.Source))):RemoveStatus(MAG_BONUS_ACTION)"
 
 new entry "MAG_LOW_HP_BONUS_ACTION_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_LOW_HP_BONUS_ACTION_TECHNICAL"
-data "OnApplyFunctors" "IF(not HasMaxHPWithoutTemporaryHP(context.Source)):ApplyStatus(MAG_BONUS_ACTION,100,-1)"
+data "OnApplyFunctors" "IF(HasHPPercentageEqualOrLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):ApplyStatus(MAG_BONUS_ACTION,100,-1)"
+
 
 new entry "MAG_RAGE_LOWHP_VIOLENCE_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_RAGE_LOWHP_VIOLENCE_TECHNICAL"
-data "Description" "h5fde32beg35b2g4a1eg8c8agfcb45face2aa"
-data "TickFunctors" "IF(not Dead() and Combat() and not HasMaxHPWithoutTemporaryHP(context.Source)):ApplyStatus(MAG_VIOLENCE,100,1)"
+data "TickFunctors" "IF(not Dead() and Combat() and (HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50) or HasPassive('MAG_IgnoreHpThreshold',context.Source))):ApplyStatus(MAG_VIOLENCE,100,1)"
 
-new entry "MAG_LowHP_IncreaseDamage_Passive"
+
+new entry "MAG_LowHP_TemporaryHP_Passive"
 type "PassiveData"
-using "MAG_LowHP_IncreaseDamage_Passive"
-data "Description" "h803118f0g7ec4g4ef6g855dg46d95845b907"
-data "Conditions" "AttackedWithPassiveSourceWeapon() and not HasMaxHPWithoutTemporaryHP(context.Source)"
+using "MAG_LowHP_TemporaryHP_Passive"
+data "Conditions" "not Dead() and (HasHPPercentageWithoutTemporaryHPLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source))"
+
+
+new entry "MAG_LowHP_CounterOnDamage_Passive"
+type "PassiveData"
+using "MAG_LowHP_CounterOnDamage_Passive"
+data "Conditions" "(HasHPPercentageWithoutTemporaryHPLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)) and not IsRedirectedDamage()"
+
+
+new entry "MAG_LowHP_IncreaseSpeed_Passive"
+type "PassiveData"
+using "MAG_LowHP_IncreaseSpeed_Passive"
+data "BoostConditions" "HasHPPercentageLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)"
+
+
+new entry "MAG_LowHP_ResistanceFire_Passive"
+type "PassiveData"
+using "MAG_LowHP_ResistanceFire_Passive"
+data "StatsFunctors" "IF((HasHPPercentageEqualOrLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)) and not HasStatus('MAG_FIRE_RESISTANCE')):ApplyStatus(MAG_FIRE_RESISTANCE,100,-1);IF(HasHPPercentageMoreThan(50, context.Target) and not HasPassive('MAG_IgnoreHpThreshold',context.Source)):RemoveStatus(MAG_FIRE_RESISTANCE)"
+
+
+new entry "MAG_LowHP_IgnoreAttackOfOpportunity_Passive"
+type "PassiveData"
+using "MAG_LowHP_IgnoreAttackOfOpportunity_Passive"
+data "BoostConditions" "HasHPPercentageEqualOrLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)"
+
+new entry "MAG_LOWHP_IGNORE_AOO"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_LOWHP_IGNORE_AOO"
+data "RemoveConditions" "not HasHPPercentageLessThan(50) and not HasPassive('MAG_IgnoreHpThreshold',context.Source)"
+
+new entry "MAG_LowHP_IncreasedSpellDamage_Passive"
+type "PassiveData"
+using "MAG_LowHP_IncreasedSpellDamage_Passive"
+data "Conditions" "HasSpellFlag(SpellFlags.Spell) and not IsCantrip() and (HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source))"
+
+
+new entry "MAG_Barbarian_Hide_Helmet_Bloodseeker_Passive"
+type "PassiveData"
+using "MAG_Barbarian_Hide_Helmet_Bloodseeker_Passive"
+data "Boosts" "IF((not HasMaxHP()) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):RollBonus(Attack, 2)"
+
+new entry "MAG_Barbarian_Hide_Helmet_Bloodthirsty_Passive"
+type "PassiveData"
+using "MAG_Barbarian_Hide_Helmet_Bloodthirsty_Passive"
+data "Boosts" "IF((HasHPPercentageWithoutTemporaryHPLessThan(100, context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source)) and (IsUnarmedAttack() or IsWeaponAttack())):DamageBonus(2, Necrotic, false)"
+
+
+new entry "GOB_PainPriest_Axe_Passive"
+type "PassiveData"
+using "GOB_PainPriest_Axe_Passive"
+data "StatsFunctors" "ApplyStatus(BANE,100,2);IF(HasHPPercentageWithoutTemporaryHPEqualOrMoreThan(50, context.Source) and not HasPassive('MAG_IgnoreHpThreshold',context.Source)):DealDamage(SELF,1d6,Piercing,Magical)"
+
+
+new entry "MAG_MOBILITY_LOWHP_MOMENTUM_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_MOBILITY_LOWHP_MOMENTUM_TECHNICAL"
+data "TickFunctors" "IF(not Dead() and Combat() and (HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50) or HasPassive('MAG_IgnoreHpThreshold',context.Source))):ApplyStatus(MAG_MOMENTUM,100,1)"
+
+new entry "Target_PowerWordKill"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PowerWordKill"
+data "TargetConditions" "Character() and not Dead() and (HasHPLessThan(101) or HasPassive('MAG_IgnoreHpThreshold',context.Source))"
+
+
+new entry "Target_TollTheDead"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TollTheDead"
+data "SpellSuccess" "IF(not (HasHPPercentageEqualOrLessThan(99,context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source))):DealDamage(LevelMapValue(D8Cantrip),Necrotic,Magical);IF(HasHPPercentageEqualOrLessThan(99,context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):DealDamage(LevelMapValue(D12Cantrip),Necrotic,Magical)"
+data "SpellFail" "IF(not (HasHPPercentageEqualOrLessThan(99,context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)) and HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Necrotic,Magical);IF((HasHPPercentageEqualOrLessThan(99,context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)) and HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D12Cantrip)/2,Necrotic,Magical);IF(not HasPassive('PotentCantrip',context.Source)):ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0);"
+
+
+new entry "UND_Duergar_ShortswordOfFirstBlood_Passive"
+type "PassiveData"
+using "UND_Duergar_ShortswordOfFirstBlood_Passive"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and (HasMaxHP() or HasPassive('MAG_IgnoreHpThreshold',context.Source)) and IsAttack() and not IsMiss()"
+
+new entry "MAG_BHAALIST_MURDERER_DAGGER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_BHAALIST_MURDERER_DAGGER"
+data "Boosts" "IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):WeaponDamage(1d4, Piercing)"
+
+
+new entry "MAG_TheWoundSeeker_Greatsword_Passive"
+type "PassiveData"
+using "MAG_TheWoundSeeker_Greatsword_Passive"
+data "Boosts" "IF(not HasMaxHP() or HasPassive('MAG_IgnoreHpThreshold',context.Source)):RollBonus(MeleeWeaponAttack, 1d4)"
+
+
+new entry "LOW_BhaalAmulet_Passive"
+type "PassiveData"
+using "LOW_BhaalAmulet_Passive"
+data "Conditions" "(HasMaxHP() or HasPassive('MAG_IgnoreHpThreshold',context.Source)) and IsAttack() and not IsMiss()"
+
+
+new entry "ColossusSlayer"
+type "PassiveData"
+using "ColossusSlayer"
+data "Conditions" "IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and (not HasMaxHP() or HasPassive('MAG_IgnoreHpThreshold',context.Source))"
+
+
+new entry "GOB_CalmnessInPain"
+type "PassiveData"
+using "GOB_CalmnessInPain"
+data "Conditions" "HasHPPercentageWithoutTemporaryHPEqualOrLessThan(30, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)"
+
+
+new entry "GOB_CalmnessInPainActive"
+type "PassiveData"
+using "GOB_CalmnessInPainActive"
+data "DisplayName" "h13b2334dg85b8g4218gb968g8beaac351cc0;1"
+data "Conditions" "HasHPPercentageWithoutTemporaryHPMoreThan(30, context.Target) and not HasPassive('MAG_IgnoreHpThreshold',context.Source)"
+
+
+new entry "MAG_LowHP_IncreaseDamage_Greataxe"
+type "Weapon"
+using "MAG_LowHP_IncreaseDamage_Greataxe"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):WeaponDamage(1d4,Slashing)"
+
+
+new entry "MAG_Murderous_Dagger"
+type "Weapon"
+using "MAG_Murderous_Dagger"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);IF(HasHPPercentageEqualOrLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):WeaponDamage(1d4, Piercing)"
+
+
+new entry "MAG_TheCrimson_Shortsword"
+type "Weapon"
+using "MAG_TheCrimson_Shortsword"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);IF(HasHPPercentageEqualOrLessThan(50, context.Target) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):WeaponDamage(1d4, Piercing)"

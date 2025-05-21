@@ -123,31 +123,31 @@ function IsDamageTypeUnarmed()
 end
 
 function HeavyWeaponMasterMelee(entity)
-  -- local entity = entity or context.Source
-  -- local weapon = GetActiveWeapon(entity, true)
+  local entity = entity or context.Source
+  local weapon = GetActiveWeapon(entity,true)
 
-  -- local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
-  -- local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
+  local isTwoHanded = HasWeaponProperty(WeaponProperties.Twohanded, weapon)
+  local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
+  local isVersatile = HasWeaponProperty(WeaponProperties.Versatile, weapon)
+  local isOffhandMelee = WieldingWeapon('Melee', true, false, entity)
+  local isOffhandAmmunition = WieldingWeapon('Ammunition', true, false, entity)
+  local hasShield = HasShieldEquipped(entity)
 
-  -- local res = IsProficientWith(entity, weapon) & isMelee & isHeavy
+  local res = IsProficientWith(entity, weapon) & ((isTwoHanded & isMelee) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
 
-  -- return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
-  return GreatWeaponMaster(entity)
+  return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
 end
 
-function HeavyWeaponMasterRanged(entity, allowBows)
-  entity = entity or context.Source
-  allowBows = allowBows or false
-  local weapon = GetActiveWeapon(entity, true)
+function HeavyWeaponMasterRanged(entity)
+  local entity = entity or context.Source
+  local weapon = GetActiveWeapon(entity,true)
 
-  local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
-  local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
-  local isLoading = HasWeaponProperty(WeaponProperties.Loading, weapon)
+  local isTwoHanded = HasWeaponProperty(WeaponProperties.Twohanded, weapon)
+  local isRanged = HasWeaponProperty(WeaponProperties.Ammunition, weapon)
 
-  local res = IsProficientWith(entity, weapon) & ~isMelee & isHeavy
+  local res = IsProficientWith(entity, weapon) & isRanged & isTwoHanded
 
-  return ConditionResult(res.Result and (isLoading.Result or allowBows), { ConditionError("HasNotHeavyWeapon") },
-    { ConditionError("HasHeavyWeapon") })
+  return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
 end
 
 function IsEldritchSmite()

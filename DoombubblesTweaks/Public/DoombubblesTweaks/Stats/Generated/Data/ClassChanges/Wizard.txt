@@ -271,7 +271,7 @@ type "PassiveData"
 using "SculptSpells"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate"
-data "Conditions" "not HasPassive('SculptSpells') and not HasPassive('PotentCantrip')"
+data "Conditions" "not HasPassive('SculptSpells') and not HasPassive('PotentCantrip') and not HasStatus('SCULPT_SPELLS_COMPAT',context.Source)"
 data "StatsFunctors" "ApplyStatus(SELF, SCULPT_SPELLS_COMPAT, 100, -1)"
 data "PriorityOrder" "1"
 
@@ -284,13 +284,14 @@ data "Icon" "PassiveFeature_SculptSpells"
 data "Passives" "SculptSpells"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StackId" "SCULPT_SPELLS_COMPAT"
 
 new entry "PotentCantripCompat"
 type "PassiveData"
 using "PotentCantrip"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate"
-data "Conditions" "not HasPassive('PotentCantrip')"
+data "Conditions" "not HasPassive('PotentCantrip') and not HasStatus('POTENT_CANTRIP_COMPAT',context.Source)"
 data "StatsFunctors" "ApplyStatus(SELF, POTENT_CANTRIP_COMPAT, 100, -1)"
 data "PriorityOrder" "2"
 
@@ -303,6 +304,7 @@ data "Icon" "PassiveFeature_PotentCantrip"
 data "Passives" "PotentCantrip"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StackId" "POTENT_CANTRIP_COMPAT"
 
 // Bladesong Short Rest Option
 

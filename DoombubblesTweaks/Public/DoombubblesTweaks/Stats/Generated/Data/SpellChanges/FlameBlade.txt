@@ -4,6 +4,13 @@ type "Weapon"
 using "WPN_Scimitar_FlameBlade"
 data "Weapon Properties" "Melee;Unstowable;Light;Magical;Finesse"
 
+
+new entry "FLAME_BLADE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FLAME_BLADE"
+data "Boosts" "IF(Item(context.Source)):WeaponProperty(Unstowable);Attribute(InventoryBound);GameplayLight(3,false,0.1);BlockAbilityModifierDamageBonus();WeaponAttackTypeOverride(MeleeSpellAttack);IntrinsicSummonerProficiency();IntrinsicSourceProficiency()"
+
 // Flame blade all day like shadow blade
 
 new entry "Shout_FlameBlade"

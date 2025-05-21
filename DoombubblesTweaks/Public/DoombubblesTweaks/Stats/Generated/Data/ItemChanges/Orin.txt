@@ -1,0 +1,25 @@
+new entry "MAG_Orin_Cloth"
+type "Armor"
+using "MAG_Orin_Cloth"
+data "Boosts" ""AC(1);IF(Tagged('PLAYABLE',context.Source)):UnlockSpell(Shout_MAG_UnsettlingVisage_Orin)"
+
+new entry "MAG_Orin_ShapeshifterGambit_Passive"
+type "PassiveData"
+using "MAG_Orin_ShapeshifterGambit_Passive"
+data "DescriptionParams" "1d4"
+
+new entry "MAG_ORIN_SHAPESHIFTER_GAMBIT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_ORIN_SHAPESHIFTER_GAMBIT"
+data "DescriptionParams" "1d4"
+data "Boosts" "RollBonus(Attack,1d4);DamageBonus(1d4)"
+
+new entry "Shout_MAG_UnsettlingVisage_Orin"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_LOW_UnsettlingVisage_Orin"
+data "Cooldown" "OncePerShortRestPerItem"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellFlags" ""
+

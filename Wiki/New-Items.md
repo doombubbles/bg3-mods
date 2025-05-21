@@ -52,6 +52,8 @@
 
 **Obsidian Laced Sparkswall of Summer** - Combined from Obsidian Laced Robe, The Protecty Sparkswall, and Robe of Summer using Elminster's Tailoring Notes.
 
+**Hitched Pointer's Ring** - {{ getf .loca "hf397f0d4g2cc2g4171gb054gd8257ea6247d" | include "wikify" }}. Found in Dror Ragzlin's treasure room
+
 ### Item Upgrades
 
 **Headband of Intellect** - Unobtainable 19 INT version can now be created by combining the normal Warped Headband of Intellect with Enriched Infernal Iron

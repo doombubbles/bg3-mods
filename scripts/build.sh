@@ -10,7 +10,15 @@ rm -rf "$BUILD"
 bin/ProcessTemplates.exe -s "$MODNAME" -d "$BUILD" -r build/values.yaml
 
 # Build Mod
+if [ -f "$RESULT" ]; then
+  rm "$RESULT"
+fi
 bg3-modders-multitool.exe -s "$BUILD" -d "$RESULT" -c "1"
+
+if [ ! -f "$RESULT" ]; then
+  echo "BUILD FAILED!"
+  exit 1
+fi
 
 # Unpack to Output
 rm -rf ./output/$MODNAME

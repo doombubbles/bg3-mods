@@ -72,6 +72,19 @@
           <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
         </node>
 
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="h5981294fga60eg4c06g990cg499604112b1b" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="h2df6c775g9280g4d69gaa6cg3ac507bdbf6f" version="1" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="e73615df-ff70-497a-b29f-865c1cdbc8d3" />
+          <attribute id="Name" type="LSString" value="DBT_HpThreshold_Ring" />
+          <attribute id="ParentTemplateId" type="FixedString" value="d874115c-6b92-4222-b1a2-594cf111b075" />
+          <attribute id="Stats" type="FixedString" value="DBT_HpThreshold_Ring" />
+          <attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+        </node>
+
       </children>
     </node>
   </region>

@@ -166,7 +166,7 @@ data "Description" "hfd64bde8g91cfg4cfcg9f08g29a34c8dfe06"
 data "Icon" "Action_DivineIntervention_Attack"
 data "StackId" "ART_OF_WAR"
 data "StackType" "Overwrite"
-data "Boosts" "UnlockSpellVariant(SpellCheck('Target_Exorcism'),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,ChannelOath,0,0,ChannelOath))"
+data "Boosts" "UnlockSpellVariant(SpellCheck('Target_Exorcism'),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,ChannelOath,0,0,ChannelOath),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
 data "RemoveEvents" "OnSpellCast"
 data "RemoveConditions" "SpellCheck('Target_Exorcism') and not (IsMiss() or IsCriticalMiss())"
 

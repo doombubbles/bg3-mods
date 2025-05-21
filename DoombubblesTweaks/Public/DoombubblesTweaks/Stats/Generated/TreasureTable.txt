@@ -209,5 +209,8 @@ new treasuretable "WYR_Dragon_Legendary_Trident_Treasure"
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_Dragon_Material",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_Temple_Buried_Treasure"
+CanMerge 1
 new subtable "-1"
-object category "I_DBT_WPN_Frostmourne",1,0,0,0,0,0,0,0
+object category "I_DBT_HpThreshold_Ring",1,0,0,0,0,0,0,0

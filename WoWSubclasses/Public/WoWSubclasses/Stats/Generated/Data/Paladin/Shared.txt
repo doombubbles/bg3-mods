@@ -238,7 +238,7 @@ data "TooltipDamageList" "DealDamage(LevelMapValue(HammerOfWrath)+SpellCastingAb
 data "SpellFail" "ApplyStatus(SELF,REFUND_CHANNEL_OATH,100,0)"
 data "TargetFloor" "-1"
 data "TargetRadius" "18"
-data "TargetConditions" "not Self() and not Dead() and Character() and (HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50) or HasStatus('AVENGING_WRATH', context.Source))"
+data "TargetConditions" "not Self() and not Dead() and Character() and (HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50) or HasStatus('AVENGING_WRATH', context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source))"
 data "ProjectileCount" "1"
 data "Trajectories" "c63c4527-1bdf-4635-ad59-7d7e2f666fa3"
 data "SpellRoll" "Attack(AttackType.MeleeSpellAttack) or PretendWeaponAttack()"

@@ -1,3 +1,4 @@
+# Unholy Death Knight
 
 <img align="right" alt="Unholy Death Knight Class Icon" height="150" src="images/ClassIcons/UnholyDK.png" />
 
@@ -25,13 +26,13 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Outbreak"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Outbreak.png" height="25" align="top" alt="Action_DeathKnight_Outbreak.png" /> Outbreak</a>
+    <a href="Death Knight Spells#outbreak"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Outbreak.png" height="25" align="top" alt="Action_DeathKnight_Outbreak.png" /> Outbreak</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Festering Strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_FesteringStrike.png" height="25" align="top" alt="Action_DeathKnight_FesteringStrike.png" /> Festering Strike</a>
+    <a href="Death Knight Spells#festering-strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_FesteringStrike.png" height="25" align="top" alt="Action_DeathKnight_FesteringStrike.png" /> Festering Strike</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Scourge Strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_ScourgeStrike.png" height="25" align="top" alt="Action_DeathKnight_ScourgeStrike.png" /> Scourge Strike</a>
+    <a href="Death Knight Spells#scourge-strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_ScourgeStrike.png" height="25" align="top" alt="Action_DeathKnight_ScourgeStrike.png" /> Scourge Strike</a>
   </li>
 </ul>
 
@@ -39,7 +40,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Raise Dead"> <img src="https://bg3.wiki/w/images/9/91/Animate_Dead_Skeleton_Icon.webp" height="25" align="top" /> Raise Dead</a>
+    <a href="Death Knight Spells#raise-dead"> <img src="https://bg3.wiki/w/images/9/91/Animate_Dead_Skeleton_Icon.webp" height="25" align="top" /> Raise Dead</a>
   </li>
 </ul>
 
@@ -49,7 +50,7 @@ Runes:
 
 ### Dreadblade
 
-{{ getf .loca "hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" "1 Necrotic damage" | include "wikify" }}
+{{ getf .loca "hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" | include "wikify" }}
 
 {{ get .loca "h27d45cc4g02f1g4748g9a15g70b0d1a45b84" | include "wikify" }}
 
@@ -66,10 +67,10 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Raise Ally"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_RaiseAlly.png" height="25" align="top" alt="Action_DeathKnight_RaiseAlly.png" /> Raise Ally</a>
+    <a href="Death Knight Spells#raise-ally"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_RaiseAlly.png" height="25" align="top" alt="Action_DeathKnight_RaiseAlly.png" /> Raise Ally</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Unholy Aura"> <img src="images/ControllerIcons/skills_png/Spell_Conjuration_SpiritGuardians_Necrotic.png" height="25" align="top" alt="Spell_Conjuration_SpiritGuardians_Necrotic.png" /> Unholy Aura</a>
+    <a href="Death Knight Spells#unholy-aura"> <img src="images/ControllerIcons/skills_png/Spell_Conjuration_SpiritGuardians_Necrotic.png" height="25" align="top" alt="Spell_Conjuration_SpiritGuardians_Necrotic.png" /> Unholy Aura</a>
   </li>
 </ul>
 
@@ -94,10 +95,10 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Dark Transformation"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="25" align="top" alt="Action_DeathKnight_DarkTransformation.png" /> Dark Transformation</a>
+    <a href="Death Knight Spells#dark-transformation"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="25" align="top" alt="Action_DeathKnight_DarkTransformation.png" /> Dark Transformation</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Defile"> <img src="https://bg3.wiki/w/images/e/e0/Blight_Icon.webp" height="25" align="top" /> Defile</a>
+    <a href="Death Knight Spells#defile"> <img src="https://bg3.wiki/w/images/e/e0/Blight_Icon.webp" height="25" align="top" /> Defile</a>
   </li>
 </ul>
 
@@ -114,10 +115,10 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Raise Gargoyle"> <img src="https://bg3.wiki/w/images/4/4f/Animate_Dead_Ghoul_Icon.webp" height="25" align="top" /> Raise Gargoyle</a>
+    <a href="Death Knight Spells#raise-gargoyle"> <img src="https://bg3.wiki/w/images/4/4f/Animate_Dead_Ghoul_Icon.webp" height="25" align="top" /> Raise Gargoyle</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Army of the Dead"> <img src="https://bg3.wiki/w/images/9/92/Danse_Macabre_Icon.webp" height="25" align="top" /> Army of the Dead</a>
+    <a href="Death Knight Spells#army-of-the-dead"> <img src="https://bg3.wiki/w/images/9/92/Danse_Macabre_Icon.webp" height="25" align="top" /> Army of the Dead</a>
   </li>
 </ul>
 
@@ -142,10 +143,10 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Apocalypse"> <img src="https://bg3.wiki/w/images/f/f2/Circle_of_Death_Icon.webp" height="25" align="top" /> Apocalypse</a>
+    <a href="Death Knight Spells#apocalypse"> <img src="https://bg3.wiki/w/images/f/f2/Circle_of_Death_Icon.webp" height="25" align="top" /> Apocalypse</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Commander of the Dead"> <img src="https://bg3.wiki/w/images/d/da/Create_Undead_Icon.webp" height="25" align="top" /> Commander of the Dead</a>
+    <a href="Death Knight Spells#commander-of-the-dead"> <img src="https://bg3.wiki/w/images/d/da/Create_Undead_Icon.webp" height="25" align="top" /> Commander of the Dead</a>
   </li>
 </ul>
 

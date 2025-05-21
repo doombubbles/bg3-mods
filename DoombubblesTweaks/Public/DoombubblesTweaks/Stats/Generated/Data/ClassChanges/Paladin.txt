@@ -97,7 +97,7 @@ data "Icon" "Action_Paladin_DivineSmite_Unarmed"
 data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{add $lvl 1}}d8, Radiant,Magical)"
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType); ExecuteWeaponFunctors(MainHand);IF(not Tagged('FIEND') and not Tagged('UNDEAD')):DealDamage({{add $lvl 1}}d8,Radiant,Magical);IF(Tagged('FIEND')):DealDamage({{add $lvl 2}}d8,Radiant,Magical);IF(Tagged('UNDEAD')):DealDamage({{add $lvl 2}}d8,Radiant,Magical)"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{add $lvl 1}}d8,Radiant)"
-{{ include "UnarmedSmite" "" }}
+{{- include "UnarmedSmite" "" }}
 {{ end }}
 
 {{ range $lvl := list 1 2 3 4 5 6 }}
@@ -113,7 +113,7 @@ data "Icon" "Spell_Evocation_SearingSmite_Unarmed"
 data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{$lvl}}d6, Fire,Magical)"
 data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{$lvl}}d6, Fire,Magical);ApplyStatus(SEARING_SMITE, 100, 10)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d6,Fire)"
-{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{- include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
 {{ end }}
 
 {{ range $lvl := list 1 2 3 4 5 6 }}
@@ -129,7 +129,7 @@ data "Icon" "Spell_Evocation_WrathfulSmite_Unarmed"
 data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{$lvl}}d6, Psychic,Magical)"
 data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{$lvl}}d6, Psychic,Magical);ApplyStatus(FRIGHTENED,100,2, , , ,not SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnFrightened(), DisadvantageOnFrightened()))"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d6,Psychic)"
-{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{- include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
 {{ end }}
 
 {{ range $lvl := list 1 2 3 4 5 6 }}
@@ -145,7 +145,7 @@ data "Icon" "Spell_Evocation_ThunderousSmite_Unarmed"
 data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{add $lvl 1}}d6, Thunder,Magical)"
 data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{add $lvl 1}}d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()))"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{add $lvl 1}}d6,Thunder)"
-{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{- include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
 {{ end }}
 
 
@@ -168,7 +168,7 @@ data "Icon" "Spell_Evocation_BrandingSmite_Unarmed"
 data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{$lvl}}d6, Radiant,Magical)"
 data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{$lvl}}d6, Radiant,Magical);ApplyStatus(BRANDING_SMITE, 100, 10)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d6,Radiant)"
-{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{- include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
 {{ end }}
 
 new entry "Target_Smite_Branding_ZarielTiefling_Container"
@@ -185,7 +185,7 @@ data "DisplayName" "h4df5940dg1998g4082gb8e2ge19a7fa5e25b"
 data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage(2d6, Radiant,Magical)"
 data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage(2d6, Radiant,Magical);ApplyStatus(BRANDING_SMITE, 100, 10)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage(2d6,Radiant)"
-{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{- include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
 
 
 {{ range $lvl := list 3 4 5 6 }}
@@ -196,12 +196,12 @@ using "Target_Smite_Blinding{{if gt $lvl 3}}_{{$lvl}}{{end}}"
 {{- if gt $lvl 3 }}
 data "RootSpellID" "Target_Smite_Blinding_Unarmed"
 {{- end }}
-data "DisplayName" "h4df5940dg1998g4082gb8e2ge19a7fa5e25b"
-data "Icon" "ha596ec4bg665dg4f5fg909dg1a2e25419360"
+data "DisplayName" "ha596ec4bg665dg4f5fg909dg1a2e25419360"
+data "Icon" "Spell_Evocation_BlindingSmite_Unarmed"
 data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage({{$lvl}}d8, Radiant,Magical)"
 data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage({{$lvl}}d8, Radiant,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(BLINDING_SMITE_BLINDED,100,10)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d8,Radiant)"
-{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{- include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
 {{ end }}
 
 {{ range $lvl := list 5 6 }}
@@ -217,7 +217,7 @@ data "Icon" "Spell_Abjuration_BanishingSmite_Unarmed"
 data "SpellProperties" "GROUND:DealDamage(UnarmedDamage, Bludgeoning);GROUND:DealDamage(5d10, Force,Magical)"
 data "SpellSuccess" "DealDamage(UnarmedDamage, Bludgeoning);DealDamage(5d10, Radiant,Magical);DealDamage(5d10, Force,Magical);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE, 100, 2)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, MainMeleeWeaponDamageType);DealDamage(5d10,Radiant)"
-{{ include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
+{{- include "UnarmedSmite" "HasVerbalComponent;IsSpell" }}
 {{ end }}
 
 

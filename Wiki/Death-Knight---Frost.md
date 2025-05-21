@@ -1,3 +1,4 @@
+# Frost Death Knight
 
 <img align="right" alt="Frost Death Knight Class Icon" height="150" src="images/ClassIcons/FrostDK.png" />
 
@@ -26,15 +27,15 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Howling Blast"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HowlingBlast.png" height="25" align="top" 
+    <a href="Death Knight Spells#howling-blast"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HowlingBlast.png" height="25" align="top" 
 alt="Action_DeathKnight_HowlingBlast.png" /> Howling Blast</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Obliterate"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png" height="25" align="top" 
+    <a href="Death Knight Spells#obliterate"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png" height="25" align="top" 
 alt="Action_DeathKnight_Obliterate.png" /> Obliterate</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Frostscythe"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Frostscythe.png" height="25" align="top" 
+    <a href="Death Knight Spells#frostscythe"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Frostscythe.png" height="25" align="top" 
 alt="Action_DeathKnight_Frostscythe.png" /> Frostscythe</a>
   </li>
 </ul>
@@ -62,7 +63,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Absolute Zero"> <img src="https://bg3.wiki/w/images/4/44/Hunger_of_Hadar_Icon.webp" height="25" align="top" /> Absolute Zero</a>
+    <a href="Death Knight Spells#absolute-zero"> <img src="https://bg3.wiki/w/images/4/44/Hunger_of_Hadar_Icon.webp" height="25" align="top" /> Absolute Zero</a>
   </li>
 </ul>
 
@@ -87,7 +88,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Avalanche"> <img src="https://bg3.wiki/w/images/9/9b/Ice_Storm_Icon.webp" height="25" align="top" /> Avalanche</a>
+    <a href="Death Knight Spells#avalanche"> <img src="https://bg3.wiki/w/images/9/9b/Ice_Storm_Icon.webp" height="25" align="top" /> Avalanche</a>
   </li>
 </ul>
 
@@ -104,7 +105,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Breath of Sindragosa"> <img src="https://bg3.wiki/w/images/e/ef/Cone_of_Cold_Icon.webp" height="25" align="top" /> Breath of Sindragosa</a>
+    <a href="Death Knight Spells#breath-of-sindragosa"> <img src="https://bg3.wiki/w/images/e/ef/Cone_of_Cold_Icon.webp" height="25" align="top" /> Breath of Sindragosa</a>
   </li>
 </ul>
 
@@ -131,7 +132,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Glacial Advance"> <img src="https://bg3.wiki/w/images/d/d2/Wall_of_Ice_Icon.webp" height="25" align="top" /> Glacial Advance</a>
+    <a href="Death Knight Spells#glacial-advance"> <img src="https://bg3.wiki/w/images/d/d2/Wall_of_Ice_Icon.webp" height="25" align="top" /> Glacial Advance</a>
   </li>
 </ul>
 

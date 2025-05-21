@@ -129,7 +129,7 @@
 
   <content contentuid="h5c814c92ged36g4c7bg82a5ga6903e002102" version="1">Art of War</content>
   <content contentuid="h61412143gc3c9g41a4gac91gd22aaa1c7d54" version="1">After you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy, your next &lt;LSTag Type="Spell" Tooltip="Target_Exorcism"&gt;Exorcism&lt;/LSTag&gt; will cost an &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead of an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and not expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
-  <content contentuid="hfd64bde8g91cfg4cfcg9f08g29a34c8dfe06" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Exorcism"&gt;Exorcism&lt;/LSTag&gt; will not expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
+  <content contentuid="hfd64bde8g91cfg4cfcg9f08g29a34c8dfe06" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Exorcism"&gt;Exorcism&lt;/LSTag&gt; costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead of an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and will not expend a &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge&lt;/LSTag&gt;.</content>
 
 
   <content contentuid="h171f7dd8g5f72g43cfg9b9fg036e8d540b72" version="1">Does not consume any &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath charges&lt;/LSTag&gt;.</content>

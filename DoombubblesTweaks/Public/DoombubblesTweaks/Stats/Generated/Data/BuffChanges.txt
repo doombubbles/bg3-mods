@@ -10,7 +10,7 @@ data "DescriptionParams" "DealDamage(1, Fire)"
 new entry "Karlach_Infernal_Fury"
 type "PassiveData"
 using "Karlach_Infernal_Fury"
-data "Boosts" "IF(HasStatus('SG_Rage', context.Source)):CharacterWeaponDamage(1,Fire);IF(HasStatus('SG_Rage', context.Source)):CharacterUnarmedDamage(1, Fire);IF(HasHPPercentageLessThan(25,context.Source)):CharacterWeaponDamage(1,Fire);IF(HasHPPercentageLessThan(25,context.Source)):CharacterUnarmedDamage(1, Fire)"
+data "Boosts" "IF(HasStatus('SG_Rage', context.Source)):CharacterWeaponDamage(1,Fire);IF(HasStatus('SG_Rage', context.Source)):CharacterUnarmedDamage(1, Fire);IF(HasHPPercentageLessThan(25,context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):CharacterWeaponDamage(1,Fire);IF(HasHPPercentageLessThan(25,context.Source) or HasPassive('MAG_IgnoreHpThreshold',context.Source)):CharacterUnarmedDamage(1, Fire)"
 
 
 

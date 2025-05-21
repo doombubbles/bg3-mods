@@ -286,3 +286,53 @@ data "TargetConditions" "Self()"
 data "SpellProperties" "ApplyEquipmentStatus(SELF,MainHand,DIPPED_FIRE_SWITCH,100,0);ApplyEquipmentStatus(SELF,OffHand,DIPPED_FIRE_SWITCH,100,0)"
 data "TooltipStatusApply" "ApplyStatus(DIPPED_FIRE,100,3)"
 data "SpellFlags" "Stealth;Invisible"
+
+
+new entry "MAG_EndGameCaster_Robe"
+type "Armor"
+using "MAG_EndGameCaster_Robe"
+data "PassivesOnEquip" "MAG_ArcaneEnchantment_Passive;MAG_MagicEating_Robe_Passive;MAG_SpellResistance_Passive"
+
+new entry "MAG_MagicEating_Robe_Passive"
+type "PassiveData"
+using "MAG_MagicEating_Robe_Passive"
+data "Description" "hbb82c9b9g0b9ag436cgba2cg9cb16d3edf74"
+data "StatsFunctors" "IF(IsCantrip()):RegainHitPoints(1d6);{{range $i := untilStep 1 10 1}}IF(SpellPowerLevelEqualTo({{$i}})):RegainHitPoints({{$i}}d6);{{end}}"
+
+
+new entry "MAG_ElementalGish_CantripBooster_Amulet_Passive"
+type "PassiveData"
+using "MAG_ElementalGish_CantripBooster_Amulet_Passive"
+data "Boosts" "IF(IsCantrip() and (MainDamageTypeIs(DamageType.Fire) or MainDamageTypeIs(DamageType.Cold) or MainDamageTypeIs(DamageType.Thunder) or MainDamageTypeIs(DamageType.Acid) or MainDamageTypeIs(DamageType.Lightning))):DamageBonus(max(1,SpellCastingAbilityModifier))"
+
+
+new entry "MAG_Viconia_Robe"
+type "Armor"
+using "MAG_Viconia_Robe"
+data "Boosts" "AC(1);IF(Tagged('PLAYABLE',context.Source)):UnlockSpell(Shout_MAG_DarkJusticiarArmor_ShieldOfFaith)"
+data "PassivesOnEquip" "MAG_DarkJusticiar_Armor_Stealth_Passive;MAG_Viconia_Robe_Resistance_Passive;LOW_HouseOfGrief_Cultists_Sight"
+data "StatusOnEquip" "DARK_JUSTICIAR_SHIELD_OF_FAITH_TECHNICAL"
+
+new entry "MAG_Viconia_Mace"
+type "Weapon"
+using "MAG_Viconia_Mace"
+data "Boosts" "AbilityOverrideMinimum(Strength, 20)"
+data "PassivesOnEquip" "MAG_HouseOfGrief_Cultists_Melee"
+
+
+new entry "MAG_HouseOfGrief_Cultists_Melee"
+type "PassiveData"
+using "LOW_HouseOfGrief_Cultists_Melee"
+data "DescriptionParams" "DealDamage(1d8, Necrotic)"
+data "Icon" "GenericIcon_DamageType_Necrotic"
+data "StatsFunctorContext" ""
+data "Conditions" ""
+data "StatsFunctors" ""
+data "Boosts" "IF(not IsMiss() and not HasObscuredState(ObscuredState.Clear) and Enemy() and IsWeaponAttack()):DamageBonus(1d8, Necrotic)"
+
+
+new entry "DARK_JUSTICIAR_SHIELD_OF_FAITH_OWNER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DARK_JUSTICIAR_SHIELD_OF_FAITH_OWNER"
+data "Passives" "MAG_DarkJusticiar_Armor_Protection_Passive"

@@ -1,3 +1,4 @@
+# Blood Death Knight
 
 <img align="right" alt="Blood Death Knight Class Icon" height="150" src="images/ClassIcons/BloodDK.png" />
 
@@ -25,13 +26,13 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Blood Boil"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_BloodBoil.png" height="25" align="top" alt="Action_DeathKnight_BloodBoil.png" /> Blood Boil</a>
+    <a href="Death Knight Spells#blood-boil"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_BloodBoil.png" height="25" align="top" alt="Action_DeathKnight_BloodBoil.png" /> Blood Boil</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Marrowrend"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Marrowrend.png" height="25" align="top" alt="Action_DeathKnight_Marrowrend.png" /> Marrowrend</a>
+    <a href="Death Knight Spells#marrowrend"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Marrowrend.png" height="25" align="top" alt="Action_DeathKnight_Marrowrend.png" /> Marrowrend</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Heart Strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HeartStrike.png" height="25" align="top" alt="Action_DeathKnight_HeartStrike.png" /> Heart Strike</a>
+    <a href="Death Knight Spells#heart-strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HeartStrike.png" height="25" align="top" alt="Action_DeathKnight_HeartStrike.png" /> Heart Strike</a>
   </li>
 </ul>
 
@@ -39,10 +40,10 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Dancing Rune Weapon"> <img src="https://bg3.wiki/w/images/7/73/Spiritual_Weapon_Halberd_Icon.webp" height="25" align="top" /> Dancing Rune Weapon</a>
+    <a href="Death Knight Spells#dancing-rune-weapon"> <img src="https://bg3.wiki/w/images/7/73/Spiritual_Weapon_Halberd_Icon.webp" height="25" align="top" /> Dancing Rune Weapon</a>
   </li>
   <li>
-    <a href="Death Knight Spells#Subduing Grasp Person"> <img src="https://bg3.wiki/w/images/7/75/Hold_Person_Icon.webp" height="25" align="top" /> Subduing Grasp: Person</a>
+    <a href="Death Knight Spells#subduing-grasp Person"> <img src="https://bg3.wiki/w/images/7/75/Hold_Person_Icon.webp" height="25" align="top" /> Subduing Grasp: Person</a>
   </li>
 </ul>
 
@@ -69,7 +70,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#San'layn Touch"> <img src="https://bg3.wiki/w/images/8/85/Vampiric_Touch_Icon.webp" height="25" align="top" /> San'layn Touch</a>
+    <a href="Death Knight Spells#san'layn-touch"> <img src="https://bg3.wiki/w/images/8/85/Vampiric_Touch_Icon.webp" height="25" align="top" /> San'layn Touch</a>
   </li>
 </ul>
 
@@ -103,7 +104,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Subduing Grasp Monster"> <img src="https://bg3.wiki/w/images/c/cf/Hold_Monster_Icon.webp" height="25" align="top" /> Subduing Grasp: Monster</a>
+    <a href="Death Knight Spells#subduing-grasp-monster"> <img src="https://bg3.wiki/w/images/c/cf/Hold_Monster_Icon.webp" height="25" align="top" /> Subduing Grasp: Monster</a>
   </li>
 </ul>
 
@@ -128,7 +129,7 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#Bloodshot"> <img src="https://bg3.wiki/w/images/f/f7/Eyebite_Panicked_Icon.webp" height="25" align="top" /> Bloodshot</a>
+    <a href="Death Knight Spells#bloodshot"> <img src="https://bg3.wiki/w/images/f/f7/Eyebite_Panicked_Icon.webp" height="25" align="top" /> Bloodshot</a>
   </li>
 </ul>
 

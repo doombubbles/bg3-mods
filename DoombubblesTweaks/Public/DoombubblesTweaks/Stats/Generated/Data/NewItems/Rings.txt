@@ -82,3 +82,13 @@ data "DisplayName" "h99e3c87agea0cg4caegaf0bg91301783e978"
 data "Description" "h086cfac8g9c93g43e8g9e37g06235f065f84"
 // data "Description" "h036f0904g63e4g41a0g8fd3g57216059efbd"
 // data "Boosts" "RollBonus(RangedWeaponAttack, BonusToSpellDC());RollBonus(MeleeWeaponAttack, BonusToSpellDC())"
+
+
+new entry "DBT_HpThreshold_Ring"
+type "Armor"
+using "_Ring_Magic"
+data "RootTemplate" "e73615df-ff70-497a-b29f-865c1cdbc8d3"
+data "Rarity" "Uncommon"
+data "PassivesOnEquip" "MAG_IgnoreHpThreshold"
+data "Boosts" ""
+data "Unique" "1"

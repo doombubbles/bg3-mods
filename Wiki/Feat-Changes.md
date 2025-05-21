@@ -1,5 +1,3 @@
-**Polearm Master** - Bonus Attack now correctly adds Damage Modifiers like Great Weapon Master
-
 **Charger** - Also increase STR or DEX by 1.
 
 **Defensive Duelist** - Also increase DEX by 1.
@@ -12,7 +10,7 @@
 
 **Mage Slayer** - Also increase STR or DEX by 1.
 
-**Magic Initiate** - Now uses your own Spellcasting Modifier. Spells learned are usable per Short Rest instead of Long Rest. Gives you a +1 Bonus to the class's Spellcasting Ability.
+**Magic Initiate** - Now uses your own Spellcasting Modifier. Spells learned no longer have a cooldown. Gives you a +1 Bonus to the class's Spellcasting Ability.
 
 **Martial Adept** - Increased to 2 Superiority Dice. Also increase STR or DEX by 1.
 
