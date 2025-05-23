@@ -36,6 +36,8 @@
 
 **Shadow Blade / Flame Blade** - While in your inventory, you gain the ability to infuse a different weapon with a coating for extra Psychic / Fire damage
 
+**Ice Knife** - Ice explosion now does half damage if the target succeeds their save
+
 ### New Ritual Spells
 
 The following spells can now be casted as rituals out of combat

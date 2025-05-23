@@ -205,7 +205,7 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_AnimateDead_Skeleton"
 data "DisplayName" "hc3bb50c0gcfa1g4bffgad26g7541b0213518"
-data "Description" "he5e51308g0e6eg454dg8e22gf18b16ac1a3c"
+data "Description" "hfb628497gca79g4beagaab3g6a5d8468b681"
 data "DescriptionParams" "{{$num}}"
 data "AmountOfTargets" "{{$num}}"
 data "UseCosts" "ActionPoint:1;UnholyRune:{{add $num 2}}"
@@ -294,7 +294,6 @@ using "Target_Blight"
 data "DisplayName" "h43d7fec8g351fg463agbddfgbbf27671eaf5"
 data "UseCosts" "ActionPoint:1;UnholyRune:4"
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;{{$IsSpell}}"
-data "Level" ""
 
 
 // 5 Rune

@@ -16,7 +16,7 @@
 ### Death Strike
 - Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" />Blood Rune on hit
 - Weapon Attack
-- {{ getf .loca "hdf823ca8g47feg4126g96d4gb5c0d30fc627" "[1d4](## 'Rune Die') Force damage" "[1d4](## '2 Rune Die') hit points" "[4](# 'Rune Die Total')" | include "wikify" }}
+- {{ getf .loca "hdf823ca8g47feg4126g96d4gb5c0d30fc627" "[1d4](## 'Rune Die') Force damage" "[2d4](## '2 Rune Die') hit points" "[4](# 'Rune Die Total')" | include "wikify" }}
 
 
 <img align="left" alt="Action_DeathKnight_DeathCoil.png" height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathCoil.png" />
@@ -110,6 +110,15 @@
 - Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" />Blood Rune on hit
 - Weapon Attack
 - {{ getf .loca "h242d09f1gf2a0g4466ga270g83af0d3a9545" "[1d4](## 'Rune Die') Force Damage" "[1d4](## 'Rune Die') Force Damage" "3m" | include "wikify" }}
+
+
+<img src="images/ControllerIcons/skills_png/Action_DeathKnight_BloodBoil.png" height="40" align="left" alt="Action_DeathKnight_BloodBoil.png" />
+
+### Blood Boil
+- Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" />Blood Rune
+- <img src="https://bg3.wiki/w/images/thumb/6/6b/Constitution_Small_Icon.png/50px-Constitution_Small_Icon.png" height="25" align="top" alt="Constitution" />Constitution [Saving Throw](https://bg3.wiki/wiki/Saving_Throw), 6m AOE
+- {{ getf .loca "hf05664efgfe07g4b87ga5e3g64edfc6c1beb" "[1d4](## 'Rune Die') Force Damage" | include "wikify" }}
+- Full damage and 5 turn duration on failed save, half damage and 2 turn duration on succeeded save
 
 
 ### Frost Only

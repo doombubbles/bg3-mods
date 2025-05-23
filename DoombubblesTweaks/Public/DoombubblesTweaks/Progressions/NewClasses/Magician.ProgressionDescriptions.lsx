@@ -79,7 +79,7 @@
           <attribute id="UUID" type="guid" value="44954a95-24f3-42d1-8032-9c5b5da0b27a"/>
         </node>
         <node id="ProgressionDescription">
-          <attribute id="Description" type="TranslatedString" handle="h8dbc05ebg22deg4abbgba9bg9b9f906e4a60" version="2"/>
+          <attribute id="Description" type="TranslatedString" handle="h8dbc05ebg22deg4abbgba9bg9b9f906e4a60" version="1"/>
           <attribute id="DisplayName" type="TranslatedString" handle="hb328af45g663eg4cb8g93c9g6be43f154431" version="1"/>
           <attribute id="ExactMatch" type="FixedString" value="IncreaseMaxHP(ClassLevel(Magician))"/>
           <attribute id="ProgressionId" type="guid" value="7c9543a1-4653-487c-9b5a-ea2de256cd0f"/>

@@ -25,7 +25,7 @@ data "Icon" "Action_DeathKnight_DeathStrike"
 data "DisplayName" "h7c0e1687g2c9cg4837gaac3g9c68bffb4b49"
 data "Description" "hdf823ca8g47feg4126g96d4gb5c0d30fc627"
 data "DescriptionParams" "DealDamage(LevelMapValue(RuneDie),Force);RegainHitPoints(LevelMapValue(2RuneDie));LevelMapValue(RuneDieTotal)"
-data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(RuneDie),Force)"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(RuneDie),Force);RegainHitPoints(LevelMapValue(2RuneDie),ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
 data "TooltipAttackSave" "MeleeWeaponAttack"
 data "PrepareLoopSound" "CrSpell_Loop_Azer_SearingSmite"
 data "CastSound" "Action_Cast_RecklessAttack"
@@ -36,13 +36,14 @@ data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17
 data "DualWieldingSpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,,;f4ac302b-1569-404f-bd52-1fe443e265df,,;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
 data "VerbalIntent" "Damage"
 data "SpellStyleGroup" "Class"
-data "SpellFlags" "IsHarmful;HasVerbalComponent"
+data "SpellFlags" "IsHarmful;IsMelee"
 data "HitAnimationType" "MagicalDamage_External"
 data "MemoryCost" "1"
 data "PrepareEffect" "13fd2ef9-25e3-4e61-91bb-62b62fc481df"
 data "CastEffect" "01105230-e44d-42ee-90ed-5c6df38ada2b"
 data "TargetEffect" "e415a119-48eb-407e-9e3a-d48266a3b902"
 data "DamageType" "Force"
+data "TooltipOnMiss" "dd125773-182a-4ffa-95ed-1e1e4c6e827c"
 
 new entry "Target_SacrificialPact"
 type "SpellData"
@@ -102,6 +103,7 @@ data "TargetEffect" "e415a119-48eb-407e-9e3a-d48266a3b902"
 data "TooltipOnMiss" "a77ea834-b04a-4d69-a7aa-7533812da434"
 data "DamageType" "Force"
 data "SpellSoundMagnitude" "Big"
+data "TooltipOnMiss" "dd125773-182a-4ffa-95ed-1e1e4c6e827c"
 
 new entry "Shout_BloodBoil"
 type "SpellData"
@@ -110,7 +112,7 @@ data "Icon" "Action_DeathKnight_BloodBoil"
 data "AreaRadius" "6"
 data "DisplayName" "hdf2b093cg7179g481dgb3fdg6e79014a0b55"
 data "Description" "hf05664efgfe07g4b87ga5e3g64edfc6c1beb"
-data "DescriptionParams" ""
+data "DescriptionParams" "DealDamage(LevelMapValue(2RuneDie),Force)"
 data "TooltipDamageList" "DealDamage(LevelMapValue(2RuneDie),Force)"
 data "TargetConditions" "Character() and not Dead() and Enemy()"
 data "SpellRoll" "not SavingThrow(Ability.Constitution, SourceSpellDC())"
@@ -182,6 +184,7 @@ data "SpellStyleGroup" "Class"
 data "DamageType" "Cold"
 data "HitCosts" "BloodRune:2"
 data "SpellFlags" "IsMelee;IsHarmful"
+data "TooltipOnMiss" "dd125773-182a-4ffa-95ed-1e1e4c6e827c"
 
 new entry "BONE_SHIELD"
 type "StatusData"
@@ -195,7 +198,7 @@ data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
 data "StatusGroups" "SG_RemoveOnRespec"
 
-{{ range $die := list 4 6 8 10 12 16 20 24 }}
+{{ range $die := list 4 6 8 10 12 16 20 24 15 20 25 30 35 40 45 50 55 60 }}
 new entry "BONE_SHIELD_{{$die}}"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -266,3 +269,94 @@ data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar;ToggledDefaul
 data "Boosts" "UnlockSpellVariant(CarnageSpellCheck(), ModifyTooltipDescription(), ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
 data "EnabledConditions" "(HasPassive('CrimsonScourge', context.Source) and HasTemporaryHP(0, context.Source)) or (HasPassive('CrimsonScourge', context.Target) and HasTemporaryHP(0, context.Target))" {{/* TODO better way to do this? */}}
 data "EnabledContext" "OnStatusApplied;OnStatusRemoved;OnCastResolved"
+
+
+{{- $dmg := "" }}
+{{- $die := "d10" }}
+
+{{- range $lvl := untilStep 1 7 1}}
+
+{{ $dmg = $lvl }}
+new entry "Target_DeathStrike_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DeathStrike"
+data "RootSpellID" "Target_DeathStrike"
+data "PowerLevel" "{{$lvl}}"
+data "UseCosts" "ActionPoint:1"
+data "HitCosts" "SpellSlotsGroup:1:1:{{$lvl}}"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+data "TooltipUpcastDescriptionParams" "DealDamage(1{{$die}},Force)"
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage({{$dmg}}{{$die}},Force,Magical,,0,,true,false);IF(not HasMaxHPWithoutTemporaryHP(context.Source)):RegainHitPoints(SELF,{{add $dmg 1}}{{$die}});IF(HasMaxHPWithoutTemporaryHP(context.Source)):ApplyStatus(SELF, BONE_SHIELD_{{add 5 (mul $lvl 5)}}, 100, -1);"
+data "DescriptionParams" "DealDamage({{$dmg}}{{$die}},Force);RegainHitPoints({{add $dmg 1}}{{$die}});{{add 5 (mul $lvl 5)}}"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{$dmg}}{{$die}},Force);RegainHitPoints(LevelMapValue(2RuneDie),ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "SpellFlags" "IsHarmful;IsMelee;IsSpell"
+
+
+new entry "Target_SacrificialPact_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SacrificialPact"
+data "RootSpellID" "Target_SacrificialPact"
+data "PowerLevel" "{{$lvl}}"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:{{$lvl}}"
+data "TooltipUpcastDescription" "04cc3403-f67a-4747-b49e-a1802cc7a6ad"
+data "AmountOfTargets" "{{$lvl}}"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsHarmful;IgnorePreviouslyPickedEntities;IsSpell"
+
+
+{{ $dmg = $lvl }}
+new entry "Target_HeartStrike_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HeartStrike"
+data "RootSpellID" "Target_HeartStrike"
+data "PowerLevel" "{{$lvl}}"
+data "UseCosts" "ActionPoint:1"
+data "HitCosts" "SpellSlotsGroup:1:1:{{$lvl}}"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+data "TooltipUpcastDescriptionParams" "DealDamage(1{{$die}},Force)"
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
+data "SpellSuccess" "TARGET:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);TARGET:ExecuteWeaponFunctors(MainHand);TARGET:DealDamage({{$dmg}}{{$die}}, Force, Magical,,0,,true,false);TARGET:AOE:IF(HasStatus('DEATH_AND_DECAY_OWNER',context.Source)):DealDamage({{$dmg}}{{$die}}, Force, Magical)"
+data "DescriptionParams" "DealDamage({{$dmg}}{{$die}},Force);DealDamage({{$dmg}}{{$die}},Force);Distance(3)"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{$dmg}}{{$die}},Force)"
+data "SpellFlags" "IsMelee;IsHarmful;IsSpell"
+
+
+{{ $dmg = add $lvl 1 }}
+new entry "Shout_BloodBoil_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_BloodBoil"
+data "RootSpellID" "Shout_BloodBoil"
+data "PowerLevel" "{{$lvl}}"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{$lvl}}"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+data "TooltipUpcastDescriptionParams" "DealDamage(1{{$die}},Frost)"
+data "DescriptionParams" "DealDamage({{$dmg}}{{$die}},Force)"
+data "TooltipDamageList" "DealDamage({{$dmg}}{{$die}},Force)"
+data "SpellSuccess" "DealDamage({{$dmg}}{{$die}},Force,Magical);ApplyStatus(BLOOD_PLAGUE,100,5)"
+data "SpellFail" "DealDamage({{$dmg}}{{$die}}/2,Force,Magical);ApplyStatus(BLOOD_PLAGUE,100,2)"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsHarmful;IsSpell"
+
+
+{{ $dmg = $lvl }}
+new entry "Target_Marrowrend_{{$lvl}}"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Marrowrend"
+data "RootSpellID" "Target_Marrowrend"
+data "PowerLevel" "{{$lvl}}"
+data "UseCosts" "ActionPoint:1"
+data "HitCosts" "SpellSlotsGroup:1:1:{{$lvl}}"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+data "TooltipUpcastDescriptionParams" "DealDamage(1{{$die}},Force)"
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
+data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);GROUND:DealDamage({{$dmg}}{{$die}},Force,Magical,,0,,true,false)"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{$dmg}}{{$die}},Force,Magical,,0,,true,false);ApplyStatus(SELF, BONE_SHIELD_{{mul $lvl 10}}, 100, -1)"
+data "DescriptionParams" "DealDamage({{$dmg}}{{$die}},Force);{{mul $lvl 10}}"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{$dmg}}{{$die}},Force)"
+data "SpellFlags" "IsMelee;IsHarmful;IsSpell"
+
+{{- end }}

@@ -1,0 +1,35 @@
+
+{{ range $lvl := untilStep 1 7 1 }}
+new entry "Projectile_IceKnife{{if ge $lvl 2}}_{{$lvl}}{{end}}"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_IceKnife{{if ge $lvl 2}}_{{$lvl}}{{end}}"
+data "SpellSuccess" "TARGET:DealDamage({{$lvl}}d10,Piercing);IF(not IsCritical()):CreateExplosion(Projectile_IceKnife_Explosion{{if ge $lvl 2}}_{{$lvl}}{{end}});IF(IsCritical()):CreateExplosion(Projectile_IceKnife_Explosion{{if ge $lvl 2}}_{{$lvl}}{{end}}_Crit);"
+data "SpellFail" "CreateExplosion(Projectile_IceKnife_Explosion{{if ge $lvl 2}}_{{$lvl}}{{end}})"
+data "DescriptionParams" "DealDamage({{$lvl}}d10,Piercing);DealDamage({{add $lvl 1}}d6,Cold)"
+data "ExtraDescriptionParams" "DealDamage({{$lvl}}d10,Piercing);DealDamage({{add $lvl 1}}d6,Cold)"
+data "TooltipDamageList" "DealDamage({{$lvl}}d10,Piercing);DealDamage({{add $lvl 1}}d6,Cold)"
+{{- if ge $lvl 2 }}
+data "TooltipUpcastDescription" "5f3e75ef-5efb-47a3-b6ac-1b838cbe7bc3"
+data "TooltipUpcastDescriptionParams" "DealDamage(1d10,Piercing);DealDamage(1d6,Cold)"
+{{- end }}
+
+new entry "Projectile_IceKnife_Explosion{{if ge $lvl 2}}_{{$lvl}}{{end}}"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_IceKnife{{if ge $lvl 2}}_{{$lvl}}{{end}}"
+data "RootSpellID" ""
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "SpellProperties" ""
+data "SpellSuccess" "DealDamage({{add $lvl 1}}d6, Cold,Magical)"
+data "SpellFail" "DealDamage({{add $lvl 1}}d6/2, Cold,Magical)"
+data "Trajectories" "f346b284-854e-4dd9-b87c-3938f5178265"
+
+
+new entry "Projectile_IceKnife_Explosion{{if ge $lvl 2}}_{{$lvl}}{{end}}_Crit"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_IceKnife_Explosion{{if ge $lvl 2}}_{{$lvl}}{{end}}"
+data "SpellSuccess" "DealDamage({{ mul (add $lvl 1) 2}}d6, Cold,Magical)"
+data "SpellFail" "DealDamage({{add $lvl 1}}d6, Cold,Magical)"
+{{ end }}

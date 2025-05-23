@@ -148,7 +148,7 @@
   <content contentuid="h242d09f1gf2a0g4466ga270g83af0d3a9545" version="1">Strike the target with a bonus [1]. If you're within &lt;LSTag Type="Spell" Tooltip="Target_DeathAndDecay"&gt;Death and Decay&lt;/LSTag&gt;, also deal [2] to all enemies within [3].</content>
 
   <content contentuid="hdf2b093cg7179g481dgb3fdg6e79014a0b55" version="1">Blood Boil</content>
-  <content contentuid="hf05664efgfe07g4b87ga5e3g64edfc6c1beb" version="1">Damage nearby enemies and inflict them with &lt;LSTag Type="Status" Tooltip="BLOOD_PLAGUE"&gt;Blood Plague&lt;/LSTag&gt;.</content>
+  <content contentuid="hf05664efgfe07g4b87ga5e3g64edfc6c1beb" version="1">Deal [1] to nearby enemies and inflict them with &lt;LSTag Type="Status" Tooltip="BLOOD_PLAGUE"&gt;Blood Plague&lt;/LSTag&gt;.</content>
 
   <content contentuid="h03045c4fg634ag4efegb96dgb349686d32d6" version="1">Blood Plague</content>
   <content contentuid="ha1224b6cg481eg420bgaa13g359e598f75fa" version="1">Draining [1] per turn. Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against targets other than the Death Knight.</content>
@@ -176,7 +176,7 @@
   <content contentuid="h4d9ca6dbg96a7g40ebg951agb6b17db81350" version="1">You gain an Unholy Rune. These are restored on a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h7fa255afgd600g40d6g94acge027cefe6a0d" version="1">Dreadblade</content>
-  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">Your summons deal additional Necrotic damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+  <content contentuid="hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" version="1">Your summons deal additional Necrotic damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.&lt;br&gt;If you have no summons near you, this bonus instead increases the Necrotic damage of your spells and Rune abilities.</content>
   <content contentuid="heea88cb9g2c88g4e3egba25gf79b286b150c" version="1">Deals an extra [1].</content>
 
   <content contentuid="h1f84fc36g03e1g4264g812egfdb4f7c70d31" version="1">Death Coil</content>
@@ -244,6 +244,7 @@
   <content contentuid="ha0369d40gd801g40c9g8c18g7e9387e5a3cb" version="1">Anti-Magic Zone</content>
   <content contentuid="h95b2897ag4a39g48cfgb08agcb66b6c47b16" version="1">Create a barrier that makes creatures inside &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all damage that is not Bludgeoning, Piercing or Slashing.</content>
 
+  <content contentuid="h91a0f9f3g2b8ag4bf9gadb7g2802923d79aa" version="1">Does not consume any &lt;LSTag Type="ActionResource" Tooltip="AnyRune"&gt;Runes&lt;/LSTag&gt;.</content>
   <content contentuid="hb9d194b9g70c0g4316gbbadgdcc3c89b9592" version="1">Targets still take half damage and lower status duration.</content>
 
   <content contentuid="h1bbd9e63gb94ag488aga938g528f1d96541b" version="1">Can't have Rune Weapon</content>

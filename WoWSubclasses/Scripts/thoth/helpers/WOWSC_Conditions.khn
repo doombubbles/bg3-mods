@@ -18,26 +18,24 @@ function HotStreakSpellCheck()
 end
 
 function SplittingIceProjectileSpellCheck()
-  return ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) &
+  return ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) &
       SpellTypeIs(SpellType.Projectile) & SpellDamageTypeIs(DamageType.Cold)
 end
 
 function SplittingIceTargetSpellCheck()
-  return TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) & HasSpellFlag(SpellFlags.Spell) &
+  return TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) &
       SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) & SpellDamageTypeIs(DamageType.Cold) &
       ~NumberOfTargetsGreaterThan(1)
 end
 
 function SplittingIceTargetTouchSpellCheck()
   return TargetRadiusGreaterThan(0) & ~TargetRadiusGreaterThan(1.5) & ~AreaRadiusGreaterThan(0) &
-      HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) &
+      SpellTypeIs(SpellType.Target) & ~HasFunctor(StatsFunctorType.Summon) &
       SpellDamageTypeIs(DamageType.Cold) & ~NumberOfTargetsGreaterThan(1)
 end
 
 function FingersOfFrostSpellCheck()
-  return SpellDamageTypeIs(DamageType.Cold) &
-      (HasStringInSpellRoll('AttackType.RangedSpellAttack') | HasStringInSpellRoll('AttackType.MeleeSpellAttack')) &
-      HasEnoughIciclesCheck(context.Source)
+  return SpellDamageTypeIs(DamageType.Cold) & IsAttack() & HasEnoughIciclesCheck(context.Source)
 end
 
 function HasEnoughIciclesCheck(entity)

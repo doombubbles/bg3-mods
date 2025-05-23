@@ -1,7 +1,11 @@
 ---@diagnostic disable: undefined-global
 
+function SpellCheck(spell)
+  return SpellId(spell) | IsSpellChildOrVariantFromContext(spell)
+end
+
 function KillingMachineSpellCheck()
-  return SpellId('Target_Obliterate') | SpellId('Target_Obliterate_DW') | SpellId('Zone_Frostscythe')
+  return SpellCheck('Target_Obliterate') | SpellCheck('Target_Obliterate_DW') | SpellCheck('Zone_Frostscythe')
 end
 
 function DeathGripCheck()
@@ -41,10 +45,10 @@ end
 function RuneSpellCheck()
   return (
     HasUseCosts('BloodRune') | HasUseCosts('FrostRune') | HasUseCosts('UnholyRune') | HasUseCosts('AnyRune') | HasUseCosts('BloodOrFrostRune') | HasUseCosts('BloodOrUnholyRune') | HasUseCosts('FrostOrUnholyRune') |
-    SpellId('Target_VampiricTouch_Free_DK') | SpellId('Target_Eyebite_Asleep_Free_DK') | SpellId('Target_Eyebite_Panicked_Free_DK') | SpellId('Target_Eyebite_Sickened_Free_DK') |
-    SpellId('Target_FrostStrike') | SpellId('Target_Obliterate_DW')  | SpellId('Target_Obliterate') |
-    SpellId('Target_DeathStrike')  | SpellId('Target_Marrowrend') | SpellId('Target_HeartStrike') |
-    SpellId('Target_ScourgeStrike')  | SpellId('Target_FesteringStrike')
+    SpellCheck('Target_VampiricTouch_Free_DK') | SpellCheck('Target_Eyebite_Asleep_Free_DK') | SpellCheck('Target_Eyebite_Panicked_Free_DK') | SpellCheck('Target_Eyebite_Sickened_Free_DK') |
+    SpellCheck('Target_FrostStrike') | SpellCheck('Target_Obliterate_DW')  | SpellCheck('Target_Obliterate') |
+    SpellCheck('Target_DeathStrike')  | SpellCheck('Target_Marrowrend') | SpellCheck('Target_HeartStrike') |
+    SpellCheck('Target_ScourgeStrike')  | SpellCheck('Target_FesteringStrike')
   )
 end
 
@@ -62,11 +66,34 @@ end
 
 function FrostmourneSoulCheck(entity)
   entity = entity or context.Target
-  return ~Tagged('UNDEAD',entity) & ~Party() & ~Tagged('PLAYABLE') & ~Tagged('AVATAR') & ~Tagged('CONSTRUCT') & ~Tagged('ELEMENTAL') & ~Tagged('PLANT') & ~Tagged('OOZE') & ~Tagged('MINDFLAYER') -- According to Withers
+  return ~Tagged('UNDEAD', entity) & ~Party() & ~Tagged('PLAYABLE') & ~Tagged('AVATAR') & ~Tagged('CONSTRUCT') &
+      ~Tagged('ELEMENTAL') & ~Tagged('PLANT') & ~Tagged('OOZE') &
+      ~Tagged('MINDFLAYER') -- According to Withers
 end
 
 function KilledByFrostmourne(entity)
   local entity = entity or context.Target
   local soul = HasStatus('FROSTMOURNE_SOUL', entity)
-  return ConditionResult(soul.Result, {ConditionError("NotKilledByFrostmourne")})
+  return ConditionResult(soul.Result, { ConditionError("NotKilledByFrostmourne") })
+end
+
+function DD(dmg, entity)
+  local entity = entity or GetSummoner(context.Source)
+
+  local total = 0
+
+  if (HasPassive('Dreadblade', entity) & ~HasStatus('DREADBLADE_SELF_BLOCKED', entity)).Result then
+    total = total + entity.ProficiencyBonus
+  end
+
+  if HasStatus('ELEMENTALAFFINITY_NECROTIC_EXTRA_DAMAGE_TECHNICAL', entity).Result then
+    total = total + max(GetModifier(entity.Charisma), 0)
+  end
+
+  if HasStatus('ELEMENTALAFFINITY_NECROTIC_EXTRA_DAMAGE_TECHNICAL_MAGICIAN', entity).Result then
+    total = total + max(GetModifier(entity.Intelligence), 0)
+  end
+
+
+  return ConditionResult(total == dmg)
 end

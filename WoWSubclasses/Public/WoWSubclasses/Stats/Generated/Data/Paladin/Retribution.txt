@@ -207,7 +207,7 @@ data "SpellFail" ""
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{mul $lvl 2}}d4+SpellCastingAbilityModifier,Radiant)"
 data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
 data "TooltipUpcastDescriptionParams" "DealDamage(2d4,Radiant)"
-data "TooltipOnMiss" ""
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
 
 
 new entry "Target_TemplarsVerdict_{{$lvl}}"
@@ -224,7 +224,7 @@ data "SpellFail" ""
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage({{$lvl}}d8+SpellCastingAbilityModifier, Radiant)"
 data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
 data "TooltipUpcastDescriptionParams" "DealDamage(1d8,Radiant)"
-data "TooltipOnMiss" ""
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
 
 
 new entry "Shout_DivineStorm_{{$lvl}}"

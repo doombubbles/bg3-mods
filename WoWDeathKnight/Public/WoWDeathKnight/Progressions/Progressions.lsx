@@ -24,7 +24,7 @@
           <attribute id="Name" type="LSString" value="DeathKnight"/>
           <attribute id="PassivesAdded" type="LSString" value="RuneCasting;UnlockedRuneLevel1;RuneCastingTutorialFix"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
-          <attribute id="Selectors" type="LSString" value="AddSpells(709fe78d-55b8-4756-997c-63593cc06fe9,,,,AlwaysPrepaered)"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(709fe78d-55b8-4756-997c-63593cc06fe9,,,,AlwaysPrepared)"/>
           <attribute id="TableUUID" type="guid" value="77d1d3f7-f090-40f0-95ab-221ff856e530"/>
           <attribute id="UUID" type="guid" value="368b754a-ab81-4097-a556-e7bc10b9372a"/>
         </node>

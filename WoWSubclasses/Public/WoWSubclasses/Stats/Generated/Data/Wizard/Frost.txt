@@ -7,7 +7,7 @@ data "Description" "hf458858dg5a2bg4c9egaae1g13e8ccf5ab3d"
 data "DescriptionParams" "5"
 data "Icon" "Spell_Abjuration_GlyphOfWarding_ExplosiveRunes_Cold"
 data "Properties" "Highlighted"
-data "Boosts" "IF(IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Cold) and (HasStatus('SG_Prone', context.Target) or HasStatus('FROZEN', context.Target) or HasStatus('FINGERS_OF_FROST', context.Source))):ReduceCriticalAttackThreshold(5);IF(IsSpell() and IsSpellAttack() and SpellDamageTypeIs(DamageType.Cold) and (HasStatus('SG_Prone', context.Target) or HasStatus('FROZEN', context.Target) or HasStatus('FINGERS_OF_FROST', context.Source))):Advantage(AttackRoll)"
+data "Boosts" "IF(IsAttack() and SpellDamageTypeIs(DamageType.Cold) and (HasStatus('PRONE_ICE', context.Target) or HasStatus('FROZEN', context.Target) or HasStatus('FINGERS_OF_FROST', context.Source))):ReduceCriticalAttackThreshold(5);IF(IsAttack() and SpellDamageTypeIs(DamageType.Cold) and (HasStatus('PRONE_ICE', context.Target) or HasStatus('FROZEN', context.Target) or HasStatus('FINGERS_OF_FROST', context.Source))):Advantage(AttackRoll)"
 
 
 new entry "FingersOfFrost"

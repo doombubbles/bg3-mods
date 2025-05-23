@@ -1,0 +1,4 @@
+new entry "Reaper"
+type "PassiveData"
+using "Reaper"
+// data "Boosts" "UnlockSpellVariant((IsCantrip() | SpellId('Target_DeathCoil')) & SpellTypeIs(SpellType.Target) & IsSpellOfSchool(SpellSchool.Necromancy),ModifyNumberOfTargets(AdditiveBase,1,false))"

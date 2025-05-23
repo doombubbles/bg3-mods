@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceGroupDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceGroupDefinition">
+          <attribute id="ActionResourceDefinitions" type="LSString" value="005074a8-39a2-4d72-b496-31dfb70bac03;4a06a7ec-6d77-486d-b53c-a14535f0a29d;1323ae6b-8cfe-447e-b553-21582d18a4f2"/>
+          <attribute id="Name" type="LSString" value="RunesGroup"/>
+          <attribute id="UUID" type="guid" value="d68938fa-8b10-48bb-a20f-eb69e4a1b095"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

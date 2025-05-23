@@ -171,8 +171,7 @@ data "UseCosts" "BonusActionPoint:1;ChannelDivinity:1"
 data "SpellFlags" ""
 data "RequirementConditions" "ConditionResult(context.Source.ProficiencyBonus > 3)"
 
-
 new entry "Reaper"
 type "PassiveData"
 using "Reaper"
-data "Boosts" "UnlockSpellVariant(IsCantrip() & IsSpellOfSchool(SpellSchool.Necromancy),ModifyNumberOfTargets(AdditiveBase,1,false))"
+data "Boosts" "UnlockSpellVariant(IsCantrip() & SpellTypeIs(SpellType.Target) & IsSpellOfSchool(SpellSchool.Necromancy),ModifyNumberOfTargets(AdditiveBase,1,false))"

@@ -14,6 +14,8 @@
 
 **Barkskin** - Upcasts now give +1 more AC per additional spell slot level
 
+**Ice Knife** - Upcasts now also increase the piercing damage
+
 ### Cantrips
 
 Many cantrips can now be upcasted to be stronger but actually cost a spell slot.
