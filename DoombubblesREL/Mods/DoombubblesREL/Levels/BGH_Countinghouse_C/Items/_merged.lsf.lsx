@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h33863f47gc1b8g47f5ga74cgc8dd50dea563" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Key" type="FixedString" value="ArchiveHeavyChestKey" />
+					<attribute id="LevelName" type="FixedString" value="BGH_Countinghouse_C" />
+					<attribute id="LockDifficultyClassID" type="guid" value="96bc76f2-0b2e-4a79-854f-e4971a772c36" />
+					<attribute id="MapKey" type="FixedString" value="adc54092-fb7a-44ec-8c3c-1ed30af5b74d" />
+					<attribute id="Name" type="LSString" value="CONT_GEN_Chest_Heavy_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="0b90bf9d-66fd-4741-be1f-39181efca97a" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Supply_Potions" />
+								</node>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_Rare_Amulets" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="OBJ_Scroll_CloudOfDaggers" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="" />
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="824" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="LOOT_Gold_A" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="1c3c9c74-34a1-4685-989e-410dc080be6f" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="BGH_Countinghouse_C" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-21.0243 -7.136374 21.7707" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.9936443 0 0.1125395" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

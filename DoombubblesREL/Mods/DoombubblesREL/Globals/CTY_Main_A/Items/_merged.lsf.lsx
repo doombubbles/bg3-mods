@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hf6e8d400g4ccdg4be6gb20eg8f144305f0ea" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="a042774f-ae71-4d19-9554-ba90cf34d046" />
+					<attribute id="Name" type="LSString" value="S_UNI_LOW_TorchOfRevocation" />
+					<attribute id="Stats" type="FixedString" value="LOW_OskarsBeloved_TorchOfRevocation" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="88be0257-cd9a-4922-85c9-178ad8579af2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="675b8dd2-b6df-44f6-8978-b4ad340e0959" />
+					<attribute id="Name" type="LSString" value="S_GLO_Orin_OffhandDagger" />
+					<attribute id="TemplateName" type="FixedString" value="5961d027-75fd-4ad7-964c-8b786b5839fb" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

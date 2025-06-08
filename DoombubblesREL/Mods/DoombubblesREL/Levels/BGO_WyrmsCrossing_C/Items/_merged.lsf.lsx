@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanShineThrough" type="bool" value="False" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="TrappedUsable_Explode" />
+					<attribute id="DisarmDifficultyClassID" type="guid" value="77cee1c4-384a-4217-b670-67db3c7add57" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="IsTrap" type="bool" value="True" />
+					<attribute id="Key" type="FixedString" value="BeachTravelerChestKeyID" />
+					<attribute id="LevelName" type="FixedString" value="BGO_WyrmsCrossing_C" />
+					<attribute id="LockDifficultyClassID" type="guid" value="77cee1c4-384a-4217-b670-67db3c7add57" />
+					<attribute id="MapKey" type="FixedString" value="d078778a-0905-4800-9146-cd8e612ac46c" />
+					<attribute id="Name" type="LSString" value="CONT_GEN_Chest_Travel_A_Small_A_008" />
+					<attribute id="TemplateName" type="FixedString" value="65ad4dbc-74b2-47b6-bad4-1a109cfc9639" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+					<children>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="DestroyProjectileSpell" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Projectile_Fireball_Trap_Hard" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Alchemy_Potion_Healing_Supply" />
+								</node>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Gold_Stash_Normal" />
+								</node>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_Uncommon_Amulets" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="LOOT_GEN_Ring_A_Gem_A_Gold_1" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="52f6619c-edd3-4493-a420-c124f52c2a03" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="BGO_WyrmsCrossing_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="00abee45-43f0-1441-c51f-0a82a9943d51" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="12933b4b-e297-6e0e-a244-45f2d04e53dc" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="cef4a936-9c29-9a50-f8fe-077dfabc0473" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts" />
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-94.62469 3.124911 110.9596" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.06462011 -0.0003718621 -0.02519969 0.9975917" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="BGO_WyrmsCrossing_C" />
+					<attribute id="MapKey" type="FixedString" value="b88b7c56-4aee-41b2-b05f-19c3006baeee" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shield_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="cb2d6c27-ec29-4555-adf2-41e8c1952439" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="BGO_WyrmsCrossing_C" />
+					<attribute id="MapKey" type="FixedString" value="af5be66b-ba65-4626-a173-97182554ffbb" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shield_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="cb2d6c27-ec29-4555-adf2-41e8c1952439" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="BGO_WyrmsCrossing_C" />
+					<attribute id="MapKey" type="FixedString" value="b86c8cd6-859b-46b8-a040-485c337a7c87" />
+					<attribute id="Name" type="LSString" value="FUR_GEN_Display_Case_F_005" />
+					<attribute id="TemplateName" type="FixedString" value="116faf05-ce2f-4348-8f43-bf3001322713" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="EquipmentTrader_BodyArmor_Light_Magic" />
+								</node>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_All_Rare" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="BGO_WyrmsCrossing_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="00abee45-43f0-1441-c51f-0a82a9943d51" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1d143e54-7a72-50ea-340f-a66cdc95798a" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="2ab2f260-aded-9022-e1f2-998464cc0a8a" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-12.38793 47.84813 150.2545" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9205105 0 0.3907178" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="BGO_WyrmsCrossing_C" />
+					<attribute id="MapKey" type="FixedString" value="815808df-eaf5-4f12-ad4d-1fb2cf03ca0a" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Longsword_A_1" />
+					<attribute id="TemplateName" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="BGO_WyrmsCrossing_C" />
+					<attribute id="MapKey" type="FixedString" value="fa9f7e52-a692-45ee-9400-82ec454bc8b0" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Pike_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="40fa8049-b6c1-4463-b212-52ad13b5d687" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209017" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="BGO_WyrmsCrossing_C" />
+					<attribute id="MapKey" type="FixedString" value="5b4421bf-5d2f-4eec-98ce-50a36e85e11b" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Rapier_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="5a6cea10-b3f6-4370-8eed-0b69b4ba531a" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209009" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="BGO_WyrmsCrossing_C" />
+					<attribute id="MapKey" type="FixedString" value="134187a5-9400-4552-8be7-c1c332748b99" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shield_D_001" />
+					<attribute id="TemplateName" type="FixedString" value="26b81847-b0dd-4150-aef7-602fcbb72eca" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

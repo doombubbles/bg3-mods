@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="END_HighHall_C" />
+					<attribute id="MapKey" type="FixedString" value="cecc84c0-b051-4752-b45a-6da91a147433" />
+					<attribute id="Name" type="FixedString" value="MAG_Healer_HealSelfPoisonWeapon_Amulet_000" />
+					<attribute id="TemplateName" type="FixedString" value="21abc023-343a-4693-b63f-3ba07a231864" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="END_HighHall_C" />
+					<attribute id="MapKey" type="FixedString" value="5d30e1f7-e715-4844-99a9-9a3931f445cc" />
+					<attribute id="Name" type="LSString" value="QUEST_FOR_Village_Blacksmith_FineWeapon_000" />
+					<attribute id="TemplateName" type="FixedString" value="65b41886-823d-416b-b53e-c332a3aad530" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="END_HighHall_C" />
+					<attribute id="MapKey" type="FixedString" value="10e6fd01-2813-4d5c-a823-686c960ac33f" />
+					<attribute id="Name" type="LSString" value="MAG_Illithid_MindOverload_Weapon_Longsword_000" />
+					<attribute id="TemplateName" type="FixedString" value="0a024202-84d0-4466-a958-76b2a163781c" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="END_HighHall_C" />
+					<attribute id="MapKey" type="FixedString" value="272c65af-1847-43c9-8ab4-ce5a11e86903" />
+					<attribute id="Name" type="LSString" value="MAG_Fire_HeatOnWeaponDamage_Battleaxe_000" />
+					<attribute id="TemplateName" type="FixedString" value="b8f28da8-f8f5-4679-8c5f-ecc505811208" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="WYR_GurCamp_GurLeader" />
+					<attribute id="Archetype" type="FixedString" value="melee_smart" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="5d3bdbf4-c688-9702-eae2-18bd5a0abf5a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0001eb83ge642g48eegaceeg497c92c8b8d3" version="2" />
+					<attribute id="Equipment" type="FixedString" value="EQP_WYR_GurLeader" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="87fe8d0d-31c9-4b10-8fc6-f0c232c24b13" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="5d3bdbf4-c688-9702-eae2-18bd5a0abf5a-EQP_WYR_GurLeader_(Icon_Human_Female)" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="BGO_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="5e52cf9c-b673-45b7-888c-2c105eb4d890" />
+					<attribute id="Name" type="LSString" value="S_WYR_GurCamp_GurLeader" />
+					<attribute id="Stats" type="FixedString" value="WYR_GurHunter_Ulma" />
+					<attribute id="TemplateName" type="FixedString" value="eb3e4b8e-6e34-4489-8b3d-42024186555b" />
+					<attribute id="Title" type="TranslatedString" handle="hfd9fbe91g6d53g421cgb077g7fad24ef700e" version="1" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="S_WYR_GurCampChestKey" />
+									<attribute id="LevelName" type="LSString" value="BGO_Main_A" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="15b05b8f-3a8f-485f-9e22-97b54d899b08" />
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="UUID" type="FixedString" value="dbc85ee4-6b99-43d9-9ebe-41b356509d17" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="BGO_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="a5d2e442-4fe3-f147-ca38-b071adb584d1" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d5b9a36e-6bd8-a5fe-bce4-cf711830b7cd" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Shout_Rage" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_RecklessAttack" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-a28e-27434e0e7b18" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="WYR_GurHunter" />
+								</node>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Gold_Pocket_Wealthy" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="REL_Uncommon_Rare" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="103.4869 50.73276 -12.31189" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.009570563 0 0.9999542" />
+							<attribute id="Scale" type="float" value="1.1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

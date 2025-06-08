@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="BGO_Heapside_Prison_A_Art" />
+					<attribute id="MapKey" type="FixedString" value="c8e993a2-aa65-48fc-b229-500d4cf8e468" />
+					<attribute id="Name" type="LSString" value="ARM_Cloth_B_000" />
+					<attribute id="TemplateName" type="FixedString" value="11efdb40-8246-4707-b40c-1e57635dfbc1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725669" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

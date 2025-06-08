@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AllowSummonTeleport" type="bool" value="True" />
+					<attribute id="AnubisConfigName" type="FixedString" value="ORI_Gale_MagicItem" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="453a4bff-7780-432c-a9cd-4b1a43424ccf" />
+					<attribute id="Name" type="LSString" value="S_GOB_SeluneGaleItem" />
+					<attribute id="TemplateName" type="FixedString" value="e7bf966a-b611-4c36-89fe-0a3b28393d97" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="ORI_Gale_MagicItem" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="5e3bb83a-1d07-4598-80bb-850bb1bbd23b" />
+					<attribute id="Name" type="LSString" value="S_PLA_TollhouseMagicalWeapon" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="StoryItem" type="bool" value="False" />
+					<attribute id="TemplateName" type="FixedString" value="455383a5-1211-4500-85f9-b71fad3fbf15" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="ORI_Gale_MagicItem" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="f2aac5a4-6449-4c6c-af18-7dd334b76d73" />
+					<attribute id="Name" type="LSString" value="S_HAG_GaleMagicItem" />
+					<attribute id="StoryItem" type="bool" value="False" />
+					<attribute id="TemplateName" type="FixedString" value="544e81be-cc28-4fdf-aea7-9a31940af4d0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566828" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="ORI_Gale_MagicItem" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsGlobal" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="e7f24f6d-4d73-4f04-94ef-d8e7042ce6a2" />
+					<attribute id="Name" type="LSString" value="S_UND_DuergarGaleItem" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="ac9145d1-31d0-4aa3-8755-62cc85dad22b" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

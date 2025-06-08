@@ -1,0 +1,21 @@
+new entry "MAG_Fire_ArcaneAcuityOnFireDamage_Hat"
+type "Armor"
+using "MAG_Fire_ArcaneAcuityOnFireDamage_Hat"
+data "Rarity" "VeryRare"
+
+new entry "MAG_Thunder_ArcaneAcuityOnThunderDamage_Hat"
+type "Armor"
+using "MAG_Thunder_ArcaneAcuityOnThunderDamage_Hat"
+data "Rarity" "VeryRare"
+
+new entry "MAG_ElementalGish_ArcaneAcuity_Helmet"
+type "Armor"
+using "MAG_ElementalGish_ArcaneAcuity_Helmet"
+data "Rarity" "VeryRare"
+
+
+
+new entry "MAG_Radiant_RadiatingOrb_Armor"
+type "Armor"
+using "MAG_Radiant_RadiatingOrb_Armor"
+data "Rarity" "VeryRare"

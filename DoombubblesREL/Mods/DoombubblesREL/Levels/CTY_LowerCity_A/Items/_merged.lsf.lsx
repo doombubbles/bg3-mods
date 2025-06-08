@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Key" type="FixedString" value="LOW_Blacksmith_Chest01" />
+					<attribute id="LevelName" type="FixedString" value="CTY_LowerCity_A" />
+					<attribute id="LockDifficultyClassID" type="guid" value="77cee1c4-384a-4217-b670-67db3c7add57" />
+					<attribute id="MapKey" type="FixedString" value="a5a7c01c-2a4b-445f-8fce-cb49e61adb21" />
+					<attribute id="Name" type="LSString" value="CONT_GEN_Chest_Heavy_A_004" />
+					<attribute id="TemplateName" type="FixedString" value="0b90bf9d-66fd-4741-be1f-39181efca97a" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209022" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_Uncommon_Weapons" />
+								</node>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_Uncommon_Weapons" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_LowerCity_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="41817aba-2c24-02aa-f8c8-69b9704c5513" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-37.39705 24.28148 -87.3867" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9227885 0 0.3853071" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_LowerCity_A" />
+					<attribute id="MapKey" type="FixedString" value="4e408230-2312-4035-bbf9-d489457b8ad5" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Handaxe_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="7a05135d-b285-4186-8a32-a870f1684b60" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_LowerCity_A" />
+					<attribute id="MapKey" type="FixedString" value="1128ea14-f8d9-4901-8d84-f2ccc4d482ad" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Mace_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="5a948b12-ca43-4256-9821-0d151036dbd1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CTY_LowerCity_A" />
+					<attribute id="MapKey" type="FixedString" value="3b1e24e7-ea12-4ba1-a12b-863db6db3053" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Spear_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="158e6f29-89e9-4279-8f8f-85078f047225" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CTY_LowerCity_A" />
+					<attribute id="MapKey" type="FixedString" value="f32381e3-d6d4-43c3-bdeb-c45efd5172ce" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Spear_A_003" />
+					<attribute id="TemplateName" type="FixedString" value="158e6f29-89e9-4279-8f8f-85078f047225" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CTY_LowerCity_A" />
+					<attribute id="MapKey" type="FixedString" value="a5aefd7c-2230-41ea-a944-0662a200017f" />
+					<attribute id="Name" type="LSString" value="ARM_Leather_000" />
+					<attribute id="TemplateName" type="FixedString" value="90a79e46-e327-41f4-a349-8e4dd70b1892" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_LowerCity_A" />
+					<attribute id="MapKey" type="FixedString" value="88450ab2-cbe9-41c8-9768-75868aa36999" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shield_D_000" />
+					<attribute id="TemplateName" type="FixedString" value="26b81847-b0dd-4150-aef7-602fcbb72eca" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="569fe214-5bc6-db75-8d7b-204b46c29b79"/>
+            <attribute id="Name" type="LSString" value="DoombubblesREL"/>
+            <attribute id="UUID" type="LSString" value="c9bbd4ef-92a2-6f0e-cb6d-8b4aa12369c5"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

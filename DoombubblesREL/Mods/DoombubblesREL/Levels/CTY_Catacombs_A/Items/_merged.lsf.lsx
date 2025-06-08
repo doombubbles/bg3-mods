@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="ActivationGroupId" type="FixedString" value="c4d7aa34-3cdb-4649-b312-5ae582256b8a" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="NonTrappedUsable" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Catacombs_A" />
+					<attribute id="MapKey" type="FixedString" value="a2dfb322-04f8-4f80-b723-bee31d0d5790" />
+					<attribute id="Name" type="LSString" value="S_LOW_HhuneMausoleum_Tomb" />
+					<attribute id="TemplateName" type="FixedString" value="4ce2f43e-42bf-4d29-88ce-6abb87d11b3c" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+					<children>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Type" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="None" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="StartEnabled" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="bool">
+																	<attribute id="bool" type="bool" value="False" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Valuables_Gems" />
+								</node>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_All_Rare" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="LOW_HhuneMausoleum_JewelChest_Key" />
+									<attribute id="LevelName" type="LSString" value="CTY_Main_A" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="0416d50f-a41a-4ba3-b201-d8fc6fed91f9" />
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="UUID" type="FixedString" value="f9278612-6a22-40ef-bf12-e2cdf00fe534" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="S_LOW_HhuneMausoleum_Skeleton" />
+									<attribute id="LevelName" type="LSString" value="CTY_Main_A" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="c27625f6-302b-4c47-b9a1-40499c3dc688" />
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="UUID" type="FixedString" value="d0d1e703-294b-4f2c-b1d4-16ef43bdec9d" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="BOOK_LOW_Graveyard_HhuneSecretHint" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="d2bdc8c8-33fa-4c25-b87c-6ceec6928874" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Catacombs_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="359030a7-4e80-00e9-7baa-27887b6fb054" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="52eecaf7-05e3-459c-d8a7-ed219fd63dc2" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0284f135-7fc1-be4a-97f8-a0b72287b088" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="1" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="86.40051 0.1926637 80.28534" />
+							<attribute id="RotationQuat" type="fvec4" value="0 1 0 2.235175E-07" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="SCL_RuinsBattlefield_G" />
+					<attribute id="MapKey" type="FixedString" value="026c5477-39d2-4e17-8e23-e2e0beebd37b" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Quarterstaff_A_000" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_RuinsBattlefield_G" />
+					<attribute id="MapKey" type="FixedString" value="55e416b4-0232-4a8e-8d82-e610943005f3" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shield_D_001" />
+					<attribute id="TemplateName" type="FixedString" value="26b81847-b0dd-4150-aef7-602fcbb72eca" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241409" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

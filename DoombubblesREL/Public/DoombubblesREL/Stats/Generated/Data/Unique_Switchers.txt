@@ -1,0 +1,14 @@
+new entry "ARM_Splint_Body_Dwarven"
+type "Armor"
+using "ARM_Splint_Body_Dwarven"
+data "Unique" "1"
+
+new entry "DEN_HellridersPride"
+type "Armor"
+using "DEN_HellridersPride"
+data "Unique" "1"
+
+new entry "TWN_NecklaceOfCharming"
+type "Armor"
+using "TWN_NecklaceOfCharming"
+data "Unique" "1"

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h68f5df72g7af8g411fgbf46g33bb057c60c8" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="1edc931d-6471-49c2-b2f4-d3ab0308ac09" />
+					<attribute id="Name" type="LSString" value="S_CRE_Abbot2_Weapon" />
+					<attribute id="Stats" type="FixedString" value="WPN_Longsword_1" />
+					<attribute id="TemplateName" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h28724e80g961dg4b57g91d6gc5f8007c6531" version="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="fce42526-f518-4727-91f6-c41c234fa053" />
+					<attribute id="Name" type="LSString" value="S_CRE_Abbot1_Weapon" />
+					<attribute id="Stats" type="FixedString" value="WPN_Mace_1" />
+					<attribute id="TemplateName" type="FixedString" value="5a948b12-ca43-4256-9821-0d151036dbd1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="e47eb807-f2b2-45b1-9af5-5c3793756021" />
+					<attribute id="Name" type="LSString" value="MAG_ZOC_ForceConduit_Halberd_000" />
+					<attribute id="TemplateName" type="FixedString" value="64cdd668-5c09-48f3-a064-d4581156ca31" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="e4da8f24-83f7-4730-b1be-9daf642affae" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Longsword_A_0_Rusty_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="dddd2204-0ee3-47b0-a7ea-6b5216a65e89" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

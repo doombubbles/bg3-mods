@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CRE_GithDungeon_A" />
+					<attribute id="MapKey" type="FixedString" value="2cd90a64-5bba-4228-be50-471ad3da89cc" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shortbow_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="a46173b7-afd6-48e0-9c76-817acd027574" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

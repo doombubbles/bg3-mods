@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="73fb07b3-cd7f-41a4-908f-8e39ecd35628" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Greataxe_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="afbfaee7-e2cd-48e7-8c46-d2377c7320e3" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403208707" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="196e8fff-f027-48b2-9001-c8fe2ecff035" />
+					<attribute id="Name" type="LSString" value="DEC_Ketheric_Armor_Mask_Scrap_A_Magic_000" />
+					<attribute id="TemplateName" type="FixedString" value="58968403-4dd6-4611-a7a2-a293ae7cf0b0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsInteractionDisabled" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="65b2a7c9-3af2-44cc-b844-d461fc98ba65" />
+					<attribute id="Name" type="LSString" value="ARM_Shar_Crown_B_Broken_Magic_000" />
+					<attribute id="TemplateName" type="FixedString" value="27f1c6cd-c716-440d-ba7c-795c431ce5a3" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsInteractionDisabled" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="7c240621-f614-4009-a715-425084bc6029" />
+					<attribute id="Name" type="LSString" value="ARM_Shar_Crown_B_Broken_Magic_001" />
+					<attribute id="TemplateName" type="FixedString" value="27f1c6cd-c716-440d-ba7c-795c431ce5a3" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h3d59b6edg5f94g4e20g8668g0314586e870c" version="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="bd1d4654-d29e-420d-8bfa-ded0d89bb6ed" />
+					<attribute id="Name" type="LSString" value="S_SCL_SkepticalRobber_WifesRing" />
+					<attribute id="TemplateName" type="FixedString" value="d337a7fe-dcbf-446c-a595-00b30f8f2e58" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="4d45c20d-88f6-4dba-915d-4c0cfdb1681f" />
+					<attribute id="Name" type="LSString" value="S_TWN_FinalFightHarpersWeapon" />
+					<attribute id="Stats" type="FixedString" value="TWN_ShortswordOfStealth" />
+					<attribute id="TemplateName" type="FixedString" value="3c14116f-43da-4e73-92d1-903f46a9d55d" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241409" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="8b5cb4ab-bc5f-4f79-bb53-19d0e8901002" />
+					<attribute id="Name" type="LSString" value="S_TWN_FinalFightHarper" />
+					<attribute id="TemplateName" type="FixedString" value="d18ac7e7-00ec-4f97-97cc-b040943cdd6d" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241409" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_All_Uncommon" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradeable" type="bool" value="False" />
+									<attribute id="ItemName" type="LSString" value="S_TWN_FinalFightHarpersNote" />
+									<attribute id="LevelName" type="LSString" value="SCL_Main_A" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="TemplateID" type="FixedString" value="c0e41765-dda2-49c3-9e72-bd3b8fa45698" />
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="UUID" type="FixedString" value="9d25b6c6-feac-4186-b7b7-9f05c73faee4" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="00b8b636-3658-eecd-b363-d6d7b0a870a3" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-252.0135 36.63079 36.64101" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.8383471 0 0.5451368" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="c98e9157-671b-46bd-8493-21d90414e29e" />
+					<attribute id="Name" type="LSString" value="S_TWN_FinalFightDarkJusticiarsShield" />
+					<attribute id="Stats" type="FixedString" value="TWN_ShieldOfWatcher" />
+					<attribute id="TemplateName" type="FixedString" value="cb2b1ac8-5589-464f-ac9f-ccd6fd27ebed" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241409" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="ba715946-a66b-4297-91a4-c38b6bd55c5f" />
+					<attribute id="Name" type="LSString" value="S_TWN_FinalFightDarkJusticiar" />
+					<attribute id="TemplateName" type="FixedString" value="b288a6fa-2b7a-4464-9bca-4e1c317b48e1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241409" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_All_Uncommon" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradeable" type="bool" value="False" />
+									<attribute id="ItemName" type="LSString" value="S_TWN_FinalFightDarkJusticiarsWeapon" />
+									<attribute id="LevelName" type="LSString" value="SCL_Main_A" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="TemplateID" type="FixedString" value="2af7255d-bae1-4d4c-a8ba-4a2b5909a794" />
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="UUID" type="FixedString" value="fe94051d-1213-49f4-8ace-7d4893c56e97" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="00b8b636-3658-eecd-b363-d6d7b0a870a3" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-250.1824 36.61093 38.59284" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.3088201 0 0.9511205" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="b4fa446c-cfa2-47a8-a5c1-1411ebd0b436" />
+					<attribute id="Name" type="LSString" value="S_TWN_LidWithBootsOfApparentDeath" />
+					<attribute id="TemplateName" type="FixedString" value="4ce2f43e-42bf-4d29-88ce-6abb87d11b3c" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758062" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_Uncommon_Rare" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList" />
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0ac6e697-e658-fe6a-5986-e2ab36f2aef9" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="1" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-165.644 33.18226 47.49471" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.7104144 0 0.7037836" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h88c54871g87dcg4800g90f7gbad804b7ada0" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="5ac63a1f-4abe-402a-83ed-6980ad89a4fc" />
+					<attribute id="Name" type="LSString" value="S_TWN_Hospital_BondedByLove_Wife" />
+					<attribute id="TemplateName" type="FixedString" value="f33965ec-5483-45c1-a660-166da4a8dc92" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758165" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_Uncommon_Rare" />
+								</node>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_Uncommon_Rare" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="False" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="False" />
+									<attribute id="IsTradeable" type="bool" value="False" />
+									<attribute id="ItemName" type="LSString" value="S_TWN_Hospital_BondedByLove_WifesDiary" />
+									<attribute id="LevelName" type="LSString" value="SCL_Main_A" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="TemplateID" type="FixedString" value="db9d139f-5e81-4405-896b-125660bd0a29" />
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="UUID" type="FixedString" value="254419ad-eaf6-4370-8d46-514a143889d8" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="49555d68-a431-a797-b6f3-43288707d2a0" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="14cafcb5-f550-d86d-1c36-4c1b11f8c101" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Scripts">
+							<children>
+								<node id="Script">
+									<attribute id="UUID" type="FixedString" value="2dc25fec-d90d-2be1-50df-42beef96844b" />
+									<children>
+										<node id="Parameters">
+											<children>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="DC" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="5" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="DetectDistance" />
+													<attribute id="Type" type="int32" value="2" />
+													<attribute id="Value" type="LSString" value="10" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="IsInvestigation" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="MapKey" type="FixedString" value="OnlyOneFailPerCharacter" />
+													<attribute id="Type" type="int32" value="1" />
+													<attribute id="Value" type="LSString" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-148.0021 31.62675 43.10082" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.02728224 0.2834117 0.01387264 0.9585099" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="2dbe37ae-ff4c-4c99-91f9-3cd3bc87e62e" />
+					<attribute id="Name" type="LSString" value="S_TWN_Hospital_BondedByLove_WifesRing" />
+					<attribute id="TemplateName" type="FixedString" value="bf59a1e5-e3d1-48f1-9970-4aa3fdcaa780" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758065" />
+					<children>
+						<node id="LayerList" />
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="4fa4cf4d-83cc-46ec-9744-253de93154b0" />
+					<attribute id="Name" type="LSString" value="S_TWN_Hospital_BondedByLove_HusbandsRing" />
+					<attribute id="TemplateName" type="FixedString" value="7becedf0-a90a-40d3-a726-e4e671f3d73f" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960757960" />
+					<children>
+						<node id="LayerList" />
+						<node id="ScriptOverrides">
+							<children>
+								<node id="ScriptOverrides" />
+							</children>
+						</node>
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="3ab837a6-b445-466c-81a3-55e4addf519d" />
+					<attribute id="Name" type="LSString" value="S_TWN_ConfiscatedCratesTrader" />
+					<attribute id="TemplateName" type="FixedString" value="65f146d3-5130-4554-8809-864ec27d7474" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758065" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_Uncommon_Rings" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList" />
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="9c80f885-df47-8672-bf64-2a2b63950178" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="950cfc09-eaac-8f38-8b11-eea4eb4ef093" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="81.50343 27.50896 -1006.936" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.7159028 0 0.6982" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h9d62ddf7g7853g4bc5ga2c8g1a8a7b389eb0" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h35d04486g580dg47c4gb517g1cc65e911210" version="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="148ab978-d44c-4c5d-895d-1ca1c1680012" />
+					<attribute id="Name" type="LSString" value="S_TWN_ConfiscatedCratesTradersRing" />
+					<attribute id="Stats" type="FixedString" value="TWN_Tollhouse_TradersRing" />
+					<attribute id="TemplateName" type="FixedString" value="5b22795e-8193-4933-98f9-9667d6f60b53" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241808" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="485f5497-f97e-4f05-a85a-f35c0c18d283" />
+					<attribute id="Name" type="LSString" value="S_TWN_Hospital_LostAndFound" />
+					<attribute id="TemplateName" type="FixedString" value="9611ac43-410c-447d-b786-853b8d30408c" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725456" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_All_Uncommon" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradeable" type="bool" value="False" />
+									<attribute id="ItemName" type="LSString" value="DEC_GEN_KitchenInstrument_Spoon_A_Wood_A" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="TemplateID" type="FixedString" value="d9b9ce80-5ed0-44f1-8494-6f835f9b2859" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradeable" type="bool" value="False" />
+									<attribute id="ItemName" type="LSString" value="LOOT_GEN_Pipe_A" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="TemplateID" type="FixedString" value="b9432719-b2ce-47a0-b349-4b12744dc4ff" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradeable" type="bool" value="False" />
+									<attribute id="ItemName" type="LSString" value="TOOL_GEN_Music_Horn_A" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="TemplateID" type="FixedString" value="cc0e5642-fed1-425a-a997-20b94b2ff696" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="49555d68-a431-a797-b6f3-43288707d2a0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-193.692 31.31209 11.52775" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.2105705 0 0.9775786" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="aadc2337-5dd4-405b-9ec9-0fa14a2a9e85" />
+					<attribute id="Name" type="LSString" value="S_TWN_Distillery_RatCatcher" />
+					<attribute id="TemplateName" type="FixedString" value="7ee0b513-403b-4fe3-a445-b599defa9331" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758165" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hf30b65d6gf3f1g404bgaa4ag85048a85a187" version="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="2ee89775-ea12-4969-bd62-58a63c015365" />
+					<attribute id="Name" type="LSString" value="S_SCL_Inquisitor" />
+					<attribute id="TemplateName" type="FixedString" value="f33965ec-5483-45c1-a660-166da4a8dc92" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_All_Uncommon" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="S_SCL_InquisitionLedger" />
+									<attribute id="LevelName" type="LSString" value="SCL_Main_A" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="4735acba-ab0f-4e75-b2ca-074a58b86b19" />
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="UUID" type="FixedString" value="1e90ae65-f0aa-4b85-b85e-c67a1a9fac40" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="a658a8fd-d759-f900-6ad4-2550bfe16ef3" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-35.17459 18.18365 -87.49968" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.2315189 0 0.9728307" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="474441f3-5dea-4669-a6f0-57c8406f445b" />
+					<attribute id="Name" type="LSString" value="S_SHA_JusticiarArmor_Breastplate" />
+					<attribute id="TemplateName" type="FixedString" value="20318684-a35f-4830-b566-41ecd379893a" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="07cd36b0-45f0-4105-af80-75bc138d3419" />
+					<attribute id="Name" type="LSString" value="S_SHA_JusticiarArmor_Gloves" />
+					<attribute id="TemplateName" type="FixedString" value="518a925b-eb77-44e7-999d-e8c195b2261d" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+						<node id="Tags" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h2fb65908g182eg44f3g94ffgc355feac8ded" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hee7328fbg7dedg4037g810egc5ee3f92f5a7" version="2" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="b6925b99-4b14-48a1-89ca-eb328bb746df" />
+					<attribute id="Name" type="LSString" value="S_MOO_JailbreakHammer" />
+					<attribute id="Stats" type="FixedString" value="MOO_WulbrenHammer" />
+					<attribute id="TemplateName" type="FixedString" value="d0bf4aef-e423-49ab-9177-c86b2a8efc9a" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209007" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="43e4f96a-ce86-4da0-8b02-eb82fd9cc462" />
+					<attribute id="Name" type="LSString" value="S_SCE_KhalidsGift" />
+					<attribute id="TemplateName" type="FixedString" value="64b31781-85f6-4266-8fac-430d79bcbdb4" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241708" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="e03d245e-63e0-49bd-b3ea-db221156a9ce" />
+					<attribute id="Name" type="LSString" value="MAG_Illithid_MindOverload_Weapon_Longsword_000" />
+					<attribute id="TemplateName" type="FixedString" value="0a024202-84d0-4466-a958-76b2a163781c" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h469dcb15g24e5g4012g8fe0g775d4c4abba2" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="26c0bb98-7d24-4807-91f0-cf075ea568a9" />
+					<attribute id="Name" type="LSString" value="TWN_AasimarSurvivor_HazmatSuit" />
+					<attribute id="Stats" type="FixedString" value="TWN_AasimarSurvivor_HazmatSuit" />
+					<attribute id="TemplateName" type="FixedString" value="95b4e2c4-759a-4d33-a2d1-4e0ee6ed4f29" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725557" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="ec9f28cf-f9d9-4e12-b1d6-3aded6316df2" />
+					<attribute id="Name" type="LSString" value="S_TWN_TombLid_000" />
+					<attribute id="TemplateName" type="FixedString" value="4ce2f43e-42bf-4d29-88ce-6abb87d11b3c" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="REL_All_Rare" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="52c682fe-ff31-2490-6e28-d88e72aac7b5" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="1" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-157.8678 32.57656 72.0344" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.3806297 0 0.9247276" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

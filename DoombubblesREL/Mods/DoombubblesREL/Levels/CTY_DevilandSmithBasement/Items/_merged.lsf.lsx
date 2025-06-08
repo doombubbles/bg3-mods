@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CTY_DevilandSmithBasement" />
+					<attribute id="MapKey" type="FixedString" value="6d04cc8e-a1cb-424e-aa63-b32adbc007c3" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Longsword_A_2" />
+					<attribute id="TemplateName" type="FixedString" value="e3b2adb6-7493-466e-9c65-4281fb74e83f" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209029" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CTY_DevilandSmithBasement" />
+					<attribute id="MapKey" type="FixedString" value="77c50548-586e-42aa-a405-462550fad039" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Mace_A_2" />
+					<attribute id="TemplateName" type="FixedString" value="f203a318-ea9a-4117-8d27-299dabafd1d3" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209029" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CTY_DevilandSmithBasement" />
+					<attribute id="MapKey" type="FixedString" value="847f093a-e43b-494d-88d5-61fcf4a3f358" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Warhammer_A_1" />
+					<attribute id="TemplateName" type="FixedString" value="3e1b3db9-036e-4931-ab92-c3730a1c3d5f" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209029" />
+					<children>
+						<node id="LayerList" />
+						<node id="Transform" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
