@@ -24,7 +24,10 @@ fi
 rm -rf ./output/$MODNAME
 bg3-modders-multitool.exe -s "$RESULT" -d "./output"
 
-mv "$(find "./output/$MODNAME/Localization/English" -iname *.loca.xml)" "./output/$MODNAME/Localization/English/$MODNAME.loca.xml"
+
+if [ -d "./output/$MODNAME/Localization/English" ]; then
+  mv "$(find "./output/$MODNAME/Localization/English" -iname *.loca.xml)" "./output/$MODNAME/Localization/English/$MODNAME.loca.xml"
+fi
 
 # Convert output
 find "./output/$MODNAME" -type f -name "*.lsf.lsx" | while read -r file; do
@@ -50,8 +53,12 @@ fi
 rm -rf "$BG3_DATA/Mods/$MODNAME"
 mkdir -p "$BG3_DATA/Mods/$MODNAME"
 cp -r "./output/$MODNAME/Mods/$MODNAME/." "$BG3_DATA/Mods/$MODNAME"
-cp -r "./output/$MODNAME/Localization" "$BG3_DATA/Mods/$MODNAME"
-cp -r "./output/$MODNAME/Scripts" "$BG3_DATA/Mods/$MODNAME"
+if [ -d "./output/$MODNAME/Localization" ]; then
+  cp -r "./output/$MODNAME/Localization" "$BG3_DATA/Mods/$MODNAME"
+fi
+if [ -d "./output/$MODNAME/Scripts" ]; then
+  cp -r "./output/$MODNAME/Scripts" "$BG3_DATA/Mods/$MODNAME"
+fi
 if [ -d "./output/$MODNAME/Public/Game" ]; then
   cp -r "./output/$MODNAME/Public/Game/." "$BG3_DATA/Mods/$MODNAME"
 fi

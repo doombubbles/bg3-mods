@@ -2,10 +2,10 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 input = [
-    "C:/Program Files/bg3-modders-multitool/UnpackedData/Shared/Public/Shared/RootTemplates/_merged.lsf.lsx",
-    "C:/Program Files/bg3-modders-multitool/UnpackedData/Shared/Public/SharedDev/RootTemplates/_merged.lsf.lsx",
-    "C:/Program Files/bg3-modders-multitool/UnpackedData/Gustav/Public/Gustav/RootTemplates/_merged.lsf.lsx",
-    "C:/Program Files/bg3-modders-multitool/UnpackedData/Gustav/Public/GustavDev/RootTemplates/_merged.lsf.lsx",
+    "C:/Users/jpgale/Documents/Coding/BG3 Mods/bg3-modders-multitool/UnpackedData/Shared/Public/Shared/RootTemplates/_merged.lsf.lsx",
+    "C:/Users/jpgale/Documents/Coding/BG3 Mods/bg3-modders-multitool/UnpackedData/Shared/Public/SharedDev/RootTemplates/_merged.lsf.lsx",
+    "C:/Users/jpgale/Documents/Coding/BG3 Mods/bg3-modders-multitool/UnpackedData/Gustav/Public/Gustav/RootTemplates/_merged.lsf.lsx",
+    "C:/Users/jpgale/Documents/Coding/BG3 Mods/bg3-modders-multitool/UnpackedData/Gustav/Public/GustavDev/RootTemplates/_merged.lsf.lsx",
 ]
 
 output = "./DoombubblesTweaks/Public/DoombubblesTweaks/RootTemplates/Items/Combos.lsf.lsx"
