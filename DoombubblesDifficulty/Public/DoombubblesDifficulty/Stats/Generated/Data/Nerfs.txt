@@ -1,18 +1,18 @@
-{{ $TavernBrawlerModifier := $.Balance.NerfTavernBrawler | ternary "ProficiencyBonus" "StrengthModifier" }}
+{{ $TavernBrawlerModifier := $.Values.NerfTavernBrawler | ternary "ProficiencyBonus" "StrengthModifier" }}
 
 new entry "TavernBrawler"
 type "PassiveData"
 using "TavernBrawler"
-data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,{{$TavernBrawlerModifier}}));IF(IsUnarmedWildshape(){{if $.Balance.WildshapeDontDoubleDip}} and IsUnarmedAttack() and (IsDamageTypeBludgeoning() or IsDamageTypePiercing() or IsDamageTypeSlashing()){{end}}):DamageBonus(max(0,{{$TavernBrawlerModifier}}))"
+data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack()):RollBonus(Attack, max(0,{{$TavernBrawlerModifier}}));IF(IsRangedUnarmedAttack() and not HasStatus('SG_Polymorph_BeastShape',context.Source)):DamageBonus(max(0,{{$TavernBrawlerModifier}}));IF(IsUnarmedWildshape(){{if $.Values.WildshapeDontDoubleDip}} and IsUnarmedAttack() and (IsDamageTypeBludgeoning() or IsDamageTypePiercing() or IsDamageTypeSlashing()){{end}}):DamageBonus(max(0,{{$TavernBrawlerModifier}}))"
 data "StatsFunctorContext" ""
 data "Conditions" ""
 data "StatsFunctors" ""
-{{- if $.Balance.NerfTavernBrawler }}
+{{- if $.Values.NerfTavernBrawler }}
 data "Description" "h1fecb306g6183g4f42gbd47gcaf6810fe343"
 {{- end }}
 
 
-{{- if $.Balance.NerfArcaneAcuity }}
+{{- if $.Values.NerfStackMaxes }}
 new entry "MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL"
 type "StatusData"
 using "MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL"
@@ -20,7 +20,15 @@ data "OnApplyFunctors" "IF(MaximumLowStackableStatus(context.Target, 'MAG_GISH_A
 {{- end }}
 
 
-{{- if $.Balance.NerfSlashingFlourish }}
+{{- if $.Values.NerfStackMaxes }}
+new entry "MAG_RADIANT_RADIATING_ORB_DURATION_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_RADIANT_RADIATING_ORB_DURATION_TECHNICAL"
+data "OnApplyFunctors" "IF(MaximumLowStackableStatus(context.Target, 'MAG_RADIANT_RADIATING_ORB')):SetStatusDuration(MAG_RADIANT_RADIATING_ORB, 5, ForceSet) "
+{{- end }}
+
+{{- if $.Values.NerfSlashingFlourish }}
 
 new entry "Zone_BladeFlourish_Slashing"
 type "SpellData"
@@ -38,7 +46,7 @@ data "TooltipDamageList" "DealDamage(MainMeleeWeapon/2 + LevelMapValue(BardicIns
 
 {{- end }}
 
-{{- if $.Balance.FixSlashingFlourish }}
+{{- if $.Values.FixSlashingFlourish }}
 
 new entry "Projectile_BladeFlourish_Slashing"
 type "SpellData"

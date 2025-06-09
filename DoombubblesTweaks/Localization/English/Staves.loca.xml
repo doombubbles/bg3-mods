@@ -68,7 +68,7 @@
 
 	{{ range $cantrip, $values := $.QuickenedCantrips }}
 	<content contentuid="{{.DisplayName}}" version="1">Quickened {{.Title}}</content>
-	<content contentuid="{{.Description}}" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="{{.SpellType}}_MAG_{{$cantrip}}_Staff"&gt;{{.Title}}&lt;/LSTag&gt; using a bonus action instead of an action. Usable once per {{ if $.Balance.QuickenedCantripsPerCombat }}combat{{else}}short rest{{end}}.</content>
+	<content contentuid="{{.Description}}" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="{{.SpellType}}_MAG_{{$cantrip}}_Staff"&gt;{{.Title}}&lt;/LSTag&gt; using a bonus action instead of an action. Usable once per {{ if $.Values.QuickenedCantripsPerCombat }}combat{{else}}short rest{{end}}.</content>
 	{{ end }}
 	
 </contentList>

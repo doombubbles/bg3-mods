@@ -1,0 +1,16 @@
+Version: 1.0.0.0
+
+QuickenedCantripsPerCombat: false
+
+HealingBuffs: true
+PotionSickness: true
+
+NerfTavernBrawler: true
+NerfStackMaxes: true
+NerfSlashingFlourish: false
+FixSlashingFlourish: true
+FixEarthMyrmidon: true
+WildshapeDontDoubleDip: true
+NerfVulnerability: true
+
+ScrollsCostSpellSlots: false

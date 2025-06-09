@@ -1,3 +1,5 @@
+Version: 1.0.0.220
+
 # DoombubblesTweaks balance
 QuickenedCantripsPerCombat: true
 ClothesAlwaysBuff: false
@@ -6,20 +8,12 @@ PotenterCantrip: false
 PotentSacredRing: false
 MagicianCastingAbility: Intelligence
 MagicianLessSorceryPoints: false
+MagicianSpellsPerLevel: 1
 ArcheryGlovesSpecialArrows: true
 GithyankiWarMagicOP: true
-
-# Base Game nerfs
-NerfTavernBrawler: false
-NerfArcaneAcuity: false
-NerfSlashingFlourish: false
-FixSlashingFlourish: false
-PotionSickness: false
-FixEarthMyrmidon: false
-WildshapeDontDoubleDip: true
-
-# Base Game Buffs
-HealingBuffs: true
+CasterExtraAttackOption: false
+CasterImprovedExtraAttackOption: false
+BladeInfusions: false
 
 # Other Mod Changes
 PaladinUpCasts: true

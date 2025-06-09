@@ -5,4 +5,16 @@
 
 	<content contentuid="h696b30cfgacb6g4364g8102gf8a8380fbce0" version="1">Counts as an attack for the purposes of triggering &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h0eb4ee86g3ed3g4c71g9559g312774364527" version="1">Flurry of Strikes</content>
+	<content contentuid="hf566c9a7g2987g4b92ga04dg3bbe8a9179fe" version="1">Strike twice in quick succession.</content>
+
+	<content contentuid="h4f0f5423ga666g4363gb3afg22d1ac6c6996" version="1">Flurry of Strikes: Topple</content>
+	<content contentuid="h49153193g4c2cg4165g8946g5e3be33f087d" version="1">Strike twice in quick succession and possibly knock the target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h528fa7e0g0badg43dbg9012gc9bfcb409664" version="1">Flurry of Strikes: Stagger</content>
+	<content contentuid="h24f49066gd2b5g4a19g964egb1a2923e9941" version="1">Strike twice in quick succession and &lt;LSTag Type="Status" Tooltip="OPEN_HAND_NO_REACTIONS"&gt;Stagger&lt;/LSTag&gt; the target, making it unable to take reactions.</content>
+
+	<content contentuid="h5ef8431fg4820g44e8g8e81g2444d9c9e0c3" version="1">Flurry of Strikes: Push</content>
+	<content contentuid="h22a49fa3g557fg4db2ga466gdc734a0415b1" version="1">Strike twice in quick succession and possibly push the target [1] away.</content>
+
 </contentList>

@@ -1,0 +1,6 @@
+---@diagnostic disable: undefined-global
+
+function IsVulnerableToDamageType(damageType, entity)
+    local entity = entity or context.Target
+    return ConditionResult(entity.HasAllResistances({damageType}, ResistanceType.Vulnerable))
+end

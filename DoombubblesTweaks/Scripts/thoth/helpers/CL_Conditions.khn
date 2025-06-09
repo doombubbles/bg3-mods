@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 -- Vendored CL conditions until my friends want to deal with permanently having Community Library installed lul
 
 function CL_CharacterLevelEqual(value,entity)

@@ -22,9 +22,6 @@
 	<content contentuid="h9419d463g2e05g466ag869cg013805c8db7b" version="1">Can't wield anything in off hand.</content>
 	<content contentuid="h53c4373ag638eg4788ga8d4gfde048471dbe" version="1">Target must have something in off hand.</content>
 
-	<content contentuid="h1cb5e0d9g38abg4d33gad91g71f47b2ef5fb" version="1">Potion Sickness</content>
-	<content contentuid="h43344bfcgce88g436cgbf40ge7b71689e9b4" version="1">Subsequent Potions of Healing will heal for significantly less for the rest of the day.</content>
-
 	<content contentuid="h7cc7adeag848fg491cga683g0faeaea082c3" version="1">Take [1] to brand yourself with the mark of the Absolute.</content>
 
 	<content contentuid="h2bc6513cg23c6g4047g8ce1gfca3182e6fd7" version="1">Can't wield a weapon in off hand.</content>
@@ -58,18 +55,29 @@
 
 	<content contentuid="hfdd027bcg4e30g4f0agb80cgb16889c0a8a8" version="1">Call upon Bane's tyrannical aid, gaining [1] along with new strength and powers.</content>
 	<content contentuid="hb0065f9fg79efg4256gab7fga2e7caae6e7f" version="1">Bane has come to your aid! You have [1], advantage to Strength Saving Throws and Strength Ability checks, +[2] to weapon and unarmed damage, increased size. You can cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_CrushingFist_Gortash"&gt;The Closed Fist of Bane&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_MAG_ChainsOfTyranny_Gortash"&gt;Tyrant's Bindings&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_MAG_UnarmedAttack_Bane_Gortash"&gt;Empowered Unarmed Strike&lt;/LSTag&gt;.</content>
-	
+
 	<content contentuid="h3357c4b5gd482g4952g98c9g845c1de6319f" version="1">Affected entity has only half its movement speed. When the chain breaks, it'll take [1] Force damage.</content>
 
 	<content contentuid="hb76776dbg3553g48eag8e30g2a6934c6f6d6" version="1">A nearby earth myrmidon grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage and an additional [1] to &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The affected entity also gains temporary access to &lt;LSTag Type="Spell" Tooltip="Target_Cloudkill"&gt;Cloudkill&lt;/LSTag&gt;.</content>
 	<content contentuid="hdee60987ga7fbg4ab0g8349g00cd9eb55c64" version="1">A nearby air myrmidon grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning damage and an additional [1] to &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The affected entity also gains temporary access to &lt;LSTag Type="Spell" Tooltip="Zone_LightningBolt"&gt;Lightning Bolt&lt;/LSTag&gt;.</content>
 	<content contentuid="h0ce1d8d1g2f0fg4f87gb2e7gae69005cf3c2" version="1">A nearby fire myrmidon grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and an additional [1] to &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The affected entity also gains temporary access to &lt;LSTag Type="Spell" Tooltip="Projectile_Fireball"&gt;Fireball&lt;/LSTag&gt;.</content>
 	<content contentuid="h10e8fe2dge284g4f9bgadd3g23924cba3190" version="1">A nearby water myrmidon grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage and an additional [1] to &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The affected entity also gains temporary access to &lt;LSTag Type="Spell" Tooltip="Zone_ConeOfCold"&gt;Cone of Cold&lt;/LSTag&gt;.</content>
-	
+
 	<content contentuid="ha5977a5dg7515g405cg9624gdb479a87e31d" version="1">When attacked, the affected entity can draw on &lt;LSTag Type="Passive" Tooltip="MAG_RamazithsTower_ElementalSiphon"&gt;Siphoned&lt;/LSTag&gt; magic to cast &lt;LSTag Type="Spell" Tooltip="Target_MAG_RamazithsTower_Dummy"&gt;Elemental Retort&lt;/LSTag&gt;.</content>
-	
+
 	<content contentuid="h466f91eege4e5g48d8gb0ccg5d6010aec1b4" version="1">Blast your foe with the elemental damage of each myrmidon currently &lt;LSTag Type="Passive" Tooltip="MAG_RamazithsTower_ElementalSiphon"&gt;Siphoned&lt;/LSTag&gt;.</content>
-	
+
 	<content contentuid="h9dc479c2ga355g467fgac63g74115744c18c" version="1">Can be used alongside Myrmidons summoned from other sources.</content>
-	
+
+	<content contentuid="hcbb39064g494ag4211ga5bfg9704718c597a" version="1">Caster Extra Attack</content>
+	<content contentuid="hda391c16ge9fbg4d5cg985fg04688a75eae6" version="1">Gain the option to expend a large amount of &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; in exchange for getting &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h11487529g2297g4268gba3cg746d90ff3827" version="1">Gained the &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; passive.</content>
+
+	<content contentuid="h2f319628gbafag4b70gbc2ag5a2962eb0fa4" version="1">Caster Improved Extra Attack</content>
+	<content contentuid="h5eeb6f29g726cg43a0gb6b0g83a7f67b9b78" version="1">Gain the option to expend all your &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; in exchange for getting &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h083442c0g90e7g4f94gb77ag1e54512c7e2b" version="1">Gained the &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt; passive.</content>
+
+	<content contentuid="h03e7b303gc6b2g41c2g9edfg58827486787d" version="1">Martial Weapon Arts</content>
+	<content contentuid="hb42aa994gae95g4548g8d24gc72f58b66b96" version="1">If you have the &lt;LSTag Type="Passive" Tooltip="MartialArts_BonusUnarmedStrike"&gt;Martial Arts&lt;/LSTag&gt; passive, you are also &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with this weapon. It can also be used in place of &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike"&gt;Unarmed Strikes&lt;/LSTag&gt; for your &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows&lt;/LSTag&gt; abilities.</content>
+
 </contentList>

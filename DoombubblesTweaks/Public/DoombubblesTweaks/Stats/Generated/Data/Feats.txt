@@ -216,7 +216,7 @@ data "PriorityOrder" "1"
 data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
 data "EnabledConditions" "(HasNoMainHand() and HasNoOffHand()) or IsUnarmedWildshape()"
 data "EnabledContext" "OnEquip;OnCreate"
-data "Boosts" "IF(IsMeleeUnarmedAttack()):RollBonus(MeleeUnarmedAttack, -5);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(10);IF(IsUnarmedWildshape() and IsUnarmedAttack(){{if $.Balance.WildshapeDontDoubleDip}} and (IsDamageTypeBludgeoning() or IsDamageTypePiercing() or IsDamageTypeSlashing()){{end}}):DamageBonus(10)"
+data "Boosts" "IF(IsMeleeUnarmedAttack()):RollBonus(MeleeUnarmedAttack, -5);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(10);IF(IsUnarmedWildshape() and IsUnarmedAttack(){{if $.Values.WildshapeDontDoubleDip}} and (IsDamageTypeBludgeoning() or IsDamageTypePiercing() or IsDamageTypeSlashing()){{end}}):DamageBonus(10)"
 
 new entry "HeavyWeaponMaster_BonusAttack"
 type "PassiveData"
@@ -370,12 +370,3 @@ using "MagicInitiate_Wizard"
 data "Description" "h240b078ag8ddeg4a1fgaff2g052710794fd3"
 data "ExtraDescription" "h07a5f71bg3280g4407ga64cgd0f605d15b3b"
 data "Boosts" ""
-
-
-{{- if $.Balance.NerfTavernBrawler }}
-new entry "SavageAttacker"
-type "PassiveData"
-using "SavageAttacker"
-data "Description" "hbc96b8d5gbe77g44f8gbf6fg5cebe4789537"
-data "Boosts" "Reroll(MeleeWeaponDamage,20,false);IF(IsMeleeUnarmedAttack()):Reroll(MeleeUnarmedDamage,20,false)"
-{{- end }}

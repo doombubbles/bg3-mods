@@ -86,7 +86,7 @@ new entry "ELEMENTALAFFINITY_FORCE_EXTRA_DAMAGE_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
 using "ELEMENTALAFFINITY_ACID_EXTRA_DAMAGE_TECHNICAL"
-data "DisplayName" "h6cb66037g350dg411agab0bgf9fab1338dd6;3"
+data "DisplayName" "h6cb66037g350dg411agab0bgf9fab1338dd6"
 data "StackId" "ELEMENTALAFFINITY_FORCE_EXTRA_DAMAGE_TECHNICAL"
 data "Boosts" "IF(not Self() and IsDamageTypeForce()):DamageBonus(max(0, CharismaModifier), Force)"
 

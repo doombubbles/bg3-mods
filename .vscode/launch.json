@@ -58,18 +58,6 @@
             "mode": "debug",
             "program": "${workspaceFolder}/ProcessTemplates//ProcessTemplates.go",
             "cwd": "${workspaceFolder}"
-        },
-        {
-            "name": "BG3 Script Extender Lua Debug",
-            "type": "bg3lua",
-            "request": "launch",
-            "program": "${workspaceFolder}\\bin\\DebugAdapter\\LuaDebugger.exe",
-            "backendHost": "127.0.0.1",
-            "backendPort": 9998,
-            "dbgOptions": {
-                "breakOnError": true,
-                "breakOnGenericError": false
-            }
-        },
+        }
     ]
 }

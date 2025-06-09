@@ -1,10 +1,18 @@
 {{- define "HasPotionSickness" -}}
 HasAnyStatus({
 {{- range $potion, $i := $.PotionSickness -}}
-{{(eq .priority 0) | ternary "" ","}}'{{ .status }}_SICKNESS'
+{{(eq .priority "0" ) | ternary "" ","}}'{{ .status }}_SICKNESS'
 {{- end -}}
 })
 {{- end -}}
+
+new entry "PotionSicknessRestRemove"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnShortRest"
+data "StatsFunctors" "{{ range $potion := $.PotionSickness }}RemoveStatus(SELF,{{.status}}_SICKNESS);{{end}}"
 
 {{ range $potion := $.PotionSickness }}
 new entry "{{.status}}_SICKNESS"
@@ -20,21 +28,22 @@ data "ApplyEffect" ""
 data "StackPriority" "{{.priority}}"
 data "StatusPropertyFlags" "ApplyToDead"
 data "OnApplyFunctors" ""
+data "Passives" "PotionSicknessRestRemove"
 
 new entry "{{.status}}_SICKNESS_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
 using "{{.status}}"
 data "StackId" "{{.status}}_SICKNESS"
-data "OnApplyFunctors" "RegainHitPoints({{.sickness}})"
+// data "OnApplyFunctors" "RegainHitPoints({{.sickness}})"
 
-{{- if $.Balance.PotionSickness }}
+{{- if $.Values.PotionSickness }}
 
 new entry "{{.status}}"
 type "StatusData"
 data "StatusType" "BOOST"
 using "{{.status}}"
-data "OnApplyFunctors" "IF(not {{include "HasPotionSickness" $}}):RegainHitPoints({{.normal}});RemoveStatus(BURNING);IF({{include "HasPotionSickness" $}}):ApplyStatus({{.status}}_SICKNESS_TECHNICAL, {{.priority}}, -1);IF(not HasStatus('{{.status}}_SICKNESS')):ApplyStatus({{.status}}_SICKNESS, {{.priority}}, -1)"
+data "OnApplyFunctors" "IF(not {{include "HasPotionSickness" $}}):RegainHitPoints({{.normal}});RemoveStatus(BURNING);IF({{include "HasPotionSickness" $}}):ApplyStatus({{.status}}_SICKNESS_TECHNICAL, 100, -1);IF(not HasStatus('{{.status}}_SICKNESS')):ApplyStatus({{.status}}_SICKNESS, 100, -1)"
 
 {{- end }}
 

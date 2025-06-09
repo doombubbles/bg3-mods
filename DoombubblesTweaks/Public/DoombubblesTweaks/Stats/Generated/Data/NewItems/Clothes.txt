@@ -18,7 +18,7 @@ data "Rarity" "Rare"
 data "Boosts" ""
 data "PassivesOnEquip" "MAG_DBT_Intelligence_Passive;MAG_DBT_Intelligence_Side_Effect"
 data "Unique" "1"
-{{- if $.Balance.ClothesAlwaysBuff }}
+{{- if $.Values.ClothesAlwaysBuff }}
 data "StatusOnEquip" "MAG_FOXS_CUNNING"
 {{- else }}
 data "StatusOnEquip" "MAG_ENHANCE_ABILITY_TECHNICAL"
@@ -33,7 +33,7 @@ data "ValueUUID" "240eb257-ef20-4877-89bd-6956b4b7c41a"
 data "Rarity" "Rare"
 data "PassivesOnEquip" "MAG_DBT_Wisdom_Passive;MAG_DBT_Wisdom_Side_Effect"
 data "Unique" "1"
-{{- if $.Balance.ClothesAlwaysBuff }}
+{{- if $.Values.ClothesAlwaysBuff }}
 data "StatusOnEquip" "MAG_OWLS_WISDOM"
 {{- else }}
 data "StatusOnEquip" "MAG_ENHANCE_ABILITY_TECHNICAL"
@@ -48,7 +48,7 @@ data "ValueUUID" "240eb257-ef20-4877-89bd-6956b4b7c41a"
 data "Rarity" "Rare"
 data "PassivesOnEquip" "MAG_DBT_Charisma_Passive;MAG_DBT_Charisma_Side_Effect"
 data "Unique" "1"
-{{- if $.Balance.ClothesAlwaysBuff }}
+{{- if $.Values.ClothesAlwaysBuff }}
 data "StatusOnEquip" "MAG_EAGLES_SPLENDOR"
 {{- else }}
 data "StatusOnEquip" "MAG_ENHANCE_ABILITY_TECHNICAL"
@@ -197,7 +197,7 @@ data "ValueUUID" "240eb257-ef20-4877-89bd-6956b4b7c41a"
 data "Rarity" "VeryRare"
 data "PassivesOnEquip" "MAG_DBT_Physical_Passive;MAG_DBT_Physical_Side_Effect"
 data "Unique" "1"
-{{- if $.Balance.ClothesAlwaysBuff }}
+{{- if $.Values.ClothesAlwaysBuff }}
 data "StatusOnEquip" "MAG_MANTICORES_PHYSICALITY"
 {{- else }}
 data "StatusOnEquip" "MAG_ENHANCE_ABILITY_TECHNICAL"
@@ -212,7 +212,7 @@ data "ValueUUID" "240eb257-ef20-4877-89bd-6956b4b7c41a"
 data "Rarity" "VeryRare"
 data "PassivesOnEquip" "MAG_DBT_Mental_Passive;MAG_DBT_Mental_Side_Effect"
 data "Unique" "1"
-{{- if $.Balance.ClothesAlwaysBuff }}
+{{- if $.Values.ClothesAlwaysBuff }}
 data "StatusOnEquip" "MAG_SPHINXS_MENTALITY"
 {{- else }}
 data "StatusOnEquip" "MAG_ENHANCE_ABILITY_TECHNICAL"
@@ -227,11 +227,11 @@ data "ValueUUID" "240eb257-ef20-4877-89bd-6956b4b7c41a"
 data "Rarity" "Legendary"
 data "PassivesOnEquip" "MAG_DBT_Universal_Passive;MAG_DBT_Universal_Side_Effect"
 data "Unique" "1"
-{{- if $.Balance.ClothesAlwaysBuff }}
+{{- if $.Values.ClothesAlwaysBuff }}
 data "StatusOnEquip" "MAG_HYDRAS_UNIVERSALITY"
 {{- else }}
 data "StatusOnEquip" "MAG_ENHANCE_ABILITY_TECHNICAL"
-{{- if $.Balance.UniversalClothGivesBoth }}
+{{- if $.Values.UniversalClothGivesBoth }}
 data "Boosts" "UnlockSpell(Target_EnhanceAbility_Physical);UnlockSpell(Target_EnhanceAbility_Mental)"
 {{- else }}
 data "Boosts" "UnlockSpell(Target_EnhanceAbility_Any)"

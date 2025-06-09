@@ -1,0 +1,73 @@
+FireBolt:
+  SpellType: Projectile
+  DisplayName: h1481e995gac4eg418fgba14ga022659dfa69
+  Description: hf4424e51ga224g42b1ga887gb7a8a6cf1bda
+  Icon: Spell_Evocation_FireBolt
+  Title: Fire Bolt
+RayOfFrost:
+  SpellType: Projectile
+  DisplayName: hd189af90g77aeg4fe0gb1fegec433f67ed13
+  Description: hf7620d1cg3b9ag43cdg93f7g14114ca2ce25
+  Icon: Spell_Evocation_RayOfFrost
+  Title: Ray Of Frost
+EldritchBlast:
+  SpellType: Projectile
+  DisplayName: ha1946d63g21c0g425dgb243g7d0ead53c91c
+  Description: hc3d2d09fg2ef5g4046g941bg0dfe8c402b77
+  Icon: Spell_Evocation_EldritchBlast
+  CreateSpell: true
+  Title: Eldritch Blast
+ShockingGrasp:
+  SpellType: Target
+  DisplayName: hea065210g624fg45d9g8ebdg9f8207a30f01
+  Description: hdf6a6b78g30b4g4cb9gb427g9268768e289f
+  Icon: Spell_Evocation_ShockingGrasp
+  CreateSpell: true
+  Title: Shocking Grasp
+SacredFlame:
+  SpellType: Target
+  DisplayName: h1ad4160dgf7c3g4e43gbc9egc0b6166f2803
+  Description: h5d950f73gda27g4ab4g9817g3f80df0342ac
+  Icon: Spell_Evocation_SacredFlame
+  CreateSpell: true
+  Title: Sacred Flame
+ChillTouch:
+  SpellType: Target
+  DisplayName: h104d1fdfge8f0g47f4ga721g14802cd21e10
+  Description: h0b5c5615g531fg4cf1g950dg2cac061aa994
+  Icon: Spell_Necromancy_ChillTouch
+  CreateSpell: true
+  Title: Bone Chill
+ViciousMockery:
+  SpellType: Target
+  DisplayName: hda2044a5g2eb1g4ee4gb2bag25bd6dab97d4
+  Description: h6410cd2bg25b1g4982ga8b3ga606e7456c9a
+  Icon: Spell_Enchantment_ViciousMockery
+  CreateSpell: true
+  Title: Vicious Mockery
+AcidSplash:
+  SpellType: Projectile
+  DisplayName: h04e10873g87b2g436bg8753gf148a0deb633
+  Description: hc777849ag6090g45d9g9c5dgdeab8d28263a
+  Icon: Spell_Conjuration_AcidSplash
+  CreateSpell: true
+  Title: Acid Splash
+PoisonSpray:
+  SpellType: Projectile
+  DisplayName: h33089665ga8e8g49c2ga17bgcb83f8687de7
+  Description: hbc862ee9g9ab3g4c7cg80f8ge82e2bb5b466
+  Icon: Spell_Conjuration_PoisonSpray
+  CreateSpell: true
+  Title: Poison Spray
+RaysOfFire:
+  SpellType: Projectile
+  DisplayName: h8ecc9c32ga5b3g41a4ga442gdab932648528
+  Description: h6201d802gdb7bg4597g8009gf2e70b568b76
+  Icon: Action_Monster_Cambion_FireRay
+  Title: Rays of Fire
+BoomingBlade:
+  SpellType: Target
+  DisplayName: hc909cd12gaf73g4dafgb856ga7d360ac1d8b
+  Description: h50951018gb3eeg4af7gb0beg9479ca3dc067
+  Icon: Spell_Evocation_BoomingBlade
+  Title: Booming Blade

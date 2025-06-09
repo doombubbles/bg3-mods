@@ -93,6 +93,10 @@
 
 **[Viconia's Priestess Robe](https://bg3.wiki/wiki/Viconia's_Priestess_Robe)** - Now gives [Born into Darkness](https://bg3.wiki/wiki/Born_into_Darkness) and lets you use [Shar's Aegeis](https://bg3.wiki/wiki/Shar's_Aegeis) (which grants [Shar's Protection](https://bg3.wiki/wiki/Shar's_Protection) )
 
+**[Duke Ravenguard's Longsword](https://bg3.wiki/wiki/Duke_Ravengard%27s_Longsword)** - Temp HP passive now correctly uses your own Charisma modifier
+
+**[Tenacity](https://bg3.wiki/wiki/Tenacity)** - Now actually counts as the weapon itself doing damage for purposes of other synergies
+
 ### [Phalar Aluve](https://bg3.wiki/wiki/Phalar_Aluve)
 
 - Added new "Screech" option

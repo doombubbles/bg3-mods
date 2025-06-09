@@ -1,0 +1,262 @@
+new treasuretable "Supply_Scroll_Utility_Single"
+new subtable "1,1"
+StartLevel "1"
+EndLevel "3"
+object category "MagicScroll_Utility",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+EndLevel "5"
+object category "MagicScroll_Utility",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "6"
+EndLevel "7"
+object category "MagicScroll_Utility",2,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "8"
+EndLevel "9"
+object category "MagicScroll_Utility",2,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "10"
+EndLevel "11"
+object category "MagicScroll_Utility",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "12"
+object category "MagicScroll_Utility",3,0,0,0,0,0,0,0
+
+new treasuretable "Supply_Scroll_Single"
+new subtable "1,1"
+StartLevel "1"
+EndLevel "2"
+object category "MagicScroll",4,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "3"
+EndLevel "4"
+object category "MagicScroll",2,0,0,0,0,0,0,0
+object category "MagicScroll_2",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+EndLevel "6"
+object category "MagicScroll",1,0,0,0,0,0,0,0
+object category "MagicScroll_2",2,0,0,0,0,0,0,0
+object category "MagicScroll_3",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "7"
+EndLevel "8"
+object category "MagicScroll",1,0,0,0,0,0,0,0
+object category "MagicScroll_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_3",2,0,0,0,0,0,0,0
+object category "MagicScroll_4",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+EndLevel "10"
+object category "MagicScroll",1,0,0,0,0,0,0,0
+object category "MagicScroll_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_4",2,0,0,0,0,0,0,0
+object category "MagicScroll_5",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "11"
+object category "MagicScroll",1,0,0,0,0,0,0,0
+object category "MagicScroll_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_4",1,0,0,0,0,0,0,0
+object category "MagicScroll_5",2,0,0,0,0,0,0,0
+object category "MagicScroll_6",3,0,0,0,0,0,0,0
+
+new treasuretable "Supply_Scrolls_Healing_Single"
+new subtable "1,1"
+StartLevel "1"
+EndLevel "2"
+object category "MagicScroll_Protection",4,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_2",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "3"
+EndLevel "4"
+object category "MagicScroll_Protection",2,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_2",3,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_3",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+EndLevel "6"
+object category "MagicScroll_Protection",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_2",2,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_3",3,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_4",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "7"
+EndLevel "8"
+object category "MagicScroll_Protection",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_3",2,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_4",3,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_5",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+EndLevel "10"
+object category "MagicScroll_Protection",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_4",2,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_5",3,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_6",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "11"
+object category "MagicScroll_Protection",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_4",1,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_5",2,0,0,0,0,0,0,0
+object category "MagicScroll_Protection_6",3,0,0,0,0,0,0,0
+
+new treasuretable "Supply_Scrolls_Illusion_Single"
+new subtable "1,1"
+StartLevel "1"
+EndLevel "2"
+object category "MagicScroll_Illusion",4,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_2",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "3"
+EndLevel "4"
+object category "MagicScroll_Illusion",2,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_2",3,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_3",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+EndLevel "6"
+object category "MagicScroll_Illusion",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_2",2,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_3",3,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_4",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "7"
+EndLevel "8"
+object category "MagicScroll_Illusion",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_3",2,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_4",3,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_5",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+EndLevel "10"
+object category "MagicScroll_Illusion",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_4",2,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_5",3,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_6",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "11"
+object category "MagicScroll_Illusion",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_4",1,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_5",2,0,0,0,0,0,0,0
+object category "MagicScroll_Illusion_6",3,0,0,0,0,0,0,0
+
+new treasuretable "Supply_Scrolls_Necro_Single"
+new subtable "1,1"
+StartLevel "1"
+EndLevel "2"
+object category "MagicScroll_Necro",4,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_2",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "3"
+EndLevel "4"
+object category "MagicScroll_Necro",2,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_2",3,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_3",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+EndLevel "6"
+object category "MagicScroll_Necro",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_2",2,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_3",3,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_4",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "7"
+EndLevel "8"
+object category "MagicScroll_Necro",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_3",2,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_4",3,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_5",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+EndLevel "10"
+object category "MagicScroll_Necro",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_4",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_5",3,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_6",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "11"
+object category "MagicScroll_Necro",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_4",1,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_5",2,0,0,0,0,0,0,0
+object category "MagicScroll_Necro_6",3,0,0,0,0,0,0,0
+
+
+// Traders only give utility scrolls
+
+new treasuretable "Trade_Scroll"
+new subtable "1,1"
+StartLevel "1"
+EndLevel "2"
+object category "MagicScroll_Utility_1",4,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "3"
+EndLevel "4"
+object category "MagicScroll_Utility_1",2,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_2",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "5"
+EndLevel "6"
+object category "MagicScroll_Utility_1",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_2",2,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_3",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "7"
+EndLevel "8"
+object category "MagicScroll_Utility_1",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_3",2,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_4",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+EndLevel "10"
+object category "MagicScroll_Utility_1",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_4",2,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_5",3,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "11"
+object category "MagicScroll_Utility_1",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_2",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_3",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_4",1,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_5",2,0,0,0,0,0,0,0
+object category "MagicScroll_Utility_6",3,0,0,0,0,0,0,0
+
+
+new treasuretable "EquipmentTrader_Scrolls"
+new subtable "10,1"
+StartLevel "1"
+EndLevel "4"
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+new subtable "14,1"
+StartLevel "5"
+EndLevel "6"
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+new subtable "21,1"
+StartLevel "7"
+EndLevel "8"
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+new subtable "28,1"
+StartLevel "9"
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+new subtable "2,1"
+object category "I_OBJ_Scroll_Revivify",1,0,0,0,0,0,0,0

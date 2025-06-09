@@ -1,4 +1,4 @@
-{{- if $.Balance.PotenterCantrip }}
+{{- if $.Values.PotenterCantrip }}
 
 new entry "PotentCantrip"
 type "PassiveData"

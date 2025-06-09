@@ -22,7 +22,7 @@ data "Description" "h38d63efcg8aadg412dg8342g7add42bf12cb"
 data "Icon" "Spell_Evocation_SpiritualWeapon"
 data "FormatColor" "Gold"
 data "StackId" "USING_SPIRITUAL_WEAPON"
-data "Boosts" "WeaponProperty(Unstowable);ItemReturnToOwner();WeaponAttackRollAbilityOverride(SpellCastingAbility)"
+data "Boosts" "ItemReturnToOwner();WeaponAttackRollAbilityOverride(SpellCastingAbility)"
 data "StatusEffect" "6abda680-50c7-40af-8d37-2cc75fae7d21"
 
 new entry "SpirtualOverwhelm"
@@ -35,7 +35,7 @@ new entry "Interrupt_SpiritualOverwhelm"
 type "InterruptData"
 using "Interrupt_Overwhelm"
 data "DescriptionParams" "DealDamage(max(1,SpellCastingAbilityModifier), Force)"
-data "Properties" "DealDamage(max(1,SpellCastingAbilityModifier), Force)"
+data "Properties" "DealDamage(max(1,SpellCastingAbilityModifier),Force,Magical,,0,,,,,,MainMeleeWeapon)"
 
 
 {{ range $weapon, $info := $.SpiritualWeapons }}

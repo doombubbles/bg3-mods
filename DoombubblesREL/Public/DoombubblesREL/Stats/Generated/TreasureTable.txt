@@ -3099,7 +3099,11 @@ object category "T_Gold_Trader_Modest",1,0,0,0,0,0,0,0
 new subtable "2,1"
 object category "T_DEN_Volo_Trade_Book",1,0,0,0,0,0,0,0
 new subtable "9,1"
+{{- if not $.Values.ScrollsChange}}
 object category "T_Scroll",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
 new subtable "3,1"
 object category "I_OBJ_Potion_Healing",1,0,0,0,0,0,0,0
 new subtable "-1"
@@ -3280,7 +3284,11 @@ object category "T_Supply_Alchemy_Poison",2,0,0,0,0,0,0,0
 new subtable "3,1"
 object category "T_Alchemy_PotionOrCoating_Supply",2,0,0,0,0,0,0,0
 new subtable "2,1"
+{{- if not $.Values.ScrollsChange}}
 object category "T_Supply_Scrolls",4,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",4,0,0,0,0,0,0,0
+{{- end }}
 new subtable "3,1"
 object category "T_Supply_Alchemy_Common",1,0,0,0,0,0,0,0
 new subtable "-1"
@@ -3351,7 +3359,11 @@ object category "T_ST_RandomPotion",1,0,0,0,0,0,0,0
 new subtable "3,1"
 object category "I_OBJ_Scroll_Revivify",1,0,0,0,0,0,0,0
 new subtable "9,1"
+{{- if not $.Values.ScrollsChange}}
 object category "T_Scroll",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
 new subtable "-1"
 object category "T_ST_DEN_Trader_Ranged_Arrows",1,0,0,0,0,0,0,0
 new subtable "4,1"
@@ -3421,7 +3433,11 @@ object category "I_OBJ_FireBottle",1,0,0,0,0,0,0,0
 new subtable "2,1"
 object category "I_OBJ_AcidBottle",1,0,0,0,0,0,0,0
 new subtable "7,1"
+{{- if not $.Values.ScrollsChange}}
 object category "T_Scroll",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
 
 new treasuretable "DEN_Weaponsmith_Trade"
 // new subtable "0,1;1,1"
@@ -3625,6 +3641,11 @@ new subtable "2,1; 3,1"
 object category "T_UND_SocietyOfBrilliance_Book",1,0,0,0,0,0,0,0
 new subtable "10,1"
 object category "T_Scroll",1,0,0,0,0,0,0,0
+{{- if not $.Values.ScrollsChange}}
+object category "T_Scroll",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
 new subtable "3,1"
 object category "I_OBJ_Scroll_Revivify",1,0,0,0,0,0,0,0
 new subtable "3,1;4,1;5,1"
@@ -4017,7 +4038,11 @@ object category "T_Gold_Trader_Wealthy",1,0,0,0,0,0,0,0
 new subtable "2,1;3,1;4,1"
 object category "T_Valuables_Jewelry",1,0,0,0,0,0,0,0
 new subtable "-1"
+{{- if not $.Values.ScrollsChange}}
 object category "T_Supply_Scrolls",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
 new subtable "2,1;3,1"
 object category "T_Valuables_Gems",1,0,0,0,0,0,0,0
 new subtable "-1"
@@ -4047,7 +4072,11 @@ object category "T_WYR_SharranInformer_Basic",1,0,0,0,0,0,0,0
 new subtable "8,1"
 object category "T_Alchemy_Coating",1,0,0,0,0,0,0,0
 new subtable "6,1"
+{{- if not $.Values.ScrollsChange}}
 object category "T_Supply_Scroll_Single",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
 
 new treasuretable "WYR_Thiefling_Trade"
 new subtable "-1"
@@ -4168,12 +4197,17 @@ object category "I_OBJ_Dye_BlackRed",1,0,0,0,0,0,0,0
 new treasuretable "LOW_DevilsFee_Diabolist_Trade_Magic"
 new subtable "-1"
 object category "T_LOW_DevilsFee_Diabolist_Trade",1,0,0,0,0,0,0,0
+{{- if not $.Values.ScrollsChange}}
 new subtable "2,1;3,1"
 object category "MagicScroll_Necro_3",1,0,0,0,0,0,0,0
 new subtable "1,1;2,1"
 object category "MagicScroll_Necro_4",1,0,0,0,0,0,0,0
 new subtable "2,1"
 object category "T_Supply_Scrolls_Necro",1,0,0,0,0,0,0,0
+{{- else }}
+new subtable "1,1"
+object category "T_Trade_Scroll",7,0,0,0,0,0,0,0
+{{- end }}
 new subtable "2,1"
 object category "T_Supply_Alchemy_Loot_Rare",1,0,0,0,0,0,0,0
 // new subtable "0,1;1,1"
@@ -4350,7 +4384,11 @@ object category "I_OBJ_Potion_Of_Invulnerability",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_OBJ_Potion_Of_Heroism",1,0,0,0,0,0,0,0
 new subtable "4,1"
+{{- if not $.Values.ScrollsChange}}
 object category "T_Supply_Scrolls_Healing",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
 new subtable "3,1"
 object category "I_OBJ_HolyWaterFlask",1,0,0,0,0,0,0,0
 // new subtable "0,1;1,1"
@@ -4370,6 +4408,148 @@ object category "T_Supply_Alchemy_Poison",1,0,0,0,0,0,0,0
 new subtable "3,1;4,1"
 object category "T_Alchemy_PotionOrCoating",1,0,0,0,0,0,0,0
 new subtable "2,1"
+{{- if not $.Values.ScrollsChange}}
 object category "T_Supply_Scrolls_Necro",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
 // new subtable "0,1;1,1"
 // object category "T_REL_All_Epic",1,0,0,0,0,0,0,0
+
+
+new treasuretable "CRE_Expeditioner_Trade"
+new subtable "1,1"
+object category "T_Gold_Trader_Normal",1,0,0,0,0,0,0,0
+new subtable "2,1;3,1;4,1"
+object category "I_WPN_Torch",1,0,0,0,0,0,0,0
+new subtable "2,1;3,1;4,1"
+object category "T_Alchemy_Potion_Utility",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_Alchemy_Potion_Elixir",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_Alchemy_Oil",1,0,0,0,0,0,0,0
+new subtable "2,1;3,1;4,1"
+object category "I_OBJ_Kit_ThievesTools",1,0,0,0,0,0,0,0
+new subtable "2,1;3,1;4,1"
+object category "I_OBJ_Kit_TrapDisarm",1,0,0,0,0,0,0,0
+new subtable "3,1;4,1"
+object category "T_Alchemy_Potion_Healing",1,0,0,0,0,0,0,0
+new subtable "2,1;3,1;4,1"
+{{- if not $.Values.ScrollsChange}}
+object category "T_Scroll",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
+new subtable "2,1;3,1;4,1"
+object category "T_ST_SpecialArrow",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_MusicInstrument",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_Supplies_Vendor_Poor",1,0,0,0,0,0,0,0
+new subtable "5,1"
+object category "T_ST_DyeRare",1,0,0,0,0,0,0,0
+new subtable "-5"
+object category "I_OBJ_Dye_Remover",1,0,0,0,0,0,0,0
+
+new treasuretable "SHA_MerregonTrader"
+new subtable "1,1"
+object category "T_Gold_Stash_Modest",1,0,0,0,0,0,0,0
+new subtable "16,1"
+object category "T_Alchemy_PotionOrCoating",5,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_Supplies_Spoiled",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_SCL_Supplies_Poor",1,0,0,0,0,0,0,0
+new subtable "4,1"
+object category "T_Alchemy_Coating",5,0,0,0,0,0,0,0
+new subtable "0,1;1,1"
+object category "T_Supply_Alchemy_Loot_Rare",1,0,0,0,0,0,0,0
+new subtable "4,1"
+{{- if not $.Values.ScrollsChange}}
+object category "T_Scroll",5,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",5,0,0,0,0,0,0,0
+{{- end }}
+
+new treasuretable "DEN_Mol"
+new subtable "1,1"
+object category "T_Gold_Trader_Modest",1,0,0,0,0,0,0,0
+new subtable "2,1;3,1;4,1"
+object category "T_DEN_Kid",1,0,0,0,0,0,0,0
+new subtable "2,1"
+object category "T_ST_SpecialArrow_Uncommon",1,0,0,0,0,0,0,0
+new subtable "2,1"
+{{- if not $.Values.ScrollsChange}}
+object category "T_Supply_Scroll_Single",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
+new subtable "2,1"
+object category "T_Alchemy_Potion_Elixir",1,0,0,0,0,0,0,0
+new subtable "1,1; 2,1"
+object category "I_OBJ_Kit_ThievesTools",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_Guildhall_FetchersBrat_Trade"
+new subtable "1,1"
+object category "T_Gold_Trader_Wealthy",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_Supplies_Camp_Pack",1,0,0,0,0,0,0,0
+new subtable "2,1"
+object category "T_Valuables_Jewelry",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_LOW_Guildhall_FetchersBrat_Trade_Magic",1,0,0,0,0,0,0,0
+new subtable "3,1;4,1;5,1;6,1"
+object category "T_ST_Alchemy_Herb_Rare",1,0,0,0,0,0,0,0
+object category "T_ST_Alchemy_Mushroom_Rare",2,0,0,0,0,0,0,0
+object category "T_ST_Alchemy_Loot_Rare",4,0,0,0,0,0,0,0
+new subtable "3,1;4,1,5,1;6,1"
+object category "T_Alchemy_Potion_Utility",1,0,0,0,0,0,0,0
+object category "T_Alchemy_Potion_Elixir",1,0,0,0,0,0,0,0
+object category "T_Alchemy_Coating",1,0,0,0,0,0,0,0
+{{- if not $.Values.ScrollsChange}}
+object category "T_Supply_Scroll_Single",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
+new subtable "1,1"
+object category "T_Clothes_Wizard_Hat",1,0,0,0,0,0,0,0
+new subtable "3,1"
+object category "T_ST_DyeVeryRare",1,0,0,0,0,0,0,0
+new subtable "8,1"
+object category "I_OBJ_Kit_ThievesTools",1,0,0,0,0,0,0,0
+new subtable "3,1"
+object category "I_OBJ_Kit_TrapDisarm",1,0,0,0,0,0,0,0
+
+
+new treasuretable "WYR_Barn_FlamingFistGuard_Supplies"
+new subtable "1,1"
+object category "T_Alchemy_Potion_Healing",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Longsword_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Mace",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Torch",1,0,0,0,0,0,0,0
+new subtable "3,1"
+object category "I_OBJ_Potion_Of_Heroism",1,0,0,0,0,0,0,0
+object category "I_ALCH_Solution_Elixir_Barkskin",1,0,0,0,0,0,0,0
+object category "I_ALCH_Solution_Potion_Remedy",1,0,0,0,0,0,0,0
+{{- if not $.Values.ScrollsChange}}
+object category "I_Supply_Scrolls_Healing_Single",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
+
+new treasuretable "LOW_Grotto_ShadowheartFriend"
+new subtable "1,1"
+object category "T_Gold_Trader_Normal",1,0,0,0,0,0,0,0
+new subtable "7,1"
+{{- if not $.Values.ScrollsChange}}
+object category "T_Supply_Scrolls_Illusion_Single",1,0,0,0,0,0,0,0
+{{- else }}
+object category "T_Trade_Scroll",1,0,0,0,0,0,0,0
+{{- end }}
+new subtable "7,1"
+object category "T_Alchemy_Coating",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "T_Alchemy_Potion",1,0,0,0,0,0,0,0

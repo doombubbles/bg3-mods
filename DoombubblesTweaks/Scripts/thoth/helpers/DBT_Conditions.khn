@@ -1,4 +1,4 @@
----@diagnostic disable: undefined-global
+---@diagnostic disable: undefined-global, undefined-field
 
 function ShouldPactBladeOverride(entity)
   local weapon = entity or context.Source
@@ -124,7 +124,7 @@ end
 
 function HeavyWeaponMasterMelee(entity)
   local entity = entity or context.Source
-  local weapon = GetActiveWeapon(entity,true)
+  local weapon = GetActiveWeapon(entity, true)
 
   local isTwoHanded = HasWeaponProperty(WeaponProperties.Twohanded, weapon)
   local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
@@ -133,14 +133,15 @@ function HeavyWeaponMasterMelee(entity)
   local isOffhandAmmunition = WieldingWeapon('Ammunition', true, false, entity)
   local hasShield = HasShieldEquipped(entity)
 
-  local res = IsProficientWith(entity, weapon) & ((isTwoHanded & isMelee) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
+  local res = IsProficientWith(entity, weapon) &
+      ((isTwoHanded & isMelee) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
 
   return ConditionResult(res.Result, { ConditionError("HasNotHeavyWeapon") }, { ConditionError("HasHeavyWeapon") })
 end
 
 function HeavyWeaponMasterRanged(entity)
   local entity = entity or context.Source
-  local weapon = GetActiveWeapon(entity,true)
+  local weapon = GetActiveWeapon(entity, true)
 
   local isTwoHanded = HasWeaponProperty(WeaponProperties.Twohanded, weapon)
   local isRanged = HasWeaponProperty(WeaponProperties.Ammunition, weapon)
@@ -186,4 +187,34 @@ function IsMovementSpeedStatus()
       | StatusId('WEB_BUFF_SPIDER_ACTIVE')
       | StatusId('RELENTLESS_AVENGER')
       | StatusId('DRUNKEN_TECHNIQUE')
+end
+
+function CasterLevelCheck(level, entity)
+  local entity = entity or context.Source
+  local casterLevel = 0
+  if HasStatus('SS_6_1', entity).Result then
+    casterLevel = 11
+  elseif HasStatus('SS_5_2', entity).Result then
+    casterLevel = 10
+  elseif HasStatus('SS_5_1', entity).Result then
+    casterLevel = 9
+  elseif HasStatus('SS_4_2', entity).Result then
+    casterLevel = 8
+  elseif HasStatus('SS_4_1', entity).Result then
+    casterLevel = 7
+  elseif HasStatus('SS_3_3', entity).Result then
+    casterLevel = 6
+  elseif HasStatus('SS_3_2', entity).Result then
+    casterLevel = 5
+  elseif HasStatus('SS_2_3', entity).Result then
+    casterLevel = 4
+  elseif HasStatus('SS_2_2', entity).Result then
+    casterLevel = 3
+  elseif HasStatus('SS_1_3', entity).Result then
+    casterLevel = 2
+  elseif HasStatus('SS_1_2', entity).Result then
+    casterLevel = 1
+  end
+
+  return ConditionResult(casterLevel == level)
 end

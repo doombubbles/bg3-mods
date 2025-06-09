@@ -19,7 +19,7 @@
           <!-- e2416b02-953a-4ce8-aa8f-eb98d549d86d -->
           <attribute id="ProgressionTableUUID" type="guid" value="dad920dc-ae5f-4a2d-be36-31efcb0ca8b9"/>
           <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
-          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          {{- if eq $.Values.MagicianCastingAbility "Intelligence" }}
           <attribute id="SpellCastingAbility" type="uint8" value="4"/>
           <attribute id="PrimaryAbility" type="uint8" value="4"/>
           {{- else }}
@@ -51,7 +51,7 @@
           <!-- fac6ea25-a7f8-4793-b331-d884041e5adb -->
           <attribute id="ProgressionTableUUID" type="guid" value="e7324941-873b-45f5-ab2b-3c81c6baec39"/>
           <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
-          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          {{- if eq $.Values.MagicianCastingAbility "Intelligence" }}
           <attribute id="SpellCastingAbility" type="uint8" value="4"/>
           <attribute id="PrimaryAbility" type="uint8" value="4"/>
           {{- else }}
@@ -74,7 +74,7 @@
           <!-- 35aa255d-3eb7-4e93-8092-7545ced25b09 -->
           <attribute id="ProgressionTableUUID" type="guid" value="dac4721a-506d-43ce-9e24-d52d71012bcd"/>
           <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
-          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          {{- if eq $.Values.MagicianCastingAbility "Intelligence" }}
           <attribute id="SpellCastingAbility" type="uint8" value="4"/>
           <attribute id="PrimaryAbility" type="uint8" value="4"/>
           {{- else }}
@@ -101,7 +101,7 @@
           <!-- dbf5281b-5a6e-486d-92db-ff67a0a3842b -->
           <attribute id="ProgressionTableUUID" type="guid" value="b6aa7b36-0f07-482c-b446-00c15bac6dd8"/>
           <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
-          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          {{- if eq $.Values.MagicianCastingAbility "Intelligence" }}
           <attribute id="SpellCastingAbility" type="uint8" value="4"/>
           <attribute id="PrimaryAbility" type="uint8" value="4"/>
           {{- else }}
@@ -129,7 +129,7 @@
           <!-- 02d68ea9-5b8d-4f3f-a37a-96ae78d233cd -->
           <attribute id="ProgressionTableUUID" type="guid" value="cd7b963d-4ed5-486b-93a9-b876ebf98cbd"/>
           <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
-          {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+          {{- if eq $.Values.MagicianCastingAbility "Intelligence" }}
           <attribute id="SpellCastingAbility" type="uint8" value="4"/>
           <attribute id="PrimaryAbility" type="uint8" value="4"/>
           {{- else }}

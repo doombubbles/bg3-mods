@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h9a516430gde58g403bg8efdgdd8da0a11cb7" version="1">Consumed Camp Supplies</content>
+  <content contentuid="h3ab93b58ga28dg4f47g8af6gef6a9173c80c" version="1">&lt;LSTag Tooltip="CampSupplies"&gt;Camp Supplies&lt;/LSTag&gt; that have been manually consumed in order to Rest.</content>
+
+  <content contentuid="hb9c3f499g50d8g42c8gaf50g418edb974efc" version="1">Rest</content>
+  <content contentuid="hd2ed0cc1gc305g40e8g9e58gee9a0ecd413d" version="1">Expend consumed &lt;LSTag Tooltip="CampSupplies"&gt;camp supplies&lt;/LSTag&gt; to &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h01d5760cgb83dg4146gb758g00596d104b96" version="1">Short Rest (Self)</content>
+  <content contentuid="h079f74c3g03d7g48a9gbd7dg052a1c4f0e0c" version="1">Expend [1] consumed &lt;LSTag Tooltip="CampSupplies"&gt;camp supplies&lt;/LSTag&gt; to gain the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; for your character.</content>
+  <content contentuid="h20a17292gde0fg4a5bgabc1g5d9f468615c0" version="1">Short Rest (Party)</content>
+  <content contentuid="h7a9b5ccegd674g4147gb0e0g6929a546af24" version="1">Expend [1] consumed &lt;LSTag Tooltip="CampSupplies"&gt;camp supplies&lt;/LSTag&gt; to gain the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; for your party.</content>
+
+  <content contentuid="h247ee169g59e5g4a2fg831fgb04368e9b3e6" version="1">Long Rest (Self)</content>
+  <content contentuid="h16a5f918gdc6ag4852gad19gef66d9fc858e" version="1">Expend [1] consumed &lt;LSTag Tooltip="CampSupplies"&gt;camp supplies&lt;/LSTag&gt; to gain the benefits of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; for your character.</content>
+  <content contentuid="hc9145d3fg59f7g4aa8g836dg78662142c96b" version="1">Long Rest (Party)</content>
+  <content contentuid="h7944b45eg3e30g4e37gbbfcg5ff43281d821" version="1">Expend [1] consumed &lt;LSTag Tooltip="CampSupplies"&gt;camp supplies&lt;/LSTag&gt; to gain the benefits of a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; for your party.</content>
+
+</contentList>

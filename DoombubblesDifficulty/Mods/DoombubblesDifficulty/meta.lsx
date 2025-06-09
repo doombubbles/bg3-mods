@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="8" revision="0" build="200"/>
+  <region id="Config">
+    <node id="root">
+      <children>
+        <node id="Conflicts"/>
+        <node id="Dependencies">
+          <children>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="DiceSet_01" />
+              <attribute id="MD5" type="LSString" value="" />
+              <attribute id="Name" type="LSString" value="DiceSet_01" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="e842840a-2449-588c-b0c4-22122cfce31b" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="DiceSet_02" />
+              <attribute id="MD5" type="LSString" value="" />
+              <attribute id="Name" type="LSString" value="DiceSet_02" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="b176a0ac-d79f-ed9d-5a87-5c2c80874e10" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="DiceSet_03" />
+              <attribute id="MD5" type="LSString" value="" />
+              <attribute id="Name" type="LSString" value="DiceSet_03" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="e0a4d990-7b9b-8fa9-d7c6-04017c6cf5b1" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="DiceSet_06" />
+              <attribute id="MD5" type="LSString" value="" />
+              <attribute id="Name" type="LSString" value="DiceSet_06" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="ee4989eb-aab8-968f-8674-812ea2f4bfd7" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="MainUI" />
+              <attribute id="MD5" type="LSString" value="" />
+              <attribute id="Name" type="LSString" value="MainUI" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="630daa32-70f8-3da5-41b9-154fe8410236" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="ModBrowser" />
+              <attribute id="MD5" type="LSString" value="981922692a4f3bbfc4dd5941221fc4f3" />
+              <attribute id="Name" type="LSString" value="ModBrowser" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="ee5a55ff-eb38-0b27-c5b0-f358dc306d34" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="PhotoMode" />
+              <attribute id="MD5" type="LSString" value="045fe21b32b1c766a0a09193aa9d1215" />
+              <attribute id="Name" type="LSString" value="PhotoMode" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="55ef175c-59e3-b44b-3fb2-8f86acc5d550" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="CrossplayUI" />
+              <attribute id="MD5" type="LSString" value="" />
+              <attribute id="Name" type="LSString" value="CrossplayUI" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="e1ce736b-52e6-e713-e9e7-e6abbb15a198" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="Gustav" />
+              <attribute id="MD5" type="LSString" value="fe9e5e0ff345c06acbdf2bd7e8246e5d" />
+              <attribute id="Name" type="LSString" value="Gustav" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="991c9c7a-fb80-40cb-8f0d-b92d4e80e9b1" />
+              <attribute id="Version64" type="int64" value="36029301681017806" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="GustavDev" />
+              <attribute id="MD5" type="LSString" value="c360fcf32ac7d77e2ba190ccb102c94d" />
+              <attribute id="Name" type="LSString" value="GustavDev" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8" />
+              <attribute id="Version64" type="int64" value="145241130939120737" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="GustavX" />
+              <attribute id="MD5" type="LSString" value="180daa208a8a447d4ea7f6b4a47e93f1" />
+              <attribute id="Name" type="LSString" value="GustavX" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="cb555efe-2d9e-131f-8195-a89329d218ea" />
+              <attribute id="Version64" type="int64" value="145241152413957217" />
+            </node>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSString" value="DoombubblesTweaks"/>
+              <attribute id="MD5" type="LSString" value="03304c84c98ccbf4aff37d2af6d98fdb"/>
+              <attribute id="Name" type="LSString" value="DoombubblesTweaks"/>
+              <attribute id="PublishHandle" type="uint64" value="4868969"/>
+              <attribute id="UUID" type="guid" value="8a8ca382-6d25-4923-931c-74e8966ca296"/>
+              <attribute id="Version64" type="int64" value="36028797018964188"/>
+            </node>
+          </children>
+        </node>
+        <node id="ModuleInfo">
+          <attribute id="Author" type="LSString" value="doombubbles"/>
+          <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+          <attribute id="Description" type="LSString" value="Makes a few nerfs to over powered base game items and abilities, and makes a couple of changes to my DoombubblesTweaks mod."/>
+          <attribute id="FileSize" type="uint64" value="0"/>
+          <attribute id="Folder" type="LSString" value="DoombubblesDifficulty"/>
+          <attribute id="LobbyLevelName" type="FixedString" value=""/>
+          <attribute id="MD5" type="LSString" value=""/>
+          <attribute id="MenuLevelName" type="FixedString" value=""/>
+          <attribute id="Name" type="LSString" value="DoombubblesDifficulty"/>
+          <attribute id="NumPlayers" type="uint8" value="4"/>
+          <attribute id="PhotoBooth" type="FixedString" value=""/>
+          <attribute id="PublishHandle" type="uint64" value="0"/>
+          <attribute id="StartupLevelName" type="FixedString" value=""/>
+          <attribute id="UUID" type="FixedString" value="966a343c-7cb5-6cd3-7811-258e1d480040"/>
+          <attribute id="Version64" type="int64" value="{{ packVersionS $.Values.Version }}"/>
+          <children>
+            <node id="PublishVersion">
+              <attribute id="Version64" type="int64" value="{{ packVersionS $.Values.Version }}" />
+            </node>
+            <node id="Scripts">
+              <children>
+                <node id="Script">
+                  <attribute id="UUID" type="FixedString" value="1953f77d-a201-45d7-a194-9b84c34b8461" />
+                  <children>
+                    <node id="Parameters">
+                      <children>
+                        <node id="Parameter">
+                          <attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+                          <attribute id="Type" type="int32" value="1" />
+                          <attribute id="Value" type="LSString" value="0" />
+                        </node>
+                      </children>
+                    </node>
+                  </children>
+                </node>
+                <node id="Script">
+                  <attribute id="UUID" type="FixedString" value="0d6510f5-50a3-4ecd-83d8-134c9a640324" />
+                  <children>
+                    <node id="Parameters">
+                      <children>
+                        <node id="Parameter">
+                          <attribute id="MapKey" type="FixedString" value="HardcoreOnly" />
+                          <attribute id="Type" type="int32" value="1" />
+                          <attribute id="Value" type="LSString" value="0" />
+                        </node>
+                      </children>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -96,15 +96,6 @@
           <attribute id="FeatId" type="guid" value="c02f22c9-9a06-4001-b917-4d5cf09be399"/>
           <attribute id="UUID" type="guid" value="78660721-cdf0-4218-bb19-e1c8b50b4d4d"/>
         </node>
-        {{- if $.Balance.NerfTavernBrawler }}
-        <node id="FeatDescription">
-          <attribute id="DisplayName" type="TranslatedString" handle="h1a3b6583g891fg4caag9095g3f557dbee5bd" version="2"/>
-          <attribute id="Description" type="TranslatedString" handle="h1fecb306g6183g4f42gbd47gcaf6810fe343" version="1"/>
-          <attribute id="ExactMatch" type="FixedString" value="TavernBrawler"/>
-          <attribute id="FeatId" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3"/>
-          <attribute id="UUID" type="guid" value="31cba9b2-bf42-4f7b-919d-a0bccc2dff5e"/>
-        </node>
-        {{- end }}
 
         <node id="FeatDescription">
           <attribute id="DisplayName" type="TranslatedString" handle="h4dc7d85ag3aceg412bga8e6g07103b9d2f75" version="1"/>
@@ -147,13 +138,6 @@
           <attribute id="ExactMatch" type="FixedString" value="MagicInitiateWizard"/>
           <attribute id="FeatId" type="guid" value="26c6990b-d9f0-41a2-8108-209789fafc18"/>
           <attribute id="UUID" type="guid" value="5670e7db-cbe0-4135-8802-5f33f304346d"/>
-        </node>
-        <node id="FeatDescription">
-          <attribute id="Description" type="TranslatedString" handle="hbc96b8d5gbe77g44f8gbf6fg5cebe4789537" version="1"/>
-          <attribute id="DisplayName" type="TranslatedString" handle="h272c92eag97cag4e32g9659g1c947e14a32d" version="1"/>
-          <attribute id="ExactMatch" type="FixedString" value="SavageAttacker"/>
-          <attribute id="FeatId" type="guid" value="e061a323-3430-4cff-88d3-5eae7a1779a4"/>
-          <attribute id="UUID" type="guid" value="5551971b-22e1-4107-afe0-28d568fb3446"/>
         </node>
 
         <!--Added Feats-->

@@ -234,3 +234,27 @@ data "DescriptionParams" "RegainHitPoints({{add $i 1}})"
 data "Icon" "Action_DeathKnight_Stoneskin_Gargoyle"
 data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog"
 {{ end }}
+
+
+new entry "MAG_BoundToBeBonded_Technical_Passive"
+type "PassiveData"
+using "MAG_BoundToBeBonded_Technical_Passive"
+data "StatsFunctorContext" "OnStatusApplied"
+data "Conditions" "StatusId('WEAPON_BOND') or StatusId('PACT_BLADE') or StatusId('HEXBLADE_BIND') or StatusId('RUNE_RAZORICE') or StatusId('RUNE_FALLEN_CRUSADER') or StatusId('RUNE_STONESKIN_GARGOYLE')"
+
+new entry "MAG_ShockingBound_Passive_Technical_Passive"
+type "PassiveData"
+using "MAG_ShockingBound_Passive_Technical_Passive"
+data "StatsFunctorContext" "OnStatusApplied"
+data "Conditions" "StatusId('WEAPON_BOND') or StatusId('PACT_BLADE') or StatusId('HEXBLADE_BIND') or StatusId('RUNE_RAZORICE') or StatusId('RUNE_FALLEN_CRUSADER') or StatusId('RUNE_STONESKIN_GARGOYLE')"
+
+new entry "MAG_Bound_ProficiencyToDamage_Technical_Passive"
+type "PassiveData"
+using "MAG_Bound_ProficiencyToDamage_Technical_Passive"
+data "StatsFunctorContext" "OnStatusApplied"
+data "Conditions" "StatusId('WEAPON_BOND') or StatusId('PACT_BLADE') or StatusId('HEXBLADE_BIND') or StatusId('RUNE_RAZORICE') or StatusId('RUNE_FALLEN_CRUSADER') or StatusId('RUNE_STONESKIN_GARGOYLE')"
+
+new entry "MAG_Bonded_Baneful_Shortsword"
+type "Weapon"
+using "MAG_Bonded_Baneful_Shortsword"
+data "WeaponFunctors" "IF(HasStatus('WEAPON_BOND', GetAttackWeapon(context.Source)) or HasStatus('PACT_BLADE', GetAttackWeapon(context.Source)) or HasStatus('HEXBLADE_BIND', GetAttackWeapon(context.Source)) or HasStatus('RUNE_RAZORICE', GetAttackWeapon(context.Source)) or HasStatus('RUNE_FALLEN_CRUSADER', GetAttackWeapon(context.Source)) or HasStatus('RUNE_STONESKIN_GARGOYLE', GetAttackWeapon(context.Source))):ApplyStatus(BANE, 100, 2,,,,not SavingThrow(Ability.Charisma, 14));"

@@ -1,0 +1,190 @@
+{{- if $.Values.ScrollsCostSpellSlots }}
+new entry "UnlockedSpellSlotLevel1"
+type "PassiveData"
+using "UnlockedSpellSlotLevel1"
+data "StatsFunctorContext" "OnCreate;OnLongRest;OnShortRest"
+data "StatsFunctors" "{{range $lvl := untilStep 1 7 1}}IF(HasActionResource('SpellSlot',1,{{$lvl}},false,false,context.Source)):ApplyStatus(SCROLL_LEVEL_{{$lvl}},100,-1);{{end}}"
+
+new entry "UnlockedWarlockSpellSlotLevel1"
+type "PassiveData"
+using "UnlockedWarlockSpellSlotLevel1"
+data "StatsFunctorContext" "OnCreate;OnLongRest;OnShortRest"
+data "StatsFunctors" "{{range $lvl := untilStep 1 6 1}}IF(ConditionResult(false){{range $i := untilStep $lvl 6 1}} or HasActionResource('WarlockSpellSlot',1,{{$i}},false,false,context.Source){{end}}):ApplyStatus(SCROLL_LEVEL_{{$lvl}},100,-1);{{end}}IF(HasActionResource('WarlockSpellSlot',3,5,false,false,context.Source)):ApplyStatus(SCROLL_LEVEL_6,100,-1);"
+{{- end }}
+
+{{range $lvl := untilStep 1 7 1}}
+new entry "SCROLL_LEVEL_{{$lvl}}"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "StackId" "SCROLL_LEVEL_{{$lvl}}"
+data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StackType" "Ignore"
+data "Boosts" "ActionResource(ScrollSpellSlot,1,{{$lvl}})"
+{{end}}
+
+
+{{- if $.Values.ScrollsCostSpellSlots }}
+
+{{ range $lvl, $scrolls := $.Scrolls.ByLevel }}
+{{ range $scroll := $scrolls}}
+new entry "{{$scroll}}"
+type "Object"
+using "{{$scroll}}"
+data "UseCosts" "{{(has $scroll $.Scrolls.BonusAction ) | ternary "BonusActionPoint" "ActionPoint" }}:1;ScrollSpellSlotsGroup:1:1:{{$lvl}}"
+data "UseConditions" "not IsSummon()"
+{{ end }}
+{{ end }}
+
+{{- end }}
+
+new entry "OBJ_Scroll_AnimalFriendship"
+type "Object"
+using "OBJ_Scroll_AnimalFriendship"
+data "ObjectCategory" "MagicScroll_ToBeDeleted;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_CharmPerson"
+type "Object"
+using "OBJ_Scroll_CharmPerson"
+data "ObjectCategory" "MagicScroll;MagicScroll_Illusion;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_DisguiseSelf"
+type "Object"
+using "OBJ_Scroll_DisguiseSelf"
+data "ObjectCategory" "MagicScroll;MagicScroll_Illusion;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_ExpeditiousRetreat"
+type "Object"
+using "OBJ_Scroll_ExpeditiousRetreat"
+data "ObjectCategory" "MagicScroll;MagicScroll_Illusion;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_FeatherFall"
+type "Object"
+using "OBJ_Scroll_FeatherFall"
+data "ObjectCategory" "MagicScroll;MagicScroll_Utility;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_FogCloud"
+type "Object"
+using "OBJ_Scroll_FogCloud"
+data "ObjectCategory" "MagicScroll;MagicScroll_Illusion;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_Grease"
+type "Object"
+using "OBJ_Scroll_Grease"
+data "ObjectCategory" "MagicScroll;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_Longstrider"
+type "Object"
+using "OBJ_Scroll_Longstrider"
+data "ObjectCategory" "MagicScroll;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_Jump"
+type "Object"
+using "OBJ_Scroll_Jump"
+data "ObjectCategory" "MagicScroll;MagicScroll_Utility;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_MageArmor"
+type "Object"
+using "OBJ_Scroll_MageArmor"
+data "ObjectCategory" "MagicScroll;;MagicScroll_Protection;MagicScroll_Utility_1"
+
+new entry "OBJ_Scroll_ProtectionFromEvilAndGood"
+type "Object"
+using "OBJ_Scroll_ProtectionFromEvilAndGood"
+data "ObjectCategory" "MagicScroll;MagicScroll_Protection;MagicScroll_Utility_1"
+
+
+new entry "OBJ_Scroll_Darkvision"
+type "Object"
+using "OBJ_Scroll_Darkvision"
+data "ObjectCategory" "MagicScroll_2;MagicScroll_Utility;MagicScroll_Utility_2"
+
+new entry "OBJ_Scroll_DetectThoughts"
+type "Object"
+using "OBJ_Scroll_DetectThoughts"
+data "ObjectCategory" "MagicScroll_Utility;MagicScroll_Utility_2"
+
+new entry "OBJ_Scroll_GustOfWind"
+type "Object"
+using "OBJ_Scroll_GustOfWind"
+data "ObjectCategory" "MagicScroll_2;MagicScroll_Utility_2"
+
+new entry "OBJ_Scroll_Invisibility"
+type "Object"
+using "OBJ_Scroll_Invisibility"
+data "ObjectCategory" "MagicScroll_2;MagicScroll_Illusion_2;MagicScroll_Utility_2"
+
+new entry "OBJ_Scroll_Knock"
+type "Object"
+using "OBJ_Scroll_Knock"
+data "ObjectCategory" "MagicScroll_Utility_2"
+
+new entry "OBJ_Scroll_MistyStep"
+type "Object"
+using "OBJ_Scroll_MistyStep"
+data "ObjectCategory" "MagicScroll_2;MagicScroll_Illusion_2;MagicScroll_Utility_2"
+
+new entry "OBJ_Scroll_Web"
+type "Object"
+using "OBJ_Scroll_Web"
+data "ObjectCategory" "MagicScroll_2;MagicScroll_Necro_2;MagicScroll_Utility_2"
+
+new entry "OBJ_Scroll_ArcaneLock"
+type "Object"
+using "OBJ_Scroll_ArcaneLock"
+data "ObjectCategory" "MagicScroll_2;MagicScroll_Utility_2"
+
+new entry "OBJ_Scroll_SeeInvisibility"
+type "Object"
+using "OBJ_Scroll_SeeInvisibility"
+data "ObjectCategory" "MagicScroll_2;MagicScroll_Protection_2;MagicScroll_Utility_2"
+
+
+new entry "OBJ_Scroll_Fly"
+type "Object"
+using "OBJ_Scroll_Fly"
+data "ObjectCategory" "MagicScroll_3;MagicScroll_Utility_3;MagicScroll_Utility_6"
+
+new entry "OBJ_Scroll_FeignDeath"
+type "Object"
+using "OBJ_Scroll_FeignDeath"
+data "ObjectCategory" "MagicScroll_3;MagicScroll_Necro_3;MagicScroll_Utility_3"
+
+new entry "OBJ_Scroll_GaseousForm"
+type "Object"
+using "OBJ_Scroll_GaseousForm"
+data "ObjectCategory" "MagicScroll_3;MagicScroll_Illusion_3;MagicScroll_Utility_3"
+
+new entry "OBJ_Scroll_ProtectionFromEnergy"
+type "Object"
+using "OBJ_Scroll_ProtectionFromEnergy"
+data "ObjectCategory" "MagicScroll_3;MagicScroll_Protection_3;MagicScroll_Utility_3"
+
+new entry "OBJ_Scroll_RemoveCurse"
+type "Object"
+using "OBJ_Scroll_RemoveCurse"
+data "ObjectCategory" "MagicScroll_3;MagicScroll_Protection_3;MagicScroll_Utility_3"
+
+new entry "OBJ_Scroll_SpeakWithDead"
+type "Object"
+using "OBJ_Scroll_SpeakWithDead"
+data "ObjectCategory" "MagicScroll_Utility;MagicScroll_Necro;MagicScroll_Utility_3"
+
+
+new entry "OBJ_Scroll_DimensionDoor"
+type "Object"
+using "OBJ_Scroll_DimensionDoor"
+data "ObjectCategory" "MagicScroll_4;MagicScroll_Utility_4;MagicScroll_Utility_6"
+
+new entry "OBJ_Scroll_Stoneskin"
+type "Object"
+using "OBJ_Scroll_Stoneskin"
+data "ObjectCategory" "MagicScroll_4;MagicScroll_Protection_4;MagicScroll_Utility_4"
+
+
+new entry "OBJ_Scroll_Seeming"
+type "Object"
+using "OBJ_Scroll_Seeming"
+data "ObjectCategory" "MagicScroll_5;MagicScroll_Illusion_5;MagicScroll_Utility_5"

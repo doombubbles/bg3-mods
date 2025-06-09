@@ -29,21 +29,27 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_SHADOW_BLADE_OWNER"
 data "StackPriority" "0"
+{{- if $.Values.BladeInfusions }}
 data "Passives" "ShadowBladeBuffApply"
+{{- end }}
 
 new entry "MAG_SHADOW_BLADE_OWNER_1"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_SHADOW_BLADE_OWNER"
 data "StackPriority" "1"
+{{- if $.Values.BladeInfusions }}
 data "Passives" "ShadowBladeBuffApply1"
+{{- end }}
 
 new entry "MAG_SHADOW_BLADE_OWNER_2"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_SHADOW_BLADE_OWNER"
 data "StackPriority" "2"
+{{- if $.Values.BladeInfusions }}
 data "Passives" "ShadowBladeBuffApply2"
+{{- end }}
 
 
 new entry "SHADOWBLADE_TECHNICAL_1"
@@ -63,17 +69,23 @@ new entry "ShadowBladeBuffApply"
 type "PassiveData"
 data "DisplayName" "h1154b886g9a80g4c43ga56cgb3dc5166e842"
 data "Properties" "IsHidden"
+{{- if $.Values.BladeInfusions }}
 data "Boosts" "UnlockSpell(Shout_ShadowBlade_Buff)"
+{{- end }}
 
 new entry "ShadowBladeBuffApply1"
 type "PassiveData"
 using "ShadowBladeBuffApply"
+{{- if $.Values.BladeInfusions }}
 data "Boosts" "UnlockSpell(Shout_ShadowBlade_Buff_1)"
+{{- end }}
 
 new entry "ShadowBladeBuffApply2"
 type "PassiveData"
 using "ShadowBladeBuffApply"
+{{- if $.Values.BladeInfusions }}
 data "Boosts" "UnlockSpell(Shout_ShadowBlade_Buff_2)"
+{{- end }}
 
 
 

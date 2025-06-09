@@ -41,3 +41,10 @@ data "Description" "hc93c54d4g8d9ag4c1fga69fg119de4a4b8e9"
 data "Icon" "PassiveFeature_Warlock_EldritchSmite"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_Smite_Eldritch,AddChildren);UnlockSpell(Target_Smite_Eldritch_Unlock,AddChildren);ActionResource(EldritchSmite_Charge, 1, 0)"
+
+
+new entry "HEXBLADES_CURSE_CASTER_HEAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HEXBLADES_CURSE_CASTER_HEAL"
+data "OnApplyFunctors" "RegainHitPoints(ClassLevel(Warlock)+ClassLevel(Witch)+Cause.CharismaModifier)"

@@ -58,38 +58,50 @@ data "StatusType" "BOOST"
 data "DisplayName" "h7a973781g041bg46aag9554g83de88b20158;1"
 data "StackId" "MAG_FLAME_BLADE_OWNER"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+{{- if $.Values.BladeInfusions }}
 data "Passives" "FlameBladeBuffApply"
+{{- end }}
 
 new entry "MAG_FLAME_BLADE_OWNER_1"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_FLAME_BLADE_OWNER"
 data "StackPriority" "1"
+{{- if $.Values.BladeInfusions }}
 data "Passives" "FlameBladeBuffApply1"
+{{- end }}
 
 new entry "MAG_FLAME_BLADE_OWNER_2"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_FLAME_BLADE_OWNER"
 data "StackPriority" "2"
+{{- if $.Values.BladeInfusions }}
 data "Passives" "FlameBladeBuffApply2"
+{{- end }}
 
 
 new entry "FlameBladeBuffApply"
 type "PassiveData"
 data "DisplayName" "hd15fc4c1ge45ag4440g9317ge4bfde92ac1a"
 data "Properties" "IsHidden"
+{{- if $.Values.BladeInfusions }}
 data "Boosts" "UnlockSpell(Shout_FlameBlade_Buff)"
+{{- end }}
 
 new entry "FlameBladeBuffApply1"
 type "PassiveData"
 using "FlameBladeBuffApply"
+{{- if $.Values.BladeInfusions }}
 data "Boosts" "UnlockSpell(Shout_FlameBlade_Buff_1)"
+{{- end }}
 
 new entry "FlameBladeBuffApply2"
 type "PassiveData"
 using "FlameBladeBuffApply"
+{{- if $.Values.BladeInfusions }}
 data "Boosts" "UnlockSpell(Shout_FlameBlade_Buff_2)"
+{{- end }}
 
 
 

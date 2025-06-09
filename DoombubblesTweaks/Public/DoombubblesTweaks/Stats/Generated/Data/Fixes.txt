@@ -10,16 +10,6 @@ type "StatusData"
 using "MAG_RADIANT_RADIATING_ORB"
 data "StatusGroups" "SG_Light"
 
-new entry "Target_ThunderousPunch_Wildshape_Myrmidon_Earth"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_ThunderousPunch_Wildshape_Myrmidon_Earth"
-{{- if $.Balance.FixEarthMyrmidon }}
-data "SpellSuccess" "IF(not SavingThrow(Ability.Constitution,13)):ApplyStatus(PRONE,100,2);DealDamage(1d10+UnarmedMeleeAbilityModifier, Bludgeoning, Bludgeoning,Magical);DealDamage(1d10,Thunder,Magical)"
-{{- else }}
-data "TooltipDamageList" "DealDamage(5+UnarmedMeleeAbilityModifier, Bludgeoning);DealDamage(3d10,Thunder)"
-{{ end }}
-
 new entry "Target_ORI_Wyll_SummonCambion"
 type "SpellData"
 data "SpellType" "Target"
@@ -49,11 +39,11 @@ type "PassiveData"
 using "DEN_RaidingParty_GoblinCaptain_Gloves_Passive"
 data "StatsFunctors" "ApplyStatus(BANE,100,2,,,,not SavingThrow(Ability.Charisma,11))"
 
-new entry "VOID_END"
-type "StatusData"
-data "StatusType" "BOOST"
-using "VOID_END"
-data "OnTickRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(12))"
+// new entry "VOID_END"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// using "VOID_END"
+// data "OnTickRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(12))"
 
 
 
@@ -72,17 +62,17 @@ data "Boosts" "ActionResourceMultiplier(Movement,200,0);IF(IsReactionAttack(cont
 
 
 
-new entry "BLADE_BARRIER_AURA"
-type "StatusData"
-data "StatusType" "BOOST"
-using "BLADE_BARRIER_AURA"
-data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(15))"
+// new entry "BLADE_BARRIER_AURA"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// using "BLADE_BARRIER_AURA"
+// data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(15))"
 
-new entry "Projectile_Wall_Of_Ice_Explode"
-type "SpellData"
-data "SpellType" "Projectile"
-using "Projectile_Wall_Of_Ice_Explode"
-data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(15))"
+// new entry "Projectile_Wall_Of_Ice_Explode"
+// type "SpellData"
+// data "SpellType" "Projectile"
+// using "Projectile_Wall_Of_Ice_Explode"
+// data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(15))"
 
 new entry "Target_BoomingBlade"
 type "SpellData"

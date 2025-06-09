@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+  <content contentuid="h130a3c3fgb1f4g4aa8g8b54gea80b8084c2a" version="1">Scroll Spell Slot</content>
+  <content contentuid="hadd4ded8g1957g49b0g9df8gbb11cff53839" version="1">For each level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; you've unlocked, you also get 1 Scroll Spell Slot per day to cast a scroll of that level without expending a regular &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h1cb5e0d9g38abg4d33gad91g71f47b2ef5fb" version="1">Potion Sickness</content>
+  <content contentuid="h43344bfcgce88g436cgbf40ge7b71689e9b4" version="1">Subsequent Potions of Healing will not heal you until you take a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+
+
+  <content contentuid="h847c647ag72cfg4a01g8f30g26b9900e6ee7" version="1">Prevented from &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt;. &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage but lost any &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning and Cold damage.</content>
+
+  <content contentuid="he375a49bg3c13g4a56g8a9fg2737a6c41440" version="1">Seized by great joy, affected entity is more energized and also more mentally compliant.&lt;br&gt;&lt;br&gt;Entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on physical &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on mental &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Entity loses any &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage.</content>
+
+  <content contentuid="ha77fc427g62b5g4190g9d2cgf44fe1a5a4e2" version="1">Enemies within [1] lose any &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Piercing damage.</content>
+  <content contentuid="ha6d0d678ge63eg4d40gb598g3b74848f8e9d" version="1">Affected entity loses any &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Piercing damage.</content>
+  <content contentuid="he71178e9ga6adg4d7cg946eg4b641273a0ae" version="1">Creatures hit with this weapon lose any &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Piercing damage.</content>
+
+  <content contentuid="h93ac7ce6g3dc7g4640g8aa8g2f0ed25a5839" version="1">Affected entity loses any &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage and becomes &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage.</content>
+
+  <content contentuid="hc297e506g5429g4c29g8772ga106787e7c15" version="1">Affected entity has been rapidly cooled while aflame, making it lose any &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Thunder and Bludgeoning damage.</content>
+
+  <content contentuid="h5ca6e89ag0c34g48ebgaa10gc4a429399653" version="1">Can't move, take actions, bonus actions, or reactions, and loses any &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Slashing, Piercing and Bludgeoning damage.</content>
+
+
+	{{ range $cantrip, $values := $.QuickenedCantrips }}
+  <content contentuid="{{.DisplayName}}" version="1">Quickened {{.Title}}</content>
+  <content contentuid="{{.Description}}" version="1">You can use your staff to cast &lt;LSTag Type="Spell" Tooltip="{{.SpellType}}_MAG_{{$cantrip}}_Staff"&gt;{{.Title}}&lt;/LSTag&gt; using a bonus action instead of an action. Usable once per {{ if $.Values.QuickenedCantripsPerCombat }}combat{{else}}short rest{{end}}.</content>
+	{{ end }}
+
+</contentList>

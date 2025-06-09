@@ -33,7 +33,7 @@
 
         <!-- Magician -->
 
-        {{- if eq $.Balance.MagicianCastingAbility "Intelligence" }}
+        {{- if eq $.Values.MagicianCastingAbility "Intelligence" }}
         <node id="AbilityDistributionPreset">
           <attribute id="Charisma" type="int32" value="12"/>
           <attribute id="ClassUUID" type="guid" value="18f0f4d3-7ae2-4687-8c95-93b614556fda"/>

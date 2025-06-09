@@ -1,7 +1,7 @@
 new entry "MAG_Gortash_Cloth"
 type "Armor"
 using "MAG_Gortash_Cloth"
-data "Boosts" ""AC(1);IF(Tagged('PLAYABLE',context.Source)):UnlockSpell(Shout_MAG_CallForHelp_Bane_Gortash)"
+data "Boosts" "AC(1);IF(Tagged('PLAYABLE',context.Source)):UnlockSpell(Shout_MAG_CallForHelp_Bane_Gortash)"
 
 new entry "Shout_MAG_CallForHelp_Bane_Gortash"
 type "SpellData"

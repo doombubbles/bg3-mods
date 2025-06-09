@@ -5,8 +5,8 @@
   <content contentuid="hd7f56516g6903g45d9ga56ag553e468e99a1" version="1">Magicians are talented spellcasters, drawing on inherent magic from a gift or bloodline to learn spells.</content>
   <content contentuid="h87ca0bdag3ce1g4266gac72g4afe96bab72c" version="1">Born with the promise of magic in their veins, magicians are suffused with a latent power that waits to be honed.</content>
 
-  <content contentuid="h052ea192gb42cg4e91g84b0g9268cf9ea9ab" version="1">Dragon-like scales cover parts of your skin. When you aren't wearing armour, your add your {{$.Balance.MagicianCastingAbility}} &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+  <content contentuid="h052ea192gb42cg4e91g84b0g9268cf9ea9ab" version="1">Dragon-like scales cover parts of your skin. When you aren't wearing armour, your add your {{$.Values.MagicianCastingAbility}} &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 
-  <content contentuid="h1df19a5dg2381g4dacg8e0fgfbfad25db990" version="1">When you deal damage of the type associated with your draconic ancestry, you add your {{$.Balance.MagicianCastingAbility}} &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage.</content>
+  <content contentuid="h1df19a5dg2381g4dacg8e0fgfbfad25db990" version="1">When you deal damage of the type associated with your draconic ancestry, you add your {{$.Values.MagicianCastingAbility}} &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage.</content>
   <content contentuid="h8dbc05ebg22deg4abbgba9bg9b9f906e4a60" version="1">Your &lt;LSTag Tooltip="HitPoints"&gt;hit point&lt;/LSTag&gt; maximum increases by 1 for each Magician level.</content>
 </contentList>

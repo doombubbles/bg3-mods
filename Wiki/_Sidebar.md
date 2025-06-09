@@ -65,3 +65,7 @@
 - [[ Sorcerer | Sorcerer-Changes ]]
 - [[ Warlock | Warlock-Changes ]]
 - [[ Wizard | Wizard-Changes ]]
+
+## [[ Doombubbles REL | Doombubbles---REL ]]
+
+## [[ Doombubbles Difficulty | Doombubbles---Difficulty ]]

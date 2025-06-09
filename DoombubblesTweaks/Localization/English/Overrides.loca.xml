@@ -66,8 +66,7 @@
   <content contentuid="h24c1628dgf93bg4a0eg9780g752a29f4c7da" version="1">Recite your Oath to regain your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charge(s)&lt;/LSTag&gt;.</content>
 
   <content contentuid="hbb82c9b9g0b9ag436cgba2cg9cb16d3edf74" version="1">Whenever the wearer succeeds a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against a spell, they regain [1] per Spell Level.</content>
-	
-	<content contentuid="hae6fa91ag64d3g4d21ga305g3ea2e8badf11" version="1">Your and nearby allies' movement speed is increased by [1].</content>
-	<content contentuid="hfbc6b9f9g46bdg4673ga88cg2577efe378ca" version="1">Your and nearby allies' jump distance is tripled.</content>
 
+  <content contentuid="hae6fa91ag64d3g4d21ga305g3ea2e8badf11" version="1">Your and nearby allies' movement speed is increased by [1].</content>
+  <content contentuid="hfbc6b9f9g46bdg4673ga88cg2577efe378ca" version="1">Your and nearby allies' jump distance is tripled.</content>
 </contentList>

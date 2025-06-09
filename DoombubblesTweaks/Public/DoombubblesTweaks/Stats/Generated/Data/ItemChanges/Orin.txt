@@ -1,7 +1,7 @@
 new entry "MAG_Orin_Cloth"
 type "Armor"
 using "MAG_Orin_Cloth"
-data "Boosts" ""AC(1);IF(Tagged('PLAYABLE',context.Source)):UnlockSpell(Shout_MAG_UnsettlingVisage_Orin)"
+data "Boosts" "AC(1);IF(Tagged('PLAYABLE',context.Source)):UnlockSpell(Shout_MAG_UnsettlingVisage_Orin)"
 
 new entry "MAG_Orin_ShapeshifterGambit_Passive"
 type "PassiveData"

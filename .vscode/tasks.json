@@ -2,89 +2,27 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Build DoombubblesTweaks",
+      "label": "Build Go (Windows)",
       "type": "process",
-      "command": "bin/busybox.exe",
+      "command": "go",
       "args": [
-        "bash",
-        "scripts/build.sh",
-        "DoombubblesTweaks"
+        "build",
+        "-o",
+        "../bin/ProcessTemplates.exe",
+        "ProcessTemplates.go"
       ],
       "group": "build",
       "presentation": {
         "reveal": "silent",
         "showReuseMessage": false,
         "revealProblems": "onProblem"
-      }
-    },
-    {
-      "label": "Build WoWDeathKnight",
-      "type": "process",
-      "command": "bin/busybox.exe",
-      "args": [
-        "bash",
-        "scripts/build.sh",
-        "WoWDeathKnight"
-      ],
-      "group": "build",
-      "presentation": {
-        "reveal": "silent",
-        "showReuseMessage": false,
-        "revealProblems": "onProblem"
-      }
-    },
-    {
-      "label": "Build WoWSubclasses",
-      "type": "process",
-      "command": "bin/busybox.exe",
-      "args": [
-        "bash",
-        "scripts/build.sh",
-        "WoWSubclasses"
-      ],
-      "group": "build",
-      "presentation": {
-        "reveal": "silent",
-        "showReuseMessage": false,
-        "revealProblems": "onProblem"
-      }
-    },
-    {
-        "label": "Build Go (Windows)",
-        "type": "process",
-        "command": "go",
-        "args": [
-          "build",
-          "-o",
-          "../bin/ProcessTemplates.exe",
-          "ProcessTemplates.go"
-        ],
-        "group": "build",
-        "presentation": {
-          "reveal": "silent",
-          "showReuseMessage": false,
-          "revealProblems": "onProblem"
-        },
-        "options": {
-          "cwd": "ProcessTemplates",
-          "env": {
-            "GOOS": "windows",
-            "GOARCH": "amd64"
-          }
+      },
+      "options": {
+        "cwd": "ProcessTemplates",
+        "env": {
+          "GOOS": "windows",
+          "GOARCH": "amd64"
         }
-    },
-    {
-      "label": "Update Mod",
-      "command": "scripts/UpdateDoombubblesTweaks.bat",
-      "args": ["-y"],
-      "type": "process",
-      "group": "none",
-      "presentation": {
-        "echo": true,
-        "reveal": "always",
-        "showReuseMessage": false,
-        "clear": true,
-        "close": true
       }
     },
     {
@@ -96,7 +34,7 @@
         "reveal": "silent",
         "showReuseMessage": false,
         "revealProblems": "onProblem"
-      },
+      }
     },
     {
       "label": "Process Wiki",
@@ -125,16 +63,25 @@
         "reveal": "silent",
         "showReuseMessage": false,
         "revealProblems": "onProblem"
-      },
+      }
     },
     {
       "label": "Clear Toolkit Folders",
       "type": "process",
       "command": "bin/busybox.exe",
-      "args": [
-        "bash",
-        "scripts/clear.sh"
-      ],
+      "args": ["bash", "scripts/clear.sh"],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {
+      "label": "Build DoombubblesTweaks",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": ["bash", "scripts/build.sh", "DoombubblesTweaks"],
       "group": "build",
       "presentation": {
         "reveal": "silent",
@@ -146,70 +93,129 @@
       "label": "Open DoombubblesTweaks In Toolkit",
       "type": "process",
       "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
-      "args": [
-        "-project",
-        "DoombubblesTweaks",
-        "-lvl",
-        "WLD_Campfire_E"
-      ],
+      "args": ["-project", "DoombubblesTweaks", "-lvl", "WLD_Campfire_E"],
       "group": "build",
       "presentation": {
         "reveal": "silent",
         "showReuseMessage": false,
-        "revealProblems": "onProblem",
+        "revealProblems": "onProblem"
       },
       "options": {
         "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
       },
-      "dependsOn": [
-        "Build DoombubblesTweaks"
-      ],
+      "dependsOn": ["Build DoombubblesTweaks"]
     },
     {
-      "label": "Open WoWSubclasses In Toolkit",
+      "label": "Build WoWDeathKnight",
       "type": "process",
-      "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
-      "args": [
-        "-project",
-        "WoWSubclasses",
-        "-lvl",
-        "WLD_Campfire_E"
-      ],
+      "command": "bin/busybox.exe",
+      "args": ["bash", "scripts/build.sh", "WoWDeathKnight"],
       "group": "build",
       "presentation": {
         "reveal": "silent",
         "showReuseMessage": false,
-        "revealProblems": "onProblem",
-      },
-      "options": {
-        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
-      },
-      "dependsOn": [
-        "Build WoWSubclasses"
-      ],
+        "revealProblems": "onProblem"
+      }
     },
     {
       "label": "Open WoWDeathKnight In Toolkit",
       "type": "process",
       "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
-      "args": [
-        "-project",
-        "WoWDeathKnight",
-        "-lvl",
-        "WLD_Campfire_E"
-      ],
+      "args": ["-project", "WoWDeathKnight", "-lvl", "WLD_Campfire_E"],
       "group": "build",
       "presentation": {
         "reveal": "silent",
         "showReuseMessage": false,
-        "revealProblems": "onProblem",
+        "revealProblems": "onProblem"
       },
       "options": {
         "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
       },
-      "dependsOn": [
-        "Build WoWDeathKnight"
-      ],
+      "dependsOn": ["Build WoWDeathKnight"]
     },
+    {
+      "label": "Build WoWSubclasses",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": ["bash", "scripts/build.sh", "WoWSubclasses"],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {
+      "label": "Open WoWSubclasses In Toolkit",
+      "type": "process",
+      "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
+      "args": ["-project", "WoWSubclasses", "-lvl", "WLD_Campfire_E"],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      },
+      "options": {
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
+      },
+      "dependsOn": ["Build WoWSubclasses"]
+    },
+    {
+      "label": "Build DoombubblesREL",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": ["bash", "scripts/build.sh", "DoombubblesREL"],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {
+      "label": "Open DoombubblesREL In Toolkit",
+      "type": "process",
+      "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
+      "args": ["-project", "DoombubblesREL", "-lvl", "WLD_Campfire_E"],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      },
+      "options": {
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
+      },
+      "dependsOn": ["Build DoombubblesREL"]
+    },
+    {
+      "label": "Build DoombubblesDifficulty",
+      "type": "process",
+      "command": "bin/busybox.exe",
+      "args": ["bash", "scripts/build.sh", "DoombubblesDifficulty"],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      }
+    },
+    {
+      "label": "Open DoombubblesDifficulty In Toolkit",
+      "type": "process",
+      "command": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit/Glasses.exe",
+      "args": ["-project", "DoombubblesDifficulty", "-lvl", "WLD_Campfire_E"],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "revealProblems": "onProblem"
+      },
+      "options": {
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3 Toolkit"
+      },
+      "dependsOn": ["Build DoombubblesDifficulty"]
+    }
   ]
 }

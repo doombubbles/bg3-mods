@@ -129,8 +129,6 @@
 
 	<content contentuid="h07a5f71bg3280g4407ga64cgd0f605d15b3b" version="1">You can cast the Level 1 spell once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
-	<content contentuid="hbc96b8d5gbe77g44f8gbf6fg5cebe4789537" version="1">When making melee {{- $.Balance.NerfTavernBrawler | ternary " " " weapon " -}} attacks, you roll your damage dice twice and use the highest result.</content>
-
 	<content contentuid="h1fecb306g6183g4f42gbd47gcaf6810fe343" version="1">When you make an unarmed attack, use an improvised weapon, or throw something, additionally add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
 
