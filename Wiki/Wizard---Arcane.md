@@ -35,3 +35,8 @@
 ### Arcane Intellect
 
 {{ getf .loca "h5ac6cad7g0f2eg4bbfg9ea4ge18c0b6de2f4" "2" | include "wikify" }}
+
+
+## Level 11
+
+{{ tpl (readFile "Wiki/Snippets/Time-Warp.md") $ }}

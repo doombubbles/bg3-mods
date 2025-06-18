@@ -52,4 +52,27 @@
 	<content contentuid="h3f7f3e27g6112g4db5g863dg80e54b3a331f" version="1">Your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; become harder to evade entirely.&lt;br&gt;&lt;br&gt;When a creature succeeds its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or you miss your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; for one of your cantrips, it still takes half the cantrip's damage, but suffers no additional effects.</content>
 
 
+	<content contentuid="h5ece9bb2g332bg40b8gab37g8484bc78e972" version="1">Chronomancy</content>
+	<content contentuid="h7b78065bg3146g4c9bg9ea0gc432c8fe994f" version="1">Beyond the eight traditional schools of magic, a select few Wizards specialize in the greatest magic of all...&lt;br&gt;&lt;br&gt;No, not friendship, what the fuck is wrong with you? Friends die all the time! All this "Love is the greatest magic of all" bullshit--so, in a war, a mother and her children get fucking iced in alleyway outside their home, was the problem that they didn't love eachother enough? That's crazy! Love is not magic! Love is love, magic is magic, and the greatest magic of all is CHRONOMANCY!</content>
+
+	<content contentuid="hb3aa30bbg94b1g4aabgadb8g0e7fbbc0b9b6" version="1">Time Warp</content>
+	<content contentuid="h30f900dfg7be3g4e3ega85eg03c6ae38252b" version="1">&lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hasten&lt;/LSTag&gt; all nearby allies.</content>
+
+	<content contentuid="h1ecfc9d3g4b31g4521g9900g4b53c69bc884" version="1">Alter Time</content>
+	<content contentuid="h8524efa2g0cccg4c82g84e9g6519736a1ff7" version="1">Alter the fabric of time, making you return to your current position and approximate HP total [1] turns after casting. You can spend a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to activate this sooner.</content>
+	<content contentuid="h45cc8525g3944g4d0aga1a3g004fd83121a1" version="1">Altering Time</content>
+	<content contentuid="hbb0ec526g2be1g42ecgb914g3a8187f250b8" version="1">Will return to the position and approximate HP total that the entity was at when casting &lt;LSTag Type="Spell" Tooltip="Shout_AlterTime"&gt;Alter Time&lt;/LSTag&gt;.</content>
+	<content contentuid="h5137a7a0gb2c8g466bg9d0bg1b839b92c96d" version="1">Alter Time: Activate</content>
+	<content contentuid="he357fc0cgaf87g49bfgbf6egebb163601da9" version="1">Activate to teleport back to your previous position and return to approximately the same HP total.</content>
+
+	<content contentuid="ha75a1783g8453g48a8ga0dag6fe2f12b4922" version="1">Time Heals All Wounds</content>
+	<content contentuid="h35d66002g9daag43f5g8a52g19602d973abc" version="1">The list of spells you can learn is expanded to include a number of Healing spells not normally on the Wizard spell list.</content>
+
+	<content contentuid="h8366c262g05d4g4d5fg8cc8g483ee4fc6924" version="1">Master of Time</content>
+	<content contentuid="h2fde50cagf987g4388g860bgc0ff6543ba3b" version="1">Enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt; against your &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;Slow&lt;/LSTag&gt; spell.&lt;br&gt;&lt;br&gt;Creatures that you apply the &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Haste&lt;/LSTag&gt; condition to will be &lt;LSTag Type="Status" Tooltip="SLOW"&gt;Slowed&lt;/LSTag&gt; for 1 turn when it expires instead of becoming &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hd33ee35eg14e5g4570gb7f2g2cd42170419a" version="1">Time Lord</content>
+	<content contentuid="h930fe2a6gaa53g41ecgb9aegbe2bd8c308b1" version="1">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, when using &lt;LSTag Type="Spell" Tooltip="Shout_AlterTime"&gt;Alter Time&lt;/LSTag&gt; you can also return to the amount of &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; you had.</content>
+	<content contentuid="h6570a5f2g4283g42cegb6ddg6ab7ad718aae" version="1">When your &lt;LSTag Type="Spell" Tooltip="Shout_AlterTime"&gt;Alter Time&lt;/LSTag&gt; completes, you will also return to the number of &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; you had.</content>
+
 </contentList>

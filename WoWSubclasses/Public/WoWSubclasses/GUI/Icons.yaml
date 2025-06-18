@@ -23,3 +23,6 @@ Icons:
   - Action_Paladin_DivineShield
   - Action_Paladin_HammerOfJustice
   - Action_Paladin_Exorcism
+  - Spell_Wizard_TimeWarp
+  - Spell_Wizard_AlterTime
+  - PassiveFeature_Wizard_TimeLord

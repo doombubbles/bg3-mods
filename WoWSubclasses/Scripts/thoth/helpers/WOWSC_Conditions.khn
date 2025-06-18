@@ -110,3 +110,7 @@ end
 function IsKillingBlowish()
   return IsKillingBlow() | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
 end
+
+function AT(hp)
+  return HasHPMoreThan(hp, context.Source) & ~HasHPMoreThan(hp + 5, context.Source)
+end

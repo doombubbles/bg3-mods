@@ -16,16 +16,23 @@ data "Description" "h1fecb306g6183g4f42gbd47gcaf6810fe343"
 new entry "MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL"
 type "StatusData"
 using "MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL"
-data "OnApplyFunctors" "IF(MaximumLowStackableStatus(context.Target, 'MAG_GISH_ARCANE_ACUITY')):SetStatusDuration(MAG_GISH_ARCANE_ACUITY, 5, ForceSet) "
-{{- end }}
+data "OnApplyFunctors" "IF(MaximumLowStackableStatus(context.Target, 'MAG_GISH_ARCANE_ACUITY')):SetStatusDuration(MAG_GISH_ARCANE_ACUITY, 5, ForceSet)"
 
+new entry "MAG_ArcaneAcuity_ReduceDurationPerDamage_Passive"
+type "PassiveData"
+using "MAG_ArcaneAcuity_ReduceDurationPerDamage_Passive"
+data "StatsFunctors" "SetStatusDuration(MAG_GISH_ARCANE_ACUITY,-1,Add)"
 
-{{- if $.Values.NerfStackMaxes }}
 new entry "MAG_RADIANT_RADIATING_ORB_DURATION_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAG_RADIANT_RADIATING_ORB_DURATION_TECHNICAL"
 data "OnApplyFunctors" "IF(MaximumLowStackableStatus(context.Target, 'MAG_RADIANT_RADIATING_ORB')):SetStatusDuration(MAG_RADIANT_RADIATING_ORB, 5, ForceSet) "
+
+new entry "MAG_RadiatingOrb_ReduceDurationPerAttack_Passive"
+type "PassiveData"
+using "MAG_RadiatingOrb_ReduceDurationPerAttack_Passive"
+data "StatsFunctors" "SetStatusDuration(SELF, MAG_RADIANT_RADIATING_ORB,-1,Add)"
 {{- end }}
 
 {{- if $.Values.NerfSlashingFlourish }}

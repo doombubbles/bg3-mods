@@ -48,3 +48,7 @@ You learn [<img src="https://bg3.wiki/w/images/b/b8/Flame_Strike_Icon.webp" heig
 ### Cauterize
 
 {{ getf .loca "hfd0426f6g9efcg49cbgb8c4ge3e5bb978a9e" "0" "1 hit point" | include "wikify" }}
+
+## Level 11
+
+{{ tpl (readFile "Wiki/Snippets/Time-Warp.md") $ }}
