@@ -159,7 +159,7 @@
   <content contentuid="h1b95919dgf496g4421g8c47g3a44407a5e63" version="1">Bone Shield</content>
 
   <content contentuid="h6a39ebd1ge80bg4316g8206g60cf48b0e550" version="1">Dark Succor</content>
-  <content contentuid="h1ed81167g8940g4984gbd3dg072b9f71e0c0" version="1">Whenever you kill an enemy, your next &lt;LSTag Type="Spell" Tooltip="Target_DeathStrike"&gt;Death Strike&lt;/LSTag&gt; does not consume a &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt;.</content>
+  <content contentuid="h1ed81167g8940g4984gbd3dg072b9f71e0c0" version="1">Whenever you kill an enemy, your next successful &lt;LSTag Type="Spell" Tooltip="Target_DeathStrike"&gt;Death Strike&lt;/LSTag&gt; will refund the spent &lt;LSTag Type="ActionResource" Tooltip="BloodRune"&gt;Blood Rune&lt;/LSTag&gt;.</content>
 
   <content contentuid="h1f9812e7g157eg4fdfgb252gbbdf94056724" version="1">Crimson Scourge</content>
   <content contentuid="h9d3e694bg69e3g4770gaf76g05eb3a753102" version="1">&lt;LSTag Type="Passive" Tooltip="DarkSuccor"&gt;Dark Succor&lt;/LSTag&gt; also makes your next &lt;LSTag Type="Spell" Tooltip="Target_DeathAndDecay"&gt;Death and Decay&lt;/LSTag&gt; consume no &lt;LSTag Type="ActionResource" Tooltip="BloodOrUnholyRune"&gt;Runes&lt;/LSTag&gt;, or your next &lt;LSTag Type="Spell" Tooltip="Target_DeathAndDecay_Recast"&gt;Death and Decay Recast&lt;/LSTag&gt; consume no resources.</content>
