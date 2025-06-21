@@ -226,7 +226,7 @@ data "Icon" "PassiveFeature_GreatWeaponMaster_BonusAttack"
 data "PriorityOrder" "1"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "Character() and (IsKillingBlowish() or IsCritical()) and ((IsMeleeWeaponAttack() and HeavyWeaponMasterMelee(context.Source)) or (IsRangedWeaponAttack() and HeavyWeaponMasterRanged(context.Source)))"
+data "Conditions" "Character() and (IsKillingBlow() or IsCritical()) and ((IsMeleeWeaponAttack() and HeavyWeaponMasterMelee(context.Source)) or (IsRangedWeaponAttack() and HeavyWeaponMasterRanged(context.Source)))"
 data "StatsFunctors" "IF(IsMeleeWeaponAttack()):ApplyStatus(SELF,HEAVY_WEAPON_MASTER_MELEE,100,1);IF(IsRangedWeaponAttack()):ApplyStatus(SELF,HEAVY_WEAPON_MASTER_RANGED,100,1)"
 
 new entry "HeavyWeaponMaster_BonusDamage"

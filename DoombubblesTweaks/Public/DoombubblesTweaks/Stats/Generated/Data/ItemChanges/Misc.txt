@@ -348,7 +348,6 @@ data "Properties" "DealDamage(max(1,StrengthModifier),Bludgeoning,Nonmagical,,0,
 new entry "MAG_WYRM_Commander_Longsword_Passive"
 type "PassiveData"
 using "MAG_WYRM_Commander_Longsword_Passive"
-data "Conditions" "IsKillingBlowish() and Enemy()"
 data "StatsFunctors" "ApplyStatus(SELF, MAG_TEMP_HP_CHARISMA, 100, -1);{{ range $i := untilStep 1 11 1 }}IF(ConditionResult(GetModifier(context.Source.Charisma) == {{$i}})):CreateExplosion(Projectile_MAG_WYRM_Commander_Longsword_Inspiration_Explosion_{{$i}});{{ end }}"
 
 {{ range $i := untilStep 1 11 1 }}
@@ -372,7 +371,7 @@ data "StackPriority" "{{$i}}"
 new entry "MAG_ArcaneAbsorption_Dagger_Passive"
 type "PassiveData"
 using "MAG_ArcaneAbsorption_Dagger_Passive"
-data "Conditions" "IsKillingBlowish() and IsMeleeAttack()"
+data "Conditions" "IsKillingBlow() and IsMeleeAttack()"
 
 
 new entry "WPN_Katana"

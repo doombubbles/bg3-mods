@@ -67,7 +67,7 @@
 
 	<content contentuid="headc10e8g8c64g4921g9df1g35109de92220" version="1">Heavy Weapon Master</content>
 	<content contentuid="h8b4f5841g6677g4af2g8668g7ca7b78e6d71" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; or kill a target with a two-handed weapon you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, you can make another attack with it as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; that turn.&lt;br&gt;&lt;br&gt;When attacking with a two-handed weapon you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1, to a maximum of 20.</content>
-	
+
 	<content contentuid="h390901fagec4eg49e4gb2a1gd5865a57f56c" version="1">Heavy Weapon Master: Always In</content>
 	<content contentuid="h249c99dfgacd2g4c2cg98b5gbf0286da7529" version="1">When attacking with a two-handed weapon you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage. This bonus is inactive while All-In bonuses are enabled for Great Weapon Master / Sharpshoter.</content>
 
@@ -131,5 +131,7 @@
 
 	<content contentuid="h1fecb306g6183g4f42gbd47gcaf6810fe343" version="1">When you make an unarmed attack, use an improvised weapon, or throw something, additionally add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h9bb19e78g8889g4501g8d71gd3756d634644" version="1">Skill Expert</content>
+	<content contentuid="h66977923g0781g48a1g9199g1ba926d72dbe" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in 1 &lt;LSTag Tooltip="Skill"&gt;Skill&lt;/LSTag&gt; of your choice, and &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in 1 &lt;LSTag Tooltip="Skill"&gt;Skill&lt;/LSTag&gt; of your choice.</content>
 
 </contentList>

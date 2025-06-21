@@ -69,7 +69,7 @@ type "PassiveData"
 data "DisplayName" "h3b6706a7g103dg4108g8f5dgc7afd6d31b78"
 data "Description" "h5a92edb6gd8dag4736g81f4g3cfa196b7401"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "AttackedWithPassiveSourceWeapon() and IsKillingBlowish() and FrostmourneSoulCheck()"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and IsKillingBlow() and FrostmourneSoulCheck()"
 data "StatsFunctors" "ApplyStatus(FROSTMOURNE_SOUL, 100, -1);IF(not CharacterLevelGreaterThan(5, context.Target)):ApplyStatus(FROSTMOURNE_SOUL_ZOMBIE, 100, -1);IF(CharacterLevelGreaterThan(5, context.Target) and not CharacterLevelGreaterThan(10, context.Target)):ApplyStatus(FROSTMOURNE_SOUL_GHOUL, 100, -1);IF(CharacterLevelGreaterThan(10, context.Target)):ApplyStatus(FROSTMOURNE_SOUL_MUMMY, 100, -1)"
 
 new entry "FROSTMOURNE_SOUL"
@@ -148,7 +148,7 @@ data "DisplayName" "h98f72d67g2196g44e1ga048g676c6f703983"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
-// data "Conditions" "AttackedWithPassiveSourceWeapon() and IsKillingBlowish() and Enemy()"
+// data "Conditions" "AttackedWithPassiveSourceWeapon() and IsKillingBlow() and Enemy()"
 data "StatsFunctors" "IF(BlowsUp({{$die}})):ApplyEquipmentStatus(SELF, MeleeMainHand, FROSTMOURNE_HUNGERS_D{{$nextDie}}, 100, -1)"
 {{- end }}
 

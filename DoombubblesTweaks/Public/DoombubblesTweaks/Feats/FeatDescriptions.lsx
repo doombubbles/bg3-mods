@@ -197,6 +197,13 @@
           <attribute id="FeatId" type="guid" value="c332e1c7-4750-4afa-a39f-04e34163e873"/>
           <attribute id="UUID" type="guid" value="25cf167e-cfe6-46cb-88ff-489f670d37dd"/>
         </node>
+        <node id="FeatDescription">
+          <attribute id="Description" type="TranslatedString" handle="h66977923g0781g48a1g9199g1ba926d72dbe" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h9bb19e78g8889g4501g8d71gd3756d634644" version="1"/>
+          <attribute id="ExactMatch" type="FixedString" value="SkillExpert"/>
+          <attribute id="FeatId" type="guid" value="ad0dd653-5854-45db-a86f-b0245a6073f7"/>
+          <attribute id="UUID" type="guid" value="753072c4-ce9c-4cf4-8e2a-db81a0b1d5cd"/>
+        </node>
       </children>
     </node>
   </region>

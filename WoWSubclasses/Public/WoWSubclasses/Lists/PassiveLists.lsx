@@ -20,11 +20,15 @@
         </node>
 
         
-        <!-- Divine Power -->
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Divine Power"/>
           <attribute id="Passives" type="LSString" value="Smite_Divine,HolyPower"/>
           <attribute id="UUID" type="guid" value="af7c7f74-03d1-4552-b5d7-afbc48ea7471"/>
+        </node>
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Retribution Lvl 7 Talents"/>
+          <attribute id="Passives" type="LSString" value="AuraOfRetribution_Unlock,ArtOfWar"/>
+          <attribute id="UUID" type="guid" value="039e110d-a4ab-4880-a64e-927e95b223c1"/>
         </node>
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Improved Divine Power"/>
@@ -32,11 +36,31 @@
           <attribute id="UUID" type="guid" value="9df19648-10c4-4f44-b4d4-8d5ea6a52d11"/>
         </node>
 
+
         <node id="PassiveList">
-          <attribute id="Name" type="FixedString" value="Retribution Passive Choice"/>
-          <attribute id="Passives" type="LSString" value="AuraOfRetribution_Unlock,ArtOfWar"/>
-          <attribute id="UUID" type="guid" value="039e110d-a4ab-4880-a64e-927e95b223c1"/>
+          <attribute id="Name" type="FixedString" value="Arcane Lvl 2 Talents"/>
+          <attribute id="Passives" type="LSString" value="Clearcasting,ArcanePower,ArcaneBlast"/>
+          <attribute id="UUID" type="guid" value="85cf4a70-0c20-4a03-891f-25b0bef913a2"/>
         </node>
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Arcane Lvl 6 Talents"/>
+          <attribute id="Passives" type="LSString" value="ArcaneMissiles,PresenceOfMind,PrismaticBarrier"/>
+          <attribute id="UUID" type="guid" value="34ba8ba9-d0e4-472e-99a7-0498b75a46ce"/>
+        </node>
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Arcane Lvl 10 Talents"/>
+          <attribute id="Passives" type="LSString" value="ArcaneIntellect,ArcaneSurge,Evocation"/>
+          <attribute id="UUID" type="guid" value="275e4937-fa9b-4118-b489-54bffd226de3"/>
+        </node>
+
+
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Fire Lvl 6 Talents"/>
+          <attribute id="Passives" type="LSString" value="Ignite,FlamePatch"/>
+          <attribute id="UUID" type="guid" value="9e8919c3-8750-4a9d-99d5-53f164a1f3fd"/>
+        </node>
+
+
 
       </children>
     </node>

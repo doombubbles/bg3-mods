@@ -215,7 +215,7 @@ data "Description" "h1ed81167g8940g4984gbd3dg072b9f71e0c0"
 data "Icon" "Action_DeathKnight_DeathStrike"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "not Self() and Character() and Enemy() and IsKillingBlowish()"
+data "Conditions" "not Self() and Character() and Enemy() and IsKillingBlow()"
 data "StatsFunctors" "ApplyStatus(SELF, DARK_SUCCOR, 100, -1)"
 
 new entry "DARK_SUCCOR"

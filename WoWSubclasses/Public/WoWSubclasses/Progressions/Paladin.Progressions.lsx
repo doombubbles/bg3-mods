@@ -239,7 +239,7 @@
           <attribute id="Level" type="uint8" value="7"/>
           <attribute id="Name" type="LSString" value="Retribution"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectPassives(039e110d-a4ab-4880-a64e-927e95b223c1,1);SelectSpells(9231fd8a-5cb7-460d-a548-65be507f9fc6,0,1,OathSpells,,,AlwaysPrepared)"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(039e110d-a4ab-4880-a64e-927e95b223c1,1,Talent);SelectSpells(9231fd8a-5cb7-460d-a548-65be507f9fc6,0,1,OathSpells,,,AlwaysPrepared)"/>
           <attribute id="TableUUID" type="guid" value="b82578b7-9802-413d-9a08-e4cecc2975c6"/>
           <attribute id="UUID" type="guid" value="acdc8624-4616-4cb9-a87c-eac3bfebf086"/>
         </node>

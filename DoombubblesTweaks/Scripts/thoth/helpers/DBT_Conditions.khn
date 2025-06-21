@@ -114,8 +114,8 @@ function IsUnarmedWildshape()
       ~(Tagged('MYRMIDON_AIR', context.Source) | Tagged('MYRMIDON_FIRE', context.Source) | Tagged('MYRMIDON_WATER', context.Source))
 end
 
-function IsKillingBlowish()
-  return IsKillingBlow() | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
+function IsKillingBlow()
+    return HasDamageEffectFlag(DamageFlags.KillingBlow) | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
 end
 
 function IsDamageTypeUnarmed()

@@ -135,6 +135,12 @@
 
         <!--Added Feats-->
         <node id="Feat">
+          <attribute id="Name" type="FixedString" value="SkillExpert"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="Selectors" type="LSString" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,SkilledSkills);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,1);SelectAbilities(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,1,1)"/>
+          <attribute id="UUID" type="guid" value="ad0dd653-5854-45db-a86f-b0245a6073f7"/>
+        </node>
+        <node id="Feat">
           <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
           <attribute id="Name" type="FixedString" value="EldritchAdept"/>
           <attribute id="Selectors" type="LSString" value="SelectAbilities(6d64a5f2-c26a-4af9-8957-7370ff51f0de,1,1);SelectPassives(ae25190d-8513-40aa-9e7a-d2d57202b6a3,1,WarlockInvocations)"/>

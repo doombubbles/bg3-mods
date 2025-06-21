@@ -56,8 +56,8 @@ function CarnageSpellCheck()
   return HasUseCosts('ActionPoint') & RuneSpellCheck() & ~ExtraAttackSpellCheck()
 end
 
-function IsKillingBlowish()
-  return IsKillingBlow() | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
+function IsKillingBlow()
+    return HasDamageEffectFlag(DamageFlags.KillingBlow) | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
 end
 
 function BlowsUp(die) -- Never Stop Blowing Up!

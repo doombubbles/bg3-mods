@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
 
+	<!-- Fire -->
+
 	<content contentuid="h4598485cg8579g426eg818agcc8a893677e6" version="1">Fire</content>
 	<content contentuid="hed3a9cd0gf34bg4a8dg935agb32ee5ab0168" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in mastering primordial elements like Fire.</content>
 
 	<content contentuid="h0c71f663gd232g4e0bg9380g460187775309" version="1">Hot Streak</content>
-	<content contentuid="h12baa293g17c2g4ea6gb45fg4fbe2978590d" version="1">When you land a Critical Hit against a creature using a Fire spell, the next Fire spell you cast costs a bonus action instead of an action.</content>
+	<content contentuid="h12baa293g17c2g4ea6gb45fg4fbe2978590d" version="1">When you land a Critical Hit against an enemy using a Fire spell, the next Fire spell you cast costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead of an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
 	<content contentuid="hc35c7d24g558fg440dg8d77gbae67e9419dc" version="1">Heating Up</content>
-	<content contentuid="h84f697c6g24d1g4874ga510g009c4ac6eb0c" version="1">Activate &lt;LSTag Type="Status" Tooltip="HOT_STREAK"&gt;Hot Streak!&lt;/LSTag&gt; to make the next Fire spell you cast cost a bonus action instead of an action.</content>
+	<content contentuid="h84f697c6g24d1g4874ga510g009c4ac6eb0c" version="1">Activate &lt;LSTag Type="Status" Tooltip="HOT_STREAK"&gt;Hot Streak!&lt;/LSTag&gt; to make the next Fire spell you cast cost a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead of an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
 	<content contentuid="h9b12c82ega624g4af8ga5a2g19314ef6239d" version="1">Hot Streak!</content>
-	<content contentuid="hfce95c9dg1493g4a5dgb4f3ge7efd43585b2" version="1">The next Fire spell you cast costs a bonus action instead of an action.</content>
+	<content contentuid="hfce95c9dg1493g4a5dgb4f3ge7efd43585b2" version="1">The next Fire spell you cast costs a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead of an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
+
 	<content contentuid="he82dbec1g6274g4ccdg98b2g8e2db368ef0a" version="1">Critical Mass</content>
 	<content contentuid="h48b215bagb7e3g4fd0gab3eg18c6b4889403" version="1">The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with Fire spells is reduced by 1. This effect can stack.</content>
+
 	<content contentuid="h26e7d6f8g57b6g4867g85d4g170c29722b59" version="1">Ignite</content>
 	<content contentuid="h0c1220a6gfc31g483bga7aeg0df6567e0522" version="1">Dealing Fire damage with a spell applies [1] turns of &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; to the target.</content>
+	<content contentuid="h90454e05g2a67g4138g8f5dgf47c9d1dfad8" version="1">Repeated applications cause an extra tick of Fire damage.</content>
+
+	<content contentuid="h6486b691g43a1g4d0fg9da8gfd5a1fc2e3db" version="1">Flame Patch</content>
+	<content contentuid="h3b1e5d50g9fc6g4a8ag86b3g46b0a5b2d793" version="1">Dealing Fire damage with a spell creates a &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; surface on impact that lasts [1] turns.</content>
+
 	<content contentuid="h14e0e770g2558g48e7ga72fg82428f99e44d" version="1">Firestarter</content>
 	<content contentuid="ha2328454gab46g4300gb88dg9d52fa8ad601" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, attacking a creature at full HP with a Fire Spell is a guaranteed Critical Hit.</content>
+
 	<content contentuid="h904d4cc7g991eg4565g946ag1eb32a0f4016" version="1">Cauterize</content>
 	<content contentuid="hfd0426f6g9efcg49cbgb8c4ge3e5bb978a9e" version="1">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, if you drop to [1] &lt;LSTag Tooltip="HitPoints"&gt;hit point&lt;/LSTag&gt;, you regain [2] instead of being &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; and gain &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;.</content>
+
+	<!-- Frost -->
 
 	<content contentuid="h86117c92g20b5g456fg93b0gf112d2326b0a" version="1">Frost</content>
 	<content contentuid="hd76d5d39g9c18g4c34g8c4ag3ee5b9237ced" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in mastering the force of cold.</content>
@@ -36,21 +48,58 @@
 	<content contentuid="hf5bbbc92gc99cg4b99gb7e4g45402de6d2c1" version="1">Encase yourself in ice, becoming &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage but unable to move or take actions until the start of your next turn.</content>
 	<content contentuid="h93b5b0e9g6447g424fgb4dfg7b0e25ed50ae" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage but unable to move or take actions until the start of your next turn.</content>
 
+	<!-- Arcane -->
+
 	<content contentuid="h44517b41geaa5g462fgba7cg6ad65b29adfe" version="1">Arcane</content>
 	<content contentuid="h85acb321g0934g4e65g8e1ag910fa4927572" version="1">Beyond the eight traditional schools of magic, Wizards can also specialize in manipulating the very weave itself.</content>
 
-	<content contentuid="h096d2a11g49edg4fe2gb2e5g431740d574c5" version="1">Clearcasting</content>
-	<content contentuid="h528e8449g04a4g486dgbaecgfc6c2d683b3f" version="1">You can directly spend your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; to cast spells. The cost is equal to [1] less than the &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; level (minimum 1), or [2] less for &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt;.</content>
-	<content contentuid="h23f1149agda6eg4a8bgb2a9g6ab4f9a27562" version="1">Whenever you expend a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; in combat, you have a chance based on the spell's level to gain &lt;LSTag Type="Status" Tooltip="CLEARCASTING"&gt;Clearcasting&lt;/LSTag&gt;, allowing you to cast your next spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
-	<content contentuid="h7d14fd26g6c8eg48d8gaa9cgee7e47ab5af2" version="1">The next spell you cast doesn't cost a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
 	<content contentuid="ha3a3048cg0480g41a6gbdf8gaf945e80bbc6" version="1">Savant</content>
 	<content contentuid="h244a9a72g71c4g4c42g949cg3e3ff6c96b3f" version="1">You now regain all your &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h096d2a11g49edg4fe2gb2e5g431740d574c5" version="1">Clearcasting</content>
+	<content contentuid="hdadbed99gb582g4458gaa14g3414209c1877" version="1">You can directly cast spells using &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; in place of a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;. The cost is equal to the spell's level.</content>
+	<content contentuid="h23f1149agda6eg4a8bgb2a9g6ab4f9a27562" version="1">Whenever you expend a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; in combat, you have a chance based on the spell's level to gain &lt;LSTag Type="Status" Tooltip="CLEARCASTING"&gt;Clearcasting&lt;/LSTag&gt;, allowing you to cast your next spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h7d14fd26g6c8eg48d8gaa9cgee7e47ab5af2" version="1">The next spell you cast doesn't cost a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h4439fae5ga407g4b4dga7a3g4f5458ab944f" version="1">Arcane Power</content>
+	<content contentuid="h97e20418gbd5cg4be1gba4ag5917999b56da" version="1">You can spend &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; to replace the primary &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throw&lt;/LSTag&gt; of a spell with an &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; &lt;LSTag Tooltip="SkillCheck"&gt;check&lt;/LSTag&gt; against 10 + the target's Level. The cost is equal to the spell's level, or 1 for cantrips.</content>
+
+	<content contentuid="h7113631cg64d1g4676g9690ga1985ed6c602" version="1">Arcane Blast</content>
+	<content contentuid="h2ec9328dg0026g4eb5g87f3g1d7e4bae5732" version="1">Unleash pure arcane energy that always hits its target.</content>
+	<content contentuid="hf4f78f20g8956g4ef6gb91eg588fbcee79e5" version="1">Bonuses to your passive &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; score also increase the damage of &lt;LSTag Type="Spell" Tooltip="Projectile_ArcaneBlast"&gt;Arcane Blast&lt;/LSTag&gt;.</content>
+	<content contentuid="h152be26bg6077g4880g81b6gc9ff72485931" version="1">Learn the &lt;LSTag Type="Spell" Tooltip="Projectile_ArcaneBlast"&gt;Arcane Blast&lt;/LSTag&gt;spell.</content>
+
+
+	<content contentuid="h581e77e6g3a7eg45cag93b0gd127a84a8910" version="1">Arcane Missiles</content>
+	<content contentuid="he453229cgfd5eg469cgb540g3dea852c8733" version="1">For each &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charge&lt;/LSTag&gt; you spend, you can make your next cast of &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt; shoot that many additional darts.</content>
+	<content contentuid="h95635494gadb6g4620ga5b4ge5ad2ae86467" version="1">When you cast &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt;, you will expend &lt;LSTag Type="Status" Tooltip="ARCANE_MISSILES"&gt;Arcane Missiles&lt;/LSTag&gt; stacks to shoot that many additional darts.</content>
+	<content contentuid="hf88afa74g2837g4c43g8502gae78b5e84495" version="1">The maximum number of additional darts per cast is equal to your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; modifier.</content>
+
+	<content contentuid="h6bd28040g7116g493bg870eg01085a88c1d7" version="1">Presence of Mind</content>
+	<content contentuid="h8c3583c5g2b7eg44c3g8a53g7861fd7a25d0" version="1">When spending &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; to cast a spell, you can spend 1 extra to make the spell cost a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead of an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
+
+	<content contentuid="ha5de1efdg1f3cg4ea6g8432g2875ac31e4a2" version="1">Prismatic Barrier</content>
+	<content contentuid="h8e03c6eagbeb4g4547gba73g952f21135431" version="1">When spending &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt;, gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to 5x the amount spent. While they remain active, you have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to damage from spells.</content>
+
+
 	<content contentuid="h84e066e5g75e7g4d64ga375ga994ea3b3606" version="1">Arcane Intellect</content>
-	<content contentuid="h5ac6cad7g0f2eg4bbfg9ea4ge18c0b6de2f4" version="1">You and other members of your party gain a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; to a maximum of 22.</content>
-	<content contentuid="hd14d6e14gb942g4822g96b4g9aaf55e01fc0" version="1">Has a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; to a maximum of 22.</content>
+	<content contentuid="h5ac6cad7g0f2eg4bbfg9ea4ge18c0b6de2f4" version="1">You and other members of your party gain a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
+	<content contentuid="hd14d6e14gb942g4822g96b4g9aaf55e01fc0" version="1">Has a +[1] bonus to &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h3f7f3e27g6112g4db5g863dg80e54b3a331f" version="1">Your &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; become harder to evade entirely.&lt;br&gt;&lt;br&gt;When a creature succeeds its &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or you miss your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; for one of your cantrips, it still takes half the cantrip's damage, but suffers no additional effects.</content>
+	<content contentuid="haf88e4c2g5d7fg4c65ga134gd0d1660bd0bd" version="1">Arcane Surge</content>
+	<content contentuid="hb93210ebg5d75g4da9gb641g5d6a6613332d" version="1">For each &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charge&lt;/LSTag&gt; you spend on this spell, deal [1] and gain 1 turn of &lt;LSTag Type="Status" Tooltip="ARCANE_SURGE"&gt;Arcane Surge&lt;/LSTag&gt;, which adds [2] to all damage you deal with spells. During the duration, you can restore &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; by killing enemies, up to the original amount spent.</content>
+	<content contentuid="h18980cffge6b7g4926g9d2fge0439723781f" version="1">Deal [1], and gain [2] turns of &lt;LSTag Type="Status" Tooltip="ARCANE_SURGE"&gt;Arcane Surge&lt;/LSTag&gt;, which adds [3] to all damage you deal with spells. During the duration, you can restore up to [2] &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charges&lt;/LSTag&gt; by killing enemies.</content>
+	<content contentuid="h07c0e890g4778g4b2cgb8d3gac946d345c01" version="1">Spell damage increased by [1].</content>
+	<content contentuid="h0e21c6d4ga8c7g4923gaf86gcffdfc9490d9" version="1">Surging Urge</content>
+	<content contentuid="h9555ad54gda53g4bbfg8349g1f360cdc5532" version="1">Killing an enemy will restore a &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charge&lt;/LSTag&gt;.</content>
+	<content contentuid="h1bb72860geacbg49dcg9ad9g6d28246cedf3" version="1">Learn the &lt;LSTag Type="Spell" Tooltip="Projectile_ArcaneSurge"&gt;Arcane Surge&lt;/LSTag&gt; spell.</content>
 
+	<content contentuid="h0b460ccbg3ddeg4d0ega637gce3eb626af64" version="1">Evocation</content>
+	<content contentuid="h9c306580g5063g4827g8c49g0b7c5c46093d" version="1">Restore 1 &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charge&lt;/LSTag&gt; now, and 1 more at the start of each turn for [1] turns.</content>
+	<content contentuid="h5cad71bag9ceag406fg8424g013947ac513a" version="1">Restoring 1 &lt;LSTag Type="ActionResource" Tooltip="ArcaneRecoveryPoint"&gt;Arcane Recovery Charge&lt;/LSTag&gt; at the start of each turn.</content>
+	<content contentuid="h3c284733g5fd2g4ddfg9478g1369687d2f8a" version="1">Learn the &lt;LSTag Type="Spell" Tooltip="Shout_Evocation"&gt;Evocation&lt;/LSTag&gt; spell.</content>
+
+	<!-- Chronomancy -->
 
 	<content contentuid="h5ece9bb2g332bg40b8gab37g8484bc78e972" version="1">Chronomancy</content>
 	<content contentuid="h7b78065bg3146g4c9bg9ea0gc432c8fe994f" version="1">Beyond the eight traditional schools of magic, a select few Wizards specialize in the greatest magic of all...&lt;br&gt;&lt;br&gt;No, not friendship, what the fuck is wrong with you? Friends die all the time! All this "Love is the greatest magic of all" bullshit--so, in a war, a mother and her children get fucking iced in alleyway outside their home, was the problem that they didn't love eachother enough? That's crazy! Love is not magic! Love is love, magic is magic, and the greatest magic of all is CHRONOMANCY!</content>
@@ -68,11 +117,12 @@
 	<content contentuid="ha75a1783g8453g48a8ga0dag6fe2f12b4922" version="1">Time Heals All Wounds</content>
 	<content contentuid="h35d66002g9daag43f5g8a52g19602d973abc" version="1">The list of spells you can learn is expanded to include a number of Healing spells not normally on the Wizard spell list.</content>
 
-	<content contentuid="h8366c262g05d4g4d5fg8cc8g483ee4fc6924" version="1">Master of Time</content>
+	<content contentuid="h8366c262g05d4g4d5fg8cc8g483ee4fc6924" version="1">Heightened Chronomancy</content>
 	<content contentuid="h2fde50cagf987g4388g860bgc0ff6543ba3b" version="1">Enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throws&lt;/LSTag&gt; against your &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;Slow&lt;/LSTag&gt; spell.&lt;br&gt;&lt;br&gt;Creatures that you apply the &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Haste&lt;/LSTag&gt; condition to will be &lt;LSTag Type="Status" Tooltip="SLOW"&gt;Slowed&lt;/LSTag&gt; for 1 turn when it expires instead of becoming &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hd33ee35eg14e5g4570gb7f2g2cd42170419a" version="1">Time Lord</content>
-	<content contentuid="h930fe2a6gaa53g41ecgb9aegbe2bd8c308b1" version="1">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, when using &lt;LSTag Type="Spell" Tooltip="Shout_AlterTime"&gt;Alter Time&lt;/LSTag&gt; you can also return to the amount of &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; you had.</content>
-	<content contentuid="h6570a5f2g4283g42cegb6ddg6ab7ad718aae" version="1">When your &lt;LSTag Type="Spell" Tooltip="Shout_AlterTime"&gt;Alter Time&lt;/LSTag&gt; completes, you will also return to the number of &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; you had.</content>
+	<content contentuid="h930fe2a6gaa53g41ecgb9aegbe2bd8c308b1" version="1">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, when your &lt;LSTag Type="Spell" Tooltip="Shout_AlterTime"&gt;Alter Time&lt;/LSTag&gt; completes, you can also return to the total amount of &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; you started with.</content>
+	<content contentuid="h6570a5f2g4283g42cegb6ddg6ab7ad718aae" version="1">When your &lt;LSTag Type="Spell" Tooltip="Shout_AlterTime"&gt;Alter Time&lt;/LSTag&gt; completes, you will also return to the total amount of &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; you started with.</content>
+
 
 </contentList>

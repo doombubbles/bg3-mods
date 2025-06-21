@@ -47,6 +47,10 @@ function ClearCastingSpellCheck()
   return IsSpell() & (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot'))
 end
 
+function ClearCastingSpellCheck2()
+  return IsSpell() & HasUseCosts('ArcaneRecoveryPoint', true)
+end
+
 function WhirlwindSpellCheck()
   return SpellTypeIs(SpellType.Target) &
       (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))
@@ -99,7 +103,7 @@ function OathSpellCheck()
       | SpellCheck('Shout_DivineShield')
 end
 
-function OathSpellCheckHealing() 
+function OathSpellCheckHealing()
   return SpellCheck('Target_HolyShock')
       | SpellCheck('Target_HolyShock_Healing')
       | SpellCheck('Target_HolyShock_Damage')
@@ -107,10 +111,51 @@ function OathSpellCheckHealing()
       | SpellCheck('Zone_LightOfDawn')
 end
 
-function IsKillingBlowish()
-  return IsKillingBlow() | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
+function IsKillingBlow()
+  return HasDamageEffectFlag(DamageFlags.KillingBlow) |
+      (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
 end
 
 function AT(hp)
   return HasHPMoreThan(hp, context.Source) & ~HasHPMoreThan(hp + 5, context.Source)
+end
+
+function ContestedRoll(skill)
+  local result = Dead() | Item()
+  if not result.Result then
+    local skillCheck = SkillCheck(skill, context.Target.GetPassiveSkill(skill))
+    return ConditionResult(skillCheck.Result, {}, {}, skillCheck.Chance)
+  end
+  return result
+end
+
+function AB(amt)
+  if not SpellId('Projectile_ArcaneBlast').Result then
+    return ConditionResult(false)
+  end
+
+  return ConditionResult((context.Source.GetPassiveSkill(Skill.Arcana) - 10) == amt)
+end
+
+function ArcanePowerCheck()
+  return IsSpell() & (HasStringInSpellRoll('not SavingThrow') | HasStringInSpellRoll('Attack'))
+end
+
+function ArcanaCheck(...)
+  local result = Dead() | Item() | ~Character()
+  if not result.Result then
+    local skillCheck = SkillCheck(Skill.Arcana, 10 + context.Target.Level)
+    return ConditionResult(skillCheck.Result, {}, {}, skillCheck.Chance)
+  end
+  return result
+end
+
+function IsCantrip()
+  return HasCantripSpellLevel() &
+      HasSpellFlag(SpellFlags.Spell) &
+      ~HasUseCosts('SpellSlot') &
+      ~HasUseCosts('KiPoint') &
+      ~HasUseCosts('WarlockSpellSlot') &
+      ~HasUseCosts('NaturalRecoveryPoint') &
+      ~HasUseCosts('WildShape')
 end

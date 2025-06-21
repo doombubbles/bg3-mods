@@ -26,6 +26,10 @@ Choose to either get [ <img src='https://bg3.wiki/w/images/4/4b/Divine_Smite_Ico
 ### Holy Power
 
 {{ get .loca "h2b53eb29g0970g40a0g8773g881617e4dd18" | include "wikify" }}
+
+- 3 at Levels 1 - 3
+- 4 at Levels 4 - 9
+- 5 at Levels 10 - 12
   
 ## Level 3
 
@@ -45,7 +49,7 @@ You learn 2 new Oath Spells that are always prepared. They can come from the lis
 
 ## Level 7
 
-Choice between:
+{{ tpl (readFile "Wiki/Snippets/Talent.md") $ }}
 
 <img src="images/ControllerIcons/skills_png/Action_Paladin_AuraOfRetribution.png" height="40" align="left" alt="Action_Paladin_AuraOfRetribution.png" />
 

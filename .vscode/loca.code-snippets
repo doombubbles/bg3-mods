@@ -205,7 +205,10 @@
 		"body": "&lt;LSTag Tooltip=\"Heavy\"&gt;Heavy&lt;/LSTag&gt;"
 	},
 	"modifier": {
-		"prefix": ["modifier","abilitymodifier"],
+		"prefix": [
+			"modifier",
+			"abilitymodifier"
+		],
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"AbilityModifier\"&gt;Modifier&lt;/LSTag&gt;"
 	},
@@ -213,5 +216,25 @@
 		"prefix": "movementspeed",
 		"scope": "xml",
 		"body": "&lt;LSTag Tooltip=\"MovementSpeed\"&gt;Movement Speed&lt;/LSTag&gt;"
+	},
+	"skillcheck": {
+		"prefix": "skillcheck",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"SkillCheck\"&gt;Skill Checks&lt;/LSTag&gt;"
+	},
+	"arcana": {
+		"prefix": "arcana",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Arcana\"&gt;Arcana&lt;/LSTag&gt;"
+	},
+	"expertise": {
+		"prefix": "expertise",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Expertise\"&gt;Expertise&lt;/LSTag&gt;"
+	},
+	"skill": {
+		"prefix": "skill",
+		"scope": "xml",
+		"body": "&lt;LSTag Tooltip=\"Skill\"&gt;Skill&lt;/LSTag&gt;"
 	}
 }

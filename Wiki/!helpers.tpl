@@ -37,6 +37,7 @@
 | ireplace "restrain(ing|ed)" "[<img src='https://bg3.wiki/w/images/thumb/2/20/Restrained_Condition_Icon.webp/60px-Restrained_Condition_Icon.webp.png' height='25' align='top' /> restrain$1](https://bg3.wiki/wiki/Restrained_(Condition))"
 | replace "Advantage" "<img src='https://bg3.wiki/w/images/thumb/f/fc/Advantage_Icon.png/35px-Advantage_Icon.png' height='25' align='top' alt='35px-Advantage_Icon.png' />Advantage"
 | replace "Disadvantage" "<img src='https://bg3.wiki/w/images/thumb/b/b9/Disadvantage_Icon.png/33px-Disadvantage_Icon.png' height='25' align='top' alt='33px-Disadvantage_Icon.png' />Disadvantage"
+| replace "Concentration" "<img src='https://bg3.wiki/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png' height='25' align='top' alt='Concentration' />Concentration"
 
 | replace "**hit points**" "<img src='https://bg3.wiki/w/images/thumb/a/ac/Healing_Icon.png/50px-Healing_Icon.png' height='25' align='top' />**hit points**"
 | replace "Strength" "<img src=\"https://bg3.wiki/w/images/thumb/4/43/Strength_Small_Icon.png/50px-Strength_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Strength\" />Strength"
@@ -55,8 +56,6 @@
 | ireplace "Short Rest" "[Short Rest](https://bg3.wiki/wiki/Short_Rest)"
 | replace "**Rage**" "[**Rage**](https://bg3.wiki/wiki/Rage)"
 | replace "Stunned" "[Stunned](https://bg3.wiki/wiki/Stunned)"
-
-
 | replace "Howling Blast" "<a href='Death Knight Spells#howling-blast'> <img src='images/ControllerIcons/skills_png/Action_DeathKnight_HowlingBlast.png' height='25' align='top' alt='Action_DeathKnight_HowlingBlast.png' />Howling Blast</a>"
 | replace "Obliterate" "<a href='Death Knight Spells#obliterate'> <img src='images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png' height='25' align='top' alt='Action_DeathKnight_Obliterate.png' />Obliterate</a>"
 | replace "Frostscythe" "<a href='Death Knight Spells#frostscythe'> <img src='images/ControllerIcons/skills_png/Action_DeathKnight_Frostscythe.png' height='25' align='top' alt='Action_DeathKnight_Frostscythe.png' />Frostscythe</a>"

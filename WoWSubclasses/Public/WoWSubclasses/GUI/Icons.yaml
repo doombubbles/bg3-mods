@@ -24,5 +24,11 @@ Icons:
   - Action_Paladin_HammerOfJustice
   - Action_Paladin_Exorcism
   - Spell_Wizard_TimeWarp
-  - Spell_Wizard_AlterTime
+  - Skill_Wizard_AlterTime
   - PassiveFeature_Wizard_TimeLord
+  - PassiveFeature_Wizard_ArcaneMissiles
+  - PassiveFeature_Wizard_PresenceOfMind
+  - Spell_Wizard_ArcaneBlast
+  - PassiveFeature_Wizard_PrismaticBarrier
+  - Spell_Wizard_ArcaneSurge
+  - Skill_Wizard_Evocation
