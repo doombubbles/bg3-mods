@@ -2,7 +2,7 @@
 
 <img align="right" alt="Chronomancy Wizard Class Icon" height="150" src="images/ClassIcons/Chronomancy.png" />
 
-**Chronomancy** is a modded Subclass of [Wizard](https://bg3.wiki/wiki/Wizard) that gives Wizards basic healing capabilities, bonuses with temporally themed spells, and new ways to mess with time.
+**Chronomancy** is a modded Subclass of [Wizard](https://bg3.wiki/wiki/Wizard) that gives Wizards basic healing capabilities, bonuses with temporally themed spells, and new ways to mess with time. This obviously is not a real Mage specialization from World of Warcraft, but my friends and I have always wished that it was one, so this is the next best thing!
 
 <h3>
 

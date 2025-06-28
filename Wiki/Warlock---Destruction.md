@@ -1,4 +1,8 @@
-**Pact of Destruction** is a modded [Warlock](https://bg3.wiki/wiki/Warlock) [Pact](https://bg3.wiki/wiki/Pact_Boon) that focuses on <img src='https://bg3.wiki/w/images/8/84/Fire_Damage_Icon.png' height='25' align='top' alt='Fire Damage' />Fire damage spells as an alternative to [ <img src='https://bg3.wiki/w/images/thumb/d/db/Eldritch_Blast_Icon.webp/120px-Eldritch_Blast_Icon.webp.png' height='25' align='top' alt='' /> Eldritch Blast](https://bg3.wiki/wiki/Eldritch_Blast)
+# Pact of Destruction
+
+<img align="right" alt="Pact of Destruction Icon" height="100" src="https://bg3.wiki/w/images/1/1e/Draconic_Ancestry_Gold_Fire_Icon.webp" />
+
+**Pact of Destruction** is a modded [Warlock](https://bg3.wiki/wiki/Warlock) [Pact](https://bg3.wiki/wiki/Pact_Boon) that focuses on <img src='https://bg3.wiki/w/images/8/84/Fire_Damage_Icon.png' height='25' align='top' alt='Fire Damage' />Fire damage spells as an alternative to [ <img src='https://bg3.wiki/w/images/thumb/d/db/Eldritch_Blast_Icon.webp/120px-Eldritch_Blast_Icon.webp.png' height='25' align='top' alt='' /> Eldritch Blast](https://bg3.wiki/wiki/Eldritch_Blast).
 
 ## Level 3
 

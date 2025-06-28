@@ -1,3 +1,5 @@
+# Fury Barbarian
+
 <img align="right" alt="Fury Class Icon" height="150" src="images/ClassIcons/Fury.png" />
 
 **Fury** is a modded Subclass of [Barbarian](https://bg3.wiki/wiki/Barbarian) that foregoes the defensive bonuses of [Rage](https://bg3.wiki/wiki/Rage) to instead gain more <img src="https://bg3.wiki/w/images/thumb/d/d6/Rage_Charges_Icons.png/27px-Rage_Charges_Icons.png" height="25" align="top" alt="RageCharges" />Rage Charges and new attacks to spend them on. Synergizes heavily with dual wielding.
