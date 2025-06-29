@@ -100,7 +100,7 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSString" value="doombubbles"/>
           <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-          <attribute id="Description" type="LSString" value="Adds new subclasses inspired by World of Warcraft Specialization, including Fury Barbarian, Oath of Retribution Paladin, and Fire/Frost/Arcane Wizard"/>
+          <attribute id="Description" type="LSString" value="Adds new subclasses inspired by World of Warcraft Specializations, including Fury Barbarian, Retribution/Holy/Protection Paladin, and Fire/Frost/Arcane Wizard. Also adds Blood Elf as a subrace, and Destruction and Demonology as new Warlock pacts."/>
           <attribute id="FileSize" type="uint64" value="2244703"/>
           <attribute id="Folder" type="LSString" value="WoWSubclasses"/>
           <attribute id="LobbyLevelName" type="FixedString" value=""/>
