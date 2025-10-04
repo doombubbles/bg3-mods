@@ -137,7 +137,7 @@
           <attribute id="UUID" type="guid" value="b6dff231-4d32-47f8-a29f-462d9acdf4dd"/>
         </node>
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4);{{if not $.Values.MagicianLessSorceryPoints}}ActionResource(SorceryPoint,1,0){{end}}"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,5);{{if not $.Values.MagicianLessSorceryPoints}}ActionResource(SorceryPoint,1,0){{end}}"/>
           <attribute id="Level" type="uint8" value="9"/>
           <attribute id="Name" type="LSString" value="Magician"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>

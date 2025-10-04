@@ -342,7 +342,7 @@ data "Passives" "MAG_DarkJusticiar_Armor_Protection_Passive"
 new entry "Interrupt_Overwhelm"
 type "InterruptData"
 using "Interrupt_Overwhelm"
-data "Properties" "DealDamage(max(1,StrengthModifier),Bludgeoning,Nonmagical,,0,,,,,,MainMeleeWeapon)"
+// data "Properties" "DealDamage(max(1,StrengthModifier),Bludgeoning,Nonmagical,,0,,,,,,MainMeleeWeapon)"
 
 
 new entry "MAG_WYRM_Commander_Longsword_Passive"

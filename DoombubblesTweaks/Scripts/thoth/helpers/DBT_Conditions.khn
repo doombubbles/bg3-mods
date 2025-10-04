@@ -115,7 +115,8 @@ function IsUnarmedWildshape()
 end
 
 function IsKillingBlow()
-    return HasDamageEffectFlag(DamageFlags.KillingBlow) | (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
+  return HasDamageEffectFlag(DamageFlags.KillingBlow) |
+      (~HasStatus('WILDSHAPE_TECHNICAL', context.Target) & HasHPLessThan(1))
 end
 
 function IsDamageTypeUnarmed()

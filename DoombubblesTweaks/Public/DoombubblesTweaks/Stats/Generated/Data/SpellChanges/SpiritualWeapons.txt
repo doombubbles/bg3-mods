@@ -35,7 +35,7 @@ new entry "Interrupt_SpiritualOverwhelm"
 type "InterruptData"
 using "Interrupt_Overwhelm"
 data "DescriptionParams" "DealDamage(max(1,SpellCastingAbilityModifier), Force)"
-data "Properties" "DealDamage(max(1,SpellCastingAbilityModifier),Force,Magical,,0,,,,,,MainMeleeWeapon)"
+data "Properties" "DealDamage(max(1,SpellCastingAbilityModifier),Force,Magical)"
 
 
 {{ range $weapon, $info := $.SpiritualWeapons }}
