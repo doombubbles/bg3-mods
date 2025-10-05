@@ -26,7 +26,7 @@
 								</node>
 							</children>
 						</node>
-						{{- range $class := list "Arcane" "Fire" "Frost" "Fury" "Retribution" "Holy" "Protection" "Chronomancy" }}
+						{{- range $class := list "Arcane" "Fire" "Frost" "Fury" "Retribution" "Holy" "Protection" "Chronomancy" "ShadowDomain" }}
 						<node id="Object">
 							<attribute id="MapKey" type="FixedString" value="Assets/ClassIcons/hotbar/{{$class}}.png" />
 							<children>

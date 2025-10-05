@@ -17,6 +17,8 @@
 
 - Barbarian
   - [[ Fury | Barbarian---Fury ]]
+- Cleric
+  - [[ Shadow Domain | Cleric---Shadow ]]
 - Paladin
   - [[ Oath of Retribution | Paladin---Retribution ]]
   - [[ Oath of Holiness | Paladin---Holy ]]

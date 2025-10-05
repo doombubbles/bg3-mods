@@ -6,13 +6,12 @@
 
 > {{ get .loca "hf66e9153gca0eg4a51gba5bg7bc315652d59" | quote }}
 
-</h3>
 
 # Subclass Features
 
 ## Level 3
 
-## Fury Attacks: 2 Known
+### Fury Attacks: 2 Known
 - Choose 2 [Fury Attacks](#fury-attacks) to know
 
 <img src="https://bg3.wiki/w/images/6/68/Frenzy_Icon.webp" height="40" align="left" alt="" />
@@ -33,7 +32,7 @@ When you make an offhand attack while Raging, you can add your Ability Score Mo
 
 ## Level 6
 
-## Fury Attacks: 3 Known
+### Fury Attacks: 3 Known
 - Choose 2 additional [Fury Attacks](#fury-attacks) to know
 
 
@@ -54,7 +53,7 @@ You can use Two-Weapon Fighting even if your weapons aren't [Light](https://bg3.
 
 ## Level 10
 
-## Fury Attacks: 4 Known
+### Fury Attacks: 4 Known
 - Choose 2 additional [Fury Attacks](#fury-attacks) to know
 
 <img src="https://bg3.wiki/w/images/6/69/Reckless_Warcry_Icon.webp" height="40" align="left" alt="" />

@@ -210,6 +210,15 @@
           <attribute id="Name" type="FixedString" value="ExorcismFullCantrip"/>
           <attribute id="UUID" type="guid" value="f8bc0c84-5830-4c02-934a-50e197b31861"/>
         </node>
+        <node id="LevelMapSeries">
+          <attribute id="FallbackValue" type="LSString" value="1"/>
+          <attribute id="Level1" type="LSString" value="1"/>
+          <attribute id="Level5" type="LSString" value="2"/>
+          <attribute id="Level10" type="LSString" value="3"/>
+          <attribute id="Name" type="FixedString" value="Shadowform"/>
+          <attribute id="PreferredClassUUID" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+          <attribute id="UUID" type="guid" value="31b4bf68-7f70-4fbc-9b8d-d72884c8266e"/>
+        </node>
       </children>
     </node>
   </region>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+	<content contentuid="hc6e11265gccb6g41afgbb48g14a77765284b" version="1">Shadow Domain</content>
+	<content contentuid="h4efa3342g79d2g46d7g935ag073df6793b59" version="1">Uses sinister Psychic magic from a connection to the Void itself to eradicate enemies.</content>
+	<content contentuid="ha7c817f4g3498g4f01gb74bg7c6e3b4d5b30" version="1">Shadow</content>
+
+	<content contentuid="h9ef0c81cg10e2g4069gbdf1ga943a6154b94" version="1">Lesser Mind Blast</content>
+	<content contentuid="ha794b99dg74afg42a5gbfa6gf57ed495b9b1" version="1">Spew forth a conical wave of psychic energy against enemies.</content>
+	<content contentuid="h17e0add9g1ba5g4313gba15g58bcb95d7b92" version="1">Spew forth a conical wave of psychic energy against enemies. If a target has &lt;LSTag Type="Status" Tooltip="SWP"&gt;Sahdow Word: Pain&lt;/LSTag&gt;, they will be &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; if they fail their &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+
+
+	<content contentuid="h2971bc69g38e1g48c2gb58fg43f87fde1f77" version="1">Shadow Word: Pain</content>
+	<content contentuid="h246efe6ag8a68g4999g87e6gde3cb1b31458" version="1">Utter a word of darkness that causes [1] now and at the start of each of their turns until they succeed an Intelligence &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="h5836ee7ag5918g41f3g99eag987923a9bef1" version="1">Taking [1] each turn until you succeed an Intelligence &lt;LSTag Tooltip="SavingThrows"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h65ece565ga949g49a7gb372g8520430c2342" version="1">Shadow Word: Death</content>
+
+	<content contentuid="h637995b9gef82g43bbgb24ag72db43f5f106" version="1">Shadowform</content>
+	<content contentuid="h14c61a33g3215g4b41gb232ga1f172bf93de" version="1">Assume a &lt;LSTag Type="Status" Tooltip="SHADOWFORM"&gt;Shadowform&lt;/LSTag&gt;, increasing all Psychic damage you deal by [1], and reducing Bludgeoning, Piercing, and Slashing damage you take by [2].</content>
+	<content contentuid="hd52b7f22gd431g433eg9a4cg3c70da021304" version="1">Dealing Radiant damage or casting a Healing Spell blocks your &lt;LSTag Type="Status" Tooltip="SHADOWFORM"&gt;Shadowform&lt;/LSTag&gt; for the rest of combat.</content>
+
+	<content contentuid="h15176defg6ae2g416eg9f8dg9094a631537c" version="1">Shadowform Blocked</content>
+	<content contentuid="hde21bf3cgb1c4g4de0g86edg9284ba930501" version="1">&lt;LSTag Type="Passive" Tooltip="Shadowform"&gt;Shadowform&lt;/LSTag&gt; can't be used again for the rest of combat.</content>
+	<content contentuid="h40efa000gad46g4bb3g9c51gcfb3a0eb100a" version="1">Using this spell will end your &lt;LSTag Type="Status" Tooltip="SHADOWFORM"&gt;Shadowform&lt;/LSTag&gt; and prevent it from being used again for the rest of combat.</content>
+
+</contentList>

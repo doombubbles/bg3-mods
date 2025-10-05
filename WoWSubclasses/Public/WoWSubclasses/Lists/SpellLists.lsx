@@ -154,6 +154,48 @@
           <attribute id="Spells" type="LSString" value="Shout_AlterTime"/>
           <attribute id="UUID" type="guid" value="838d061b-8764-4a8f-ae63-83a4910c53eb"/>
         </node>
+
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Cleric Shadow Domain 1"/>
+          <attribute id="Spells" type="LSString" value="Target_DissonantWhispers;Target_HideousLaughter"/>
+          <attribute id="UUID" type="guid" value="19046c7f-b363-4ac2-acea-511b71efcef7"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Cleric Shadow Domain 3"/>
+          <attribute id="Spells" type="LSString" value="Shout_ShadowBlade_Class;Target_Darkness"/>
+          <attribute id="UUID" type="guid" value="8d7721b7-57bd-4759-ba0d-33a742bf085b"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Cleric Shadow Domain 5"/>
+          <attribute id="Spells" type="LSString" value="Zone_Fear;Target_HungerOfHadar"/>
+          <attribute id="UUID" type="guid" value="424db748-1696-43ae-b90e-c8c871d35c7e"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Cleric Shadow Domain 7"/>
+          <attribute id="Spells" type="LSString" value="Target_PhantasmalKiller;Target_BlackTentacles"/>
+          <attribute id="UUID" type="guid" value="ce60b801-8e96-490a-bc69-fddaab966b22"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Cleric Shadow Domain 9"/>
+          <attribute id="Spells" type="LSString" value="Target_HoldMonster;Target_DominatePerson"/>
+          <attribute id="UUID" type="guid" value="1de5de15-3ada-4c96-8cb8-f07a5632d305"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Shadow Domain Custom Spells Level 1"/>
+          <attribute id="Spells" type="LSString" value="Target_ShadowWordPain"/>
+          <attribute id="UUID" type="guid" value="336ee449-4e35-4e0d-857c-523b86d7ca64"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Shadow Domain Custom Spells Level 6"/>
+          <attribute id="Spells" type="LSString" value="Target_ShadowWordDeath"/>
+          <attribute id="UUID" type="guid" value="dd166aa8-74d0-4b57-9d4d-37913c27f404"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Cleric Death Domain channel divinity"/>
+          <attribute id="Spells" type="LSString" value="Zone_MindBlast_Lesser"/>
+          <attribute id="UUID" type="guid" value="b005d0bc-84e8-4f39-8621-3b25db03b1ea"/>
+        </node>
+
       </children>
     </node>
   </region>

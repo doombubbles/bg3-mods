@@ -32,3 +32,7 @@ Icons:
   - PassiveFeature_Wizard_PrismaticBarrier
   - Spell_Wizard_ArcaneSurge
   - Skill_Wizard_Evocation
+  - Spell_Cleric_ShadowWordDeath
+  - Spell_Cleric_ShadowWordPain
+  - Action_Cleric_MindBlastLesser
+  - PassiveFeature_Cleric_ShadowForm

@@ -159,3 +159,27 @@ function IsCantrip()
       ~HasUseCosts('NaturalRecoveryPoint') &
       ~HasUseCosts('WildShape')
 end
+
+function IsClericCantrip()
+  return IsCantrip()
+end
+
+function CantripRank(rank)
+  if rank == 1 then
+    return ~CharacterLevelGreaterThan(4)
+  end
+
+  if rank == 2 then
+    return CharacterLevelGreaterThan(4) & ~CharacterLevelGreaterThan(9)
+  end
+
+  if rank == 3 then
+    return CharacterLevelGreaterThan(9)
+  end
+
+  return ConditionResult(false)
+end
+
+function HealingSpellCheck()
+  return SpellCheck('Target_HealingWord') | SpellCheck('Shout_HealingWord_Mass') | SpellCheck('Target_CureWounds') | SpellCheck('Target_CureWounds_Mass') | SpellCheck('Target_Heal')
+end

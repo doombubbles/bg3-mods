@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="314"/>
+  <region id="ClassDescriptions">
+    <node id="root">
+      <children>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="h4efa3342g79d2g46d7g935ag073df6793b59" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="hc6e11265gccb6g41afgbb48g14a77765284b" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="MustPrepareSpells" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="ShadowDomain"/>
+          <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+          <attribute id="PrimaryAbility" type="uint8" value="5"/>
+          <!-- b3505f8a-be78-401c-adea-bb466c14aa54 -->
+          <attribute id="ProgressionTableUUID" type="guid" value="552054d6-04a0-4e04-b068-6ff310aff676"/>
+          <attribute id="ShortName" type="TranslatedString" handle="ha7c817f4g3498g4f01gb74bg7c6e3b4d5b30" version="1"/>
+          <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+          <attribute id="UUID" type="guid" value="6cce0654-fe44-4e9a-bcf6-6aad275dd04e"/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>
