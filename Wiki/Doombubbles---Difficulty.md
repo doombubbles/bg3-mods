@@ -1,10 +1,20 @@
 # Doombubbles Difficulty Mod
 
-## Changes
+## Experimental Changes
 
-### Initiative
+These changes are less set in stone and may be turned on/off periodicaly
+
+### Initiative D12 (Currently OFF)
 
 Initiative die is now a D12
+
+### Potion Sickness (Currently ON)
+
+After being healed by a health potion, you must take a Short or Long Rest before you can be healed again by one.
+
+Explanation: This is an experiment aimed at changing the incentives around "Potion Baths" outside of combat being so strong that they significantly change the rate at which rests are needed.
+
+## Main Changes
 
 ### Tavern Brawler
 - Now uses your Proficiency Bonus instead of your Strength modifier
@@ -33,6 +43,8 @@ Many conditions which previously applied lasting Vulnerability for a damage type
 - Aura of Murder (version from Bhaalist Armour and Bloodthirst)
 - Chilled
 - Brittle
+
+Explanation: I've found that these vulnerability appliers warp the meta for burst damage builds too much for my tastes, so this change leaves them still relevant as a way to bypass Resistance like Elemental Adept.
 
 ### Scrolls
 

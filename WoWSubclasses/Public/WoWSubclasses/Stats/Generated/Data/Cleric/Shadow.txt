@@ -149,10 +149,6 @@ data "Priority" "10"
 data "RemoveEvents" "OnCombatEnded"
 data "StatusPropertyFlags" "ApplyToDead"
 
-// SHADOW CURSE
-// data "StatusEffect" "d2ec72fd-2375-4999-8197-71fefc86cd72"
-// data "ApplyEffect" "1ed3b27d-1d6f-40e1-8358-00a482b67f0d"
-// data "EndEffect" "012fbe50-e66c-4c25-8fd9-d4f02f26a694"
 
 
 // SHADOW ORB

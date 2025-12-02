@@ -1,1 +1,3 @@
+{{- if $.Values.InitiativeD12 }}
 key "InitiativeDie","12"
+{{- end }}

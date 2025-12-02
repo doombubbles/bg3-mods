@@ -31,6 +31,7 @@
   - [[ Fire | Wizard---Fire ]]
   - [[ Frost | Wizard---Frost ]]
   - [[ Arcane | Wizard---Arcane ]]
+  - [[ Chronomancy | Wizard---Chronomancy ]]
 
 ## DoombubblesTweaks
 

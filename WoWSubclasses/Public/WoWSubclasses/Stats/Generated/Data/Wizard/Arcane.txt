@@ -145,6 +145,7 @@ data "StackId" "ARCANE_MISSILES"
 data "StackType" "Additive"
 data "StatusPropertyFlags" "ApplyToDead;FreezeDuration;DisableCombatlog;DisableOverhead"
 data "Passives" "ArcaneMissiles_Cast"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 
 new entry "ArcaneMissiles_Cast"
@@ -152,10 +153,22 @@ type "PassiveData"
 using "ArcaneMissiles"
 data "Description" "h95635494gadb6g4620ga5b4ge5ad2ae86467"
 data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
+data "BoostContext" "OnStatusApplied;OnStatusRemoved;OnCreate;OnLongRest;OnCastResolved"
 data "Boosts" "{{range $i := untilStep 0 7 1}}IF(StatusDurationEqualOrMoreThan(context.Source,'ARCANE_MISSILES',{{add1 $i}}) and ConditionResult(GetModifier(context.Source.Intelligence) > {{$i}})):UnlockSpellVariant(MagicMissileSpellCheck(),ModifyNumberOfTargets(AdditiveBase,1,true));{{end}}"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "MagicMissileSpellCheck()"
 data "StatsFunctors" "{{range $i := untilStep 0 7 1}}IF(ConditionResult(GetModifier(context.Source.Intelligence) > {{$i}})):SetStatusDuration(ARCANE_MISSILES,-1,Add);{{end}}"
+data "ToggleOnFunctors" "ApplyStatus(ARCANE_MISSILES_TECHNICAL, 100, -1)"
+data "ToggleOffFunctors" "RemoveStatus(ARCANE_MISSILES_TECHNICAL)"
+
+
+new entry "ARCANE_MISSILES_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "ARCANE_MISSILES"
+data "StackId" "ARCANE_MISSILES_TECHNICAL"
+data "StatusPropertyFlags" "DisablePortraitIndicator;DisableCombatlog;DisableOverhead"
+data "Passives" ""
 
 
 new entry "PresenceOfMind"
