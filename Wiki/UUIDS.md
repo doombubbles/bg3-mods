@@ -63,3 +63,4 @@
 | Condemnate                          | `DBT_BanishingSmite_Quarterstaff` | `9982506f-5b8a-48ca-a88f-f4ab25142f62` |
 | Obsidian Laced Sparkswall of Summer | `DBT_Spell_Robe_Combo`            | `4d9eb76a-e7a1-445e-a7ee-f976270ef46e` |
 | Hitched Pointer's Ring              | `DBT_HpThreshold_Ring`            | `e73615df-ff70-497a-b29f-865c1cdbc8d3` |
+| Scroll of Time Warp                 | `OBJ_Scroll_TimeWarp`             | `7b1ec19f-d139-4d18-91dd-363f7e7e73a6` |

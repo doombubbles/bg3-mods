@@ -2,13 +2,24 @@
 
 new entry "Shout_TimeWarp"
 type "SpellData"
-using "Target_Haste
+using "Target_Haste"
 data "SpellType" "Shout"
+data "AreaRadius" "9"
 data "Level" "6"
 data "DisplayName" "hb3aa30bbg94b1g4aabgadb8g0e7fbbc0b9b6"
 data "Description" "h30f900dfg7be3g4e3ega85eg03c6ae38252b"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
 data "Icon" "Spell_Wizard_TimeWarp"
+
+new entry "OBJ_Scroll_TimeWarp"
+type "Object"
+using "_MagicScroll"
+data "RootTemplate" "7b1ec19f-d139-4d18-91dd-363f7e7e73a6"
+data "ValueLevel" "12"
+data "Rarity" "VeryRare"
+data "ObjectCategory" "MagicScroll_6"
+data "Priority" "1"
+
 
 new entry "TimeHealsAllWounds"
 type "PassiveData"
@@ -39,7 +50,7 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "Boosts" "StatusImmunity(HASTE_LETHARGY)"
 data "RemoveEvents" "OnStatusRemoved"
 data "RemoveConditions" "StatusId('HASTE') or StatusId('POTION_OF_SPEED') or StatusId('HASTE_SURFACE') or StatusId('CONS_DRUG_STIMULANT')"
-data "OnRemoveFunctors" "ApplyStatus(SELF,SLOW,100,1)"
+data "OnRemoveFunctors" "ApplyStatus(SLOW,100,1)"
 
 
 new entry "Shout_AlterTime"
