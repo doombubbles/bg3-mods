@@ -13,7 +13,7 @@ bin/ProcessTemplates.exe -s "$MODNAME" -d "$BUILD" -r build/values.yaml
 if [ -f "$RESULT" ]; then
   rm "$RESULT"
 fi
-bg3-modders-multitool.exe -s "$BUILD" -d "$RESULT" -c "1"
+./bin/bg3-modders-multitool/bg3-modders-multitool.exe -s "$BUILD" -d "$RESULT" -c "1"
 
 if [ ! -f "$RESULT" ]; then
   echo "BUILD FAILED!"
@@ -22,7 +22,7 @@ fi
 
 # Unpack to Output
 rm -rf ./output/$MODNAME
-bg3-modders-multitool.exe -s "$RESULT" -d "./output"
+./bin/bg3-modders-multitool/bg3-modders-multitool.exe -s "$RESULT" -d "./output"
 
 
 if [ -d "./output/$MODNAME/Localization/English" ]; then

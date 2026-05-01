@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "DarrenLevine.auto-debug",
+    "chromosome16.bg3-text-support",
+    "FallenStar.bg3guidinfos",
+    "golang.go",
+    "sumneko.lua",
+    "ms-python.python",
+    "esbenp.prettier-vscode"
+  ]
+}

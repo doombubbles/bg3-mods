@@ -1,0 +1,7 @@
+*
+!*/
+!.gitignore
+!bg3-modders-multitool.dll
+!bg3-modders-multitool.dll.config
+!bg3-modders-multitool.exe
+!bg3-modders-multitool.runtimeconfig.json

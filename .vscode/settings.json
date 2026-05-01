@@ -24,7 +24,8 @@
   "files.associations": {
     "*.txt": "bg3",
     "*.tmpl": "bg3",
-    "*.lsf.tmpl": "xml"
+    "*.lsf.tmpl": "xml",
+    "*.khn": "lua"
   },
   "editor.tabSize": 2,
   "editor.indentSize": "tabSize",
@@ -48,5 +49,12 @@
     "markdown": "html"
   },
   "emmet.showSuggestionsAsSnippets": false,
-  "emmet.useInlineCompletions": true
+  "emmet.useInlineCompletions": true,
+  "terminal.integrated.profiles.windows": {
+    "My Busybox Shell": {
+      "path": "${workspaceFolder}/bin/busybox.exe",
+      "args": ["bash", "-l", "-d", "$PWD"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "My Busybox Shell"
 }
