@@ -10,6 +10,7 @@ rm -rf "$BUILD"
 bin/ProcessTemplates.exe -s "$MODNAME" -d "$BUILD" -r build/values.yaml
 
 # Build Mod
+mkdir -p "./output"
 if [ -f "$RESULT" ]; then
   rm "$RESULT"
 fi
@@ -36,7 +37,7 @@ find "./output/$MODNAME" -type f -name "*.lsf.lsx" | while read -r file; do
   lsx_file="${lsf_lsx_file%.lsf.lsx}.lsx"
 
   if [ ! -f "$lsx_file" ]; then
-    Divine -g bg3 -a convert-resource -s "$lsf_lsx_file" -d "$lsf_file"
+    ./bin/lslib/Tools/Divine -g bg3 -a convert-resource -s "$lsf_lsx_file" -d "$lsf_file"
   fi
 
   rm "$lsf_lsx_file"
