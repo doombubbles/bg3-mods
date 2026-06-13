@@ -53,9 +53,7 @@ Runes:
 
 ### Blood Shield
 
-{{ getf .loca "hef8d5973g16deg428dg8c83g811464cfe765" "1" | include "wikify" }}
-
-{{ get .loca "h27d45cc4g02f1g4748g9a15g70b0d1a45b84" | include "wikify" }}
+{{ getf .loca "hef8d5973g16deg428dg8c83g811464cfe765" | include "wikify" }}
 
 ## Level 5
 

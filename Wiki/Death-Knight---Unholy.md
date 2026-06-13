@@ -52,8 +52,6 @@ Runes:
 
 {{ getf .loca "hf1f54bbag0888g40c0g8fbdgcb1efbe6e14b" | include "wikify" }}
 
-{{ get .loca "h27d45cc4g02f1g4748g9a15g70b0d1a45b84" | include "wikify" }}
-
 ## Level 5
 
 <h3>

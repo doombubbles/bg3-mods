@@ -71,4 +71,3 @@ Choose to either get [ <img src="https://bg3.wiki/w/images/f/fb/Improved_Divine_
 ### Divine Purpose
 
 {{ get .loca "hcaff58f1gf590g49c8gbfa2g9b2bccb320d7" | include "wikify" }}
-{{ get .loca "h93f28502gab63g405cg9c48g149a5807b013" | include "wikify" }}

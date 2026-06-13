@@ -1,7 +1,7 @@
 new entry "EmpowerRuneWeapon"
 type "PassiveData"
-data "DisplayName" "h180c6943ga45fg4481gb4e0g0774c7740221"
-data "Description" "h03d44092g7887g43f1g8ef5g0e513acdd39e"
+data "DisplayName" "h1b2cc74cge735g4948g8136g4d81a136d21f"
+data "Description" "h1c2be41ag6b58g4651gad3dgf7d097e5f6ca"
 data "Properties" "Highlighted"
 
 new entry "EmpowerRuneWeapon_Blood"
