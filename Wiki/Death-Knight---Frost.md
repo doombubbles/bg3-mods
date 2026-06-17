@@ -144,7 +144,7 @@ Runes:
 
 #### Empower Rune Weapon
 
-{{ getf .loca "h03d44092g7887g43f1g8ef5g0e513acdd39e" "1d8 Cold damage" | include "wikify" }}
+{{ getf .loca "h1c2be41ag6b58g4651gad3dgf7d097e5f6ca" "1d8 Cold damage" | include "wikify" }}
 
 <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png" height="40" align="left" alt="Action_DeathKnight_Obliterate.png" />
 
