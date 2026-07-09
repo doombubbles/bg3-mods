@@ -57,9 +57,26 @@ function WhirlwindSpellCheck()
 end
 
 function IsFuryAttack()
-  return (HasUseCosts('Rage') & (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))) |
-      SpellId('Target_Bloodthirst') | SpellId('Target_RagingBlow') | SpellId('Target_Execute_Fury') |
-      SpellId('Shout_Whirlwind_Fury') | (SpellId('Target_WildStrike') & ~HasStatus('WILD_STRIKE', context.Source))
+  return HasUseCosts('Rage') &
+      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack') | HasStringInSpellRoll('SavingThrow'))
+end
+
+function IsRefundableFuryAttack(always)
+  local always = always or false
+  return IsFuryAttack() & HasUseCosts('Rage', true) &
+      (always | (~SpellTypeIs(SpellType.Zone) & ~SpellTypeIs(SpellType.Shout) & ~HasStatus('WHIRLWIND', context.Source) & ~HasStatus('MEAT_CLEAVER', context.Source)))
+end
+
+function ChargeSpellCheck()
+  return SpellCheck('Rush_Charge_Warrior') | SpellCheck('Rush_Charge_Fury') | SpellCheck('Rush_Charge_Arms')
+end
+
+function ExecuteSpellCheck()
+  return SpellCheck('Target_Execute_Warrior') | SpellCheck('Target_Execute_Fury') | SpellCheck('Target_Execute_Arms')
+end
+
+function IsArmsStrike()
+  return HasUseCosts('Arms_Charge')
 end
 
 function HasWeaponInOffHand()
@@ -181,5 +198,6 @@ function CantripRank(rank)
 end
 
 function HealingSpellCheck()
-  return SpellCheck('Target_HealingWord') | SpellCheck('Shout_HealingWord_Mass') | SpellCheck('Target_CureWounds') | SpellCheck('Target_CureWounds_Mass') | SpellCheck('Target_Heal')
+  return SpellCheck('Target_HealingWord') | SpellCheck('Shout_HealingWord_Mass') | SpellCheck('Target_CureWounds') |
+      SpellCheck('Target_CureWounds_Mass') | SpellCheck('Target_Heal')
 end

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="326"/>
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+
+        {{ range $name, $values := $.Arms.Strikes }}
+
+        <node id="ActionResourceDefinition">
+          <attribute id="DisplayName" type="TranslatedString" handle="hae559bcdg709eg44abg848dg0673b4428547" version="3"/>
+          <attribute id="IsHidden" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="SneakAttack_Charge"/>
+          <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+          <attribute id="UUID" type="guid" value="1531b6ec-4ba8-4b0d-8411-422d8f51855f"/>
+        </node>
+
+        {{ end }}
+
+      </children>
+    </node>
+  </region>
+</save>

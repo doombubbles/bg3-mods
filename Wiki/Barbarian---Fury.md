@@ -25,15 +25,15 @@
 
 ### Single-Minded Fury
 
-When you make an offhand attack while Raging, you can add your Ability Score Modifier to the damage of the attack.
+When you make an offhand attack, you can add your Ability Score Modifier to the damage of the attack.
 
 *Does not stack with Two Weapon Fighting if obtained from another source*
 
 
 ## Level 6
 
-### Fury Attacks: 3 Known
-- Choose 2 additional [Fury Attacks](#fury-attacks) to know
+### Fury Attacks: 4 Known
+- Choose 2 additional [Fury Attack](#fury-attacks) to know
 
 
 <img src="https://bg3.wiki/w/images/e/e5/Mindless_Rage_Icon.webp" height="40" align="left" alt="" />
@@ -53,8 +53,8 @@ You can use Two-Weapon Fighting even if your weapons aren't [Light](https://bg3.
 
 ## Level 10
 
-### Fury Attacks: 4 Known
-- Choose 2 additional [Fury Attacks](#fury-attacks) to know
+### Fury Attacks: 6 Known
+- Choose 2 additional [Fury Attack](#fury-attacks) to know
 
 <img src="https://bg3.wiki/w/images/6/69/Reckless_Warcry_Icon.webp" height="40" align="left" alt="" />
 
@@ -72,7 +72,8 @@ You pick new Fury attacks to know at Levels 3, 6 and 10.
 ### Bloodthirst
 - Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 1 <img src="https://bg3.wiki/w/images/thumb/d/d6/Rage_Charges_Icons.png/27px-Rage_Charges_Icons.png" height="25" align="top" alt="RageCharges" />Rage charge on hit
 - Weapon Attack
-- {{ getf .loca "h7cfa12d9ga912g4421ga9b8g4b18f0c93fcb" "1d6 + Barbarian Level **hit points**" | include "wikify" }}
+- {{ getf .loca "h7cfa12d9ga912g4421ga9b8g4b18f0c93fcb" | include "wikify" }}
+- 1d6 + Barbarian Level **hit points**
 
 
 <img src="https://bg3.wiki/w/images/1/12/Action_Barbarian_FrenziedStrike.png" height="40" align="left" alt="" />
@@ -104,7 +105,7 @@ You pick new Fury attacks to know at Levels 3, 6 and 10.
 ### Whirlwind
 - Costs 1 <img src="https://bg3.wiki/w/images/f/f2/Action_Icon.png" height="25" align="top" alt="ActionPoint" />Action, 1 <img src="https://bg3.wiki/w/images/thumb/d/d6/Rage_Charges_Icons.png/27px-Rage_Charges_Icons.png" height="25" align="top" alt="RageCharges" />Rage charge
 - 2m AOE Weapon Attack
-- {{ getf .loca "ha331a835gf3c8g4043gaa9ag68646d8ff4ac" "1" | include "wikify" }}
+- {{ getf .loca "ha331a835gf3c8g4043gaa9ag68646d8ff4ac" "2" "2" | include "wikify" }}
 
 <img src="images/ControllerIcons/skills_png/Action_Rush.png" height="40" align="left" alt="" />
 

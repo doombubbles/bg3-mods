@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+  <content contentuid="he597f078g9cf1g41e5g8931g977e2293c55a" version="1">Execute</content>
+  <content contentuid="h9baff8c6gb3d0g4292gb126gf254ec89fb28" version="1">Attempt to finish off a foe below [2] hit points, dealing an extra [1] damage.</content>
+
+  <content contentuid="h65117e65g6090g484fga574g0bc24616d302" version="1">Whirlwind</content>
+  <content contentuid="ha331a835gf3c8g4043gaa9ag68646d8ff4ac" version="1">Unleashes a whirlwind of steel, striking all nearby enemies.</content>
+
+  <content contentuid="h221edabdg494bg4180g8c5fgbef3e3193d1e" version="1">Charge</content>
+  <content contentuid="hf0da666cg2c85g4ec5g8e19g809ec529afbf" version="1">Charge to an enemy, damaging and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restraining&lt;/LSTag&gt; them for [1] turn(s).</content>
+
+  <content contentuid="hf73627a9g9021g4ad0gb5ccg51f1cc99d2d6" version="1">Double Time</content>
+  <content contentuid="hed4d5e94g624ag4150gbc44gda72c63c8b15" version="1">After using &lt;LSTag Type="Spell" Tooltip="Rush_Charge"&gt;Charge&lt;/LSTag&gt;, you can use it once more with no class resource cost / cooldown.</content>
+  <content contentuid="h060bdaf3gdea4g44edgac7bg147381daf578" version="1">You can use &lt;LSTag Type="Spell" Tooltip="Rush_Charge"&gt;Charge&lt;/LSTag&gt; once more with no class resource cost or cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h20bcd44ag7f87g467bgbebdg2c66425c7d38" version="1">Sudden Death</content>
+  <content contentuid="h80b04b43ge3d2g4dfeg9473g9552277e5c2c" version="1">When you kill an enemy using a Fury Attack or Arms Strike, your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and has no class resource cost / cooldown.</content>
+  <content contentuid="h2371b7c9gf7b5g4f5cga36eg348acb88b79e" version="1">This can trigger once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h0d362f44g5873g4a4ag9b32gb43c9d72cd15" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and has no class resource cost or cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h6e16220fgd02dg4882g9982g5120697fa6c6" version="1">Thunder Clap</content>
+  <content contentuid="h1b63a656g6499g4b52g91f6g758d6e5adbff" version="1">Blasts all nearby enemies, possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, or else making them &lt;LSTag Type="Status" Tooltip="OFF_BALANACED"&gt;Off Balanced&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h39a5581fg45d8g4094g87f0gc33aa60312e7" version="1">Storm Bolt</content>
+  <content contentuid="ha0bbee44gedc3g403cga8dage3fb613e51c1" version="1">Hurl lightning at an enemy, possibly &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; them for 1 turn.</content>
+
+  <content contentuid="h5503c669g7ccbg4545g9ae2gabee40642259" version="1">Anger Management</content>
+  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">Whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a target, refund any spend &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; if it was a Fury Attack, or ignore its cooldown if it was an Arms Strike.</content>
+  <content contentuid="hec062353gee22g4cfeg97f6gcb776fc1e20c" version="1">Does not apply when multiple targets are attacked at once.</content>
+
+</contentList>

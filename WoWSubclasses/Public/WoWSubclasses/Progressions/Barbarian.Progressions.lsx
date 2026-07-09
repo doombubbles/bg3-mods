@@ -40,10 +40,10 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="3"/>
           <attribute id="Name" type="LSString" value="Fury"/>
-          <attribute id="PassivesAdded" type="LSString" value="RageRampageUnlock;SingleMindedFury"/>
+          <attribute id="PassivesAdded" type="LSString" value="RageRampageUnlock;SingleMindedFury;RageRefunding;BloodthirstPassive"/>
           <attribute id="PassivesRemoved" type="LSString" value="RageUnlock"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,2,0,FuryAttacks)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,2,0,FuryAttacks);SelectPassives(bb07b9ad-adce-4ff5-a881-dd255af272a1,1,Talent)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="f38da18f-54c9-46bc-a4e5-58822f1f78ed"/>
         </node>
@@ -69,9 +69,9 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="6"/>
           <attribute id="Name" type="LSString" value="Fury"/>
-          <attribute id="PassivesAdded" type="LSString" value="AngerManagement;TitansGrip"/>
+          <attribute id="PassivesAdded" type="LSString" value="TitansGrip"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,2,1,FuryAttacks)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(e08c6131-602e-4089-bbf6-2e68a1bee15c,2,1,FuryAttacks);SelectPassives(4a6bbe6f-6e4f-4928-be6e-8d60a2a5b241,1,Talent)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="eabaace9-fb25-46a8-8ef2-49f0a902a55b"/>
         </node>
@@ -80,7 +80,7 @@
           <attribute id="Level" type="uint8" value="7"/>
           <attribute id="Name" type="LSString" value="Fury"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(e08c6131-602e-4089-bbf6-2e68a1bee15c,0,1,FuryAttacks)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="44d124ad-0eba-4cf7-a938-f48ba0d6d6d6"/>
         </node>
@@ -89,7 +89,7 @@
           <attribute id="Level" type="uint8" value="8"/>
           <attribute id="Name" type="LSString" value="Fury"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(e08c6131-602e-4089-bbf6-2e68a1bee15c,0,1,FuryAttacks)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="7093062d-e0ad-464a-9ac6-bbd4d18d196c"/>
         </node>
@@ -98,7 +98,7 @@
           <attribute id="Level" type="uint8" value="9"/>
           <attribute id="Name" type="LSString" value="Fury"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(e08c6131-602e-4089-bbf6-2e68a1bee15c,0,1,FuryAttacks)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="2494433f-3df1-4a3c-82f7-8a661fa24502"/>
         </node>
@@ -108,7 +108,7 @@
           <attribute id="Name" type="LSString" value="Fury"/>
           <attribute id="PassivesAdded" type="LSString" value=""/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="AddSpells(d3806701-3175-46d2-9117-7ebaeec6f90a);SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,2,1,FuryAttacks)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(fa1b953c-820b-4b37-9a5a-a1326847ffbc,2,1,FuryAttacks);SelectPassives(71b7aa1e-12fd-44a2-bbf3-72a119476313,1,Talent)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="23fce3a1-021a-45fb-becb-70203715f086"/>
         </node>
@@ -117,7 +117,7 @@
           <attribute id="Level" type="uint8" value="11"/>
           <attribute id="Name" type="LSString" value="Fury"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(fa1b953c-820b-4b37-9a5a-a1326847ffbc,0,1,FuryAttacks)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="cc1714be-c8f6-4878-8706-a467e5858268"/>
         </node>
@@ -126,7 +126,7 @@
           <attribute id="Level" type="uint8" value="12"/>
           <attribute id="Name" type="LSString" value="Fury"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,0,1,FuryAttacks)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(fa1b953c-820b-4b37-9a5a-a1326847ffbc,0,1,FuryAttacks)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="0e808636-c744-4332-91c8-8604452c82c3"/>
         </node>

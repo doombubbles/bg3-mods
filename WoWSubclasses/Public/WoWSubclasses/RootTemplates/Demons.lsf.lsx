@@ -15,7 +15,7 @@
           <attribute id="LevelName" type="FixedString" value="" />
           <attribute id="LevelOverride" type="int32" value="5" />
           <attribute id="MapKey" type="FixedString" value="5f9f79e0-2772-4fa6-a4b5-cb944a784cd8" />
-          <attribute id="Name" type="LSString" value="Merregon_Demonolog7" />
+          <attribute id="Name" type="LSString" value="Merregon_Demonology" />
           <attribute id="ParentTemplateId" type="FixedString" value="9bbee0e3-4141-4561-9543-15d3a21000f4" />
           <attribute id="SpellSet" type="FixedString" value="CommonNPCActions" />
           <attribute id="Stats" type="FixedString" value="Merregon" />

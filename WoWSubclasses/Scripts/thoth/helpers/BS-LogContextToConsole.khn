@@ -1,0 +1,455 @@
+-- ┌───────────────────────────────────────────────┐
+-- │ LogContextToConsole([contextData],[maxDepth]) │
+-- ╞═══════════════════════════════════════════════╧══════════════════════════╕
+-- │ ■ Author: Bluesatin                                                      │
+-- │ ■ Source: https://next.nexusmods.com/profile/bluesatin/mods?gameId=3474  │
+-- └──────────────────────────────────────────────────────────────────────────┘
+-- The function takes a context-data entry (defaults to entire context), and logs it to the BG3-Toolkit console.
+-- Will throw an error in the BG3-Toolkit console: 'Condition execution failed', open that error to inspect the data.
+-- You can use Ctrl+A to select-all and copy the data into a JSON formatter to make it more readable.
+
+-- Imports
+local __util = require "larian.util"
+
+-- Primary function for logging the current context info to the BG3-Toolkit console
+-- @param input contextData: (optional) The context-data object you want to log (default: the base 'context' object).
+-- @param input maxDepth: (optional) The maximum depth to go when recursively parsing nested objects/tables.
+-- @return true: This function always returns true (although the stats-functor will fail due to the error thrown).
+function LogContextToConsole(...)
+  -- Initialise
+  local args = {...}
+  local useFallback = (select("#", ...) == 0) -- If no input data given, use a fallback
+  local contextData = (useFallback and context) or args[1] -- Fill in fallback, or use the input value
+  local maxDepth = (args[2] and tonumber(args[2])) or 10
+  -- Generate a label for the data entered
+  local fallbackError = (useFallback and "No input found, defaulting to full 'context': ") or ""
+  local contextLabel = string.format("%s(type: '%s' [%s])", fallbackError,
+                                                            __util.GetTypeName(contextData),
+                                                            __util.GetType(contextData))
+  -- Add lines to the debugString that will be logged
+  local debugString = "\n\n"
+  debugString = debugString .. string.format("[LogContextToConsole] (~JSON Format) => %s\n", contextLabel)
+  debugString = debugString .. __DataToString(__GetContextData(contextData, maxDepth))
+  debugString = debugString .. "\n"
+  -- Throw an error to log the data to the BG3-Toolkit console
+  error(string.format("%s", debugString), 0)
+  -- Return
+  return ConditionResult(true)
+end
+-- Alternative function names (for usability)
+LogToConsole = LogContextToConsole
+LogContext = LogContextToConsole
+
+-- ┌──────────────────┐
+-- │ Helper Functions │
+-- ╘══════════════════╛
+-- Function for recursively grabbing the data from a context-data object
+-- (Requires converting the UserData objects to tables etc.)
+function __GetContextData(contextData, maxDepth, curDepth, propName)
+  -- Initialise
+  local result
+  local maxDepth = tonumber(maxDepth) or 10
+  local curDepth = tonumber(curDepth) or 1
+  local propType = __util.GetTypeName(contextData)
+  -- If we've hit the max-depth, just return an indicator for nested data
+  if (curDepth > maxDepth) and
+     (type(contextData) == "table" or type(contextData) == "userdata") then
+    return "{...}"
+  end
+  -- If it's a 'ls.thoth.shared.HitDescription' entry, manually convert it to a table
+  -- (Doesn't resolve the 'CauseType' property, which can cause a hard-crash due to a missing enum entry)
+  if propName == "HitDescription" or
+     propType == "ls.thoth.shared.HitDescription" then
+    local newContextData = {["CauseType"] = "{...} (Not parsed to avoid enum crashes)"}
+    for _,prop in ipairs(__HitDescriptionProps) do
+      newContextData[prop] = contextData[prop]
+    end
+    contextData = newContextData
+  end
+  -- If it's a 'userdata' table that returns a memory-address string or a table string, try to convert it to a table first
+  if type(contextData) == "userdata" and
+     (tostring(contextData):match(":%s*0x?[%x]+") or tostring(contextData):match("^%b{}$")) and
+     (getmetatable(contextData) and getmetatable(contextData).__totable) then
+    -- Try to convert the UserData to a table
+    local canConvert, returnData = pcall(function() return getmetatable(contextData).__totable(contextData) end)
+    if canConvert then contextData = returnData end
+  end
+  -- If it's a table, recursively call this function
+  if type(contextData) == "table"  then
+    -- If the context-entry is marked as invalid, create a basic table without the empty values
+    local hasIsValid = pcall(function() return contextData["IsValid"] end)
+    if hasIsValid and contextData["IsValid"] == false then
+      -- Create empty table
+      result = {["IsValid"] = false}
+    -- Otherwise, recursively fill out the table normally
+    else
+      result = {}
+      for k,v in pairs(contextData) do
+        -- Check if the data can be parsed
+        local canParse, parsedData = pcall(function()
+          return __GetContextData(v, maxDepth, curDepth+1, tostring(k))
+        end)
+        if canParse then
+          -- If no errors parsing the data, then add the parsed data to the table
+          result[tostring(k)] = parsedData
+        else
+          -- Otherwise, just add the data to the table as a string
+          result[tostring(k)] = tostring(v)
+        end
+      end
+    end
+  -- If it's a function, handle special cases
+  elseif type(contextData) == "function" then
+    -- If it's the 'HasContextFlag()' function, try to fill it in by checking each potential result
+    if propName == "HasContextFlag" then
+      local contextFlagMatch = __GetContextFlags(contextData)
+      if contextFlagMatch then
+        result = {
+          ["Func"] = contextData,
+          ["Matches"] = contextFlagMatch,
+        }
+      end
+    end
+  end
+  -- If no result has been processed, just return the value as a string
+  if not result then
+    -- Convert the data to a string
+    result = tostring(contextData)
+    -- If it's a static enum value, then strip out the prefix you don't reference in stat entries
+    -- (e.g. 'ls.thoth.shared.Size.Medium' -> 'Size.Medium')
+    result = result:gsub("^ls%.thoth%.shared%.", "")
+  end
+  -- Return
+  return result
+end
+
+-- Function for converting an LUA table to a serialized string
+-- (Outputs in a quasi-JSON format, so you can throw it through a JSON formatter)
+function __DataToString(tableData)
+  -- Function for recursively parsing tables
+  local function parseToString(input)
+    -- If the input isn't a table, just return the input
+    if type(input) ~= "table" then
+      return tostring(input)
+    end
+    -- Otherwise, process it as a table/array
+    local first = true
+    local result = "{"
+    -- Get a sorted key-list to log things in a better order
+    local keyList = __GetSortedKeys(input)
+    -- Iterate through the sorted key-list
+    for i,key in pairs(keyList) do
+      -- Get the value from the original table
+      local value = input[key]
+      -- Add preceding comma if it's not the first entry
+      if not first then
+        result = result .. ", "
+      end
+      first = false
+      -- Serialize the key
+      result = result .. string.format('"%s": ', key)
+      -- Serialize the value
+      if type(value) == "table" then
+        -- If it's a nested-table, recursively parse it
+        result = result .. parseToString(value)
+      else
+        -- Otherwise, just wrap all other value-types in quotes (to avoid JSON parsing errors)
+        result = result .. string.format('"%s"', value)
+      end
+    end
+    -- Add closing bracket
+    result = result .. "}"
+    -- If length is too long, try and remove excessive text to prevent truncation
+    if string.len(result) > 16000 then
+      result = result:gsub("{...}", "_")
+    end
+    -- Return
+    return result
+  end
+  -- Iterate through the input table/object recursively
+  return parseToString(tableData)
+end
+
+-- Function for checking each 'HasContextFlag()' type
+-- (Requires you pass the context's 'HasContextFlag()' function to this one)
+function __GetContextFlags(funcHasContextFlag)
+  -- Initialise
+  local result
+  -- Run the function for each possible contextType
+  for i,contextType in pairs(__StatsFunctorContextTypes) do
+    -- If the contextType is a match, then add that match to the returned results
+    if funcHasContextFlag(StatsFunctorContext[contextType])["Result"] == true then
+      -- Create result table if it's the first match
+      result = result or {}
+      -- Add to the results table, formatted in the way you would use in the stats file
+      table.insert(result, string.format("HasContextFlag(StatsFunctorContext.%s)", contextType))
+    end
+  end
+  -- Return
+  return result
+end
+
+-- Function for creating a sorted list of keys in a table
+-- (Used for parsing tables in a specific order)
+function __GetSortedKeys(inputTable)
+  -- Initialise
+  local priorityTable = __PropSortPriorities
+  -- If the input isn't a table, just return an empty table
+  if type(inputTable) ~= "table" then return {} end
+  -- Otherwise, create an indexed-array of keys from the input-table
+  local keys = {}
+  for k in pairs(inputTable) do
+    -- Insert a new entry to the indexed-array (e.g. [1] = "MyFirstKey", [2] = "MySecondKey")
+    table.insert(keys, k)
+  end
+  -- Sort the new key-list based on the priority table
+  table.sort(keys, function(a, b)
+    -- Find priority, or default to placing it at the top if no match found (-math.huge)
+    local priority_a = priorityTable[a] or -math.huge
+    local priority_b = priorityTable[b] or -math.huge
+    -- If priorities are equal, sort alphabetically
+    if priority_a == priority_b then
+      return a < b
+    else -- Otherwise, sort by priority value
+      return priority_a < priority_b
+    end
+  end)
+  -- Return the list of sorted key-names
+  return keys
+end
+
+-- ┌────────────────┐
+-- │ Tables of Data │
+-- ╘════════════════╛
+-- Table of StatsFunctorContext types for use with '__GetContextFlags()'
+__StatsFunctorContextTypes = {
+  "Target",
+  "AOE",
+  "OnCast",
+  "OnEquip",
+  "Ground",
+  "OnLeaveAttackRange",
+  "OnEntityAttackedWithinMeleeRange",
+  "OnEntityAttackingWithinMeleeRange",
+  "OnProficiencyChange",
+  "OnStatusApply",
+  "OnStatusApplied",
+  "OnStatusRemove",
+  "OnMovedDistance",
+  "AiOnly",
+  "AiIgnore",
+  "OnAttack",
+  "OnAttacked",
+  "OnDamage",
+  "OnHeal",
+  "OnStatusRemoved",
+  "OnObscurityChanged",
+  "OnShortRest",
+  "OnDamaged",
+  "OnHealed",
+  "OnAbilityCheck",
+  "OnCastResolved",
+  "OnLongRest",
+  "OnCreate",
+  "OnPush",
+  "OnPushed",
+  "OnInventoryChanged",
+  "OnEnterAttackRange",
+  "OnProjectileExploded",
+  "OnCombatEnded",
+  "OnTurn",
+  "OnActionResourcesChanged",
+  "OnSurfaceEnter",
+  "OnLockpickingSucceeded",
+  "OnInterruptUsed",
+  "OnDamagePrevented",
+  "OnDamagedPrevented",
+  "OnRound",
+  "OnCombatStarted",
+  "OnConsumed",
+}
+
+-- Table of 'HitDescription' properties (for manually converting to a table)
+__HitDescriptionProps = {
+  "AttackAbility",
+  "AttackType",
+  "DeathType",
+  "FirstAttack",
+  "GetDamageDoneForType",
+  "GetLastConditionRoll",
+  "HitWith",
+  "InflicterObject",
+  "IsCritical",
+  "IsCriticalHit",
+  "IsCriticalMiss",
+  "IsDamagedAfterMiss",
+  "IsFromSneak",
+  "IsHit",
+  "IsHitpointsDamaged",
+  "IsInstantKill",
+  "IsKillingBlow",
+  "IsMiss",
+  "IsReaction",
+  "LastAttack",
+  "MainDamageType",
+  "OriginalDamageValue",
+  "SaveAbility",
+  "SpellLevel",
+  "SpellPowerLevel",
+  "SpellSchool",
+  "ThrownObject",
+  "TotalDamageDone",
+  "TotalHealDone",
+}
+
+-- Table for custom ordering the parsed data (for better readability)
+__PropSortPriorities = {
+  -- Generic
+  "IsValid",
+  "name",
+  "Name",
+  "value",
+  "Value",
+  "Func",
+  "Matches",
+  -- Misc Data
+  "SpellId",
+  "SpellEvent",
+  "StatusId",
+  "StatusEvent",
+  "StatusRemoveCause",
+  "PassiveId",
+  "PassiveEvent",
+  "PassiveFunctorIndex",
+  "InterruptId",
+  "InterruptedRoll",
+  -- Event Info (Checks)
+  "CheckedAbility",
+  "CheckedSkill",
+  -- Event Info (Rolls)
+  "RollType",
+  "Ability",
+  "RollCritical",
+  "AdvantageState",
+  -- Event Info (Modifications)
+  "SpellModificationDescription",
+  "TargetRadius",
+  "AreaRadius",
+  "NumberOfTargets",
+  -- Event Info (Positional)
+  "Distance",
+  "Length",
+  "X",
+  "Y",
+  "Z",
+  "SourcePosition",
+  "TargetPosition",
+  "ObserverPosition",
+  -- Event Info (Attack/Hit)
+  "PreferredCastingAbility",
+  "AttackDescription",
+  "HitDescription",
+    "GetDamageDoneForType",
+    "GetLastConditionRoll",
+    "IsDamagedAfterMiss",
+    "IsFromSneak",
+    "IsHitpointsDamaged",
+    "IsInstantKill",
+    "IsKillingBlow",
+    "IsReaction",
+    "FirstAttack",
+    "LastAttack",
+    "IsHit",
+    "IsMiss",
+    "IsCritical",
+    "IsCriticalHit",
+    "IsCriticalMiss",
+    "OriginalDamageValue",
+    "InitialHPPercentage",
+    "TotalHealDone",
+    "TotalDamageDone",
+    "SpellLevel",
+    "SpellPowerLevel",
+    "SpellSchool",
+    "AttackAbility",
+    "AttackType",
+    "CauseType",
+    "DeathType",
+    "HitWith",
+    "MainDamageType",
+    "SaveAbility",
+  -- Entity Info
+  "Source",
+  "Target",
+  "Observer",
+  "Passive",
+  "SourceProxy",
+  "TargetProxy",
+  "ObserverProxy",
+  "AttackWeapon",
+  "InflicterObject",
+  "UsedItem",
+  "ThrownObject",
+    -- Entity Info (Misc)
+    "Level",
+    "ProficiencyBonus",
+    -- Entity Info (Health)
+    "IsInvulnerable",
+    "HP",
+    "HPWithoutTemporaryHP",
+    "MaxHP",
+    "MaxHPWithoutTemporaryHP",
+    "TemporaryHP",
+    "HPPercentage",
+    "HPPercentageWithoutTemporaryHP",
+    -- Entity Info (Get Functions)
+    "GetClassLevel",
+    "GetPassiveSkill",
+    "GetSavingThrow",
+    "HasAnyResistances",
+    "HasAllResistances",
+    -- Entity Info (Size/Weight)
+    "Weight",
+    "Size",
+    -- Entity Info (Other)
+    "ArmorType",
+    "ActionTypes",
+    "EquipmentSlot",
+    -- Entity Info (Abilities)
+    "Strength",
+    "Dexterity",
+    "Constitution",
+    "Intelligence",
+    "Wisdom",
+    "Charisma",
+    -- Entity Info (Skills)
+    "Athletics",
+    "Acrobatics",
+    "SleightOfHand",
+    "Stealth",
+    "Arcana",
+    "History",
+    "Investigation",
+    "Nature",
+    "Religion",
+    "AnimalHandling",
+    "Insight",
+    "Medicine",
+    "Perception",
+    "Survival",
+    "Deception",
+    "Intimidation",
+    "Performance",
+    "Persuasion",
+}
+
+-- Invert the sort-order table to a 'key: index' map
+-- (so you can input a key-name and get the index/sort-priority out)
+for i, v in ipairs(__PropSortPriorities) do
+  -- If an entry doesn't exist, fill it in (e.g. don't overwrite existing entries)
+  if not __PropSortPriorities[v] then
+    __PropSortPriorities[v] = i
+  end
+  -- Remove the original indexed entry
+  __PropSortPriorities[i] = nil
+end

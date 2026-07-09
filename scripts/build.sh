@@ -63,6 +63,9 @@ fi
 if [ -d "./output/$MODNAME/Public/Game" ]; then
   cp -r "./output/$MODNAME/Public/Game/." "$BG3_DATA/Mods/$MODNAME"
 fi
+if [ -d "./output/$MODNAME/Globals" ]; then
+  cp -r "./output/$MODNAME/Globals" "$BG3_DATA/Mods/$MODNAME"
+fi
 # cp -r "$BG3_DATA/Mods/$MODNAME/GUI/Assets" "$BG3_DATA/Mods/$MODNAME/GUI/AssetsLowRes"
 
 rm -rf "$BG3_DATA/Public/$MODNAME"

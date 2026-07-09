@@ -90,7 +90,7 @@
 
 ### Arcane Surge
 - {{ include "wikify" "Costs 1 **Action**, 1 to 6 **Arcane Recovery Charges**" }}
-- {{ include "wikify" "18m range, 4m AOE, Usable oncer per Short Rest" }}
+- {{ include "wikify" "18m range, 4m AOE, Usable once per Short Rest" }}
 - {{ getf .loca "hb93210ebg5d75g4da9gb641g5d6a6613332d" "1d12 Force Damage" "1d12 Force Damage"  | include "wikify" }}
 
 
@@ -98,7 +98,7 @@
 
 ### Evocation
 - {{ include "wikify" "Costs 1 **Bonus Action**" }}
-- {{ include "wikify" "Concentration, Usable oncer per Short Rest" }}
+- {{ include "wikify" "Concentration, Usable once per Short Rest" }}
 - {{ getf .loca "h9c306580g5063g4827g8c49g0b7c5c46093d" "2"  | include "wikify" }}
 
 

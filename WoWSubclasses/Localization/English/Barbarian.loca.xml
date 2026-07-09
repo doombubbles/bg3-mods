@@ -6,6 +6,11 @@
   <content contentuid="he9db3c9agd435g407cg8039g10fab044e30c" version="1">Fury Attacks</content>
   <content contentuid="hc141b2edgf41dg45f6gbb53g27ad7bfd4b1a" version="1">Your fury knows no bounds. You learn new attacks that expend your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
 
+  
+
+  <content contentuid="h891f8664g7a24g4df4gb39cge6b2c7c49400" version="1">Rage Refundiung</content>
+  <content contentuid="hc2dc2709g986dg43f8g94a0g2aab2d047bc8" version="1">Does not consume any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage charges&lt;/LSTag&gt;.</content>
+
   <content contentuid="h035c8cdege828g4a41ga3beg8f61f911a195" version="1">Rage Becomes Rampage</content>
   <content contentuid="haa4d01a9g591fg4694gb818g1ee27b2538cd" version="1">Your fury becomes so great that you forego &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage during your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;. But, beginning your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; no longer requires a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, and all of your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; are regained after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
   
@@ -17,7 +22,7 @@
   <content contentuid="hdea1f1dcgc20fg4e5eg9d05g57b31eedfeef" version="1">Titan's Grip</content>
 
   <content contentuid="h7afca5dbgec1cg4bf1ga073g912612bf8718" version="1">Bloodthirst</content>
-  <content contentuid="h7cfa12d9ga912g4421ga9b8g4b18f0c93fcb" version="1">Assault the target in a bloodthirsty craze, restoring some of your health.</content>
+  <content contentuid="h7cfa12d9ga912g4421ga9b8g4b18f0c93fcb" version="1">Assault the target in a bloodthirsty craze, restoring some of your health. On a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you go into a &lt;LSTag Type="Status" Tooltip="RAGE_RAMPAGE"&gt;Rage&lt;/LSTag&gt;.</content>
 
   <content contentuid="hb740fd8cgf26cg456dga27eg997b74a2d4c3" version="1">Raging Blow</content>
   <content contentuid="hcdffe4f3gd2ffg4fecg80c0g0ef6e608c252" version="1">A mighty blow with both of your weapons.</content>
@@ -26,16 +31,10 @@
   <content contentuid="h769dce28g69f7g46f1g9cafg69714b51c3d1" version="1">A quick strike with your off-hand weapon. After hitting, you can use this attack once more this turn at no resource cost.</content>
   <content contentuid="h359c4045g45a2g4e8aga0aeg7d601c3c53af" version="1">You can use Wild Strike once more this turn without expending any resources.</content>
 
-  <content contentuid="he597f078g9cf1g41e5g8931g977e2293c55a" version="1">Execute</content>
-  <content contentuid="h9baff8c6gb3d0g4292gb126gf254ec89fb28" version="1">Attempt to finish off a foe below [2] hit points, dealing an extra [1] damage.</content>
-
-  <content contentuid="h65117e65g6090g484fga574g0bc24616d302" version="1">Whirlwind</content>
-  <content contentuid="ha331a835gf3c8g4043gaa9ag68646d8ff4ac" version="1">Unleashes a whirlwind of steel, striking all nearby enemies. For [1] turns, your Fury Attacks can target [2] additional creature(s) within range.</content>
-  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your Fury Attacks can target [1] additional creature(s) within range.</content>
-
-  <content contentuid="h5503c669g7ccbg4545g9ae2gabee40642259" version="1">Anger Management</content>
-  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">While &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Raging&lt;/LSTag&gt;, whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a creature you refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent on the &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
-
+  <content contentuid="h9cfb1c17g1680g4a4bg8ff6ga52731ee25f3" version="1">Meat Cleaver</content>
+  <content contentuid="hdf52f363g33f1g4d1cg9d3bg8e469943b7f4" version="1">After using &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Fury"&gt;Whirlwind&lt;/LSTag&gt;, your next [1] Fury Attacks can target two additional creatures within range.</content>
+  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your Fury Attacks can target two additional creatures within range.</content>
+  
   <content contentuid="hde4e9cfbgf9fcg4632ga0d2gd94b84091616" version="1">Reckless Abandon</content>
   <content contentuid="h5aa4a6f6g98f5g4c47gaf23gbfa94f446d62" version="1">For the first turn of your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;, all your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent.</content>
   <content contentuid="hfebb0530g198dg4563gbdf8g2c2aadfed775" version="1">This can occur Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
@@ -44,8 +43,7 @@
   <content contentuid="hb02d2a55gb259g4629ga232ga4e0fd8b8751" version="1">Go berserk, immediately activating &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt; and making all your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent until the end of your turn.</content>
   <content contentuid="h0819b966ga34cg4e2cg8c24g280574de881b" version="1">All your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent until the end of your turn.</content>
 
-
-  <content contentuid="h221edabdg494bg4180g8c5fgbef3e3193d1e" version="1">Charge</content>
-  <content contentuid="hf0da666cg2c85g4ec5g8e19g809ec529afbf" version="1">Charge to an enemy, striking them and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restraining&lt;/LSTag&gt; them for [1] turn(s).</content>
+  <content contentuid="h4116573cg6b50g4abcg92b7ge3d057a38778" version="1">Fresh Meat</content>
+  <content contentuid="had603c37g3ae0g4bfdgb7ccg34d75f1fe706" version="1">When you use &lt;LSTag Type="Spell" Tooltip="Target_Bloodthirst"&gt;Bloodthirst&lt;/LSTag&gt; on a target with maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you go into a &lt;LSTag Type="Status" Tooltip="RAGE_RAMPAGE"&gt;Rage&lt;/LSTag&gt;.</content>
 
 </contentList>

@@ -8,5 +8,20 @@
 		"prefix": "handle",
 		"scope": "xml,txt,yaml",
 		"body": "h${UUID/-/g/g}"
+	},
+	"targethalfdamage": {
+		"prefix": "targethalfdamage",
+		"scope": "txt",
+		"body": "961753f4-c345-4bc4-b408-1d5b87a5ab0c"
+	},
+	"targetshalfdamage": {
+		"prefix": "targetshalfdamage",
+		"scope": "txt",
+		"body": "f762efbb-f8f1-493e-b248-2de1567b4bd2"
+	},
+	"targetfulldamage": {
+		"prefix": "targetfulldamage",
+		"scope": "txt",
+		"body": "6cd652e8-b718-4aae-b50f-bf1831b825d3"
 	}
 }
