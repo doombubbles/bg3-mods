@@ -76,7 +76,18 @@ function ExecuteSpellCheck()
 end
 
 function IsArmsStrike()
-  return HasUseCosts('Arms_Charge')
+  local result = ConditionResult(false)
+  --{{ range $name, $values := $.Arms.Strikes }}{{ printf "\n  result = result | HasUseCosts('Arms_%s')" $name }}{{ end }}
+  return result &
+      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack') | HasStringInSpellRoll('SavingThrow'))
+end
+
+function IsRefundableArmsStrike()
+  local always = always or false
+  local result = ConditionResult(false)
+  --{{ range $name, $values := $.Arms.Strikes }}{{ printf "\n  result = result | HasUseCosts('Arms_%s', true)" $name }}{{ end }}
+  return IsArmsStrike() & result &
+      (always | (~SpellTypeIs(SpellType.Zone) & ~SpellTypeIs(SpellType.Shout)))
 end
 
 function HasWeaponInOffHand()

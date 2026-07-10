@@ -12,6 +12,13 @@
         </node>
 
         <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h28ef744eg7eafg4f04g8b32gf6c90f47264f" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="ArmsStrikes"/>
+          <attribute id="UUID" type="guid" value="d4402854-e650-461c-9cb2-7fa041d01486"/>
+        </node>
+
+        <node id="ProgressionDescription">
           <attribute id="Description" type="TranslatedString" handle="h1ff7536bg6f42g4d36gad70gdb46799e3cc1" version="1"/>
           <attribute id="DisplayName" type="TranslatedString" handle="h1936a9aag714ag4c21g91d3g18ccdcb45a3f" version="1"/>
           <attribute id="ProgressionTableId" type="guid" value="36d981cc-c118-4923-a37a-c93b76bd34bb"/>

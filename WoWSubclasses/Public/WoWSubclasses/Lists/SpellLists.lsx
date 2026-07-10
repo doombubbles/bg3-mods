@@ -40,6 +40,21 @@
           <attribute id="UUID" type="guid" value="fa1b953c-820b-4b37-9a5a-a1326847ffbc"/>
         </node>
         <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 3"/>
+          <attribute id="Spells" type="LSString" value="Rush_Charge_Arms;Target_Execute_Arms;Shout_Whirlwind_Arms;Shout_ThunderClap_Arms;Shout_Overpower_Arms"/>
+          <attribute id="UUID" type="guid" value="0bda9bca-d683-4c23-8e2b-ffd6517d7271"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 7"/>
+          <attribute id="Spells" type="LSString" value="Projectile_StormBolt_Arms;Rush_Charge_Arms;Target_Execute_Arms;Shout_Whirlwind_Arms;Shout_ThunderClap_Arms;Shout_Overpower_Arms"/>
+          <attribute id="UUID" type="guid" value="30262d80-c25c-4241-a79d-51e698e03ee9"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 10"/>
+          <attribute id="Spells" type="LSString" value="Projectile_StormBolt_Arms;Rush_Charge_Arms;Target_Execute_Arms;Shout_Whirlwind_Arms;Shout_ThunderClap_Arms;Shout_Overpower_Arms"/>
+          <attribute id="UUID" type="guid" value="1cdec459-6b8a-475d-a4a9-6342c395cd01"/>
+        </node>
+        <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Blood Elf Arcane Torrent"/>
           <attribute id="Spells" type="LSString" value="Shout_ArcaneTorrent"/>
           <attribute id="UUID" type="guid" value="a95e2264-3e59-42fa-b61e-d2f4f7edf396"/>

@@ -34,6 +34,16 @@
           <attribute id="Identifier" type="FixedString" value="CE_Status_BOOMINGBLADE_BLOCK_True"/>
           <attribute id="UUID" type="guid" value="7acc37bf-6f93-4cb7-acf7-4663cd94451e"/>
         </node>
+        
+        {{ range $name, $values := $.Arms.Strikes }}
+        <node id="ConditionErrors">
+          <attribute id="DisplayName" type="TranslatedString" handle="h7305e2c4ga13dg4b94g904cg9c04170f60de" version="1"/>
+          <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+          <attribute id="Identifier" type="FixedString" value="CE_ActionResource_Arms_{{ $name }}_False"/>
+          <attribute id="UUID" type="guid" value="{{ .ConditionError }}"/>
+        </node>
+        {{ end }}
+
       </children>
     </node>
   </region>

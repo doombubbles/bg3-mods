@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+  <content contentuid="h5e383eaag7e5fg4dacgafa7ga4e07aa3b153" version="1">Arms</content>
+  <content contentuid="hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" version="1">You are a seasoned veteran, using your might and a variety of overpowering attacks to strike your opponents down.</content>
+
+  <content contentuid="h28ef744eg7eafg4f04g8b32gf6c90f47264f" version="1">Arms Strikes</content>
+  <content contentuid="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1">You learns new ways to deal colossal blows to your enemies. Each can be used once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+
+  <content contentuid="hdfaf1293g08c9g4b92gabc5gafed35633fc3" version="1">Arms Cooldowns</content>
+  <content contentuid="h3cad98cbgcabbg4195ga960g794a652e070f" version="1">Does not go on cooldown.</content>
+
+
+  <content contentuid="h7305e2c4ga13dg4b94g904cg9c04170f60de" version="1">Cooldown: Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hd9a8420eg1e94g493cga0efg169bb3484e38" version="1">Overpower</content>
+  <content contentuid="h921192a5g0910g47c0gbb85g3cfdde961410" version="1">Turn a miss on a melee weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; into a hit.</content>
+</contentList>

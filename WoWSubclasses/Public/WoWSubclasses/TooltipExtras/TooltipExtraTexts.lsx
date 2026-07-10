@@ -12,6 +12,14 @@
           <attribute id="Text" type="TranslatedString" handle="hc2dc2709g986dg43f8g94a0g2aab2d047bc8" version="1"/>
           <attribute id="UUID" type="guid" value="9534a3b6-f493-4a87-a478-f75a409836bd"/>
         </node>
+        <node id="TooltipExtraTexts">
+          <attribute id="Text" type="TranslatedString" handle="h3cad98cbgcabbg4195ga960g794a652e070f" version="1"/>
+          <attribute id="UUID" type="guid" value="e7a758ec-2d6f-455c-a2ef-963f6d6da86f"/>
+        </node>
+        <node id="TooltipExtraTexts">
+          <attribute id="Text" type="TranslatedString" handle="h7305e2c4ga13dg4b94g904cg9c04170f60de" version="1"/>
+          <attribute id="UUID" type="guid" value="b247dcc0-83c0-4dbb-87f3-0e2449c08eac"/>
+        </node>
       </children>
     </node>
   </region>
