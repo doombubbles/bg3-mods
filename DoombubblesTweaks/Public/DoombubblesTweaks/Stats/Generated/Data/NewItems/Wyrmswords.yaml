@@ -1,60 +1,90 @@
 Fire:
-  UUID: 4e2348a5-7c5d-45fc-ad77-55cb99c6302f
+  UUID: a2a37743-e27c-447b-9246-441c148a495c
   Cantrip: FireBolt
   DisplayName: h9e428276g3350g4a9dg9fb8g31ba6674f3c1
   Description: h0b45de03g001cg42aag867eg44e125bdd7d1
   Status: MAG_FIRE_ALWAYS_DIPPED_FIRE
+  GreatUUID: faa2db57-1b66-4fed-8b86-a67454949f59
+  GreatDisplayName: h259d35a4g968ag4133gb279gc350f558f5d1
+  GreatDescription: h20b2c18dga094g443ag980fg2e46c87e8e5b
 Cold:
   UUID: eea9ccf1-4d56-4c35-832c-d70a79be57a8
   Cantrip: RayOfFrost
   DisplayName: h5807ae01ge1ddg4670g9148gf3ee6666a7a4
   Description: h50af1cc9g1d7eg4ceag9a50g42002b90b31e
   Status: MAG_FROST_FROST_WEAPON
+  GreatUUID: d2f32b90-6965-4667-9709-288648cc7dd3
+  GreatDisplayName: h53fc1a72g0c2ag4e40g9e1fgbd8eca2634da
+  GreatDescription: h3ee48b31g7ca2g4615g8601g893ffb15dfd8
 Force:
   UUID: 0f7cb341-92ae-4035-a9d6-e73dbbed5d51
   Cantrip: EldritchBlast
   DisplayName: h7365697cgda4bg461bg8aadg7fbb41ffa988
   Description: h401493e4gd32dg49edgbb54g9bee72ef2064
   Status: MAG_FORCE_FORCE_WEAPON_LESSER
+  GreatUUID: c8aa2219-e3f2-4880-bac5-a7a6f942071d
+  GreatDisplayName: h20e14078g3751g45abg8d19gd219aad1351a
+  GreatDescription: h72ec3914g18b4g4a72g9c0eg52f80a7800ce
 Lightning:
   UUID: 5a7b276a-5d4e-4211-9807-5a3a9dfdc490
   Cantrip: ShockingGrasp
   DisplayName: h6157fe0bgf17bg4a8agba67g630636436784
   Description: h6dbf78e2gea8ag409ag9a03g1730d4769aa9
   Status: MAG_CHARGED_LIGHTNING_LIGHTNING_WEAPON
+  GreatUUID: b452243e-786a-4599-af33-28713fcb89c6
+  GreatDisplayName: hf31d4cc0gfdc4g41d3ga2a6g28b10903041c
+  GreatDescription: hf6bca5ffg258fg49adg9773g29de7d15b22d
 Radiant:
   UUID: 6c11729e-7089-447d-be97-7578a3af48a3
   Cantrip: SacredFlame
   DisplayName: h59ce5b55g645bg49e5gbbfbg4bd5f242e7fd
   Description: ha915c4b5g8853g405egaea3gcec6792db234
   Status: MAG_RADIANT_RADIANCE_WEAPON
+  GreatUUID: 9e2b3fdb-a635-4048-bf72-58af3362ea29
+  GreatDisplayName: h3f376e6egfab4g4067g8192g76e92f971603
+  GreatDescription: h48f92332gc76eg4de0gac33g68b97f62526d
 Acid:
   UUID: e8888640-8eda-4834-a53d-13f743de29e2
   Cantrip: AcidSplash
   DisplayName: h26ab7978gc8e3g49b7g8815g899bff52528e
   Description: h74e7bf47g7795g452agb9a0g79857acbc5bf
   Status: MAG_ACID_WEAPON
+  GreatUUID: d84d13b3-4c5e-4bc6-9b43-46aac2705a07
+  GreatDisplayName: h1633890ag81ddg4a59ga8ceg30e06137130c
+  GreatDescription: h3b3330d0g8abag489bg869ag47f1261f3a95
 Poison:
   UUID: 90aafada-5923-4400-b6bc-cbfb33718051
   Cantrip: PoisonSpray
   DisplayName: hc6f45ff1g6242g493aga307gf9581a951a46
   Description: hcee3906eg3719g43fdgae53g47fabaf1be4e
   Status: MAG_POISON_WEAPON
+  GreatUUID: bc058452-1033-4f3f-a525-87a511fbb44d
+  GreatDisplayName: hff1f9c9bgf4a1g4359g8ff3g5df88162cd0e
+  GreatDescription: hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954
 Necrotic:
   UUID: c5d0bf94-1d70-4e18-902a-e149d0b5c86c
   Cantrip: ChillTouch
   DisplayName: h046e0deeg6405g409eg8723gf5bcc4ddada0
   Description: ha27f54f1gd45cg48d7g984agafe35a2324b1
   Status: MAG_NECROTIC_WEAPON
+  GreatUUID: 596c6207-8043-4c51-a1af-148cd95915fa
+  GreatDisplayName: hbddbeb8eg6adcg4564g8320g6af7f811850d
+  GreatDescription: h5e1c6f23g3586g4c92gaaf5g5eab10751d1e
 Psychic:
   UUID: 729f3287-b9b7-4026-9afb-16b01f627718
   Cantrip: ViciousMockery
   DisplayName: hadd35de7g78f0g41fdg83d9g8cf0622425fe
   Description: h8065ed74g2d5dg438eg88eag1e8bef12bbe6
   Status: UND_NERE_SWORD_PSYCHIC_DAMAGE
+  GreatUUID: d15da004-7a9b-420f-9e0d-cce4aa81a3d4
+  GreatDisplayName: h68762f49g4190g46bega515g39c10a10305c
+  GreatDescription: h6cfda877gee84g469eg9fc4g0327f9a803a3
 Thunder:
   UUID: 99e62b6d-efde-48bd-9d96-7f934aa885b6
   Cantrip: BoomingBlade
   DisplayName: h75674870gffc6g4661gb73cgc6c36f337616
   Description: hdc399946g956fg4164gb480g93c467f89b93
   Status: MAG_THUNDER_WEAPON
+  GreatUUID: 2d2e38bf-ef6e-4a82-b356-1aa99c1d3722
+  GreatDisplayName: hd9f199dbg9b9dg4ee3gb9fbgad19896411eb
+  GreatDescription: h8dfd7043g42b6g4b76g8af0gc7002619baf0

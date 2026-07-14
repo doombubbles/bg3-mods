@@ -344,6 +344,103 @@ data "Result 2" "MAG_TheChromatic_Staff"
 {{ end }}
 
 
+{{- $WYRMLING_STAFF := "" }}
+{{ range $element, $values := $.Wyrmswords }}
+{{- if eq $element "Fire" }}
+{{- $WYRMLING_STAFF = "MAG_Fire_FireDamage_Quarterstaff" }}
+{{- else }}
+{{- $WYRMLING_STAFF = printf "DBT_%s_Quarterstaff" $element }}
+{{- end }}
+
+// Convert a Wyrmling Staff into its matching Wyrmling Sword.
+new ItemCombination "DBT_{{$element}}_Wyrmling_Staff_To_Sword"
+data "Type 1" "Object"
+data "Object 1" "DBT_Dragon_Material_2"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "{{$WYRMLING_STAFF}}"
+data "Transform 2" "Consume"
+data "Type 3" "Object"
+data "Object 3" "WPN_Longsword"
+data "Transform 3" "Consume"
+
+new ItemCombinationResult "DBT_{{$element}}_Wyrmling_Staff_To_Sword_1"
+data "ResultAmount 1" "1"
+data "Result 1" "DBT_{{$element}}_Sword"
+
+// Convert a Wyrmling Sword into its matching Wyrmling Staff.
+new ItemCombination "DBT_{{$element}}_Wyrmling_Sword_To_Staff"
+data "Type 1" "Object"
+data "Object 1" "DBT_Dragon_Material_2"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "DBT_{{$element}}_Sword"
+data "Transform 2" "Consume"
+data "Type 3" "Object"
+data "Object 3" "WPN_Quarterstaff"
+data "Transform 3" "Consume"
+
+new ItemCombinationResult "DBT_{{$element}}_Wyrmling_Sword_To_Staff_1"
+data "ResultAmount 1" "1"
+data "Result 1" "{{$WYRMLING_STAFF}}"
+
+// Convert a Great Wyrm Staff into its matching Great Wyrm Sword.
+new ItemCombination "DBT_{{$element}}_Great_Wyrm_Staff_To_Sword"
+data "Type 1" "Object"
+data "Object 1" "DBT_Dragon_Material_2"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "DBT_Chromatic_{{$element}}_Staff"
+data "Transform 2" "Consume"
+data "Type 3" "Object"
+data "Object 3" "WPN_Longsword"
+data "Transform 3" "Consume"
+
+new ItemCombinationResult "DBT_{{$element}}_Great_Wyrm_Staff_To_Sword_1"
+data "ResultAmount 1" "1"
+data "Result 1" "DBT_Chromatic_{{$element}}_Sword"
+
+// Convert a Great Wyrm Sword into its matching Great Wyrm Staff.
+new ItemCombination "DBT_{{$element}}_Great_Wyrm_Sword_To_Staff"
+data "Type 1" "Object"
+data "Object 1" "DBT_Dragon_Material_2"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "DBT_Chromatic_{{$element}}_Sword"
+data "Transform 2" "Consume"
+data "Type 3" "Object"
+data "Object 3" "WPN_Quarterstaff"
+data "Transform 3" "Consume"
+
+new ItemCombinationResult "DBT_{{$element}}_Great_Wyrm_Sword_To_Staff_1"
+data "ResultAmount 1" "1"
+data "Result 1" "DBT_Chromatic_{{$element}}_Staff"
+
+// Upgrade a Wyrmling Sword directly into its matching Great Wyrm Sword.
+new ItemCombination "DBT_Chromatic_{{$element}}_Sword"
+data "Type 1" "Object"
+data "Object 1" "DBT_Dragon_Material"
+data "Combine 1" "Base"
+data "Transform 1" "None"
+data "Type 2" "Object"
+data "Object 2" "DBT_{{$element}}_Sword"
+data "Transform 2" "Consume"
+data "Type 3" "Object"
+data "Object 3" "MAG_TheChromatic_Staff"
+data "Transform 3" "Consume"
+
+new ItemCombinationResult "DBT_Chromatic_{{$element}}_Sword_1"
+data "ResultAmount 1" "1"
+data "Result 1" "DBT_Chromatic_{{$element}}_Sword"
+data "ResultAmount 2" "1"
+data "Result 2" "MAG_TheChromatic_Staff"
+{{ end }}
+
+
 {{- $bottles := list "OBJ_Bottle" "OBJ_Bottle_Destructible" "OBJ_Bottle_Potion" }}
 {{- $elixirs := list "OBJ_Potion_Of_Hill_Giant_Strength" "OBJ_Potion_Of_Cloud_Giant_Strength" "ALCH_Solution_Elixir_Alertness"}}
 

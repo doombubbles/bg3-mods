@@ -10,17 +10,52 @@
         <node id="GameObjects">
           <attribute id="Description" type="TranslatedString" handle="{{.Description}}" version="1" />
           <attribute id="DisplayName" type="TranslatedString" handle="{{.DisplayName}}" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
           <attribute id="MapKey" type="FixedString" value="{{.UUID}}" />
           <attribute id="Name" type="LSString" value="DBT_{{$element}}_Sword" />
           <attribute id="ParentTemplateId" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
           <attribute id="Stats" type="FixedString" value="DBT_{{$element}}_Sword" />
           <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="91a755e7-f02c-19cd-8d61-3da7192a8396" />
           <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
           <children>
             <node id="StatusList">
               <children>
                 <node id="Status">
                   <attribute id="Object" type="FixedString" value="{{.Status}}" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+        {{- end }}
+
+        {{- if .GreatUUID }}
+        <node id="GameObjects">
+          <attribute id="Description" type="TranslatedString" handle="{{.GreatDescription}}" version="1" />
+          <attribute id="DisplayName" type="TranslatedString" handle="{{.GreatDisplayName}}" version="1" />
+          <attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="{{.GreatUUID}}" />
+          <attribute id="Name" type="LSString" value="DBT_Chromatic_{{$element}}_Sword" />
+          <attribute id="ParentTemplateId" type="FixedString" value="e3b2adb6-7493-466e-9c65-4281fb74e83f" />
+          <attribute id="Stats" type="FixedString" value="DBT_Chromatic_{{$element}}_Sword" />
+          <attribute id="Type" type="FixedString" value="item" />
+          <attribute id="VisualTemplate" type="FixedString" value="910f74da-8b12-9762-1e97-f6f3457d80de" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+          <children>
+            <node id="StatusList">
+              <children>
+                <node id="Status">
+                  <attribute id="Object" type="FixedString" value="DBT_{{$element | upper}}_WEAPON" />
                 </node>
               </children>
             </node>

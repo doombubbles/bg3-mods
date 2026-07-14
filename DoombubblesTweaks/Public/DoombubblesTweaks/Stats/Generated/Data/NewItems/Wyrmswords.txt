@@ -8,6 +8,13 @@ data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);HiddenDuringC
 data "Unique" "1"
 data "Weapon Properties" "Melee;Versatile;Magical"
 
+new entry "DBT_Great_Wyrm_Sword"
+type "Weapon"
+using "WPN_Longsword_2"
+data "ValueUUID" "d24c441f-7ebe-4229-8522-cf34c257ff20"
+data "Rarity" "VeryRare"
+data "PassivesOnEquip" "MAG_ArcaneEnchantment_Lesser_Passive"
+
 
 {{- $CANTRIP := "" }}
 {{- $ELEMENT := "" }}
@@ -20,5 +27,12 @@ using "DBT_Wyrmling_Sword"
 data "RootTemplate" "{{.UUID}}"
 data "Boosts" "UnlockSpell({{(index $.QuickenedCantrips .Cantrip).SpellType}}_MAG_{{.Cantrip}}_Staff)"
 data "StatusOnEquip" "QUICKENED_{{$CANTRIP}}"
+
+new entry "DBT_Chromatic_{{$element}}_Sword"
+type "Weapon"
+using "DBT_Great_Wyrm_Sword"
+data "RootTemplate" "{{.GreatUUID}}"
+data "Boosts" "UnlockSpell({{(index $.QuickenedCantrips .Cantrip).SpellType}}_MAG_{{.Cantrip}}_Staff);UnlockSpell(Shout_DBT_TheChromatic_{{$element}}Attunement)"
+data "StatusOnEquip" "QUICKENED_{{$CANTRIP}};MAG_THE_CHROMATIC_TECHNICAL"
 
 {{ end }}
