@@ -228,7 +228,7 @@
 
   <content contentuid="h2f62cf77g1e2bg4d0fg9674g5caedd1b091e" version="1">Death Grip</content>
   <content contentuid="h724b80b8gb3aeg46adgbbe6g586eacb355fa" version="1">Harnesses the energy that surrounds and binds all matter, drawing a target toward a position of your choice within [1] of you.</content>
-  <content contentuid="h0b1bb04eg04cbg4eefg8ed8g1920fc40a0c5" version="1">The &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; of this Spell is equal to your total Strength &lt;LSTag Tooltip="Abilities"&gt;Ability Score&lt;/LSTag&gt;.</content>
+  <content contentuid="h0b1bb04eg04cbg4eefg8ed8g1920fc40a0c5" version="1">The &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; of this Spell is calculated using the higher of your Strength and Intelligence &lt;LSTag Tooltip="Abilities"&gt;Ability Scores&lt;/LSTag&gt;.</content>
 
   <content contentuid="he3f5eb23ga1dcg46efg8410g0326e2f5611b" version="1">Death and Decay</content>
   <content contentuid="hd707f45cgbf9dg4a99g90a1g23c832c71626" version="1">Corrupts the targeted ground for [1] turns; it damages enemies for [2] per turn and becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for them.</content>

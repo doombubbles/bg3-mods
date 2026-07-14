@@ -8,10 +8,14 @@ function KillingMachineSpellCheck()
   return SpellCheck('Target_Obliterate') | SpellCheck('Target_Obliterate_DW') | SpellCheck('Zone_Frostscythe')
 end
 
+function DeathGripSaveDC()
+    return 8 + context.Source.ProficiencyBonus + math.max(GetModifier(context.Source.Strength), GetModifier(context.Source.Intelligence))
+end
+
 function DeathGripCheck()
   local result = Dead() | Item() | Ally()
-  if ~result.Result then
-    local st = ~SavingThrow(Ability.Strength, context.Source.Strength)
+  if not result.Result then
+    local st = ~SavingThrow(Ability.Strength, DeathGripSaveDC())
     return ConditionResult(st.Result, {}, {}, st.Chance)
   end
 
