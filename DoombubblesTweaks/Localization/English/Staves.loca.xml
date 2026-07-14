@@ -1,66 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
 
-	<content contentuid="hbf551597g999ag4420g870bgea3682a1a56f" version="1">Silver Wyrmling Staff</content>
-	<content contentuid="h50af1cc9g1d7eg4ceag9a50g42002b90b31e" version="1">The cold emanating from this staff seems to suck all heat from the air, never once chilling the dark wood.</content>
+	<content contentuid="h9e428276g3350g4a9dg9fb8g31ba6674f3c1" version="1">Gold Wyrmling Sword</content>	
+	<content contentuid="h0b45de03g001cg42aag867eg44e125bdd7d1" version="1">The fire engulfing this weapon seems to feed off thin air, never once burning the dark handle.</content>
+
+	<content contentuid="hbf551597g999ag4420g870bgea3682a1a56f" version="1">Silver Wyrmling Staff</content>	
+	<content contentuid="h5807ae01ge1ddg4670g9148gf3ee6666a7a4" version="1">Silver Wyrmling Sword</content>
+	<content contentuid="h50af1cc9g1d7eg4ceag9a50g42002b90b31e" version="1">The cold emanating from this weapon seems to suck all heat from the air, never once chilling the dark handle.</content>
+
 
 	<content contentuid="he3e33192ga897g45c8gbcfbgc20ac5ac64ed" version="1">Ruby Wyrmling Staff</content>
-	<content contentuid="h401493e4gd32dg49edgbb54g9bee72ef2064" version="1">The force resonating through this staff seems to vibrate the air, never once breaking the dark wood.</content>
+	<content contentuid="h7365697cgda4bg461bg8aadg7fbb41ffa988" version="1">Ruby Wyrmling Sword</content>
+	<content contentuid="h401493e4gd32dg49edgbb54g9bee72ef2064" version="1">The force resonating through this weapon seems to vibrate the air, never once breaking the dark handle.</content>
 
 	<content contentuid="h0c36b5d8g8d6dg44ecg8fb9g3d7fddba8c47" version="1">Bronze Wyrmling Staff</content>
-	<content contentuid="h6dbf78e2gea8ag409ag9a03g1730d4769aa9" version="1">The lightning charging this staff seems to electrify the air, never once shocking the dark wood.</content>
+	<content contentuid="h6157fe0bgf17bg4a8agba67g630636436784" version="1">Bronze Wyrmling Sword</content>
+	<content contentuid="h6dbf78e2gea8ag409ag9a03g1730d4769aa9" version="1">The lightning charging this weapon seems to electrify the air, never once shocking the dark handle.</content>
 
 	<content contentuid="h5c3136e9g4962g43acga8d6gd9921615d151" version="1">Diamond Wyrmling Staff</content>
-	<content contentuid="ha915c4b5g8853g405egaea3gcec6792db234" version="1">The radiance emitting from this staff seems to light up the air, never once brightening the dark wood.</content>
+	<content contentuid="h59ce5b55g645bg49e5gbbfbg4bd5f242e7fd" version="1">Diamond Wyrmling Sword</content>
+	<content contentuid="ha915c4b5g8853g405egaea3gcec6792db234" version="1">The radiance emitting from this weapon seems to light up the air, never once brightening the dark handle.</content>
 
 	<content contentuid="hcdf4af99g748dg4e5egb945ga14ec4b7cc10" version="1">Emerald Wyrmling Staff</content>
-	<content contentuid="ha27f54f1gd45cg48d7g984agafe35a2324b1" version="1">The necrosis spreading through this staff seems to descrate the air, never once rotting the dark wood.</content>
+	<content contentuid="h046e0deeg6405g409eg8723gf5bcc4ddada0" version="1">Emerald Wyrmling Sword</content>
+	<content contentuid="ha27f54f1gd45cg48d7g984agafe35a2324b1" version="1">The necrosis spreading through this weapon seems to descrate the air, never once rotting the dark handle.</content>
 
 	<content contentuid="he1f504ffg666bg4928g9c6dg727f9a65debe" version="1">Amethyst Wyrmling Staff</content>
-	<content contentuid="h8065ed74g2d5dg438eg88eag1e8bef12bbe6" version="1">The psychosis permeating this staff seems to travel through thin air, never once weakening the dark wood.</content>
+	<content contentuid="hadd35de7g78f0g41fdg83d9g8cf0622425fe" version="1">Amethyst Wyrmling Sword</content>
+	<content contentuid="h8065ed74g2d5dg438eg88eag1e8bef12bbe6" version="1">The psychosis permeating this weapon seems to travel through thin air, never once weakening the dark handle.</content>
 
 	<content contentuid="h14ae2c9fg41e9g432egb6ddg26af7926e50b" version="1">Copper Wyrmling Staff</content>
-	<content contentuid="h74e7bf47g7795g452agb9a0g79857acbc5bf" version="1">The acid coating this staff seems to make the air around it acrid, never once eroding the dark wood.</content>
+	<content contentuid="h26ab7978gc8e3g49b7g8815g899bff52528e" version="1">Copper Wyrmling Sword</content>
+	<content contentuid="h74e7bf47g7795g452agb9a0g79857acbc5bf" version="1">The acid coating this weapon seems to make the air around it acrid, never once eroding the dark handle.</content>
 
 	<content contentuid="h58a14b64gb149g4a46g94e8g6697e0a1ecaf" version="1">Green Wyrmling Staff</content>
-	<content contentuid="hcee3906eg3719g43fdgae53g47fabaf1be4e" version="1">The poison dripping from this staff seems to suffuse the air, never once enfusing the dark wood.</content>
+	<content contentuid="hc6f45ff1g6242g493aga307gf9581a951a46" version="1">Green Wyrmling Sword</content>
+	<content contentuid="hcee3906eg3719g43fdgae53g47fabaf1be4e" version="1">The poison dripping from this weapon seems to suffuse the air, never once enfusing the dark handle.</content>
 
 	<content contentuid="h4bb0a9eegd2f1g4f1ag9e41gcfabb979282e" version="1">Red Wyrmling Staff</content>
-	<content contentuid="h3111c3edgf1a4g49acga6c1gab528e80b635" version="1">The flame enveloping this staff seems to feed off thin air, never once singeing the dark wood.</content>
+	<content contentuid="h2db08e43g7904g4186g91e8g6242716331c4" version="1">Red Wyrmling Sword</content>
+	<content contentuid="h3111c3edgf1a4g49acga6c1gab528e80b635" version="1">The flame enveloping this weapon seems to feed off thin air, never once singeing the dark handle.</content>
 
 	<content contentuid="h140c34b9g7ddcg4b2cgaadege4afbbad3a4a" version="1">Sapphire Wyrmling Staff</content>
-	<content contentuid="hdc399946g956fg4164gb480g93c467f89b93" version="1">The thunder contained within this staff seems to shake the air, never once affecting the dark wood.</content>
+	<content contentuid="h75674870gffc6g4661gb73cgc6c36f337616" version="1">Sapphire Wyrmling Sword</content>
+	<content contentuid="hdc399946g956fg4164gb480g93c467f89b93" version="1">The thunder contained within this weapon seems to shake the air, never once affecting the dark handle.</content>
 
 
 	<content contentuid="h78ff4679gb39ag49d9g9166g6f1680f5fff3" version="1">Gold Great Wyrm Staff</content>
-	<content contentuid="h20b2c18dga094g443ag980fg2e46c87e8e5b" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. As a great man once said: "Fire".</content>
+	<content contentuid="h20b2c18dga094g443ag980fg2e46c87e8e5b" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. As a great man once said: "Fire".</content>
 
 	<content contentuid="h8eb4d130g5d55g4981ga4d5gedf465da9594" version="1">Silver Great Wyrm Staff</content>
-	<content contentuid="h3ee48b31g7ca2g4615g8601g893ffb15dfd8" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. The cold never bothered you anyway.</content>
+	<content contentuid="h3ee48b31g7ca2g4615g8601g893ffb15dfd8" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. The cold never bothered you anyway.</content>
 
 	<content contentuid="hfbd8793fg9d51g4804gaeeegab5b1799fbf6" version="1">Ruby Great Wyrm Staff</content>
-	<content contentuid="h72ec3914g18b4g4a72g9c0eg52f80a7800ce" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. The force will surround you, penetrate you, and bind Faerun together.</content>
+	<content contentuid="h72ec3914g18b4g4a72g9c0eg52f80a7800ce" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. The force will surround you, penetrate you, and bind Faerun together.</content>
 
 	<content contentuid="h8dc4b5f6g286ag462ag8385g62a72a306cee" version="1">Bronze Great Wyrm Staff</content>
-	<content contentuid="hf6bca5ffg258fg49adg9773g29de7d15b22d" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Lightning Bolts will shoot from your finger tips.</content>
+	<content contentuid="hf6bca5ffg258fg49adg9773g29de7d15b22d" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. Lightning Bolts will shoot from your finger tips.</content>
 
 	<content contentuid="hc7a88705g3d7cg46a4gb9begf8058eaff475" version="1">Diamond Great Wyrm Staff</content>
-	<content contentuid="h48f92332gc76eg4de0gac33g68b97f62526d" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Soon, there will be far more than four lights.</content>
+	<content contentuid="h48f92332gc76eg4de0gac33g68b97f62526d" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. Soon, there will be far more than four lights.</content>
 
 	<content contentuid="h574ffa3dgde8fg4b62gaef8g7e46259efaf9" version="1">Emerald Great Wyrm Staff</content>
-	<content contentuid="h5e1c6f23g3586g4c92gaaf5g5eab10751d1e" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. {{- /* TODO */ -}}</content>
+	<content contentuid="h5e1c6f23g3586g4c92gaaf5g5eab10751d1e" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. {{- /* TODO */ -}}</content>
 
 	<content contentuid="had011d3eg980bg4881g9461g117f26fc9cbe" version="1">Amethyst Great Wyrm Staff</content>
-	<content contentuid="h6cfda877gee84g469eg9fc4g0327f9a803a3" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. {{- /* TODO */ -}}</content>
+	<content contentuid="h6cfda877gee84g469eg9fc4g0327f9a803a3" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. {{- /* TODO */ -}}</content>
 
 	<content contentuid="h19322977g5295g4f82gbf5bgac47d2dbbb35" version="1">Copper Great Wyrm Staff</content>
-	<content contentuid="h3b3330d0g8abag489bg869ag47f1261f3a95" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. You'll be able to channel levels of toxicity unheard of in this genre.</content>
+	<content contentuid="h3b3330d0g8abag489bg869ag47f1261f3a95" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. You'll be able to channel levels of toxicity unheard of in this genre.</content>
 
 	<content contentuid="hf164c319g2898g409eg8176g3e051b73cb70" version="1">Green Great Wyrm Staff</content>
-	<content contentuid="hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. Your opponents will fall victim to one of the classic blunders: not developing an immunity to poison.</content>
+	<content contentuid="hc2e0c2ffg1f21g4610gbe4fg2eb61fb5a954" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. Your opponents will fall victim to one of the classic blunders: not developing an immunity to poison.</content>
 
 	<content contentuid="h3bb4b634g3510g4cd4g8240g6b9cdd4004d3" version="1">Sapphire Great Wyrm Staff</content>
-	<content contentuid="h8dfd7043g42b6g4b76g8af0gc7002619baf0" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this staff with elemental energy. You will become a seductive lord of thunder.</content>
+	<content contentuid="h8dfd7043g42b6g4b76g8af0gc7002619baf0" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. You will become a seductive lord of thunder.</content>
 
 
 	<content contentuid="hef70caa4g3060g48bbga1d0gd50c4c0569fa" version="1">Once per combat, your staff will allow you to cast this using a bonus action instead of an action.</content>

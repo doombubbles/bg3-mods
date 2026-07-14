@@ -223,13 +223,21 @@ data "Description" "hc7bde4eag6795g4341ga64dg5621a9638b5e"
 data "StatsFunctorContext" "OnCast;OnStatusApplied"
 data "Conditions" "Combat() and ((context.HasContextFlag(StatsFunctorContext.OnCast) and SpellCategoryIs(SpellCategory.Dash)) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and IsMovementSpeedStatus()))"
 
+// this needs a manual fix to work because its "at the start of combat" is really "just before combat"
+new entry "MAG_MOBILITY_ONCOMBATSTART_DOONCE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_MOBILITY_ONCOMBATSTART_DOONCE_TECHNICAL"
+data "OnApplyConditions" "HasPassive('MAG_ChargedLightning_Dash_Boots_Passive',context.Source)"
+data "OnApplyFunctors" "ApplyStatus(MAG_CHARGED_LIGHTNING,100,4);ApplyStatus(MAG_CHARGED_LIGHTNING_DURATION_TECHNICAL,100,1)"
+
 
 // So rare that having the restriction doesn't really feel necessary
 new entry "UNI_Bow_SpellslotRecharge_Passive"
 type "PassiveData"
 using "UNI_Bow_SpellslotRecharge_Passive"
 data "Description" "h357d8227g6579g4a4aga425gf16bc5d3e63d"
-data "Properties" "OncePerCombat"
+data "Properties" ""
 
 // Shorter cooldown and better damage
 new entry "Shout_MAG_ChargedLightning_LightningBlast"

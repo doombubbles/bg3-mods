@@ -1,0 +1,60 @@
+Fire:
+  UUID: 4e2348a5-7c5d-45fc-ad77-55cb99c6302f
+  Cantrip: FireBolt
+  DisplayName: h9e428276g3350g4a9dg9fb8g31ba6674f3c1
+  Description: h0b45de03g001cg42aag867eg44e125bdd7d1
+  Status: MAG_FIRE_ALWAYS_DIPPED_FIRE
+Cold:
+  UUID: eea9ccf1-4d56-4c35-832c-d70a79be57a8
+  Cantrip: RayOfFrost
+  DisplayName: h5807ae01ge1ddg4670g9148gf3ee6666a7a4
+  Description: h50af1cc9g1d7eg4ceag9a50g42002b90b31e
+  Status: MAG_FROST_FROST_WEAPON
+Force:
+  UUID: 0f7cb341-92ae-4035-a9d6-e73dbbed5d51
+  Cantrip: EldritchBlast
+  DisplayName: h7365697cgda4bg461bg8aadg7fbb41ffa988
+  Description: h401493e4gd32dg49edgbb54g9bee72ef2064
+  Status: MAG_FORCE_FORCE_WEAPON_LESSER
+Lightning:
+  UUID: 5a7b276a-5d4e-4211-9807-5a3a9dfdc490
+  Cantrip: ShockingGrasp
+  DisplayName: h6157fe0bgf17bg4a8agba67g630636436784
+  Description: h6dbf78e2gea8ag409ag9a03g1730d4769aa9
+  Status: MAG_CHARGED_LIGHTNING_LIGHTNING_WEAPON
+Radiant:
+  UUID: 6c11729e-7089-447d-be97-7578a3af48a3
+  Cantrip: SacredFlame
+  DisplayName: h59ce5b55g645bg49e5gbbfbg4bd5f242e7fd
+  Description: ha915c4b5g8853g405egaea3gcec6792db234
+  Status: MAG_RADIANT_RADIANCE_WEAPON
+Acid:
+  UUID: e8888640-8eda-4834-a53d-13f743de29e2
+  Cantrip: AcidSplash
+  DisplayName: h26ab7978gc8e3g49b7g8815g899bff52528e
+  Description: h74e7bf47g7795g452agb9a0g79857acbc5bf
+  Status: MAG_ACID_WEAPON
+Poison:
+  UUID: 90aafada-5923-4400-b6bc-cbfb33718051
+  Cantrip: PoisonSpray
+  DisplayName: hc6f45ff1g6242g493aga307gf9581a951a46
+  Description: hcee3906eg3719g43fdgae53g47fabaf1be4e
+  Status: MAG_POISON_WEAPON
+Necrotic:
+  UUID: c5d0bf94-1d70-4e18-902a-e149d0b5c86c
+  Cantrip: ChillTouch
+  DisplayName: h046e0deeg6405g409eg8723gf5bcc4ddada0
+  Description: ha27f54f1gd45cg48d7g984agafe35a2324b1
+  Status: MAG_NECROTIC_WEAPON
+Psychic:
+  UUID: 729f3287-b9b7-4026-9afb-16b01f627718
+  Cantrip: ViciousMockery
+  DisplayName: hadd35de7g78f0g41fdg83d9g8cf0622425fe
+  Description: h8065ed74g2d5dg438eg88eag1e8bef12bbe6
+  Status: UND_NERE_SWORD_PSYCHIC_DAMAGE
+Thunder:
+  UUID: 99e62b6d-efde-48bd-9d96-7f934aa885b6
+  Cantrip: BoomingBlade
+  DisplayName: h75674870gffc6g4661gb73cgc6c36f337616
+  Description: hdc399946g956fg4164gb480g93c467f89b93
+  Status: MAG_THUNDER_WEAPON
