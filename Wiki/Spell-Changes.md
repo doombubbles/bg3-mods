@@ -1,6 +1,8 @@
+# Spell Changes
+
 **Chromatic Orb** - All variants now deal the traditional 3d8 damage
 
-**Longstrider and Enhance Leap** - Applies to all nearby allies in an AOE like Feather Fall
+**Longstrider and Enhance Leap** - Apply to all nearby allies in an area like Feather Fall
 
 **Hex** - Now also gives disadvantage on Saving Throws for the chosen Ability and not just Checks
 
@@ -26,19 +28,19 @@
 
 **Concentrated Blast** - No longer ends your own concentration, but has a cooldown of once per short rest
 
-**Destuctive Wave** - Added a pure Thunder variant
+**Destructive Wave** - Added a pure Thunder variant
 
 **Booming Blade** - Now fully counts as a Thunder damage spell
 
 **Flame Blade** - Now lasts until long rest like Shadow Blade does
 
-**Barksin** - No longer concentration, base AC is 17
+**Barkskin** - No longer requires Concentration, and its base Armour Class is 17
 
 **Shadow Blade / Flame Blade** - While in your inventory, you gain the ability to infuse a different weapon with a coating for extra Psychic / Fire damage
 
 **Ice Knife** - Ice explosion now does half damage if the target succeeds their save
 
-### New Ritual Spells
+## New Ritual Spells
 
 The following spells can now be casted as rituals out of combat
 

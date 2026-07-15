@@ -1,6 +1,14 @@
-Experimental Class that's a copy of Sorcerer but with Wizard style spell learning (scrolls included) and using Intelligence as its casting ability. 
-All class features that would use Charisma for a Sorcerer will use Intelligence for a Magician.
-Magicians learn half as many spells through leveling up as Wizards do.
+# Magician
+
+<img align="right" alt="Magician class icon" height="150" src="images/ClassIcons/Magician.png" />
+
+**Magician** is an experimental class based on [Sorcerer](https://bg3.wiki/wiki/Sorcerer), with Wizard-style spell learning—including learning from scrolls—and Intelligence as its spellcasting ability.
+
+## Class Features
+
+- Class features that normally use Charisma for a Sorcerer use Intelligence for a Magician.
+- Magicians learn half as many spells through levelling as Wizards.
+- Magicians use normal Spell Slot progression.
 
 For dialogue purposes, Magicians are tagged as both Sorcerers and Wizards.
 

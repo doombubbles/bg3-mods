@@ -1,4 +1,6 @@
-**[Adamatine Weapons](https://bg3.wiki/wiki/Category:Adamantine_equipment)** - Now have +2 Enchantment and send targets [Reeling](https://bg3.wiki/wiki/Reeling) on hit
+# Item Changes
+
+**[Adamantine Weapons](https://bg3.wiki/wiki/Category:Adamantine_equipment)** - Now have +2 Enchantment and send targets [Reeling](https://bg3.wiki/wiki/Reeling) on hit
 
 **[Mourning Frost](https://bg3.wiki/wiki/Mourning_Frost)**
  - DC for Chilled debuff is now your spell save DC instead of flat 12
@@ -9,9 +11,9 @@
 
 **[Incandescent Staff](https://bg3.wiki/wiki/Incandescent_Staff)** - Provided Firebolt is now a once per combat bonus action
 
-**[Quickspell Gloves](https://bg3.wiki/wiki/Quickspell_Gloves)** - Effect now useable once per combat instead of short rest
+**[Quickspell Gloves](https://bg3.wiki/wiki/Quickspell_Gloves)** - Effect now usable once per combat instead of Short Rest
 
-**[Gemini Gloves](https://bg3.wiki/wiki/Gemini_Gloves)** - Effect now useable once per combat instead of short rest
+**[Gemini Gloves](https://bg3.wiki/wiki/Gemini_Gloves)** - Effect now usable once per combat instead of Short Rest
 
 **[Club of Hill Giant Strength](https://bg3.wiki/wiki/Club_of_Hill_Giant_Strength)** - Now properly sets Strength to 21 instead of 19
 
@@ -81,7 +83,7 @@
 
 **[Robe of the Weave](https://bg3.wiki/wiki/Robe_of_the_Weave)** - Now has the more powerful [Arcane Enchantment +2](https://bg3.wiki/wiki/Arcane_Enchantment_+2), heals 1d6 per spell level, and also grants the [Spell Resistance](https://bg3.wiki/wiki/Spell_Resistance) passive
 
-**[Cloth of Authority](https://bg3.wiki/wiki/Cloth_of_Authority)** - Now lets you use [Invoke the Black Hand](https://bg3.wiki/wiki/Invoke_the_Black_Hand) once per short rest, a weaker version of Gortash's [Avatar of Tyranny](https://bg3.wiki/wiki/Avatar_of_Tyranny) state (resistance instead of immunity, 15 temp hp instead of 150, ability damage /= 4)
+**[Cloth of Authority](https://bg3.wiki/wiki/Cloth_of_Authority)** - Now lets you use [Invoke the Black Hand](https://bg3.wiki/wiki/Invoke_the_Black_Hand) once per Short Rest, a weaker version of Gortash's [Avatar of Tyranny](https://bg3.wiki/wiki/Avatar_of_Tyranny) state (Resistance instead of Immunity, 15 temporary hit points instead of 150, ability damage divided by 4)
 
 **[Mutilated Carapace](https://bg3.wiki/wiki/Mutilated_Carapace)** - [Formless Slaughter](https://bg3.wiki/wiki/Formless_Slaughter) bonus is +1d4 instead of +1, and lets you use [Unsettling Visage](https://bg3.wiki/wiki/Unsettling_Visage) once per short rest
 
@@ -91,13 +93,13 @@
 
 **[Handmaiden's Mace](https://bg3.wiki/wiki/Handmaiden's_Mace)** - Strength increased to 20, and gives you access to a 1d8 version of [Shadow Ambush](https://bg3.wiki/wiki/Shadow_Ambush)
 
-**[Viconia's Priestess Robe](https://bg3.wiki/wiki/Viconia's_Priestess_Robe)** - Now gives [Born into Darkness](https://bg3.wiki/wiki/Born_into_Darkness) and lets you use [Shar's Aegeis](https://bg3.wiki/wiki/Shar's_Aegeis) (which grants [Shar's Protection](https://bg3.wiki/wiki/Shar's_Protection) )
+**[Viconia's Priestess Robe](https://bg3.wiki/wiki/Viconia's_Priestess_Robe)** - Now gives [Born into Darkness](https://bg3.wiki/wiki/Born_into_Darkness) and lets you use [Shar's Aegis](https://bg3.wiki/wiki/Shar's_Aegis), which grants [Shar's Protection](https://bg3.wiki/wiki/Shar's_Protection)
 
-**[Duke Ravenguard's Longsword](https://bg3.wiki/wiki/Duke_Ravengard%27s_Longsword)** - Temp HP passive now correctly uses your own Charisma modifier
+**[Duke Ravenguard's Longsword](https://bg3.wiki/wiki/Duke_Ravengard%27s_Longsword)** - Temporary hit point passive now correctly uses your own Charisma Modifier
 
 **[Tenacity](https://bg3.wiki/wiki/Tenacity)** - Now actually counts as the weapon itself doing damage for purposes of other synergies
 
-### [Phalar Aluve](https://bg3.wiki/wiki/Phalar_Aluve)
+## [Phalar Aluve](https://bg3.wiki/wiki/Phalar_Aluve)
 
 - Added new "Screech" option
   - Lasts until Long Rest, or switching to a different melody
@@ -106,13 +108,13 @@
   - Lasts until Long Rest, or switching to a different melody
   - Whenever you heal a creature, give it 2 turns of Singing
 
-### [Markoheshkir](https://bg3.wiki/wiki/Markoheshkir)
+## [Markoheshkir](https://bg3.wiki/wiki/Markoheshkir)
 
 - Added "Force to be Reckoned With" attunement to Force damage
   - Force damage resistance, add Proficiency to Force damage
   - Dealing spell damage grants you 1 turn of [Force Conduit](https://bg3.wiki/wiki/Force_Conduit)
   - Can cast [Magic Missile](https://bg3.wiki/wiki/Magic_Missile) and [Disintegrate](https://bg3.wiki/wiki/Disintegrate) per Short Rest
-- Added "Resplendent Dawn" attunment to Radiant Damage
+- Added "Resplendent Dawn" attunement to Radiant damage
   - Radiant damage resistance, add Proficiency to Radiant damage
   - Dealing spell damage inflicts 1 turn of [Radiating Orb](https://bg3.wiki/wiki/Radiating_Orb_(Condition)) on the target
   - Can cast [Guiding Bolt](https://bg3.wiki/wiki/Guiding_Bolt) and [Sunbeam](https://bg3.wiki/wiki/Sunbeam) per Short Rest

@@ -320,6 +320,10 @@ or:
 
 Do not manually add an icon for a term and then pass the same text through `wikify`, because that can produce duplicate markup. Inspect `Wiki/!helpers.tpl` before assuming a term is supported.
 
+Prefer passing an entire simple mechanics line through `wikify` instead of copying the helper's generated `<img>` markup into the page. Keep separate localization lookups and supplemental sentences on separate lines; do not combine them with `printf` merely to run them through the helper.
+
+Be selective with complex text. `wikify` performs text replacement rather than Markdown-aware parsing, so a known term inside a link destination or proper name can also be replaced. For lines containing links or names such as spell titles, either pass only the safe fragment through `wikify` or retain explicit markup.
+
 ### Flavor quotes
 
 Localized class, subclass, race, or feature flavor text is commonly shown as:
@@ -401,6 +405,8 @@ Leave a blank line between a standalone image and its heading. Give new images m
 
 For base-game images, prefer the repository's local `images/_bg3/` pipeline over adding a new direct `bg3.wiki` image URL. Paths under `_bg3` should reflect the original relative location beneath `UnpackedData`. Atlas icons use the established virtual path form:
 
+For base-game spell, action, and passive icons, prefer the matching file under `Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/` when one exists. These controller variants preserve the unfaded icon artwork better than the corresponding `Tooltips/Icons/` files. Use `Tooltips/Icons/` only when no controller variant is available.
+
 ```text
 images/_bg3/.../Icons_Skills.DDS/Status_Restrained.png
 ```
@@ -462,11 +468,11 @@ Mention an implementation detail only when it explains a player-visible edge cas
 6. Decide which facts should come from localization templates and which require authored context.
 7. Write the shortest entry that answers the player's likely questions.
 8. Add navigation, overview, or UUID references if the new content warrants them.
-9. Render and inspect the generated Wiki rather than reviewing only the template source.
+9. Run the VS Code `Process Wiki` task, or its exact command-line equivalent below, and inspect `build/Wiki` rather than reviewing only the template source.
 
 ## Validation
 
-Reproduce the Wiki build sequence from `.github/workflows/wiki.yml`. The relevant command is structurally:
+The VS Code `Process Wiki` task is the official validation for Wiki changes. Run it after every Wiki edit. From the repository root, its command-line equivalent is:
 
 ```sh
 bin/ProcessTemplates.exe \
@@ -480,9 +486,9 @@ bin/ProcessTemplates.exe \
   -v build/WoWSubclasses/Localization
 ```
 
-The rendered mod localization directories should be generated first, as the workflow does.
+Keep this command equivalent to the task in `.vscode/tasks.json`; do not substitute a partial template or Markdown check. The task renders the complete Wiki with the mod sources and rendered localization directories it depends on. If those localization builds are stale, regenerate them before treating the Wiki output as validated.
 
-After rendering, check:
+Only inspect the processed files under `build/Wiki` after the task succeeds. Check:
 
 - every localization handle resolved to non-empty text;
 - every `getf` received the right number and order of parameters;
@@ -511,5 +517,5 @@ Before considering a Wiki addition complete, answer yes to each relevant questio
 - Did I include the important cost, recharge, targeting, and scaling facts?
 - Did I link relevant base-game concepts and internal pages?
 - Did I use local image conventions for new assets?
-- Did I render the Wiki and inspect the result?
+- Did I run `Process Wiki` (or its exact equivalent) and inspect `build/Wiki`?
 - Did I avoid copying legacy typos and accidental formatting inconsistencies?

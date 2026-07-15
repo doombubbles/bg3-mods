@@ -1,3 +1,5 @@
+# Other Changes
+
 **Heat** - Deals 1 damage per turn instead of 1d4 (this then goes to 0 if you have Fire Resistance)
 
 **Goaded and Taunted** - No longer makes player characters actually lose control (theoretically), just keeps their real listed effects of Disadvantage against others.
@@ -5,8 +7,6 @@
 **Arcane Charge** - Fixed parts of functionality to match description, and fixed parts of description to match functionality: While Threatened, affected entity adds their Proficiency Bonus to damage it deals with spells.
 
 **Dragonborn Breath Weapons** - Damage dice changes from 2d6/3d6/4d6 to 1d12/2d12/3d12, and usable per battle instead of per short rest 
-
-**Polearm Master Bonus Attack** - Now correctly adds damage modifiers
 
 **Hunger of Hadar** - The acid damage portion now uses the correct Save DC
 
@@ -16,8 +16,6 @@
 
 **Gloves of Power** - Absolute's Bane passive no longer secretly requires the Brand of the Absolute to work
 
-**Knife of the Undermountain King** - Shadow Blade passive now actually works
-
 **Cultist Brand** - Now has a weapon action that will apply the Brand of the Absolute to you.
 
 **Drakethroat Glaive** - For QoL purposes you can now cast Elemental Weapon from the Glaive without needing to equip it, however the buff granted will go away if the Glaive leaves your inventory.
@@ -26,27 +24,33 @@
 
 **Shield Dwarves** - Now actually have innate Shield Proficiency
 
-### Non-Gameplay Changes
+**False Life** - Recasting the spell now correctly replaces its existing effect instead of stacking it.
+
+**Click Heels** - Reaction attacks against the user now correctly have Disadvantage.
+
+**Booming Blade** - Now correctly counts as dealing Thunder damage.
+
+## Non-Gameplay Changes
 
 **Disintegrate** - Changed VFX slightly to include some more red
 
-**Guantlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Giant Strength
+**Gauntlets of Hill Giant Strength** - Renamed to Gauntlets of Frost Giant Strength
 
 **Haste Helm** - Renamed to Momentum Helm
 
 **Thermodynamic Axe** - Renamed to Thermodynamxe
 
-### Other Mods Changes
+## Other Mod Changes
 
 These changes will apply to other mods if you have DoombubblesTweaks below them in the Mod Manager load order.
 
-#### Cleric Subclasses
+### Cleric Subclasses
 
-Arcana Domain now gets Mage Armor instead of Detect Magic, Counterspell instead of Dispel Magic, Polymoprh instead of Arcane Eye as domain spells.
+Arcana Domain now gets Mage Armour instead of Detect Magic, Counterspell instead of Dispel Magic, and Polymorph instead of Arcane Eye as Domain Spells.
 
 Their Channel Divinity also now correctly starts Banishing creatures at 5th level like in tabletop
 
-#### Artificer
+### Artificer
 
 Arcane Firearm changed to {{ get .loca "h3a5390c0gc1c0g4ebeg851fg634bb80d803c" | quote }}
 

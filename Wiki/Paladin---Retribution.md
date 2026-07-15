@@ -6,8 +6,6 @@
 
 > {{ get .loca "h65193088g5aeeg4328ga0b5g955e3ea1f9d9" | quote }}
 
-</h3>
-
 ## Level 1
 
 - [ <img src="images/ControllerIcons/skills_png/Action_Paladin_Crusader_Strike.png" height="25" align="top" alt="Action_Paladin_Crusader_Strike.png" /> Crusader Strike ](Paladin---Abilities#crusader-strike)
@@ -18,10 +16,10 @@
 
 > {{ get .loca "h131b2cdfg6198g425dgb6cfg2d0a85f173af" | include "wikify" }}
 
-Choose to either get [ <img src='https://bg3.wiki/w/images/4/4b/Divine_Smite_Icon.webp' height='25' align='top' alt='Divine_Smite_Icon.webp' /> Divine Smite](https://bg3.wiki/wiki/Divine_Smite) like base subclasses, or get the **Holy Power** passive.
+Choose to either get [ <img src='images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Paladin_DivineSmite.png' height='25' align='top' alt='Divine_Smite_Icon.webp' /> Divine Smite](https://bg3.wiki/wiki/Divine_Smite) like base subclasses, or get the **Holy Power** passive.
 
 
-<img src="https://bg3.wiki/w/images/9/91/GenericIcon_DamageType_Radiant.png" height="40" align="left" alt="GenericIcon_DamageType_Radiant.png" />
+<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/GenericIcon_DamageType_Radiant.png" height="40" align="left" alt="GenericIcon_DamageType_Radiant.png" />
 
 ### Holy Power
 
@@ -36,16 +34,16 @@ Choose to either get [ <img src='https://bg3.wiki/w/images/4/4b/Divine_Smite_Ico
 ### Level 1 Oath Spells
 
 You learn 4 new Oath Spells that are always prepared. They can come from the list of [Paladin Channel Oath Abilities](Paladin---Abilities) or the two traditional spells below
-- [ <img src="https://bg3.wiki/w/images/4/44/Divine_Favour_Icon.webp" height="25" align="top" alt="Divine_Favour_Icon.webp" /> Divine Favour](https://bg3.wiki/wiki/Divine_Favour)
-- [ <img src="https://bg3.wiki/w/images/c/cf/Shield_spell_Icon.webp" height="25" align="top" alt="Shield_spell_Icon.webp" /> Shield](https://bg3.wiki/wiki/Shield_(spell))
+- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_DivineFavor.png" height="25" align="top" alt="Divine_Favour_Icon.webp" /> Divine Favour](https://bg3.wiki/wiki/Divine_Favour)
+- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Shield.png" height="25" align="top" alt="Shield_spell_Icon.webp" /> Shield](https://bg3.wiki/wiki/Shield_(spell))
 
 ## Level 5
 
 ### Level 2 Oath Spells
 
 You learn 2 new Oath Spells that are always prepared. They can come from the list of [Paladin Channel Oath Abilities](Paladin---Abilities) or the two traditional spells below
-- [ <img src="https://bg3.wiki/w/images/7/75/Hold_Person_Icon.webp" height="25" align="top" alt="Hold_Person_Icon.webp" /> Hold Person](https://bg3.wiki/wiki/Hold_Person)
-- [ <img src="https://bg3.wiki/w/images/7/73/Spiritual_Weapon_Halberd_Icon.webp" height="25" align="top" alt="Spiritual_Weapon_Halberd_Icon.webp" /> Spiritual Weapon](https://bg3.wiki/wiki/Spiritual_Weapon)
+- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_HoldPerson.png" height="25" align="top" alt="Hold_Person_Icon.webp" /> Hold Person](https://bg3.wiki/wiki/Hold_Person)
+- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_SpiritualWeapon.png" height="25" align="top" alt="Spiritual_Weapon_Halberd_Icon.webp" /> Spiritual Weapon](https://bg3.wiki/wiki/Spiritual_Weapon)
 
 ## Level 7
 
@@ -58,7 +56,7 @@ You learn 2 new Oath Spells that are always prepared. They can come from the lis
 {{ getf .loca "hd6c97499g7cd2g4170g981egb93bc2575b1a" "9m" "5" | include "wikify" }}
 
 
-<img src="https://bg3.wiki/w/images/6/61/Divine_Intervention_Sunder_the_Heretical_Icon.webp" height="40" align="left" alt="Divine_Intervention_Sunder_the_Heretical_Icon.webp" />
+<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_DivineIntervention_Attack.png" height="40" align="left" alt="Divine_Intervention_Sunder_the_Heretical_Icon.webp" />
 
 ### Art of War
 
@@ -70,8 +68,8 @@ You learn 2 new Oath Spells that are always prepared. They can come from the lis
 ### Level 3 Oath Spells
 
 You learn 2 new Oath Spells that are always prepared. They can come from the list of [Paladin Channel Oath Abilities](Paladin---Abilities) or the two traditional spells below
-- [ <img src="https://bg3.wiki/w/images/1/11/Haste_Icon.webp" height="25" align="top" alt="Haste_Icon.webp" /> Haste](https://bg3.wiki/wiki/Haste)
-- [ <img src="https://bg3.wiki/w/images/d/d6/Spirit_Guardians_Icon.webp" height="25" align="top" alt="Spirit_Guardians_Icon.webp" /> Spirit Guardians (Radiant)](https://bg3.wiki/wiki/Spirit_Guardians)
+- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Transmutation_Haste.png" height="25" align="top" alt="Haste_Icon.webp" /> Haste](https://bg3.wiki/wiki/Haste)
+- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Conjuration_SpiritGuardians.png" height="25" align="top" alt="Spirit_Guardians_Icon.webp" /> Spirit Guardians (Radiant)](https://bg3.wiki/wiki/Spirit_Guardians)
 
 
 ## Level 11
@@ -80,10 +78,10 @@ You learn 2 new Oath Spells that are always prepared. They can come from the lis
 
 > {{ get .loca "h2d204b9eg609bg4078g8b14ga78f0669ec77" | include "wikify" }}
 
-Choose to either get [ <img src="https://bg3.wiki/w/images/f/fb/Improved_Divine_Smite_Icon.webp" height="25" align="top" alt="Improved_Divine_Smite_Icon.webp" /> Improved Divine Smite](https://bg3.wiki/wiki/Improved_Divine_Smite) like base subclasses, or get the **Divine Purpose** passive
+Choose to either get [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_ImprovedDivineSmite.png" height="25" align="top" alt="Improved_Divine_Smite_Icon.webp" /> Improved Divine Smite](https://bg3.wiki/wiki/Improved_Divine_Smite) like base subclasses, or get the **Divine Purpose** passive
 
 
-<img src="https://bg3.wiki/w/images/4/44/Divine_Favour_Icon.webp" height="40" align="left" alt="Divine_Favour_Icon.webp" />
+<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_DivineFavor.png" height="40" align="left" alt="Divine_Favour_Icon.webp" />
 
 ### Divine Purpose
 

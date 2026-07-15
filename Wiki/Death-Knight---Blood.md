@@ -2,18 +2,18 @@
 
 <img align="right" alt="Blood Death Knight Class Icon" height="150" src="images/ClassIcons/BloodDK.png" />
 
-**Blood** is one of the Subclasses of <a href="Death Knight">Death Knight</a> that focuses on spending <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Runes to sustain itself with healing and shielding while dealing <img src="https://bg3.wiki/w/images/d/d1/Force_Damage_Icon.png" height="25" align="top" alt="Force Damage" /> Force damage to enemies.
+**Blood** is one of the Subclasses of <a href="Death Knight">Death Knight</a> that focuses on spending <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Runes to sustain itself with healing and shielding while dealing <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_damage_icons/c_ico_dmg_force.png" height="25" align="top" alt="Force Damage" /> Force damage to enemies.
 <h3>
 
 > {{ get .loca "h2e130e97g1c58g470bgb4ceg991d510e8df4" | quote }}
 
 </h3>
 
-# Subclass Features
+## Subclass Features
 
 *This subclass obtains all the features from its base class, <a href="Death Knight">Death Knight</a>, in addition to its unique features outlined below.*
 
-## Level 3
+### Level 3
 
 <h3>
 Runes: 
@@ -22,7 +22,7 @@ Runes:
 1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
-### Known Rune Spells
+#### Known Rune Spells
 
 <ul>
   <li>
@@ -36,26 +36,26 @@ Runes:
   </li>
 </ul>
 
-### New Rune Spells
+#### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#dancing-rune-weapon"> <img src="https://bg3.wiki/w/images/7/73/Spiritual_Weapon_Halberd_Icon.webp" height="25" align="top" /> Dancing Rune Weapon</a>
+    <a href="Death Knight Spells#dancing-rune-weapon"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_SpiritualWeapon.png" height="25" align="top" /> Dancing Rune Weapon</a>
   </li>
   <li>
-    <a href="Death Knight Spells#subduing-grasp Person"> <img src="https://bg3.wiki/w/images/7/75/Hold_Person_Icon.webp" height="25" align="top" /> Subduing Grasp: Person</a>
+    <a href="Death Knight Spells#subduing-grasp Person"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_HoldPerson.png" height="25" align="top" /> Subduing Grasp: Person</a>
   </li>
 </ul>
 
-## Level 4
+### Level 4
 
 <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_BloodShield.png" height="40" align="left" alt="PassiveFeature_DeathKnight_BloodShield.png" />
 
-### Blood Shield
+#### Blood Shield
 
 {{ getf .loca "hef8d5973g16deg428dg8c83g811464cfe765" | include "wikify" }}
 
-## Level 5
+### Level 5
 
 <h3>
 Runes: 
@@ -64,23 +64,23 @@ Runes:
 1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
-### New Rune Spells
+#### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#san'layn-touch"> <img src="https://bg3.wiki/w/images/8/85/Vampiric_Touch_Icon.webp" height="25" align="top" /> San'layn Touch</a>
+    <a href="Death Knight Spells#san'layn-touch"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_VampiricTouch.png" height="25" align="top" /> San'layn Touch</a>
   </li>
 </ul>
 
-## Level 6
+### Level 6
 
 <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathStrike.png" height="40" align="left" alt="Action_DeathKnight_DeathStrike.png" />
 
-### Dark Succor
+#### Dark Succor
 
 {{ get .loca "h1ed81167g8940g4984gbd3dg072b9f71e0c0" | include "wikify" }}
 
-## Level 7
+### Level 7
 
 <h3>
 Runes: 
@@ -89,7 +89,7 @@ Runes:
 2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
-## Level 9
+### Level 9
 
 <h3>
 Runes: 
@@ -98,23 +98,23 @@ Runes:
 2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
-### New Rune Spells
+#### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#subduing-grasp-monster"> <img src="https://bg3.wiki/w/images/c/cf/Hold_Monster_Icon.webp" height="25" align="top" /> Subduing Grasp: Monster</a>
+    <a href="Death Knight Spells#subduing-grasp-monster"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_HoldMonster.png" height="25" align="top" /> Subduing Grasp: Monster</a>
   </li>
 </ul>
 
-## Level 10
+### Level 10
 
 <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathAndDecay.png" height="40" align="left" alt="Action_DeathKnight_DeathAndDecay.png" />
 
-### Crimson Scourge
+#### Crimson Scourge
 
 {{ get .loca "h9d3e694bg69e3g4770gaf76g05eb3a753102" | include "wikify" }}
 
-## Level 11
+### Level 11
 
 <h3>
 Runes: 
@@ -123,28 +123,28 @@ Runes:
 2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
 </h3>
 
-### New Rune Spells
+#### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#bloodshot"> <img src="https://bg3.wiki/w/images/f/f7/Eyebite_Panicked_Icon.webp" height="25" align="top" /> Bloodshot</a>
+    <a href="Death Knight Spells#bloodshot"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Eyebite_Panicked.png" height="25" align="top" /> Bloodshot</a>
   </li>
 </ul>
 
 <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" height="40" align="left" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" />
 
-### Rune Mastery
+#### Rune Mastery
 
-{{ get .loca "h5f27023dgdd29g4367g9e99g55c414897a3b" }}
+{{ get .loca "h5f27023dgdd29g4367g9e99g55c414897a3b" | include "wikify" }}
 
 <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon_Blood.png" height="40" align="left" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Blood.png" />
 
-#### Empower Rune Weapon
+##### Empower Rune Weapon
 
 {{ getf .loca "h1c2be41ag6b58g4651gad3dgf7d097e5f6ca" "1d8 Force damage" | include "wikify" }}
 
 <img src="images/ControllerIcons/skills_png/Status_DeathKnight_BoneShield.png" height="40" align="left" alt="Status_DeathKnight_BoneShield.png" />
 
-#### Carnage
+##### Carnage
 
 {{ get .loca "h18cbd986gdebeg402eg9f05g3acc845a6b3e" | replace "temporary hit points" "[temporary hit points](https://bg3.wiki/wiki/temporary_hit_points)" | include "wikify" }}

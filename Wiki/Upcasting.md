@@ -1,3 +1,5 @@
+# Upcasting
+
 **Shield** - Upcasts now give +1 more AC per additional spell slot level
 
 **Divine Favour** - Upcasting at 3rd or 4th level increases bonus to +2d4, 5th and 6th to +3d4
@@ -16,7 +18,7 @@
 
 **Ice Knife** - Upcasts now also increase the piercing damage
 
-### Cantrips
+## Cantrips
 
 Many cantrips can now be upcasted to be stronger but actually cost a spell slot.
 

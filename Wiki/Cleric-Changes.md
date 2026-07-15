@@ -1,7 +1,9 @@
+# Cleric Changes
+
 - Blessed Strikes - Divine Strike can now also be applied when you deal damage with a Cantrip
 <!-- - ~~Harness Divine Power - Spend Channel Divinity to recharge a Spell Slot (up to half of your highest known Spell Slot level rounded up)~~ -->
 
-### War Domain
+## War Domain
 
 - War Priest Extra Attack is now toggleable when it triggers to make sure it never interferes with Extra Attack
 - Now chooses a Fighting Style at Level 3 from the same list as Paladins
@@ -10,7 +12,7 @@
 
 These are powerful buffs, but they still don't even reach the level of base Swords Bard so it seems ok
 
-### Trickery Domain
+## Trickery Domain
 
 - Blessing of the Trickster no longer requires concentration
 - Invoke Duplicity no longer requires concentration

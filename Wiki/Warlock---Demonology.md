@@ -1,18 +1,18 @@
 # Pact of Demonology
 
-<img align="right" alt="Pact of Demonology Icon" height="100" src="https://bg3.wiki/w/images/1/1e/Draconic_Ancestry_Red_Fire_Icon.webp" />
+<img align="right" alt="Pact of Demonology Icon" height="100" src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_DraconicAncestry_Red.png" />
 
 **Pact of Demonology** is a modded [Warlock](https://bg3.wiki/wiki/Warlock) [Pact](https://bg3.wiki/wiki/Pact_Boon) that focuses on summoning an expanded array of Fiends to do its bidding.
 
 ## Level 3
 
-<img src="https://bg3.wiki/w/images/1/1e/Draconic_Ancestry_Red_Fire_Icon.webp" height="40" align="left" alt="Draconic Ancestry Gold" />
+<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_DraconicAncestry_Red.png" height="40" align="left" alt="Draconic Ancestry Gold" />
 
 ### Pact of Demonology
 
 {{ getf .loca "h2a765c21g8db7g4a32ga73cg99fb963af296"  | include "wikify" }}
 
-<img src="https://bg3.wiki/w/images/f/f3/Planar_Ally_Icon.webp" height="40" align="left" alt="Planar Ally" />
+<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Conjuration_PlanarAlly.png" height="40" align="left" alt="Planar Ally" />
 
 #### Conjure Fiend
 

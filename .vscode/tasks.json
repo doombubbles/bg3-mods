@@ -26,17 +26,6 @@
       }
     },
     {
-      "label": "Process Templates",
-      "type": "process",
-      "command": "bin/ProcessTemplates.exe",
-      "group": "build",
-      "presentation": {
-        "reveal": "silent",
-        "showReuseMessage": false,
-        "revealProblems": "onProblem"
-      }
-    },
-    {
       "label": "Process Wiki",
       "type": "process",
       "command": "bin/ProcessTemplates.exe",

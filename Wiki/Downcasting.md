@@ -1,4 +1,6 @@
-Many spells now have "cantrip versions" in the way that Create Water used to (and now does again). That is, a weaker version of a spell that is "downcasted" to the power of a cantrip, costing no spell slots. Each one become available once you're first capable of upcasting the spell.
+# Downcasting
+
+Many spells now have "cantrip versions" in the way that Create Water used to (and now does again). That is, a weaker version of a spell that is downcast to the power of a cantrip, costing no spell slots. Each one becomes available once you're first capable of upcasting the spell.
 
 **Magic Missile** - Shoots 1/2/3 missiles that deal 1d4 damage.
 
@@ -16,7 +18,7 @@ Many spells now have "cantrip versions" in the way that Create Water used to (an
 
 **Burning Hands** - Deals 1d8/2d8/3d8 damage (none on save).
 
-**Ice Knife** - Deals 1d4 piercing damage to target and 1d4/2d4/3d4 cold damage AOE (none on save).
+**Ice Knife** - Deals 1d4 Piercing damage to the target and 1d4/2d4/3d4 Cold damage in the area (none on a successful save).
 
 **Inflict Wounds** - Deals 1d10/2d10/3d10 damage on hit.
 

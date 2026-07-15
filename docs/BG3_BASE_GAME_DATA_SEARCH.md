@@ -314,6 +314,8 @@ Common formats:
 
 Do not assume a stats `Icon` string is a `.dds` filename. It can be resolved through icon/texture-bank metadata.
 
+When the resolved icon is a spell, action, or passive icon, first check `Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/`. Prefer that controller variant for Wiki use because it retains the unfaded artwork. Fall back to the matching `Game/Public/Game/GUI/Assets/Tooltips/Icons/` file only if the controller version is absent.
+
 ### VFX and spell effects
 
 Search by the spell/status ID first, then follow effect UUIDs and resource names through:

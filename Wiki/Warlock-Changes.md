@@ -1,10 +1,12 @@
-- Now gains the "Magical Cunning" ability from OneDnD allowing them to recover half their warlock spell slots once a day
+# Warlock Changes
 
-### Pact of the Blade
+- Now gains the "Magical Cunning" ability from OneDnD allowing them to recover half their Warlock Spell Slots once per Long Rest.
+
+## Pact of the Blade
 
 - Will only use Charisma for attack rolls if it's higher than Strength (and/or Dexterity for Finesse weapons)
 
-### Eldritch Invocations
+## Eldritch Invocations
 
 **Eldritch Mind** - You have advantage on Saving Throws to maintain concentration.
 
@@ -22,6 +24,6 @@
 
 **Improved Eldritch Smite** - All your melee attacks deal an additional 1d8 Force damage. Available at Level 12.
 
-### Mystic Arcanum
+## Mystic Arcanum
 
 - Can now choose a 6th Level Conjure Elemental as an option

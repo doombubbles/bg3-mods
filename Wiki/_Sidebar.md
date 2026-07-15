@@ -1,6 +1,6 @@
 ## WoW Death Knight
 
-#### New Classes
+### New Classes
 
 - **[[ Death Knight | Death-Knight ]]**
   - [[ Blood | Death-Knight---Blood ]]
@@ -10,15 +10,17 @@
 
 ## WoW Subclasses
 
-#### New Subraces
+### New Subraces
 - [[ Blood Elf | Blood-Elf ]]
 
-#### New Subclasses
+### New Subclasses
 
 - Barbarian
   - [[ Fury | Barbarian---Fury ]]
 - Cleric
   - [[ Shadow Domain | Cleric---Shadow ]]
+- Fighter
+  - [[ Arms | Fighter---Arms ]]
 - Paladin
   - [[ Oath of Retribution | Paladin---Retribution ]]
   - [[ Oath of Holiness | Paladin---Holy ]]
@@ -37,10 +39,10 @@
 
 ### Additions
 
-- [[ New Items | New-Items ]] *([[ IDs | UUIDs ]])*
+- [[ New Items | New-Items ]] *([[ IDs | UUIDS ]])*
 - [[ New Feats | New-Feats ]]
 
-#### New Class Variants
+### New Class Variants
 
 - [[ Witch | Witch ]]
 - [[ Magician | Magician ]]
@@ -55,7 +57,7 @@
 - [[ Buff Changes | Buff-Changes ]]
 - [[ Other Changes | Other-Changes ]]
 
-#### Class Changes
+### Class Changes
 
 - [[ Barbarian | Barbarian-Changes ]]
 - [[ Bard | Bard-Changes ]]

@@ -1,4 +1,6 @@
-**Charger** - Also increase STR or DEX by 1.
+# Feat Changes
+
+**Charger** - Also increases STR or DEX by 1.
 
 **Defensive Duelist** - Also increase DEX by 1.
 

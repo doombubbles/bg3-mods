@@ -1,4 +1,6 @@
-### Way of the Four Elements
+# Monk Changes
+
+## Way of the Four Elements
 
 - Reduced the Ki Point costs of most Disciple of the Elements spells by 1.
 - Touch of the Storm and Chill of the Mountain also activate Extra Attack

@@ -1,4 +1,6 @@
-Made a number of temporary unique buffs that usually only last until long rest instead last until character death like the Loviatar buff. 
+# Buff Changes
+
+Several temporary unique buffs that usually last until Long Rest now last until character death, like Loviatar's Love.
 Some of the effects have been nerfed to compensate for this, however. This includes:
 
 **Bliss Spores** - Just gives a flat +1 bonus

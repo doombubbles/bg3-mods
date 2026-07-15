@@ -2,9 +2,17 @@ set -e
 
 UNPACKED_DATA="./bin/bg3-modders-multitool/UnpackedData"
 TARGET_DIR="./Wiki/images/_bg3"
-WIKI_SOURCES="./Wiki/!helpers.tpl ./Wiki/Snippets"
+WIKI_SOURCES="./Wiki"
 
-IMAGE_PATHS=$(grep -rhoE 'images/_bg3/[A-Za-z0-9_./-]+\.png' $WIKI_SOURCES | sort -u)
+IMAGE_PATHS=$(grep -rhoE --include='*.md' --include='*.tpl' 'images/_bg3/[A-Za-z0-9_./-]+\.png' "$WIKI_SOURCES" | sort -u)
+
+LEGACY_IMAGE_REFS=$(grep -rhoE --include='*.md' --include='*.tpl' 'https://bg3\.wiki/w/images/[^"'"'"' )>]+' "$WIKI_SOURCES" | sort -u || true)
+
+if [ -n "$LEGACY_IMAGE_REFS" ]; then
+    echo "Legacy BG3 Wiki image references remain:" >&2
+    printf '%s\n' "$LEGACY_IMAGE_REFS" >&2
+    exit 1
+fi
 
 if [ -z "$IMAGE_PATHS" ]; then
     echo "No BG3 Wiki image references found"

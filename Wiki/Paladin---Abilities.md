@@ -9,7 +9,7 @@
 - Available for Retribution Level 1, Holy/Protection Level 3+
 - {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
 - Weapon Attack, melee range
-- {{ get .loca "h31b68b0ag9c32g42bcg99acg27bfaffcde29" }}
+- {{ get .loca "h31b68b0ag9c32g42bcg99acg27bfaffcde29" | include "wikify" }}
 - {{ include "wikify" "Deals [1d4/2d4/3d4](# 'Improving at level 5 and 10') + Charisma Modifier Radiant damage" }}
 
 
@@ -116,7 +116,7 @@
 
 <img src="images/ControllerIcons/skills_png/Action_Paladin_BlessingOfProtection.png" height="40" align="left" alt="Action_Paladin_BlessingOfProtection.png" />
 
-# Blessing of Protection
+### Blessing of Protection
 - Available for Retribution/Holy/Protection Level 5+
 - {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
 - Spell, 18m range
@@ -126,7 +126,7 @@
 
 <img src="images/ControllerIcons/skills_png/Action_Paladin_BlessingOfSpellwarding.png" height="40" align="left" alt="Action_Paladin_BlessingOfSpellwarding.png" />
 
-# Blessing of Spellwarding
+### Blessing of Spellwarding
 - Available for Retribution/Holy/Protection Level 5+
 - {{ include "wikify" "Costs 1 **Action**, 1 **Channel Oath Charge**" }}
 - Spell, 18m range
@@ -152,12 +152,12 @@
 ### Divine Storm
 - Available for Retribution Level 3+
 - {{ include "wikify" "Costs 1 **Action**, 2 **Channel Oath Charges**" }}
-- Weapon Attack, 2m AOE
+- Weapon Attack, 2m radius
 - {{ get .loca "he49e8c36g2400g4d9dgb6acgc3b41127eddf"| include "wikify" }}
 - {{ include "wikify" "Deals [1d4/2d4/3d4](# 'Improving at level 5 and 10') + Charisma Modifier Radiant damage" }}
 
 
-<img src="https://bg3.wiki/w/images/5/56/Break_of_Dawn_Icon.webp" height="40" align="left" alt="Break_of_Dawn_Icon.webp" />
+<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_BreakOfDawn.png" height="40" align="left" alt="Break_of_Dawn_Icon.webp" />
 
 ### Light of Dawn
 - Available for Holy Level 3+
@@ -182,7 +182,7 @@
 ### Shield of the Righteous
 - Available for Holy/Protection Level 3+
 - {{ include "wikify" "Costs 1 **Action**, 2 **Channel Oath Charges**" }}
-- AOE Unarmed Attack, 3m Cone (120 degrees)
+- Unarmed Attack, 3m cone (120 degrees)
 - {{ getf .loca "hcc121619g07e0g4059gafa5gde300039d9ac" "5" | include "wikify" }}
 
 
@@ -191,7 +191,7 @@
 ### Guardian of Ancient Kings
 - Available for Protection Level 3+
 - {{ include "wikify" "Costs 1 **Bonus Action**, 2 **Channel Oath Charges**" }}
-- {{ getf .loca "h2e49ea87g086dg4362g96e1g6115acfc32fd" "10" }}
+- {{ getf .loca "h2e49ea87g086dg4362g96e1g6115acfc32fd" "10" | include "wikify" }}
 
 
 ## 3 Cost
@@ -202,5 +202,5 @@
 ### Divine Shield
 - Available for Retribution/Holy/Protection Level 9+
 - {{ include "wikify" "Costs 1 **Action**, 3 **Channel Oath Charges**" }}
-- {{ getf .loca "hd162d5eegc975g47c8ga9e6gf5720ee876ed" "3" }}
+- {{ getf .loca "hd162d5eegc975g47c8ga9e6gf5720ee876ed" "3" | include "wikify" }}
 - {{ getf .loca "hab541713g5098g412ag8cedgc16592fa963e" "10" | include "wikify" }}

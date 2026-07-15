@@ -2,7 +2,7 @@
 
 ## Experimental Changes
 
-These changes are less set in stone and may be turned on/off periodicaly
+These changes are less set in stone and may be turned on or off periodically.
 
 ### Initiative D12 (Currently OFF)
 

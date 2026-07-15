@@ -1,3 +1,5 @@
+# New Items
+
 {{- if $.Balance.PotentSacredRing }}
 **Sacred Ring** - Gain the [Potent Cantrips](https://bg3.wiki/wiki/Potent_Cantrips) passive. Drops from the Scared Boar on the Ravaged Beach.
 {{- else }}
@@ -22,11 +24,11 @@
 
 **Hat of Frostfire Acuity** - Effects of Combination of Hat of Fire Acuity and Coldbrim Hat. Combine using "'A Song of Ice and Fire' Review" found eaten by the Mimic in Moonrise Towers.
 
-**A Staff of Ice and Fire** - +2 Staff. Resistance to Cold and Fire Damage. Whenever you deal Cold damage, also deal 1d4 Fire damage. Whenever you deal Fire damage, also deal 1d4 Cold damage. Effcts of Mourning Frost and Incandescent Staff. Combine using "'A Song of Ice and Fire' Review" found eaten by the Mimic in Moonrise Towers.
+**A Staff of Ice and Fire** - +2 Staff. Resistance to Cold and Fire damage. Whenever you deal Cold damage, also deal 1d4 Fire damage. Whenever you deal Fire damage, also deal 1d4 Cold damage. Combines the effects of Mourning Frost and the Incandescent Staff. Combine using "'A Song of Ice and Fire' Review" found eaten by the Mimic in Moonrise Towers.
 
-**The Physical Cloth** - Combines most of the effects of The Mighty Cloth, The Graceful Cloth, and The Sturdy Cloth. Combine using a Thread of Uninhibited Kushigo dropped by Oprheus' Honour Guard.
+**The Physical Cloth** - Combines most of the effects of The Mighty Cloth, The Graceful Cloth, and The Sturdy Cloth. Combine using a Thread of Uninhibited Kushigo dropped by Orpheus' Honour Guard.
 
-**The Mental Cloth** - Combines most of the effects of The Cunning Cloth, The Lucid Cloth, and The Splendid Cloth. Combine using a Thread of Uninhibited Kushigo dropped by Oprheus' Honour Guard.
+**The Mental Cloth** - Combines most of the effects of The Cunning Cloth, The Lucid Cloth, and The Splendid Cloth. Combine using a Thread of Uninhibited Kushigo dropped by Orpheus' Honour Guard.
 
 **The Universal Cloth** - Combines most of the effects of The Physical Cloth and The Mental Cloth. Combine using a Thread of Universal Kushigo, purchased from Koll the Red at High Hall.
 
@@ -54,7 +56,7 @@
 
 **Hitched Pointer's Ring** - {{ getf .loca "hf397f0d4g2cc2g4171gb054gd8257ea6247d" | include "wikify" }}. Found in Dror Ragzlin's treasure room
 
-### Item Upgrades
+## Item Upgrades
 
 **Headband of Intellect** - Unobtainable 19 INT version can now be created by combining the normal Warped Headband of Intellect with Enriched Infernal Iron
 
@@ -66,7 +68,7 @@
 
 **Dark Justiciar's Boots** - Can be created by combining Metallic Boots with a Stone of Shadows purchased from Nocturne
 
-### Wyrmling Staves
+## Wyrmling Staves
 
 A set of staves that are counterparts to the Gold Wyrmling Staff
 
@@ -90,7 +92,7 @@ A set of staves that are counterparts to the Gold Wyrmling Staff
 
 **Red Wyrmling Staff** (Fire, Rays of Fire) - Sold by A'jak'nir Jeera	at Crèche Y'llek
 
-### Great Wyrm Staves
+## Great Wyrm Staves
 
 A set of staves that are upgrades to the Wyrmling Staves and incorporate Markoheshkir effects. 
 
@@ -100,7 +102,17 @@ Only the Wyrmling staff will be consumed.
 Each Great Wyrm Staff gives the Arcane Enchantment +1 effect, the corresponding Quickened Cantrip, and the corresponding Kereska's buff spell.
 So essentially trading the Arcane Battery for the Quickened Cantrip.
 
-### Smite Staves
+## Wyrmling and Great Wyrm Swords
+
+The Wyrmling and Great Wyrm Swords are longsword versions of the corresponding staves. The family contains Gold (Fire), Silver (Cold), Ruby (Force), Bronze (Lightning), Diamond (Radiant), Emerald (Necrotic), Amethyst (Psychic), Copper (Acid), Green (Poison), and Sapphire (Thunder) variants.
+
+**Wyrmling's Scale** is added to the Gith reward pouch. It is a reusable combination item that converts a matching Wyrmling Staff and a basic Longsword into a Wyrmling Sword. It can also convert the sword back by combining it with a basic Quarterstaff. The weapon being converted and the basic weapon are consumed; Wyrmling's Scale is not.
+
+The same reversible process converts Great Wyrm Staves and Great Wyrm Swords. Each Great Wyrm Sword has the corresponding Quickened Cantrip and Kereska's Favour attunement in longsword form.
+
+A Great Wyrm Sword can also be created directly by combining the matching Wyrmling Sword with the Great Wyrm Scale and Markoheshkir. The Wyrmling Sword is consumed, while the scale and Markoheshkir are retained.
+
+## Smite Staves
 
 A set of staves that are counterparts to the Thunderous Smite Staff **Cacophony**
 
