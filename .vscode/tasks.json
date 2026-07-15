@@ -8,7 +8,7 @@
       "args": [
         "build",
         "-o",
-        "../bin/ProcessTemplates.exe",
+        "../../bin/ProcessTemplates.exe",
         "ProcessTemplates.go"
       ],
       "group": "build",
@@ -18,7 +18,7 @@
         "revealProblems": "onProblem"
       },
       "options": {
-        "cwd": "ProcessTemplates",
+        "cwd": "scripts/ProcessTemplates",
         "env": {
           "GOOS": "windows",
           "GOARCH": "amd64"

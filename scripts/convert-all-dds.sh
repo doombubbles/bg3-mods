@@ -1,12 +1,10 @@
 set -e
 
-# Space-separated list of source directories
-SOURCE_DIRS="./DoombubblesTweaks/Mods/DoombubblesTweaks/GUI/Assets ./WoWDeathKnight/Mods/WoWDeathKnight/GUI/Assets ./WoWSubclasses/Mods/WoWSubclasses/GUI/Assets"
 TARGET_DIR="./Wiki/images"
 
 mkdir -p "$TARGET_DIR"
 
-for SOURCE_DIR in $SOURCE_DIRS; do
+for SOURCE_DIR in ./*/Mods/*/GUI/Assets; do
     echo "Processing source: $SOURCE_DIR"
     ./bin/DDStronk.exe "$SOURCE_DIR"
 

@@ -32,17 +32,37 @@
 | Green Wyrmling Staff                | `DBT_Poison_Quarterstaff`         | `f23aa019-03d4-47c9-9387-bd87f5375bfc` |
 | Red Wyrmling Staff                  | `DBT_Fire_Quarterstaff`           | `aca20f20-ebb0-4403-ac2c-94da70b41570` |
 | Sapphire Wyrmling Staff             | `DBT_Thunder_Quarterstaff`        | `da8dab6b-86f7-4b80-9313-a4ab773b9c37` |
+| Gold Wyrmling Sword                 | `DBT_Fire_Sword`                  | `a2a37743-e27c-447b-9246-441c148a495c` |
+| Silver Wyrmling Sword               | `DBT_Cold_Sword`                  | `eea9ccf1-4d56-4c35-832c-d70a79be57a8` |
+| Ruby Wyrmling Sword                 | `DBT_Force_Sword`                 | `0f7cb341-92ae-4035-a9d6-e73dbbed5d51` |
+| Bronze Wyrmling Sword               | `DBT_Lightning_Sword`             | `5a7b276a-5d4e-4211-9807-5a3a9dfdc490` |
+| Diamond Wyrmling Sword              | `DBT_Radiant_Sword`               | `6c11729e-7089-447d-be97-7578a3af48a3` |
+| Emerald Wyrmling Sword              | `DBT_Necrotic_Sword`              | `c5d0bf94-1d70-4e18-902a-e149d0b5c86c` |
+| Amethyst Wyrmling Sword             | `DBT_Psychic_Sword`               | `729f3287-b9b7-4026-9afb-16b01f627718` |
+| Copper Wyrmling Sword               | `DBT_Acid_Sword`                  | `e8888640-8eda-4834-a53d-13f743de29e2` |
+| Green Wyrmling Sword                | `DBT_Poison_Sword`                | `90aafada-5923-4400-b6bc-cbfb33718051` |
+| Sapphire Wyrmling Sword             | `DBT_Thunder_Sword`               | `99e62b6d-efde-48bd-9d96-7f934aa885b6` |
 | Great Wyrm Scale                    | `DBT_Dragon_Material`             | `b5217ff7-6ec4-42e8-ad7d-0ba5d23d2359` |
-| Gold Great Wyrm Staff               | `DBT_Chromatic_Fire_staff`        | `ffca3335-73fa-4a44-9035-bff033f31c1b` |
-| Silver Great Wyrm Staff             | `DBT_Chromatic_Cold_staff`        | `e019e7ef-a209-4df3-ad83-b1b6f55ffbda` |
-| Ruby Great Wyrm Wyrming Staff       | `DBT_Chromatic_Force_staff`       | `e7e0778b-9582-4953-81b2-56767760de18` |
-| Bronze Great Wyrm Staff             | `DBT_Chromatic_Lightning_staff`   | `e56dd256-28cb-446d-a884-323e62418bb9` |
-| Diamond Great Wyrm Staff            | `DBT_Chromatic_Radiant_staff`     | `c0499d1c-e332-4e5f-a82c-abefc5571a32` |
-| Emerald Great Wyrm Staff            | `DBT_Chromatic_Necrotic_staff`    | `2f30ce14-b2f0-476f-984f-57bb7367bf5b` |
-| Amethyst Great Wyrm Staff           | `DBT_Chromatic_Psychic_staff`     | `50c440d5-20be-4b60-94a3-e44e507edb3d` |
-| Copper Great Wyrm Staff             | `DBT_Chromatic_Acid_staff`        | `7ac10001-2070-485e-a4bf-ee13656aa85c` |
-| Green Great Wyrm Staff              | `DBT_Chromatic_Poison_staff`      | `d5c7e3db-ff0a-49aa-8965-0e2f2804c1f9` |
-| Sapphire Great Wyrm Staff           | `DBT_Chromatic_Thunder_staff`     | `e46a29aa-4299-4e2c-9030-f2c14cd3d3fa` |
+| Gold Great Wyrm Staff               | `DBT_Chromatic_Fire_Staff`        | `ffca3335-73fa-4a44-9035-bff033f31c1b` |
+| Silver Great Wyrm Staff             | `DBT_Chromatic_Cold_Staff`        | `e019e7ef-a209-4df3-ad83-b1b6f55ffbda` |
+| Ruby Great Wyrm Staff               | `DBT_Chromatic_Force_Staff`       | `e7e0778b-9582-4953-81b2-56767760de18` |
+| Bronze Great Wyrm Staff             | `DBT_Chromatic_Lightning_Staff`   | `e56dd256-28cb-446d-a884-323e62418bb9` |
+| Diamond Great Wyrm Staff            | `DBT_Chromatic_Radiant_Staff`     | `c0499d1c-e332-4e5f-a82c-abefc5571a32` |
+| Emerald Great Wyrm Staff            | `DBT_Chromatic_Necrotic_Staff`    | `2f30ce14-b2f0-476f-984f-57bb7367bf5b` |
+| Amethyst Great Wyrm Staff           | `DBT_Chromatic_Psychic_Staff`     | `50c440d5-20be-4b60-94a3-e44e507edb3d` |
+| Copper Great Wyrm Staff             | `DBT_Chromatic_Acid_Staff`        | `7ac10001-2070-485e-a4bf-ee13656aa85c` |
+| Green Great Wyrm Staff              | `DBT_Chromatic_Poison_Staff`      | `d5c7e3db-ff0a-49aa-8965-0e2f2804c1f9` |
+| Sapphire Great Wyrm Staff           | `DBT_Chromatic_Thunder_Staff`     | `e46a29aa-4299-4e2c-9030-f2c14cd3d3fa` |
+| Gold Great Wyrm Sword               | `DBT_Chromatic_Fire_Sword`        | `faa2db57-1b66-4fed-8b86-a67454949f59` |
+| Silver Great Wyrm Sword             | `DBT_Chromatic_Cold_Sword`        | `d2f32b90-6965-4667-9709-288648cc7dd3` |
+| Ruby Great Wyrm Sword               | `DBT_Chromatic_Force_Sword`       | `c8aa2219-e3f2-4880-bac5-a7a6f942071d` |
+| Bronze Great Wyrm Sword             | `DBT_Chromatic_Lightning_Sword`   | `b452243e-786a-4599-af33-28713fcb89c6` |
+| Diamond Great Wyrm Sword            | `DBT_Chromatic_Radiant_Sword`     | `9e2b3fdb-a635-4048-bf72-58af3362ea29` |
+| Emerald Great Wyrm Sword            | `DBT_Chromatic_Necrotic_Sword`    | `596c6207-8043-4c51-a1af-148cd95915fa` |
+| Amethyst Great Wyrm Sword           | `DBT_Chromatic_Psychic_Sword`     | `d15da004-7a9b-420f-9e0d-cce4aa81a3d4` |
+| Copper Great Wyrm Sword             | `DBT_Chromatic_Acid_Sword`        | `d84d13b3-4c5e-4bc6-9b43-46aac2705a07` |
+| Green Great Wyrm Sword              | `DBT_Chromatic_Poison_Sword`      | `bc058452-1033-4f3f-a525-87a511fbb44d` |
+| Sapphire Great Wyrm Sword           | `DBT_Chromatic_Thunder_Sword`     | `2d2e38bf-ef6e-4a82-b356-1aa99c1d3722` |
 | Gloves of Finesse                   | `DBT_VersatileSneakAttack_Gloves` | `cb873bb4-24d6-40b3-9c1e-eb1c24a6f030` |
 | Gloves of Ultimate Skullduggery     | `DBT_Skullduggery_Gloves`         | `59c3172b-dd49-486c-a664-a71291a0face` |
 | Secrets to Skullduggery             | `DBT_Skullduggery_Material`       | `b78f6fe6-8aa9-4b98-a46e-6185f54a2de0` |
@@ -64,3 +84,4 @@
 | Obsidian Laced Sparkswall of Summer | `DBT_Spell_Robe_Combo`            | `4d9eb76a-e7a1-445e-a7ee-f976270ef46e` |
 | Hitched Pointer's Ring              | `DBT_HpThreshold_Ring`            | `e73615df-ff70-497a-b29f-865c1cdbc8d3` |
 | Scroll of Time Warp                 | `OBJ_Scroll_TimeWarp`             | `7b1ec19f-d139-4d18-91dd-363f7e7e73a6` |
+| Wyrmling's Scale                    | `DBT_Dragon_Material_2`           | `783bc4e4-37ec-4165-b047-278cf8989517` |

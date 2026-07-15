@@ -56,5 +56,8 @@
       "args": ["bash", "-l", "-d", "$PWD"]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "My Busybox Shell"
+  "terminal.integrated.defaultProfile.windows": "My Busybox Shell",
+  "search.exclude": {
+    "bin/**": true
+  }
 }
