@@ -57,7 +57,7 @@
           <attribute id="Level" type="uint8" value="5"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(0bda9bca-d683-4c23-8e2b-ffd6517d7271,1,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(6e8a656e-c587-40c7-8059-571550b68b5f,1,1,ArmsStrikes);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="66d1515c-e119-432b-b8e7-dbb9560c0d7a"/>
         </node>
@@ -65,7 +65,7 @@
           <attribute id="Level" type="uint8" value="6"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(0bda9bca-d683-4c23-8e2b-ffd6517d7271,0,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(6e8a656e-c587-40c7-8059-571550b68b5f,0,1,ArmsStrikes);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="b5db237e-6784-4da4-bf49-d2c7c2f8afa3"/>
         </node>
@@ -107,7 +107,7 @@
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,1,1,ArmsStrikes);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
-          <attribute id="UUID" type="guid" value="8ca1a59d-b2d9-4056-b1b3-87f7d05484eb"/>
+          <attribute id="UUID" type="guid" value="942e487e-0696-4ca1-9423-cdf433004597"/>
         </node>
         <node id="Progression">
           <attribute id="Level" type="uint8" value="12"/>

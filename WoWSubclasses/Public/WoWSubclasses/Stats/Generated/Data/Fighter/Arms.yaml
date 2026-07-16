@@ -23,3 +23,23 @@ Strikes:
     Spell: Shout_Overpower_Arms
     ActionResource: cbe0ac9b-4014-4078-8ebe-9a51e3cecfbc
     ConditionError: 87f5e199-25a4-48e3-9f38-4975f0c8672b
+  ColossusSmash:
+    Spell: Target_ColossusSmash_Arms
+    ActionResource: e7da76f8-72cc-44e2-ae3f-d35831d03fe7
+    ConditionError: e8467840-5b00-4fe8-998c-76d7359b91d6
+  SweepingStrikes:
+    Spell: Shout_SweepingStrikes_Arms
+    ActionResource: 5ce2cec6-7c1b-4dab-bc28-3cad79b0d14f
+    ConditionError: dc52c5d2-fe57-4b51-9ee8-64f99405adc0
+  Cleave:
+    Spell: Zone_Cleave_Arms
+    ActionResource: 23dd47e7-4842-4584-b146-4f7f2161df46
+    ConditionError: 0ec82dd9-f1be-47ef-989c-492c411f3fb1
+  MortalStrike:
+    Spell: Target_MortalStrike_Arms
+    ActionResource: bbb3d0ff-ede3-4be1-be71-510f6607e0a4
+    ConditionError: 923b2000-f4f6-46f6-bfcc-deef3afb2654
+  Slam:
+    Spell: Target_Slam_Arms
+    ActionResource: fb9b4c16-c29c-4cd4-be27-4f5b4d4d14f3
+    ConditionError: b82d2fc7-8f4b-484f-bf76-b9a39cd214bc

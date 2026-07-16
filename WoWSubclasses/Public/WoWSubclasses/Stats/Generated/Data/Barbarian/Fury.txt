@@ -146,6 +146,7 @@ data "Boosts" "UnlockSpellVariant(SpellId('Target_WildStrike'),ModifyIconGlow(),
 data "RemoveEvents" "OnSpellCast"
 data "RemoveConditions" "SpellId('Target_WildStrike')"
 data "StatusPropertyFlags" "ApplyToDead;DisableOverhead;DisableCombatlog"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 
 new entry "Target_Execute_Fury"
@@ -181,6 +182,7 @@ data "StackId" "MEAT_CLEAVER"
 data "Boosts" "UnlockSpellVariant(WhirlwindSpellCheck() & IsFuryAttack(),ModifyTooltipDescription(),ModifyNumberOfTargets(AdditiveBase,2,false))"
 data "StatusPropertyFlags" "ApplyToDead;FreezeDuration"
 data "Passives" "RemoveWarriorBuffs;Whirlwind"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // To make sure it's compatible with old saves
 new entry "WHIRLWIND"
@@ -221,6 +223,7 @@ data "Icon" "Action_Mag_WrecklessWarCry"
 data "Boosts" "UnlockSpellVariant(IsFuryAttack(),ModifyIconGlow(),ModifyTooltipDescription())"
 data "TickType" "EndTurn"
 data "StatusPropertyFlags" "ApplyToDead"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "Rush_Charge_Fury"
 type "SpellData"

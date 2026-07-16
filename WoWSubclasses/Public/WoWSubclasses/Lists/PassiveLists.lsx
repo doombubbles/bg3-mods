@@ -63,37 +63,37 @@
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Fury Lvl 3 Talents"/>
-          <attribute id="Passives" type="LSString" value="MeatCleaver,DoubleTime,SuddenDeath,FreshMeat"/>
+          <attribute id="Passives" type="LSString" value="MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
           <attribute id="UUID" type="guid" value="bb07b9ad-adce-4ff5-a881-dd255af272a1"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Fury Lvl 6 Talents"/>
-          <attribute id="Passives" type="LSString" value="AngerManagement,MeatCleaver,DoubleTime,SuddenDeath,FreshMeat"/>
+          <attribute id="Passives" type="LSString" value="AngerManagement,MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
           <attribute id="UUID" type="guid" value="4a6bbe6f-6e4f-4928-be6e-8d60a2a5b241"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Fury Lvl 10 Talents"/>
-          <attribute id="Passives" type="LSString" value="AngerManagement,MeatCleaver,DoubleTime,SuddenDeath,FreshMeat"/>
+          <attribute id="Passives" type="LSString" value="AngerManagement,MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
           <attribute id="UUID" type="guid" value="71b7aa1e-12fd-44a2-bbf3-72a119476313"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Arms Lvl 3 Talents"/>
-          <attribute id="Passives" type="LSString" value="DoubleTime,SuddenDeath"/>
+          <attribute id="Passives" type="LSString" value="DoubleTime,SuddenDeath,DeepWounds,Tactician"/>
           <attribute id="UUID" type="guid" value="58d19c11-78d8-4fb0-b025-2dfa3d447cfa"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Arms Lvl 6 Talents"/>
-          <attribute id="Passives" type="LSString" value="AngerManagement,DoubleTime,SuddenDeath"/>
+          <attribute id="Passives" type="LSString" value="AngerManagement,DoubleTime,SuddenDeath,DeepWounds,Tactician"/>
           <attribute id="UUID" type="guid" value="f2e532db-8afb-4bc2-bce6-9a53830b050e"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Arms Lvl 10 Talents"/>
-          <attribute id="Passives" type="LSString" value="AngerManagement,DoubleTime,SuddenDeath"/>
+          <attribute id="Passives" type="LSString" value="AngerManagement,DoubleTime,SuddenDeath,DeepWounds,Tactician"/>
           <attribute id="UUID" type="guid" value="22314f78-ef75-417d-95a5-f78ed95111d8"/>
         </node>
 

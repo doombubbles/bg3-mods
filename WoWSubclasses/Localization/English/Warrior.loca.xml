@@ -10,7 +10,7 @@
   <content contentuid="hf0da666cg2c85g4ec5g8e19g809ec529afbf" version="1">Charge to an enemy, damaging and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restraining&lt;/LSTag&gt; them for [1] turn(s).</content>
 
   <content contentuid="hf73627a9g9021g4ad0gb5ccg51f1cc99d2d6" version="1">Double Time</content>
-  <content contentuid="hed4d5e94g624ag4150gbc44gda72c63c8b15" version="1">After using &lt;LSTag Type="Spell" Tooltip="Rush_Charge"&gt;Charge&lt;/LSTag&gt;, you can use it once more with no class resource cost / cooldown.</content>
+  <content contentuid="hed4d5e94g624ag4150gbc44gda72c63c8b15" version="1">After using &lt;LSTag Type="Spell" Tooltip="Rush_Charge"&gt;Charge&lt;/LSTag&gt;, you can use it once more with no class resource cost / cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
   <content contentuid="h060bdaf3gdea4g44edgac7bg147381daf578" version="1">You can use &lt;LSTag Type="Spell" Tooltip="Rush_Charge"&gt;Charge&lt;/LSTag&gt; once more with no class resource cost or cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h20bcd44ag7f87g467bgbebdg2c66425c7d38" version="1">Sudden Death</content>
@@ -19,13 +19,19 @@
   <content contentuid="h0d362f44g5873g4a4ag9b32gb43c9d72cd15" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and has no class resource cost or cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h6e16220fgd02dg4882g9982g5120697fa6c6" version="1">Thunder Clap</content>
-  <content contentuid="h1b63a656g6499g4b52g91f6g758d6e5adbff" version="1">Blasts all nearby enemies, possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, or else making them &lt;LSTag Type="Status" Tooltip="OFF_BALANACED"&gt;Off Balanced&lt;/LSTag&gt;.</content>
+  <content contentuid="h1b63a656g6499g4b52g91f6g758d6e5adbff" version="1">Blasts all nearby enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on a failed save, or else making them &lt;LSTag Type="Status" Tooltip="OFF_BALANACED"&gt;Off Balanced&lt;/LSTag&gt; on a successful one.</content>
 
   <content contentuid="h39a5581fg45d8g4094g87f0gc33aa60312e7" version="1">Storm Bolt</content>
   <content contentuid="ha0bbee44gedc3g403cga8dage3fb613e51c1" version="1">Hurl lightning at an enemy, possibly &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; them for 1 turn.</content>
 
   <content contentuid="h5503c669g7ccbg4545g9ae2gabee40642259" version="1">Anger Management</content>
-  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">Whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a target, refund any spend &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; if it was a Fury Attack, or ignore its cooldown if it was an Arms Strike.</content>
+  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">Whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a target, refund any spent &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; if it was a Fury Attack, or ignore its cooldown if it was an Arms Strike.</content>
   <content contentuid="hec062353gee22g4cfeg97f6gcb776fc1e20c" version="1">Does not apply when multiple targets are attacked at once.</content>
+
+  <content contentuid="h44ec63ddg7d28g4ce3g897cgdb3736bc0bc9" version="1">Deep Wounds</content>
+  <content contentuid="h44e8adbfg5e3cg4341g907dg830245623ec9" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Target_MortalStrike_Arms"&gt;Mortal Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt;, or &lt;LSTag Type="Spell" Tooltip="Target_Bloodthirst"&gt;Bloodthirst&lt;/LSTag&gt;, inflict &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; for [1] turns.</content>
+
+  <content contentuid="h6c6eaf81ge191g47f2ga906g9bbe6e3b5100" version="1">Tactician</content>
+  <content contentuid="h21869032g835eg42b1gab8eg59d6c1ff9112" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_Overpower_Arms"&gt;Overpower&lt;/LSTag&gt; can be used an additional time per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
 </contentList>

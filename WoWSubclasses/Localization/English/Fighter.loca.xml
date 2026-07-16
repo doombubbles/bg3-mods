@@ -4,7 +4,7 @@
   <content contentuid="hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" version="1">You are a seasoned veteran, using your might and a variety of overpowering attacks to strike your opponents down.</content>
 
   <content contentuid="h28ef744eg7eafg4f04g8b32gf6c90f47264f" version="1">Arms Strikes</content>
-  <content contentuid="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1">You learns new ways to deal colossal blows to your enemies. Each can be used once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1">You learn new ways to deal colossal blows to your enemies. Each can be used once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
 
   <content contentuid="hdfaf1293g08c9g4b92gabc5gafed35633fc3" version="1">Arms Cooldowns</content>
@@ -14,5 +14,25 @@
   <content contentuid="h7305e2c4ga13dg4b94g904cg9c04170f60de" version="1">Cooldown: Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hd9a8420eg1e94g493cga0efg169bb3484e38" version="1">Overpower</content>
-  <content contentuid="h921192a5g0910g47c0gbb85g3cfdde961410" version="1">Turn a miss on a melee weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; into a hit.</content>
+  <content contentuid="h921192a5g0910g47c0gbb85g3cfdde961410" version="1">Turn a miss on a melee weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; into a hit.</content>
+
+  <content contentuid="ha66f7da4g0645g4c16g939fg603f62b3484e" version="1">Colossus Smash</content>
+  <content contentuid="hb02ee329g9da8g4fd5gae11gaf2c0a60680c" version="1">Smash through a creature's defences, reducing its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 5 until the end of your turn. If it fails a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, the reduction lasts until the end of your next turn instead.</content>
+  <content contentuid="h0407708fg292bg4133ga910g3651157ff0f3" version="1">Armour Class reduced by 5.</content>
+
+  <content contentuid="h7e179359gcefdg4fb5g9389gc9c11716ed3e" version="1">Sweeping Strikes</content>
+  <content contentuid="h5c4bc3bdg0b93g4cf7gb699ge1b657b5d2e9" version="1">Prepare to sweep through your foes. Your next 2 melee Arms Strikes can target 1 additional creature within range.</content>
+  <content contentuid="h36bb7577gd6e1g468fga978g1812af85eeb6" version="1">Your melee Arms Strikes can target 1 additional creature within range.</content>
+
+  <content contentuid="hd3188712g2d7fg4facgb20dgf1c917f41cd7" version="1">Cleave</content>
+  <content contentuid="h1758449dg7435g46a0g8088g4485293de676" version="1">Swing your weapon in a wide arc, striking up to [1] creatures in front of you.</content>
+
+  <content contentuid="hb73b2949ga714g4f55gbb71gaebd93b23802" version="1">Mortal Strike</content>
+  <content contentuid="h39713ea2gd8ccg43bbgab88ge0cab9f1eea8" version="1">Strike a creature and inflict &lt;LSTag Type="Status" Tooltip="MORTAL_WOUNDS"&gt;Mortal Wounds&lt;/LSTag&gt;, preventing it from regaining &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h6e115c7cg6453g46f3g9c4dgfd75e41cc14c" version="1">Mortal Wounds</content>
+  <content contentuid="ha67d0dffg013bg49f9g8d52gf3823c1bde37" version="1">Cannot regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+
+  <content contentuid="ha0d77454g054dg4342g8c29g84b69b26e359" version="1">Slam</content>
+  <content contentuid="hb8420ca7g0e1eg4618g9e6cg45c751959a04" version="1">Deal a mighty blow that consumes all your available attacks for this action.</content>
+  <content contentuid="h2417a761gd0bag41e9gb829g965399bdb815" version="1">Deals weapon damage once, or twice if you have &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; or thrice if you have &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt;.</content>
 </contentList>

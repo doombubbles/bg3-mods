@@ -106,6 +106,10 @@ function PretendWeaponAttack()
   return ConditionResult(false)
 end
 
+function AttackWithWeapon()
+  return Attack(AttackType.MeleeWeaponAttack)
+end
+
 function OathSpellCheck()
   return SpellCheck('Projectile_Judgement')
       | SpellCheck('Projectile_Judgement_Light')

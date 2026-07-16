@@ -32,7 +32,7 @@
   <content contentuid="h359c4045g45a2g4e8aga0aeg7d601c3c53af" version="1">You can use Wild Strike once more this turn without expending any resources.</content>
 
   <content contentuid="h9cfb1c17g1680g4a4bg8ff6ga52731ee25f3" version="1">Meat Cleaver</content>
-  <content contentuid="hdf52f363g33f1g4d1cg9d3bg8e469943b7f4" version="1">After using &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Fury"&gt;Whirlwind&lt;/LSTag&gt;, your next [1] Fury Attacks can target two additional creatures within range.</content>
+  <content contentuid="hdf52f363g33f1g4d1cg9d3bg8e469943b7f4" version="1">After using &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Fury"&gt;Whirlwind&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_ThunderClap_Fury"&gt;Thunder Clap&lt;/LSTag&gt;, your next [1] Fury Attacks can target two additional creatures within range.</content>
   <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your Fury Attacks can target two additional creatures within range.</content>
   
   <content contentuid="hde4e9cfbgf9fcg4632ga0d2gd94b84091616" version="1">Reckless Abandon</content>
