@@ -426,8 +426,8 @@ func (index *wikiIndex) resolve(reference string, currentPage string) (wikiTarge
 }
 
 func renderWikiLink(display string, target wikiTarget, currentPage string, inHTML bool) string {
-	href := wikiLinkHref(target, currentPage)
 	if len(target.Icons) == 0 && !inHTML {
+		href := wikiLinkTarget(target)
 		if strings.HasPrefix(href, "https://") || strings.HasPrefix(href, "http://") {
 			return fmt.Sprintf("[%s](%s)", display, href)
 		}
@@ -437,22 +437,25 @@ func renderWikiLink(display string, target wikiTarget, currentPage string, inHTM
 		return fmt.Sprintf("[[%s | %s]]", display, href)
 	}
 
-	return renderWikiLinkHTML(display, target, href)
+	return renderWikiLinkHTML(display, target, wikiLinkHref(target, currentPage))
 }
 
-func wikiLinkHref(target wikiTarget, currentPage string) string {
+func wikiLinkTarget(target wikiTarget) string {
 	href := target.Href
 	if href == "" {
 		href = target.Page
 	}
 	if target.Anchor != "" {
-		if normalizeWikiName(target.Page) == normalizeWikiName(currentPage) {
-			href = "#" + target.Anchor
-		} else {
-			href += "#" + target.Anchor
-		}
+		href += "#" + target.Anchor
 	}
 	return href
+}
+
+func wikiLinkHref(target wikiTarget, currentPage string) string {
+	if target.Anchor != "" && normalizeWikiName(target.Page) == normalizeWikiName(currentPage) {
+		return "#" + target.Anchor
+	}
+	return wikiLinkTarget(target)
 }
 
 func renderWikiLinkHTML(display string, target wikiTarget, href string) string {

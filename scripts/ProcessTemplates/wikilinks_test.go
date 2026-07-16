@@ -57,6 +57,17 @@ func TestExpandWikiLinksUsesLocalHeadingAndIcon(t *testing.T) {
 	requireEqual(t, got, want)
 }
 
+func TestExpandWikiLinksUsesFullPageTargetForLocalHeading(t *testing.T) {
+	index := newWikiIndex()
+	page := &wikiPage{Name: "Fighter---Arms", Headings: map[string][]wikiTarget{}}
+	target := wikiTarget{Name: "Arms Strikes", Page: page.Name, Anchor: "arms-strikes"}
+	page.Headings[normalizeWikiName(target.Name)] = []wikiTarget{target}
+	index.Pages[normalizeWikiName(page.Name)] = page
+
+	got, _ := mustExpandWikiLinks(t, "[[Arms Strikes | #arms-strikes]]", page.Name, index)
+	requireEqual(t, got, "[[Arms Strikes | Fighter---Arms#arms-strikes]]")
+}
+
 func TestExpandWikiLinksSupportsGitHubDisplayTargetOrder(t *testing.T) {
 	page := &wikiPage{Name: "Fighter---Arms", Headings: map[string][]wikiTarget{}}
 	index := newWikiIndex()
