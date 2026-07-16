@@ -8,7 +8,7 @@
 
 ## Level 1
 
-- [[Paladin---Abilities#crusader-strike | Crusader Strike]]
+- [[Crusader Strike | Paladin---Abilities#crusader-strike]]
 
 ## Level 2
 
@@ -33,7 +33,7 @@ Choose to either get [[Divine Smite]] like base subclasses, or get the **Holy Po
 
 ### Level 1 Oath Spells
 
-You learn 4 new Oath Spells that are always prepared. They can come from the list of [[Paladin---Abilities | Paladin Channel Oath Abilities]] or the two traditional spells below
+You learn 4 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below
 - [[Divine Favour]]
 - [[Shield]]
 
@@ -41,7 +41,7 @@ You learn 4 new Oath Spells that are always prepared. They can come from the lis
 
 ### Level 2 Oath Spells
 
-You learn 2 new Oath Spells that are always prepared. They can come from the list of [[Paladin---Abilities | Paladin Channel Oath Abilities]] or the two traditional spells below
+You learn 2 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below
 - [[Hold Person]]
 - [[Spiritual Weapon]]
 
@@ -67,7 +67,7 @@ You learn 2 new Oath Spells that are always prepared. They can come from the lis
 
 ### Level 3 Oath Spells
 
-You learn 2 new Oath Spells that are always prepared. They can come from the list of [[Paladin---Abilities | Paladin Channel Oath Abilities]] or the two traditional spells below
+You learn 2 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below
 - [[Haste]]
 - [[Spirit Guardians (Radiant)]]
 

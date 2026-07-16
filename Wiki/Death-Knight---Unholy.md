@@ -26,13 +26,13 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#outbreak | Outbreak]]
+    [[Outbreak | Death Knight Spells#outbreak]]
   </li>
   <li>
-    [[Death Knight Spells#festering-strike | Festering Strike]]
+    [[Festering Strike | Death Knight Spells#festering-strike]]
   </li>
   <li>
-    [[Death Knight Spells#scourge-strike | Scourge Strike]]
+    [[Scourge Strike | Death Knight Spells#scourge-strike]]
   </li>
 </ul>
 
@@ -40,7 +40,7 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#raise-dead | Raise Dead]]
+    [[Raise Dead | Death Knight Spells#raise-dead]]
   </li>
 </ul>
 
@@ -65,10 +65,10 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#raise-ally | Raise Ally]]
+    [[Raise Ally | Death Knight Spells#raise-ally]]
   </li>
   <li>
-    [[Death Knight Spells#unholy-aura | Unholy Aura]]
+    [[Unholy Aura | Death Knight Spells#unholy-aura]]
   </li>
 </ul>
 
@@ -93,10 +93,10 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#dark-transformation | Dark Transformation]]
+    [[Dark Transformation | Death Knight Spells#dark-transformation]]
   </li>
   <li>
-    [[Death Knight Spells#defile | Defile]]
+    [[Defile | Death Knight Spells#defile]]
   </li>
 </ul>
 
@@ -113,10 +113,10 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#raise-gargoyle | Raise Gargoyle]]
+    [[Raise Gargoyle | Death Knight Spells#raise-gargoyle]]
   </li>
   <li>
-    [[Death Knight Spells#army-of-the-dead | Army of the Dead]]
+    [[Army of the Dead | Death Knight Spells#army-of-the-dead]]
   </li>
 </ul>
 
@@ -141,10 +141,10 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#apocalypse | Apocalypse]]
+    [[Apocalypse | Death Knight Spells#apocalypse]]
   </li>
   <li>
-    [[Death Knight Spells#commander-of-the-dead | Commander of the Dead]]
+    [[Commander of the Dead | Death Knight Spells#commander-of-the-dead]]
   </li>
 </ul>
 

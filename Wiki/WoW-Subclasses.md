@@ -18,7 +18,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Fury Class Icon" height="150" src="images/ClassIcons/Fury.png" />](Barbarian---Fury)
 
-### [[Barbarian---Fury | Fury Barbarian]]
+### [[Fury Barbarian | Barbarian---Fury]]
 
 **Fury** is a modded Subclass of [[Barbarian]] that foregoes the defensive bonuses of [[Rage]] to instead gain more [[Rage Charges]] and new attacks to spend them on. Synergizes heavily with dual wielding.
 
@@ -30,7 +30,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Arms Fighter class icon" height="150" src="images/ClassIcons/Arms.png" />](Fighter---Arms)
 
-### [[Fighter---Arms | Arms Fighter]]
+### [[Arms Fighter | Fighter---Arms]]
 
 **Arms** is a modded Subclass of [[Fighter]] that learns a broad selection of powerful weapon techniques, each with its own Short Rest cooldown.
 
@@ -42,7 +42,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Shadow Domain Cleric class icon" height="150" src="images/ClassIcons/ShadowDomain.png" />](Cleric---Shadow)
 
-### [[Cleric---Shadow | Shadow Domain Cleric]]
+### [[Shadow Domain Cleric | Cleric---Shadow]]
 
 **Shadow Domain** is a modded Subclass of [[Cleric]] that focuses on dealing Psychic damage with less emphasis on healing.
 
@@ -54,7 +54,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Retribution Class Icon" height="150" src="images/ClassIcons/Retribution.png" />](Paladin---Retribution)
 
-### [[Paladin---Retribution | Retribution Paladin]]
+### [[Retribution Paladin | Paladin---Retribution]]
 
 **Oath of Retribution** is a modded Subclass of [[Paladin]] that focuses on using its [[Channel Oath Charges]] on empowered weapon attacks, with strong combat oriented Oath Spells.
 
@@ -64,7 +64,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Holy Class Icon" height="150" src="images/ClassIcons/Holy.png" />](Paladin---Holy)
 
-### [[Paladin---Holy | Holy Paladin]]
+### [[Holy Paladin | Paladin---Holy]]
 
 **Oath of Holiness** is a modded Subclass of [[Paladin]] that focuses on using its [[Channel Oath Charges]] on new empowered healing abilities, with support oriented Oath Spells.
 
@@ -73,7 +73,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Protection Class Icon" height="150" src="images/ClassIcons/Protection.png" />](Paladin---Protection)
 
-### [[Paladin---Protection | Protection Paladin]]
+### [[Protection Paladin | Paladin---Protection]]
 
 **Oath of Protection** is a modded Subclass of [[Paladin]] that focuses on using its [[Channel Oath Charges]] on new shield-related abilities, with defensive oriented Oath Spells.
 
@@ -84,14 +84,14 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Pact of Destruction Icon" height="100" src="Game/ControllerUIIcons/skills_png/PassiveFeature_DraconicAncestry_Gold.png" />](Warlock---Destruction)
 
-### [[Warlock---Destruction | Destruction Warlock]]
+### [[Destruction Warlock | Warlock---Destruction]]
 
 **Pact of Destruction** is a modded [[Warlock]] [[Pact]] that focuses on [[Fire]] spells as an alternative to [[Eldritch Blast]].
 
 
 <img align="right" alt="Pact of Demonology Icon" height="100" src="Game/ControllerUIIcons/skills_png/PassiveFeature_DraconicAncestry_Red.png" />
 
-### [[Warlock---Demonology | Demonology Warlock]]
+### [[Demonology Warlock | Warlock---Demonology]]
 
 **Pact of Demonology** is a modded [[Warlock]] [[Pact]] that focuses on summoning an expanded array of Fiends to do its bidding.
 
@@ -101,7 +101,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Fire Wizard Class Icon" height="150" src="images/ClassIcons/Fire.png" />](Wizard---Fire)
 
-### [[Wizard---Fire | Fire Wizard]]
+### [[Fire Wizard | Wizard---Fire]]
 
 **Fire** is a modded Subclass of [[Wizard]] that focuses on utilizing [[Fire]] spells and synergizing with Critical Hits.
 > {{ get .loca "hed3a9cd0gf34bg4a8dg935agb32ee5ab0168" | quote }}
@@ -109,7 +109,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Frost Wizard Class Icon" height="150" src="images/ClassIcons/Frost.png" />](Wizard---Frost)
 
-### [[Wizard---Frost | Frost Wizard]]
+### [[Frost Wizard | Wizard---Frost]]
 
 **Frost** is a modded Subclass of [[Wizard]] that focuses on utilizing [[Cold]] spells
 > {{ get .loca "hd76d5d39g9c18g4c34g8c4ag3ee5b9237ced" | quote }}
@@ -118,7 +118,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Arcane Wizard Class Icon" height="150" src="images/ClassIcons/Arcane.png" />](Wizard---Arcane)
 
-### [[Wizard---Arcane | Arcane Wizard]]
+### [[Arcane Wizard | Wizard---Arcane]]
 
 **Arcane** is a modded Subclass of [[Wizard]] that focuses on utilizing [[Arcane Recovery Charges]] in new ways.
 
@@ -127,7 +127,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 [<img align="right" alt="Chronomancy Wizard Class Icon" height="150" src="images/ClassIcons/Chronomancy.png" />](Wizard---Chronomancy)
 
-### [[Wizard---Chronomancy | Chronomancy Wizard]]
+### [[Chronomancy Wizard | Wizard---Chronomancy]]
 
 **Chronomancy** is a modded Subclass of [[Wizard]] that gives Wizards basic healing capabilities, bonuses with temporally themed spells, and new ways to mess with time. This obviously is not a real Mage specialization from World of Warcraft, but my friends and I have always wished that it was one, so this is the next best thing!
 

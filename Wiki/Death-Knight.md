@@ -19,11 +19,11 @@ The Death Knight subclasses are:
 
 <span>
 <h3>
-[[Death Knight - Blood | Blood]]
+[[Blood | Death Knight - Blood]]
 &nbsp;⋅
-[[Death Knight - Frost | Frost]]
+[[Frost | Death Knight - Frost]]
 &nbsp;⋅
-[[Death Knight - Unholy | Unholy]]
+[[Unholy | Death Knight - Unholy]]
 </h3>
 </span>
 
@@ -43,11 +43,11 @@ The Death Knight subclasses are:
       <th><div align="center">Rune<br/>Die</div></th>
     </tr>
     <tr>
-      <td>[[#level-1 | 1st]]</td>
+      <td>[[1st | #level-1]]</td>
       <td rowspan="4"><div align="center">+2</div></td>
       <td>
-        [[#rune-casting | Rune Casting]],
-        [[#level-1 | Lichborne]]
+        [[Rune Casting | #rune-casting]],
+        [[Lichborne | #level-1]]
       </td>
       <td><div align="center">-</div></td>
       <td><div align="center">1</div></td>
@@ -56,10 +56,10 @@ The Death Knight subclasses are:
       <td rowspan="3"><div align="center">1d4</div></td>
     </tr>
     <tr>
-      <td>[[#level-2 | 2nd]]</td>
+      <td>[[2nd | #level-2]]</td>
       <td>
         [[Fighting Style]],
-        [[#runeforging | Runeforging]]
+        [[Runeforging | #runeforging]]
       </td>
       <td><div align="center">2</div></td>
       <td><div align="center">1</div></td>
@@ -67,9 +67,9 @@ The Death Knight subclasses are:
       <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td>[[#level-3 | 3rd]]</td>
+      <td>[[3rd | #level-3]]</td>
       <td>
-        [[#level-3 | Choose a subclass]]
+        [[Choose a subclass | #level-3]]
       </td>
       <td><div align="center">3</div></td>
       <td><div align="center">2</div></td>
@@ -77,10 +77,10 @@ The Death Knight subclasses are:
       <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td>[[#level-4 | 4th]]</td>
+      <td>[[4th | #level-4]]</td>
       <td>
         [[Feat]],
-        [[#level-4 | Subclass Feature]]
+        [[Subclass Feature | #level-4]]
       </td>
       <td><div align="center">4</div></td>
       <td><div align="center">2</div></td>
@@ -89,7 +89,7 @@ The Death Knight subclasses are:
       <td rowspan="3"><div align="center">1d6</div></td>
     </tr>
     <tr>
-      <td>[[#level-5 | 5th]]</td>
+      <td>[[5th | #level-5]]</td>
       <td rowspan="4"><div align="center">+3</div></td>
       <td>
         [[Extra Attack]]
@@ -100,9 +100,9 @@ The Death Knight subclasses are:
       <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td>[[#level-6 | 6th]]</td>
+      <td>[[6th | #level-6]]</td>
       <td>
-        [[#level-6 | Subclass Feature]]
+        [[Subclass Feature | #level-6]]
       </td>
       <td><div align="center">6</div></td>
       <td><div align="center">3</div></td>
@@ -110,9 +110,9 @@ The Death Knight subclasses are:
       <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td>[[#level-7 | 7th]]</td>
+      <td>[[7th | #level-7]]</td>
       <td>
-        [[#rune-tap | Rune Tap]]
+        [[Rune Tap | #rune-tap]]
       </td>
       <td><div align="center">7</div></td>
       <td><div align="center">4</div></td>
@@ -121,7 +121,7 @@ The Death Knight subclasses are:
       <td rowspan="3"><div align="center">1d8</div></td>
     </tr>
     <tr>
-      <td>[[#level-8 | 8th]]</td>
+      <td>[[8th | #level-8]]</td>
       <td>
         [[Feat]]
       </td>
@@ -131,10 +131,10 @@ The Death Knight subclasses are:
       <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td>[[#level-9 | 9th]]</td>
+      <td>[[9th | #level-9]]</td>
       <td rowspan="4"><div align="center">+4</div></td>
       <td>
-        [[#will-of-the-necropolis | Will of the Necropolis]]
+        [[Will of the Necropolis | #will-of-the-necropolis]]
       </td>
       <td><div align="center">9</div></td>
       <td><div align="center">5</div></td>
@@ -142,9 +142,9 @@ The Death Knight subclasses are:
       <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td>[[#level-10 | 10th]]</td>
+      <td>[[10th | #level-10]]</td>
       <td>
-        [[#level-10 | Subclass Feature]]
+        [[Subclass Feature | #level-10]]
       </td>
       <td><div align="center">10</div></td>
       <td><div align="center">6</div></td>
@@ -153,9 +153,9 @@ The Death Knight subclasses are:
       <td rowspan="3"><div align="center">1d10</div></td>
     </tr>
     <tr>
-      <td>[[#level-11 | 11th]]</td>
+      <td>[[11th | #level-11]]</td>
       <td>
-        [[#rune-mastery | Rune Mastery]]
+        [[Rune Mastery | #rune-mastery]]
       </td>
       <td><div align="center">11</div></td>
       <td><div align="center">6</div></td>
@@ -163,7 +163,7 @@ The Death Knight subclasses are:
       <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td>[[#level-12 | 12th]]</td>
+      <td>[[12th | #level-12]]</td>
       <td>
         [[Feat]]
       </td>
@@ -208,7 +208,7 @@ The Death Knight subclasses are:
 
 ### Rune Casting
 
-*For a list of rune spells available to the Death Knight, see [[Death-Knight-Spells | List of Death Knight Spells]]*
+*For a list of rune spells available to the Death Knight, see [[List of Death Knight Spells | Death-Knight-Spells]]*
 
 **Spellcasting Ability**
 
@@ -297,7 +297,7 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 2
 
-- Choose 2 Rune Spells from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 2 Rune Spells from the [[Death Knight Spell List | Death-Knight-Spells]].
 
 #### New Rune Spells
 
@@ -318,8 +318,8 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 3
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 #### New Rune Spells
 
@@ -335,21 +335,21 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
         <div align="center">
           <img src="images/ClassIcons/BloodDK.png" alt="Blood DK" height=150 />
           <br/>
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </div>
       </th>
       <th>
         <div align="center">
         <img src="images/ClassIcons/FrostDK.png" alt="Frost DK" height=150 />
           <br/>
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </div>
       </th>
       <th>
         <div align="center">
         <img src="images/ClassIcons/UnholyDK.png" alt="Unholy DK" height=150 />
           <br/>
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </div>
       </th>
     </tr>
@@ -450,8 +450,8 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 4
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 
 #### Subclass feature
@@ -461,17 +461,17 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
     <tr>
       <th>
         <div align="center">
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </p>
       </th>
     </tr>
@@ -512,8 +512,8 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 5
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 #### Subclass feature
 
@@ -522,17 +522,17 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
     <tr>
       <th>
         <div align="center">
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </p>
       </th>
     </tr>
@@ -596,8 +596,8 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 6
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 #### Subclass feature
 
@@ -606,17 +606,17 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
     <tr>
       <th>
         <div align="center">
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </p>
       </th>
     </tr>
@@ -654,8 +654,8 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 7
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 #### Additional Runes: +1 [[Blood Rune]], +1 [[Frost Rune]], +1 [[Unholy Rune]]
 
@@ -672,17 +672,17 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
     <tr>
       <th>
         <div align="center">
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </p>
       </th>
     </tr>
@@ -728,16 +728,16 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 8
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 
 ### Level 9
 
 #### Rune Spells Known: 9
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 #### Subclass feature
 
@@ -746,17 +746,17 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
     <tr>
       <th>
         <div align="center">
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </p>
       </th>
     </tr>
@@ -824,8 +824,8 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 10
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 #### Subclass feature
 
@@ -834,17 +834,17 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
     <tr>
       <th>
         <div align="center">
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </p>
       </th>
     </tr>
@@ -878,8 +878,8 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 11
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].
 
 ![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png]]
 
@@ -892,17 +892,17 @@ Each subclass chooses one of it options for a new passive feature.
     <tr>
       <th>
         <div align="center">
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </p>
       </th>
     </tr>
@@ -910,7 +910,7 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            [[Death-Knight---Blood#empower-rune-weapon | Empower Rune Weapon]]
+            [[Empower Rune Weapon | Death-Knight---Blood#empower-rune-weapon]]
           </li>
           <li>
             [[Carnage]]
@@ -920,7 +920,7 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            [[Death-Knight---Frost#empower-rune-weapon | Empower Rune Weapon]]
+            [[Empower Rune Weapon | Death-Knight---Frost#empower-rune-weapon]]
           </li>
           <li>
             [[Obliteration]]
@@ -930,7 +930,7 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            [[Death-Knight---Unholy#empower-rune-weapon | Empower Rune Weapon]]
+            [[Empower Rune Weapon | Death-Knight---Unholy#empower-rune-weapon]]
           </li>
           <li>
             [[Superstrain]]
@@ -949,17 +949,17 @@ Each subclass chooses one of it options for a new passive feature.
     <tr>
       <th>
         <div align="center">
-          [[Death Knight - Blood | Blood]]
+          [[Blood | Death Knight - Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Frost | Frost]]
+          [[Frost | Death Knight - Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          [[Death Knight - Unholy | Unholy]]
+          [[Unholy | Death Knight - Unholy]]
         </p>
       </th>
     </tr>
@@ -1022,5 +1022,5 @@ Each subclass chooses one of it options for a new passive feature.
 
 #### Rune Spells Known: 12
 
-- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
-- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
+- Choose 1 additional Rune Spell from the [[Death Knight Spell List | Death-Knight-Spells]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death Knight Spell List | Death-Knight-Spells]].

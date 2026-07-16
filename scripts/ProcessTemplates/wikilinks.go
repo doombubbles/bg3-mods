@@ -362,7 +362,7 @@ func parseWikiLink(value string) (display string, target string) {
 		value := strings.TrimSpace(parts[0])
 		return value, value
 	}
-	return strings.TrimSpace(parts[1]), strings.TrimSpace(parts[0])
+	return strings.TrimSpace(parts[0]), strings.TrimSpace(parts[1])
 }
 
 func (index *wikiIndex) resolve(reference string, currentPage string) (wikiTarget, error) {
@@ -431,10 +431,10 @@ func renderWikiLink(display string, target wikiTarget, currentPage string, inHTM
 		if strings.HasPrefix(href, "https://") || strings.HasPrefix(href, "http://") {
 			return fmt.Sprintf("[%s](%s)", display, href)
 		}
-		if normalizeWikiName(display) == normalizeWikiName(href) {
+		if display == href {
 			return fmt.Sprintf("[[%s]]", display)
 		}
-		return fmt.Sprintf("[[%s | %s]]", href, display)
+		return fmt.Sprintf("[[%s | %s]]", display, href)
 	}
 
 	return renderWikiLinkHTML(display, target, href)

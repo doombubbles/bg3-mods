@@ -2,9 +2,9 @@
 
 This Wiki documents the features and balance changes in my Baldur's Gate 3 mods.
 
-- [[Death-Knight | WoW Death Knight]]
+- [[WoW Death Knight | Death-Knight]]
 - [[WoW Subclasses]]
-- [[New-Items | DoombubblesTweaks additions]] and [[Item-Changes | changes]]
+- [[DoombubblesTweaks additions | New-Items]] and [[changes | Item-Changes]]
 - [[Doombubbles Difficulty]]
 - [[Doombubbles REL]]
 

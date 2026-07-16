@@ -1,6 +1,6 @@
 # Item Changes
 
-**?[[Category:Adamantine equipment | Adamantine Weapons]]** - Now have +2 Enchantment and send targets ?[[Reeling]] on hit
+**?[[Adamantine Weapons | Category:Adamantine equipment]]** - Now have +2 Enchantment and send targets ?[[Reeling]] on hit
 
 **?[[Mourning Frost]]**
  - DC for Chilled debuff is now your spell save DC instead of flat 12
@@ -37,7 +37,7 @@
 
 **?[[Daredevil Gloves]]** - Now give +2 to Melee Spell Attack Rolls (still +1 to Ranged) and doesn't specifically rely on the Threatened Condition
 
-**?[[Ring of Elemental Infusion]]** - Different ?[[Elemental Infusion | Elemental Infusions]] on your weapon can now stack together
+**?[[Ring of Elemental Infusion]]** - Different ?[[Elemental Infusions | Elemental Infusion]] on your weapon can now stack together
 
 **?[[Boots of Psionic Movement]]** - Now also work with Partial Ilithid Fly, but can only proc once per turn in combat
 
@@ -47,7 +47,7 @@
 
 **?[[Obsidian Laced Robe]]** - Now has the additional effect Obsidian Armour: You have +1 to Armour Class and Saving Throws as long as you've had ?[[Heat]] within the past turn
 
-**?[[Thermodynamo Axe | Thermodynamaxe]]** - Is now permanently dipped in Fire, and passive changed slightly to "Whenever you deal damage with a melee weapon attack, you gain 2 turns of Heat."
+**?[[Thermodynamaxe | Thermodynamo Axe]]** - Is now permanently dipped in Fire, and passive changed slightly to "Whenever you deal damage with a melee weapon attack, you gain 2 turns of Heat."
 
 **?[[Shar's Aegis]]** - Usable per Short Rest
 
@@ -95,7 +95,7 @@
 
 **?[[Viconia's Priestess Robe]]** - Now gives ?[[Born into Darkness]] and lets you use ?[[Shar's Aegis]], which grants ?[[Shar's Protection]]
 
-**?[[Duke Ravengard's Longsword | Duke Ravenguard's Longsword]]** - Temporary hit point passive now correctly uses your own Charisma Modifier
+**?[[Duke Ravenguard's Longsword | Duke Ravengard's Longsword]]** - Temporary hit point passive now correctly uses your own Charisma Modifier
 
 **?[[Tenacity]]** - Now actually counts as the weapon itself doing damage for purposes of other synergies
 
@@ -116,11 +116,11 @@
   - Can cast ?[[Magic Missile]] and ?[[Disintegrate]] per Short Rest
 - Added "Resplendent Dawn" attunement to Radiant damage
   - Radiant damage resistance, add Proficiency to Radiant damage
-  - Dealing spell damage inflicts 1 turn of ?[[Radiating Orb (Condition) | Radiating Orb]] on the target
+  - Dealing spell damage inflicts 1 turn of ?[[Radiating Orb | Radiating Orb (Condition)]] on the target
   - Can cast ?[[Guiding Bolt]] and ?[[Sunbeam]] per Short Rest
 - Added "Undying Blight" attunement to Necrotic Damage
   - Necrotic damage resistance, add Proficiency to Necrotic damage
-  - Dealing spell damage inflicts 2 turns of ?[[Spell Rot (Condition) | Spell Rot]]
+  - Dealing spell damage inflicts 2 turns of ?[[Spell Rot | Spell Rot (Condition)]]
   - Can cast ?[[Blight]] and ?[[Circle of Death]] per Short Rest
 - Added "Fractured Psyche" attunement to Psychic Damage
   - Psychic damage resistance, add Proficiency to Psychic damage

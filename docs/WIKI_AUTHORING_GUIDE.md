@@ -364,11 +364,11 @@ Use the canonical BG3 Wiki target, including fragments or disambiguation suffixe
 
 ### Repository Wiki pages
 
-Use smart Wiki links for repository pages and for documented mod features. This repository follows the standard GitHub/MediaWiki `target | display` ordering:
+Use smart Wiki links for repository pages and for documented mod features. This repository follows GitHub Wiki's Gollum `display | target` ordering:
 
 ```md
-[[Paladin---Abilities | Paladin Channel Oath Abilities]]
-[[Paladin---Abilities#Crusader Strike | Crusader Strike]]
+[[Paladin Channel Oath Abilities | Paladin---Abilities]]
+[[Crusader Strike | Paladin---Abilities#Crusader Strike]]
 ```
 
 For a uniquely named heading, or a heading on the current page, the short form is sufficient:

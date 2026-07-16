@@ -29,7 +29,7 @@
 	"Rune Spell": {
 		"prefix": "runespell",
 		"scope": "markdown,helm",
-		"body": "[[Death-Knight-Spells#$TM_SELECTED_TEXT | $TM_SELECTED_TEXT]]"
+		"body": "[[$TM_SELECTED_TEXT | Death-Knight-Spells#$TM_SELECTED_TEXT]]"
 	},
 	"Wiki Link": {
 		"prefix": "wikilink",
@@ -39,7 +39,7 @@
 	"Wiki Link With Target": {
 		"prefix": "wikilinktarget",
 		"scope": "markdown,helm",
-		"body": "[[${1:Page#Heading} | ${2:$TM_SELECTED_TEXT}]]$0"
+		"body": "[[${1:$TM_SELECTED_TEXT} | ${2:Page#Heading}]]$0"
 	},
 	"Loca": {
 			"prefix": ["loca"],

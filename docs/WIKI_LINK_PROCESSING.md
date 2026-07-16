@@ -16,10 +16,10 @@ Your next [[Raging Blow]] deals additional damage.
 1. headings in the rendered Wiki, including headings supplied by snippets;
 2. the centralized base-game concept registry in `Wiki/!wikilinks.yaml`.
 
-A heading's preceding 40-pixel image becomes the 25-pixel icon shown beside links to that heading. When a heading name is ambiguous, use the standard GitHub/MediaWiki `target | display` order:
+A heading's preceding 40-pixel image becomes the 25-pixel icon shown beside links to that heading. When a heading name is ambiguous, use GitHub Wiki's Gollum `display | target` order:
 
 ```md
-[[Fighter---Arms#Charge | Charge]]
+[[Charge | Fighter---Arms#Charge]]
 ```
 
 Links that do not need generated icon markup may remain real `[[Wiki Link]]` syntax in the output.
@@ -50,10 +50,10 @@ Use a question-mark wikilink for a one-off BG3 Wiki reference that does not need
 ?[[Great Weapon Fighting]]
 ```
 
-The processor URL-escapes the name and links through the BG3 Wiki's **Go** search. An exact page or redirect opens directly; otherwise, the link opens search results. Custom display text uses the same `target | display` order as other wikilinks:
+The processor URL-escapes the name and links through the BG3 Wiki's **Go** search. An exact page or redirect opens directly; otherwise, the link opens search results. Custom display text uses the same `display | target` order as other wikilinks:
 
 ```md
-?[[Temporary Hit Points | temporary HP]]
+?[[temporary HP | Temporary Hit Points]]
 ```
 
 Prefer `[[Concept]]` for repeated references, links that should have icons, and targets that should be validated during the Wiki build. Prefer `?[[Name]]` for isolated base-game references such as the individual entries on `Item-Changes.md`.

@@ -16,7 +16,7 @@
 
 #### Talent: 1 Known
 
-Choose 1 [[#warrior-talents | Warrior Talent]] from Meat Cleaver, Double Time, Sudden Death, Fresh Meat, or Deep Wounds.
+Choose 1 [[Warrior Talent | #warrior-talents]] from Meat Cleaver, Double Time, Sudden Death, Fresh Meat, or Deep Wounds.
 
 ![[Game/ControllerUIIcons/skills_png/Action_Barbarian_Frenzy.png]]
 
@@ -41,7 +41,7 @@ When you make an offhand attack, you can add your Ability Score Modifier to the 
 
 #### Talents: 2 Known
 
-Choose 1 additional [[#warrior-talents | Warrior Talent]]. Anger Management becomes available.
+Choose 1 additional [[Warrior Talent | #warrior-talents]]. Anger Management becomes available.
 
 
 ![[Game/ControllerUIIcons/skills_png/PassiveFeature_MindlessRage.png]]
@@ -55,7 +55,7 @@ Choose 1 additional [[#warrior-talents | Warrior Talent]]. Anger Management beco
 
 #### Titan's Grip
 
-You can use Two-Weapon Fighting even if your weapons aren't ?[[Light (Weapon Property) | Light]].
+You can use Two-Weapon Fighting even if your weapons aren't ?[[Light | Light (Weapon Property)]].
 
 *Currently making the call not to implement a real 2-handed version of Titan's Grip. I've seen the way it's been done before and it's too janky for my taste, and I don't see a path to making it less janky at the moment.*
 
@@ -66,7 +66,7 @@ You can use Two-Weapon Fighting even if your weapons aren't ?[[Light (Weapon Pro
 
 #### Talents: 3 Known
 
-Choose 1 additional [[#warrior-talents | Warrior Talent]].
+Choose 1 additional [[Warrior Talent | #warrior-talents]].
 
 ![[Game/ControllerUIIcons/skills_png/Action_Mag_WrecklessWarCry.png]]
 

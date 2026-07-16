@@ -57,17 +57,26 @@ func TestExpandWikiLinksUsesLocalHeadingAndIcon(t *testing.T) {
 	requireEqual(t, got, want)
 }
 
-func TestExpandWikiLinksSupportsStandardTargetDisplayOrder(t *testing.T) {
+func TestExpandWikiLinksSupportsGitHubDisplayTargetOrder(t *testing.T) {
 	page := &wikiPage{Name: "Fighter---Arms", Headings: map[string][]wikiTarget{}}
 	index := newWikiIndex()
 	index.Pages[normalizeWikiName(page.Name)] = page
 
-	got, _ := mustExpandWikiLinks(t, "[[Fighter---Arms | Arms Fighter]]", "Home", index)
-	requireEqual(t, got, "[[Fighter---Arms | Arms Fighter]]")
+	got, _ := mustExpandWikiLinks(t, "[[Arms Fighter | Fighter---Arms]]", "Home", index)
+	requireEqual(t, got, "[[Arms Fighter | Fighter---Arms]]")
+}
+
+func TestExpandWikiLinksPreservesResolvedPageFilename(t *testing.T) {
+	page := &wikiPage{Name: "Doombubbles---Difficulty", Headings: map[string][]wikiTarget{}}
+	index := newWikiIndex()
+	index.Pages[normalizeWikiName("Doombubbles Difficulty")] = page
+
+	got, _ := mustExpandWikiLinks(t, "[[Doombubbles Difficulty]]", "Home", index)
+	requireEqual(t, got, "[[Doombubbles Difficulty | Doombubbles---Difficulty]]")
 }
 
 func TestCleanHeadingNameUsesWikilinkDisplayText(t *testing.T) {
-	got := cleanHeadingName("[[Fighter---Arms | Arms Fighter]]")
+	got := cleanHeadingName("[[Arms Fighter | Fighter---Arms]]")
 	if got != "Arms Fighter" {
 		t.Fatalf("unexpected heading name %q", got)
 	}
@@ -91,7 +100,7 @@ func TestExpandWikiImage(t *testing.T) {
 }
 
 func TestExpandWikiImageRejectsDisplayText(t *testing.T) {
-	_, _, err := expandWikiLinks([]byte("![[image.png | label]]"), "Page", newWikiIndex())
+	_, _, err := expandWikiLinks([]byte("![[label | image.png]]"), "Page", newWikiIndex())
 	if err == nil || !strings.Contains(err.Error(), "cannot have display text") {
 		t.Fatalf("expected invalid image error, got %v", err)
 	}
@@ -107,7 +116,7 @@ func TestExpandBG3WikiSearchLink(t *testing.T) {
 }
 
 func TestExpandBG3WikiSearchLinkSupportsDisplayText(t *testing.T) {
-	got, _ := mustExpandWikiLinks(t, "?[[Temporary Hit Points | temporary HP]]", "Page", newWikiIndex())
+	got, _ := mustExpandWikiLinks(t, "?[[temporary HP | Temporary Hit Points]]", "Page", newWikiIndex())
 	want := "<a href='https://bg3.wiki/w/index.php?go=Go&amp;search=Temporary+Hit+Points'>temporary HP</a>"
 	requireEqual(t, got, want)
 }
@@ -160,7 +169,7 @@ func TestExpandWikiLinkWithoutIconInsideHTML(t *testing.T) {
 	index := newWikiIndex()
 	index.Pages[normalizeWikiName(page.Name)] = page
 	index.Headings[normalizeWikiName(target.Name)] = []wikiTarget{target}
-	source := "<td>[[#level-1 | 1st]]</td>\n"
+	source := "<td>[[1st | #level-1]]</td>\n"
 	got, _ := mustExpandWikiLinks(t, source, page.Name, index)
 	want := "<td><a href='#level-1'>1st</a></td>\n"
 	requireEqual(t, got, want)

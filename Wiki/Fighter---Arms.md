@@ -16,7 +16,7 @@ Choose 3 [[Arms Strikes]] to know. Each Arms Strike can be used once per [[Short
 
 #### Talent: 1 Known
 
-Choose 1 [[#warrior-talents | Warrior Talent]] from Double Time, Sudden Death, Deep Wounds, or Tactician.
+Choose 1 [[Warrior Talent | #warrior-talents]] from Double Time, Sudden Death, Deep Wounds, or Tactician.
 
 ### Level 5
 

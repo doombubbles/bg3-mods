@@ -26,13 +26,13 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#blood-boil | Blood Boil]]
+    [[Blood Boil | Death Knight Spells#blood-boil]]
   </li>
   <li>
-    [[Death Knight Spells#marrowrend | Marrowrend]]
+    [[Marrowrend | Death Knight Spells#marrowrend]]
   </li>
   <li>
-    [[Death Knight Spells#heart-strike | Heart Strike]]
+    [[Heart Strike | Death Knight Spells#heart-strike]]
   </li>
 </ul>
 
@@ -40,10 +40,10 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#dancing-rune-weapon | Dancing Rune Weapon]]
+    [[Dancing Rune Weapon | Death Knight Spells#dancing-rune-weapon]]
   </li>
   <li>
-    [[Death Knight Spells#subduing-grasp Person | Subduing Grasp: Person]]
+    [[Subduing Grasp: Person | Death Knight Spells#subduing-grasp Person]]
   </li>
 </ul>
 
@@ -68,7 +68,7 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#san'layn-touch | San'layn Touch]]
+    [[San'layn Touch | Death Knight Spells#san'layn-touch]]
   </li>
 </ul>
 
@@ -102,7 +102,7 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#subduing-grasp-monster | Subduing Grasp: Monster]]
+    [[Subduing Grasp: Monster | Death Knight Spells#subduing-grasp-monster]]
   </li>
 </ul>
 
@@ -127,7 +127,7 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#bloodshot | Bloodshot]]
+    [[Bloodshot | Death Knight Spells#bloodshot]]
   </li>
 </ul>
 

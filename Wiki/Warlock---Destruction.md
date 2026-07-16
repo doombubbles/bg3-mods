@@ -10,7 +10,7 @@
 
 ### Pact of Destruction 
 
-{{ getf .loca "hc19d5973g8425g4969gb956g5ae5448e67f5" | replace "Rays of Fire" "[[Rays of Fire]]" | replace "Eldritch Blast" "[[Eldritch Blast]]" | replace "Eldritch Invocations" "?[[Eldritch Invocation | Eldritch Invocations]]" }}
+{{ getf .loca "hc19d5973g8425g4969gb956g5ae5448e67f5" | replace "Rays of Fire" "[[Rays of Fire]]" | replace "Eldritch Blast" "[[Eldritch Blast]]" | replace "Eldritch Invocations" "?[[Eldritch Invocations | Eldritch Invocation]]" }}
 
 *Damage adjusted to 2d4 [[Fire]] per ray. This is slightly lower than base Eldritch Blast, but there are more Fire damage synergies to make up for it.*
 

@@ -27,13 +27,13 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#howling-blast | Howling Blast]]
+    [[Howling Blast | Death Knight Spells#howling-blast]]
   </li>
   <li>
-    [[Death Knight Spells#obliterate | Obliterate]]
+    [[Obliterate | Death Knight Spells#obliterate]]
   </li>
   <li>
-    [[Death Knight Spells#frostscythe | Frostscythe]]
+    [[Frostscythe | Death Knight Spells#frostscythe]]
   </li>
 </ul>
 
@@ -58,7 +58,7 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#absolute-zero | Absolute Zero]]
+    [[Absolute Zero | Death Knight Spells#absolute-zero]]
   </li>
 </ul>
 
@@ -83,7 +83,7 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#avalanche | Avalanche]]
+    [[Avalanche | Death Knight Spells#avalanche]]
   </li>
 </ul>
 
@@ -100,7 +100,7 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#breath-of-sindragosa | Breath of Sindragosa]]
+    [[Breath of Sindragosa | Death Knight Spells#breath-of-sindragosa]]
   </li>
 </ul>
 
@@ -127,7 +127,7 @@ Runes:
 
 <ul>
   <li>
-    [[Death Knight Spells#glacial-advance | Glacial Advance]]
+    [[Glacial Advance | Death Knight Spells#glacial-advance]]
   </li>
 </ul>
 

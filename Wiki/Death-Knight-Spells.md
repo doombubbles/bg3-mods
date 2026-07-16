@@ -195,9 +195,9 @@
 - Costs 1 [[Action]], 4 [[Unholy Runes]]
 - 3m range
 - {{ getf .loca "h15eda73bg9db5g4735g9c14g4afa7ce57766" | include "wikify" }}
-  - ?[[Zombie]] -> ?[[Ghoul (Animate Dead) | Ghoul]]
-  - ?[[Skeleton (Animate Dead) | Skeleton]] -> ?[[Flying Ghoul (Animate Dead) | Flying Ghoul]]
-  - ?[[Ghoul (Animate Dead) | Ghoul]]/?[[Flying Ghoul (Animate Dead) | Flying Ghoul]] -> ?[[Ancient Servant | Mummy]]
+  - ?[[Zombie]] -> ?[[Ghoul | Ghoul (Animate Dead)]]
+  - ?[[Skeleton | Skeleton (Animate Dead)]] -> ?[[Flying Ghoul | Flying Ghoul (Animate Dead)]]
+  - ?[[Ghoul | Ghoul (Animate Dead)]]/?[[Flying Ghoul | Flying Ghoul (Animate Dead)]] -> ?[[Mummy | Ancient Servant]]
 
 
 
