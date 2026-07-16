@@ -2,7 +2,7 @@
 
 <img align="right" alt="Magician class icon" height="150" src="images/ClassIcons/Magician.png" />
 
-**Magician** is an experimental class based on [Sorcerer](https://bg3.wiki/wiki/Sorcerer), with Wizard-style spell learning—including learning from scrolls—and Intelligence as its spellcasting ability.
+**Magician** is an experimental class based on [[Sorcerer]], with Wizard-style spell learning—including learning from scrolls—and Intelligence as its spellcasting ability.
 
 ## Class Features
 

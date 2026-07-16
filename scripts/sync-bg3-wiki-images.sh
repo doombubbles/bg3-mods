@@ -1,12 +1,17 @@
 set -e
 
 UNPACKED_DATA="./bin/bg3-modders-multitool/UnpackedData"
-TARGET_DIR="./Wiki/images/_bg3"
 WIKI_SOURCES="./Wiki"
+ATLAS_WORK_DIR="$WIKI_SOURCES/.bg3-atlas-work"
+LEGACY_TARGET_DIR="$WIKI_SOURCES/images/_bg3"
+LEGACY_SKILL_TARGET_DIR="./Wiki/skills_png"
 
-IMAGE_PATHS=$(grep -rhoE --include='*.md' --include='*.tpl' 'images/_bg3/[A-Za-z0-9_./-]+\.png' "$WIKI_SOURCES" | sort -u)
+IMAGE_PATHS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
+    -exec grep -hoE '(Game|Gustav_Textures)/[A-Za-z0-9_./-]+\.png|Icons/Textures/[A-Za-z0-9_./-]+\.png' {} \; \
+    | sort -u)
 
-LEGACY_IMAGE_REFS=$(grep -rhoE --include='*.md' --include='*.tpl' 'https://bg3\.wiki/w/images/[^"'"'"' )>]+' "$WIKI_SOURCES" | sort -u || true)
+LEGACY_IMAGE_REFS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
+    -exec grep -hoE 'https://bg3\.wiki/w/images/[^"'"'"' )>]+' {} \; | sort -u || true)
 
 if [ -n "$LEGACY_IMAGE_REFS" ]; then
     echo "Legacy BG3 Wiki image references remain:" >&2
@@ -19,47 +24,85 @@ if [ -z "$IMAGE_PATHS" ]; then
     exit 1
 fi
 
+unpacked_source_path() {
+    case "$1" in
+        Game/*)
+            printf 'Game/Public/Game/GUI/Assets/%s' "${1#Game/}"
+            ;;
+        Gustav_Textures/*)
+            printf 'Gustav_Textures/Mods/GustavX/GUI/Assets/%s' "${1#Gustav_Textures/}"
+            ;;
+        Icons/*)
+            printf 'Icons/Public/Shared/Assets/%s' "${1#Icons/}"
+            ;;
+        *)
+            echo "Unsupported compact BG3 image path: $1" >&2
+            return 1
+            ;;
+    esac
+}
+
 atlas_source_path() {
-    RELATIVE_PATH="$1"
-    printf '%s.DDS' "${RELATIVE_PATH%%.DDS/*}"
+    printf '%s.DDS' "${1%%.DDS/*}"
 }
 
 atlas_icon_key() {
     basename "${1%.png}"
 }
 
+source_relative_path() {
+    case "$1" in
+        *.DDS/*.png)
+            atlas_source_path "$1"
+            ;;
+        *)
+            printf '%s.DDS' "${1%.png}"
+            ;;
+    esac
+}
+
+unpacked_image_path() {
+    local source_relative
+    source_relative=$(source_relative_path "$1") || return 1
+    printf '%s/%s' "$UNPACKED_DATA" "$(unpacked_source_path "$source_relative")"
+}
+
 atlas_definition_path() {
-    ATLAS_RELATIVE_PATH="$1"
-    ICON_KEY="$2"
-    ATLAS_NAME=$(basename "${ATLAS_RELATIVE_PATH%.DDS}")
-    MATCHES=""
+    local atlas_relative_path="$1"
+    local icon_key="$2"
+    local atlas_name
+    local candidate
+    local matches=""
+    local match_count
+    atlas_name=$(basename "${atlas_relative_path%.DDS}")
 
     # Icon atlas catalogs follow <package>/Public/<module>/GUI/<atlas>.lsx.
     # Using that bounded layout avoids scanning large animation and texture trees.
-    for CANDIDATE in "$UNPACKED_DATA"/*/Public/*/GUI/"$ATLAS_NAME.lsx"; do
-        [ -f "$CANDIDATE" ] || continue
+    for candidate in "$UNPACKED_DATA"/*/Public/*/GUI/"$atlas_name.lsx"; do
+        [ -f "$candidate" ] || continue
 
-        if grep -Fq "value=\"$ICON_KEY\"" "$CANDIDATE"; then
-            MATCHES="${MATCHES}${MATCHES:+
-}$CANDIDATE"
+        if grep -Fq "value=\"$icon_key\"" "$candidate"; then
+            matches="${matches}${matches:+
+}$candidate"
         fi
     done
 
-    MATCH_COUNT=$(printf '%s\n' "$MATCHES" | grep -c . || true)
-    if [ "$MATCH_COUNT" -ne 1 ]; then
-        echo "Expected one atlas definition for $ATLAS_NAME/$ICON_KEY, found $MATCH_COUNT" >&2
+    match_count=$(printf '%s\n' "$matches" | grep -c . || true)
+    if [ "$match_count" -ne 1 ]; then
+        echo "Expected one atlas definition for $atlas_name/$icon_key, found $match_count" >&2
         return 1
     fi
 
-    printf '%s' "$MATCHES"
+    printf '%s' "$matches"
 }
 
 atlas_crop_spec() {
-    ATLAS_RELATIVE_PATH="$1"
-    ICON_KEY="$2"
-    DEFINITION_PATH=$(atlas_definition_path "$ATLAS_RELATIVE_PATH" "$ICON_KEY") || return 1
+    local atlas_relative_path="$1"
+    local icon_key="$2"
+    local definition_path
+    definition_path=$(atlas_definition_path "$atlas_relative_path" "$icon_key") || return 1
 
-    awk -v key="$ICON_KEY" '
+    awk -v key="$icon_key" '
         function value(line, result) {
             if (match(line, /value="[^"]+"/)) {
                 result = substr(line, RSTART + 7, RLENGTH - 8)
@@ -98,8 +141,8 @@ atlas_crop_spec() {
             y = int(v1 * texture_height)
             printf "%d %d %d %d", x, y, icon_width, icon_height
         }
-    ' "$DEFINITION_PATH" || {
-        echo "Could not parse atlas entry $ICON_KEY from $DEFINITION_PATH" >&2
+    ' "$definition_path" || {
+        echo "Could not parse atlas entry $icon_key from $definition_path" >&2
         return 1
     }
 }
@@ -107,18 +150,14 @@ atlas_crop_spec() {
 # Check every source before replacing the generated image directory.
 HAS_ATLAS_IMAGES=false
 for WIKI_PATH in $IMAGE_PATHS; do
-    RELATIVE_PATH="${WIKI_PATH#images/_bg3/}"
+    SOURCE_PATH=$(unpacked_image_path "$WIKI_PATH")
 
-    case "$RELATIVE_PATH" in
+    case "$WIKI_PATH" in
         *.DDS/*.png)
             HAS_ATLAS_IMAGES=true
-            ATLAS_RELATIVE_PATH=$(atlas_source_path "$RELATIVE_PATH")
-            SOURCE_PATH="$UNPACKED_DATA/$ATLAS_RELATIVE_PATH"
-            ICON_KEY=$(atlas_icon_key "$RELATIVE_PATH")
+            ATLAS_RELATIVE_PATH=$(atlas_source_path "$WIKI_PATH")
+            ICON_KEY=$(atlas_icon_key "$WIKI_PATH")
             atlas_crop_spec "$ATLAS_RELATIVE_PATH" "$ICON_KEY" > /dev/null
-            ;;
-        *)
-            SOURCE_PATH="$UNPACKED_DATA/${RELATIVE_PATH%.png}.DDS"
             ;;
     esac
 
@@ -133,21 +172,22 @@ if [ "$HAS_ATLAS_IMAGES" = true ] && ! command -v magick > /dev/null 2>&1; then
     exit 1
 fi
 
-rm -rf "$TARGET_DIR"
-mkdir -p "$TARGET_DIR"
+for PACKAGE in Game Gustav_Textures Icons; do
+    rm -rf "$WIKI_SOURCES/$PACKAGE"
+    mkdir -p "$WIKI_SOURCES/$PACKAGE"
+done
+rm -rf "$ATLAS_WORK_DIR"
 
 for WIKI_PATH in $IMAGE_PATHS; do
-    RELATIVE_PATH="${WIKI_PATH#images/_bg3/}"
+    SOURCE_RELATIVE_PATH=$(source_relative_path "$WIKI_PATH")
+    SOURCE_PATH=$(unpacked_image_path "$WIKI_PATH")
 
-    case "$RELATIVE_PATH" in
+    case "$WIKI_PATH" in
         *.DDS/*.png)
-            ATLAS_RELATIVE_PATH=$(atlas_source_path "$RELATIVE_PATH")
-            SOURCE_PATH="$UNPACKED_DATA/$ATLAS_RELATIVE_PATH"
-            TARGET_PATH="$TARGET_DIR/.atlas-work/$ATLAS_RELATIVE_PATH"
+            TARGET_PATH="$ATLAS_WORK_DIR/$SOURCE_RELATIVE_PATH"
             ;;
         *)
-            SOURCE_PATH="$UNPACKED_DATA/${RELATIVE_PATH%.png}.DDS"
-            TARGET_PATH="$TARGET_DIR/${RELATIVE_PATH%.png}.DDS"
+            TARGET_PATH="$WIKI_SOURCES/$SOURCE_RELATIVE_PATH"
             ;;
     esac
 
@@ -157,27 +197,35 @@ for WIKI_PATH in $IMAGE_PATHS; do
     fi
 done
 
-./bin/DDStronk.exe "$TARGET_DIR"
+for PACKAGE in Game Gustav_Textures Icons; do
+    ./bin/DDStronk.exe "$WIKI_SOURCES/$PACKAGE"
+done
+if [ "$HAS_ATLAS_IMAGES" = true ]; then
+    ./bin/DDStronk.exe "$ATLAS_WORK_DIR"
+fi
 
 for WIKI_PATH in $IMAGE_PATHS; do
-    RELATIVE_PATH="${WIKI_PATH#images/_bg3/}"
-
-    case "$RELATIVE_PATH" in
+    case "$WIKI_PATH" in
         *.DDS/*.png)
-            ATLAS_RELATIVE_PATH=$(atlas_source_path "$RELATIVE_PATH")
-            ICON_KEY=$(atlas_icon_key "$RELATIVE_PATH")
+            ATLAS_RELATIVE_PATH=$(atlas_source_path "$WIKI_PATH")
+            ICON_KEY=$(atlas_icon_key "$WIKI_PATH")
             CROP_SPEC=$(atlas_crop_spec "$ATLAS_RELATIVE_PATH" "$ICON_KEY")
             set -- $CROP_SPEC
-            TARGET_PATH="$TARGET_DIR/$RELATIVE_PATH"
-            ATLAS_PATH="$TARGET_DIR/.atlas-work/${ATLAS_RELATIVE_PATH%.DDS}.png"
+            TARGET_PATH="$WIKI_SOURCES/$WIKI_PATH"
+            ATLAS_PATH="$ATLAS_WORK_DIR/${ATLAS_RELATIVE_PATH%.DDS}.png"
 
             mkdir -p "$(dirname "$TARGET_PATH")"
-            magick "$ATLAS_PATH" -crop "$3x$4+$1+$2" +repage "$TARGET_PATH"
+            # Remove converter timestamps so regenerated atlas icons are reproducible.
+            magick "$ATLAS_PATH" -crop "$3x$4+$1+$2" +repage -strip "$TARGET_PATH"
             ;;
     esac
 done
 
-rm -rf "$TARGET_DIR/.atlas-work"
-find "$TARGET_DIR" -type f -iname '*.dds' -exec rm -f {} \;
+rm -rf "$ATLAS_WORK_DIR"
+for PACKAGE in Game Gustav_Textures Icons; do
+    find "$WIKI_SOURCES/$PACKAGE" -type f -iname '*.dds' -exec rm -f {} \;
+done
+rm -rf "$LEGACY_TARGET_DIR"
+rm -rf "$LEGACY_SKILL_TARGET_DIR"
 
 echo "Finished syncing BG3 Wiki images"

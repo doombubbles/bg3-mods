@@ -2,75 +2,75 @@
 
 ### New Classes
 
-- **[[ Death Knight | Death-Knight ]]**
-  - [[ Blood | Death-Knight---Blood ]]
-  - [[ Frost | Death-Knight---Frost ]]
-  - [[ Unholy | Death-Knight---Unholy ]]
-  - [[ Spell List | Death-Knight-Spells ]]
+- **[[Death-Knight | Death Knight]]**
+  - [[Death-Knight---Blood | Blood]]
+  - [[Death-Knight---Frost | Frost]]
+  - [[Death-Knight---Unholy | Unholy]]
+  - [[Death-Knight-Spells | Spell List]]
 
 ## WoW Subclasses
 
 ### New Subraces
-- [[ Blood Elf | Blood-Elf ]]
+- [[Blood-Elf | Blood Elf]]
 
 ### New Subclasses
 
 - Barbarian
-  - [[ Fury | Barbarian---Fury ]]
+  - [[Barbarian---Fury | Fury]]
 - Cleric
-  - [[ Shadow Domain | Cleric---Shadow ]]
+  - [[Cleric---Shadow | Shadow Domain]]
 - Fighter
-  - [[ Arms | Fighter---Arms ]]
+  - [[Fighter---Arms | Arms]]
 - Paladin
-  - [[ Oath of Retribution | Paladin---Retribution ]]
-  - [[ Oath of Holiness | Paladin---Holy ]]
-  - [[ Oath of Protection | Paladin---Protection ]]
-  - [[ Shared Abilities | Paladin---Abilities ]]
+  - [[Paladin---Retribution | Oath of Retribution]]
+  - [[Paladin---Holy | Oath of Holiness]]
+  - [[Paladin---Protection | Oath of Protection]]
+  - [[Paladin---Abilities | Shared Abilities]]
 - Warlock
-  - [[ Pact of Destruction | Warlock---Destruction ]]
-  - [[ Pact of Demonology | Warlock---Demonology ]]
+  - [[Warlock---Destruction | Pact of Destruction]]
+  - [[Warlock---Demonology | Pact of Demonology]]
 - Wizard
-  - [[ Fire | Wizard---Fire ]]
-  - [[ Frost | Wizard---Frost ]]
-  - [[ Arcane | Wizard---Arcane ]]
-  - [[ Chronomancy | Wizard---Chronomancy ]]
+  - [[Wizard---Fire | Fire]]
+  - [[Wizard---Frost | Frost]]
+  - [[Wizard---Arcane | Arcane]]
+  - [[Wizard---Chronomancy | Chronomancy]]
 
 ## DoombubblesTweaks
 
 ### Additions
 
-- [[ New Items | New-Items ]] *([[ IDs | UUIDS ]])*
-- [[ New Feats | New-Feats ]]
+- [[New-Items | New Items]] *([[UUIDS | IDs]])*
+- [[New-Feats | New Feats]]
 
 ### New Class Variants
 
-- [[ Witch | Witch ]]
-- [[ Magician | Magician ]]
+- [[Witch | Witch]]
+- [[Magician | Magician]]
 
 ### Changes
 
-- [[ Item Changes | Item-Changes ]]
-- [[ Spell Changes | Spell-Changes ]]
-  - [[ Downcasting | Downcasting ]]
-  - [[ Upcasting | Upcasting ]]
-- [[ Feat Changes | Feat-Changes ]]
-- [[ Buff Changes | Buff-Changes ]]
-- [[ Other Changes | Other-Changes ]]
+- [[Item-Changes | Item Changes]]
+- [[Spell-Changes | Spell Changes]]
+  - [[Downcasting | Downcasting]]
+  - [[Upcasting | Upcasting]]
+- [[Feat-Changes | Feat Changes]]
+- [[Buff-Changes | Buff Changes]]
+- [[Other-Changes | Other Changes]]
 
 ### Class Changes
 
-- [[ Barbarian | Barbarian-Changes ]]
-- [[ Bard | Bard-Changes ]]
-- [[ Cleric | Cleric-Changes ]]
-- [[ Fighter | Fighter-Changes ]]
-- [[ Monk | Monk-Changes ]]
-- [[ Paladin | Paladin-Changes]]
-- [[ Ranger | Ranger-Changes ]]
-- [[ Rogue | Rogue-Changes ]]
-- [[ Sorcerer | Sorcerer-Changes ]]
-- [[ Warlock | Warlock-Changes ]]
-- [[ Wizard | Wizard-Changes ]]
+- [[Barbarian-Changes | Barbarian]]
+- [[Bard-Changes | Bard]]
+- [[Cleric-Changes | Cleric]]
+- [[Fighter-Changes | Fighter]]
+- [[Monk-Changes | Monk]]
+- [[Paladin-Changes | Paladin]]
+- [[Ranger-Changes | Ranger]]
+- [[Rogue-Changes | Rogue]]
+- [[Sorcerer-Changes | Sorcerer]]
+- [[Warlock-Changes | Warlock]]
+- [[Wizard-Changes | Wizard]]
 
-## [[ Doombubbles REL | Doombubbles---REL ]]
+## [[Doombubbles---REL | Doombubbles REL]]
 
-## [[ Doombubbles Difficulty | Doombubbles---Difficulty ]]
+## [[Doombubbles---Difficulty | Doombubbles Difficulty]]

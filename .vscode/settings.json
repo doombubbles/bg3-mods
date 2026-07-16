@@ -50,6 +50,10 @@
   },
   "emmet.showSuggestionsAsSnippets": false,
   "emmet.useInlineCompletions": true,
+  "[markdown]": {
+    "path-autocomplete.triggerOutsideStrings": true,
+    "path-autocomplete.includeExtension": true
+  },
   "terminal.integrated.profiles.windows": {
     "My Busybox Shell": {
       "path": "${workspaceFolder}/bin/busybox.exe",

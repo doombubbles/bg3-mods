@@ -9,7 +9,7 @@
         "build",
         "-o",
         "../../bin/ProcessTemplates.exe",
-        "ProcessTemplates.go"
+        "."
       ],
       "group": "build",
       "presentation": {

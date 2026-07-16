@@ -2,14 +2,14 @@
 
 <img align="right" alt="Frost Wizard Class Icon" height="150" src="images/ClassIcons/Frost.png" />
 
-**Frost** is a modded Subclass of [Wizard](https://bg3.wiki/wiki/Wizard) that focuses on utilizing <img src='images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_damage_icons/c_ico_dmg_cold.png' height='25' align='top' alt='Cold Damage' />Cold damage spells
+**Frost** is a modded Subclass of [[Wizard]] that focuses on utilizing [[Cold]] spells
 > {{ get .loca "hd76d5d39g9c18g4c34g8c4ag3ee5b9237ced" | quote }}
 
 ## Subclass Features
 
 ### Level 2
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Abjuration_GlyphOfWarding_ExplosiveRunes_Cold.png" height="40" align="left" alt="Glyph of Warding Cold" />
+![[Game/ControllerUIIcons/skills_png/Spell_Abjuration_GlyphOfWarding_ExplosiveRunes_Cold.png]]
 
 #### Shatter
 
@@ -17,7 +17,7 @@
 
 ### Level 6
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_DraconicAncestry_White.png" height="40" align="left" alt="Draconic Ancestry White" />
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_DraconicAncestry_White.png]]
 
 #### Fingers of Frost
 
@@ -25,18 +25,18 @@
 
 ### Level 10
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_SplitEnchantment.png" height="40" align="left" alt="Split Enchantment" />
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_SplitEnchantment.png]]
 
 #### Splitting Ice
 
 {{ get .loca "h79cb1734gb7f4g4f81gb0abg9ff98fd84a90" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Monk_IceCube.png" height="40" align="left" alt="Shaping of the Ice" />
+![[Game/ControllerUIIcons/skills_png/Action_Monk_IceCube.png]]
 
 #### Ice Block
 
-- {{ "Costs 1 Bonus Action" | include "wikify" }}
-- {{ "Once per Short Rest" | include "wikify" }}
+- Costs 1 [[Bonus Action]]
+- Once per [[Short Rest]]
 - {{ getf .loca "hf5bbbc92gc99cg4b99gb7e4g45402de6d2c1" | include "wikify" }}
 
 ### Level 11

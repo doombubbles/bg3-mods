@@ -194,12 +194,12 @@ Group entries by the distinction a player uses to browse them, such as resource 
 The recurring action entry is:
 
 ```md
-<img src="images/ControllerIcons/skills_png/Action_Name.png" height="40" align="left" alt="Action Name" />
+![[images/ControllerIcons/skills_png/Action_Name.png]]
 
 ### Action Name
 
 - Available at Level 3
-- {{ include "wikify" "Costs 1 **Action**, 1 **Resource Charge**" }}
+- Costs 1 [[Action Point]], 1 Resource Charge
 - Weapon Attack, melee range
 - {{ getf .loca "description-handle" "resolved parameter" | include "wikify" }}
 ```
@@ -304,25 +304,25 @@ Some in-game descriptions modified dynamically through `ModifyDescription()` do 
 
 ### `wikify`
 
-The `wikify` helper adds the repository's standard 25-pixel inline icons and selected links for damage types, action resources, abilities, rests, common conditions, and certain mod features.
+The `wikify` helper adds the repository's standard links and inline icons to text obtained from localization. Its mod-feature replacements emit compact Wiki links that `ProcessTemplates` resolves after the page has rendered.
 
-Use it for text containing terms the helper knows about:
-
-```md
-{{ include "wikify" "Costs 1 **Bonus Action** and deals 2d8 Force damage" }}
-```
-
-or:
+Use it with localized `get` and `getf` results:
 
 ```md
 {{ get .loca "h123..." | include "wikify" }}
 ```
 
-Do not manually add an icon for a term and then pass the same text through `wikify`, because that can produce duplicate markup. Inspect `Wiki/!helpers.tpl` before assuming a term is supported.
+For hand-authored prose, use named concepts directly instead of wrapping a string in `wikify`:
 
-Prefer passing an entire simple mechanics line through `wikify` instead of copying the helper's generated `<img>` markup into the page. Keep separate localization lookups and supplemental sentences on separate lines; do not combine them with `printf` merely to run them through the helper.
+```md
+Costs 1 [[Bonus Action]] and deals 2d8 [[Thunder Damage]].
+```
 
-Be selective with complex text. `wikify` performs text replacement rather than Markdown-aware parsing, so a known term inside a link destination or proper name can also be replaced. For lines containing links or names such as spell titles, either pass only the safe fragment through `wikify` or retain explicit markup.
+Named external concepts are defined centrally in `Wiki/!wikilinks.yaml`; documented mod features are discovered from Wiki headings. Add reusable metadata to that registry instead of adding another static-string template call or image snippet.
+
+Do not manually add an icon for a term and then pass the same text through `wikify`, because that can produce duplicate markup. Keep separate localization lookups and supplemental sentences on separate lines; do not combine them with `printf` merely to run them through the helper.
+
+Be selective with complex text. Most of `wikify` still performs text replacement rather than Markdown-aware parsing, so a known term inside a link destination or proper name can also be replaced. Smart Wiki links themselves are parsed with Goldmark and are ignored inside inline and fenced code.
 
 ### Flavor quotes
 
@@ -364,20 +364,24 @@ Use the canonical BG3 Wiki target, including fragments or disambiguation suffixe
 
 ### Repository Wiki pages
 
-Use the page filename without `.md` and append a lowercase heading anchor when needed:
+Use smart Wiki links for repository pages and for documented mod features. This repository follows the standard GitHub/MediaWiki `target | display` ordering:
 
 ```md
-[Paladin Channel Oath Abilities](Paladin---Abilities)
-[Crusader Strike](Paladin---Abilities#crusader-strike)
+[[Paladin---Abilities | Paladin Channel Oath Abilities]]
+[[Paladin---Abilities#Crusader Strike | Crusader Strike]]
 ```
 
-Use GitHub Wiki syntax in `_Sidebar.md` where the existing navigation uses it:
+For a uniquely named heading, or a heading on the current page, the short form is sufficient:
 
 ```md
-[[ Display Name | Page-Name ]]
+[[Mortal Strike]]
 ```
 
-Check that the heading text produces the expected GitHub anchor, especially around apostrophes and punctuation.
+`ProcessTemplates` indexes the final rendered root Wiki pages. A link resolves in this order: an exact page name or title, a matching heading on the current page, then a unique matching heading anywhere in the Wiki. Use an explicit `Page#Heading` target when the name is ambiguous. Ambiguous, missing-page, and missing-heading links fail the Wiki build.
+
+When a heading has an image embed immediately before it, links to that heading automatically receive a 25-pixel version of the same icon. Page-only links may remain ordinary GitHub Wiki syntax. Write the human heading text after `#`; the processor computes the final GitHub-compatible anchor, including duplicate-heading suffixes.
+
+Markdown files under `Wiki/Snippets/` are template intermediates rather than standalone Wiki pages. Their links are resolved after the snippet is included in a root page, allowing shared names such as `Charge` to select the Arms or Fury entry from the consuming page's context.
 
 ## Images
 
@@ -394,24 +398,34 @@ Examples:
 ```
 
 ```md
-<img src="images/ControllerIcons/skills_png/Action_Name.png" height="40" align="left" alt="Action Name" />
+![[images/ControllerIcons/skills_png/Action_Name.png]]
 ```
 
 ```md
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ActionResources_c/Icons/c_ico_AP.png" height="25" align="top" alt="Action" />
+<img src="Game/ActionResources_c/Icons/c_ico_AP.png" height="25" align="top" alt="Action" />
 ```
 
-Leave a blank line between a standalone image and its heading. Give new images meaningful alt text rather than copying a filename when practical.
+Leave a blank line between a standalone image embed and its heading.
 
-For base-game images, prefer the repository's local `images/_bg3/` pipeline over adding a new direct `bg3.wiki` image URL. Paths under `_bg3` should reflect the original relative location beneath `UnpackedData`. Atlas icons use the established virtual path form:
+For base-game images, prefer the repository's local package-root image pipeline over adding a new direct `bg3.wiki` image URL. Base-game paths begin directly with `Game/`, `Gustav_Textures/`, or `Icons/` and omit each package's invariant path through `Assets`:
 
-For base-game spell, action, and passive icons, prefer the matching file under `Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/` when one exists. These controller variants preserve the unfaded icon artwork better than the corresponding `Tooltips/Icons/` files. Use `Tooltips/Icons/` only when no controller variant is available.
+- `Game/Public/Game/GUI/Assets/` becomes `Game/`;
+- `Gustav_Textures/Mods/GustavX/GUI/Assets/` becomes `Gustav_Textures/`;
+- `Icons/Public/Shared/Assets/` becomes `Icons/`.
+
+For base-game spell, action, and passive icons, use the compact controller-icon path when the matching file exists under `Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/`:
+
+```md
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_FightingStyle_TwoWeaponFighting.png]]
+```
+
+These controller variants preserve the unfaded icon artwork better than the corresponding `Tooltips/Icons/` files. Use `Tooltips/Icons/` only when no controller variant is available. Base-game icons use their compact package-root path directly; custom mod icons continue to use `![[images/ControllerIcons/skills_png/Filename.png]]`.
 
 ```text
-images/_bg3/.../Icons_Skills.DDS/Status_Restrained.png
+Icons/Textures/Icons/Icons_Skills.DDS/Status_Restrained.png
 ```
 
-Run the BG3 Wiki image sync script after introducing a new `_bg3` reference.
+Run the BG3 Wiki image sync script after introducing a new `Game/`, `Gustav_Textures/`, or `Icons/` image reference.
 
 ## Markdown structure and spacing
 
@@ -497,7 +511,7 @@ Only inspect the processed files under `build/Wiki` after the task succeeds. Che
 - lists render as lists rather than running into images or paragraphs;
 - internal Wiki links point to real pages and headings;
 - local image paths exist in `build/Wiki`;
-- new `_bg3` images were synchronized successfully;
+- new base-game package images were synchronized successfully;
 - stated levels match progressions and selectors;
 - costs, ranges, durations, and scaling match effective stats;
 - acquisition statements match treasure, trader, placement, or recipe data;

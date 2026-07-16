@@ -52,7 +52,7 @@ Randomized scroll loot will no longer include scrolls above a level that a full 
 
 #### Doombubbles REL
 
-When combined with [[ Doombubbles REL | Doombubbles---REL ]] the selection of renewables offered by traders is more limited:
+When combined with [[Doombubbles---REL | Doombubbles REL]] the selection of renewables offered by traders is more limited:
 
 Level 1
 - Animal Friendship

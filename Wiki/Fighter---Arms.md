@@ -2,7 +2,7 @@
 
 <img align="right" alt="Arms Fighter class icon" height="150" src="images/ClassIcons/Arms.png" />
 
-**Arms** is a modded Subclass of [Fighter](https://bg3.wiki/wiki/Fighter) that learns a broad selection of powerful weapon techniques. Each Arms Strike has its own cooldown, allowing an Arms Fighter to rotate between several specialised attacks.
+**Arms** is a modded Subclass of [[Fighter]] that learns a broad selection of powerful weapon techniques. Each Arms Strike has its own cooldown, allowing an Arms Fighter to rotate between several specialised attacks.
 
 > {{ get .loca "hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" | quote }}
 
@@ -12,11 +12,11 @@
 
 #### Arms Strikes: 3 Known
 
-{{ "Choose 3 [Arms Strikes](#arms-strikes) to know. Each Arms Strike can be used once per Short Rest, and missing with an attack-based Arms Strike does not expend its use." | include "wikify" }}
+Choose 3 [[Arms Strikes]] to know. Each Arms Strike can be used once per [[Short Rest]], and missing with an attack-based Arms Strike does not expend its use.
 
 #### Talent: 1 Known
 
-Choose 1 [Warrior Talent](#warrior-talents) from Double Time, Sudden Death, Deep Wounds, or Tactician.
+Choose 1 [[#warrior-talents | Warrior Talent]] from Double Time, Sudden Death, Deep Wounds, or Tactician.
 
 ### Level 5
 
@@ -54,63 +54,63 @@ Choose 1 additional Arms Strike.
 
 ## Arms Strikes
 
-{{ "Unless noted otherwise, an Arms Strike costs an **Action** and can be used once per Short Rest." | include "wikify" }}
+Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used once per [[Short Rest]].
 
 ### Available at Level 3
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Rush.png" height="40" align="left" alt="Charge" />
+![[images/ControllerIcons/skills_png/Action_Rush.png]]
 
 #### Charge
 
-- {{ "Costs 1 Bonus Action" | include "wikify" }}
-- {{ "9m range, Strength Saving Throw against your Weapon Action DC" | include "wikify" }}
+- Costs 1 [[Bonus Action]]
+- 9m range, [[Strength]] Saving Throw against your Weapon Action DC
 - {{ getf .loca "hf0da666cg2c85g4ec5g8e19g809ec529afbf" "1" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_DivineStrike_Physical_Melee.png" height="40" align="left" alt="Execute" />
+![[Game/ControllerUIIcons/skills_png/Action_DivineStrike_Physical_Melee.png]]
 
 #### Execute
 
-- {{ "Melee weapon attack; requires a target at or below 50% **hit points**" | include "wikify" }}
+- Melee weapon attack; requires a target at or below 50% [[Hit Points]]
 - {{ getf .loca "h9baff8c6gb3d0g4292gb126gf254ec89fb28" "50%" "[2](## 'Proficiency Bonus')d6" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Multiattack_WhirlwindAttack.png" height="40" align="left" alt="Whirlwind" />
+![[Game/ControllerUIIcons/skills_png/Action_Multiattack_WhirlwindAttack.png]]
 
 #### Whirlwind
 
 - 2m radius melee weapon attack that deals half weapon damage
 - {{ get .loca "ha331a835gf3c8g4043gaa9ag68646d8ff4ac" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Mag_GrandSlam.png" height="40" align="left" alt="Thunder Clap" />
+![[Game/ControllerUIIcons/skills_png/Action_Mag_GrandSlam.png]]
 
 #### Thunder Clap
 
-- {{ "**Constitution** Saving Throw against your Weapon Action DC; affects nearby enemies" | include "wikify" }}
-- {{ "Deals Thunder damage, knocks creatures Prone on a failed save, and leaves them Off Balance on a successful save" | include "wikify" }}
+- [[Constitution]] Saving Throw against your Weapon Action DC; affects nearby enemies
+- Deals [[Thunder Damage]], knocks creatures Prone on a failed save, and leaves them Off Balance on a successful save
 - {{ get .loca "h1b63a656g6499g4b52g91f6g758d6e5adbff" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_GuidedStrike.png" height="40" align="left" alt="Overpower" />
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_GuidedStrike.png]]
 
 #### Overpower
 
 - Triggered as an interrupt after missing with a melee weapon attack
 - {{ get .loca "h921192a5g0910g47c0gbb85g3cfdde961410" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_SweepingAttack.png" height="40" align="left" alt="Sweeping Strikes" />
+![[Game/ControllerUIIcons/skills_png/Action_SweepingAttack.png]]
 
 #### Sweeping Strikes
 
-- {{ "Costs 1 Bonus Action" | include "wikify" }}
+- Costs 1 [[Bonus Action]]
 - {{ get .loca "h5c4bc3bdg0b93g4cf7gb699ge1b657b5d2e9" | include "wikify" }}
-- {{ "Expires on Short Rest" | include "wikify" }}
+- Expires on [[Short Rest]]
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Cleave_New.png" height="40" align="left" alt="Cleave" />
+![[Game/ControllerUIIcons/skills_png/Action_Cleave_New.png]]
 
 #### Cleave
 
 - Melee weapon attack in a cone
 - {{ getf .loca "h1758449dg7435g46a0g8088g4485293de676" "3" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_FullSwing.png" height="40" align="left" alt="Mortal Strike" />
+![[Game/ControllerUIIcons/skills_png/Action_FullSwing.png]]
 
 #### Mortal Strike
 
@@ -120,7 +120,7 @@ Choose 1 additional Arms Strike.
 
 ### Available at Level 5
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_HeartStopper.png" height="40" align="left" alt="Slam" />
+![[Game/ControllerUIIcons/skills_png/Action_HeartStopper.png]]
 
 #### Slam
 
@@ -130,18 +130,18 @@ Choose 1 additional Arms Strike.
 
 ### Available at Level 7
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_AbsolutePower.png" height="40" align="left" alt="Storm Bolt" />
+![[Game/ControllerUIIcons/skills_png/Action_AbsolutePower.png]]
 
 #### Storm Bolt
 
-- {{ "18m range, **Constitution** Saving Throw against your Weapon Action DC" | include "wikify" }}
+- 18m range, [[Constitution]] Saving Throw against your Weapon Action DC
 - {{ get .loca "ha0bbee44gedc3g403cga8dage3fb613e51c1" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_PostureBreaker.png" height="40" align="left" alt="Colossus Smash" />
+![[Game/ControllerUIIcons/skills_png/Action_PostureBreaker.png]]
 
 #### Colossus Smash
 
-- {{ "Melee weapon attack and **Constitution** Saving Throw against your Weapon Action DC" | include "wikify" }}
+- Melee weapon attack and [[Constitution]] Saving Throw against your Weapon Action DC
 - {{ get .loca "hb02ee329g9da8g4fd5gae11gaf2c0a60680c" | include "wikify" }}
 
 ## Warrior Talents
@@ -150,7 +150,7 @@ Choose Talents at levels 3, 7, and 10. Anger Management is added to the availabl
 
 {{ tpl (readFile "Wiki/Snippets/Warrior-Talents.md") $ }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_GuidedStrike.png" height="40" align="left" alt="Tactician" />
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_GuidedStrike.png]]
 
 ### Tactician
 

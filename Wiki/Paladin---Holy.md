@@ -2,13 +2,13 @@
 
 <img align="right" alt="Holy Class Icon" height="150" src="images/ClassIcons/Holy.png" />
 
-**Oath of Holiness** is a modded Subclass of [Paladin](https://bg3.wiki/wiki/Paladin) that focuses on using its {{ include "wikify" "Channel Oath Charges" }} on new empowered healing abilities, with support oriented Oath Spells.
+**Oath of Holiness** is a modded Subclass of [[Paladin]] that focuses on using its [[Channel Oath Charges]] on new empowered healing abilities, with support oriented Oath Spells.
 
 > {{ get .loca "h20559598gb695g437bg85fag71ee7fc3edbb" | quote }}
 
 ## Level 1
 
-- [ <img src="images/ControllerIcons/skills_png/Action_Paladin_HolyShock.png" height="25" align="top" alt="Action_Paladin_HolyShock.png" /> Holy Shock ](Paladin---Abilities#holy-shock)
+- [[Paladin---Abilities#holy-shock | Holy Shock]]
 
 ## Level 2
 
@@ -16,10 +16,10 @@
 
 > {{ get .loca "h131b2cdfg6198g425dgb6cfg2d0a85f173af" | include "wikify" }}
 
-Choose to either get [ <img src='images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Paladin_DivineSmite.png' height='25' align='top' alt='Divine_Smite_Icon.webp' /> Divine Smite](https://bg3.wiki/wiki/Divine_Smite) like base subclasses, or get the **Holy Power** passive.
+Choose to either get [[Divine Smite]] like base subclasses, or get the **Holy Power** passive.
 
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/GenericIcon_DamageType_Radiant.png" height="40" align="left" alt="GenericIcon_DamageType_Radiant.png" />
+![[Game/ControllerUIIcons/skills_png/GenericIcon_DamageType_Radiant.png]]
 
 ### Holy Power
 
@@ -29,19 +29,19 @@ Choose to either get [ <img src='images/_bg3/Game/Public/Game/GUI/Assets/Control
 
 ### Level 1 Oath Spells
 
-You learn 4 new Oath Spells that are always prepared. They can come from the list of [Paladin Channel Oath Abilities](Paladin---Abilities) or the two traditional spells below
-- [<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_Heroism.png" height="25" align="top" alt="Heroism_Icon.webp" /> Heroism](https://bg3.wiki/wiki/Heroism)
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_HealingWord.png" height="25" align="top" alt="Healing_Word_Icon.webp" /> Healing Word](https://bg3.wiki/wiki/Healing_Word)
+You learn 4 new Oath Spells that are always prepared. They can come from the list of [[Paladin---Abilities | Paladin Channel Oath Abilities]] or the two traditional spells below
+- [[Heroism]]
+- [[Healing Word]]
 
 ## Level 5
 
 ### Level 2 Oath Spells
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_PrayerOfHealing.png" height="25" align="top" alt="Prayer_of_Healing_Icon.webp" /> Prayer of Healing](https://bg3.wiki/wiki/Prayer_of_Healing)
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Transmutation_EnhanceAbility.png" height="25" align="top" alt="" /> Enhance Ability](https://bg3.wiki/wiki/Enhance_Ability)
+- [[Prayer of Healing]]
+- [[Enhance Ability]]
 
 ## Level 7
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Paladin_LayOnHands_Cure.png" height="40" align="left" alt="Lay_on_Hands_Cure_Icon.webp" />
+![[Game/ControllerUIIcons/skills_png/Action_Paladin_LayOnHands_Cure.png]]
 
 ### Infusion of Light
 
@@ -51,8 +51,8 @@ You learn 4 new Oath Spells that are always prepared. They can come from the lis
 ## Level 9
 
 ### Level 3 Oath Spells
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_MassHealingWord.png" height="25" align="top" alt="Mass_Healing_Word_Icon.webp" /> Mass Healing Word](https://bg3.wiki/wiki/Mass_Healing_Word)
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Abjuration_BeaconOfHope.png" height="25" align="top" alt="Beacon_of_Hope_Icon.webp" /> Beacon of Hope](https://bg3.wiki/wiki/Beacon_of_Hope)
+- [[Mass Healing Word]]
+- [[Beacon of Hope]]
 
 
 ## Level 11
@@ -61,10 +61,10 @@ You learn 4 new Oath Spells that are always prepared. They can come from the lis
 
 > {{ get .loca "h2d204b9eg609bg4078g8b14ga78f0669ec77" | include "wikify" }}
 
-Choose to either get [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_ImprovedDivineSmite.png" height="25" align="top" alt="Improved_Divine_Smite_Icon.webp" /> Improved Divine Smite](https://bg3.wiki/wiki/Improved_Divine_Smite) like base subclasses, or get the **Divine Purpose** passive
+Choose to either get [[Improved Divine Smite]] like base subclasses, or get the **Divine Purpose** passive
 
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_DivineFavor.png" height="40" align="left" alt="Divine_Favour_Icon.webp" />
+![[Game/ControllerUIIcons/skills_png/Spell_Evocation_DivineFavor.png]]
 
 ### Divine Purpose
 

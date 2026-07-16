@@ -19,11 +19,11 @@ The Death Knight subclasses are:
 
 <span>
 <h3>
-<a href="Death Knight - Blood"><img alt="Blood DK Icon" height="50" align="center" src="images/ClassIcons/BloodDK.png"/>Blood</a>
+[[Death Knight - Blood | Blood]]
 &nbsp;⋅
-<a href="Death Knight - Frost"><img alt="Frost DK Icon" height="50" align="center" src="images/ClassIcons/FrostDK.png"/>Frost</a>
+[[Death Knight - Frost | Frost]]
 &nbsp;⋅
-<a href="Death Knight - Unholy"><img alt="Unholy DK Icon" height="50" align="center" src="images/ClassIcons/UnholyDK.png"/>Unholy</a>
+[[Death Knight - Unholy | Unholy]]
 </h3>
 </span>
 
@@ -43,11 +43,11 @@ The Death Knight subclasses are:
       <th><div align="center">Rune<br/>Die</div></th>
     </tr>
     <tr>
-      <td><a href="#level-1">1st</a></td>
+      <td>[[#level-1 | 1st]]</td>
       <td rowspan="4"><div align="center">+2</div></td>
       <td>
-        <a href="#rune-casting">Rune Casting</a>,
-        <a href="#level-1"> <img align="top"  height="25" src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_Lichborne.png" alt="PassiveFeature_DeathKnight_Lichborne.png" /> Lichborne</a>
+        [[#rune-casting | Rune Casting]],
+        [[#level-1 | Lichborne]]
       </td>
       <td><div align="center">-</div></td>
       <td><div align="center">1</div></td>
@@ -56,10 +56,10 @@ The Death Knight subclasses are:
       <td rowspan="3"><div align="center">1d4</div></td>
     </tr>
     <tr>
-      <td><a href="#level-2">2nd</a></td>
+      <td>[[#level-2 | 2nd]]</td>
       <td>
-        <a href="https://bg3.wiki/wiki/Fighting_Stylye">Fighting Style</a>,
-        <a href="#runeforging"> <img align="top"  height="25" src="images/ControllerIcons/skills_png/Action_DeathKnight_Runeforging.png" alt="Action_DeathKnight_Runeforging.png" /> Runeforging</a>
+        [[Fighting Style]],
+        [[#runeforging | Runeforging]]
       </td>
       <td><div align="center">2</div></td>
       <td><div align="center">1</div></td>
@@ -67,9 +67,9 @@ The Death Knight subclasses are:
       <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td><a href="#level-3">3rd</a></td>
+      <td>[[#level-3 | 3rd]]</td>
       <td>
-        <a href="#level-3"> <img src="images/ClassIcons/DeathKnight.png" height="25" align="top" /> Choose a subclass</a>
+        [[#level-3 | Choose a subclass]]
       </td>
       <td><div align="center">3</div></td>
       <td><div align="center">2</div></td>
@@ -77,10 +77,10 @@ The Death Knight subclasses are:
       <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td><a href="#level-4">4th</a></td>
+      <td>[[#level-4 | 4th]]</td>
       <td>
-        <a href="https://bg3.wiki/wiki/Feat"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_Generic.png" height="25" align="top" /> Feat</a>,
-        <a href="#level-4"> <img src="images/ClassIcons/DeathKnight.png" height="25" align="top" /> Subclass Feature</a>
+        [[Feat]],
+        [[#level-4 | Subclass Feature]]
       </td>
       <td><div align="center">4</div></td>
       <td><div align="center">2</div></td>
@@ -89,10 +89,10 @@ The Death Knight subclasses are:
       <td rowspan="3"><div align="center">1d6</div></td>
     </tr>
     <tr>
-      <td><a href="#level-5">5th</a></td>
+      <td>[[#level-5 | 5th]]</td>
       <td rowspan="4"><div align="center">+3</div></td>
       <td>
-        <a href="https://bg3.wiki/wiki/Extra_Attack"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_ExtraAttack.png" height="25" align="top" /> Extra Attack</a>
+        [[Extra Attack]]
       </td>
       <td><div align="center">5</div></td>
       <td><div align="center">3</div></td>
@@ -100,9 +100,9 @@ The Death Knight subclasses are:
       <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td><a href="#level-6">6th</a></td>
+      <td>[[#level-6 | 6th]]</td>
       <td>
-        <a href="#level-6"> <img src="images/ClassIcons/DeathKnight.png" height="25" align="top" /> Subclass Feature</a>
+        [[#level-6 | Subclass Feature]]
       </td>
       <td><div align="center">6</div></td>
       <td><div align="center">3</div></td>
@@ -110,9 +110,9 @@ The Death Knight subclasses are:
       <td><div align="center">1</div></td>
     </tr>
     <tr>
-      <td><a href="#level-7">7th</a></td>
+      <td>[[#level-7 | 7th]]</td>
       <td>
-        <a href="#rune-tap"> <img align="top"  height="25" src="images/ControllerIcons/skills_png/Action_DeathKnight_RuneTap.png" alt="Action_DeathKnight_RuneTap.png" /> Rune Tap</a>
+        [[#rune-tap | Rune Tap]]
       </td>
       <td><div align="center">7</div></td>
       <td><div align="center">4</div></td>
@@ -121,9 +121,9 @@ The Death Knight subclasses are:
       <td rowspan="3"><div align="center">1d8</div></td>
     </tr>
     <tr>
-      <td><a href="#level-8">8th</a></td>
+      <td>[[#level-8 | 8th]]</td>
       <td>
-        <a href="https://bg3.wiki/wiki/Feat"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_Generic.png" height="25" align="top" /> Feat</a>
+        [[Feat]]
       </td>
       <td><div align="center">8</div></td>
       <td><div align="center">4</div></td>
@@ -131,10 +131,10 @@ The Death Knight subclasses are:
       <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td><a href="#level-9">9th</a></td>
+      <td>[[#level-9 | 9th]]</td>
       <td rowspan="4"><div align="center">+4</div></td>
-      <td> 
-        <a href="#will-of-the-necropolis"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_WillOfTheNecropolis.png" height="25" align="top" alt="PassiveFeature_DeathKnight_WillOfTheNecropolis.png" /> Will of the Necropolis</a> 
+      <td>
+        [[#will-of-the-necropolis | Will of the Necropolis]]
       </td>
       <td><div align="center">9</div></td>
       <td><div align="center">5</div></td>
@@ -142,9 +142,9 @@ The Death Knight subclasses are:
       <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td><a href="#level-10">10th</a></td>
+      <td>[[#level-10 | 10th]]</td>
       <td>
-        <a href="#level-10"> <img src="images/ClassIcons/DeathKnight.png" height="25" align="top" /> Subclass Feature</a>
+        [[#level-10 | Subclass Feature]]
       </td>
       <td><div align="center">10</div></td>
       <td><div align="center">6</div></td>
@@ -153,9 +153,9 @@ The Death Knight subclasses are:
       <td rowspan="3"><div align="center">1d10</div></td>
     </tr>
     <tr>
-      <td><a href="#level-11">11th</a></td>
+      <td>[[#level-11 | 11th]]</td>
       <td>
-        <a href="#rune-mastery"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" height="25" align="top" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" /> Rune Mastery</a>
+        [[#rune-mastery | Rune Mastery]]
       </td>
       <td><div align="center">11</div></td>
       <td><div align="center">6</div></td>
@@ -163,9 +163,9 @@ The Death Knight subclasses are:
       <td><div align="center">2</div></td>
     </tr>
     <tr>
-      <td><a href="#level-12">12th</a></td>
+      <td>[[#level-12 | 12th]]</td>
       <td>
-        <a href="https://bg3.wiki/wiki/Feat"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_Generic.png" height="25" align="top" /> Feat</a>
+        [[Feat]]
       </td>
       <td><div align="center">12</div></td>
       <td><div align="center">6</div></td>
@@ -175,7 +175,7 @@ The Death Knight subclasses are:
   </tbody>
 </table>
 
-**Note**: [Proficiency bonus](https://bg3.wiki/wiki/Proficiency_bonus) is based on [character level](https://bg3.wiki/wiki/Character_level), not class level. It's included in the table for convenience.
+**Note**: ?[[Proficiency bonus]] is based on ?[[character level]], not class level. It's included in the table for convenience.
 
 ## Class Information
 
@@ -186,106 +186,106 @@ The Death Knight subclasses are:
 
 **Key abilities**
 
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/AbilityIcons/strength.png" height="25" align="top" alt="Strength" /> Strength](https://bg3.wiki/wiki/Strength) or [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/AbilityIcons/dexterity.png" height="25" align="top" alt="Dexterity" /> Dexterity](https://bg3.wiki/wiki/Dexterity) for physical attacks
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/AbilityIcons/intelligence.png" height="25" align="top" alt="Intelligence" /> Intelligence](https://bg3.wiki/wiki/Intelligence) for Rune Spell DCs and Attack Rolls
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/AbilityIcons/constitution.png" height="25" align="top" alt="Constitution" /> Constitution](https://bg3.wiki/wiki/Constitution) for Hit Points and [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Tooltips/ico_concentration.png" height="25" align="top" /> Concentration](https://bg3.wiki/wiki/Concentration) Checks
+- [[Strength]] or [[Dexterity]] for physical attacks
+- [[Intelligence]] for Rune Spell DCs and Attack Rolls
+- [[Constitution]] for Hit Points and [[Concentration]] Checks
 
 **Saving Throw Proficiencies**
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/AbilityIcons/constitution.png" height="25" align="top" alt="Constitution" /> Constitution](https://bg3.wiki/wiki/Constitution), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/AbilityIcons/intelligence.png" height="25" align="top" alt="Intelligence" /> Intelligence](https://bg3.wiki/wiki/Intelligence)
+- [[Constitution]], [[Intelligence]]
 
 **Equipment proficiencies**
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/CharacterPanel/ico_prof_simple.png" height="25" align="top" /> Simple weapons](https://bg3.wiki/wiki/Simple_weapons), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/CharacterPanel/ico_prof_martial.png" height="25" align="top" /> Martial weapons](https://bg3.wiki/wiki/Martial_weapons)
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/ProficiencyIcons/ico_proficiency_lightArmour.png" height="25" align="top" /> Light armour](https://bg3.wiki/wiki/Armour#List_of_light_armour), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/ProficiencyIcons/ico_proficiency_mediumArmour.png" height="25" align="top" /> Medium armour](https://bg3.wiki/wiki/Armour#List_of_medium_armour), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/ProficiencyIcons/ico_proficiency_heavyArmour.png" height="25" align="top" /> Heavy armour](https://bg3.wiki/wiki/Armour#List_of_heavy_armour)
+- [[Simple weapons]], [[Martial weapons]]
+- [[Light armour]], [[Medium armour]], [[Heavy armour]]
 
 **Skills with proficiency (Choose 2)**
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_SkillsIcons/Athletics.png" height="25" align="top" /> Athletics](https://bg3.wiki/wiki/Athletics), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_SkillsIcons/Deception.png" height="25" align="top" /> Deception](https://bg3.wiki/wiki/Deception), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_SkillsIcons/Intimidation.png" height="25" align="top" /> Intimidation](https://bg3.wiki/wiki/Intimidation), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_SkillsIcons/Perception.png" height="25" align="top" /> Perception](https://bg3.wiki/wiki/Perception), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_SkillsIcons/SleightOfHand.png" height="25" align="top" /> Sleight of Hand](https://bg3.wiki/wiki/Sleight_Of_Hand), [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_SkillsIcons/Survival.png" height="25" align="top" /> Survival](https://bg3.wiki/wiki/Athletics)
+- [[Athletics]], [[Deception]], [[Intimidation]], [[Perception]], [[Sleight of Hand]], [[Survival]]
 
 **Starting Equipment**
-- <img src="images/_bg3/Icons/Public/Shared/Assets/Textures/Icons/Icons_Items_2.DDS/Item_WPN_HUM_Longsword_Adamantine_A.png" height="25" align="top" /> {{ get .loca "hd23a3240g5445g4f23g923fg16b6cb121258" }},
-  <img src="images/_bg3/Icons/Public/Shared/Assets/Textures/Icons/Icons_Items_2.DDS/Item_ARM_Ketheric_Body_B.png" height="25" align="top" /> {{ get .loca "hb2c30a75g3fb5g4642g92c3gd83694b7b82d" }},
-  <img src="images/_bg3/Icons/Public/Shared/Assets/Textures/Icons/Icons_Items_2.DDS/Item_ARM_Boots_Metal_B.png" height="25" align="top" /> {{ get .loca "h8c149768gf29fg4699g91d3g67e953236b3d" }},
-  <img src="images/_bg3/Icons/Public/Shared/Assets/Textures/Icons/Icons_Items_2.DDS/Item_ARM_Gloves_Metal_2.png" height="25" align="top" /> {{ get .loca "h8b40104eg7963g4426gb2efgde604c08d5c6" }}
+- <img src="Icons/Textures/Icons/Icons_Items_2.DDS/Item_WPN_HUM_Longsword_Adamantine_A.png" height="25" align="top" /> {{ get .loca "hd23a3240g5445g4f23g923fg16b6cb121258" }},
+  <img src="Icons/Textures/Icons/Icons_Items_2.DDS/Item_ARM_Ketheric_Body_B.png" height="25" align="top" /> {{ get .loca "hb2c30a75g3fb5g4642g92c3gd83694b7b82d" }},
+  <img src="Icons/Textures/Icons/Icons_Items_2.DDS/Item_ARM_Boots_Metal_B.png" height="25" align="top" /> {{ get .loca "h8c149768gf29fg4699g91d3g67e953236b3d" }},
+  <img src="Icons/Textures/Icons/Icons_Items_2.DDS/Item_ARM_Gloves_Metal_2.png" height="25" align="top" /> {{ get .loca "h8b40104eg7963g4426gb2efgde604c08d5c6" }}
 
 ### Rune Casting
 
-*For a list of rune spells available to the Death Knight, see [List of Death Knight Spells](Death-Knight-Spells)*
+*For a list of rune spells available to the Death Knight, see [[Death-Knight-Spells | List of Death Knight Spells]]*
 
 **Spellcasting Ability**
 
-- [Intelligence](https://bg3.wiki/wiki/Intelligence)
+- [[Intelligence]]
 
 **Known spells**
 
 - Death Knight Spells are Always Prepared. In exchange, Death Knights know fewer Spells at low levels.
 
 **Rune Casting**
-- Instead of spell slots, Death Knights use <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, and <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Runes to cast rune "spells"[*](# "Like Way of the Four Elements 'spells', these do not have the `IsSpell` tag and are instead considered Class Actions.").
-- Death Knights have a limited number of Runes, but regain them by taking a [Short Rest](https://bg3.wiki/wiki/Short_Rest) or [Long Rest](https://bg3.wiki/wiki/Long_Rest).
+- Instead of spell slots, Death Knights use [[Blood Rune]], [[Frost Rune]], and [[Unholy Rune]] to cast rune "spells"[*](# "Like Way of the Four Elements 'spells', these do not have the `IsSpell` tag and are instead considered Class Actions.").
+- Death Knights have a limited number of Runes, but regain them by taking a [[Short Rest]] or [[Long Rest]].
 - Death Knights learn higher level spells than other Martial/Caster hybrids, but they can't use them as often.
 
 ## Level Information
 
 ### Level 1
 
-<img align="left"  height="40" src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png" alt="PassiveFeature_DeathKnight_RuneDie.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png]]
 
 #### Rune Die: 1d4
 
 
-#### Runes: 1 <img align="top"  height="25" src="images/ActionResources_c/Icons/Resources/BloodRune.png" alt="" /> Blood, 1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="Icon_DK_FrostRune.png" /> Frost, 1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="Icon_DK_UnholyRune.png" /> Unholy
+#### Runes: 1 [[Blood Rune]], 1 [[Frost Rune]], 1 [[Unholy Rune]]
 
 #### Initial Rune Spells
 
-<a href="Death Knight Spells#death-strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathStrike.png" height="25" align="top" alt="Action_DeathKnight_DeathStrike.png" /> Death Strike</a>,
-<a href="Death Knight Spells#frost-Strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_FrostStrike.png" height="25" align="top" alt="Action_DeathKnight_FrostStrike.png" /> Frost Strike</a>,
-<a href="Death Knight Spells#feath-Coil"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathCoil.png" height="25" align="top" alt="Action_DeathKnight_DeathCoil.png" /> Death Coil</a>
+[[Death Strike]],
+[[Frost Strike]],
+[[Death Coil]]
 
-<img align="left"  height="40" src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_Lichborne.png" alt="PassiveFeature_DeathKnight_Lichborne.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_Lichborne.png]]
 
 #### Lichborne
 
 {{ get .loca "hd2638eddg73ccg4effgbb1ag62cd837b48cb" }}
 
-*Note: This passive is not learned when [Multiclassing](https://bg3.wiki/wiki/Classes#Multiclassing) into Death Knight--only if you are a Death Knight at Level 1*
+*Note: This passive is not learned when [[Multiclassing]] into Death Knight--only if you are a Death Knight at Level 1*
 
 ### Level 2
 
-[**Fighting Style**](https://bg3.wiki/wiki/Fighting_Style)
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_FightingStyle_Defense.png" height="25" align="top" /> Defence](https://bg3.wiki/wiki/Defence)
-  - You gain a +1 bonus to [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/Tooltips/ico_AC.png" height="25" align="top" /> Armour Class](https://bg3.wiki/wiki/Armour_Class) while wearing [Armour](https://bg3.wiki/wiki/Armour).
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_FightingStyle_GreatWeaponFighting.png" height="25" align="top" /> Great Weapon Fighting](https://bg3.wiki/wiki/Great_Weapon_Fighting)
+**[[Fighting Style]]**
+- [[Defence]]
+  - You gain a +1 bonus to [[Armour Class]] while wearing ?[[Armour]].
+- [[Great Weapon Fighting]]
   - When you roll a 1 or 2 on a damage die for an attack with a **Two-Handed** melee weapon, that die is rerolled once.
-- [ <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_FightingStyle_TwoWeaponFighting.png" height="25" align="top" /> Two-Weapon Fighting](https://bg3.wiki/wiki/Two-Weapon_Fighting)
-  - When you make an offhand attack, you can add your [Ability Modifier](https://bg3.wiki/wiki/Ability_Modifier) to the damage of the attack.
+- [[Two-Weapon Fighting]]
+  - When you make an offhand attack, you can add your ?[[Ability Modifier]] to the damage of the attack.
 
-<img align="left" alt="Action_DeathKnight_Runeforging.png" height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_Runeforging.png" />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_Runeforging.png]]
 
 #### Runeforging
 
 {{ get .loca "h1dcb24acg6d03g4a45gbe65g9689080eb3e3" }}
 
-{{ get .loca "ha1bbf1f9g9007g4e3egb11eg12b7d78976d5" | replace "Runeblades" "[Runeblades](#runeblades)" }}
+{{ get .loca "ha1bbf1f9g9007g4e3egb11eg12b7d78976d5" | replace "Runeblades" "[[Runeblades]]" }}
 
-<img align="left" alt="Action_DeathKnight_Razorice.png" height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_Razorice.png" />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_Razorice.png]]
 
 ##### Rune of Razorice
 
-{{ getf .loca "ha7dc3e14gc3b1g47c7gb454g5a2ca7ff2988" "1 <img src='images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_damage_icons/c_ico_dmg_cold.png' height='25' align='top' alt='Cold Damage' /> Cold damage" }}
+{{ getf .loca "ha7dc3e14gc3b1g47c7gb454g5a2ca7ff2988" "1 [[Cold]]" }}
 
-<img align="left" alt="Action_DeathKnight_FallenCrusader.png" height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_FallenCrusader.png" />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_FallenCrusader.png]]
 
 ##### Rune of the Fallen Crusader
 
-{{ getf .loca "hf14f6741g6c07g4322ga0edg5bb580209a8b" "1 <img src='images/_bg3/Game/Public/Game/GUI/Assets/Shared/ico_healing.png' height='25' align='top' alt='Hit Points' /> hit point" }}
+{{ getf .loca "hf14f6741g6c07g4322ga0edg5bb580209a8b" "1 [[hit point]]" }}
 
-<img align="left" alt="Action_DeathKnight_Stoneskin_Gargoyle.png" height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_Stoneskin_Gargoyle.png" />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_Stoneskin_Gargoyle.png]]
 
 ##### Rune of the Stoneskin Gargoyle
 
-{{ getf .loca "h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" "1" | replace "Armour Class" "[Armour Class](https://bg3.wiki/wiki/Armour_Class)" }}
+{{ getf .loca "h2bd24ad6gf5c5g4ecag8e1cgf4e281da8d22" "1" | replace "Armour Class" "[[Armour Class]]" }}
 
 
-<img src="images/_bg3/Icons/Public/Shared/Assets/Textures/Icons/Icons_Items_2.DDS/Item_WPN_HUM_Longsword_Adamantine_A.png" height="40" align="left" alt="" />
+![[Icons/Textures/Icons/Icons_Items_2.DDS/Item_WPN_HUM_Longsword_Adamantine_A.png]]
 
 ##### Runeblades
 
@@ -297,34 +297,34 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 #### Rune Spells Known: 2
 
-- Choose 2 Rune Spells from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 2 Rune Spells from the [[Death-Knight-Spells | Death Knight Spell List]].
 
 #### New Rune Spells
 
-<a href="Death Knight Spells#anti-Magic-Shell"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_AntiMagicShell.png" height="25" align="top" alt="Action_DeathKnight_AntiMagicShell.png" /> Anti-Magic Shell</a>,
-<a href="Death Knight Spells#armor-of-Arthas"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Abjuration_ArmorOfAgathys.png" height="25" align="top" /> Armour of Arthas</a>,
-<a href="Death Knight Spells#abomination-Limb"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Conjuration_ArmsOfHadar_2.png" height="25" align="top" /> Abomination Limb</a>,
-<a href="Death Knight Spells#deaths-advance"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathsAdvance.png" height="25" align="top" alt="Action_DeathKnight_DeathsAdvance.png" /> Death's Advance</a>,
-<a href="Death Knight Spells#gloom-ward"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_FalseLife.png" height="25" align="top" /> Gloom Ward</a>,
-<a href="Death Knight Spells#scourge"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_Bane_2.png" height="25" align="top" /> Scourge</a>,
-<a href="Death Knight Spells#chains-of-ice"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_ChainsOfIce.png" height="25" align="top" alt="Action_DeathKnight_ChainsOfIce.png" /> Chains of Ice</a>,
-<a href="Death Knight Spells#dark-command"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_CommandHalt.png" height="25" align="top" /> Dark Command</a>,
-<a href="Death Knight Spells#evenly-matched"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_CompelledDuel.png" height="25" align="top" /> Evenly Matched</a>,
-<a href="Death Knight Spells#death-and-decay"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathAndDecay.png" height="25" align="top" alt="Action_DeathKnight_DeathAndDecay.png" /> Death and Decay</a>,
-<a href="Death Knight Spells#mind-Freeze"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_MindFreeze.png" height="25" align="top" alt="Action_DeathKnight_MindFreeze.png" /> Mind Freeze</a>,
-<a href="Death Knight Spells#path-of-frost"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_PathOfFrost.png" height="25" align="top" alt="Action_DeathKnight_PathOfFrost.png" /> Path of Frost</a>
+[[Anti-Magic Shell]],
+[[Armour of Arthas]],
+[[Abomination Limb]],
+[[Death's Advance]],
+[[Gloom Ward]],
+[[Scourge]],
+[[Chains of Ice]],
+[[Dark Command]],
+[[Evenly Matched]],
+[[Death and Decay]],
+[[Mind Freeze]],
+[[Path of Frost]]
 
 ### Level 3
 
 #### Rune Spells Known: 3
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
 #### New Rune Spells
 
-<a href="Death Knight Spells#death-grip"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathGrip.png" height="25" align="top" alt="Action_DeathKnight_DeathGrip.png" /> Death Grip</a>,
-<a href="Death Knight Spells#sacrificial-pact"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_SacrificialPact.png" height="25" align="top" alt="Action_DeathKnight_SacrificialPact.png" /> Sacrificial Pact</a>
+[[Death Grip]],
+[[Sacrificial Pact]]
 
 #### Select a subclass
 
@@ -335,21 +335,21 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
         <div align="center">
           <img src="images/ClassIcons/BloodDK.png" alt="Blood DK" height=150 />
           <br/>
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </div>
       </th>
       <th>
         <div align="center">
         <img src="images/ClassIcons/FrostDK.png" alt="Frost DK" height=150 />
           <br/>
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </div>
       </th>
       <th>
         <div align="center">
         <img src="images/ClassIcons/UnholyDK.png" alt="Unholy DK" height=150 />
           <br/>
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </div>
       </th>
     </tr>
@@ -357,19 +357,19 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
+            +1 [[Blood Rune]]
           </li>
           <li>
             Known Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#blood-boil"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_BloodBoil.png" height="25" align="top" alt="Action_DeathKnight_BloodBoil.png" /> Blood Boil</a>
+                [[Blood Boil]]
               </li>
               <li>
-                <a href="Death Knight Spells#marrowrend"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Marrowrend.png" height="25" align="top" alt="Action_DeathKnight_Marrowrend.png" /> Marrowrend</a>
+                [[Marrowrend]]
               </li>
               <li>
-                <a href="Death Knight Spells#heart-Strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HeartStrike.png" height="25" align="top" alt="Action_DeathKnight_HeartStrike.png" /> Heart Strike</a>
+                [[Heart Strike]]
               </li>
             </ul>
           </li>
@@ -377,10 +377,10 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#dancing-rune-weapon"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_SpiritualWeapon.png" height="25" align="top" /> Dancing Rune Weapon</a>
+                [[Dancing Rune Weapon]]
               </li>
               <li>
-                <a href="Death Knight Spells#subduing-grasp-person"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_HoldPerson.png" height="25" align="top" /> Subduing Grasp: Person</a>
+                [[Subduing Grasp: Person]]
               </li>
             </ul>
           </li>
@@ -389,19 +389,19 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
+            +1 [[Frost Rune]]
           </li>
           <li>
             Known Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#howling-blast"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HowlingBlast.png" height="25" align="top" alt="Action_DeathKnight_HowlingBlast.png" /> Howling Blast</a>
+                [[Howling Blast]]
               </li>
               <li>
-                <a href="Death Knight Spells#obliterate"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png" height="25" align="top" alt="Action_DeathKnight_Obliterate.png" /> Obliterate</a>
+                [[Obliterate]]
               </li>
               <li>
-                <a href="Death Knight Spells#frostscythe"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Frostscythe.png" height="25" align="top" alt="Action_DeathKnight_Frostscythe.png" /> Frostscythe</a>
+                [[Frostscythe]]
               </li>
             </ul>
           </li>
@@ -410,19 +410,19 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
+            +1 [[Unholy Rune]]
           </li>
           <li>
             Known Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#outbreak"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Outbreak.png" height="25" align="top" alt="Action_DeathKnight_Outbreak.png" /> Outbreak</a>
+                [[Outbreak]]
               </li>
               <li>
-                <a href="Death Knight Spells#festering-strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_FesteringStrike.png" height="25" align="top" alt="Action_DeathKnight_FesteringStrike.png" /> Festering Strike</a>
+                [[Festering Strike]]
               </li>
               <li>
-                <a href="Death Knight Spells#scourge-strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_ScourgeStrike.png" height="25" align="top" alt="Action_DeathKnight_ScourgeStrike.png" /> Scourge Strike</a>
+                [[Scourge Strike]]
               </li>
             </ul>
           </li>
@@ -430,7 +430,7 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#enfeeble"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_RayOfInfeeblement.png" height="25" align="top" /> Enfeeble</a>
+                [[Enfeeble]]
               </li>
             </ul>
           </li>
@@ -442,16 +442,16 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 ### Level 4
 
-#### Choose a [Feat](https://bg3.wiki/wiki/Feat).
+#### Choose a [[Feat]].
 
-<img align="left"  height="40" src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png" alt="PassiveFeature_DeathKnight_RuneDie.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png]]
 
 #### Rune Die: 1d6
 
 #### Rune Spells Known: 4
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
 
 #### Subclass feature
@@ -461,17 +461,17 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
     <tr>
       <th>
         <div align="center">
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </p>
       </th>
     </tr>
@@ -479,21 +479,21 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Bloodblood-shield"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_BloodShield.png" height="25" align="top" alt="PassiveFeature_DeathKnight_BloodShield.png" /> Blood Shield</a>
+            [[Blood Shield]]
           </li>
         </ul>
       </td>
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Frost#frozen-heart"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_FrozenHeart.png" height="25" align="top" alt="PassiveFeature_DeathKnight_FrozenHeart.png" /> Frozen Heart</a>
+            [[Frozen Heart]]
           </li>
         </ul>
       </td>
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Unholy#dreadblade"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_Dreadblade.png" height="25" align="top" alt="PassiveFeature_DeathKnight_Dreadblade.png" /> Dreadblade</a>
+            [[Dreadblade]]
           </li>
         </ul>
       </td>
@@ -504,17 +504,16 @@ The Death Knight starter longsword "Runed Soulblade" is a special weapon classif
 
 ### Level 5
 
-<h3><a href="https://bg3.wiki/wiki/Extra_Attack">
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_ExtraAttack.png" height="40" align="left" alt="Extra Attack" />
-Extra Attack
-</a></h3>
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_ExtraAttack.png]]
+
+### Extra Attack
 
 - You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 #### Rune Spells Known: 5
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
 #### Subclass feature
 
@@ -523,17 +522,17 @@ Extra Attack
     <tr>
       <th>
         <div align="center">
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </p>
       </th>
     </tr>
@@ -541,13 +540,13 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
+            +1 [[Blood Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#sanlayn-touch"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_VampiricTouch.png" height="25" align="top" /> San'layn Touch</a>
+                [[San'layn Touch]]
               </li>
             </ul>
           </li>
@@ -556,13 +555,13 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
+            +1 [[Frost Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#absolute-zero"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Conjuration_HungerOfHadar.png" height="25" align="top" /> Absolute Zero</a>
+                [[Absolute Zero]]
               </li>
             </ul>
           </li>
@@ -571,19 +570,19 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
+            +1 [[Unholy Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#raise-ally"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_RaiseAlly.png" height="25" align="top" alt="Action_DeathKnight_RaiseAlly.png" /> Raise Ally</a>
+                [[Raise Ally]]
               </li>
               <li>
-                <a href="Death Knight Spells#unholy-aura"> <img src="images/ControllerIcons/skills_png/Spell_Conjuration_SpiritGuardians_Necrotic.png" height="25" align="top" alt="Spell_Conjuration_SpiritGuardians_Necrotic.png" /> Unholy Aura</a>
+                [[Unholy Aura]]
               </li>
               <li>
-                <a href="Death Knight Spells#raise-Dead"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_AnimateDead_Skeleton.png" height="25" align="top" /> Raise Dead</a>
+                [[Raise Dead]]
               </li>
             </ul>
           </li>
@@ -597,8 +596,8 @@ Extra Attack
 
 #### Rune Spells Known: 6
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
 #### Subclass feature
 
@@ -607,17 +606,17 @@ Extra Attack
     <tr>
       <th>
         <div align="center">
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </p>
       </th>
     </tr>
@@ -625,21 +624,21 @@ Extra Attack
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Blood#dark-succor"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathStrike.png" height="25" align="top" alt="Action_DeathKnight_DeathStrike.png" /> Dark Succor</a>
+            [[Dark Succor]]
           </li>
         </ul>
       </td>
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Frost#rime"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HowlingBlast.png" height="25" align="top" alt="Action_DeathKnight_HowlingBlast.png" /> Rime</a>
+            [[Rime]]
           </li>
         </ul>
       </td>
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Unholy#sudden-doom"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathCoil.png" height="25" align="top" alt="Action_DeathKnight_DeathCoil.png" /> Sudden Doom</a>
+            [[Sudden Doom]]
           </li>
         </ul>
       </td>
@@ -649,41 +648,41 @@ Extra Attack
 
 ### Level 7
 
-<img align="left"  height="40" src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png" alt="PassiveFeature_DeathKnight_RuneDie.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png]]
 
 #### Rune Die: 1d8
 
 #### Rune Spells Known: 7
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
-#### Additional Runes: +1 <img align="top"  height="25" src="images/ActionResources_c/Icons/Resources/BloodRune.png" alt="" /> Blood, +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="Icon_DK_FrostRune.png" /> Frost, +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="Icon_DK_UnholyRune.png" /> Unholy
+#### Additional Runes: +1 [[Blood Rune]], +1 [[Frost Rune]], +1 [[Unholy Rune]]
 
 #### New Rune Spells
 
-<a href="Death Knight Spells#anti-magic-zone"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_AntiMagicZone.png" height="25" align="top" alt="Action_DeathKnight_AntiMagicZone.png" /> Anti-Magic Zone</a>,
-<a href="Death Knight Spells#dark-transformation"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="25" align="top" alt="Action_DeathKnight_DarkTransformation.png" /> Dark Transformation</a>,
-<a href="Death Knight Spells#taise-ally"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_RaiseAlly.png" height="25" align="top" alt="Action_DeathKnight_RaiseAlly.png" /> Raise Ally</a>,
-<a href="Death Knight Spells#sanlayn-touch"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_VampiricTouch.png" height="25" align="top" /> San'layn Touch</a>,
-<a href="Death Knight Spells#absolute-zero"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Conjuration_HungerOfHadar.png" height="25" align="top" /> Absolute Zero</a>
+[[Anti-Magic Zone]],
+[[Dark Transformation]],
+[[Raise Ally]],
+[[San'layn Touch]],
+[[Absolute Zero]]
 
 <table>
   <tbody>
     <tr>
       <th>
         <div align="center">
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </p>
       </th>
     </tr>
@@ -695,7 +694,7 @@ Extra Attack
         New Rune Spells:
         <ul>
           <li>
-            <a href="Death Knight Spellsavalanche"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_IceStorm.png" height="25" align="top" /> Avalanche</a>
+            [[Avalanche]]
           </li>
         </ul>
       </td>
@@ -703,13 +702,13 @@ Extra Attack
         New Rune Spells:
         <ul>
           <li>
-            <a href="Death Knight Spellsdark-transformation"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DarkTransformation.png" height="25" align="top" alt="Action_DeathKnight_DarkTransformation.png" /> Dark Transformation</a>
+            [[Dark Transformation]]
           </li>
           <li>
-            <a href="Death Knight Spells#raise-gargoyle"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_AnimateDead.png" height="25" align="top" /> Raise Gargoyle</a>
+            [[Raise Gargoyle]]
           </li>
           <li>
-            <a href="Death Knight Spells#defile"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_Blight.png" height="25" align="top" /> Defile</a>
+            [[Defile]]
           </li>
         </ul>
       </td>
@@ -717,7 +716,7 @@ Extra Attack
   </tbody>
 </table>
 
-<img align="left"  height="40" src="images/ControllerIcons/skills_png/Action_DeathKnight_RuneTap.png" alt="Action_DeathKnight_RuneTap.png"  />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_RuneTap.png]]
 
 #### Rune Tap
 
@@ -725,20 +724,20 @@ Extra Attack
 
 ### Level 8
 
-#### Choose a [Feat](https://bg3.wiki/wiki/Feat).
+#### Choose a [[Feat]].
 
 #### Rune Spells Known: 8
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
 
 ### Level 9
 
 #### Rune Spells Known: 9
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
 #### Subclass feature
 
@@ -747,17 +746,17 @@ Extra Attack
     <tr>
       <th>
         <div align="center">
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </p>
       </th>
     </tr>
@@ -765,13 +764,13 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
+            +1 [[Blood Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#subduing-grasp-monster"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_HoldMonster.png" height="25" align="top" /> Subduing Grasp: Monster</a>
+                [[Subduing Grasp: Monster]]
               </li>
             </ul>
           </li>
@@ -780,13 +779,13 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
+            +1 [[Frost Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#breath-of-sindragosa"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_ConeOfCold.png" height="25" align="top" /> Breath of Sindragosa</a>
+                [[Breath of Sindragosa]]
               </li>
             </ul>
           </li>
@@ -795,13 +794,13 @@ Extra Attack
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
+            +1 [[Unholy Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#army-of-the-dead"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_WakeTheDead.png" height="25" align="top" /> Army of the Dead</a>
+                [[Army of the Dead]]
               </li>
             </ul>
           </li>
@@ -811,7 +810,7 @@ Extra Attack
   </tbody>
 </table>
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_WillOfTheNecropolis.png" height="40" align="left" alt="PassiveFeature_DeathKnight_WillOfTheNecropolis.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_WillOfTheNecropolis.png]]
 
 #### Will of the Necropolis
 
@@ -819,14 +818,14 @@ Extra Attack
 
 ### Level 10
 
-<img align="left"  height="40" src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png" alt="PassiveFeature_DeathKnight_RuneDie.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png]]
 
 #### Rune Die: 1d10
 
 #### Rune Spells Known: 10
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
 #### Subclass feature
 
@@ -835,17 +834,17 @@ Extra Attack
     <tr>
       <th>
         <div align="center">
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </p>
       </th>
     </tr>
@@ -853,21 +852,21 @@ Extra Attack
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Blood#crimson-scourge"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathAndDecay.png" height="25" align="top" alt="Action_DeathKnight_DeathAndDecay.png" /> Crimson Scourge</a>
+            [[Crimson Scourge]]
           </li>
         </ul>
       </td>
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Frost#killing-machine"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_KillingMachine.png" height="25" align="top" alt="PassiveFeature_DeathKnight_KillingMachine.png" /> Killing Machine</a>
+            [[Killing Machine]]
           </li>
         </ul>
       </td>
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Unholy#improved-death-coil"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathCoil.png" height="25" align="top" alt="Action_DeathKnight_DeathCoil.png" /> Improved Death Coil</a>
+            [[Improved Death Coil]]
           </li>
         </ul>
       </td>
@@ -879,10 +878,10 @@ Extra Attack
 
 #### Rune Spells Known: 11
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" height="40" align="left" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png]]
 
 #### Rune Mastery
 
@@ -893,17 +892,17 @@ Each subclass chooses one of it options for a new passive feature.
     <tr>
       <th>
         <div align="center">
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </p>
       </th>
     </tr>
@@ -911,30 +910,30 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Blood#empower-rune-weapon"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon_Blood.png" height="25" align="top" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Blood.png" /> Empower Rune Weapon</a>
+            [[Death-Knight---Blood#empower-rune-weapon | Empower Rune Weapon]]
           </li>
           <li>
-            <a href="Death Knight - Blood#carnage"> <img src="images/ControllerIcons/skills_png/Status_DeathKnight_BoneShield.png" height="25" align="top" alt="Status_DeathKnight_BoneShield.png" /> Carnage </a>
-          </li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>
-            <a href="Death Knight - Frost#empower-rune-weapon"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon_Frost.png" height="25" align="top" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Frost.png" /> Empower Rune Weapon </a>
-          </li>
-          <li>
-            <a href="Death Knight - Frost#obliteration"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png" height="25" align="top" alt="Action_DeathKnight_Obliterate.png" /> Obliteration</a>
+            [[Carnage]]
           </li>
         </ul>
       </td>
       <td>
         <ul>
           <li>
-            <a href="Death Knight - Unholy#empowe-rune-weapon"> <img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon_Unholy.png" height="25" align="top" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Unholy.png" /> Empower Rune Weapon</a>
+            [[Death-Knight---Frost#empower-rune-weapon | Empower Rune Weapon]]
           </li>
           <li>
-            <a href="Death Knight - Unholy#superstrain"> <img src="images/ControllerIcons/skills_png/Status_DeathKnight_VirulentPlague.png" height="25" align="top" alt="Status_DeathKnight_VirulentPlague.png" /> Superstrain </a>
+            [[Obliteration]]
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>
+            [[Death-Knight---Unholy#empower-rune-weapon | Empower Rune Weapon]]
+          </li>
+          <li>
+            [[Superstrain]]
           </li>
         </ul>
       </td>
@@ -950,17 +949,17 @@ Each subclass chooses one of it options for a new passive feature.
     <tr>
       <th>
         <div align="center">
-          <a href="Death Knight - Blood">Blood</a>
+          [[Death Knight - Blood | Blood]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Frost">Frost</a>
+          [[Death Knight - Frost | Frost]]
         </p>
       </th>
       <th>
         <div align="center">
-          <a href="Death Knight - Unholy">Unholy</a>
+          [[Death Knight - Unholy | Unholy]]
         </p>
       </th>
     </tr>
@@ -968,13 +967,13 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Rune
+            +1 [[Blood Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#bloodshot"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Eyebite_Panicked.png" height="25" align="top" /> Bloodshot</a>
+                [[Bloodshot]]
               </li>
             </ul>
           </li>
@@ -983,13 +982,13 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Rune
+            +1 [[Frost Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#glacial-advance"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_WallOfIce.png" height="25" align="top" /> Glacial Advance</a>
+                [[Glacial Advance]]
               </li>
             </ul>
           </li>
@@ -998,16 +997,16 @@ Each subclass chooses one of it options for a new passive feature.
       <td>
         <ul>
           <li>
-            +1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy Rune
+            +1 [[Unholy Rune]]
           </li>
           <li>
             New Rune Spells:
             <ul>
               <li>
-                <a href="Death Knight Spells#apocalypse"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_CircleOfDeath.png" height="25" align="top" /> Apocalypse</a>
+                [[Apocalypse]]
               </li>
               <li>
-                <a href="Death Knight Spells#commander-of-the-dead"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_CreateUndead.png" height="25" align="top" /> Commander of the Dead</a>
+                [[Commander of the Dead]]
               </li>
             </ul>
           </li>
@@ -1019,9 +1018,9 @@ Each subclass chooses one of it options for a new passive feature.
 
 ### Level 12
 
-#### Choose a [Feat](https://bg3.wiki/wiki/Feat).
+#### Choose a [[Feat]].
 
 #### Rune Spells Known: 12
 
-- Choose 1 additional Rune Spell from the <a href ="Death Knight Spells">Death Knight Spell List</a>.
-- Optionally, choose 1 known Rune Spell and replace it with another in the <a href ="Death Knight Spells">Death Knight Spell List</a>.
+- Choose 1 additional Rune Spell from the [[Death-Knight-Spells | Death Knight Spell List]].
+- Optionally, choose 1 known Rune Spell and replace it with another in the [[Death-Knight-Spells | Death Knight Spell List]].

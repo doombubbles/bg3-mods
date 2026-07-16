@@ -2,7 +2,7 @@
 
 <img align="right" alt="Frost Death Knight Class Icon" height="150" src="images/ClassIcons/FrostDK.png" />
 
-**Frost** is one of the Subclasses of <a href="Death Knight">Death Knight</a> that focuses on spending <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost Runes to become a killing machine of <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_damage_icons/c_ico_dmg_cold.png" height="25" align="top" alt="Cold Damage" /> Cold damage.
+**Frost** is one of the Subclasses of [[Death Knight | Death Knight]] that focuses on spending [[Frost Rune]] to become a killing machine of [[Cold]].
 
 <h3>
 
@@ -12,37 +12,34 @@
 
 ## Subclass Features
 
-*This subclass obtains all the features from its base class, <a href="Death Knight">Death Knight</a>, in addition to its unique features outlined below.*
+*This subclass obtains all the features from its base class, [[Death Knight | Death Knight]], in addition to its unique features outlined below.*
 
 ### Level 3
 
 <h3>
-Runes: 
-1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-2 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+1 [[Blood Rune]],
+2 [[Frost Rune]],
+1 [[Unholy Rune]]
 </h3>
 
 #### Known Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#howling-blast"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HowlingBlast.png" height="25" align="top" 
-alt="Action_DeathKnight_HowlingBlast.png" /> Howling Blast</a>
+    [[Death Knight Spells#howling-blast | Howling Blast]]
   </li>
   <li>
-    <a href="Death Knight Spells#obliterate"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png" height="25" align="top" 
-alt="Action_DeathKnight_Obliterate.png" /> Obliterate</a>
+    [[Death Knight Spells#obliterate | Obliterate]]
   </li>
   <li>
-    <a href="Death Knight Spells#frostscythe"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Frostscythe.png" height="25" align="top" 
-alt="Action_DeathKnight_Frostscythe.png" /> Frostscythe</a>
+    [[Death Knight Spells#frostscythe | Frostscythe]]
   </li>
 </ul>
 
 ### Level 4
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_FrozenHeart.png" height="40" align="left" alt="PassiveFeature_DeathKnight_FrozenHeart.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_FrozenHeart.png]]
 
 #### Frozen Heart
 
@@ -51,23 +48,23 @@ alt="Action_DeathKnight_Frostscythe.png" /> Frostscythe</a>
 ### Level 5
 
 <h3>
-Runes: 
-1 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-3 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+1 [[Blood Rune]],
+3 [[Frost Rune]],
+1 [[Unholy Rune]]
 </h3>
 
 #### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#absolute-zero"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Conjuration_HungerOfHadar.png" height="25" align="top" /> Absolute Zero</a>
+    [[Death Knight Spells#absolute-zero | Absolute Zero]]
   </li>
 </ul>
 
 ### Level 6
 
-<img src="images/ControllerIcons/skills_png/Action_DeathKnight_HowlingBlast.png" height="40" align="left" alt="Action_DeathKnight_HowlingBlast.png" />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_HowlingBlast.png]]
 
 #### Rime
 
@@ -76,77 +73,77 @@ Runes:
 ### Level 7
 
 <h3>
-Runes: 
-2 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-4 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+2 [[Blood Rune]],
+4 [[Frost Rune]],
+2 [[Unholy Rune]]
 </h3>
 
 #### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#avalanche"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_IceStorm.png" height="25" align="top" /> Avalanche</a>
+    [[Death Knight Spells#avalanche | Avalanche]]
   </li>
 </ul>
 
 ### Level 9
 
 <h3>
-Runes: 
-2 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-5 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+2 [[Blood Rune]],
+5 [[Frost Rune]],
+2 [[Unholy Rune]]
 </h3>
 
 #### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#breath-of-sindragosa"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_ConeOfCold.png" height="25" align="top" /> Breath of Sindragosa</a>
+    [[Death Knight Spells#breath-of-sindragosa | Breath of Sindragosa]]
   </li>
 </ul>
 
 ### Level 10
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_KillingMachine.png" height="40" align="left" alt="PassiveFeature_DeathKnight_KillingMachine.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_KillingMachine.png]]
 
 #### Killing Machine
 
 {{ get .loca "h98fa3d36gd69cg45abgadfdgf19bef322d3a" | include "wikify" }}
 
-Usable Once per [Short Rest](https://bg3.wiki/wiki/Short_Rest).
+Usable Once per [[Short Rest]].
 
 ### Level 11
 
 <h3>
-Runes: 
-2 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-6 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+2 [[Blood Rune]],
+6 [[Frost Rune]],
+2 [[Unholy Rune]]
 </h3>
 
 #### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#glacial-advance"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_WallOfIce.png" height="25" align="top" /> Glacial Advance</a>
+    [[Death Knight Spells#glacial-advance | Glacial Advance]]
   </li>
 </ul>
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" height="40" align="left" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png]]
 
 #### Rune Mastery
 
 {{ get .loca "h5f27023dgdd29g4367g9e99g55c414897a3b" | include "wikify" }}
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon_Frost.png" height="40" align="left" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Frost.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon_Frost.png]]
 
 ##### Empower Rune Weapon
 
 {{ getf .loca "h1c2be41ag6b58g4651gad3dgf7d097e5f6ca" "1d8 Cold damage" | include "wikify" }}
 
-<img src="images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png" height="40" align="left" alt="Action_DeathKnight_Obliterate.png" />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_Obliterate.png]]
 
 ##### Obliteration
 

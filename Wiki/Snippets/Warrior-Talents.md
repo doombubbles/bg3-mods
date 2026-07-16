@@ -1,10 +1,10 @@
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_Rush.png" height="40" align="left" alt="Double Time" />
+![[images/ControllerIcons/skills_png/Action_Rush.png]]
 
 ### Double Time
 
 {{ get .loca "hed4d5e94g624ag4150gbc44gda72c63c8b15" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Action_DivineStrike_Physical_Melee.png" height="40" align="left" alt="Sudden Death" />
+![[Game/ControllerUIIcons/skills_png/Action_DivineStrike_Physical_Melee.png]]
 
 ### Sudden Death
 
@@ -12,13 +12,13 @@
 
 {{ get .loca "h2371b7c9gf7b5g4f5cga36eg348acb88b79e" | include "wikify" }}
 
-<img src="images/_bg3/Icons/Public/Shared/Assets/Textures/Icons/Icons_Skills.DDS/Status_Bleeding.png" height="40" align="left" alt="Deep Wounds" />
+![[Icons/Textures/Icons/Icons_Skills.DDS/Status_Bleeding.png]]
 
 ### Deep Wounds
 
 {{ getf .loca "h44e8adbfg5e3cg4341g907dg830245623ec9" "3" | include "wikify" }}
 
-<img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/PassiveFeature_MindlessRage.png" height="40" align="left" alt="Anger Management" />
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_MindlessRage.png]]
 
 ### Anger Management
 

@@ -2,11 +2,15 @@ module DoombubblesTweaks
 
 go 1.25.0
 
-require gopkg.in/yaml.v2 v2.4.0 // indirect
+require (
+	github.com/Masterminds/sprig/v3 v3.3.0
+	github.com/yuin/goldmark v1.7.8
+)
 
-require github.com/Masterminds/sprig/v3 v3.3.0
-
-require dario.cat/mergo v1.0.1 // indirect
+require (
+	dario.cat/mergo v1.0.1 // indirect
+	github.com/stretchr/testify v1.9.0 // indirect
+)
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect

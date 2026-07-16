@@ -50,15 +50,10 @@ func main() {
 	flag.StringVarP(&resultValues, "result-values", "r", "build/values.yaml", "Place to save the result values to, if any")
 	flag.Parse()
 
-	buildDir := destination
-	buildInfo, err := os.Stat(destination)
-	if err != nil || buildInfo.IsDir() {
-		buildDir = filepath.Join(destination, filepath.Base(src))
-	}
 	singleFile = filepath.Ext(src) != "" && filepath.Ext(destination) != ""
 
 	// Delete all files in the build directory
-	err = cleanBuildDirectory(buildDir)
+	err = cleanBuildDirectory(destination)
 	if err != nil {
 		log.Fatalf("error cleaning build directory: %v", err)
 	}
@@ -120,6 +115,12 @@ func main() {
 	if err != nil {
 		log.Fatalf("error walking the path: %v", err)
 		os.Exit(1)
+	}
+
+	if !singleFile && strings.EqualFold(filepath.Base(filepath.Clean(src)), "Wiki") {
+		if err := processWikiLinks(destination, filepath.Join(src, "!wikilinks.yaml")); err != nil {
+			log.Fatalf("error processing wiki links: %v", err)
+		}
 	}
 }
 
@@ -359,6 +360,9 @@ func processFile(path string, info os.FileInfo, err error, values Values, tmpl *
 	}
 	if info.IsDir() {
 		return nil // Skip directories
+	}
+	if strings.EqualFold(filepath.Base(path), "!wikilinks.yaml") {
+		return nil // Build-time metadata, not a generated Wiki page.
 	}
 	if strings.HasPrefix(filepath.Base(path), ".") {
 		return nil // Skip hidden files

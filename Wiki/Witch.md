@@ -2,7 +2,7 @@
 
 <img align="right" alt="Witch class icon" height="150" src="images/ClassIcons/Witch.png" />
 
-**Witch** is an experimental class based on [Warlock](https://bg3.wiki/wiki/Warlock), but uses normal Spell Slot progression instead of Pact Magic.
+**Witch** is an experimental class based on [[Warlock]], but uses normal Spell Slot progression instead of Pact Magic.
 
 ## Class Features
 

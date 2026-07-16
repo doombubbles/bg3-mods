@@ -2,7 +2,7 @@
 
 <img align="right" alt="Blood Death Knight Class Icon" height="150" src="images/ClassIcons/BloodDK.png" />
 
-**Blood** is one of the Subclasses of <a href="Death Knight">Death Knight</a> that focuses on spending <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood Runes to sustain itself with healing and shielding while dealing <img src="images/_bg3/Game/Public/Game/GUI/Assets/Shared_c/c_damage_icons/c_ico_dmg_force.png" height="25" align="top" alt="Force Damage" /> Force damage to enemies.
+**Blood** is one of the Subclasses of [[Death Knight | Death Knight]] that focuses on spending [[Blood Rune]] to sustain itself with healing and shielding while dealing [[Force]] to enemies.
 <h3>
 
 > {{ get .loca "h2e130e97g1c58g470bgb4ceg991d510e8df4" | quote }}
@@ -11,28 +11,28 @@
 
 ## Subclass Features
 
-*This subclass obtains all the features from its base class, <a href="Death Knight">Death Knight</a>, in addition to its unique features outlined below.*
+*This subclass obtains all the features from its base class, [[Death Knight | Death Knight]], in addition to its unique features outlined below.*
 
 ### Level 3
 
 <h3>
-Runes: 
-2 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+2 [[Blood Rune]],
+1 [[Frost Rune]],
+1 [[Unholy Rune]]
 </h3>
 
 #### Known Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#blood-boil"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_BloodBoil.png" height="25" align="top" alt="Action_DeathKnight_BloodBoil.png" /> Blood Boil</a>
+    [[Death Knight Spells#blood-boil | Blood Boil]]
   </li>
   <li>
-    <a href="Death Knight Spells#marrowrend"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_Marrowrend.png" height="25" align="top" alt="Action_DeathKnight_Marrowrend.png" /> Marrowrend</a>
+    [[Death Knight Spells#marrowrend | Marrowrend]]
   </li>
   <li>
-    <a href="Death Knight Spells#heart-strike"> <img src="images/ControllerIcons/skills_png/Action_DeathKnight_HeartStrike.png" height="25" align="top" alt="Action_DeathKnight_HeartStrike.png" /> Heart Strike</a>
+    [[Death Knight Spells#heart-strike | Heart Strike]]
   </li>
 </ul>
 
@@ -40,16 +40,16 @@ Runes:
 
 <ul>
   <li>
-    <a href="Death Knight Spells#dancing-rune-weapon"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Evocation_SpiritualWeapon.png" height="25" align="top" /> Dancing Rune Weapon</a>
+    [[Death Knight Spells#dancing-rune-weapon | Dancing Rune Weapon]]
   </li>
   <li>
-    <a href="Death Knight Spells#subduing-grasp Person"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_HoldPerson.png" height="25" align="top" /> Subduing Grasp: Person</a>
+    [[Death Knight Spells#subduing-grasp Person | Subduing Grasp: Person]]
   </li>
 </ul>
 
 ### Level 4
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_BloodShield.png" height="40" align="left" alt="PassiveFeature_DeathKnight_BloodShield.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_BloodShield.png]]
 
 #### Blood Shield
 
@@ -58,23 +58,23 @@ Runes:
 ### Level 5
 
 <h3>
-Runes: 
-3 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-1 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-1 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+3 [[Blood Rune]],
+1 [[Frost Rune]],
+1 [[Unholy Rune]]
 </h3>
 
 #### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#san'layn-touch"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Necromancy_VampiricTouch.png" height="25" align="top" /> San'layn Touch</a>
+    [[Death Knight Spells#san'layn-touch | San'layn Touch]]
   </li>
 </ul>
 
 ### Level 6
 
-<img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathStrike.png" height="40" align="left" alt="Action_DeathKnight_DeathStrike.png" />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_DeathStrike.png]]
 
 #### Dark Succor
 
@@ -83,32 +83,32 @@ Runes:
 ### Level 7
 
 <h3>
-Runes: 
-4 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-2 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+4 [[Blood Rune]],
+2 [[Frost Rune]],
+2 [[Unholy Rune]]
 </h3>
 
 ### Level 9
 
 <h3>
-Runes: 
-5 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-2 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+5 [[Blood Rune]],
+2 [[Frost Rune]],
+2 [[Unholy Rune]]
 </h3>
 
 #### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#subduing-grasp-monster"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Enchantment_HoldMonster.png" height="25" align="top" /> Subduing Grasp: Monster</a>
+    [[Death Knight Spells#subduing-grasp-monster | Subduing Grasp: Monster]]
   </li>
 </ul>
 
 ### Level 10
 
-<img src="images/ControllerIcons/skills_png/Action_DeathKnight_DeathAndDecay.png" height="40" align="left" alt="Action_DeathKnight_DeathAndDecay.png" />
+![[images/ControllerIcons/skills_png/Action_DeathKnight_DeathAndDecay.png]]
 
 #### Crimson Scourge
 
@@ -117,34 +117,34 @@ Runes:
 ### Level 11
 
 <h3>
-Runes: 
-6 <img src="images/ActionResources_c/Icons/Resources/BloodRune.png" height="25" align="top" alt="BloodRune" /> Blood, 
-2 <img src="images/ActionResources_c/Icons/Resources/FrostRune.png" height="25" align="top" alt="FrostRune" /> Frost, 
-2 <img src="images/ActionResources_c/Icons/Resources/UnholyRune.png" height="25" align="top" alt="UnholyRune" /> Unholy
+Runes:
+6 [[Blood Rune]],
+2 [[Frost Rune]],
+2 [[Unholy Rune]]
 </h3>
 
 #### New Rune Spells
 
 <ul>
   <li>
-    <a href="Death Knight Spells#bloodshot"> <img src="images/_bg3/Game/Public/Game/GUI/Assets/ControllerUIIcons/skills_png/Spell_Eyebite_Panicked.png" height="25" align="top" /> Bloodshot</a>
+    [[Death Knight Spells#bloodshot | Bloodshot]]
   </li>
 </ul>
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" height="40" align="left" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon2.png]]
 
 #### Rune Mastery
 
 {{ get .loca "h5f27023dgdd29g4367g9e99g55c414897a3b" | include "wikify" }}
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon_Blood.png" height="40" align="left" alt="PassiveFeature_DeathKnight_EmpowerRuneWeapon_Blood.png" />
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_EmpowerRuneWeapon_Blood.png]]
 
 ##### Empower Rune Weapon
 
 {{ getf .loca "h1c2be41ag6b58g4651gad3dgf7d097e5f6ca" "1d8 Force damage" | include "wikify" }}
 
-<img src="images/ControllerIcons/skills_png/Status_DeathKnight_BoneShield.png" height="40" align="left" alt="Status_DeathKnight_BoneShield.png" />
+![[images/ControllerIcons/skills_png/Status_DeathKnight_BoneShield.png]]
 
 ##### Carnage
 
-{{ get .loca "h18cbd986gdebeg402eg9f05g3acc845a6b3e" | replace "temporary hit points" "[temporary hit points](https://bg3.wiki/wiki/temporary_hit_points)" | include "wikify" }}
+{{ get .loca "h18cbd986gdebeg402eg9f05g3acc845a6b3e" | replace "temporary hit points" "[[temporary hit points]]" | include "wikify" }}

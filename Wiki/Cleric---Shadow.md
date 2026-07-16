@@ -2,7 +2,7 @@
 
 <img align="right" alt="Shadow Class Icon" height="150" src="images/ClassIcons/ShadowDomain.png" />
 
-**Shadow Domain** is a modded Subclass of [Cleric](https://bg3.wiki/wiki/Cleric) that focuses on dealing lots of Psychic damage with less of a focus on healing.
+**Shadow Domain** is a modded Subclass of [[Cleric]] that focuses on dealing lots of Psychic damage with less of a focus on healing.
 
 > {{ get .loca "h4efa3342g79d2g46d7g935ag073df6793b59" | quote }}
 
@@ -10,7 +10,7 @@
 
 ### Level 1
 
-<img src="images/ControllerIcons/skills_png/PassiveFeature_Cleric_ShadowForm.png" height="40" align="left" alt="" />
+![[images/ControllerIcons/skills_png/PassiveFeature_Cleric_ShadowForm.png]]
 
 #### Shadowform
 
@@ -18,10 +18,10 @@
 - {{ getf .loca "hd52b7f22gd431g433eg9a4cg3c70da021304" | include "wikify" }}
 
 
-<img src="images/ControllerIcons/skills_png/Spell_Cleric_ShadowWordPain.png" height="40" align="left" alt="" />
+![[images/ControllerIcons/skills_png/Spell_Cleric_ShadowWordPain.png]]
 
 #### Shadow Word: Pain
-- {{ include "wikify" "Costs 1 **Action**" }}
+- Costs 1 [[Action]]
 - Necromancy Cantrip, 18m range
 - {{ getf .loca "h246efe6ag8a68g4999g87e6gde3cb1b31458" "[1d4/2d4/3d4](# 'Improving at Cleric level 5 and 10') Psychic Damage" | include "wikify" }}
 
@@ -29,17 +29,17 @@
 
 You gain additional spells from your domain. They are Always Prepared. 
 
-- [Dissonant Whispers](https://bg3.wiki/wiki/Dissonant_Whispers)
-- [Tasha's Hideous Laughter](https://bg3.wiki/wiki/Tasha's_Hideous_Laughter)
+- ?[[Dissonant Whispers]]
+- ?[[Tasha's Hideous Laughter]]
 
 ### Level 2
 
-<img src="images/ControllerIcons/skills_png/Action_Cleric_MindBlastLesser.png" height="40" align="left" alt="" />
+![[images/ControllerIcons/skills_png/Action_Cleric_MindBlastLesser.png]]
 
 #### Lesser Mind Blast
-- {{ include "wikify" "Costs 1 **Action**, 1 **Channel Divinity**" }}
-- 14m Cone, {{ include "wikify" "Intelligence Saving Throw" }}
-- {{ include "wikify" "2d8 + Character Level Psychic Damage" }}
+- Costs 1 [[Action]], 1 [[Channel Divinity]]
+- 14m Cone, [[Intelligence]] [[Saving Throw]]
+- 2d8 + Character Level [[Psychic]] Damage
 - {{ getf .loca "ha794b99dg74afg42a5gbfa6gf57ed495b9b1" | include "wikify" }}
 
 ### Level 3
@@ -48,8 +48,8 @@ You gain additional spells from your domain. They are Always Prepared.
 
 You gain additional spells from your domain. They are Always Prepared. 
 
-- [Shadow Blade](https://bg3.wiki/wiki/Shadow_Blade)
-- [Darkness](https://bg3.wiki/wiki/Darkness)
+- ?[[Shadow Blade]]
+- ?[[Darkness]]
 
 ### Level 5
 
@@ -57,15 +57,15 @@ You gain additional spells from your domain. They are Always Prepared.
 
 You gain additional spells from your domain. They are Always Prepared. 
 
-- [Fear](https://bg3.wiki/wiki/Fear)
-- [Hunger of Hadar](https://bg3.wiki/wiki/Hunger_of_Hadar)
+- ?[[Fear]]
+- ?[[Hunger of Hadar]]
 
 ### Level 6
 
-<img src="images/ControllerIcons/skills_png/Spell_Cleric_ShadowWordDeath.png" height="40" align="left" alt="" />
+![[images/ControllerIcons/skills_png/Spell_Cleric_ShadowWordDeath.png]]
 
 #### Shadow Word: Death
-- {{ include "wikify" "Costs 1 **Action**" }}
+- Costs 1 [[Action]]
 - 18m Range, Usable Once per Long Rest
 - Compel an enemy with 33 Hit Points or fewer to die instantly.
 
@@ -75,8 +75,8 @@ You gain additional spells from your domain. They are Always Prepared.
 
 You gain additional spells from your domain. They are Always Prepared. 
 
-- [Phantasmal Killer](https://bg3.wiki/wiki/Phantasmal_Killer)
-- [Evard's Black Tentacles](https://bg3.wiki/wiki/Evard's_Black_Tentacles)
+- ?[[Phantasmal Killer]]
+- ?[[Evard's Black Tentacles]]
 
 ### Level 9
 
@@ -84,5 +84,5 @@ You gain additional spells from your domain. They are Always Prepared.
 
 You gain additional spells from your domain. They are Always Prepared. 
 
-- [Hold Monster](https://bg3.wiki/wiki/Hold_Monster)
-- [Dominate Person](https://bg3.wiki/wiki/Dominate_Person)
+- [[Hold Monster]]
+- ?[[Dominate Person]]

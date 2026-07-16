@@ -1,7 +1,7 @@
 # New Items
 
 {{- if $.Balance.PotentSacredRing }}
-**Sacred Ring** - Gain the [Potent Cantrips](https://bg3.wiki/wiki/Potent_Cantrips) passive. Drops from the Scared Boar on the Ravaged Beach.
+**Sacred Ring** - Gain the ?[[Potent Cantrips]] passive. Drops from the Scared Boar on the Ravaged Beach.
 {{- else }}
 **Sacred Ring** - Your Sacred Flame still does half damage on a failed save. Drops from the Scared Boar on the Ravaged Beach.
 {{- end }}

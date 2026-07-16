@@ -7,7 +7,7 @@
 	"Icon": {
 		"prefix": "icon",
 		"scope": "markdown,helm",
-		"body": "<img src=\"${1:images/ControllerIcons/skills_png/}\" height=\"40\" align=\"left\" alt=\"$2\" />$0"
+		"body": "![[skills_png/${1:Icon_Name.png}]]$0"
 	},
 	"Small Icon": {
 		"prefix": "iconsm",
@@ -23,13 +23,23 @@
 		"prefix": "bg3",
 		"scope": "markdown,helm",
 		"body": [
-			"[$TM_SELECTED_TEXT](https://bg3.wiki/wiki/${TM_SELECTED_TEXT/ /_/g})"
+			"?[[${1:$TM_SELECTED_TEXT}]]$0"
 		]
 	},
 	"Rune Spell": {
 		"prefix": "runespell",
 		"scope": "markdown,helm",
-		"body": "<a href='Death Knight Spells#$TM_SELECTED_TEXT'>$TM_SELECTED_TEXT</a>"
+		"body": "[[Death-Knight-Spells#$TM_SELECTED_TEXT | $TM_SELECTED_TEXT]]"
+	},
+	"Wiki Link": {
+		"prefix": "wikilink",
+		"scope": "markdown,helm",
+		"body": "[[${1:$TM_SELECTED_TEXT}]]$0"
+	},
+	"Wiki Link With Target": {
+		"prefix": "wikilinktarget",
+		"scope": "markdown,helm",
+		"body": "[[${1:Page#Heading} | ${2:$TM_SELECTED_TEXT}]]$0"
 	},
 	"Loca": {
 			"prefix": ["loca"],
@@ -71,7 +81,7 @@
 			"action"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"https://bg3.wiki/w/images/f/f2/Action_Icon.png\" height=\"25\" align=\"top\" alt=\"ActionPoint\" />$0"
+		"body": "[[Action Point]]$0"
 	},
 	"Bonus Action": {
 		"prefix": [
@@ -79,7 +89,7 @@
 			"bonusaction"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"https://bg3.wiki/w/images/c/c9/Bonus_Action_Icon.png\" height=\"25\" align=\"top\" alt=\"ActionPoint\" />$0"
+		"body": "[[Bonus Action]]$0"
 	},
 	"Rage Charges": {
 		"prefix": [
@@ -88,7 +98,7 @@
 			"ragecharges"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/d/d6/Rage_Charges_Icons.png/27px-Rage_Charges_Icons.png\" height=\"25\" align=\"top\" alt=\"RageCharges\" />$0"
+		"body": "[[Rage Charge]]$0"
 	},
 	"Channel Oath Charges": {
 		"prefix": [
@@ -103,7 +113,7 @@
 			"hitpoints"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/a/ac/Healing_Icon.png/50px-Healing_Icon.png\" height=\"25\" align=\"top\" alt=\"Hit Points\" />$0"
+		"body": "[[Hit Points]]$0"
 	},
 	"Strength": {
 		"prefix": [
@@ -111,7 +121,7 @@
 			"STR"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/4/43/Strength_Small_Icon.png/50px-Strength_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Strength\" />$0"
+		"body": "[[Strength]]$0"
 	},
 	"Dexterity": {
 		"prefix": [
@@ -127,7 +137,7 @@
 			"CON"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src=\"https://bg3.wiki/w/images/thumb/6/6b/Constitution_Small_Icon.png/50px-Constitution_Small_Icon.png\" height=\"25\" align=\"top\" alt=\"Constitution\" />$0"
+		"body": "[[Constitution]]$0"
 	},
 	"Intelligence": {
 		"prefix": [
@@ -200,7 +210,7 @@
 			"thunder"
 		],
 		"scope": "markdown,helm",
-		"body": "<img src='https://bg3.wiki/w/images/8/87/Thunder_Damage_Icon.png' height='25' align='top' alt='Thunder Damage' />$0"
+		"body": "[[Thunder Damage]]$0"
 	},
 	"Acid": {
 		"prefix": [
