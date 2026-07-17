@@ -56,7 +56,7 @@
 ![[images/ControllerIcons/skills_png/Action_DeathKnight_DeathAndDecay.png]]
 
 ### Death and Decay
-- Costs 1 [[Action]], 1 [[Blood Rune]] or [[Unholy Rune]]
+- Costs 1 [[Bonus Action]], 1 [[Blood Rune]] or [[Unholy Rune]]
 - [[Concentration]], 9m range, 4m radius
 - {{ getf .loca "hd707f45cgbf9dg4a99g90a1g23c832c71626" "10" "[1d4](## 'Rune Die') Necrotic Damage" | include "wikify" }}
 - {{ get .loca "hf1e437adgc1f8g422bgbcccg6bd1cf63289b" | include "wikify" }}

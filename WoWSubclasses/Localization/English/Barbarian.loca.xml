@@ -40,8 +40,8 @@
   <content contentuid="hfebb0530g198dg4563gbdf8g2c2aadfed775" version="1">This can occur Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h75592a87g7fe0g4feeg959ag67aa6c9fabb0" version="1">Recklessness</content>
-  <content contentuid="hb02d2a55gb259g4629ga232ga4e0fd8b8751" version="1">Go berserk, immediately activating &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt; and making all your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent until the end of your turn.</content>
-  <content contentuid="h0819b966ga34cg4e2cg8c24g280574de881b" version="1">All your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent until the end of your turn.</content>
+  <content contentuid="hb02d2a55gb259g4629ga232ga4e0fd8b8751" version="1">Go berserk, activating &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt; for [1] turns. For that duration, your first Fury Attack each turn costs no &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
+  <content contentuid="h0819b966ga34cg4e2cg8c24g280574de881b" version="1">Your first Fury Attack each turn costs no &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
 
   <content contentuid="h4116573cg6b50g4abcg92b7ge3d057a38778" version="1">Fresh Meat</content>
   <content contentuid="had603c37g3ae0g4bfdgb7ccg34d75f1fe706" version="1">When you use &lt;LSTag Type="Spell" Tooltip="Target_Bloodthirst"&gt;Bloodthirst&lt;/LSTag&gt; on a target with maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you go into a &lt;LSTag Type="Status" Tooltip="RAGE_RAMPAGE"&gt;Rage&lt;/LSTag&gt;.</content>

@@ -20,6 +20,7 @@
 
 | replace "**Action**" "[[Action]]"
 | replace "Bonus Action" "[[Bonus Action]]"
+| replace "**Reaction**" "[[Reaction]]"
 | replace "Arcane Recovery" "[[Arcane Recovery]]"
 | replace "Channel Oath" "[[Channel Oath]]"
 | ireplace "Rage Charge(s?)" "[[Rage Charge$1]]"

@@ -16,7 +16,7 @@
 
 #### Talent: 1 Known
 
-Choose 1 [[Warrior Talent | #warrior-talents]] from Meat Cleaver, Double Time, Sudden Death, Fresh Meat, or Deep Wounds.
+Choose 1 [[Warrior Talent | #warrior-talents]] from [[Meat Cleaver]], [[Double Time]], [[Sudden Death]], [[Fresh Meat]], or [[Deep Wounds]].
 
 ![[Game/ControllerUIIcons/skills_png/Action_Barbarian_Frenzy.png]]
 
@@ -41,7 +41,7 @@ When you make an offhand attack, you can add your Ability Score Modifier to the 
 
 #### Talents: 2 Known
 
-Choose 1 additional [[Warrior Talent | #warrior-talents]]. Anger Management becomes available.
+Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management | #anger-management-1]] and [[Bladestorm | #bladestorm]] become available.
 
 
 ![[Game/ControllerUIIcons/skills_png/PassiveFeature_MindlessRage.png]]
@@ -66,14 +66,7 @@ You can use Two-Weapon Fighting even if your weapons aren't ?[[Light | Light (We
 
 #### Talents: 3 Known
 
-Choose 1 additional [[Warrior Talent | #warrior-talents]].
-
-![[Game/ControllerUIIcons/skills_png/Action_Mag_WrecklessWarCry.png]]
-
-#### Recklessness
-
-- Once per [[Long Rest]]
-- {{ getf .loca "hb02d2a55gb259g4629ga232ga4e0fd8b8751" | replace "Reckless Attack" "[[Reckless Attack]]" | include "wikify" }}
+Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Recklessness]] becomes available.
 
 ## Fury Attacks
 
@@ -145,7 +138,7 @@ You pick new Fury attacks to know at Levels 3, 6 and 10.
 
 ## Warrior Talents
 
-Choose Talents at levels 3, 6, and 10. Anger Management is added to the available choices at level 6.
+Choose Talents at levels 3, 6, and 10. [[Anger Management | #anger-management-1]] and [[Bladestorm | #bladestorm]] are added to the available choices at level 6, and [[Recklessness]] at level 10.
 
 {{ tpl (readFile "Wiki/Snippets/Warrior-Talents.md") $ }}
 
@@ -160,3 +153,11 @@ Choose Talents at levels 3, 6, and 10. Anger Management is added to the availabl
 ### Fresh Meat
 
 {{ get .loca "had603c37g3ae0g4bfdgb7ccg34d75f1fe706" | include "wikify" }}
+
+![[Game/ControllerUIIcons/skills_png/Action_Mag_WrecklessWarCry.png]]
+
+### Recklessness
+
+- Costs 1 [[Bonus Action]]
+- Once per [[Long Rest]]
+- {{ getf .loca "hb02d2a55gb259g4629ga232ga4e0fd8b8751" "10" | replace "Reckless Attack" "[[Reckless Attack]]" | include "wikify" }}

@@ -34,4 +34,15 @@
   <content contentuid="h6c6eaf81ge191g47f2ga906g9bbe6e3b5100" version="1">Tactician</content>
   <content contentuid="h21869032g835eg42b1gab8eg59d6c1ff9112" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_Overpower_Arms"&gt;Overpower&lt;/LSTag&gt; can be used an additional time per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
+  <content contentuid="hfe1b4364g59fag40e9gb628gc1cfb5b27bba" version="1">Bladestorm</content>
+  <content contentuid="h6233e85cg8493g413ag8aa5g643a5fe66e9d" version="1">Become an unstoppable storm of destructive force. Until the end of your next turn, you are immune to movement-impairing and loss-of-control effects. You immediately &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Warrior"&gt;Whirlwind&lt;/LSTag&gt; once, and can repeatedly cast it again by spending &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Actions&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;. Bladestorm ends early if you take any other action.</content>
+  <content contentuid="h7055843ag222cg47dbga28bge6a2e21217d0" version="1">Immune to movement-impairing and loss-of-control effects. Ends early after taking any action except &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Warrior"&gt;Whirlwind&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h203485ebgc501g420ega92bg533e3c5f4b74" version="1">Avatar</content>
+  <content contentuid="hd4ca0144gf369g49b2gbf52g021b966ab445" version="1">Become an Avatar of Storm and Earth. For [1] turns you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludeoning, Piercing, Slashing, Thunder, and Lightning damage, and you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage you deal of those types.</content>
+
+  <content contentuid="h9d4e43edgc0c1g481cga45fg40d84c690714" version="1">You are an Avatar of Storm and Earth. You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludeoning, Piercing, Slashing, Thunder, and Lightning damage, and you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage you deal of those types.</content>
+
+
+
 </contentList>

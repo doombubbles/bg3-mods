@@ -20,11 +20,6 @@
           <attribute id="UUID" type="guid" value="bfe54150-c4aa-4135-82ed-5605e3023233"/>
         </node>
         <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Fury Barbarian Level 10 Spells"/>
-          <attribute id="Spells" type="LSString" value="Shout_Recklessness"/>
-          <attribute id="UUID" type="guid" value="d3806701-3175-46d2-9117-7ebaeec6f90a"/>
-        </node>
-        <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Fury Barbarian Attacks Level 3"/>
           <attribute id="Spells" type="LSString" value="Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury;Shout_ThunderClap_Fury"/>
           <attribute id="UUID" type="guid" value="b73fd83d-ad43-44f8-8f23-a20d3bfed7a3"/>
@@ -33,11 +28,6 @@
           <attribute id="Comment" type="LSString" value="Fury Barbarian Attacks Level 6"/>
           <attribute id="Spells" type="LSString" value="Projectile_StormBolt_Fury;Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury;Shout_ThunderClap_Fury"/>
           <attribute id="UUID" type="guid" value="e08c6131-602e-4089-bbf6-2e68a1bee15c"/>
-        </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Fury Barbarian Attacks Level 10"/>
-          <attribute id="Spells" type="LSString" value="Shout_Recklessness;Projectile_StormBolt_Fury;Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury;Shout_ThunderClap_Fury"/>
-          <attribute id="UUID" type="guid" value="fa1b953c-820b-4b37-9a5a-a1326847ffbc"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 3"/>

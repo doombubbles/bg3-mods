@@ -103,6 +103,8 @@ It turns terms embedded inside localized strings into Wiki-compatible links and 
 
 `scripts/sync-bg3-wiki-images.sh` reads all source Markdown, snippets, templates, and the concept registry. It manages `Wiki/Game`, `Wiki/Gustav_Textures`, and `Wiki/Icons`, expanding each compact package path back to its full location beneath `UnpackedData` while copying, converting, and removing unused output. Custom icons remain under `Wiki/images` and are not copied into these directories.
 
+For referenced `Game/ControllerUIIcons/skills_png` icons explicitly listed in `scripts/bg3-wiki-controller-color-overrides.yaml`, the syncer uses ImageMagick to combine the matching tooltip texture's RGB channels with the controller alpha channel. This restores authored colors without reintroducing the tooltip texture's faded lower edge. The list is deliberately opt-in because matching filenames do not guarantee compatible artwork.
+
 ## Current replacement coverage
 
 The compact syntax can replace:

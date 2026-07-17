@@ -427,6 +427,8 @@ Icons/Textures/Icons/Icons_Skills.DDS/Status_Restrained.png
 
 Run the BG3 Wiki image sync script after introducing a new `Game/`, `Gustav_Textures/`, or `Icons/` image reference.
 
+During sync, controller icons listed in `scripts/bg3-wiki-controller-color-overrides.yaml` receive the matching tooltip texture's RGB channels while retaining the controller texture's alpha channel. This preserves the controller icon's unfaded shape while restoring colors that the game would otherwise apply at runtime. Add icons to this opt-in list only after visually confirming that the controller and tooltip artwork align.
+
 ## Markdown structure and spacing
 
 - Use one top-level `#` title for a standalone feature page.

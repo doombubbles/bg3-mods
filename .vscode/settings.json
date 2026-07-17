@@ -63,5 +63,13 @@
   "terminal.integrated.defaultProfile.windows": "My Busybox Shell",
   "search.exclude": {
     "bin/**": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "bin/bg3-modders-multitool/Unpacked*": true
   }
 }

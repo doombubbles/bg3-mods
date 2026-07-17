@@ -2,6 +2,7 @@ set -e
 
 UNPACKED_DATA="./bin/bg3-modders-multitool/UnpackedData"
 WIKI_SOURCES="./Wiki"
+CONTROLLER_COLOR_OVERRIDES_FILE="./scripts/bg3-wiki-controller-color-overrides.yaml"
 ATLAS_WORK_DIR="$WIKI_SOURCES/.bg3-atlas-work"
 LEGACY_TARGET_DIR="$WIKI_SOURCES/images/_bg3"
 LEGACY_SKILL_TARGET_DIR="./Wiki/skills_png"
@@ -9,6 +10,9 @@ LEGACY_SKILL_TARGET_DIR="./Wiki/skills_png"
 IMAGE_PATHS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
     -exec grep -hoE '(Game|Gustav_Textures)/[A-Za-z0-9_./-]+\.png|Icons/Textures/[A-Za-z0-9_./-]+\.png' {} \; \
     | sort -u)
+
+CONTROLLER_COLOR_OVERRIDES=$(sed -n 's/^[[:space:]]*-[[:space:]]*//p' \
+    "$CONTROLLER_COLOR_OVERRIDES_FILE")
 
 LEGACY_IMAGE_REFS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
     -exec grep -hoE 'https://bg3\.wiki/w/images/[^"'"'"' )>]+' {} \; | sort -u || true)
@@ -65,6 +69,19 @@ unpacked_image_path() {
     local source_relative
     source_relative=$(source_relative_path "$1") || return 1
     printf '%s/%s' "$UNPACKED_DATA" "$(unpacked_source_path "$source_relative")"
+}
+
+tooltip_color_source_path() {
+    case "$1" in
+        Game/ControllerUIIcons/skills_png/*.png)
+            printf '%s/Game/Public/Game/GUI/Assets/Tooltips/Icons/%s.DDS' \
+                "$UNPACKED_DATA" "$(basename "${1%.png}")"
+            ;;
+    esac
+}
+
+uses_tooltip_colors() {
+    printf '%s\n' "$CONTROLLER_COLOR_OVERRIDES" | grep -Fxq "$1"
 }
 
 atlas_definition_path() {
@@ -149,8 +166,18 @@ atlas_crop_spec() {
 
 # Check every source before replacing the generated image directory.
 HAS_ATLAS_IMAGES=false
+HAS_CONTROLLER_COLORS=false
 for WIKI_PATH in $IMAGE_PATHS; do
     SOURCE_PATH=$(unpacked_image_path "$WIKI_PATH")
+
+    if uses_tooltip_colors "$WIKI_PATH"; then
+        TOOLTIP_COLOR_SOURCE=$(tooltip_color_source_path "$WIKI_PATH")
+        if [ -z "$TOOLTIP_COLOR_SOURCE" ] || [ ! -f "$TOOLTIP_COLOR_SOURCE" ]; then
+            echo "Missing tooltip color source for $WIKI_PATH" >&2
+            exit 1
+        fi
+        HAS_CONTROLLER_COLORS=true
+    fi
 
     case "$WIKI_PATH" in
         *.DDS/*.png)
@@ -167,9 +194,15 @@ for WIKI_PATH in $IMAGE_PATHS; do
     fi
 done
 
-if [ "$HAS_ATLAS_IMAGES" = true ] && ! command -v magick > /dev/null 2>&1; then
-    echo "ImageMagick is required to crop BG3 atlas images"
-    exit 1
+if [ "$HAS_ATLAS_IMAGES" = true ] || [ "$HAS_CONTROLLER_COLORS" = true ]; then
+    if command -v magick > /dev/null 2>&1; then
+        MAGICK=magick
+    elif command -v magick.exe > /dev/null 2>&1; then
+        MAGICK=magick.exe
+    else
+        echo "ImageMagick is required to process BG3 Wiki images"
+        exit 1
+    fi
 fi
 
 for PACKAGE in Game Gustav_Textures Icons; do
@@ -216,10 +249,29 @@ for WIKI_PATH in $IMAGE_PATHS; do
 
             mkdir -p "$(dirname "$TARGET_PATH")"
             # Remove converter timestamps so regenerated atlas icons are reproducible.
-            magick "$ATLAS_PATH" -crop "$3x$4+$1+$2" +repage -strip "$TARGET_PATH"
+            "$MAGICK" "$ATLAS_PATH" -crop "$3x$4+$1+$2" +repage -strip "$TARGET_PATH"
             ;;
     esac
 done
+
+# Controller icons avoid the tooltip icons' bottom fade, but some rely on runtime
+# tinting and have incomplete colors in their source texture. Combine the tooltip
+# RGB channels with the controller alpha channel to retain both desirable traits.
+if [ "$HAS_CONTROLLER_COLORS" = true ]; then
+    for WIKI_PATH in $IMAGE_PATHS; do
+        uses_tooltip_colors "$WIKI_PATH" || continue
+        TOOLTIP_COLOR_SOURCE=$(tooltip_color_source_path "$WIKI_PATH")
+
+        TARGET_PATH="$WIKI_SOURCES/$WIKI_PATH"
+        COLOR_TARGET_PATH="$TARGET_PATH.color.png"
+        DIMENSIONS=$("$MAGICK" identify -format '%wx%h' "$TARGET_PATH")
+
+        "$MAGICK" "$TOOLTIP_COLOR_SOURCE" -resize "$DIMENSIONS!" -alpha off \
+            \( "$TARGET_PATH" -alpha extract \) -compose CopyAlpha -composite \
+            -strip "$COLOR_TARGET_PATH"
+        mv "$COLOR_TARGET_PATH" "$TARGET_PATH"
+    done
+fi
 
 rm -rf "$ATLAS_WORK_DIR"
 for PACKAGE in Game Gustav_Textures Icons; do

@@ -16,45 +16,45 @@ Choose 3 [[Arms Strikes]] to know. Each Arms Strike can be used once per [[Short
 
 #### Talent: 1 Known
 
-Choose 1 [[Warrior Talent | #warrior-talents]] from Double Time, Sudden Death, Deep Wounds, or Tactician.
+Choose 1 [[Warrior Talent | #warrior-talents]] from [[Double Time]], [[Sudden Death]], [[Deep Wounds]], or [[Tactician]].
 
 ### Level 5
 
 #### Arms Strikes: 4 Known
 
-Choose 1 additional Arms Strike. Slam becomes available.
+Choose 1 additional [[Arms Strike | #arms-strikes]]. [[Slam]] becomes available.
 
 ### Level 7
 
 #### Arms Strikes: 5 Known
 
-Choose 1 additional Arms Strike. Storm Bolt and Colossus Smash become available.
+Choose 1 additional [[Arms Strike | #arms-strikes]]. [[Storm Bolt]] and [[Colossus Smash]] become available.
 
 #### Talents: 2 Known
 
-Choose 1 additional Warrior Talent. Anger Management becomes available.
+Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management]] and [[Bladestorm | #bladestorm]] become available.
 
 ### Level 9
 
 #### Arms Strikes: 6 Known
 
-Choose 1 additional Arms Strike.
+Choose 1 additional [[Arms Strike | #arms-strikes]].
 
 ### Level 10
 
 #### Talents: 3 Known
 
-Choose 1 additional Warrior Talent.
+Choose 1 additional [[Warrior Talent | #warrior-talents]].
 
 ### Level 11
 
 #### Arms Strikes: 7 Known
 
-Choose 1 additional Arms Strike.
+Choose 1 additional [[Arms Strike | #arms-strikes]].
 
 ## Arms Strikes
 
-Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used once per [[Short Rest]].
+Each Arms Strike can be used once per [[Short Rest]]. Single-target attack-based Arms Strikes that miss do not expend their use.
 
 ### Available at Level 3
 
@@ -63,13 +63,14 @@ Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used
 #### Charge
 
 - Costs 1 [[Bonus Action]]
-- 9m range, [[Strength]] Saving Throw against your Weapon Action DC
+- [[Strength]] [[Saving Throw]] ([[Weapon Action DC]]), 9m range
 - {{ getf .loca "hf0da666cg2c85g4ec5g8e19g809ec529afbf" "1" | include "wikify" }}
 
 ![[Game/ControllerUIIcons/skills_png/Action_DivineStrike_Physical_Melee.png]]
 
 #### Execute
 
+- Costs 1 [[Action Point]]
 - Melee weapon attack; requires a target at or below 50% [[Hit Points]]
 - {{ getf .loca "h9baff8c6gb3d0g4292gb126gf254ec89fb28" "50%" "[2](## 'Proficiency Bonus')d6" | include "wikify" }}
 
@@ -77,6 +78,7 @@ Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used
 
 #### Whirlwind
 
+- Costs 1 [[Action Point]]
 - 2m radius melee weapon attack that deals half weapon damage
 - {{ get .loca "ha331a835gf3c8g4043gaa9ag68646d8ff4ac" | include "wikify" }}
 
@@ -84,15 +86,16 @@ Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used
 
 #### Thunder Clap
 
-- [[Constitution]] Saving Throw against your Weapon Action DC; affects nearby enemies
-- Deals [[Thunder Damage]], knocks creatures Prone on a failed save, and leaves them Off Balance on a successful save
+- Costs 1 [[Action Point]]
+- [[Constitution]] [[Saving Throw]] ([[Weapon Action DC]]); affects nearby enemies
+- Deals [[Thunder Damage]], knocks creatures [[Prone]] on a failed save, and leaves them [[Off Balance]] on a successful save
 - {{ get .loca "h1b63a656g6499g4b52g91f6g758d6e5adbff" | include "wikify" }}
 
 ![[Game/ControllerUIIcons/skills_png/PassiveFeature_GuidedStrike.png]]
 
 #### Overpower
 
-- Triggered as an interrupt after missing with a melee weapon attack
+- No action cost; triggered as an interrupt after missing with a melee weapon attack
 - {{ get .loca "h921192a5g0910g47c0gbb85g3cfdde961410" | include "wikify" }}
 
 ![[Game/ControllerUIIcons/skills_png/Action_SweepingAttack.png]]
@@ -107,6 +110,7 @@ Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used
 
 #### Cleave
 
+- Costs 1 [[Action Point]]
 - Melee weapon attack in a cone
 - {{ getf .loca "h1758449dg7435g46a0g8088g4485293de676" "3" | include "wikify" }}
 
@@ -114,6 +118,7 @@ Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used
 
 #### Mortal Strike
 
+- Costs 1 [[Action Point]]
 - Melee weapon attack
 - {{ get .loca "h39713ea2gd8ccg43bbgab88ge0cab9f1eea8" | include "wikify" }}
 - Mortal Wounds lasts 3 turns
@@ -124,6 +129,7 @@ Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used
 
 #### Slam
 
+- Costs 1 [[Action Point]] (Not valid for [[Extra Attack]])
 - Melee weapon attack
 - {{ get .loca "hb8420ca7g0e1eg4618g9e6cg45c751959a04" | include "wikify" }}
 - {{ get .loca "h2417a761gd0bag41e9gb829g965399bdb815" | include "wikify" }}
@@ -134,19 +140,21 @@ Unless noted otherwise, an Arms Strike costs an [[Action Point]] and can be used
 
 #### Storm Bolt
 
-- 18m range, [[Constitution]] Saving Throw against your Weapon Action DC
+- Costs 1 [[Action Point]]
+- [[Constitution]] [[Saving Throw]] ([[Weapon Action DC]]), 18m range
 - {{ get .loca "ha0bbee44gedc3g403cga8dage3fb613e51c1" | include "wikify" }}
 
 ![[Game/ControllerUIIcons/skills_png/Action_PostureBreaker.png]]
 
 #### Colossus Smash
 
-- Melee weapon attack and [[Constitution]] Saving Throw against your Weapon Action DC
+- Costs 1 [[Action Point]]
+- Melee weapon attack and [[Constitution]] [[Saving Throw]] ([[Weapon Action DC]])
 - {{ get .loca "hb02ee329g9da8g4fd5gae11gaf2c0a60680c" | include "wikify" }}
 
 ## Warrior Talents
 
-Choose Talents at levels 3, 7, and 10. Anger Management is added to the available choices at level 7.
+Choose Talents at levels 3, 7, and 10. [[Anger Management]] and [[Bladestorm | #bladestorm]] are added to the available choices at level 7.
 
 {{ tpl (readFile "Wiki/Snippets/Warrior-Talents.md") $ }}
 

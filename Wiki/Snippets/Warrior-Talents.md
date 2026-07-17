@@ -25,3 +25,9 @@
 {{ get .loca "h87e29030gc8ebg44ceg86ceg2e9468fff092" | include "wikify" }}
 
 {{ get .loca "hec062353gee22g4cfeg97f6gcb776fc1e20c" | include "wikify" }}
+
+![[Game/ControllerUIIcons/skills_png/Action_Flurry.png]]
+
+### Bladestorm
+
+{{ get .loca "h6233e85cg8493g413ag8aa5g643a5fe66e9d" | include "wikify" }}
