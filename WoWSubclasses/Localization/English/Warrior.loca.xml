@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
+  <content contentuid="h068a54d5g94f8g45f9gb838g3d9c4dcb5053" version="1">Warrior Abilities</content>
+  <content contentuid="h5b256af0g7824g4c23gac07ge83a5453792b" version="1">You follow the Way of the Warrior, learning new ways to express your might.</content>
+
   <content contentuid="he597f078g9cf1g41e5g8931g977e2293c55a" version="1">Execute</content>
   <content contentuid="h9baff8c6gb3d0g4292gb126gf254ec89fb28" version="1">Attempt to finish off a foe below [2] hit points, dealing an extra [1] damage.</content>
 
@@ -14,7 +17,7 @@
   <content contentuid="h060bdaf3gdea4g44edgac7bg147381daf578" version="1">You can use &lt;LSTag Type="Spell" Tooltip="Rush_Charge"&gt;Charge&lt;/LSTag&gt; once more with no class resource cost or cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h20bcd44ag7f87g467bgbebdg2c66425c7d38" version="1">Sudden Death</content>
-  <content contentuid="h80b04b43ge3d2g4dfeg9473g9552277e5c2c" version="1">When you kill an enemy using a Fury Attack or Arms Strike, your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and has no class resource cost / cooldown.</content>
+  <content contentuid="h80b04b43ge3d2g4dfeg9473g9552277e5c2c" version="1">When you kill an enemy using a Warrior Ability, your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and has no class resource cost / cooldown.</content>
   <content contentuid="h2371b7c9gf7b5g4f5cga36eg348acb88b79e" version="1">This can trigger once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
   <content contentuid="h0d362f44g5873g4a4ag9b32gb43c9d72cd15" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and has no class resource cost or cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
@@ -25,7 +28,7 @@
   <content contentuid="ha0bbee44gedc3g403cga8dage3fb613e51c1" version="1">Hurl lightning at an enemy, possibly &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; them for 1 turn.</content>
 
   <content contentuid="h5503c669g7ccbg4545g9ae2gabee40642259" version="1">Anger Management</content>
-  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">Whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a target, refund any spent &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; if it was a Fury Attack, or ignore its cooldown if it was an Arms Strike.</content>
+  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">Whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a target using a Warrior Ability, refund its cooldown / class resource cost.</content>
   <content contentuid="hec062353gee22g4cfeg97f6gcb776fc1e20c" version="1">Does not apply when multiple targets are attacked at once.</content>
 
   <content contentuid="h44ec63ddg7d28g4ce3g897cgdb3736bc0bc9" version="1">Deep Wounds</content>

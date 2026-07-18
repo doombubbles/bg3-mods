@@ -26,6 +26,14 @@
 
 {{ get .loca "hec062353gee22g4cfeg97f6gcb776fc1e20c" | include "wikify" }}
 
+![[Game/ControllerUIIcons/skills_png/Action_Monster_Duergar_DuergarEnlarge.png]]
+
+### Avatar
+
+- Costs 1 [[Bonus Action]]
+- Once per [[Long Rest]]
+- {{ getf .loca "hd4ca0144gf369g49b2gbf52g021b966ab445" "10" | include "wikify" }}
+
 ![[Game/ControllerUIIcons/skills_png/Action_Flurry.png]]
 
 ### Bladestorm

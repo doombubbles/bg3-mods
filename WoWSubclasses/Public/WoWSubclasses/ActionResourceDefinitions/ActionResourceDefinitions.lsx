@@ -5,11 +5,11 @@
     <node id="root">
       <children>
 
-        {{ range $name, $values := $.Arms.Strikes }}
+        {{ range $name, $values := $.Warrior.Abilities }}
         <node id="ActionResourceDefinition">
           <attribute id="DisplayName" type="TranslatedString" handle="{{$name}}" version="1"/>
           <attribute id="IsHidden" type="bool" value="true"/>
-          <attribute id="Name" type="FixedString" value="Arms_{{ $name }}"/>
+          <attribute id="Name" type="FixedString" value="Warrior_{{ $name }}"/>
           <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
           <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
           <attribute id="UUID" type="guid" value="{{ .ActionResource }}"/>

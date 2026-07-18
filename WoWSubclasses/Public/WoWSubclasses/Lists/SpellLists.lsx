@@ -31,22 +31,22 @@
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 3"/>
-          <attribute id="Spells" type="LSString" value="Rush_Charge_Arms;Target_Execute_Arms;Shout_Whirlwind_Arms;Shout_ThunderClap_Arms;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
+          <attribute id="Spells" type="LSString" value="Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
           <attribute id="UUID" type="guid" value="0bda9bca-d683-4c23-8e2b-ffd6517d7271"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 5"/>
-          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Rush_Charge_Arms;Target_Execute_Arms;Shout_Whirlwind_Arms;Shout_ThunderClap_Arms;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
+          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
           <attribute id="UUID" type="guid" value="6e8a656e-c587-40c7-8059-571550b68b5f"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 7"/>
-          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Projectile_StormBolt_Arms;Target_ColossusSmash_Arms;Rush_Charge_Arms;Target_Execute_Arms;Shout_Whirlwind_Arms;Shout_ThunderClap_Arms;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
+          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Projectile_StormBolt_Warrior;Target_ColossusSmash_Arms;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
           <attribute id="UUID" type="guid" value="30262d80-c25c-4241-a79d-51e698e03ee9"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 10"/>
-          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Projectile_StormBolt_Arms;Target_ColossusSmash_Arms;Rush_Charge_Arms;Target_Execute_Arms;Shout_Whirlwind_Arms;Shout_ThunderClap_Arms;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
+          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Projectile_StormBolt_Warrior;Target_ColossusSmash_Arms;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
           <attribute id="UUID" type="guid" value="1cdec459-6b8a-475d-a4a9-6342c395cd01"/>
         </node>
         <node id="SpellList">

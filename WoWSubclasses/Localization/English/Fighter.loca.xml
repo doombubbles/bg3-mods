@@ -3,8 +3,7 @@
   <content contentuid="h5e383eaag7e5fg4dacgafa7ga4e07aa3b153" version="1">Arms</content>
   <content contentuid="hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" version="1">You are a seasoned veteran, using your might and a variety of overpowering attacks to strike your opponents down.</content>
 
-  <content contentuid="h28ef744eg7eafg4f04g8b32gf6c90f47264f" version="1">Arms Strikes</content>
-  <content contentuid="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1">You learn new ways to deal colossal blows to your enemies. Each can be used once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1">You learn new Warrior Abilities to deal colossal blows to your enemies. Each can be used once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
 
   <content contentuid="hdfaf1293g08c9g4b92gabc5gafed35633fc3" version="1">Arms Cooldowns</content>
@@ -21,8 +20,8 @@
   <content contentuid="h0407708fg292bg4133ga910g3651157ff0f3" version="1">Armour Class reduced by 5.</content>
 
   <content contentuid="h7e179359gcefdg4fb5g9389gc9c11716ed3e" version="1">Sweeping Strikes</content>
-  <content contentuid="h5c4bc3bdg0b93g4cf7gb699ge1b657b5d2e9" version="1">Prepare to sweep through your foes. Your next 2 melee Arms Strikes can target 1 additional creature within range.</content>
-  <content contentuid="h36bb7577gd6e1g468fga978g1812af85eeb6" version="1">Your melee Arms Strikes can target 1 additional creature within range.</content>
+  <content contentuid="h5c4bc3bdg0b93g4cf7gb699ge1b657b5d2e9" version="1">Prepare to sweep through your foes. Your next 2 melee Warrior Abilities can target 1 additional creature within range.</content>
+  <content contentuid="h36bb7577gd6e1g468fga978g1812af85eeb6" version="1">Your melee Warrior Abilities can target 1 additional creature within range.</content>
 
   <content contentuid="hd3188712g2d7fg4facgb20dgf1c917f41cd7" version="1">Cleave</content>
   <content contentuid="h1758449dg7435g46a0g8088g4485293de676" version="1">Swing your weapon in a wide arc, striking up to [1] creatures in front of you.</content>

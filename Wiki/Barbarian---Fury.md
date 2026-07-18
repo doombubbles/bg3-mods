@@ -11,8 +11,8 @@
 
 ### Level 3
 
-#### Fury Attacks: 2 Known
-- Choose 2 [[Fury Attacks]] to know
+#### Warrior Abilities: 2 Known
+- Choose 2 [[Warrior Abilities]] to know
 
 #### Talent: 1 Known
 
@@ -36,12 +36,12 @@ When you make an offhand attack, you can add your Ability Score Modifier to the 
 
 ### Level 6
 
-#### Fury Attacks: 4 Known
-- Choose 2 additional [[Fury Attacks]] to know
+#### Warrior Abilities: 4 Known
+- Choose 2 additional [[Warrior Abilities]] to know
 
 #### Talents: 2 Known
 
-Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management | #anger-management-1]] and [[Bladestorm | #bladestorm]] become available.
+Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management | #anger-management-1]], [[Avatar]], [[Bladestorm | #bladestorm]], and [[Recklessness]] become available.
 
 
 ![[Game/ControllerUIIcons/skills_png/PassiveFeature_MindlessRage.png]]
@@ -61,16 +61,18 @@ You can use Two-Weapon Fighting even if your weapons aren't ?[[Light | Light (We
 
 ### Level 10
 
-#### Fury Attacks: 6 Known
-- Choose 2 additional [[Fury Attacks]] to know
+#### Warrior Abilities: 6 Known
+- Choose 2 additional [[Warrior Abilities]] to know
 
 #### Talents: 3 Known
 
-Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Recklessness]] becomes available.
+Choose 1 additional [[Warrior Talent | #warrior-talents]].
 
-## Fury Attacks
+## Warrior Abilities
 
-You pick new Fury attacks to know at Levels 3, 6 and 10.
+You pick new Warrior Abilities to know at Levels 3, 6 and 10.
+
+As a Fury Barbarian, your Warrior Abilities cost [[Rage Charges]].
 
 ![[Game/ControllerUIIcons/skills_png/Action_SacrificeToLoviatar.png]]
 
@@ -138,7 +140,7 @@ You pick new Fury attacks to know at Levels 3, 6 and 10.
 
 ## Warrior Talents
 
-Choose Talents at levels 3, 6, and 10. [[Anger Management | #anger-management-1]] and [[Bladestorm | #bladestorm]] are added to the available choices at level 6, and [[Recklessness]] at level 10.
+Choose Talents at levels 3, 6, and 10. [[Anger Management | #anger-management-1]], [[Avatar]], [[Bladestorm | #bladestorm]], and [[Recklessness]] are added to the available choices at level 6.
 
 {{ tpl (readFile "Wiki/Snippets/Warrior-Talents.md") $ }}
 

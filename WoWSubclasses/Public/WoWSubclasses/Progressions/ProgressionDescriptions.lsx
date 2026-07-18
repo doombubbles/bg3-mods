@@ -5,17 +5,10 @@
     <node id="root">
       <children>
         <node id="ProgressionDescription">
-          <attribute id="Description" type="TranslatedString" handle="hc141b2edgf41dg45f6gbb53g27ad7bfd4b1a" version="1"/>
-          <attribute id="DisplayName" type="TranslatedString" handle="he9db3c9agd435g407cg8039g10fab044e30c" version="1"/>
-          <attribute id="SelectorId" type="FixedString" value="FuryAttacks"/>
+          <attribute id="Description" type="TranslatedString" handle="h5b256af0g7824g4c23gac07ge83a5453792b" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h068a54d5g94f8g45f9gb838g3d9c4dcb5053" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="WarriorAbilities"/>
           <attribute id="UUID" type="guid" value="bc2c1bc0-a518-4d3e-b09a-aef10d1f3ebf"/>
-        </node>
-
-        <node id="ProgressionDescription">
-          <attribute id="Description" type="TranslatedString" handle="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1"/>
-          <attribute id="DisplayName" type="TranslatedString" handle="h28ef744eg7eafg4f04g8b32gf6c90f47264f" version="1"/>
-          <attribute id="SelectorId" type="FixedString" value="ArmsStrikes"/>
-          <attribute id="UUID" type="guid" value="d4402854-e650-461c-9cb2-7fa041d01486"/>
         </node>
 
         <node id="ProgressionDescription">

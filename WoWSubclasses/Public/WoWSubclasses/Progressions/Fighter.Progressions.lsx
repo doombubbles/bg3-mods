@@ -39,9 +39,9 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="3"/>
           <attribute id="Name" type="LSString" value="Arms"/>
-          <attribute id="PassivesAdded" type="LSString" value="ArmsResources;ArmsCooldowns"/>
+          <attribute id="PassivesAdded" type="LSString" value="WarriorResources;WarriorCooldowns"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(0bda9bca-d683-4c23-8e2b-ffd6517d7271,3,0,ArmsStrikes);SelectPassives(58d19c11-78d8-4fb0-b025-2dfa3d447cfa,1,Talent)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(0bda9bca-d683-4c23-8e2b-ffd6517d7271,3,0,WarriorAbilities);SelectPassives(58d19c11-78d8-4fb0-b025-2dfa3d447cfa,1,Talent)"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="552af492-8d6c-4a88-9810-65a350f6a639"/>
         </node>
@@ -49,7 +49,7 @@
           <attribute id="Level" type="uint8" value="4"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(0bda9bca-d683-4c23-8e2b-ffd6517d7271,0,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(0bda9bca-d683-4c23-8e2b-ffd6517d7271,0,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="3dcb29c8-1f9e-4fde-9df5-263fe52421db"/>
         </node>
@@ -57,7 +57,7 @@
           <attribute id="Level" type="uint8" value="5"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(6e8a656e-c587-40c7-8059-571550b68b5f,1,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(6e8a656e-c587-40c7-8059-571550b68b5f,1,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="66d1515c-e119-432b-b8e7-dbb9560c0d7a"/>
         </node>
@@ -65,7 +65,7 @@
           <attribute id="Level" type="uint8" value="6"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(6e8a656e-c587-40c7-8059-571550b68b5f,0,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(6e8a656e-c587-40c7-8059-571550b68b5f,0,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="b5db237e-6784-4da4-bf49-d2c7c2f8afa3"/>
         </node>
@@ -73,7 +73,7 @@
           <attribute id="Level" type="uint8" value="7"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(30262d80-c25c-4241-a79d-51e698e03ee9,1,1,ArmsStrikes);SelectPassives(f2e532db-8afb-4bc2-bce6-9a53830b050e,1,Talent)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(30262d80-c25c-4241-a79d-51e698e03ee9,1,1,WarriorAbilities);SelectPassives(f2e532db-8afb-4bc2-bce6-9a53830b050e,1,Talent)"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="baa9764e-1611-4759-be94-30998c3057bd"/>
         </node>
@@ -81,7 +81,7 @@
           <attribute id="Level" type="uint8" value="8"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(30262d80-c25c-4241-a79d-51e698e03ee9,0,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(30262d80-c25c-4241-a79d-51e698e03ee9,0,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="8875dcde-a045-405d-bc69-587f198c6f2a"/>
         </node>
@@ -89,7 +89,7 @@
           <attribute id="Level" type="uint8" value="9"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(30262d80-c25c-4241-a79d-51e698e03ee9,1,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(30262d80-c25c-4241-a79d-51e698e03ee9,1,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="1744b37c-d0e6-464a-9c25-a5b388323dfb"/>
         </node>
@@ -97,7 +97,7 @@
           <attribute id="Level" type="uint8" value="10"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,0,1,ArmsStrikes);SelectPassives(22314f78-ef75-417d-95a5-f78ed95111d8,1,Talent)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,0,1,WarriorAbilities);SelectPassives(22314f78-ef75-417d-95a5-f78ed95111d8,1,Talent)"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="088691d7-db13-4506-8cc1-83afdd58a923"/>
         </node>
@@ -105,7 +105,7 @@
           <attribute id="Level" type="uint8" value="11"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,1,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,1,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="942e487e-0696-4ca1-9423-cdf433004597"/>
         </node>
@@ -113,7 +113,7 @@
           <attribute id="Level" type="uint8" value="12"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,0,1,ArmsStrikes);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,0,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="8ca1a59d-b2d9-4056-b1b3-87f7d05484eb"/>
         </node>

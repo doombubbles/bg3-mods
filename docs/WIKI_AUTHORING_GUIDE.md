@@ -178,7 +178,7 @@ Conventions:
 - Use the localized flavor description as a blockquote when it adds identity rather than mechanics.
 - Organize progression information under `## Level N` headings.
 - Use `###` for features gained at that level and `####` only for variants or children of that feature.
-- Describe selectable counts explicitly: for example, `Choose 2 additional Arms Strikes to know`.
+- Describe selectable counts explicitly: for example, `Choose 2 additional Warrior Abilities to know`.
 - Link traditional base-game spells instead of restating their full descriptions.
 - State replacements clearly, such as `Replaces Rage` or `Choose either X or Y`.
 - Mention unusual multiclass behavior in an italicized note close to the affected level.
@@ -245,7 +245,7 @@ The established voice is direct, practical, and moderately informal.
 
 - `Make a melee attack against a creature.`
 - `Now recharges once per combat instead of on Short Rest.`
-- `Choose 2 additional Fury Attacks to know.`
+- `Choose 2 additional Warrior Abilities to know.`
 - `Sold by Blurg at Ebonlake Grotto.`
 - `On a hit, the target cannot regain hit points for 3 turns.`
 

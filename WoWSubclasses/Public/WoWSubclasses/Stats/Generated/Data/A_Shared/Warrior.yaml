@@ -1,22 +1,22 @@
-Strikes:
+Abilities:
   Charge:
-    Spell: Rush_Charge_Arms
+    Spell: Rush_Charge_Warrior
     ActionResource: 4b0909df-1b84-4471-afcf-eaf94bb4a6e8
     ConditionError: f635efff-ca93-43c9-8409-41444a990280
   Execute:
-    Spell: Target_Execute_Arms
+    Spell: Target_Execute_Warrior
     ActionResource: 68f84003-e47a-425d-97b7-1450723407af
     ConditionError: e79cd847-db5e-4a53-ba52-f822187e2b83
   Whirlwind:
-    Spell: Shout_Whirlwind_Arms
+    Spell: Shout_Whirlwind_Warrior
     ActionResource: 09423f9b-ba87-4c48-86df-22c824850661
     ConditionError: ba06e9f8-c4ab-4b88-a906-714991157666
   ThunderClap:
-    Spell: Shout_ThunderClap_Arms
+    Spell: Shout_ThunderClap_Warrior
     ActionResource: ce377fe7-cd84-45f5-9d4c-49cda8234043
     ConditionError: 67c26479-c469-4119-a81c-6acf47d2c40d
   StormBolt:
-    Spell: Projectile_StormBolt_Arms
+    Spell: Projectile_StormBolt_Warrior
     ActionResource: 38695135-cf1d-4e2e-bc71-aa91e56f7c53
     ConditionError: 92aa8f3a-f058-4dc2-9105-3de521c5df53
   Overpower:

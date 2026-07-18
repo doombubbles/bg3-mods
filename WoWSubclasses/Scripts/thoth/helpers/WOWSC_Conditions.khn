@@ -68,25 +68,25 @@ function IsRefundableFuryAttack(always)
 end
 
 function ChargeSpellCheck()
-  return SpellCheck('Rush_Charge_Warrior') | SpellCheck('Rush_Charge_Fury') | SpellCheck('Rush_Charge_Arms')
+  return SpellCheck('Rush_Charge_Warrior') | SpellCheck('Rush_Charge_Fury')
 end
 
 function ExecuteSpellCheck()
-  return SpellCheck('Target_Execute_Warrior') | SpellCheck('Target_Execute_Fury') | SpellCheck('Target_Execute_Arms')
+  return SpellCheck('Target_Execute_Warrior') | SpellCheck('Target_Execute_Fury')
 end
 
-function IsArmsStrike()
+function IsWarriorAbility()
   local result = ConditionResult(false)
-  --{{ range $name, $values := $.Arms.Strikes }}{{ printf "\n  result = result | HasUseCosts('Arms_%s')" $name }}{{ end }}
+  --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s')" $name }}{{ end }}
   return result &
       (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack') | HasStringInSpellRoll('SavingThrow'))
 end
 
-function IsRefundableArmsStrike()
+function IsRefundableWarriorAbility()
   local always = always or false
   local result = ConditionResult(false)
-  --{{ range $name, $values := $.Arms.Strikes }}{{ printf "\n  result = result | HasUseCosts('Arms_%s', true)" $name }}{{ end }}
-  return IsArmsStrike() & result &
+  --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s', true)" $name }}{{ end }}
+  return IsWarriorAbility() & result &
       (always | (~SpellTypeIs(SpellType.Zone) & ~SpellTypeIs(SpellType.Shout)))
 end
 

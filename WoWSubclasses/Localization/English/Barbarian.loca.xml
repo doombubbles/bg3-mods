@@ -3,8 +3,7 @@
   <content contentuid="hb718963cged2eg416cgb4d0gd1427646ebb9" version="1">Fury</content>
   <content contentuid="hf66e9153gca0eg4a51gba5bg7bc315652d59" version="1">You are a furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve your opponents to pieces.</content>
 
-  <content contentuid="he9db3c9agd435g407cg8039g10fab044e30c" version="1">Fury Attacks</content>
-  <content contentuid="hc141b2edgf41dg45f6gbb53g27ad7bfd4b1a" version="1">Your fury knows no bounds. You learn new attacks that expend your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
+  <content contentuid="hc141b2edgf41dg45f6gbb53g27ad7bfd4b1a" version="1">You learn new Warrior Abilities that expend your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
 
   
 
@@ -32,16 +31,16 @@
   <content contentuid="h359c4045g45a2g4e8aga0aeg7d601c3c53af" version="1">You can use Wild Strike once more this turn without expending any resources.</content>
 
   <content contentuid="h9cfb1c17g1680g4a4bg8ff6ga52731ee25f3" version="1">Meat Cleaver</content>
-  <content contentuid="hdf52f363g33f1g4d1cg9d3bg8e469943b7f4" version="1">After using &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Fury"&gt;Whirlwind&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_ThunderClap_Fury"&gt;Thunder Clap&lt;/LSTag&gt;, your next [1] Fury Attacks can target two additional creatures within range.</content>
-  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your Fury Attacks can target two additional creatures within range.</content>
+  <content contentuid="hdf52f363g33f1g4d1cg9d3bg8e469943b7f4" version="1">After using &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Fury"&gt;Whirlwind&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_ThunderClap_Fury"&gt;Thunder Clap&lt;/LSTag&gt;, your next [1] Warrior Abilities can target two additional creatures within range.</content>
+  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your Warrior Abilities can target two additional creatures within range.</content>
   
   <content contentuid="hde4e9cfbgf9fcg4632ga0d2gd94b84091616" version="1">Reckless Abandon</content>
   <content contentuid="h5aa4a6f6g98f5g4c47gaf23gbfa94f446d62" version="1">For the first turn of your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;, all your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent.</content>
   <content contentuid="hfebb0530g198dg4563gbdf8g2c2aadfed775" version="1">This can occur Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="h75592a87g7fe0g4feeg959ag67aa6c9fabb0" version="1">Recklessness</content>
-  <content contentuid="hb02d2a55gb259g4629ga232ga4e0fd8b8751" version="1">Go berserk, activating &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt; for [1] turns. For that duration, your first Fury Attack each turn costs no &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
-  <content contentuid="h0819b966ga34cg4e2cg8c24g280574de881b" version="1">Your first Fury Attack each turn costs no &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
+  <content contentuid="hb02d2a55gb259g4629ga232ga4e0fd8b8751" version="1">Go berserk, activating &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt; for [1] turns. For that duration, your first Warrior Ability each turn costs no &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
+  <content contentuid="h0819b966ga34cg4e2cg8c24g280574de881b" version="1">Your first Warrior Ability each turn costs no &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
 
   <content contentuid="h4116573cg6b50g4abcg92b7ge3d057a38778" version="1">Fresh Meat</content>
   <content contentuid="had603c37g3ae0g4bfdgb7ccg34d75f1fe706" version="1">When you use &lt;LSTag Type="Spell" Tooltip="Target_Bloodthirst"&gt;Bloodthirst&lt;/LSTag&gt; on a target with maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you go into a &lt;LSTag Type="Status" Tooltip="RAGE_RAMPAGE"&gt;Rage&lt;/LSTag&gt;.</content>

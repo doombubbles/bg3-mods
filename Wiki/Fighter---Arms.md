@@ -2,7 +2,7 @@
 
 <img align="right" alt="Arms Fighter class icon" height="150" src="images/ClassIcons/Arms.png" />
 
-**Arms** is a modded Subclass of [[Fighter]] that learns a broad selection of powerful weapon techniques. Each Arms Strike has its own cooldown, allowing an Arms Fighter to rotate between several specialised attacks.
+**Arms** is a modded Subclass of [[Fighter]] that learns a broad selection of powerful weapon techniques. Each Warrior Ability has its own cooldown, allowing an Arms Fighter to rotate between several specialised attacks.
 
 > {{ get .loca "hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" | quote }}
 
@@ -10,9 +10,9 @@
 
 ### Level 3
 
-#### Arms Strikes: 3 Known
+#### Warrior Abilities: 3 Known
 
-Choose 3 [[Arms Strikes]] to know. Each Arms Strike can be used once per [[Short Rest]], and missing with an attack-based Arms Strike does not expend its use.
+Choose 3 [[Warrior Abilities]] to know.
 
 #### Talent: 1 Known
 
@@ -20,25 +20,25 @@ Choose 1 [[Warrior Talent | #warrior-talents]] from [[Double Time]], [[Sudden De
 
 ### Level 5
 
-#### Arms Strikes: 4 Known
+#### Warrior Abilities: 4 Known
 
-Choose 1 additional [[Arms Strike | #arms-strikes]]. [[Slam]] becomes available.
+Choose 1 additional [[Warrior Ability | #warrior-abilities]]. [[Slam]] becomes available.
 
 ### Level 7
 
-#### Arms Strikes: 5 Known
+#### Warrior Abilities: 5 Known
 
-Choose 1 additional [[Arms Strike | #arms-strikes]]. [[Storm Bolt]] and [[Colossus Smash]] become available.
+Choose 1 additional [[Warrior Ability | #warrior-abilities]]. [[Storm Bolt]] and [[Colossus Smash]] become available.
 
 #### Talents: 2 Known
 
-Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management]] and [[Bladestorm | #bladestorm]] become available.
+Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management]], [[Avatar]], and [[Bladestorm | #bladestorm]] become available.
 
 ### Level 9
 
-#### Arms Strikes: 6 Known
+#### Warrior Abilities: 6 Known
 
-Choose 1 additional [[Arms Strike | #arms-strikes]].
+Choose 1 additional [[Warrior Ability | #warrior-abilities]].
 
 ### Level 10
 
@@ -48,13 +48,15 @@ Choose 1 additional [[Warrior Talent | #warrior-talents]].
 
 ### Level 11
 
-#### Arms Strikes: 7 Known
+#### Warrior Abilities: 7 Known
 
-Choose 1 additional [[Arms Strike | #arms-strikes]].
+Choose 1 additional [[Warrior Abilities | #warrior-abilities]].
 
-## Arms Strikes
+## Warrior Abilities
 
-Each Arms Strike can be used once per [[Short Rest]]. Single-target attack-based Arms Strikes that miss do not expend their use.
+You pick new Warrior Abilities to know at Levels 3, 5, 7, 9 and 11.
+Each Warrior Ability can be used once per [[Short Rest]].
+Single-target attack-based Warrior Abilities that miss do not expend their use.
 
 ### Available at Level 3
 
@@ -154,7 +156,7 @@ Each Arms Strike can be used once per [[Short Rest]]. Single-target attack-based
 
 ## Warrior Talents
 
-Choose Talents at levels 3, 7, and 10. [[Anger Management]] and [[Bladestorm | #bladestorm]] are added to the available choices at level 7.
+Choose Talents at levels 3, 7, and 10. [[Anger Management]], [[Avatar]], and [[Bladestorm | #bladestorm]] are added to the available choices at level 7.
 
 {{ tpl (readFile "Wiki/Snippets/Warrior-Talents.md") $ }}
 
