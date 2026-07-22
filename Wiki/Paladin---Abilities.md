@@ -114,13 +114,16 @@
 - {{ getf .loca "hce5cd63fg4aa5g441cgb010ge2f2062c79f9" "5" | include "wikify" }}
 
 
+## 2 Cost
+
+
 ![[images/ControllerIcons/skills_png/Action_Paladin_BlessingOfProtection.png]]
 
 ### Blessing of Protection
 - Available for Retribution/Holy/Protection Level 5+
-- Costs 1 [[Action]], 1 [[Channel Oath Charge]]
+- Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Spell, 18m range
-- {{ getf .loca "he989e801g8ab5g44a9gb9f1g40d6bdc504ec" "5" | include "wikify" }}
+- {{ getf .loca "he989e801g8ab5g44a9gb9f1g40d6bdc504ec" "3" | include "wikify" }}
 - {{ getf .loca "hab541713g5098g412ag8cedgc16592fa963e" "10" | include "wikify" }}
 
 
@@ -128,13 +131,10 @@
 
 ### Blessing of Spellwarding
 - Available for Retribution/Holy/Protection Level 5+
-- Costs 1 [[Action]], 1 [[Channel Oath Charge]]
+- Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Spell, 18m range
-- {{ getf .loca "hca103f40g8adeg49e4ga10cg7906ff20719c" "5" | include "wikify" }}
+- {{ getf .loca "hca103f40g8adeg49e4ga10cg7906ff20719c" "3" | include "wikify" }}
 - {{ getf .loca "hab541713g5098g412ag8cedgc16592fa963e" "10" | include "wikify" }}
-
-
-## 2 Cost
 
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_TemplarsVerdict.png]]
