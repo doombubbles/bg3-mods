@@ -17,10 +17,13 @@
 
 - Barbarian
   - [[Fury | Barbarian---Fury]]
+  - [[Mountain Thane | Barbarian---Mountain-Thane]]
 - Cleric
   - [[Shadow Domain | Cleric---Shadow]]
 - Fighter
   - [[Arms | Fighter---Arms]]
+  - [[Warrior Abilities | Warrior---Abilities]]
+  - [[Warrior Talents | Warrior---Talents]]
 - Paladin
   - [[Oath of Retribution | Paladin---Retribution]]
   - [[Oath of Holiness | Paladin---Holy]]

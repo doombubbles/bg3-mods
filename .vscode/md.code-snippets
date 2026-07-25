@@ -81,7 +81,7 @@
 			"action"
 		],
 		"scope": "markdown,helm",
-		"body": "[[Action Point]]$0"
+		"body": "[[Action]]$0"
 	},
 	"Bonus Action": {
 		"prefix": [

@@ -199,7 +199,7 @@ The recurring action entry is:
 ### Action Name
 
 - Available at Level 3
-- Costs 1 [[Action Point]], 1 Resource Charge
+- Costs 1 [[Action]], 1 Resource Charge
 - Weapon Attack, melee range
 - {{ getf .loca "description-handle" "resolved parameter" | include "wikify" }}
 ```
@@ -304,7 +304,7 @@ Some in-game descriptions modified dynamically through `ModifyDescription()` do 
 
 ### `wikify`
 
-The `wikify` helper adds the repository's standard links and inline icons to text obtained from localization. Its mod-feature replacements emit compact Wiki links that `ProcessTemplates` resolves after the page has rendered.
+The `wikify` helper adds the repository's standard links and inline icons to text obtained from localization. Its mod-feature replacements emit compact Wiki links that `ProcessTemplates` resolves into ordinary Markdown links after the page has rendered.
 
 Use it with localized `get` and `getf` results:
 
@@ -377,11 +377,11 @@ For a uniquely named heading, or a heading on the current page, the short form i
 [[Mortal Strike]]
 ```
 
-`ProcessTemplates` indexes the final rendered root Wiki pages. A link resolves in this order: an exact page name or title, a matching heading on the current page, then a unique matching heading anywhere in the Wiki. Use an explicit `Page#Heading` target when the name is ambiguous. Ambiguous, missing-page, and missing-heading links fail the Wiki build.
+`ProcessTemplates` indexes the final rendered root Wiki pages. A link resolves in this order: an exact page name or title, a matching heading on the current page, then a unique matching heading anywhere in the Wiki. Use an explicit `Page#Heading` target when the name is ambiguous. Ambiguous, missing-page, and missing-heading links emit a warning and are rendered as their original bold display text instead of failing the Wiki build.
 
-When a heading has an image embed immediately before it, links to that heading automatically receive a 25-pixel version of the same icon. Page-only links may remain ordinary GitHub Wiki syntax. Write the human heading text after `#`; the processor computes the final GitHub-compatible anchor, including duplicate-heading suffixes.
+When a heading has an image embed immediately before it, links to that heading automatically receive a 25-pixel version of the same icon. Write the human heading text after `#`; the processor computes the final GitHub-compatible anchor, including duplicate-heading suffixes, then emits standard Markdown link syntax in the generated output.
 
-Markdown files under `Wiki/Snippets/` are template intermediates rather than standalone Wiki pages. Their links are resolved after the snippet is included in a root page, allowing shared names such as `Charge` to select the Arms or Fury entry from the consuming page's context.
+Markdown files under `Wiki/Snippets/` are template intermediates rather than standalone Wiki pages. Their links are resolved during the final rendering pass using the root-page index, so generated output contains no unresolved Wiki-link syntax.
 
 ## Images
 

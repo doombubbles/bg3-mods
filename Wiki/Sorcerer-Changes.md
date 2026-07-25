@@ -4,7 +4,7 @@
 
 ## Draconic Bloodline
 
-- Implemented the 2024 PHB change to Draconic Resilience: Unarmoured AC is now 10+DEX+CHA
+- Implemented the 2024 PHB change to Draconic Resilience: Unarmoured AC is now 10+[[DEX]]+[[CHA]]
 - Implemented the 2024 PHB change removing the requirement to spend a Sorcery Point to gain resistance to your Damage type
 
 ### New Bloodlines

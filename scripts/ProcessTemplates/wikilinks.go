@@ -79,6 +79,10 @@ func processWikiLinks(root string, configPath string) error {
 	if err != nil || len(pagePaths) == 0 {
 		return err
 	}
+	markdownPaths, err := findWikiMarkdownFiles(root)
+	if err != nil {
+		return err
+	}
 
 	index, err := buildWikiIndex(pagePaths)
 	if err != nil {
@@ -88,7 +92,7 @@ func processWikiLinks(root string, configPath string) error {
 		return err
 	}
 
-	for _, path := range pagePaths {
+	for _, path := range markdownPaths {
 		content, err := os.ReadFile(path)
 		if err != nil {
 			return fmt.Errorf("read %s: %w", path, err)
@@ -124,6 +128,28 @@ func findWikiPages(root string) ([]string, error) {
 			files = append(files, filepath.Join(root, entry.Name()))
 		}
 	}
+	return files, nil
+}
+
+// findWikiMarkdownFiles includes generated snippets as well as publishable pages so
+// that no Wiki-link syntax survives the final rendering pass. Only root pages are
+// indexed as link targets; nested Markdown files remain template intermediates.
+func findWikiMarkdownFiles(root string) ([]string, error) {
+	var files []string
+	err := filepath.WalkDir(root, func(path string, entry os.DirEntry, err error) error {
+		if err != nil {
+			return err
+		}
+		if entry.IsDir() || !strings.EqualFold(filepath.Ext(entry.Name()), ".md") {
+			return nil
+		}
+		files = append(files, path)
+		return nil
+	})
+	if err != nil {
+		return nil, err
+	}
+	sort.Strings(files)
 	return files, nil
 }
 
@@ -264,7 +290,7 @@ func expandWikiLinks(source []byte, currentPage string, index *wikiIndex) ([]byt
 
 		prefix := string(source[match[2]:match[3]])
 		inner := strings.TrimSpace(string(source[match[4]:match[5]]))
-		// GitHub does not expand Wiki syntax inside raw HTML blocks.
+		// Raw HTML blocks require an HTML anchor; Markdown links are not parsed there.
 		replacement, err := expandWikiLink(prefix, inner, currentPage, index, overlapsAny(start, end, htmlRanges))
 		if err != nil {
 			return nil, false, err
@@ -301,7 +327,8 @@ func expandWikiLink(prefix string, inner string, currentPage string, index *wiki
 
 	resolved, err := index.resolve(target, currentPage)
 	if err != nil {
-		return "", fmt.Errorf("resolve [[%s]]: %w", inner, err)
+		fmt.Fprintf(os.Stderr, "warning: unresolved wiki link [[%s]] on %s: %v\n", inner, currentPage, err)
+		return "**" + display + "**", nil
 	}
 	return renderWikiLink(display, resolved, currentPage, inHTML), nil
 }
@@ -426,18 +453,29 @@ func (index *wikiIndex) resolve(reference string, currentPage string) (wikiTarge
 }
 
 func renderWikiLink(display string, target wikiTarget, currentPage string, inHTML bool) string {
-	if len(target.Icons) == 0 && !inHTML {
-		href := wikiLinkTarget(target)
-		if strings.HasPrefix(href, "https://") || strings.HasPrefix(href, "http://") {
-			return fmt.Sprintf("[%s](%s)", display, href)
-		}
-		if display == href {
-			return fmt.Sprintf("[[%s]]", display)
-		}
-		return fmt.Sprintf("[[%s | %s]]", display, href)
+	if inHTML {
+		return renderWikiLinkHTML(display, target, wikiLinkHref(target, currentPage))
 	}
 
-	return renderWikiLinkHTML(display, target, wikiLinkHref(target, currentPage))
+	href := wikiLinkHref(target, currentPage)
+	if len(target.Icons) == 0 {
+		return renderMarkdownLink(display, href)
+	}
+
+	var images strings.Builder
+	for _, icon := range target.Icons {
+		fmt.Fprintf(
+			&images,
+			"<img src='%s' height='25' align='top' alt='%s' />",
+			html.EscapeString(icon),
+			html.EscapeString(target.Name),
+		)
+	}
+	return renderMarkdownLink(images.String()+html.EscapeString(display), href)
+}
+
+func renderMarkdownLink(display string, href string) string {
+	return fmt.Sprintf("[%s](<%s>)", display, html.EscapeString(href))
 }
 
 func wikiLinkTarget(target wikiTarget) string {

@@ -48,7 +48,7 @@
 
 **Gloves of Crossbowmanship** - You gain Proficiency with heavy and hand crossbows. In addition, your ranged weapon attacks deal an additional 2 damage. Sold by Grat the Trader.
 
-**Ironheart Bow, Mindweave Bow, Owlfeather Bow, Silvertongue Bow** - Variants of the Titanstring Bow that use CON/INT/WIS/CHA. Also sold by Brem in the Zhentarim Hideout or Lann Tarv in Moonrise Towers.
+**Ironheart Bow, Mindweave Bow, Owlfeather Bow, Silvertongue Bow** - Variants of the Titanstring Bow that use [[CON]]/[[INT]]/[[WIS]]/[[CHA]]. Also sold by Brem in the Zhentarim Hideout or Lann Tarv in Moonrise Towers.
 
 <!-- **Ring of Arcane Ferocity** - Your Arcane Acuity also applies its bonus to weapon attack rolls. -->
 
@@ -58,7 +58,7 @@
 
 ## Item Upgrades
 
-**Headband of Intellect** - Unobtainable 19 INT version can now be created by combining the normal Warped Headband of Intellect with Enriched Infernal Iron
+**Headband of Intellect** - Unobtainable 19 [[INT]] version can now be created by combining the normal Warped Headband of Intellect with Enriched Infernal Iron
 
 **Shar's Spear of Darkness** - Can be created by combining Seluûne's Spear of Evening with a Stone of Shadows purchased from Nocturne
 

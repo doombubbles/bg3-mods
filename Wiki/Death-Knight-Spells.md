@@ -23,7 +23,7 @@
 
 ### Death Coil
 - Costs 1 [[Action]], 1 [[Unholy Rune]]
-- [[Constitution]] [[Saving Throw]], Half Damage on Success, 12m Range
+- [[CON]] [[Saving Throw]], Half Damage on Success, 12m Range
 - {{ getf .loca "h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" "[3d4](## '3 Rune Die') Necrotic damage" "[3d4](## '3 Rune Die') hit points" | include "wikify" }}
 
 ## Available at Level 2
@@ -49,7 +49,7 @@
 
 ### Chains of Ice
 - Costs 1 [[Action]], 1 [[Frost Rune]]
-- [[Strength]] [[Saving Throw]], 18m range
+- [[STR]] [[Saving Throw]], 18m range
 - {{ getf .loca "h2cbcc90dgfe7eg4135g8e2age5096ad6022c" "[3d4](## '3 Rune Die') Cold Damage" | include "wikify" }}
 
 
@@ -66,7 +66,7 @@
 
 ### Mind Freeze
 - Costs 1 [[Action]], 1 [[Frost Rune]]
-- [[Intelligence]] [[Saving Throw]], 18m range
+- [[INT]] [[Saving Throw]], 18m range
 - {{ getf .loca "h43a22f0cgca41g4484g9885g6f8214b189ba" "2" | include "wikify" }}
 
 
@@ -83,9 +83,9 @@
 
 ### Death Grip
 - Costs 1 [[Action]], 1 [[Any Rune]]
-- [[Strength]] [[Saving Throw]], 12m range
+- [[STR]] [[Saving Throw]], 12m range
 - {{ getf .loca "h724b80b8gb3aeg46adgbbe6g586eacb355fa" "2m" | include "wikify" }}
-- {{ get .loca "h0b1bb04eg04cbg4eefg8ed8g1920fc40a0c5" | include "wikify" }}
+- **DC:** [[STR]]/[[INT]]
 
 
 ![[images/ControllerIcons/skills_png/Action_DeathKnight_SacrificialPact.png]]
@@ -116,7 +116,7 @@
 
 #### Blood Boil
 - Costs 1 [[Action]], 1 [[Blood Rune]]
-- [[Constitution]] [[Saving Throw]], 6m radius
+- [[CON]] [[Saving Throw]], 6m radius
 - {{ getf .loca "hf05664efgfe07g4b87ga5e3g64edfc6c1beb" "[1d4](## 'Rune Die') Force Damage" | include "wikify" }}
 - Full damage and 5 turn duration on failed save, half damage and 2 turn duration on succeeded save
 
@@ -127,7 +127,7 @@
 
 #### Howling Blast
 - Costs 1 [[Action]], 1 [[Frost Rune]]
-- [[Constitution]] [[Saving Throw]], 9m range, 3m radius
+- [[CON]] [[Saving Throw]], 9m range, 3m radius
 - {{ getf .loca "hdc82e1f9g7ba0g45e6gaea8gaef3d7f96ef3" "[2d4](## '2 Rune Die') Cold Damage" | include "wikify" }}
 - Full damage and 5 turn duration on failed save, half damage and 2 turn duration on succeeded save
 
@@ -155,7 +155,7 @@
 
 #### Outbreak
 - Costs 1 [[Action]], 1 [[Unholy Rune]]
-- [[Constitution]] [[Saving Throw]], 9m range, 3m radius
+- [[CON]] [[Saving Throw]], 9m range, 3m radius
 - {{ getf .loca "he9edb0feg97e0g45a8ga0a7g24b0561f492c" "[3d4](## '3 Rune Die') Necrotic damage" | include "wikify" }}
 - Full damage and 5 turn duration on failed save, half damage and 2 turn duration on succeeded save
 

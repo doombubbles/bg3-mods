@@ -6,17 +6,9 @@
 
 > {{ get .loca "hf66e9153gca0eg4a51gba5bg7bc315652d59" | quote }}
 
-
 ## Subclass Features
 
 ### Level 3
-
-#### Warrior Abilities: 2 Known
-- Choose 2 [[Warrior Abilities]] to know
-
-#### Talent: 1 Known
-
-Choose 1 [[Warrior Talent | #warrior-talents]] from [[Meat Cleaver]], [[Double Time]], [[Sudden Death]], [[Fresh Meat]], or [[Deep Wounds]].
 
 ![[Game/ControllerUIIcons/skills_png/Action_Barbarian_Frenzy.png]]
 
@@ -24,32 +16,23 @@ Choose 1 [[Warrior Talent | #warrior-talents]] from [[Meat Cleaver]], [[Double T
 
 {{ getf .loca "haa4d01a9g591fg4694gb818g1ee27b2538cd" | include "wikify" }}
 
-
 ![[Game/ControllerUIIcons/skills_png/PassiveFeature_DualWielder_PassiveBonuses.png]]
 
 #### Single-Minded Fury
 
 When you make an offhand attack, you can add your Ability Score Modifier to the damage of the attack.
 
-*Does not stack with Two Weapon Fighting if obtained from another source*
+*Does not stack with Two Weapon Fighting if obtained from another source.*
 
+#### Warrior Abilities: 2 Known
+
+Choose 2 Warrior Abilities. Available options: [[Bloodthirst | Warrior---Abilities#Bloodthirst]], [[Raging Blow | Warrior---Abilities#Raging Blow]], [[Wild Strike | Warrior---Abilities#Wild Strike]], [[Execute | Warrior---Abilities#Execute]], [[Whirlwind | Warrior---Abilities#Whirlwind]], [[Charge | Warrior---Abilities#Charge]], and [[Thunder Clap | Warrior---Abilities#Thunder Clap]].
+
+#### Talent: 1 Known
+
+Choose 1 Warrior Talent. Available options: [[Meat Cleaver | Warrior---Talents#Meat Cleaver]], [[Double Time | Warrior---Talents#Double Time]], [[Sudden Death | Warrior---Talents#Sudden Death]], [[Fresh Meat | Warrior---Talents#Fresh Meat]], and [[Deep Wounds | Warrior---Talents#Deep Wounds]].
 
 ### Level 6
-
-#### Warrior Abilities: 4 Known
-- Choose 2 additional [[Warrior Abilities]] to know
-
-#### Talents: 2 Known
-
-Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management | #anger-management-1]], [[Avatar]], [[Bladestorm | #bladestorm]], and [[Recklessness]] become available.
-
-
-![[Game/ControllerUIIcons/skills_png/PassiveFeature_MindlessRage.png]]
-
-#### Anger Management
-
-{{ getf .loca "h87e29030gc8ebg44ceg86ceg2e9468fff092" | include "wikify" }}
-
 
 ![[Game/ControllerUIIcons/skills_png/PassiveFeature_DualWielder_PassiveBonuses.png]]
 
@@ -57,109 +40,20 @@ Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management | 
 
 You can use Two-Weapon Fighting even if your weapons aren't ?[[Light | Light (Weapon Property)]].
 
-*Currently making the call not to implement a real 2-handed version of Titan's Grip. I've seen the way it's been done before and it's too janky for my taste, and I don't see a path to making it less janky at the moment.*
+#### Warrior Abilities: 4 Known
+
+Choose 2 additional Warrior Abilities. [[Storm Bolt | Warrior---Abilities#Storm Bolt]] is added to the available options.
+
+#### Talents: 2 Known
+
+Choose 1 additional Warrior Talent. Available options now also include [[Anger Management | Warrior---Talents#Anger Management]], [[Avatar | Warrior---Talents#Avatar]], [[Bladestorm | Warrior---Talents#Bladestorm]], and [[Recklessness | Warrior---Talents#Recklessness]].
 
 ### Level 10
 
 #### Warrior Abilities: 6 Known
-- Choose 2 additional [[Warrior Abilities]] to know
+
+Choose 2 additional Warrior Abilities from the available Fury options on [[Warrior Abilities]].
 
 #### Talents: 3 Known
 
-Choose 1 additional [[Warrior Talent | #warrior-talents]].
-
-## Warrior Abilities
-
-You pick new Warrior Abilities to know at Levels 3, 6 and 10.
-
-As a Fury Barbarian, your Warrior Abilities cost [[Rage Charges]].
-
-![[Game/ControllerUIIcons/skills_png/Action_SacrificeToLoviatar.png]]
-
-### Bloodthirst
-- Costs 1 [[Action Point]], 1 [[Rage Charge]] on hit
-- Weapon Attack
-- {{ getf .loca "h7cfa12d9ga912g4421ga9b8g4b18f0c93fcb" | include "wikify" }}
-- 1d6 + Barbarian Level [[Hit Points]]
-
-
-![[Game/ControllerUIIcons/skills_png/Action_Barbarian_FrenziedStrike.png]]
-
-### Raging Blow
-- Costs 1 [[Action Point]], 1 [[Rage Charge]] on hit
-- Weapon Attack (+ Off-hand damage on hit)
-- {{ getf .loca "hcdffe4f3gd2ffg4fecg80c0g0ef6e608c252" | include "wikify" }}
-
-
-![[Game/ControllerUIIcons/skills_png/Action_Slash.png]]
-
-### Wild Strike
-- Costs 1 [[Bonus Action]], 1 [[Rage Charge]] on hit
-- Weapon Attack (Off-hand)
-- {{ getf .loca "h769dce28g69f7g46f1g9cafg69714b51c3d1" | include "wikify" }}
-
-
-![[Game/ControllerUIIcons/skills_png/Action_DivineStrike_Physical_Melee.png]]
-
-### Execute
-- Costs 1 [[Action Point]], 1 [[Rage Charge]] on hit
-- Weapon Attack
-- {{ getf .loca "h9baff8c6gb3d0g4292gb126gf254ec89fb28" "50%" "[2](## 'Proficiency Bonus')d6" | include "wikify" }}
-
-
-![[Game/ControllerUIIcons/skills_png/Action_Multiattack_WhirlwindAttack.png]]
-
-### Whirlwind
-- Costs 1 [[Action Point]], 1 [[Rage Charge]]
-- 2m-radius Weapon Attack
-- {{ get .loca "ha331a835gf3c8g4043gaa9ag68646d8ff4ac" | include "wikify" }}
-
-![[images/ControllerIcons/skills_png/Action_Rush.png]]
-
-### Charge
-- Costs 1 [[Bonus Action]], 1 [[Rage Charge]]
-- Weapon Attack, 9m range, [[Strength]] [[Saving Throw]] ([[Weapon Action DC]])
-- {{ getf .loca "hf0da666cg2c85g4ec5g8e19g809ec529afbf" "1" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_Mag_GrandSlam.png]]
-
-### Thunder Clap
-
-- Costs 1 [[Action Point]] and 1 [[Rage Charge]]
-- [[Constitution]] Saving Throw against your Weapon Action DC; affects nearby enemies
-- {{ get .loca "h1b63a656g6499g4b52g91f6g758d6e5adbff" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_AbsolutePower.png]]
-
-### Storm Bolt
-
-- Available at Level 6
-- Costs 1 [[Action Point]] and 1 [[Rage Charge]]
-- 18m range, [[Constitution]] Saving Throw against your Weapon Action DC
-- {{ get .loca "ha0bbee44gedc3g403cga8dage3fb613e51c1" | include "wikify" }}
-
-## Warrior Talents
-
-Choose Talents at levels 3, 6, and 10. [[Anger Management | #anger-management-1]], [[Avatar]], [[Bladestorm | #bladestorm]], and [[Recklessness]] are added to the available choices at level 6.
-
-{{ tpl (readFile "Wiki/Snippets/Warrior-Talents.md") $ }}
-
-![[Game/ControllerUIIcons/skills_png/Action_Multiattack_WhirlwindAttack.png]]
-
-### Meat Cleaver
-
-{{ getf .loca "hdf52f363g33f1g4d1cg9d3bg8e469943b7f4" "2" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_SacrificeToLoviatar.png]]
-
-### Fresh Meat
-
-{{ get .loca "had603c37g3ae0g4bfdgb7ccg34d75f1fe706" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_Mag_WrecklessWarCry.png]]
-
-### Recklessness
-
-- Costs 1 [[Bonus Action]]
-- Once per [[Long Rest]]
-- {{ getf .loca "hb02d2a55gb259g4629ga232ga4e0fd8b8751" "10" | replace "Reckless Attack" "[[Reckless Attack]]" | include "wikify" }}
+Choose 1 additional Warrior Talent from the available Fury options on [[Warrior Talents]].

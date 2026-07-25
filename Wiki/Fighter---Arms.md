@@ -12,156 +12,42 @@
 
 #### Warrior Abilities: 3 Known
 
-Choose 3 [[Warrior Abilities]] to know.
+Choose 3 Warrior Abilities. Available options: [[Charge | Warrior---Abilities#Charge]], [[Execute | Warrior---Abilities#Execute]], [[Whirlwind | Warrior---Abilities#Whirlwind]], [[Thunder Clap | Warrior---Abilities#Thunder Clap]], [[Overpower | Warrior---Abilities#Overpower]], [[Sweeping Strikes | Warrior---Abilities#Sweeping Strikes]], [[Cleave | Warrior---Abilities#Cleave]], and [[Mortal Strike | Warrior---Abilities#Mortal Strike]].
 
 #### Talent: 1 Known
 
-Choose 1 [[Warrior Talent | #warrior-talents]] from [[Double Time]], [[Sudden Death]], [[Deep Wounds]], or [[Tactician]].
+Choose 1 Warrior Talent. Available options: [[Double Time | Warrior---Talents#Double Time]], [[Sudden Death | Warrior---Talents#Sudden Death]], [[Deep Wounds | Warrior---Talents#Deep Wounds]], and [[Tactician | Warrior---Talents#Tactician]].
 
 ### Level 5
 
 #### Warrior Abilities: 4 Known
 
-Choose 1 additional [[Warrior Ability | #warrior-abilities]]. [[Slam]] becomes available.
+Choose 1 additional Warrior Ability. [[Slam | Warrior---Abilities#Slam]] is added to the available options.
 
 ### Level 7
 
 #### Warrior Abilities: 5 Known
 
-Choose 1 additional [[Warrior Ability | #warrior-abilities]]. [[Storm Bolt]] and [[Colossus Smash]] become available.
+Choose 1 additional Warrior Ability. [[Storm Bolt | Warrior---Abilities#Storm Bolt]] and [[Colossus Smash | Warrior---Abilities#Colossus Smash]] are added to the available options.
 
 #### Talents: 2 Known
 
-Choose 1 additional [[Warrior Talent | #warrior-talents]]. [[Anger Management]], [[Avatar]], and [[Bladestorm | #bladestorm]] become available.
+Choose 1 additional Warrior Talent. Available options now also include [[Anger Management | Warrior---Talents#Anger Management]], [[Avatar | Warrior---Talents#Avatar]], and [[Bladestorm | Warrior---Talents#Bladestorm]].
 
 ### Level 9
 
 #### Warrior Abilities: 6 Known
 
-Choose 1 additional [[Warrior Ability | #warrior-abilities]].
+Choose 1 additional Warrior Ability from the available Arms options on [[Warrior Abilities]].
 
 ### Level 10
 
 #### Talents: 3 Known
 
-Choose 1 additional [[Warrior Talent | #warrior-talents]].
+Choose 1 additional Warrior Talent from the available Arms options on [[Warrior Talents]].
 
 ### Level 11
 
 #### Warrior Abilities: 7 Known
 
-Choose 1 additional [[Warrior Abilities | #warrior-abilities]].
-
-## Warrior Abilities
-
-You pick new Warrior Abilities to know at Levels 3, 5, 7, 9 and 11.
-Each Warrior Ability can be used once per [[Short Rest]].
-Single-target attack-based Warrior Abilities that miss do not expend their use.
-
-### Available at Level 3
-
-![[images/ControllerIcons/skills_png/Action_Rush.png]]
-
-#### Charge
-
-- Costs 1 [[Bonus Action]]
-- [[Strength]] [[Saving Throw]] ([[Weapon Action DC]]), 9m range
-- {{ getf .loca "hf0da666cg2c85g4ec5g8e19g809ec529afbf" "1" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_DivineStrike_Physical_Melee.png]]
-
-#### Execute
-
-- Costs 1 [[Action Point]]
-- Melee weapon attack; requires a target at or below 50% [[Hit Points]]
-- {{ getf .loca "h9baff8c6gb3d0g4292gb126gf254ec89fb28" "50%" "[2](## 'Proficiency Bonus')d6" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_Multiattack_WhirlwindAttack.png]]
-
-#### Whirlwind
-
-- Costs 1 [[Action Point]]
-- 2m radius melee weapon attack that deals half weapon damage
-- {{ get .loca "ha331a835gf3c8g4043gaa9ag68646d8ff4ac" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_Mag_GrandSlam.png]]
-
-#### Thunder Clap
-
-- Costs 1 [[Action Point]]
-- [[Constitution]] [[Saving Throw]] ([[Weapon Action DC]]); affects nearby enemies
-- Deals [[Thunder Damage]], knocks creatures [[Prone]] on a failed save, and leaves them [[Off Balance]] on a successful save
-- {{ get .loca "h1b63a656g6499g4b52g91f6g758d6e5adbff" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/PassiveFeature_GuidedStrike.png]]
-
-#### Overpower
-
-- No action cost; triggered as an interrupt after missing with a melee weapon attack
-- {{ get .loca "h921192a5g0910g47c0gbb85g3cfdde961410" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_SweepingAttack.png]]
-
-#### Sweeping Strikes
-
-- Costs 1 [[Bonus Action]]
-- {{ get .loca "h5c4bc3bdg0b93g4cf7gb699ge1b657b5d2e9" | include "wikify" }}
-- Expires on [[Short Rest]]
-
-![[Game/ControllerUIIcons/skills_png/Action_Cleave_New.png]]
-
-#### Cleave
-
-- Costs 1 [[Action Point]]
-- Melee weapon attack in a cone
-- {{ getf .loca "h1758449dg7435g46a0g8088g4485293de676" "3" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_FullSwing.png]]
-
-#### Mortal Strike
-
-- Costs 1 [[Action Point]]
-- Melee weapon attack
-- {{ get .loca "h39713ea2gd8ccg43bbgab88ge0cab9f1eea8" | include "wikify" }}
-- Mortal Wounds lasts 3 turns
-
-### Available at Level 5
-
-![[Game/ControllerUIIcons/skills_png/Action_HeartStopper.png]]
-
-#### Slam
-
-- Costs 1 [[Action Point]] (Not valid for [[Extra Attack]])
-- Melee weapon attack
-- {{ get .loca "hb8420ca7g0e1eg4618g9e6cg45c751959a04" | include "wikify" }}
-- {{ get .loca "h2417a761gd0bag41e9gb829g965399bdb815" | include "wikify" }}
-
-### Available at Level 7
-
-![[Game/ControllerUIIcons/skills_png/Action_AbsolutePower.png]]
-
-#### Storm Bolt
-
-- Costs 1 [[Action Point]]
-- [[Constitution]] [[Saving Throw]] ([[Weapon Action DC]]), 18m range
-- {{ get .loca "ha0bbee44gedc3g403cga8dage3fb613e51c1" | include "wikify" }}
-
-![[Game/ControllerUIIcons/skills_png/Action_PostureBreaker.png]]
-
-#### Colossus Smash
-
-- Costs 1 [[Action Point]]
-- Melee weapon attack and [[Constitution]] [[Saving Throw]] ([[Weapon Action DC]])
-- {{ get .loca "hb02ee329g9da8g4fd5gae11gaf2c0a60680c" | include "wikify" }}
-
-## Warrior Talents
-
-Choose Talents at levels 3, 7, and 10. [[Anger Management]], [[Avatar]], and [[Bladestorm | #bladestorm]] are added to the available choices at level 7.
-
-{{ tpl (readFile "Wiki/Snippets/Warrior-Talents.md") $ }}
-
-![[Game/ControllerUIIcons/skills_png/PassiveFeature_GuidedStrike.png]]
-
-### Tactician
-
-{{ get .loca "h21869032g835eg42b1gab8eg59d6c1ff9112" | include "wikify" }}
+Choose 1 additional Warrior Ability from the available Arms options on [[Warrior Abilities]].

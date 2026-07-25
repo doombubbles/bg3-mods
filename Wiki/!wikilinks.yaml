@@ -2,11 +2,11 @@ concepts:
   # Core resources
   Action Point:
     href: https://bg3.wiki/wiki/Action
-    icon: Game/ActionResources_c/Icons/c_ico_AP.png
+    icon: Game/ActionResources_c/Icons/ActionPoint.png
     aliases: [Action, Actions]
   Bonus Action:
     href: https://bg3.wiki/wiki/Bonus_action
-    icon: Game/ActionResources_c/Icons/c_ico_bonusAction.png
+    icon: Game/ActionResources_c/Icons/BonusActionPoint.png
     aliases: [Bonus Actions]
   Reaction:
     href: https://bg3.wiki/wiki/Reaction_(resource)
@@ -14,29 +14,29 @@ concepts:
     aliases: [Reactions]
   Movement Speed:
     href: https://bg3.wiki/wiki/Movement_speed
-    icon: Game/ActionResources_c/Icons/c_ico_movement.png
+    icon: Game/ActionResources_c/Icons/Movement.png
     aliases: [Movement]
   Spell Slot:
     href: https://bg3.wiki/wiki/Spell_slot
-    icon: Game/ActionResources_c/Icons/c_ico_mini_spellSlot.png
+    icon: Game/ActionResources_c/Icons/SpellSlot.png
     aliases: [Spell Slots]
   Warlock Spell Slot:
     href: https://bg3.wiki/wiki/Warlock_Spell_Slot
-    icon: Game/ActionResources_c/Icons/c_ico_mini_spellSlot_warlock.png
+    icon: Game/ActionResources_c/Icons/WarlockSpellSlot.png
     aliases: [Warlock Spell Slots]
 
   # Class resources
   Arcane Recovery Charge:
     href: https://bg3.wiki/wiki/Arcane_Recovery
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_arcaneRecovery.png
+    icon: Game/ActionResources_c/Icons/ArcaneRecoveryPoint.png
     aliases: [Arcane Recovery, Arcane Recovery Charges]
   Arcane Arrow:
     href: https://bg3.wiki/wiki/Arcane_Arrow
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_arcaneShot_d.png
+    icon: Gustav_Textures/ActionResources_c/Icons/ArcaneShot.png
     aliases: [Arcane Arrows]
   Bardic Inspiration:
     href: https://bg3.wiki/wiki/Bardic_Inspiration
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_inspiration.png
+    icon: Game/ActionResources_c/Icons/BardicInspiration.png
     aliases: [Bardic Inspirations, Bardic Inspiration Charge, Bardic Inspiration Charges]
   Bladesong Power:
     href: https://bg3.wiki/wiki/Bladesong_Power
@@ -44,11 +44,11 @@ concepts:
     aliases: [Bladesong]
   Channel Divinity Charge:
     href: https://bg3.wiki/wiki/Channel_Divinity_Charge
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_channelDivinity.png
+    icon: Game/ActionResources_c/Icons/ChannelDivinity.png
     aliases: [Channel Divinity, Channel Divinity Charges]
   Channel Oath Charge:
     href: https://bg3.wiki/wiki/Channel_Oath_Charge
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_channelOath.png
+    icon: Game/ActionResources_c/Icons/ChannelOath.png
     aliases: [Channel Oath, Channel Oath Charges]
   Cosmic Omen:
     href: https://bg3.wiki/wiki/Cosmic_Omen
@@ -56,23 +56,23 @@ concepts:
     aliases: [Cosmic Omens]
   Ki Point:
     href: https://bg3.wiki/wiki/Ki_Point
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_ki.png
+    icon: Game/ActionResources_c/Icons/KiPoint.png
     aliases: [Ki, Ki Points]
   Lay on Hands Charge:
     href: https://bg3.wiki/wiki/Lay_on_Hands_Charge
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_LayOnHands.png
+    icon: Game/ActionResources_c/Icons/LayOnHandsCharge.png
     aliases: [Lay on Hands, Lay on Hands Charges]
   Natural Recovery Charge:
     href: https://bg3.wiki/wiki/Natural_Recovery
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_NaturalRecovery.png
+    icon: Game/ActionResources_c/Icons/NaturalRecoveryPoint.png
     aliases: [Natural Recovery, Natural Recovery Charges]
   Rage Charge:
     href: https://bg3.wiki/wiki/Rage_Charge
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_rage.png
+    icon: Game/ActionResources_c/Icons/Rage.png
     aliases: [Rage Charges]
   Sorcery Point:
     href: https://bg3.wiki/wiki/Sorcery_Point
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_sorc.png
+    icon: Game/ActionResources_c/Icons/SorceryPoint.png
     aliases: [Sorcery Points]
   Star Map:
     href: https://bg3.wiki/wiki/Star_Map
@@ -80,15 +80,15 @@ concepts:
     aliases: [Star Maps]
   Superiority Die:
     href: https://bg3.wiki/wiki/Superiority_Die
-    icon: Game/ActionResources_c/Icons/c_ico_res_superiorityDice.png
+    icon: Game/ActionResources_c/Icons/SuperiorityDie.png
     aliases: [Superiority Dice]
   War Priest Charge:
     href: https://bg3.wiki/wiki/War_Priest_Charge
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_warPriest.png
+    icon: Game/ActionResources_c/Icons/WarPriestActionPoint.png
     aliases: [War Priest, War Priest Charges]
   Wild Shape Charge:
     href: https://bg3.wiki/wiki/Wild_Shape_Charge
-    icon: Game/ActionResources_c/Icons/c_ico_classRes_wildshape.png
+    icon: Game/ActionResources_c/Icons/WildShape.png
     aliases: [Wild Shape, Wild Shape Charges]
 
   # Death Knight resources
@@ -110,7 +110,7 @@ concepts:
       - images/ActionResources_c/Icons/Resources/BloodRune.png
       - images/ActionResources_c/Icons/Resources/FrostRune.png
       - images/ActionResources_c/Icons/Resources/UnholyRune.png
-    aliases: [Any Runes]
+    aliases: [Any Runes, Runes]
 
   # Base-game actions, spells, and passives
   Armour of Agathys:
@@ -128,6 +128,10 @@ concepts:
   Command:
     href: https://bg3.wiki/wiki/Command
     icon: Game/ControllerUIIcons/skills_png/Spell_Enchantment_CommandHalt.png
+  Darkness:
+    href: https://bg3.wiki/wiki/Darkness
+  Dash:
+    href: https://bg3.wiki/wiki/Dash
   Defence:
     href: https://bg3.wiki/wiki/Defence
     icon: Game/ControllerUIIcons/skills_png/PassiveFeature_FightingStyle_Defense.png
@@ -146,6 +150,8 @@ concepts:
   Extra Attack:
     href: https://bg3.wiki/wiki/Extra_Attack
     icon: Game/ControllerUIIcons/skills_png/PassiveFeature_ExtraAttack.png
+  Improved Extra Attack:
+    href: https://bg3.wiki/wiki/Improved_Extra_Attack
   False Life:
     href: https://bg3.wiki/wiki/False_Life
     icon: Game/ControllerUIIcons/skills_png/Spell_Necromancy_FalseLife.png
@@ -179,6 +185,8 @@ concepts:
   Mass Healing Word:
     href: https://bg3.wiki/wiki/Mass_Healing_Word
     icon: Game/ControllerUIIcons/skills_png/Spell_Evocation_MassHealingWord.png
+  Magic Missile:
+    href: https://bg3.wiki/wiki/Magic_Missile
   Prayer of Healing:
     href: https://bg3.wiki/wiki/Prayer_of_Healing
     icon: Game/ControllerUIIcons/skills_png/Spell_Evocation_PrayerOfHealing.png
@@ -200,6 +208,8 @@ concepts:
   Shield of Faith:
     href: https://bg3.wiki/wiki/Shield_of_Faith
     icon: Game/ControllerUIIcons/skills_png/Spell_Abjuration_ShieldOfFaith.png
+  Slow:
+    href: https://bg3.wiki/wiki/Slow
   Spirit Guardians:
     href: https://bg3.wiki/wiki/Spirit_Guardians
     icon: Game/ControllerUIIcons/skills_png/Spell_Conjuration_SpiritGuardians.png
@@ -256,21 +266,54 @@ concepts:
   Heavy Armour:
     href: https://bg3.wiki/wiki/Armour#List_of_heavy_armour
     icon: Game/Shared_c/ProficiencyIcons/ico_proficiency_heavyArmour.png
+  Acrobatics:
+    href: https://bg3.wiki/wiki/Acrobatics
+    icon: Game/Shared_c/c_SkillsIcons/Acrobatics.png
+  Animal Handling:
+    href: https://bg3.wiki/wiki/Animal_Handling
+    icon: Game/Shared_c/c_SkillsIcons/AnimalHandling.png
   Athletics:
     href: https://bg3.wiki/wiki/Athletics
     icon: Game/Shared_c/c_SkillsIcons/Athletics.png
   Deception:
     href: https://bg3.wiki/wiki/Deception
     icon: Game/Shared_c/c_SkillsIcons/Deception.png
+  History:
+    href: https://bg3.wiki/wiki/History
+    icon: Game/Shared_c/c_SkillsIcons/History.png
+  Insight:
+    href: https://bg3.wiki/wiki/Insight
+    icon: Game/Shared_c/c_SkillsIcons/Insight.png
   Intimidation:
     href: https://bg3.wiki/wiki/Intimidation
     icon: Game/Shared_c/c_SkillsIcons/Intimidation.png
+  Investigation:
+    href: https://bg3.wiki/wiki/Investigation
+    icon: Game/Shared_c/c_SkillsIcons/Investigation.png
+  Medicine:
+    href: https://bg3.wiki/wiki/Medicine
+    icon: Game/Shared_c/c_SkillsIcons/Medicine.png
+  Nature:
+    href: https://bg3.wiki/wiki/Nature
+    icon: Game/Shared_c/c_SkillsIcons/Nature.png
   Perception:
     href: https://bg3.wiki/wiki/Perception
     icon: Game/Shared_c/c_SkillsIcons/Perception.png
+  Performance:
+    href: https://bg3.wiki/wiki/Performance
+    icon: Game/Shared_c/c_SkillsIcons/Performance.png
+  Persuasion:
+    href: https://bg3.wiki/wiki/Persuasion
+    icon: Game/Shared_c/c_SkillsIcons/Persuasion.png
+  Religion:
+    href: https://bg3.wiki/wiki/Religion
+    icon: Game/Shared_c/c_SkillsIcons/Religion.png
   Sleight of Hand:
     href: https://bg3.wiki/wiki/Sleight_Of_Hand
     icon: Game/Shared_c/c_SkillsIcons/SleightOfHand.png
+  Stealth:
+    href: https://bg3.wiki/wiki/Stealth
+    icon: Game/Shared_c/c_SkillsIcons/Stealth.png
   Survival:
     href: https://bg3.wiki/wiki/Survival
     icon: Game/Shared_c/c_SkillsIcons/Survival.png
@@ -352,6 +395,12 @@ concepts:
     href: https://bg3.wiki/wiki/Charisma
     icon: Game/AbilityIcons/charisma.png
     aliases: [CHA]
+  Ability Scores:
+    href: https://bg3.wiki/wiki/Ability_Check
+    aliases: [Ability Score]
+  Arcana:
+    href: https://bg3.wiki/wiki/Arcana
+    icon: Game/Shared_c/c_SkillsIcons/Arcana.png
 
   # Damage types
   Acid Damage:
@@ -434,7 +483,7 @@ concepts:
     aliases: [Saving Throws]
   Attack Roll:
     href: https://bg3.wiki/wiki/Attack_roll
-    aliases: [Attack Rolls]
+    aliases: [Attack Rolls, Attack, Roll]
   Weapon Action DC:
     href: https://bg3.wiki/wiki/Dice_rolls#Save_DCs
   Critical Hit:
@@ -454,13 +503,55 @@ concepts:
     aliases: [Restrain, Restraining]
   Burning:
     href: https://bg3.wiki/wiki/Burning_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Burning.png
+  Bleeding:
+    href: https://bg3.wiki/wiki/Bleeding_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Bleeding.png
+  Downed:
+    href: https://bg3.wiki/wiki/Downed_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Downed.png
+  Frozen:
+    href: https://bg3.wiki/wiki/Frozen_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Frozen.png
+  Paralysed:
+    href: https://bg3.wiki/wiki/Paralysed_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Paralyzed.png
+  Frightened:
+    href: https://bg3.wiki/wiki/Frightened_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Frightened.png
+    aliases: [Frightening]
+  Lethargic:
+    href: https://bg3.wiki/wiki/Lethargic_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Stunned.png
   Prone:
     href: https://bg3.wiki/wiki/Prone_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Prone.png
   Off Balance:
     href: https://bg3.wiki/wiki/Off_Balance_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/statIcons_OffBalanced.png
     aliases: [Off Balanced]
   Stunned:
     href: https://bg3.wiki/wiki/Stunned_(Condition)
+    icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Stunned.png
+    aliases: [Stun, Stunning]
+  Slowed:
+    href: https://bg3.wiki/wiki/Slowed_(Condition)
+    icon: Game/ControllerUIIcons/skills_png/Spell_Transmutation_Slow.png
+  Thrown:
+    href: https://bg3.wiki/wiki/Thrown
+  Proficiency Bonus:
+    href: https://bg3.wiki/wiki/Proficiency
+    aliases: [Proficient, Proficiency]
+  Difficulty Class:
+    href: bg3.wiki/wiki/Difficulty_class
+    aliases: [DC]
+  Immune:
+    href: https://bg3.wiki/wiki/Immune
+  Ability Modifier:
+    href: https://bg3.wiki/wiki/Ability_Modifier
+    aliases: [Modifier]
+  Check:
+    href: https://bg3.wiki/wiki/Check
 
   # Rest and duration concepts
   Short Rest:

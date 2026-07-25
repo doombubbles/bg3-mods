@@ -7,7 +7,7 @@ The Wiki source should optimize for readability. `ProcessTemplates` expands comp
 Use a short Wiki link for a known concept or a mod feature:
 
 ```md
-Spend an [[Action Point]].
+Spend an [[Action]].
 Your next [[Raging Blow]] deals additional damage.
 ```
 

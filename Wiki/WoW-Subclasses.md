@@ -28,6 +28,16 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 ---
 
 
+### [[Mountain Thane Barbarian | Barbarian---Mountain-Thane]]
+
+**Mountain Thane** is a modded Subclass of [[Barbarian]] that channels storm and earth while using Warrior Abilities.
+
+> {{ get .loca "h5d99d766g2baeg4ab9gbaf5g869b06a144cb" | quote }}
+
+
+---
+
+
 [<img align="right" alt="Arms Fighter class icon" height="150" src="images/ClassIcons/Arms.png" />](Fighter---Arms)
 
 ### [[Arms Fighter | Fighter---Arms]]

@@ -53,8 +53,18 @@ func TestExpandWikiLinksUsesLocalHeadingAndIcon(t *testing.T) {
 	if !changed {
 		t.Fatal("expected wikilink expansion")
 	}
-	want := "Use <a href='#mortal-strike'><img src='images/MortalStrike.png' height='25' align='top' alt='Mortal Strike' />Mortal Strike</a> now."
+	want := "Use [<img src='images/MortalStrike.png' height='25' align='top' alt='Mortal Strike' />Mortal Strike](<#mortal-strike>) now."
 	requireEqual(t, got, want)
+}
+
+func TestExpandWikiLinksLeavesUnresolvedLinkBold(t *testing.T) {
+	index := newWikiIndex()
+
+	got, changed := mustExpandWikiLinks(t, "Use [[Missing Ability]].", "Warrior Abilities.md", index)
+	if !changed {
+		t.Fatal("expected wikilink expansion")
+	}
+	requireEqual(t, got, "Use **Missing Ability**.")
 }
 
 func TestExpandWikiLinksUsesFullPageTargetForLocalHeading(t *testing.T) {
@@ -65,7 +75,30 @@ func TestExpandWikiLinksUsesFullPageTargetForLocalHeading(t *testing.T) {
 	index.Pages[normalizeWikiName(page.Name)] = page
 
 	got, _ := mustExpandWikiLinks(t, "[[Arms Strikes | #arms-strikes]]", page.Name, index)
-	requireEqual(t, got, "[[Arms Strikes | Fighter---Arms#arms-strikes]]")
+	requireEqual(t, got, "[Arms Strikes](<#arms-strikes>)")
+}
+
+func TestFindWikiMarkdownFilesIncludesNestedSnippets(t *testing.T) {
+	dir := t.TempDir()
+	for _, path := range []string{
+		filepath.Join(dir, "Home.md"),
+		filepath.Join(dir, "Snippets", "Shared.md"),
+	} {
+		if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
+			t.Fatal(err)
+		}
+		if err := os.WriteFile(path, []byte("content"), 0644); err != nil {
+			t.Fatal(err)
+		}
+	}
+
+	files, err := findWikiMarkdownFiles(dir)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(files) != 2 {
+		t.Fatalf("got %d Markdown files, want 2", len(files))
+	}
 }
 
 func TestExpandWikiLinksSupportsGitHubDisplayTargetOrder(t *testing.T) {
@@ -74,7 +107,7 @@ func TestExpandWikiLinksSupportsGitHubDisplayTargetOrder(t *testing.T) {
 	index.Pages[normalizeWikiName(page.Name)] = page
 
 	got, _ := mustExpandWikiLinks(t, "[[Arms Fighter | Fighter---Arms]]", "Home", index)
-	requireEqual(t, got, "[[Arms Fighter | Fighter---Arms]]")
+	requireEqual(t, got, "[Arms Fighter](<Fighter---Arms>)")
 }
 
 func TestExpandWikiLinksPreservesResolvedPageFilename(t *testing.T) {
@@ -83,7 +116,15 @@ func TestExpandWikiLinksPreservesResolvedPageFilename(t *testing.T) {
 	index.Pages[normalizeWikiName("Doombubbles Difficulty")] = page
 
 	got, _ := mustExpandWikiLinks(t, "[[Doombubbles Difficulty]]", "Home", index)
-	requireEqual(t, got, "[[Doombubbles Difficulty | Doombubbles---Difficulty]]")
+	requireEqual(t, got, "[Doombubbles Difficulty](<Doombubbles---Difficulty>)")
+}
+
+func TestExpandWikiLinksRendersMarkdownForExternalLinks(t *testing.T) {
+	index := newWikiIndex()
+	index.Concepts[normalizeWikiName("Test Site")] = wikiTarget{Name: "Test Site", Href: "https://example.com/a_(test)"}
+
+	got, _ := mustExpandWikiLinks(t, "[[Test Site]]", "Page", index)
+	requireEqual(t, got, "[Test Site](<https://example.com/a_(test)>)")
 }
 
 func TestCleanHeadingNameUsesWikilinkDisplayText(t *testing.T) {
@@ -96,8 +137,8 @@ func TestCleanHeadingNameUsesWikilinkDisplayText(t *testing.T) {
 func TestExpandWikiLinksSupportsBuiltInConcept(t *testing.T) {
 	index := newWikiIndex()
 	index.Concepts[normalizeWikiName("Action Point")] = wikiTarget{Name: "Action Point", Href: "https://bg3.wiki/wiki/Action", Icons: []string{"Game/ActionResources_c/Icons/c_ico_AP.png"}}
-	got, _ := mustExpandWikiLinks(t, "Spend an [[Action Point]].", "Page", index)
-	want := "Spend an <a href='https://bg3.wiki/wiki/Action'><img src='Game/ActionResources_c/Icons/c_ico_AP.png' height='25' align='top' alt='Action Point' />Action Point</a>."
+	got, _ := mustExpandWikiLinks(t, "Spend an [[Action]].", "Page", index)
+	want := "Spend an [<img src='Game/ActionResources_c/Icons/c_ico_AP.png' height='25' align='top' alt='Action Point' />Action Point](<https://bg3.wiki/wiki/Action>)."
 	requireEqual(t, got, want)
 }
 
@@ -136,7 +177,7 @@ func TestExpandWikiLinkUsesConfiguredIconPath(t *testing.T) {
 	index := newWikiIndex()
 	index.Concepts[normalizeWikiName("Test Feature")] = wikiTarget{Name: "Test Feature", Href: "Test-Page", Icons: []string{"Game/ControllerUIIcons/skills_png/PassiveFeature_Test.png"}}
 	got, _ := mustExpandWikiLinks(t, "[[Test Feature]]", "Page", index)
-	want := "<a href='Test-Page'><img src='Game/ControllerUIIcons/skills_png/PassiveFeature_Test.png' height='25' align='top' alt='Test Feature' />Test Feature</a>"
+	want := "[<img src='Game/ControllerUIIcons/skills_png/PassiveFeature_Test.png' height='25' align='top' alt='Test Feature' />Test Feature](<Test-Page>)"
 	requireEqual(t, got, want)
 }
 
@@ -150,7 +191,7 @@ func TestExpandWikiLinkUsesMultipleConfiguredIcons(t *testing.T) {
 	index.Concepts[normalizeWikiName("Any Rune")] = target
 	index.Concepts[normalizeWikiName("Any Runes")] = target
 	got, _ := mustExpandWikiLinks(t, "Spend [[Any Runes]].", "Page", index)
-	want := "Spend <a href='Death-Knight#rune-casting'><img src='images/BloodRune.png' height='25' align='top' alt='Any Rune' /><img src='images/FrostRune.png' height='25' align='top' alt='Any Rune' /><img src='images/UnholyRune.png' height='25' align='top' alt='Any Rune' />Any Runes</a>."
+	want := "Spend [<img src='images/BloodRune.png' height='25' align='top' alt='Any Rune' /><img src='images/FrostRune.png' height='25' align='top' alt='Any Rune' /><img src='images/UnholyRune.png' height='25' align='top' alt='Any Rune' />Any Runes](<Death-Knight#rune-casting>)."
 	requireEqual(t, got, want)
 }
 

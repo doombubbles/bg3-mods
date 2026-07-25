@@ -195,7 +195,9 @@ for WIKI_PATH in $IMAGE_PATHS; do
 done
 
 if [ "$HAS_ATLAS_IMAGES" = true ] || [ "$HAS_CONTROLLER_COLORS" = true ]; then
-    if command -v magick > /dev/null 2>&1; then
+    if [ -x "./bin/ImageMagick/magick.exe" ]; then
+        MAGICK="./bin/ImageMagick/magick.exe"
+    elif command -v magick > /dev/null 2>&1; then
         MAGICK=magick
     elif command -v magick.exe > /dev/null 2>&1; then
         MAGICK=magick.exe

@@ -181,8 +181,8 @@ The Death Knight subclasses are:
 
 **Hit pints**
 
-- At level 1: `10 + CON Modifier`
-- On level up: `6 + CON Modifier`
+- At level 1: 10 + [[CON]] Modifier
+- On level up: 6 + [[CON]] Modifier
 
 **Key abilities**
 

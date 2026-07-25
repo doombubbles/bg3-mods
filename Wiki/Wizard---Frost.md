@@ -23,6 +23,10 @@
 
 {{ getf .loca "h3a93972ag6704g4bd4gb1ddgf25f3392d00e" "2" "5" | include "wikify" }}
 
+##### Icicles
+
+{{ get .loca "hded6caeag34bfg4034g9fb8gfba2b07989eb" | include "wikify" }}
+
 ### Level 10
 
 ![[Game/ControllerUIIcons/skills_png/PassiveFeature_SplitEnchantment.png]]
