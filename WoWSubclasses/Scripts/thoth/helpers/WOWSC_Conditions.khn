@@ -51,7 +51,22 @@ function ClearCastingSpellCheck2()
   return IsSpell() & HasUseCosts('ArcaneRecoveryPoint', true)
 end
 
-function WhirlwindSpellCheck()
+function IsWarriorAbility()
+  local result = ConditionResult(false)
+  --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s')" $name }}{{ end }}
+  return result &
+      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack') | HasStringInSpellRoll('SavingThrow'))
+end
+
+function IsRefundableWarriorAbility()
+  local always = always or false
+  local result = ConditionResult(false)
+  --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s', true)" $name }}{{ end }}
+  return IsWarriorAbility() & result &
+      (always | (~SpellTypeIs(SpellType.Zone) & ~SpellTypeIs(SpellType.Shout)))
+end
+
+function SweepingStrikeCheck()
   return SpellTypeIs(SpellType.Target) &
       (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack'))
 end
@@ -75,20 +90,24 @@ function ExecuteSpellCheck()
   return SpellCheck('Target_Execute_Warrior') | SpellCheck('Target_Execute_Fury')
 end
 
-function IsWarriorAbility()
-  local result = ConditionResult(false)
-  --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s')" $name }}{{ end }}
-  return result &
-      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack') | HasStringInSpellRoll('SavingThrow'))
+function BloodthirstSpellCheck()
+  return SpellCheck('Target_Bloodthirst_Warrior') | SpellCheck('Target_Bloodthirst')
 end
 
-function IsRefundableWarriorAbility()
-  local always = always or false
-  local result = ConditionResult(false)
-  --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s', true)" $name }}{{ end }}
-  return IsWarriorAbility() & result &
-      (always | (~SpellTypeIs(SpellType.Zone) & ~SpellTypeIs(SpellType.Shout)))
+function WhirlwindSpellCheck()
+  return SpellCheck('Shout_Whirlwind_Warrior') | SpellCheck('Shout_Whirlwind_Fury') |
+      SpellCheck('Shout_Whirlwind_Bladestorm_Action') | SpellCheck('Shout_Whirlwind_Bladestorm_BonusAction') |
+      SpellCheck('Shout_Whirlwind_Bladestorm_Reaction')
 end
+
+function ThunderClapSpellCheck()
+  return SpellCheck('Shout_ThunderClap_Warrior') | SpellCheck('Shout_ThunderClap_Fury')
+end
+
+function StormSurgeCheck()
+  return ThunderClapSpellCheck() | SpellCheck('Target_LightningStrike_MountainThane') | SpellCheck('Target_CallLightning_MountainThane_Again')
+end
+
 
 function HasWeaponInOffHand()
   result = WieldingWeapon('Melee', true)

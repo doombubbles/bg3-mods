@@ -7,6 +7,10 @@ Abilities:
     Spell: Target_Execute_Warrior
     ActionResource: 68f84003-e47a-425d-97b7-1450723407af
     ConditionError: e79cd847-db5e-4a53-ba52-f822187e2b83
+  Bloodthirst:
+    Spell: Target_Bloodthirst_Warrior
+    ActionResource: 5d073472-b72b-4ec1-93c1-25a60430209d
+    ConditionError: 69b5fb7a-32c9-4668-b093-a6b5d7697182
   Whirlwind:
     Spell: Shout_Whirlwind_Warrior
     ActionResource: 09423f9b-ba87-4c48-86df-22c824850661
@@ -43,3 +47,7 @@ Abilities:
     Spell: Target_Slam_Arms
     ActionResource: fb9b4c16-c29c-4cd4-be27-4f5b4d4d14f3
     ConditionError: b82d2fc7-8f4b-484f-bf76-b9a39cd214bc
+  LightningStrike:
+    Spell: Target_LightningStrike_MountainThane
+    ActionResource: 1f05922b-f2ef-4838-9ff8-cbe04cd59465
+    ConditionError: bd196c8d-00a7-44a2-8d23-ca8065732b29

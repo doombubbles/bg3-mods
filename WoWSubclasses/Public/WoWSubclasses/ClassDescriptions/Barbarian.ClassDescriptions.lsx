@@ -23,6 +23,20 @@
             </node>
           </children>
         </node>
+
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="h5d99d766g2baeg4ab9gbaf5g869b06a144cb" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="hce851700g2e18g4fb5g8f77gac6bfdac9629" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="Name" type="FixedString" value="MountainThane"/>
+          <attribute id="ParentGuid" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
+          <attribute id="PrimaryAbility" type="uint8" value="1"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="SoundClassType" type="FixedString" value="Barbarian"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="UUID" type="guid" value="80f2bf48-ade2-43d4-8337-69f206081c79"/>
+        </node>
       </children>
     </node>
   </region>

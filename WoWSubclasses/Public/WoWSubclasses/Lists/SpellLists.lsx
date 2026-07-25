@@ -50,6 +50,21 @@
           <attribute id="UUID" type="guid" value="1cdec459-6b8a-475d-a4a9-6342c395cd01"/>
         </node>
         <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Mountain Thane Barbarian Warrior Abilities Level 3"/>
+          <attribute id="Spells" type="LSString" value="Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
+          <attribute id="UUID" type="guid" value="5bc42fa0-d83d-461a-8616-af1bbadf45d6"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Mountain Thane Barbarian Warrior Abilities Level 6"/>
+          <attribute id="Spells" type="LSString" value="Target_LightningStrike_MountainThane;Projectile_StormBolt_Warrior;Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
+          <attribute id="UUID" type="guid" value="1e6e7225-f1b6-476d-80c9-ad84d901e707"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Mountain Thane Barbarian Warrior Abilities Level 10"/>
+          <attribute id="Spells" type="LSString" value="Target_LightningStrike_MountainThane;Projectile_StormBolt_Warrior;Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
+          <attribute id="UUID" type="guid" value="f0d373b2-1ec3-451b-8aba-370c52ed1666"/>
+        </node>
+        <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Blood Elf Arcane Torrent"/>
           <attribute id="Spells" type="LSString" value="Shout_ArcaneTorrent"/>
           <attribute id="UUID" type="guid" value="a95e2264-3e59-42fa-b61e-d2f4f7edf396"/>

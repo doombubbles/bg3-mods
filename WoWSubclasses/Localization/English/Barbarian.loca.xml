@@ -31,8 +31,8 @@
   <content contentuid="h359c4045g45a2g4e8aga0aeg7d601c3c53af" version="1">You can use Wild Strike once more this turn without expending any resources.</content>
 
   <content contentuid="h9cfb1c17g1680g4a4bg8ff6ga52731ee25f3" version="1">Meat Cleaver</content>
-  <content contentuid="hdf52f363g33f1g4d1cg9d3bg8e469943b7f4" version="1">After using &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Fury"&gt;Whirlwind&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_ThunderClap_Fury"&gt;Thunder Clap&lt;/LSTag&gt;, your next [1] Warrior Abilities can target two additional creatures within range.</content>
-  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your Warrior Abilities can target two additional creatures within range.</content>
+  <content contentuid="hdf52f363g33f1g4d1cg9d3bg8e469943b7f4" version="1">After using &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Fury"&gt;Whirlwind&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_ThunderClap_Fury"&gt;Thunder Clap&lt;/LSTag&gt;, your next Warrior Ability can target two additional creatures within range.</content>
+  <content contentuid="hb8a6ab0fg3b9ag4686ga6dcg192a0f15ad42" version="1">Your next Warrior Ability can target two additional creatures within range.</content>
   
   <content contentuid="hde4e9cfbgf9fcg4632ga0d2gd94b84091616" version="1">Reckless Abandon</content>
   <content contentuid="h5aa4a6f6g98f5g4c47gaf23gbfa94f446d62" version="1">For the first turn of your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;, all your &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; refund any &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; spent.</content>
@@ -44,5 +44,28 @@
 
   <content contentuid="h4116573cg6b50g4abcg92b7ge3d057a38778" version="1">Fresh Meat</content>
   <content contentuid="had603c37g3ae0g4bfdgb7ccg34d75f1fe706" version="1">When you use &lt;LSTag Type="Spell" Tooltip="Target_Bloodthirst"&gt;Bloodthirst&lt;/LSTag&gt; on a target with maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you go into a &lt;LSTag Type="Status" Tooltip="RAGE_RAMPAGE"&gt;Rage&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hce851700g2e18g4fb5g8f77gac6bfdac9629" version="1">Mountain Thane</content>
+  <content contentuid="h5d99d766g2baeg4ab9gbaf5g869b06a144cb" version="1">You are a fierce warrior that lives to challenge themselves against worthy opponents. Drawing strength from the earth and power from the storm, you strike with blows that hit like a thunder clap to overwhelm your enemies.</content>
+
+  <content contentuid="hed5e5d04ged81g466dgb98aeg1576ebc0adc3" version="1">Lightning Strike</content>
+
+  <content contentuid="hc1a88446gde2dg4021ga1bcgb830a072a772" version="1">Rage becomes Avatar</content>
+  <content contentuid="h2d5a7a3cg32ecg4c8ag8959gc12af6405577" version="1">Your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; turns into Avatar! You're now &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; Bludeoning, Piercing, Slashing, Thunder, and Lightning damage, and your rage damage bonus applies to all damage you deal of those types.</content>
+  <content contentuid="h3f46a0c7g731eg4e20g8b8cg6bf31952ae0b" version="1">Become an Avatar of Storm and Earth. Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludeoning, Piercing, Slashing, Thunder, and Lightning damage, and you add [1] to all damage you deal of those types.</content>
+  <content contentuid="hfadeff2cg7543g4f05gb76cgcd8e2f01701e" version="1">You are an Avatar of Storm and Earth. You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludeoning, Piercing, Slashing, Thunder, and Lightning damage, and you add [1] to all damage you deal of those types.</content>
+
+  <content contentuid="h7a8d88cfg035bg43cfg9fd6g399667db49a6" version="1">Lightning Strike</content>
+  <content contentuid="h031e5358gcd22g4a2cg9793ga54ebd8d3c40" version="1">Lightning strikes all targets within range. If used during &lt;LSTag Type="Status" Tooltip="RAGE_AVATAR"&gt;Avatar&lt;/LSTag&gt;, then for the remaining duration you can call down lightning again as an action.</content>
+  <content contentuid="h2865d3fdg47b2g4be1ga3d7g7b93c97f3f25" version="1">Can cast &lt;LSTag Type="Spell" Tooltip="Target_LightningStrike_MountainThane"&gt;Lightning Strike&lt;/LSTag&gt; again for the rest of your &lt;LSTag Type="Status" Tooltip="RAGE_AVATAR"&gt;Rage&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h278669f2g5453g4a4fg849fga6dec14ae456" version="1">Bolts of the Storm</content>
+  <content contentuid="haa834837gd93cg4671gb67ag37a3e3a36ffb" version="1">&lt;LSTag Type="Spell" Tooltip="Projectile_StormBolt_Warrior"&gt;Storm Bolt&lt;/LSTag&gt; can target 2 additional creatures.</content>
+
+  <content contentuid="h2fb037a8ge066g4226g84c5ge63395401249" version="1">Thunder Blast</content>
+  <content contentuid="h4111d076gb7cfg434egaa6dg2587341a43ca" version="1">Activating &lt;LSTag Type="Status" Tooltip="RAGE_AVATAR"&gt;Avatar&lt;/LSTag&gt; grants you a bonus usage of &lt;LSTag Type="Spell" Tooltip="Shout_ThunderClap_Warrior"&gt;Thunder Clap&lt;/LSTag&gt; that ignores its cooldown.</content>
+
+  <content contentuid="h7672c192gd8eag43cagbe16g06c757b0f424" version="1">Storm Surge</content>
+  <content contentuid="hd26a9a93g8153g4b22gbaebgc20bb221b8ce" version="1">Make your next &lt;LSTag Type="Spell" Tooltip="Shout_ThunderClap_Warrior"&gt;Thunder Clap&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Target_LightningStrike_MountainThane"&gt;Lightning Strike&lt;/LSTag&gt; cost a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead of an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
 
 </contentList>

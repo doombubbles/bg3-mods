@@ -30,6 +30,9 @@
                 <node id="SubClass">
                   <attribute id="Object" type="guid" value="345899c8-8d56-4460-9262-13dac0534b84"/>
                 </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="80f2bf48-ade2-43d4-8337-69f206081c79"/>
+                </node>
               </children>
             </node>
           </children>
@@ -129,6 +132,99 @@
           <attribute id="Selectors" type="LSString" value="SelectSpells(e08c6131-602e-4089-bbf6-2e68a1bee15c,0,1,WarriorAbilities)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="0e808636-c744-4332-91c8-8604452c82c3"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="PassivesAdded" type="LSString" value="RageAvatarUnlock;WarriorResources;BloodthirstPassive_MountainThane"/>
+          <attribute id="PassivesRemoved" type="LSString" value="RageUnlock"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(5bc42fa0-d83d-461a-8616-af1bbadf45d6,2,0,WarriorAbilities);SelectPassives(b68cfe3f-0638-469b-a032-c9646cbeafaf,1,Talent)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="978d5ac4-04d0-415e-b3af-046ff2e8c8e5"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(5bc42fa0-d83d-461a-8616-af1bbadf45d6,0,1,WarriorAbilities)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="6b47d59d-6d12-467a-8c61-e5e142d1689c"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(5bc42fa0-d83d-461a-8616-af1bbadf45d6,0,1,WarriorAbilities)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="a5da95db-bdef-4b94-a083-7f9b42c1c8b8"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <!-- <attribute id="PassivesAdded" type="LSString" value="TitansGrip"/> -->
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(1e6e7225-f1b6-476d-80c9-ad84d901e707,2,1,WarriorAbilities);SelectPassives(b536d6a6-f355-41d2-ba02-d2c51d34ab19,1,Talent)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="30bf5d14-5bc4-423c-bc8b-211360b20b3f"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(1e6e7225-f1b6-476d-80c9-ad84d901e707,0,1,WarriorAbilities)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="e51bd2fd-48d6-4ad1-8ae2-71e68a73f802"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(1e6e7225-f1b6-476d-80c9-ad84d901e707,0,1,WarriorAbilities)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="6e5e8c37-4716-4dbf-a82c-ee0808b29b2b"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(1e6e7225-f1b6-476d-80c9-ad84d901e707,0,1,WarriorAbilities)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="2c04776f-d6c5-4e49-b1fc-6f28dfdc0db6"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f0d373b2-1ec3-451b-8aba-370c52ed1666,2,1,WarriorAbilities);SelectPassives(8602b325-3674-4be9-ad46-ca754e1f9465,1,Talent)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="bf3d1581-ebe8-497c-836f-9206132a2ca3"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f0d373b2-1ec3-451b-8aba-370c52ed1666,0,1,WarriorAbilities)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="0f4ccc6c-373d-48b9-bf29-57f5182277e6"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="MountainThane"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f0d373b2-1ec3-451b-8aba-370c52ed1666,0,1,WarriorAbilities)"/>
+          <attribute id="TableUUID" type="guid" value="b98a9c2a-2745-425e-b74f-c42a251d5c21"/>
+          <attribute id="UUID" type="guid" value="acf67b2b-e18f-4370-a9db-826766cb5e9c"/>
         </node>
 
       </children>
