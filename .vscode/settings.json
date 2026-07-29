@@ -40,6 +40,14 @@
     "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Baldurs Gate 3\\Data\\Mods\\DoombubblesTweaks\\ScriptExtender\\Lua",
     "${workspaceFolder}/lib"
   ],
+  "Lua.workspace.ignoreDir": [
+    ".vscode",
+    "bin",
+    "build",
+    "output",
+    "temp",
+    "node_modules"
+  ],
   "Lua.workspace.preloadFileSize": 2000,
   "Lua.diagnostics.globals": ["ConditionError"],
   "emmet.excludeLanguages": [],
@@ -61,6 +69,9 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "My Busybox Shell",
+  "terminal.integrated.automationProfile.windows": {
+    "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  },
   "search.exclude": {
     "bin/**": true
   },
@@ -70,6 +81,7 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    "bin/bg3-modders-multitool/Unpacked*": true
+    "bin/bg3-modders-multitool/Unpacked*": true,
+    "**/node_modules": true
   }
 }

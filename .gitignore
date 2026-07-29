@@ -1,5 +1,7 @@
 temp
 build
 output
+node_modules/
 .*.yaml
 *.log
+*~
