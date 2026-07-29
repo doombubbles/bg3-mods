@@ -72,6 +72,9 @@ func main() {
 
 	funcMap["include"] = include(tmpl)
 	funcMap["getf"] = getf
+	funcMap["rootValues"] = func() Values {
+		return values
+	}
 	funcMap["ireplace"] = func(old string, new string, src string) string {
 		searchRegex := regexp.MustCompile("(?i)" + old)
 		return searchRegex.ReplaceAllString(src, new)

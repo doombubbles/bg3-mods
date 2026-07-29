@@ -24,11 +24,13 @@ type wikiPage struct {
 }
 
 type wikiTarget struct {
-	Name   string
-	Page   string
-	Anchor string
-	Icons  []string
-	Href   string
+	Name        string
+	Page        string
+	Anchor      string
+	Icons       []string
+	Href        string
+	Tooltip     bool
+	TooltipName string
 }
 
 type wikiIndex struct {
@@ -68,10 +70,12 @@ type wikiLinkConfig struct {
 }
 
 type wikiLinkConcept struct {
-	Href    string   `yaml:"href"`
-	Icon    string   `yaml:"icon"`
-	Icons   []string `yaml:"icons"`
-	Aliases []string `yaml:"aliases"`
+	Href         string   `yaml:"href"`
+	Icon         string   `yaml:"icon"`
+	Icons        []string `yaml:"icons"`
+	Aliases      []string `yaml:"aliases"`
+	Tooltip      bool     `yaml:"tooltip"`
+	AliasTooltip bool     `yaml:"aliasTooltip"`
 }
 
 func processWikiLinks(root string, configPath string) error {
@@ -254,9 +258,10 @@ func (index *wikiIndex) loadConcepts(path string) error {
 			}
 		}
 		target := wikiTarget{
-			Name:  name,
-			Href:  concept.Href,
-			Icons: icons,
+			Name:    name,
+			Href:    concept.Href,
+			Icons:   icons,
+			Tooltip: concept.Tooltip,
 		}
 		names := append([]string{name}, concept.Aliases...)
 		for _, alias := range names {
@@ -267,7 +272,11 @@ func (index *wikiIndex) loadConcepts(path string) error {
 			if existing, found := index.Concepts[key]; found {
 				return fmt.Errorf("Wiki link name %q is defined by both %q and %q", alias, existing.Name, name)
 			}
-			index.Concepts[key] = target
+			aliasTarget := target
+			if concept.Tooltip && concept.AliasTooltip {
+				aliasTarget.TooltipName = strings.TrimSpace(alias)
+			}
+			index.Concepts[key] = aliasTarget
 		}
 	}
 	return nil
@@ -459,7 +468,7 @@ func renderWikiLink(display string, target wikiTarget, currentPage string, inHTM
 
 	href := wikiLinkHref(target, currentPage)
 	if len(target.Icons) == 0 {
-		return renderMarkdownLink(display, href)
+		return renderMarkdownLink(display, href, target.tooltip())
 	}
 
 	var images strings.Builder
@@ -471,11 +480,25 @@ func renderWikiLink(display string, target wikiTarget, currentPage string, inHTM
 			html.EscapeString(target.Name),
 		)
 	}
-	return renderMarkdownLink(images.String()+html.EscapeString(display), href)
+	return renderMarkdownLink(images.String()+html.EscapeString(display), href, target.tooltip())
 }
 
-func renderMarkdownLink(display string, href string) string {
-	return fmt.Sprintf("[%s](<%s>)", display, html.EscapeString(href))
+func (target wikiTarget) tooltip() string {
+	if !target.Tooltip {
+		return ""
+	}
+	if target.TooltipName != "" {
+		return target.TooltipName
+	}
+	return target.Name
+}
+
+func renderMarkdownLink(display string, href string, tooltip string) string {
+	escapedHref := html.EscapeString(href)
+	if tooltip == "" {
+		return fmt.Sprintf("[%s](<%s>)", display, escapedHref)
+	}
+	return fmt.Sprintf("[%s](<%s> '%s')", display, escapedHref, html.EscapeString(tooltip))
 }
 
 func wikiLinkTarget(target wikiTarget) string {
@@ -507,6 +530,9 @@ func renderWikiLinkHTML(display string, target wikiTarget, href string) string {
 			html.EscapeString(icon),
 			html.EscapeString(target.Name),
 		)
+	}
+	if tooltip := target.tooltip(); tooltip != "" {
+		return fmt.Sprintf("<a href='%s' title='%s'>%s%s</a>", escapedHref, html.EscapeString(tooltip), images.String(), label)
 	}
 	return fmt.Sprintf("<a href='%s'>%s%s</a>", escapedHref, images.String(), label)
 }

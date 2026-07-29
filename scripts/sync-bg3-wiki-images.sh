@@ -3,12 +3,18 @@ set -e
 UNPACKED_DATA="./bin/bg3-modders-multitool/UnpackedData"
 WIKI_SOURCES="./Wiki"
 CONTROLLER_COLOR_OVERRIDES_FILE="./scripts/bg3-wiki-controller-color-overrides.yaml"
-ATLAS_WORK_DIR="$WIKI_SOURCES/.bg3-atlas-work"
+ATLAS_WORK_DIR="$TMP/bg3-mods-wiki-atlas-work"
+MOD_IMAGE_WORK_DIR="$TMP/bg3-mods-wiki-mod-image-work"
+MOD_IMAGE_TARGET_DIR="$WIKI_SOURCES/images"
 LEGACY_TARGET_DIR="$WIKI_SOURCES/images/_bg3"
 LEGACY_SKILL_TARGET_DIR="./Wiki/skills_png"
 
 IMAGE_PATHS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
     -exec grep -hoE '(Game|Gustav_Textures)/[A-Za-z0-9_./-]+\.png|Icons/Textures/[A-Za-z0-9_./-]+\.png' {} \; \
+    | sort -u)
+
+MOD_IMAGE_PATHS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
+    -exec grep -hoE 'images/[A-Za-z0-9_./-]+\.png' {} \; \
     | sort -u)
 
 CONTROLLER_COLOR_OVERRIDES=$(sed -n 's/^[[:space:]]*-[[:space:]]*//p' \
@@ -69,6 +75,43 @@ unpacked_image_path() {
     local source_relative
     source_relative=$(source_relative_path "$1") || return 1
     printf '%s/%s' "$UNPACKED_DATA" "$(unpacked_source_path "$source_relative")"
+}
+
+mod_image_source_path() {
+    local wiki_path="$1"
+    local relative_path="${wiki_path#images/}"
+    local source_stem="${relative_path%.png}"
+    local asset_root
+    local candidate
+    local selected=""
+
+    for asset_root in ./*/Mods/*/GUI/Assets; do
+        [ -d "$asset_root" ] || continue
+
+        candidate=""
+        if [ -f "$asset_root/$source_stem.DDS" ]; then
+            candidate="$asset_root/$source_stem.DDS"
+        elif [ -f "$asset_root/$relative_path" ]; then
+            candidate="$asset_root/$relative_path"
+        fi
+        [ -n "$candidate" ] || continue
+
+        if [ -z "$selected" ]; then
+            selected="$candidate"
+        elif ! cmp -s "$selected" "$candidate"; then
+            echo "Conflicting mod image sources for $wiki_path:" >&2
+            echo "  $selected" >&2
+            echo "  $candidate" >&2
+            return 1
+        fi
+    done
+
+    if [ -z "$selected" ]; then
+        echo "Missing mod image source for $wiki_path" >&2
+        return 1
+    fi
+
+    printf '%s' "$selected"
 }
 
 tooltip_color_source_path() {
@@ -167,6 +210,7 @@ atlas_crop_spec() {
 # Check every source before replacing the generated image directory.
 HAS_ATLAS_IMAGES=false
 HAS_CONTROLLER_COLORS=false
+HAS_MOD_DDS=false
 for WIKI_PATH in $IMAGE_PATHS; do
     SOURCE_PATH=$(unpacked_image_path "$WIKI_PATH")
 
@@ -194,6 +238,15 @@ for WIKI_PATH in $IMAGE_PATHS; do
     fi
 done
 
+for WIKI_PATH in $MOD_IMAGE_PATHS; do
+    SOURCE_PATH=$(mod_image_source_path "$WIKI_PATH") || exit 1
+    case "$SOURCE_PATH" in
+        *.DDS)
+            HAS_MOD_DDS=true
+            ;;
+    esac
+done
+
 if [ "$HAS_ATLAS_IMAGES" = true ] || [ "$HAS_CONTROLLER_COLORS" = true ]; then
     if [ -x "./bin/ImageMagick/magick.exe" ]; then
         MAGICK="./bin/ImageMagick/magick.exe"
@@ -212,6 +265,8 @@ for PACKAGE in Game Gustav_Textures Icons; do
     mkdir -p "$WIKI_SOURCES/$PACKAGE"
 done
 rm -rf "$ATLAS_WORK_DIR"
+rm -rf "$MOD_IMAGE_WORK_DIR"
+mkdir -p "$MOD_IMAGE_WORK_DIR"
 
 for WIKI_PATH in $IMAGE_PATHS; do
     SOURCE_RELATIVE_PATH=$(source_relative_path "$WIKI_PATH")
@@ -232,12 +287,40 @@ for WIKI_PATH in $IMAGE_PATHS; do
     fi
 done
 
+for WIKI_PATH in $MOD_IMAGE_PATHS; do
+    SOURCE_PATH=$(mod_image_source_path "$WIKI_PATH")
+    RELATIVE_PATH="${WIKI_PATH#images/}"
+
+    case "$SOURCE_PATH" in
+        *.DDS)
+            TARGET_PATH="$MOD_IMAGE_WORK_DIR/${RELATIVE_PATH%.png}.DDS"
+            ;;
+        *)
+            TARGET_PATH="$MOD_IMAGE_WORK_DIR/$RELATIVE_PATH"
+            ;;
+    esac
+
+    mkdir -p "$(dirname "$TARGET_PATH")"
+    cp "$SOURCE_PATH" "$TARGET_PATH"
+done
+
 for PACKAGE in Game Gustav_Textures Icons; do
     ./bin/DDStronk.exe "$WIKI_SOURCES/$PACKAGE"
 done
 if [ "$HAS_ATLAS_IMAGES" = true ]; then
     ./bin/DDStronk.exe "$ATLAS_WORK_DIR"
 fi
+if [ "$HAS_MOD_DDS" = true ]; then
+    ./bin/DDStronk.exe "$MOD_IMAGE_WORK_DIR"
+fi
+
+for WIKI_PATH in $MOD_IMAGE_PATHS; do
+    TARGET_PATH="$MOD_IMAGE_WORK_DIR/${WIKI_PATH#images/}"
+    if [ ! -f "$TARGET_PATH" ]; then
+        echo "Mod image conversion did not create $TARGET_PATH" >&2
+        exit 1
+    fi
+done
 
 for WIKI_PATH in $IMAGE_PATHS; do
     case "$WIKI_PATH" in
@@ -276,6 +359,9 @@ if [ "$HAS_CONTROLLER_COLORS" = true ]; then
 fi
 
 rm -rf "$ATLAS_WORK_DIR"
+find "$MOD_IMAGE_WORK_DIR" -type f -iname '*.dds' -exec rm -f {} \;
+rm -rf "$MOD_IMAGE_TARGET_DIR"
+mv "$MOD_IMAGE_WORK_DIR" "$MOD_IMAGE_TARGET_DIR"
 for PACKAGE in Game Gustav_Textures Icons; do
     find "$WIKI_SOURCES/$PACKAGE" -type f -iname '*.dds' -exec rm -f {} \;
 done

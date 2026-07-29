@@ -86,6 +86,22 @@ Any Rune:
 
 All configured icons are rendered before the link label. Do not define both `icon` and `icons` on the same concept.
 
+Set `tooltip: true` when a concept link should show its canonical YAML entry name on hover. By default, aliases also show the canonical name. Add `aliasTooltip: true` to instead show the particular alias used by the link. Custom display text does not change the tooltip:
+
+```yaml
+Rune Die:
+  href: Death-Knight#rune-die-1d4
+  tooltip: true
+  aliasTooltip: true
+  aliases: [2 Rune Die, 3 Rune Die, 4 Rune Die]
+```
+
+```md
+[[2d4 | 2 Rune Die]]
+```
+
+The rendered link displays `2d4` and has a `2 Rune Die` hover tooltip.
+
 Keep destinations and icon choices centralized rather than adding another VS Code snippet or a static-string `wikify` call. Organize new entries under the existing resource, ability, damage, mechanics, or rest sections.
 
 ## Role of `wikify`
@@ -101,7 +117,7 @@ It turns terms embedded inside localized strings into Wiki-compatible links and 
 
 ## Image synchronization
 
-`scripts/sync-bg3-wiki-images.sh` reads all source Markdown, snippets, templates, and the concept registry. It manages `Wiki/Game`, `Wiki/Gustav_Textures`, and `Wiki/Icons`, expanding each compact package path back to its full location beneath `UnpackedData` while copying, converting, and removing unused output. Custom icons remain under `Wiki/images` and are not copied into these directories.
+`scripts/sync-bg3-wiki-images.sh` reads all source Markdown, snippets, templates, and the concept registry. It manages `Wiki/Game`, `Wiki/Gustav_Textures`, and `Wiki/Icons`, expanding each compact package path back to its full location beneath `UnpackedData` while copying, converting, and removing unused output. It also manages `Wiki/images` by resolving `images/...` references against each mod's `Mods/*/GUI/Assets` directory and converting only the referenced custom DDS files. Conflicting sources at the same relative path fail the sync unless their contents are identical.
 
 For referenced `Game/ControllerUIIcons/skills_png` icons explicitly listed in `scripts/bg3-wiki-controller-color-overrides.yaml`, the syncer uses ImageMagick to combine the matching tooltip texture's RGB channels with the controller alpha channel. This restores authored colors without reintroducing the tooltip texture's faded lower edge. The list is deliberately opt-in because matching filenames do not guarantee compatible artwork.
 

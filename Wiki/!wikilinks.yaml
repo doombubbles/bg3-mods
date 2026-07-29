@@ -18,7 +18,7 @@ concepts:
     aliases: [Movement]
   Spell Slot:
     href: https://bg3.wiki/wiki/Spell_slot
-    icon: Game/ActionResources_c/Icons/SpellSlot.png
+    icon: Game/Tooltips/ico_spellSlotTT.png
     aliases: [Spell Slots]
   Warlock Spell Slot:
     href: https://bg3.wiki/wiki/Warlock_Spell_Slot
@@ -374,27 +374,50 @@ concepts:
   Strength:
     href: https://bg3.wiki/wiki/Strength
     icon: Game/AbilityIcons/strength.png
+  Strength Modifier:
+    href: https://bg3.wiki/wiki/Strength
+    icon: Game/AbilityIcons/strength.png
     aliases: [STR]
+    tooltip: true
   Dexterity:
     href: https://bg3.wiki/wiki/Dexterity
     icon: Game/AbilityIcons/dexterity.png
+  Dexterity Modifier:
+    href: https://bg3.wiki/wiki/Dexterity
+    icon: Game/AbilityIcons/dexterity.png
     aliases: [DEX]
+    tooltip: true
   Constitution:
+    href: https://bg3.wiki/wiki/Constitution
+    icon: Game/AbilityIcons/constitution.png
+  Constitution Modifier:
     href: https://bg3.wiki/wiki/Constitution
     icon: Game/AbilityIcons/constitution.png
     aliases: [CON]
   Intelligence:
     href: https://bg3.wiki/wiki/Intelligence
     icon: Game/AbilityIcons/intelligence.png
+  Intelligence Modifier:
+    href: https://bg3.wiki/wiki/Intelligence
+    icon: Game/AbilityIcons/intelligence.png
     aliases: [INT]
+    tooltip: true
   Wisdom:
     href: https://bg3.wiki/wiki/Wisdom
     icon: Game/AbilityIcons/wisdom.png
+  Wisdom Modifier:
+    href: https://bg3.wiki/wiki/Wisdom
+    icon: Game/AbilityIcons/wisdom.png
     aliases: [WIS]
+    tooltip: true
   Charisma:
     href: https://bg3.wiki/wiki/Charisma
     icon: Game/AbilityIcons/charisma.png
+  Charisma Modifier:
+    href: https://bg3.wiki/wiki/Charisma
+    icon: Game/AbilityIcons/charisma.png
     aliases: [CHA]
+    tooltip: true
   Ability Scores:
     href: https://bg3.wiki/wiki/Ability_Check
     aliases: [Ability Score]
@@ -562,3 +585,17 @@ concepts:
     aliases: [Long Rests]
   Rage:
     href: https://bg3.wiki/wiki/Rage
+
+
+  Holy Die:
+    href: Paladin---Abilities#holy-die
+    icon: images/ControllerIcons/skills_png/PassiveFeature_Paladin_HolyDie.png
+    tooltip: true
+    aliasTooltip: true
+    aliases: [1 Holy Die, 2 Holy Die, 3 Holy Die, 4 Holy Die, Holy Die Total, 1 Holy Die Total, 2 Holy Die Total, 3 Holy Die Total, 4 Holy Die Total]
+  Rune Die:
+    href: Death-Knight#rune-die
+    icon: images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png
+    tooltip: true
+    aliasTooltip: true
+    aliases: [2 Rune Die, 3 Rune Die, 4 Rune Die, Rune Die Total, 2 Rune Die Total, 3 Rune Die Total, 4 Rune Die Total]

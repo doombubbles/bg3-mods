@@ -1,10 +1,14 @@
 package main
 
 import (
+	"bytes"
 	"os"
 	"path/filepath"
 	"strings"
 	"testing"
+	"text/template"
+
+	"github.com/Masterminds/sprig/v3"
 )
 
 func mustExpandWikiLinks(t *testing.T, source string, currentPage string, index *wikiIndex) (string, bool) {
@@ -136,10 +140,28 @@ func TestCleanHeadingNameUsesWikilinkDisplayText(t *testing.T) {
 
 func TestExpandWikiLinksSupportsBuiltInConcept(t *testing.T) {
 	index := newWikiIndex()
-	index.Concepts[normalizeWikiName("Action Point")] = wikiTarget{Name: "Action Point", Href: "https://bg3.wiki/wiki/Action", Icons: []string{"Game/ActionResources_c/Icons/c_ico_AP.png"}}
+	target := wikiTarget{Name: "Action Point", Href: "https://bg3.wiki/wiki/Action", Icons: []string{"Game/ActionResources_c/Icons/c_ico_AP.png"}}
+	index.Concepts[normalizeWikiName("Action Point")] = target
+	index.Concepts[normalizeWikiName("Action")] = target
 	got, _ := mustExpandWikiLinks(t, "Spend an [[Action]].", "Page", index)
-	want := "Spend an [<img src='Game/ActionResources_c/Icons/c_ico_AP.png' height='25' align='top' alt='Action Point' />Action Point](<https://bg3.wiki/wiki/Action>)."
+	want := "Spend an [<img src='Game/ActionResources_c/Icons/c_ico_AP.png' height='25' align='top' alt='Action Point' />Action](<https://bg3.wiki/wiki/Action>)."
 	requireEqual(t, got, want)
+}
+
+func TestExpandWikiLinkUsesConfiguredTooltipName(t *testing.T) {
+	dir := t.TempDir()
+	path := filepath.Join(dir, "wikilinks.yaml")
+	content := "concepts:\n  Rune Die:\n    href: Death-Knight#rune-die-1d4\n    tooltip: true\n    aliasTooltip: true\n    aliases: [2 Rune Die]\n  Holy Die:\n    href: Paladin---Abilities#holy-die\n    tooltip: true\n    aliases: [2 Holy Die]\n"
+	if err := os.WriteFile(path, []byte(content), 0644); err != nil {
+		t.Fatal(err)
+	}
+	index := newWikiIndex()
+	if err := index.loadConcepts(path); err != nil {
+		t.Fatal(err)
+	}
+
+	got, _ := mustExpandWikiLinks(t, "Roll [[1d4 | Rune Die]], [[2d4 | 2 Rune Die]], or [[2d4 | 2 Holy Die]].", "Page", index)
+	requireEqual(t, got, "Roll [1d4](<Death-Knight#rune-die-1d4> 'Rune Die'), [2d4](<Death-Knight#rune-die-1d4> '2 Rune Die'), or [2d4](<Paladin---Abilities#holy-die> 'Holy Die').")
 }
 
 func TestExpandWikiImage(t *testing.T) {
@@ -227,6 +249,15 @@ func TestExpandWikiLinkWithoutIconInsideHTML(t *testing.T) {
 	requireEqual(t, got, want)
 }
 
+func TestExpandWikiLinkUsesConfiguredTooltipInsideHTML(t *testing.T) {
+	target := wikiTarget{Name: "Holy Die", Href: "Paladin---Abilities#holy-die", Tooltip: true}
+	index := newWikiIndex()
+	index.Concepts[normalizeWikiName(target.Name)] = target
+
+	got, _ := mustExpandWikiLinks(t, "<td>[[Holy Die]]</td>\n", "Page", index)
+	requireEqual(t, got, "<td><a href='Paladin---Abilities#holy-die' title='Holy Die'>Holy Die</a></td>\n")
+}
+
 func TestExpandWikiLinksIgnoresCode(t *testing.T) {
 	source := "`[[Inline]] ?[[Search]] ![[image.png]]`\n\n```md\n[[Fenced]] ?[[Search]] ![[image.png]]\n```\n\n    [[Indented]] ?[[Search]] ![[image.png]]\n"
 	got, changed := mustExpandWikiLinks(t, source, "Page", newWikiIndex())
@@ -245,5 +276,52 @@ func TestResolveRejectsAmbiguousHeadings(t *testing.T) {
 	_, err := index.resolve("Charge", "Home")
 	if err == nil || !strings.Contains(err.Error(), "ambiguous") {
 		t.Fatalf("expected ambiguity error, got %v", err)
+	}
+}
+
+func TestPaladinDieHelper(t *testing.T) {
+	values := Values{
+		"Paladin": Values{
+			"Dice": map[string]interface{}{
+				"CrusaderStrike": "LevelMapValue(1HolyDie)",
+				"Judgement":      "LevelMapValue(2HolyDie)",
+			},
+		},
+	}
+
+	tmpl := template.New("helpers")
+	funcMap := template.FuncMap{
+		"ireplace": func(_, _, src string) string {
+			return src
+		},
+		"rootValues": func() Values {
+			return values
+		},
+	}
+	tmpl.Funcs(sprig.FuncMap()).Funcs(funcMap)
+
+	helpersPath := filepath.Join("..", "..", "Wiki", "!helpers.tpl")
+	helpers, err := os.ReadFile(helpersPath)
+	if err != nil {
+		t.Fatalf("read helpers: %v", err)
+	}
+	if _, err := tmpl.Parse(string(helpers)); err != nil {
+		t.Fatalf("parse helpers: %v", err)
+	}
+
+	tests := map[string]string{
+		"CrusaderStrike": "[[1d4 | Holy Die]]",
+		"Judgement":      "[[2d4 | 2 Holy Die]]",
+	}
+	for ability, want := range tests {
+		t.Run(ability, func(t *testing.T) {
+			var output bytes.Buffer
+			if err := tmpl.ExecuteTemplate(&output, "paladinDie", ability); err != nil {
+				t.Fatalf("execute paladinDie: %v", err)
+			}
+			if got := output.String(); got != want {
+				t.Fatalf("paladinDie output = %q, want %q", got, want)
+			}
+		})
 	}
 }

@@ -92,6 +92,10 @@
 {{ $str }}
 {{- end -}}
 
-{{- define "pallyScale" -}}
-Improving at {{ $.Values.ScaleWithPaladinLevel | ternary "paladin" "character" }} level 5 and 10
+{{- define "paladinDie" -}}
+{{- $paladin := index (rootValues) "Paladin" -}}
+{{- $dice := index $paladin "Dice" -}}
+{{- $raw := index $dice . -}}
+{{- $count := $raw | trimPrefix "LevelMapValue(" | trimSuffix "HolyDie)" -}}
+[[{{ $count }}d4 | {{ if eq $count "1" }}Holy Die{{ else }}{{ $count }} Holy Die{{ end }}]]
 {{- end -}}
