@@ -47,12 +47,25 @@ class DocumentSymbol {
   ) {}
 }
 
+class CompletionItem {
+  range?: vscode.Range;
+  detail?: string;
+  documentation?: string;
+
+  constructor(
+    readonly label: string,
+    readonly kind?: vscode.CompletionItemKind
+  ) {}
+}
+
 export interface MockVscodeApi {
   Position: typeof Position;
   Range: typeof Range;
   Location: typeof Location;
   SymbolInformation: typeof SymbolInformation;
   DocumentSymbol: typeof DocumentSymbol;
+  CompletionItem: typeof CompletionItem;
+  CompletionItemKind: Record<string, vscode.CompletionItemKind>;
   SymbolKind: Record<string, vscode.SymbolKind>;
   workspace: {
     textDocuments: vscode.TextDocument[];
@@ -125,6 +138,14 @@ export function createDocument(
     },
     positionAt(offset: number) {
       return positionAt(text, offset);
+    },
+    offsetAt(position: vscode.Position) {
+      const lines = text.split("\n");
+      let offset = 0;
+      for (let line = 0; line < position.line; line += 1) {
+        offset += (lines[line]?.length ?? 0) + 1;
+      }
+      return offset + position.character;
     }
   };
 
@@ -148,6 +169,11 @@ export function createVscodeMock(
     Location,
     SymbolInformation,
     DocumentSymbol,
+    CompletionItem,
+    CompletionItemKind: {
+      Module: 1,
+      Value: 2
+    },
     SymbolKind: {
       Object: 1,
       Class: 2,

@@ -47,6 +47,17 @@ into a monolith. esbuild combines those modules into the committed
 Generated and third-party folders such as `build/`, `bin/`, `node_modules/`,
 and `Wiki/` are excluded from definition lookup.
 
+## Template-value completions
+
+- Suggests ProcessTemplates values while typing root expressions such as
+  `{{ $.` and nested paths such as `{{ $.Values.`.
+- Mirrors ProcessTemplates' dotted-filename convention, so
+  `Paladin.Dice.yaml` supplies completions beneath `$.Paladin.Dice`.
+- Reads YAML from the nearest mod root, keeping suggestions from adjacent
+  projects out of the completion list.
+- Refreshes suggestions when YAML value files are edited, created, changed,
+  or deleted.
+
 ## Development structure
 
 - `src/features/gameData/index.ts` registers providers, watchers, and editor

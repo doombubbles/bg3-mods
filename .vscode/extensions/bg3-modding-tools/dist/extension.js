@@ -824,9 +824,383 @@ function registerGameDataFeatures(vscodeApi, context) {
   scheduleVisibleDecorationUpdate();
 }
 
+// src/features/templateValues/model.ts
+function createValueNode() {
+  return { children: /* @__PURE__ */ new Map() };
+}
+function mappingColon(line) {
+  let quote = "";
+  let flowDepth = 0;
+  for (let index = 0; index < line.length; index += 1) {
+    const character = line[index];
+    if (quote) {
+      if (character === quote && line[index - 1] !== "\\") {
+        quote = "";
+      }
+      continue;
+    }
+    if (character === "'" || character === '"') {
+      quote = character;
+    } else if (character === "[" || character === "{") {
+      flowDepth += 1;
+    } else if (character === "]" || character === "}") {
+      flowDepth = Math.max(0, flowDepth - 1);
+    } else if (character === ":" && flowDepth === 0) {
+      return index;
+    }
+  }
+  return -1;
+}
+function withoutComment(value) {
+  let quote = "";
+  for (let index = 0; index < value.length; index += 1) {
+    const character = value[index];
+    if (quote) {
+      if (character === quote && value[index - 1] !== "\\") {
+        quote = "";
+      }
+    } else if (character === "'" || character === '"') {
+      quote = character;
+    } else if (character === "#" && (index === 0 || /\s/.test(value[index - 1] ?? ""))) {
+      return value.slice(0, index).trimEnd();
+    }
+  }
+  return value;
+}
+function unquote(value) {
+  if (value.startsWith('"') && value.endsWith('"')) {
+    try {
+      return JSON.parse(value);
+    } catch {
+      return value.slice(1, -1);
+    }
+  }
+  if (value.startsWith("'") && value.endsWith("'")) {
+    return value.slice(1, -1).replaceAll("''", "'");
+  }
+  return value;
+}
+function scalarValue(source) {
+  const value = withoutComment(source).trim();
+  if (value === "" || /^[>|][+-]?$/.test(value)) {
+    return {};
+  }
+  if (value === "true") {
+    return true;
+  }
+  if (value === "false") {
+    return false;
+  }
+  if (value === "null" || value === "~") {
+    return null;
+  }
+  if (/^[-+]?(?:\d+\.?\d*|\.\d+)$/.test(value)) {
+    return Number(value);
+  }
+  return unquote(value);
+}
+function parseCompletionYaml(text) {
+  const root = {};
+  const stack = [{ indent: -1, mapping: root }];
+  let ignoredSequenceIndent;
+  let ignoredBlockIndent;
+  for (const rawLine of text.split(/\r?\n/)) {
+    if (/^\s*$/.test(rawLine) || /^\s*#/.test(rawLine)) {
+      continue;
+    }
+    const indentText = rawLine.match(/^[ \t]*/)?.[0] ?? "";
+    if (indentText.includes("	")) {
+      continue;
+    }
+    const indent = indentText.length;
+    const line = rawLine.slice(indent);
+    if (line === "---" || line === "..." || line.startsWith("%")) {
+      continue;
+    }
+    if (ignoredBlockIndent !== void 0 && indent > ignoredBlockIndent) {
+      continue;
+    }
+    if (ignoredBlockIndent !== void 0 && indent <= ignoredBlockIndent) {
+      ignoredBlockIndent = void 0;
+    }
+    if (ignoredSequenceIndent !== void 0 && indent > ignoredSequenceIndent) {
+      continue;
+    }
+    if (ignoredSequenceIndent !== void 0 && indent <= ignoredSequenceIndent) {
+      ignoredSequenceIndent = void 0;
+    }
+    if (line.startsWith("-")) {
+      ignoredSequenceIndent = indent;
+      continue;
+    }
+    const colon = mappingColon(line);
+    if (colon < 0) {
+      continue;
+    }
+    const key = unquote(line.slice(0, colon).trim());
+    if (!key || key === "?") {
+      continue;
+    }
+    const rawValue = withoutComment(line.slice(colon + 1)).trim();
+    const openingFlows = (rawValue.match(/[\[{]/g) ?? []).length;
+    const closingFlows = (rawValue.match(/[\]}]/g) ?? []).length;
+    if (openingFlows !== closingFlows) {
+      return void 0;
+    }
+    while (stack.length > 1 && indent <= stack[stack.length - 1].indent) {
+      stack.pop();
+    }
+    const parent = stack[stack.length - 1].mapping;
+    const value = scalarValue(rawValue);
+    parent[key] = value;
+    if (/^[>|][+-]?$/.test(rawValue)) {
+      ignoredBlockIndent = indent;
+      continue;
+    }
+    if (value && typeof value === "object" && !Array.isArray(value)) {
+      stack.push({
+        indent,
+        mapping: value
+      });
+    }
+  }
+  return root;
+}
+function populateNode(node, value, source) {
+  node.children.clear();
+  node.source = source;
+  node.value = value;
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return;
+  }
+  for (const [key, childValue] of Object.entries(value)) {
+    const child = createValueNode();
+    populateNode(child, childValue, source);
+    node.children.set(key, child);
+  }
+}
+function valueTreeFromYamlFiles(files) {
+  const root = createValueNode();
+  for (const file of [...files].sort(
+    (a, b) => a.relativePath.localeCompare(b.relativePath)
+  )) {
+    const filename = file.relativePath.replaceAll("\\", "/").split("/").at(-1);
+    if (!filename?.toLowerCase().endsWith(".yaml")) {
+      continue;
+    }
+    const parsed = parseCompletionYaml(file.text);
+    if (!parsed) {
+      continue;
+    }
+    const parts = filename.slice(0, -".yaml".length).split(".").filter(Boolean);
+    if (parts.length === 0) {
+      continue;
+    }
+    let current = root;
+    for (const part of parts) {
+      let child = current.children.get(part);
+      if (!child) {
+        child = createValueNode();
+        current.children.set(part, child);
+      }
+      current = child;
+    }
+    populateNode(current, parsed, file.relativePath);
+  }
+  return root;
+}
+function valueNodeAtPath(root, path) {
+  let current = root;
+  for (const segment of path) {
+    const child = current.children.get(segment);
+    if (!child) {
+      return void 0;
+    }
+    current = child;
+  }
+  return current;
+}
+function templateValueCompletionContext(textBeforeCursor) {
+  const opening = textBeforeCursor.lastIndexOf("{{");
+  const closing = textBeforeCursor.lastIndexOf("}}");
+  if (opening <= closing) {
+    return void 0;
+  }
+  const actionText = textBeforeCursor.slice(opening + 2);
+  const match = actionText.match(/\$\.([A-Za-z0-9_.-]*)$/);
+  if (!match) {
+    return void 0;
+  }
+  const valuePath = match[1];
+  const segments = valuePath.split(".");
+  const partial = segments.pop() ?? "";
+  return {
+    parentPath: segments.filter(Boolean),
+    partial,
+    replaceStart: textBeforeCursor.length - partial.length
+  };
+}
+function valuePreview(node) {
+  if (node.children.size > 0) {
+    return `${node.children.size} value${node.children.size === 1 ? "" : "s"}`;
+  }
+  if (typeof node.value === "string") {
+    return node.value;
+  }
+  if (node.value === void 0) {
+    return "";
+  }
+  return JSON.stringify(node.value);
+}
+
+// src/features/templateValues/completions.ts
+var TEMPLATE_VALUE_SELECTOR = [
+  { scheme: "file", pattern: "**/*.txt" },
+  { scheme: "file", pattern: "**/*.tmpl" },
+  { scheme: "file", pattern: "**/*.lsx" },
+  { scheme: "file", pattern: "**/*.loca.xml" },
+  { scheme: "file", pattern: "**/*.khn" },
+  { scheme: "file", pattern: "**/*.md" }
+];
+function provideTemplateValueCompletions(vscodeApi, index, document, position) {
+  const cursorOffset = document.offsetAt(position);
+  const context = templateValueCompletionContext(
+    document.getText().slice(0, cursorOffset)
+  );
+  if (!context) {
+    return void 0;
+  }
+  const root = index.treeFor(document.uri);
+  const parent = root && valueNodeAtPath(root, context.parentPath);
+  if (!parent) {
+    return void 0;
+  }
+  const replaceRange = new vscodeApi.Range(
+    document.positionAt(context.replaceStart),
+    position
+  );
+  return [...parent.children.entries()].filter(
+    ([name]) => name.toLowerCase().startsWith(context.partial.toLowerCase())
+  ).sort(([left], [right]) => left.localeCompare(right)).map(([name, node]) => {
+    const item = new vscodeApi.CompletionItem(
+      name,
+      node.children.size > 0 ? vscodeApi.CompletionItemKind.Module : vscodeApi.CompletionItemKind.Value
+    );
+    item.range = replaceRange;
+    item.detail = valuePreview(node);
+    if (node.source) {
+      item.documentation = `Defined by ${node.source}`;
+    }
+    return item;
+  });
+}
+
+// src/features/templateValues/valueIndex.ts
+var YAML_FILES_PATTERN = "**/*.yaml";
+var YAML_EXCLUDE_PATTERN = "**/{.git,.vscode,bin,build,node_modules,output,temp,Wiki}/**";
+function normalizedRelativePath(vscodeApi, uri) {
+  return vscodeApi.workspace.asRelativePath(uri).replaceAll("\\", "/");
+}
+function directoryName(path) {
+  const separator = path.lastIndexOf("/");
+  return separator < 0 ? "" : path.slice(0, separator);
+}
+function isWithin(path, directory) {
+  return directory === "" || path === directory || path.startsWith(`${directory}/`);
+}
+function projectRootFor(documentPath, files) {
+  const markerRoots = files.filter((file) => {
+    const filename = file.relativePath.split("/").at(-1)?.toLowerCase();
+    return filename === "values.yaml" || filename === "version.yaml";
+  }).map((file) => directoryName(file.relativePath)).filter((root) => isWithin(documentPath, root)).sort((a, b) => b.length - a.length);
+  return markerRoots[0];
+}
+var TemplateValueIndex = class {
+  constructor(vscodeApi) {
+    this.vscodeApi = vscodeApi;
+    this.ready = this.loadWorkspace();
+  }
+  files = /* @__PURE__ */ new Map();
+  ready;
+  async loadWorkspace() {
+    const uris = await this.vscodeApi.workspace.findFiles(
+      YAML_FILES_PATTERN,
+      YAML_EXCLUDE_PATTERN
+    );
+    await Promise.all(uris.map((uri) => this.loadUri(uri)));
+  }
+  async loadUri(uri) {
+    const bytes = await this.vscodeApi.workspace.fs.readFile(uri);
+    this.setText(uri, Buffer.from(bytes).toString("utf8"));
+  }
+  setText(uri, text) {
+    this.files.set(uri.toString(), {
+      uri,
+      relativePath: normalizedRelativePath(this.vscodeApi, uri),
+      text
+    });
+  }
+  removeUri(uri) {
+    this.files.delete(uri.toString());
+  }
+  treeFor(documentUri) {
+    const documentPath = normalizedRelativePath(this.vscodeApi, documentUri);
+    const files = [...this.files.values()];
+    const projectRoot = projectRootFor(documentPath, files);
+    if (projectRoot === void 0) {
+      return void 0;
+    }
+    return valueTreeFromYamlFiles(
+      files.filter((file) => isWithin(file.relativePath, projectRoot))
+    );
+  }
+};
+
+// src/features/templateValues/index.ts
+function registerTemplateValueFeatures(vscodeApi, context) {
+  const index = new TemplateValueIndex(vscodeApi);
+  const watcher = vscodeApi.workspace.createFileSystemWatcher(
+    YAML_FILES_PATTERN
+  );
+  const updateFromDisk = async (uri) => {
+    await index.ready;
+    await index.loadUri(uri);
+  };
+  context.subscriptions.push(
+    vscodeApi.languages.registerCompletionItemProvider(
+      TEMPLATE_VALUE_SELECTOR,
+      {
+        async provideCompletionItems(document, position, token) {
+          await index.ready;
+          if (token.isCancellationRequested) {
+            return void 0;
+          }
+          return provideTemplateValueCompletions(
+            vscodeApi,
+            index,
+            document,
+            position
+          );
+        }
+      },
+      "."
+    ),
+    vscodeApi.workspace.onDidChangeTextDocument((event) => {
+      if (event.document.uri.path.toLowerCase().endsWith(".yaml")) {
+        index.setText(event.document.uri, event.document.getText());
+      }
+    }),
+    watcher,
+    watcher.onDidCreate(updateFromDisk),
+    watcher.onDidChange(updateFromDisk),
+    watcher.onDidDelete((uri) => index.removeUri(uri))
+  );
+}
+
 // src/extension.ts
 function activate(context) {
   registerGameDataFeatures(vscode, context);
+  registerTemplateValueFeatures(vscode, context);
 }
 function deactivate() {
 }

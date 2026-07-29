@@ -24,7 +24,7 @@
     "bundle": "esbuild src/extension.ts --bundle --platform=node --format=cjs --external:vscode --outfile=dist/extension.js",
     "check-types": "tsc --noEmit",
     "test": "node --import tsx --test \"test/*.test.ts\"",
-    "test:coverage": "node --import tsx --test --experimental-test-coverage --test-coverage-include=src/features/gameData/**/*.ts --test-coverage-lines=90 --test-coverage-branches=75 --test-coverage-functions=80 \"test/*.test.ts\"",
+    "test:coverage": "node --import tsx --test --experimental-test-coverage --test-coverage-include=src/features/**/*.ts --test-coverage-lines=90 --test-coverage-branches=75 --test-coverage-functions=80 \"test/*.test.ts\"",
     "verify": "npm run build && npm run test:coverage",
     "watch": "esbuild src/extension.ts --bundle --platform=node --format=cjs --external:vscode --outfile=dist/extension.js --watch"
   },
