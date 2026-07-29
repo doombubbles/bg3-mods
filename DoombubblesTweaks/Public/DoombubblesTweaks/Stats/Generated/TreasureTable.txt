@@ -106,7 +106,7 @@ new subtable "-1"
 object category "I_DBT_BlindingSmite_Quarterstaff",1,0,0,0,0,0,0,0
 
 
-new treasuretable "WYR_OrinsImpersonation_Smith"  {{/* Exxvikyap, Moonrise Towers */}}
+new treasuretable "WYR_OrinsImpersonation_Smith"  {{/* Exxvikyap, Rivington */}}
 CanMerge 1
 new subtable "-1"
 object category "I_DBT_StaggeringSmite_Quarterstaff",1,0,0,0,0,0,0,0

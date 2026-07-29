@@ -87,8 +87,8 @@
 	<content contentuid="h8dfd7043g42b6g4b76g8af0gc7002619baf0" version="1">The combined power of Ansur, Heart of the Gate, and Kereska, draconic goddess of arcane knowledge, imbues this weapon with elemental energy. You will become a seductive lord of thunder.</content>
 
 
-	<content contentuid="hef70caa4g3060g48bbga1d0gd50c4c0569fa" version="1">Once per combat, your staff will allow you to cast this using a bonus action instead of an action.</content>
-	<content contentuid="hd86b0644ged20g4a2bgbfb6g123c2fbb6757" version="1">Once per short rest, your staff will allow you to cast this using a bonus action instead of an action.</content>
+	<content contentuid="hef70caa4g3060g48bbga1d0gd50c4c0569fa" version="1">Once per combat, your weapon will allow you to cast this using a bonus action instead of an action.</content>
+	<content contentuid="hd86b0644ged20g4a2bgbfb6g123c2fbb6757" version="1">Once per short rest, your weapon will allow you to cast this using a bonus action instead of an action.</content>
 
 	{{ range $cantrip, $values := $.QuickenedCantrips }}
 	<content contentuid="{{.DisplayName}}" version="1">Quickened {{.Title}}</content>

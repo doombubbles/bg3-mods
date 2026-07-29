@@ -1,4 +1,4 @@
-{{- if $.Balance.HealingBuffs }}
+{{- if $.HealingBuffs }}
 
 new entry "Target_CureWounds"
 type "SpellData"

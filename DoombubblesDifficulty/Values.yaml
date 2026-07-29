@@ -3,7 +3,7 @@ Version: 1.0.0.4
 QuickenedCantripsPerCombat: false
 
 HealingBuffs: true
-PotionSickness: false
+PotionSickness: true
 
 NerfTavernBrawler: true
 NerfStackMaxes: true

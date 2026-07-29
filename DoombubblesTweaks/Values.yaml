@@ -14,7 +14,3 @@ GithyankiWarMagicOP: true
 CasterExtraAttackOption: false
 CasterImprovedExtraAttackOption: false
 BladeInfusions: false
-
-# Other Mod Changes
-PaladinUpCasts: true
-PaladinCantrips: true

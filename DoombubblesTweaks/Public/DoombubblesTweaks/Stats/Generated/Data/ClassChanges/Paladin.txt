@@ -306,8 +306,3 @@ data "SpellType" "Shout"
 using "Shout_MAG_Restore_ChannelDivinity"
 data "DescriptionParams" "h24c1628dgf93bg4a0eg9780g752a29f4c7da"
 data "SpellProperties" "RestoreResource(ChannelOath,100%,0)"
-
-{{ tpl (readFile "WoWSubclasses/Public/WoWSubclasses/Stats/Generated/Data/Paladin/Holy.txt") . }}
-{{ tpl (readFile "WoWSubclasses/Public/WoWSubclasses/Stats/Generated/Data/Paladin/Protection.txt") . }}
-{{ tpl (readFile "WoWSubclasses/Public/WoWSubclasses/Stats/Generated/Data/Paladin/Retribution.txt") . }}
-{{ tpl (readFile "WoWSubclasses/Public/WoWSubclasses/Stats/Generated/Data/Paladin/Shared.txt") . }}
