@@ -1,3 +1,5 @@
+# [Doombubbles BG3 Mods](.)
+
 ## WoW Death Knight
 
 ### New Classes
@@ -15,15 +17,18 @@
 
 ### New Subclasses
 
+
 - Barbarian
   - [[Fury | Barbarian---Fury]]
   - [[Mountain Thane | Barbarian---Mountain-Thane]]
+  - [[Shared Warrior Talents | Warrior---Talents]]
+  - [[Shared Warrior Abilities | Warrior---Abilities]]
 - Cleric
   - [[Shadow Domain | Cleric---Shadow]]
 - Fighter
   - [[Arms | Fighter---Arms]]
-  - [[Warrior Abilities | Warrior---Abilities]]
-  - [[Warrior Talents | Warrior---Talents]]
+  - [[Shared Warrior Talents | Warrior---Talents]]
+  - [[Shared Warrior Abilities | Warrior---Abilities]]
 - Paladin
   - [[Oath of Retribution | Paladin---Retribution]]
   - [[Oath of Holiness | Paladin---Holy]]
@@ -37,6 +42,7 @@
   - [[Frost | Wizard---Frost]]
   - [[Arcane | Wizard---Arcane]]
   - [[Chronomancy | Wizard---Chronomancy]]
+
 
 ## DoombubblesTweaks
 

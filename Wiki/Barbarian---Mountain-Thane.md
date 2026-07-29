@@ -18,21 +18,39 @@
 
 #### Warrior Abilities: 2 Known
 
-Choose 2 Warrior Abilities. Available options: [[Bloodthirst | Warrior---Abilities#Bloodthirst]], [[Execute | Warrior---Abilities#Execute]], [[Whirlwind | Warrior---Abilities#Whirlwind]], [[Charge | Warrior---Abilities#Charge]], and [[Thunder Clap | Warrior---Abilities#Thunder Clap]].
+Choose 2 Warrior Abilities from the options below.
+
+- [[Bloodthirst | Warrior---Abilities#Bloodthirst]]
+- [[Execute | Warrior---Abilities#Execute]]
+- [[Whirlwind | Warrior---Abilities#Whirlwind]]
+- [[Charge | Warrior---Abilities#Charge]]
+- [[Thunder Clap | Warrior---Abilities#Thunder Clap]]
 
 #### Talent: 1 Known
 
-Choose 1 Warrior Talent. Available options: [[Thunder Blast | Warrior---Talents#Thunder Blast]], [[Double Time | Warrior---Talents#Double Time]], [[Sudden Death | Warrior---Talents#Sudden Death]], [[Fresh Meat | Warrior---Talents#Fresh Meat]], and [[Deep Wounds | Warrior---Talents#Deep Wounds]].
+Choose 1 Warrior Talent from the options below.
+
+- [[Thunder Blast | Warrior---Talents#Thunder Blast]]
+- [[Double Time | Warrior---Talents#Double Time]]
+- [[Sudden Death | Warrior---Talents#Sudden Death]]
+- [[Fresh Meat | Warrior---Talents#Fresh Meat]]
+- [[Deep Wounds | Warrior---Talents#Deep Wounds]]
 
 ### Level 6
 
 #### Warrior Abilities: 4 Known
 
-Choose 2 additional Warrior Abilities. [[Lightning Strike | Warrior---Abilities#Lightning Strike]] and [[Storm Bolt | Warrior---Abilities#Storm Bolt]] are added to the available options.
+Choose 2 additional Warrior Abilities. The following options are added to the available options:
+
+- [[Lightning Strike | Warrior---Abilities#Lightning Strike]]
+- [[Storm Bolt | Warrior---Abilities#Storm Bolt]]
 
 #### Talents: 2 Known
 
-Choose 1 additional Warrior Talent. Available options now also include [[Storm Surge | Warrior---Talents#Storm Surge]] and [[Anger Management | Warrior---Talents#Anger Management]].
+Choose 1 additional Warrior Talent. The following options are added to the available options:
+
+- [[Storm Surge | Warrior---Talents#Storm Surge]]
+- [[Anger Management | Warrior---Talents#Anger Management]]
 
 ### Level 10
 
@@ -42,4 +60,6 @@ Choose 2 additional Warrior Abilities from the available Mountain Thane options 
 
 #### Talents: 3 Known
 
-Choose 1 additional Warrior Talent. [[Bolts of the Storm | Warrior---Talents#Bolts of the Storm]] is added to the available options.
+Choose 1 additional Warrior Talent. The following option is added to the available options:
+
+- [[Bolts of the Storm | Warrior---Talents#Bolts of the Storm]]

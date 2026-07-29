@@ -8,7 +8,7 @@
 
 - Costs 1 [[Action]], 1 [[Frost Rune]] on hit
 - Weapon Attack
-- {{ getf .loca "h448adaceg9464g44a0g96b4ga01a6f757b7b" "[1d4](## 'Rune Die') Cold damage" "3m" | include "wikify" }}
+- {{ getf .loca "h448adaceg9464g44a0g96b4ga01a6f757b7b" "[[1d4 | Rune Die]] Cold damage" "3m" | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Action_DeathKnight_DeathStrike.png]]
@@ -16,7 +16,7 @@
 ### Death Strike
 - Costs 1 [[Action]], 1 [[Blood Rune]] on hit
 - Weapon Attack
-- {{ getf .loca "hdf823ca8g47feg4126g96d4gb5c0d30fc627" "[1d4](## 'Rune Die') Force damage" "[2d4](## '2 Rune Die') hit points" "[4](# 'Rune Die Total')" | include "wikify" }}
+- {{ getf .loca "hdf823ca8g47feg4126g96d4gb5c0d30fc627" "[[1d4 | Rune Die]] Force damage" "[[2d4 | 2 Rune Die]] hit points" "[[4 | Rune Die Total]]" | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Action_DeathKnight_DeathCoil.png]]
@@ -24,7 +24,7 @@
 ### Death Coil
 - Costs 1 [[Action]], 1 [[Unholy Rune]]
 - [[CON]] [[Saving Throw]], Half Damage on Success, 12m Range
-- {{ getf .loca "h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" "[3d4](## '3 Rune Die') Necrotic damage" "[3d4](## '3 Rune Die') hit points" | include "wikify" }}
+- {{ getf .loca "h1f4eae18g1fe5g4567g9b5cg431d4f8d69bf" "[[3d4 | 3 Rune Die]] Necrotic damage" "[[3d4 | 3 Rune Die]] hit points" | include "wikify" }}
 
 ## Available at Level 2
 
@@ -50,7 +50,7 @@
 ### Chains of Ice
 - Costs 1 [[Action]], 1 [[Frost Rune]]
 - [[STR]] [[Saving Throw]], 18m range
-- {{ getf .loca "h2cbcc90dgfe7eg4135g8e2age5096ad6022c" "[3d4](## '3 Rune Die') Cold Damage" | include "wikify" }}
+- {{ getf .loca "h2cbcc90dgfe7eg4135g8e2age5096ad6022c" "[[3d4 | 3 Rune Die]] Cold Damage" | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Action_DeathKnight_DeathAndDecay.png]]
@@ -58,7 +58,7 @@
 ### Death and Decay
 - Costs 1 [[Bonus Action]], 1 [[Blood Rune]] or [[Unholy Rune]]
 - [[Concentration]], 9m range, 4m radius
-- {{ getf .loca "hd707f45cgbf9dg4a99g90a1g23c832c71626" "10" "[1d4](## 'Rune Die') Necrotic Damage" | include "wikify" }}
+- {{ getf .loca "hd707f45cgbf9dg4a99g90a1g23c832c71626" "10" "[[1d4 | Rune Die]] Necrotic Damage" | include "wikify" }}
 - {{ get .loca "hf1e437adgc1f8g422bgbcccg6bd1cf63289b" | include "wikify" }}
 
 
@@ -102,14 +102,14 @@
 #### Marrowrend
 - Costs 1 [[Action]], 2 [[Blood Runes]] on hit
 - Weapon Attack
-- {{ getf .loca "hc857ea31gb601g4319ga792gedd0bfa96c02" "[2d4](## '2 Rune Die') Force damage" "[8](## '2 Rune Die Total')" | include "wikify" }}
+- {{ getf .loca "hc857ea31gb601g4319ga792gedd0bfa96c02" "[[2d4 | 2 Rune Die]] Force damage" "[[8 | 2 Rune Die Total]]" | include "wikify" }}
 
 ![[images/ControllerIcons/skills_png/Action_DeathKnight_HeartStrike.png]]
 
 #### Heart Strike
 - Costs 1 [[Action]], 1 [[Blood Rune]] on hit
 - Weapon Attack
-- {{ getf .loca "h242d09f1gf2a0g4466ga270g83af0d3a9545" "[1d4](## 'Rune Die') Force Damage" "[1d4](## 'Rune Die') Force Damage" "3m" | include "wikify" }}
+- {{ getf .loca "h242d09f1gf2a0g4466ga270g83af0d3a9545" "[[1d4 | Rune Die]] Force Damage" "[[1d4 | Rune Die]] Force Damage" "3m" | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Action_DeathKnight_BloodBoil.png]]
@@ -117,7 +117,7 @@
 #### Blood Boil
 - Costs 1 [[Action]], 1 [[Blood Rune]]
 - [[CON]] [[Saving Throw]], 6m radius
-- {{ getf .loca "hf05664efgfe07g4b87ga5e3g64edfc6c1beb" "[1d4](## 'Rune Die') Force Damage" | include "wikify" }}
+- {{ getf .loca "hf05664efgfe07g4b87ga5e3g64edfc6c1beb" "[[1d4 | Rune Die]] Force Damage" | include "wikify" }}
 - Full damage and 5 turn duration on failed save, half damage and 2 turn duration on succeeded save
 
 
@@ -128,7 +128,7 @@
 #### Howling Blast
 - Costs 1 [[Action]], 1 [[Frost Rune]]
 - [[CON]] [[Saving Throw]], 9m range, 3m radius
-- {{ getf .loca "hdc82e1f9g7ba0g45e6gaea8gaef3d7f96ef3" "[2d4](## '2 Rune Die') Cold Damage" | include "wikify" }}
+- {{ getf .loca "hdc82e1f9g7ba0g45e6gaea8gaef3d7f96ef3" "[[2d4 | 2 Rune Die]] Cold Damage" | include "wikify" }}
 - Full damage and 5 turn duration on failed save, half damage and 2 turn duration on succeeded save
 
 
@@ -137,7 +137,7 @@
 #### Obliterate
 - Costs 1 [[Action]], 2 [[Frost Runes]] on hit
 - Weapon Attack
-- {{ getf .loca "hb209a6edg23a1g47b6ga7e6gbda4e4a12921" "[3d4](## '3 Rune Die') Cold damage" | include "wikify" }}
+- {{ getf .loca "hb209a6edg23a1g47b6ga7e6gbda4e4a12921" "[[3d4 | 3 Rune Die]] Cold damage" | include "wikify" }}
 - When dual wielding, instead hits with both weapons for half damage each
 
 
@@ -146,7 +146,7 @@
 #### Frostscythe
 - Costs 1 [[Action]], 1 [[Frost Rune]]
 - Weapon Attack, 3 targets within cone for half weapon damage
-- {{ getf .loca "hba0e3b53ga06bg4ab4g8539gede1fbf0592c" "[1d4](## 'Rune Die') Cold damage" | include "wikify" }}
+- {{ getf .loca "hba0e3b53ga06bg4ab4g8539gede1fbf0592c" "[[1d4 | Rune Die]] Cold damage" | include "wikify" }}
 
 
 ### Unholy Only
@@ -156,7 +156,7 @@
 #### Outbreak
 - Costs 1 [[Action]], 1 [[Unholy Rune]]
 - [[CON]] [[Saving Throw]], 9m range, 3m radius
-- {{ getf .loca "he9edb0feg97e0g45a8ga0a7g24b0561f492c" "[3d4](## '3 Rune Die') Necrotic damage" | include "wikify" }}
+- {{ getf .loca "he9edb0feg97e0g45a8ga0a7g24b0561f492c" "[[3d4 | 3 Rune Die]] Necrotic damage" | include "wikify" }}
 - Full damage and 5 turn duration on failed save, half damage and 2 turn duration on succeeded save
 
 
@@ -165,7 +165,7 @@
 #### Festering Strike
 - Costs 1 [[Action]], 2 [[Unholy Runes]] on hit
 - Weapon Attack
-- {{ getf .loca "hd73ab209g0483g498eg9e81g0804c87fa444" "[2d4](## '2 Rune Die') Necrotic Damage" "3" "[2d4](## '2 Rune Die') Necrotic Damage" | include "wikify" }}
+- {{ getf .loca "hd73ab209g0483g498eg9e81g0804c87fa444" "[[2d4 | 2 Rune Die]] Necrotic Damage" "3" "[[2d4 | 2 Rune Die]] Necrotic Damage" | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Action_DeathKnight_ScourgeStrike.png]]
@@ -173,7 +173,7 @@
 #### Scourge Strike
 - Costs 1 [[Action]], 1 [[Unholy Rune]] on hit
 - Weapon Attack
-- {{ getf .loca "ha55ed165g6ad3g44f9g8187g7a5deaf8f048" "[1d4](## '1 Rune Die') Necrotic Damage" "[1d4](## '1 Rune Die') Necrotic Damage" | include "wikify" }}
+- {{ getf .loca "ha55ed165g6ad3g44f9g8187g7a5deaf8f048" "[[1d4 | Rune Die]] Necrotic Damage" "[[1d4 | Rune Die]] Necrotic Damage" | include "wikify" }}
 
 
 ## Available at Level 7
@@ -206,25 +206,25 @@
 ![[images/ControllerIcons/skills_png/Status_DeathKnight_BloodPlague.png]]
 
 ### Blood Plague
-- {{getf .loca "ha1224b6cg481eg420bgaa13g359e598f75fa" "[1d4](## 'Rune Die')Force damage" | include "wikify" }}
+- {{getf .loca "ha1224b6cg481eg420bgaa13g359e598f75fa" "[[1d4 | Rune Die]]Force damage" | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Status_DeathKnight_FrostFever.png]]
 
 ### Frost Fever
-- {{ getf .loca "ha8710349g043dg4faagabfag7c66d34d137a" "3m" "[1d4](## 'Rune Die')Cold damage" | include "wikify" }}
+- {{ getf .loca "ha8710349g043dg4faagabfag7c66d34d137a" "3m" "[[1d4 | Rune Die]]Cold damage" | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Status_DeathKnight_VirulentPlague.png]]
 
 ### Virulent Plague
-- {{ getf .loca "h5a6cf0adg5981g4624g8423g06ca6dd13f80" "[1d4](## 'Rune Die')Necrotic damage" "[1d4](## 'Rune Die')Necrotic damage" "3m" | include "wikify" }}
+- {{ getf .loca "h5a6cf0adg5981g4624g8423g06ca6dd13f80" "[[1d4 | Rune Die]]Necrotic damage" "[[1d4 | Rune Die]]Necrotic damage" "3m" | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Status_DeathKnight_FesteringWound.png]]
 
 ### Festering Wound
-- {{ getf .loca "h2354ebe6gb628g4bf6g92f9g8fc7bbbfe739" "[2d4](## 'Rune Die')Necrotic damage" | include "wikify" }}
+- {{ getf .loca "h2354ebe6gb628g4bf6g92f9g8fc7bbbfe739" "[[2d4 | 2 Rune Die]]Necrotic damage" | include "wikify" }}
 
 
 ## Existing Spells

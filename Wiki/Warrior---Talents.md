@@ -93,6 +93,9 @@ Available to: Fury Barbarians at Level 6; Arms Fighters at Level 7.
 - Once per [[Long Rest]]
 - {{ get .loca "h6233e85cg8493g413ag8aa5g643a5fe66e9d" | include "wikify" }}
 
+
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_HeartOfTheStorm_Lightning.png]]
+
 ### Storm Surge
 
 Available to: Mountain Thane Barbarians at Level 6.

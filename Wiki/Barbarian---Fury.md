@@ -26,11 +26,25 @@ When you make an offhand attack, you can add your Ability Score Modifier to the 
 
 #### Warrior Abilities: 2 Known
 
-Choose 2 Warrior Abilities. Available options: [[Bloodthirst | Warrior---Abilities#Bloodthirst]], [[Raging Blow | Warrior---Abilities#Raging Blow]], [[Wild Strike | Warrior---Abilities#Wild Strike]], [[Execute | Warrior---Abilities#Execute]], [[Whirlwind | Warrior---Abilities#Whirlwind]], [[Charge | Warrior---Abilities#Charge]], and [[Thunder Clap | Warrior---Abilities#Thunder Clap]].
+Choose 2 Warrior Abilities from the options below.
+
+- [[Bloodthirst | Warrior---Abilities#Bloodthirst]]
+- [[Raging Blow | Warrior---Abilities#Raging Blow]]
+- [[Wild Strike | Warrior---Abilities#Wild Strike]]
+- [[Execute | Warrior---Abilities#Execute]]
+- [[Whirlwind | Warrior---Abilities#Whirlwind]]
+- [[Charge | Warrior---Abilities#Charge]]
+- [[Thunder Clap | Warrior---Abilities#Thunder Clap]]
 
 #### Talent: 1 Known
 
-Choose 1 Warrior Talent. Available options: [[Meat Cleaver | Warrior---Talents#Meat Cleaver]], [[Double Time | Warrior---Talents#Double Time]], [[Sudden Death | Warrior---Talents#Sudden Death]], [[Fresh Meat | Warrior---Talents#Fresh Meat]], and [[Deep Wounds | Warrior---Talents#Deep Wounds]].
+Choose 1 Warrior Talent from the options below.
+
+- [[Meat Cleaver | Warrior---Talents#Meat Cleaver]]
+- [[Double Time | Warrior---Talents#Double Time]]
+- [[Sudden Death | Warrior---Talents#Sudden Death]]
+- [[Fresh Meat | Warrior---Talents#Fresh Meat]]
+- [[Deep Wounds | Warrior---Talents#Deep Wounds]]
 
 ### Level 6
 
@@ -42,11 +56,18 @@ You can use Two-Weapon Fighting even if your weapons aren't ?[[Light | Light (We
 
 #### Warrior Abilities: 4 Known
 
-Choose 2 additional Warrior Abilities. [[Storm Bolt | Warrior---Abilities#Storm Bolt]] is added to the available options.
+Choose 2 additional Warrior Abilities. The following option is added to the available options:
+
+- [[Storm Bolt | Warrior---Abilities#Storm Bolt]]
 
 #### Talents: 2 Known
 
-Choose 1 additional Warrior Talent. Available options now also include [[Anger Management | Warrior---Talents#Anger Management]], [[Avatar | Warrior---Talents#Avatar]], [[Bladestorm | Warrior---Talents#Bladestorm]], and [[Recklessness | Warrior---Talents#Recklessness]].
+Choose 1 additional Warrior Talent. The following options are added to the available options:
+
+- [[Anger Management | Warrior---Talents#Anger Management]]
+- [[Avatar | Warrior---Talents#Avatar]]
+- [[Bladestorm | Warrior---Talents#Bladestorm]]
+- [[Recklessness | Warrior---Talents#Recklessness]]
 
 ### Level 10
 

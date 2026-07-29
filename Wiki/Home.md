@@ -1,4 +1,4 @@
-# Doombubbles' Baldur's Gate 3 Mods
+# Doombubbles' BG3 Mods
 
 This Wiki documents the features and balance changes in my Baldur's Gate 3 mods.
 

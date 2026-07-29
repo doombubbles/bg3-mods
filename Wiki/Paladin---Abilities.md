@@ -1,16 +1,22 @@
 # Channel Oath Abilities
 
+![[images/ControllerIcons/skills_png/PassiveFeature_Paladin_HolyDie.png]]
+
+### Holy Die
+
+These Channel Oath Abilities will scale the die they use. Starts out as a d4, increasing to a d6 at Paladin Level 6, then to a d8 at Paladin Level 10.
+
 ## 1 Cost
 
 
-![[images/ControllerIcons/skills_png/Action_Paladin_Crusader_Strike.png]]
+![[images/ControllerIcons/skills_png/Action_Paladin_CrusaderStrike.png]]
 
 ### Crusader Strike
 - Available for Retribution Level 1, Holy/Protection Level 3+
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Weapon Attack, melee range
 - {{ get .loca "h31b68b0ag9c32g42bcg99acg27bfaffcde29" | include "wikify" }}
-- Deals [1d4/2d4/3d4](# 'Improving at level 5 and 10') + [[CHA]] [[Radiant]] damage
+- Deals {{ include "paladinDie" "CrusaderStrike" }} + [[CHA]] [[Radiant]] damage
 
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_HolyShock.png]]
@@ -19,9 +25,8 @@
 - Available for Holy Level 1
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell, 18m range
-- {{ getf .loca "h6e477fffg7e00g47a3gb730g003ba4b900eb" "[1/2/3](# 'Improving at level 5 and 10')" | include "wikify" }}
-- Each burst restores 2d8 + [[CHA]] [[hit points]] or deals 2d8 + [[CHA]] [[Radiant]] damage
-
+- {{ getf .loca "h6e477fffg7e00g47a3gb730g003ba4b900eb" | include "wikify" }}
+- Restores {{ include "paladinDie" "HolyShock" }} + [[CHA]] [[hit points]] or deals {{ include "paladinDie" "HolyShock" }} + [[CHA]] [[Radiant]] damage
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_AvengersShield.png]]
 
@@ -30,8 +35,8 @@
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Throw Attack, Shield Required, 3m explosion, Dex save for half
 - {{ get .loca "hfb7d041dgbd02g4231g8870g14fb51a51b97" | include "wikify" }}
-- Deals [1d6/2d6/3d6](# 'Improving at level 5 and 10') + [[CHA]] [[Radiant]] damage
-- For the rest of the day: {{ getf .loca "h9201daa0g5fa9g4977gb87bgdfb349c280b5" "1d8 Radiant Damage" | include "wikify" }}
+- Deals {{ include "paladinDie" "AvengersShield" }} + [[CHA]] [[Radiant]] damage AOE
+- For the rest of the day: {{ getf .loca "h9201daa0g5fa9g4977gb87bgdfb349c280b5" (printf "%s + [[CHA]] Radiant damage" (include "paladinDie" "AvengersShield")) | include "wikify" }}
 
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_AvengingWrath.png]]
@@ -50,7 +55,7 @@
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell Attack, 18m range
 - {{ getf .loca "hbd00c5a2g7fa7g4f8eg94e2g92955050e222" "10" | include "wikify" }}
-- Deals [1d12/2d12/3d12](# 'Improving at level 5 and 10') + [[CHA]] [[Radiant]] damage
+- Deals {{ include "paladinDie" "Judgement" }} + [[CHA]] [[Radiant]] damage
 - {{ get .loca "hdb7140c3gba4ag4321g8120g50a5228f86aa" | include "wikify" }}
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_Judgement_Light.png]]
@@ -79,7 +84,7 @@
 - Available for Retribution/Holy/Protection Level 3+
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell Attack, 18m range
-- Deals [2d8/3d8/4d8](# 'Improving at level 5 and 10') + [[CHA]] [[Radiant]] damage
+- Deals {{ include "paladinDie" "Exorcism" }} + [[CHA]] [[Radiant]] damage
 - {{ get .loca "hff5a5e0ag6d01g4c64g8fddg80af427bea75" | include "wikify" }}
 - {{ get .loca "hdb7140c3gba4ag4321g8120g50a5228f86aa" | include "wikify" }}
 
@@ -91,7 +96,7 @@
 - Available for Retribution/Holy/Protection Level 3+
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell Attack, 18m range
-- Deals [2d12/3d12/4d12](# 'Improving at level 5 and 10') + [[CHA]] [[Radiant]] damage
+- Deals {{ include "paladinDie" "HammerOfWrath" }} + [[CHA]] [[Radiant]] damage
 - {{ getf .loca "h945cadafg2b51g4932ga500gf3949365536f" "50%" | include "wikify" }}
 - {{ get .loca "hdb7140c3gba4ag4321g8120g50a5228f86aa" | include "wikify" }}
 
@@ -144,7 +149,7 @@
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Weapon Attack, 5m range
 - {{ get .loca "h3a0dac4fg287eg4bdfgaa29g1daf32cde6c1" | include "wikify" }}
-- Deals [2d8/3d8/4d8](# 'Improving at level 5 and 10') + [[CHA]] [[Radiant]] damage
+- Deals {{ include "paladinDie" "TemplarsVerdict" }} + [[CHA]] [[Radiant]] damage
 
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_DivineStorm.png]]
@@ -154,7 +159,7 @@
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Weapon Attack, 2m radius
 - {{ get .loca "he49e8c36g2400g4d9dgb6acgc3b41127eddf"| include "wikify" }}
-- Deals [1d4/2d4/3d4](# 'Improving at level 5 and 10') + [[CHA]] [[Radiant]] damage
+- Deals {{ include "paladinDie" "DivineStorm" }} + [[CHA]] [[Radiant]] damage
 
 
 ![[Game/ControllerUIIcons/skills_png/Spell_Evocation_BreakOfDawn.png]]
@@ -164,7 +169,7 @@
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Spell, 9m cone (60 degrees)
 - {{ get .loca "h172b7e6egd6e0g4f7bg937fg3c5b7a8d0309" | include "wikify" }}
-- Restores [2d8/3d8/4d8](# 'Improving at level 5 and 10') + [[CHA]] [[hit points]]
+- Restores {{ include "paladinDie" "LightOfDawn" }} + [[CHA]] [[hit points]]
 
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_WordOfGlory.png]]
@@ -174,7 +179,7 @@
 - Costs 1 [[Bonus Action]], 2 [[Channel Oath Charges]]
 - Spell, 18m range
 - {{ get .loca "h7dc74a0agdc41g4e6aga879g727d02c0eb27" | include "wikify" }}
-- Restores [2d12/3d12/4d12](# 'Improving at level 5 and 10') + [[CHA]] [[hit points]]
+- Restores {{ include "paladinDie" "WordOfGlory" }} + [[CHA]] [[hit points]]
 
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_ShieldOfTheRighteous.png]]
@@ -184,6 +189,7 @@
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Unarmed Attack, 3m cone (120 degrees)
 - {{ getf .loca "hcc121619g07e0g4059gafa5gde300039d9ac" "5" | include "wikify" }}
+- Deals {{ include "paladinDie" "ShieldOfTheRighteous" }} + [[STR]] + [[CHA]] [[Radiant]] damage
 
 
 ![[images/ControllerIcons/skills_png/Action_Paladin_GuardianOfAncientKings.png]]

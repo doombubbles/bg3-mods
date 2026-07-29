@@ -25,7 +25,7 @@ This includes:
 - Mass Cure Wounds
 - Heal
 
-![[images/ControllerIcons/skills_png/Spell_Wizard_AlterTime.png]]
+![[images/ControllerIcons/skills_png/Skill_Wizard_AlterTime.png]]
 
 #### Alter Time
 - Usable once per [[Short Rest]]

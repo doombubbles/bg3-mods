@@ -2,13 +2,11 @@
 
 Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Rage Charge]] whenever they use a Warrior Ability. Arms Fighters and Mountain Thane Barbarians instead can use each Warrior Ability once per [[Short Rest]].
 
-## Available at Level 3
-
 ![[Game/ControllerUIIcons/skills_png/Action_SacrificeToLoviatar.png]]
 
 ### Bloodthirst
 
-Available to: Fury Barbarians and Mountain Thane Barbarians at Level 3.
+- Available for Fury/Mountain Thane Level 3+
 
 - Costs 1 [[Action]]
 - Weapon attack; restores [2](## 'Proficiency Bonus')d6 [[Hit Points]]
@@ -18,7 +16,7 @@ Available to: Fury Barbarians and Mountain Thane Barbarians at Level 3.
 
 ### Charge
 
-Available to: Arms Fighters, Fury Barbarians, and Mountain Thane Barbarians at Level 3.
+- Available for Arms/Fury/Mountain Thane Level 3+
 
 - Costs 1 [[Bonus Action]]
 - Weapon attack, 9m range; [[STR]] [[Saving Throw]] ([[Weapon Action DC]])
@@ -29,7 +27,7 @@ Available to: Arms Fighters, Fury Barbarians, and Mountain Thane Barbarians at L
 
 ### Cleave
 
-Available to: Arms Fighters at Level 3.
+- Available for Arms Level 3+
 
 - Costs 1 [[Action]]; melee weapon attack in a cone
 - {{ getf .loca "h1758449dg7435g46a0g8088g4485293de676" "3" | include "wikify" }}
@@ -38,7 +36,7 @@ Available to: Arms Fighters at Level 3.
 
 ### Execute
 
-Available to: Arms Fighters, Fury Barbarians, and Mountain Thane Barbarians at Level 3.
+- Available for Arms/Fury/Mountain Thane Level 3+
 
 - Costs 1 [[Action]]
 - Melee weapon attack; requires a target at or below 50% [[Hit Points]]
@@ -48,7 +46,7 @@ Available to: Arms Fighters, Fury Barbarians, and Mountain Thane Barbarians at L
 
 ### Mortal Strike
 
-Available to: Arms Fighters at Level 3.
+- Available for Arms Level 3+
 
 - Costs 1 [[Action]]; melee weapon attack
 - {{ get .loca "h39713ea2gd8ccg43bbgab88ge0cab9f1eea8" | include "wikify" }}
@@ -62,7 +60,7 @@ Available to: Arms Fighters at Level 3.
 
 ### Overpower
 
-Available to: Arms Fighters at Level 3.
+- Available for Arms Level 3+
 
 - No action cost; triggered as an interrupt after missing with a melee weapon attack
 - {{ get .loca "h921192a5g0910g47c0gbb85g3cfdde961410" | include "wikify" }}
@@ -71,7 +69,7 @@ Available to: Arms Fighters at Level 3.
 
 ### Raging Blow
 
-Available to: Fury Barbarians at Level 3.
+- Available for Fury Level 3+
 
 - Costs 1 [[Action]]
 - Requires dual wielding; makes a main-hand weapon attack and an off-hand weapon attack
@@ -81,7 +79,7 @@ Available to: Fury Barbarians at Level 3.
 
 ### Sweeping Strikes
 
-Available to: Arms Fighters at Level 3.
+- Available for Arms Level 3+
 
 - Costs 1 [[Bonus Action]]
 - {{ get .loca "h5c4bc3bdg0b93g4cf7gb699ge1b657b5d2e9" | include "wikify" }}
@@ -90,7 +88,7 @@ Available to: Arms Fighters at Level 3.
 
 ### Thunder Clap
 
-Available to: Arms Fighters, Fury Barbarians, and Mountain Thane Barbarians at Level 3.
+- Available for Arms/Fury/Mountain Thane Level 3+
 
 - Costs 1 [[Action]]
 - [[CON]] [[Saving Throw]] ([[Weapon Action DC]]); affects nearby enemies
@@ -101,7 +99,7 @@ Available to: Arms Fighters, Fury Barbarians, and Mountain Thane Barbarians at L
 
 ### Wild Strike
 
-Available to: Fury Barbarians at Level 3.
+- Available for Fury Level 3+
 
 - Costs 1 [[Bonus Action]]
 - {{ getf .loca "h769dce28g69f7g46f1g9cafg69714b51c3d1" | include "wikify" }}
@@ -110,32 +108,28 @@ Available to: Fury Barbarians at Level 3.
 
 ### Whirlwind
 
-Available to: Arms Fighters, Fury Barbarians, and Mountain Thane Barbarians at Level 3.
+- Available for Arms/Fury/Mountain Thane Level 3+
 
 - Costs 1 [[Action]]
 - 2m-radius weapon attack
 - {{ get .loca "ha331a835gf3c8g4043gaa9ag68646d8ff4ac" | include "wikify" }}
 
-## Available at Level 5
-
 ![[Game/ControllerUIIcons/skills_png/Action_HeartStopper.png]]
 
 ### Slam
 
-Available to: Arms Fighters at Level 5.
+- Available for Arms Level 5+
 
 - Costs 1 [[Action]] and is not valid for [[Extra Attack]]
 - Melee weapon attack
 - {{ get .loca "hb8420ca7g0e1eg4618g9e6cg45c751959a04" | include "wikify" }}
 - {{ get .loca "h2417a761gd0bag41e9gb829g965399bdb815" | include "wikify" }}
 
-## Available at Level 6
-
 ![[Game/ControllerUIIcons/skills_png/Spell_Conjuration_CallLightning.png]]
 
 ### Lightning Strike
 
-Available to: Mountain Thane Barbarians at Level 6.
+- Available for Mountain Thane Level 6+
 
 - Costs 1 [[Action]]
 - [[DEX]] [[Saving Throw]] ([[Weapon Action DC]])
@@ -146,20 +140,18 @@ Available to: Mountain Thane Barbarians at Level 6.
 
 ### Storm Bolt
 
-Available to: Fury Barbarians and Mountain Thane Barbarians at Level 6; Arms Fighters at Level 7.
+- Available for Fury/Mountain Thane Level 6+, Arms Level 7+
 
 - Costs 1 [[Action]]
 - [[CON]] [[Saving Throw]] ([[Weapon Action DC]]), 18m range
 - Deals [3](## 'Proficiency Bonus')d6 + [[STR]]/[[DEX]] [[Lightning Damage]]; a successful save takes half damage
 - {{ get .loca "ha0bbee44gedc3g403cga8dage3fb613e51c1" | include "wikify" }}
 
-## Available at Level 7
-
 ![[Game/ControllerUIIcons/skills_png/Action_PostureBreaker.png]]
 
 ### Colossus Smash
 
-Available to: Arms Fighters at Level 7.
+- Available for Arms Level 7+
 
 - Costs 1 [[Action]]
 - Melee weapon attack and [[CON]] [[Saving Throw]] ([[Weapon Action DC]])

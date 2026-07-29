@@ -223,6 +223,12 @@ The Death Knight subclasses are:
 - Death Knights have a limited number of Runes, but regain them by taking a [[Short Rest]] or [[Long Rest]].
 - Death Knights learn higher level spells than other Martial/Caster hybrids, but they can't use them as often.
 
+![[images/ControllerIcons/skills_png/PassiveFeature_DeathKnight_RuneDie.png]]
+
+#### Rune Die
+
+Many Rune Spells will scale the die they use. Starts out as a d4, increasing to a d6 at Death Knight Level 4, then to a d8 at Death Knight Level 7, then a d10 at Death Knight Level 10.
+
 ## Level Information
 
 ### Level 1

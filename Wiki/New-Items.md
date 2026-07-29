@@ -1,6 +1,6 @@
 # New Items
 
-{{- if $.Balance.PotentSacredRing }}
+{{- if $.PotentSacredRing }}
 **Sacred Ring** - Gain the ?[[Potent Cantrips]] passive. Drops from the Scared Boar on the Ravaged Beach.
 {{- else }}
 **Sacred Ring** - Your Sacred Flame still does half damage on a failed save. Drops from the Scared Boar on the Ravaged Beach.

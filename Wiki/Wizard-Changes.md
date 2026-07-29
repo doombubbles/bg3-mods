@@ -1,6 +1,6 @@
 # Wizard Changes
 
-{{- if $.Balance.PotenterCantrip }}
+{{- if $.PotenterCantrip }}
 - Potent Cantrips now also applies half damage for missing attack roll cantrips
 {{- end }}
 
