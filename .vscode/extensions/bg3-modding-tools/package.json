@@ -1,0 +1,43 @@
+{
+  "name": "bg3-modding-tools",
+  "displayName": "BG3 Modding Tools",
+  "description": "Extensible, repository-local VS Code tooling for BG3 mod development.",
+  "publisher": "doombubbles",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "extensionKind": [
+    "workspace"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:bg3"
+  ],
+  "main": "./dist/extension.js",
+  "scripts": {
+    "build": "npm run check-types && npm run bundle",
+    "bundle": "esbuild src/extension.ts --bundle --platform=node --format=cjs --external:vscode --outfile=dist/extension.js",
+    "check-types": "tsc --noEmit",
+    "test": "node --import tsx --test \"test/*.test.ts\"",
+    "test:coverage": "node --import tsx --test --experimental-test-coverage --test-coverage-include=src/features/gameData/**/*.ts --test-coverage-lines=90 --test-coverage-branches=75 --test-coverage-functions=80 \"test/*.test.ts\"",
+    "verify": "npm run build && npm run test:coverage",
+    "watch": "esbuild src/extension.ts --bundle --platform=node --format=cjs --external:vscode --outfile=dist/extension.js --watch"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": false
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "1.89.0",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.0"
+  }
+}
