@@ -36,3 +36,6 @@ Icons:
   - Spell_Cleric_ShadowWordPain
   - Action_Cleric_MindBlastLesser
   - PassiveFeature_Cleric_ShadowForm
+  - Action_Warrior_ThunderClap
+  - Action_Warrior_LightningStrike
+  - PassiveFeature_Paladin_HolyDie

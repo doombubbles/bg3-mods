@@ -178,7 +178,7 @@ data "SpellFlags" "IsMelee;IsHarmful"
 data "CastSound" "Action_Cast_Weapon_GrandSlam"
 data "TargetSound" "Action_Impact_Weapon_GrandSlam"
 data "DamageType" "Thunder"
-data "Icon" "Action_Mag_GrandSlam"
+data "Icon" "Action_Warrior_ThunderClap"
 data "UseCosts" "ActionPoint:1;Warrior_ThunderClap:1"
 data "TooltipPermanentWarnings" "b247dcc0-83c0-4dbb-87f3-0e2449c08eac"
 

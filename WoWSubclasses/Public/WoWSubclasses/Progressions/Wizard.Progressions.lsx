@@ -6,12 +6,11 @@
       <children>
 
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
           <attribute id="Level" type="uint8" value="2"/>
           <attribute id="Name" type="LSString" value="Wizard"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
           <attribute id="TableUUID" type="guid" value="d18eda7e-4b7d-490d-9952-cd33a3c60479"/>
-          <attribute id="UUID" type="guid" value="d6184c47-5b99-4e63-95ac-02f8ce4ccda1"/>
+          <attribute id="UUID" type="guid" value="59da4b03-92aa-4dc5-9ba6-f37adec5bcdd"/>
           <children>
             <node id="SubClasses">
               <children>

@@ -19,7 +19,7 @@
   <content contentuid="he49e8c36g2400g4d9dgb6acgc3b41127eddf" version="1">Unleash a whirl of divine energy, making a weapon attack against nearby enemies for additional Radiant damage.</content>
 
   <content contentuid="h1f10a30dg0503g451egb472ga42bf65920de" version="1">Avenging Wrath</content>
-  <content contentuid="h23729422g8d2dg49bag9170g1ff5e9de7b5f" version="1">Call upon the Light and become an avatar of retribution, giving you bonus Radiant damage and healing equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and reducing the number you need to roll a critical hit by 1.</content>
+  <content contentuid="h23729422g8d2dg49bag9170g1ff5e9de7b5f" version="1">Call upon the Light and become an avatar of retribution, adding your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to your Radiant damage and healing, and reducing the number you need to roll a critical hit by 1.</content>
   <content contentuid="h60f888a2geaafg4953gbe9dgcf61d017be56" version="1">You deal an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[1]&lt;/LSTag&gt;, restore an additional &lt;LSTag Tooltip="ProficiencyBonus"&gt;[2]&lt;/LSTag&gt; health, and the number you need to roll a critical hit is reduced by 1.</content>
 
   <content contentuid="hdbe3a822g0e3cg4eafg83eeg5e0433173392" version="1">Divine Purpose</content>
@@ -28,10 +28,9 @@
   <content contentuid="h93f28502gab63g405cg9c48g149a5807b013" version="1"> &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; against &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt; enemies will only trigger this Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hf333ff4cg5f5cg4967g9309g40e66c6e88b4" version="1">Holy Shock</content>
-  <content contentuid="h6e477fffg7e00g47a3gb730g003ba4b900eb" version="1">Trigger [1] burst(s) of Light on a creature, healing an ally or dealing Radiant damage to an enemy.</content>
-  <content contentuid="h1f9cc1b7g2195g43c4gb733g47493134bb2a" version="1">Trigger [1] burst(s) of Light on a creature, healing them.</content>
-  <content contentuid="hc5e631e3gc944g4e6dgaa69ge27cf6bbd47c" version="1">Trigger [1] burst(s) of Light on a creature, damaging them.</content>
-  <content contentuid="h1ab8646bg8538g4266g85deg636ee7b58ff6" version="1">Triggers an additonal burst per level.</content>
+  <content contentuid="h6e477fffg7e00g47a3gb730g003ba4b900eb" version="1">Trigger a burst of Light on a creature, healing an ally or dealing Radiant damage to an enemy.</content>
+  <content contentuid="h1f9cc1b7g2195g43c4gb733g47493134bb2a" version="1">Trigger a burst of Light on a creature, healing them.</content>
+  <content contentuid="hc5e631e3gc944g4e6dgaa69ge27cf6bbd47c" version="1">Trigger a burst of Light on a creature, damaging them.</content>
 
 
   <content contentuid="h440684f7g0b59g465cg95dfgea36c3c1be75" version="1">Light of Dawn</content>
@@ -46,7 +45,10 @@
   <content contentuid="h2d204b9eg609bg4078g8b14ga78f0669ec77" version="1">Choose how you will further unleash divine might upon your foes.</content>
 
   <content contentuid="ha72e632ag39d6g4961g95b0gd5c2af4e6c74" version="1">Holy Power</content>
-  <content contentuid="h2b53eb29g0970g40a0g8773g881617e4dd18" version="1">Your maximum number of &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charges&lt;/LSTag&gt; becomes equal to your maximum number of &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charges&lt;/LSTag&gt;.</content>
+  <content contentuid="h2b53eb29g0970g40a0g8773g881617e4dd18" version="1">Your maximum number of &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath Charges&lt;/LSTag&gt; becomes equal to your maximum number of &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charges&lt;/LSTag&gt;. This will be 3, then 4 at Paladin level 4, then 5 at Paladin level 10.&lt;br&gt;However, you will gain one fewer &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; of each level.</content>
+
+  <content contentuid="h21a2435bg247fg4287gab4dg47ec6bef184c" version="1">Improved Holy Die</content>
+  <content contentuid="hb1405f9bgfd67g4f8bg92d5ge0fb851a1d76" version="1">The size of the Holy Die used for your Channel Oath abilities increases to [1].</content>
 
   <content contentuid="hae98f4cdg567dg4c9dgb7a0g8dca33d40a76" version="1">Aura of Retribution</content>
   <content contentuid="hd6c97499g7cd2g4170g981egb93bc2575b1a" version="1">If one of your allies within [1] dies or falls unconscious, you gain [2] turns of &lt;LSTag Type="Status" Tooltip="AVENGING_WRATH"&gt;Avenging Wrath&lt;/LSTag&gt;.</content>
@@ -80,8 +82,8 @@
   <content contentuid="h7dc74a0agdc41g4e6aga879g727d02c0eb27" version="1">Call down the Light to heal a character.</content>
 
   <content contentuid="h426655e2g1f34g41d4g8af6gcc7aa5f31f9b" version="1">Infusion of Light</content>
-  <content contentuid="h74771aa5gf0e4g43d7g96cbg87317bb50892" version="1">Spend 1 &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charge&lt;/LSTag&gt; to make your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability that can restore hit points have maximized healing and damage.</content>
-  <content contentuid="h92d5e12fg1958g4202gb4a5g85bfd50ad888" version="1">Your next &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; ability that can restore hit points has maximized healing and damage.</content>
+  <content contentuid="h74771aa5gf0e4g43d7g96cbg87317bb50892" version="1">Spend &lt;LSTag Type="ActionResource" Tooltip="LayOnHandsCharge"&gt;Lay on Hands Charges&lt;/LSTag&gt; to make your next spell that can restore hit points have maximized dice results.</content>
+  <content contentuid="h92d5e12fg1958g4202gb4a5g85bfd50ad888" version="1">Your next spell that can restore hit points has maximized dice results.</content>
 
   <content contentuid="hfb7d041dgbd02g4231g8870g14fb51a51b97" version="1">Avenger's Shield</content>
   <content contentuid="habbcf45fge9f3g420eg808fg17589821b418" version="1">Hurl your shield, causing a small explosion of Radiant damage that breaks &lt;LSTag Tooltip="Concentration"&gt;concentration&lt;/LSTag&gt; against enemies.</content>
