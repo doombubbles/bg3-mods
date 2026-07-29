@@ -89,6 +89,12 @@ Common style in shipped data includes:
 - Context expressions such as `context.Source` and `context.Target` when the implicit evaluation subject is insufficient.
 - No requirement for spaces after commas; the base game contains both compact and spaced forms. Within a new record, be consistent.
 
+### Practical line-length limit
+
+Treat approximately 4,000 characters as the practical upper limit for one generated stats line. This is an evidence-based safety threshold, not a confirmed engine limit: the longest line found across the unpacked base-game `Stats/Generated/Data/*.txt` files is 4,077 characters (`Target_InvokeDuplicity`), with other shipped lines at 3,303, 2,472, 2,187, and 2,080 characters. Therefore, 2,000 characters is not itself a meaningful limit.
+
+When a generated line approaches 4,000 characters, simplify it where practical. Good options include moving repeated Boolean logic into a Thoth helper, splitting independent reactions into separate passives, or routing complex behavior through short-lived statuses and their `OnApplyFunctors`. Always measure the processed output rather than only the template source, because template expansion can make a compact authored line substantially longer.
+
 Functor expressions are player mechanics, not player-facing prose. They do not accept localization markup. Tooltip fields translate the mechanics into UI elements.
 
 ## 2. Player-facing fields and their responsibilities
@@ -483,6 +489,7 @@ Before considering a tooltip complete:
 12. XML-escape every markup tag in `.loca.xml`.
 13. Avoid duplicating structured rows in prose unless a conditional interaction cannot be represented there.
 14. Test nested hovers in game; a syntactically valid `LSTag` can still point at the wrong technical object.
+15. Inspect processed stats lines approaching 4,000 characters and simplify them where practical.
 
 ## 7. Recommended pattern for Colossus Smash
 

@@ -70,12 +70,16 @@
 	<content contentuid="h9dc479c2ga355g467fgac63g74115744c18c" version="1">Can be used alongside Myrmidons summoned from other sources.</content>
 
 	<content contentuid="hcbb39064g494ag4211ga5bfg9704718c597a" version="1">Caster Extra Attack</content>
-	<content contentuid="hda391c16ge9fbg4d5cg985fg04688a75eae6" version="1">Gain the option to expend a large amount of &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; in exchange for getting &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="hda391c16ge9fbg4d5cg985fg04688a75eae6" version="1">Toggle on to give up enough &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; to reduce your caster's progression by one step (full to half, or half to third) in exchange for &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; until your next Long Rest.</content>
 	<content contentuid="h11487529g2297g4268gba3cg746d90ff3827" version="1">Gained the &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; passive.</content>
 
 	<content contentuid="h2f319628gbafag4b70gbc2ag5a2962eb0fa4" version="1">Caster Improved Extra Attack</content>
-	<content contentuid="h5eeb6f29g726cg43a0gb6b0g83a7f67b9b78" version="1">Gain the option to expend all your &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; in exchange for getting &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h5eeb6f29g726cg43a0gb6b0g83a7f67b9b78" version="1">Toggle on to give up enough &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; to reduce your caster's progression by one step (full to half, or half to third) in exchange for &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt; until your next Long Rest.</content>
 	<content contentuid="h083442c0g90e7g4f94gb77ag1e54512c7e2b" version="1">Gained the &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt; passive.</content>
+
+	<content contentuid="h551cf781g5a6fg4533g965bga53994c7826f" version="1">Toggling off will not undo the exchange, it will only prevent it from automatically applying again tomorrow.</content>
+	<content contentuid="hdd9b9a0eg17c1g47f1g91e3g708513544c9c" version="1">Debug: Reset Caster Extra Attack</content>
+	<content contentuid="h19c601b4g8c7ag4d28g85a4g268b65ed5ae2" version="1">Remove all Caster Extra Attack testing statuses and restore all spell slots.</content>
 
 	<content contentuid="h03e7b303gc6b2g41c2g9edfg58827486787d" version="1">Martial Weapon Arts</content>
 	<content contentuid="hb42aa994gae95g4548g8d24gc72f58b66b96" version="1">If you have the &lt;LSTag Type="Passive" Tooltip="MartialArts_BonusUnarmedStrike"&gt;Martial Arts&lt;/LSTag&gt; passive, you are also &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with this weapon. It can also be used in place of &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike"&gt;Unarmed Strikes&lt;/LSTag&gt; for your &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows&lt;/LSTag&gt; abilities.</content>

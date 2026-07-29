@@ -1,0 +1,309 @@
+
+{{- $hideCasterExtraAttackInternals := true -}}
+
+new entry "UnlockedSpellSlotLevel3"
+type "PassiveData"
+using "UnlockedSpellSlotLevel3"
+{{- if $.Values.CasterExtraAttackOption }}
+data "StatsFunctorContext" "OnCreate;OnLongRest;OnShortRest"
+data "StatsFunctors" "IF(not HasStatus('CASTER_EXTRA_ATTACK_OPTION',context.Source)):ApplyStatus(CASTER_EXTRA_ATTACK_OPTION,100,-1);"
+{{- end }}
+
+new entry "SpellSlotTracker"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+{{- if $hideCasterExtraAttackInternals }}
+data "Properties" "IsHidden"
+{{- end }}
+data "StatsFunctorContext" "OnCreate;OnLongRest;OnActionResourcesChanged"
+data "StatsFunctors" "{{range $lvl := untilStep 1 7 1}}{{range $num := untilStep 1 4 1}}IF(HasActionResource('SpellSlot',{{$num}},{{$lvl}},false,false,context.Source)):ApplyStatus(SS_{{$lvl}}_{{$num}},100,-1);{{end}}{{end}}"
+
+{{range $lvl := untilStep 1 7 1}}
+{{range $num := untilStep 1 4 1}}
+new entry "SS_{{$lvl}}_{{$num}}"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "StackId" "SS_{{$lvl}}_{{$num}}"
+data "StatusPropertyFlags" "ApplyToDead;IgnoreResting;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StackType" "Ignore"
+data "RemoveEvents" "OnStatusRemoved"
+data "RemoveConditions" "not HasPassive('SpellSlotTracker',context.Source)"
+{{end}}
+{{end}}
+
+
+new entry "CASTER_EXTRA_ATTACK_OPTION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "StackId" "CASTER_EXTRA_ATTACK_OPTION"
+{{- if $.Values.CasterExtraAttackOption }}
+data "Passives" "CasterExtraAttackOption;CasterExtraAttackLongRest;CasterExtraAttackLevelUp;{{range $lvl := untilStep 6 12 1}}CasterExtraAttackLevelUp_{{$lvl}};CasterImprovedExtraAttackLevelUp_{{$lvl}};CasterNaturalImprovedExtraAttackLevelUp_{{$lvl}};{{end}}SpellSlotTracker{{if $.Values.CasterImprovedExtraAttackOption}};CasterImprovedExtraAttackUnlock{{end}}"
+{{- end }}
+data "StatusPropertyFlags" "ApplyToDead;IgnoreResting{{if $hideCasterExtraAttackInternals}};DisableCombatlog;DisableOverhead;DisablePortraitIndicator{{end}}"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StackType" "Ignore"
+
+new entry "CasterExtraAttackOption"
+type "PassiveData"
+data "DisplayName" "hcbb39064g494ag4211ga5bfg9704718c597a"
+data "Description" "hda391c16ge9fbg4d5cg985fg04688a75eae6"
+data "ExtraDescription" "h551cf781g5a6fg4533g965bga53994c7826f"
+data "Icon" "PassiveFeature_ExtraAttack"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar"
+data "EnabledContext" "OnCreate;OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved"
+data "EnabledConditions" "HasStatus('CASTER_EXTRA_ATTACK_APPLIED',context.Source) or (not HasExtraAttackPassive(context.Source) and ((CasterLevelCheck(5) and HasSpellSlotAmounts(0,1,2,0,0,0,context.Source)) or (CasterLevelCheck(6) and HasSpellSlotAmounts(0,1,3,0,0,0,context.Source)) or (CasterLevelCheck(7) and HasSpellSlotAmounts(0,0,3,1,0,0,context.Source)) or (CasterLevelCheck(8) and HasSpellSlotAmounts(0,0,3,2,0,0,context.Source)) or (CasterLevelCheck(9) and HasSpellSlotAmounts(0,0,1,3,1,0,context.Source)) or (CasterLevelCheck(10) and HasSpellSlotAmounts(0,0,1,3,2,0,context.Source)) or (CasterLevelCheck(11) and HasSpellSlotAmounts(0,0,0,3,2,1,context.Source))))"
+data "ToggleOnFunctors" "ApplyStatus(SELF,CASTER_EXTRA_ATTACK_TOGGLED,100,-1);IF(not HasStatus('CASTER_EXTRA_ATTACK_APPLIED',context.Source)):ApplyStatus(SELF,CASTER_EXTRA_ATTACK_APPLY,100,0)"
+data "ToggleOffFunctors" "RemoveStatus(CASTER_EXTRA_ATTACK_TOGGLED)"
+
+new entry "CasterExtraAttackLongRest"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+{{- if $hideCasterExtraAttackInternals }}
+data "Properties" "IsHidden"
+{{- end }}
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "IF(HasStatus('CASTER_EXTRA_ATTACK_TOGGLED',context.Source) and not HasExtraAttackPassive(context.Source)):ApplyStatus(SELF,CASTER_EXTRA_ATTACK_APPLY,100,0);IF(HasStatus('CASTER_EXTRA_ATTACK_TOGGLED',context.Source) and HasExtraAttackPassive(context.Source)):RemoveStatus(CASTER_EXTRA_ATTACK_TOGGLED)"
+
+new entry "CasterExtraAttackLevelUp"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+{{- if $hideCasterExtraAttackInternals }}
+data "Properties" "IsHidden"
+{{- end }}
+data "StatsFunctorContext" "OnActionResourcesChanged"
+data "StatsFunctors" "IF(HasStatus('CASTER_EXTRA_ATTACK_APPLIED',context.Source) and HasExtraAttackPassive(context.Source)):ApplyStatus(SELF,CASTER_EXTRA_ATTACK_CLEAR,100,0);IF(HasStatus('CASTER_EXTRA_ATTACK_APPLIED',context.Source) and HasExtraAttackPassive(context.Source)):RemoveStatus(CASTER_EXTRA_ATTACK_TOGGLED);IF(HasStatus('CASTER_EXTRA_ATTACK_APPLIED',context.Source) and HasExtraAttackPassive(context.Source)):RemoveStatus(CASTER_EXTRA_ATTACK_APPLIED);IF(HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_APPLIED',context.Source) and HasPassive('ExtraAttack_2',context.Source)):ApplyStatus(SELF,CASTER_EXTRA_ATTACK_CLEAR,100,0);IF(HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_APPLIED',context.Source) and HasPassive('ExtraAttack_2',context.Source)):RemoveStatus(CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED);IF(HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_APPLIED',context.Source) and HasPassive('ExtraAttack_2',context.Source)):RemoveStatus(CASTER_IMPROVED_EXTRA_ATTACK_APPLIED)"
+
+{{range $lvl := untilStep 6 12 1}}
+new entry "CasterExtraAttackLevelUp_{{$lvl}}"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+{{- if $hideCasterExtraAttackInternals }}
+data "Properties" "IsHidden"
+{{- end }}
+data "StatsFunctorContext" "OnActionResourcesChanged"
+data "Conditions" "HasStatus('CASTER_EXTRA_ATTACK_{{sub $lvl 1}}',context.Source) and HasActionResource('SpellSlot',1,{{if eq $lvl 6}}3{{else if or (eq $lvl 7) (eq $lvl 8)}}4{{else if or (eq $lvl 9) (eq $lvl 10)}}5{{else}}6{{end}},false,false,context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,CASTER_EXTRA_ATTACK_{{$lvl}},100,-1);ApplyStatus(SELF,{{if eq $lvl 6}}SS_3_3{{else if eq $lvl 7}}SS_4_1{{else if eq $lvl 8}}SS_4_2{{else if eq $lvl 9}}SS_5_1{{else if eq $lvl 10}}SS_5_2{{else}}SS_6_1{{end}},100,-1)"
+
+new entry "CasterImprovedExtraAttackLevelUp_{{$lvl}}"
+type "PassiveData"
+using "CasterExtraAttackLevelUp_{{$lvl}}"
+data "Conditions" "HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_{{sub $lvl 1}}',context.Source) and HasActionResource('SpellSlot',1,{{if eq $lvl 6}}3{{else if or (eq $lvl 7) (eq $lvl 8)}}4{{else if or (eq $lvl 9) (eq $lvl 10)}}5{{else}}6{{end}},false,false,context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,CASTER_IMPROVED_EXTRA_ATTACK_{{$lvl}},100,-1);ApplyStatus(SELF,{{if eq $lvl 6}}SS_3_3{{else if eq $lvl 7}}SS_4_1{{else if eq $lvl 8}}SS_4_2{{else if eq $lvl 9}}SS_5_1{{else if eq $lvl 10}}SS_5_2{{else}}SS_6_1{{end}},100,-1)"
+
+new entry "CasterNaturalImprovedExtraAttackLevelUp_{{$lvl}}"
+type "PassiveData"
+using "CasterExtraAttackLevelUp_{{$lvl}}"
+data "Conditions" "HasStatus('CASTER_NATURAL_IMPROVED_EXTRA_ATTACK_{{sub $lvl 1}}',context.Source) and HasActionResource('SpellSlot',1,{{if eq $lvl 6}}3{{else if or (eq $lvl 7) (eq $lvl 8)}}4{{else if or (eq $lvl 9) (eq $lvl 10)}}5{{else}}6{{end}},false,false,context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,CASTER_NATURAL_IMPROVED_EXTRA_ATTACK_{{$lvl}},100,-1);ApplyStatus(SELF,{{if eq $lvl 6}}SS_3_3{{else if eq $lvl 7}}SS_4_1{{else if eq $lvl 8}}SS_4_2{{else if eq $lvl 9}}SS_5_1{{else if eq $lvl 10}}SS_5_2{{else}}SS_6_1{{end}},100,-1)"
+{{end}}
+
+new entry "CasterImprovedExtraAttackOption"
+type "PassiveData"
+data "DisplayName" "h2f319628gbafag4b70gbc2ag5a2962eb0fa4"
+data "Description" "h5eeb6f29g726cg43a0gb6b0g83a7f67b9b78"
+data "ExtraDescription" "h551cf781g5a6fg4533g965bga53994c7826f"
+data "Icon" "PassiveFeature_ExtraAttack"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar"
+data "EnabledContext" "OnCreate;OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved"
+data "EnabledConditions" "HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_APPLIED',context.Source) or (not HasPassive('ExtraAttack_2',context.Source) and (((HasStatus('CASTER_EXTRA_ATTACK_5',context.Source) or HasStatus('CASTER_EXTRA_ATTACK_6',context.Source) or HasStatus('CASTER_EXTRA_ATTACK_7',context.Source) or HasStatus('CASTER_EXTRA_ATTACK_8',context.Source)) or ((HasStatus('CASTER_EXTRA_ATTACK_9',context.Source) or HasStatus('CASTER_EXTRA_ATTACK_10',context.Source)) and HasSpellSlotAmounts(0,0,2,0,0,0,context.Source)) or (HasStatus('CASTER_EXTRA_ATTACK_11',context.Source) and HasSpellSlotAmounts(0,0,3,0,0,0,context.Source))) or (HasExtraAttackPassive(context.Source) and ((CasterLevelCheck(5) and HasSpellSlotAmounts(0,0,2,0,0,0,context.Source)) or (CasterLevelCheck(6) and HasSpellSlotAmounts(0,0,3,0,0,0,context.Source)) or (CasterLevelCheck(7) and HasSpellSlotAmounts(0,0,0,1,0,0,context.Source)) or (CasterLevelCheck(8) and HasSpellSlotAmounts(0,0,0,2,0,0,context.Source)) or (CasterLevelCheck(9) and HasSpellSlotAmounts(0,0,0,3,1,0,context.Source)) or (CasterLevelCheck(10) and HasSpellSlotAmounts(0,0,0,3,2,0,context.Source)) or (CasterLevelCheck(11) and HasSpellSlotAmounts(0,0,0,3,2,1,context.Source))))))"
+data "ToggleOnFunctors" "ApplyStatus(SELF,CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED,100,-1);IF(not HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_APPLIED',context.Source) and HasExtraAttackPassive(context.Source)):ApplyStatus(SELF,CASTER_NATURAL_IMPROVED_EXTRA_ATTACK_APPLY,100,0);IF(not HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_APPLIED',context.Source) and not HasExtraAttackPassive(context.Source)):ApplyStatus(SELF,CASTER_IMPROVED_EXTRA_ATTACK_APPLY,100,0)"
+data "ToggleOffFunctors" "RemoveStatus(CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED)"
+
+new entry "CasterImprovedExtraAttackUnlock"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+{{- if $hideCasterExtraAttackInternals }}
+data "Properties" "IsHidden"
+{{- end }}
+data "StatsFunctorContext" "OnCreate;OnLongRest;OnActionResourcesChanged"
+data "Conditions" "CharacterLevelGreaterThan(10) and not HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_OPTION',context.Source)"
+data "StatsFunctors" "ApplyStatus(SELF,CASTER_IMPROVED_EXTRA_ATTACK_OPTION,100,-1)"
+
+new entry "CasterImprovedExtraAttackLongRest"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+{{- if $hideCasterExtraAttackInternals }}
+data "Properties" "IsHidden"
+{{- end }}
+data "StatsFunctorContext" "OnLongRest"
+data "StatsFunctors" "IF(HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED',context.Source) and not HasPassive('ExtraAttack_2',context.Source) and HasExtraAttackPassive(context.Source)):ApplyStatus(SELF,CASTER_NATURAL_IMPROVED_EXTRA_ATTACK_APPLY,100,0);IF(HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED',context.Source) and not HasPassive('ExtraAttack_2',context.Source) and not HasExtraAttackPassive(context.Source)):ApplyStatus(SELF,CASTER_IMPROVED_EXTRA_ATTACK_APPLY,100,0);IF(HasStatus('CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED',context.Source) and HasPassive('ExtraAttack_2',context.Source)):RemoveStatus(CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED)"
+
+new entry "CASTER_IMPROVED_EXTRA_ATTACK_OPTION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "StackId" "CASTER_IMPROVED_EXTRA_ATTACK_OPTION"
+data "Passives" "CasterImprovedExtraAttackOption;CasterImprovedExtraAttackLongRest"
+data "StatusPropertyFlags" "ApplyToDead;IgnoreResting{{if $hideCasterExtraAttackInternals}};DisableCombatlog;DisableOverhead;DisablePortraitIndicator{{end}}"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StackType" "Ignore"
+
+new entry "CASTER_EXTRA_ATTACK_TOGGLED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "StackId" "CASTER_EXTRA_ATTACK_TOGGLED"
+{{- if not $hideCasterExtraAttackInternals }}
+data "Boosts" "UnlockSpell(Shout_CasterExtraAttackDebugReset)"
+{{- end }}
+data "StatusPropertyFlags" "ApplyToDead;IgnoreResting{{if $hideCasterExtraAttackInternals}};DisableCombatlog;DisableOverhead;DisablePortraitIndicator{{end}}"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StackType" "Ignore"
+
+new entry "CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CASTER_EXTRA_ATTACK_TOGGLED"
+data "StackId" "CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED"
+
+new entry "CASTER_EXTRA_ATTACK_APPLIED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "StackId" "CASTER_EXTRA_ATTACK_APPLIED"
+data "StatusPropertyFlags" "ApplyToDead{{if $hideCasterExtraAttackInternals}};DisableCombatlog;DisableOverhead;DisablePortraitIndicator{{end}}"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StackType" "Ignore"
+
+new entry "CASTER_IMPROVED_EXTRA_ATTACK_APPLIED"
+type "StatusData"
+using "CASTER_EXTRA_ATTACK_APPLIED"
+data "StackId" "CASTER_IMPROVED_EXTRA_ATTACK_APPLIED"
+
+new entry "CASTER_EXTRA_ATTACK_APPLY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "StatusPropertyFlags" "ApplyToDead{{if $hideCasterExtraAttackInternals}};DisableCombatlog;DisableOverhead;DisablePortraitIndicator{{end}}"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "OnApplyFunctors" "{{range $lvl := untilStep 5 12 1}}IF(CasterLevelCheck({{$lvl}})):ApplyStatus(SELF,CASTER_EXTRA_ATTACK_{{$lvl}},100,-1);{{end}}ApplyStatus(SELF,CASTER_EXTRA_ATTACK_APPLIED,100,-1)"
+
+new entry "CASTER_IMPROVED_EXTRA_ATTACK_APPLY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CASTER_EXTRA_ATTACK_APPLY"
+data "OnApplyFunctors" "{{range $lvl := untilStep 5 12 1}}IF(CasterLevelCheck({{$lvl}})):ApplyStatus(SELF,CASTER_IMPROVED_EXTRA_ATTACK_{{$lvl}},100,-1);{{end}}RemoveStatus(CASTER_EXTRA_ATTACK_TOGGLED);RemoveStatus(CASTER_EXTRA_ATTACK_APPLIED);ApplyStatus(SELF,CASTER_IMPROVED_EXTRA_ATTACK_APPLIED,100,-1)"
+
+new entry "CASTER_NATURAL_IMPROVED_EXTRA_ATTACK_APPLY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CASTER_EXTRA_ATTACK_APPLY"
+data "OnApplyFunctors" "{{range $lvl := untilStep 5 12 1}}IF(CasterLevelCheck({{$lvl}})):ApplyStatus(SELF,CASTER_NATURAL_IMPROVED_EXTRA_ATTACK_{{$lvl}},100,-1);{{end}}ApplyStatus(SELF,CASTER_IMPROVED_EXTRA_ATTACK_APPLIED,100,-1)"
+
+new entry "CasterExtraAttackGranted"
+type "PassiveData"
+using "ExtraAttack"
+
+new entry "CasterImprovedExtraAttackGranted"
+type "PassiveData"
+using "ExtraAttack_2"
+
+new entry "CASTER_EXTRA_ATTACK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hcbb39064g494ag4211ga5bfg9704718c597a"
+data "Description" "h11487529g2297g4268gba3cg746d90ff3827"
+data "Icon" "PassiveFeature_ExtraAttack"
+data "StackId" "CASTER_EXTRA_ATTACK"
+data "StackType" "Overwrite"
+data "Passives" "CasterExtraAttackGranted"
+data "StatusPropertyFlags" "ApplyToDead"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "CASTER_EXTRA_ATTACK_CLEAR"
+type "StatusData"
+using "CASTER_EXTRA_ATTACK"
+data "DisplayName" ""
+data "Description" ""
+data "StackPriority" "100"
+data "Passives" ""
+data "Boosts" ""
+data "StatusPropertyFlags" "ApplyToDead{{if $hideCasterExtraAttackInternals}};DisableCombatlog;DisableOverhead;DisablePortraitIndicator{{end}}"
+
+{{range $lvl := untilStep 5 12 1}}
+new entry "CASTER_EXTRA_ATTACK_{{$lvl}}"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CASTER_EXTRA_ATTACK"
+data "StackPriority" "{{$lvl}}"
+data "Boosts" "{{if eq $lvl 5}}ActionResource(SpellSlot,-1,2);ActionResource(SpellSlot,-2,3){{else if eq $lvl 6}}ActionResource(SpellSlot,-1,2);ActionResource(SpellSlot,-3,3){{else if eq $lvl 7}}ActionResource(SpellSlot,-3,3);ActionResource(SpellSlot,-1,4){{else if eq $lvl 8}}ActionResource(SpellSlot,-3,3);ActionResource(SpellSlot,-2,4){{else if eq $lvl 9}}ActionResource(SpellSlot,-1,3);ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-1,5){{else if eq $lvl 10}}ActionResource(SpellSlot,-1,3);ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-2,5){{else if eq $lvl 11}}ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-2,5);ActionResource(SpellSlot,-1,6){{end}}"
+{{end}}
+
+new entry "CASTER_IMPROVED_EXTRA_ATTACK"
+type "StatusData"
+data "StatusType" "BOOST"
+using "CASTER_EXTRA_ATTACK"
+data "DisplayName" "h2f319628gbafag4b70gbc2ag5a2962eb0fa4"
+data "Description" "h083442c0g90e7g4f94gb77ag1e54512c7e2b"
+data "StackPriority" "20"
+data "Passives" "CasterImprovedExtraAttackGranted"
+
+{{range $lvl := untilStep 5 12 1}}
+new entry "CASTER_IMPROVED_EXTRA_ATTACK_{{$lvl}}"
+type "StatusData"
+using "CASTER_IMPROVED_EXTRA_ATTACK"
+data "StackPriority" "{{add 20 $lvl}}"
+data "Boosts" "{{if eq $lvl 5}}ActionResource(SpellSlot,-2,3){{else if eq $lvl 6}}ActionResource(SpellSlot,-3,3){{else if eq $lvl 7}}ActionResource(SpellSlot,-3,3);ActionResource(SpellSlot,-1,4){{else if eq $lvl 8}}ActionResource(SpellSlot,-3,3);ActionResource(SpellSlot,-2,4){{else if eq $lvl 9}}ActionResource(SpellSlot,-3,3);ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-1,5){{else if eq $lvl 10}}ActionResource(SpellSlot,-3,3);ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-2,5){{else if eq $lvl 11}}ActionResource(SpellSlot,-3,3);ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-2,5);ActionResource(SpellSlot,-1,6){{end}}"
+{{end}}
+
+new entry "CASTER_NATURAL_IMPROVED_EXTRA_ATTACK"
+type "StatusData"
+using "CASTER_IMPROVED_EXTRA_ATTACK"
+
+{{range $lvl := untilStep 5 12 1}}
+new entry "CASTER_NATURAL_IMPROVED_EXTRA_ATTACK_{{$lvl}}"
+type "StatusData"
+using "CASTER_NATURAL_IMPROVED_EXTRA_ATTACK"
+data "StackPriority" "{{add 40 $lvl}}"
+data "Boosts" "{{if eq $lvl 5}}ActionResource(SpellSlot,-2,3){{else if eq $lvl 6}}ActionResource(SpellSlot,-3,3){{else if eq $lvl 7}}ActionResource(SpellSlot,-1,4){{else if eq $lvl 8}}ActionResource(SpellSlot,-2,4){{else if eq $lvl 9}}ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-1,5){{else if eq $lvl 10}}ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-2,5){{else if eq $lvl 11}}ActionResource(SpellSlot,-3,4);ActionResource(SpellSlot,-2,5);ActionResource(SpellSlot,-1,6){{end}}"
+{{end}}
+
+// Temporary debug reset for testing Caster Extra Attack trades.
+new entry "Shout_CasterExtraAttackDebugReset"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SELF"
+data "Level" "0"
+data "DisplayName" "hdd9b9a0eg17c1g47f1g91e3g708513544c9c"
+data "Description" "h19c601b4g8c7ag4d28g85a4g268b65ed5ae2"
+data "Icon" "Skill_Wizard_ArcaneRecovery"
+data "SpellProperties" "ApplyStatus(SELF,CASTER_EXTRA_ATTACK_DEBUG_RESET,100,0)"
+data "TargetConditions" "Self()"
+data "UseCosts" ""
+data "Cooldown" ""
+data "Requirements" ""
+data "SpellFlags" "Temporary;IgnoreSilence;Invisible;NoCameraMove"
+data "VerbalIntent" "Utility"
+
+new entry "CASTER_EXTRA_ATTACK_DEBUG_RESET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "StatusPropertyFlags" "ApplyToDead{{if $hideCasterExtraAttackInternals}};DisableCombatlog;DisableOverhead;DisablePortraitIndicator{{end}}"
+data "OnApplyFunctors" "RemoveStatus(CASTER_EXTRA_ATTACK_TOGGLED);RemoveStatus(CASTER_IMPROVED_EXTRA_ATTACK_TOGGLED);RemoveStatus(CASTER_EXTRA_ATTACK_APPLIED);RemoveStatus(CASTER_IMPROVED_EXTRA_ATTACK_APPLIED);RemoveStatus(CASTER_EXTRA_ATTACK_APPLY);RemoveStatus(CASTER_IMPROVED_EXTRA_ATTACK_APPLY);RemoveStatus(CASTER_NATURAL_IMPROVED_EXTRA_ATTACK_APPLY);ApplyStatus(SELF,CASTER_EXTRA_ATTACK_CLEAR,100,0);ApplyStatus(SELF,CASTER_EXTRA_ATTACK_DEBUG_RESET_TRACKERS,100,0)"
+
+new entry "CASTER_EXTRA_ATTACK_DEBUG_RESET_TRACKERS"
+type "StatusData"
+using "CASTER_EXTRA_ATTACK_DEBUG_RESET"
+data "OnApplyFunctors" "{{range $lvl := untilStep 1 7 1}}{{range $num := untilStep 1 4 1}}RemoveStatus(SS_{{$lvl}}_{{$num}});{{end}}{{end}}ApplyStatus(SELF,CASTER_EXTRA_ATTACK_DEBUG_RESTORE_SLOTS,100,0)"
+
+new entry "CASTER_EXTRA_ATTACK_DEBUG_RESTORE_SLOTS"
+type "StatusData"
+using "CASTER_EXTRA_ATTACK_DEBUG_RESET"
+data "OnApplyFunctors" "{{range $lvl := untilStep 1 7 1}}RestoreResource(SpellSlot,100%,{{$lvl}});{{end}}"

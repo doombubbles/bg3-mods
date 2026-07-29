@@ -40,6 +40,20 @@
 
 **Thermodynamic Axe** - Renamed to Thermodynamxe
 
+## Experimental Features
+
+### Caster Extra Attack
+
+Spellcasters with 3rd-level spell slots and above can exchange spell-slot progression for additional attacks:
+
+- "Caster Extra Attack" grants [[Extra Attack]] and reduces casting by one progression step: full caster to half caster, or half caster to one-third caster.
+- At character level 11, "Caster Improved Extra Attack" can upgrade an existing Extra Attack to [[Improved Extra Attack]] by reducing casting another progression step.
+  - A full caster with natural Extra Attack becomes a half caster.
+  - A half caster with natural Extra Attack becomes a one-third caster.
+  - A full caster using Caster Extra Attack can upgrade from half-caster to one-third-caster progression.
+- Toggling off does not undo that day's exchange, but it will prevent it from being applied again after the next Long Rest.
+- Can't be toggled on if you've already exepended any of the relevant higher level spell slots
+
 ## Other Mod Changes
 
 These changes will apply to other mods if you have DoombubblesTweaks below them in the Mod Manager load order.

@@ -11,6 +11,6 @@ MagicianLessSorceryPoints: false
 MagicianSpellsPerLevel: 1
 ArcheryGlovesSpecialArrows: true
 GithyankiWarMagicOP: true
-CasterExtraAttackOption: false
-CasterImprovedExtraAttackOption: false
+CasterExtraAttackOption: true
+CasterImprovedExtraAttackOption: true
 BladeInfusions: false

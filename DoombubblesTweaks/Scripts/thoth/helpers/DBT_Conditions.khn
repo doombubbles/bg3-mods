@@ -190,32 +190,48 @@ function IsMovementSpeedStatus()
       | StatusId('DRUNKEN_TECHNIQUE')
 end
 
-function CasterLevelCheck(level, entity)
+function GetSpellSlotProgressionLevel(entity)
   local entity = entity or context.Source
-  local casterLevel = 0
+  local progressionLevel = 0
   if HasStatus('SS_6_1', entity).Result then
-    casterLevel = 11
+    progressionLevel = 11
   elseif HasStatus('SS_5_2', entity).Result then
-    casterLevel = 10
+    progressionLevel = 10
   elseif HasStatus('SS_5_1', entity).Result then
-    casterLevel = 9
+    progressionLevel = 9
   elseif HasStatus('SS_4_2', entity).Result then
-    casterLevel = 8
+    progressionLevel = 8
   elseif HasStatus('SS_4_1', entity).Result then
-    casterLevel = 7
+    progressionLevel = 7
   elseif HasStatus('SS_3_3', entity).Result then
-    casterLevel = 6
+    progressionLevel = 6
   elseif HasStatus('SS_3_2', entity).Result then
-    casterLevel = 5
+    progressionLevel = 5
   elseif HasStatus('SS_2_3', entity).Result then
-    casterLevel = 4
+    progressionLevel = 4
   elseif HasStatus('SS_2_2', entity).Result then
-    casterLevel = 3
+    progressionLevel = 3
   elseif HasStatus('SS_1_3', entity).Result then
-    casterLevel = 2
+    progressionLevel = 2
   elseif HasStatus('SS_1_2', entity).Result then
-    casterLevel = 1
+    progressionLevel = 1
   end
 
-  return ConditionResult(casterLevel == level)
+  return progressionLevel
+end
+
+function CasterLevelCheck(level, entity)
+  return ConditionResult(GetSpellSlotProgressionLevel(entity) == level)
+end
+
+function HasSpellSlotAmounts(level1, level2, level3, level4, level5, level6, entity)
+  local entity = entity or context.Source
+  local requiredSlots = { level1, level2, level3, level4, level5, level6 }
+  for spellLevel, amount in ipairs(requiredSlots) do
+    if amount > 0 and not HasActionResource('SpellSlot', amount, spellLevel, false, false, entity).Result then
+      return ConditionResult(false)
+    end
+  end
+
+  return ConditionResult(true)
 end

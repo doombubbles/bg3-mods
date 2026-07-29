@@ -202,3 +202,12 @@ data "DisplayName" "h0cfe6ad8gda46g4060gaff5g407f697a2972"
 data "Description" "he8f53777g5947g4671g88ffg0481fee79849"
 data "Icon" "PassiveFeature_Generic_Darkness"
 data "Properties" "Highlighted"
+
+
+new entry "Metamagic_Quickened"
+type "PassiveData"
+using "Metamagic_Quickened"
+data "Description" "h3118e76egea54g4720ga4b6g44b9f380c29e"
+data "DescriptionParams" "3;2"
+data "EnabledConditions" "HasActionResource('SorceryPoint', 2, 0, false, false, context.Source)"
+data "Boosts" "UnlockSpellVariant(QuickenedSpellCheck() & IsCantrip(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(QuickenedSpellCheck() & ~IsCantrip(),ModifyUseCosts(Add,SorceryPoint,3,0),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));"

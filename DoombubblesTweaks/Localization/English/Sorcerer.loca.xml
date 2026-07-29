@@ -65,4 +65,7 @@
 	<content contentuid="h0cfe6ad8gda46g4060gaff5g407f697a2972" version="1">The Shadow Within</content>
 	<content contentuid="he8f53777g5947g4671g88ffg0481fee79849" version="1">Both damage bonuses of &lt;LSTag Type="Passive" Tooltip="FromTheShadows"&gt;From The Shadows&lt;/LSTag&gt; are always applied to your Psychic and Necrotic spells.</content>
 
+	
+	<content contentuid="h3118e76egea54g4720ga4b6g44b9f380c29e" version="1">Spells that cost an action cost a bonus action instead. &lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points per spell, or [2] per cantrip.</content>
+
 </contentList>
