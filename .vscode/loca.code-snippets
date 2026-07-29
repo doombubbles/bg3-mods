@@ -10,6 +10,11 @@
 			"<content contentuid=\"h${UUID/-/g/g}\" version=\"1\">${1}</content>"
 		]
 	},
+	"line break": {
+		"prefix": "br",
+		"scope": "xml",
+		"body": "&lt;br&gt;$0"
+	},
 	"status": {
 		"prefix": "status",
 		"scope": "xml",
