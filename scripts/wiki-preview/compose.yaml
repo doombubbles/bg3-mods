@@ -1,0 +1,26 @@
+name: bg3-mods
+
+services:
+  wiki-preview:
+    image: node:22
+    container_name: bg3-mods-wiki-preview
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    working_dir: /workspace/scripts/wiki-preview
+    volumes:
+      - ../..:/workspace
+      - wiki-preview-node-modules:/workspace/scripts/wiki-preview/node_modules
+    command:
+      - sh
+      - -lc
+      - >-
+        chmod +x /workspace/bin/ProcessTemplates &&
+        npm ci --no-audit --no-fund &&
+        npm install --no-save --package-lock=false --no-audit --no-fund
+        @rollup/rollup-linux-x64-gnu &&
+        exec npm run wiki:preview
+
+volumes:
+  wiki-preview-node-modules:
+    name: bg3-mods-wiki-preview-node-modules

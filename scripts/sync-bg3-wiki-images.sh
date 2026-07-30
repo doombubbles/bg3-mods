@@ -1,27 +1,91 @@
+#!/usr/bin/env bash
+
 set -e
+
+MODE="full"
+SOURCE_FILE=""
+
+if [ "${1:-}" = "--incremental" ]; then
+    if [ "$#" -ne 2 ]; then
+        echo "Usage: $0 --incremental <markdown-file>" >&2
+        exit 1
+    fi
+
+    MODE="incremental"
+    SOURCE_FILE="$2"
+
+    if [ ! -f "$SOURCE_FILE" ]; then
+        echo "Markdown source file does not exist: $SOURCE_FILE" >&2
+        exit 1
+    fi
+
+    case "$SOURCE_FILE" in
+        *.md)
+            ;;
+        *)
+            echo "Incremental image sync requires one Markdown (.md) file" >&2
+            exit 1
+            ;;
+    esac
+elif [ "$#" -ne 0 ]; then
+    echo "Usage: $0 [--incremental <markdown-file>]" >&2
+    exit 1
+fi
 
 UNPACKED_DATA="./bin/bg3-modders-multitool/UnpackedData"
 WIKI_SOURCES="./Wiki"
 CONTROLLER_COLOR_OVERRIDES_FILE="./scripts/bg3-wiki-controller-color-overrides.yaml"
-ATLAS_WORK_DIR="$TMP/bg3-mods-wiki-atlas-work"
-MOD_IMAGE_WORK_DIR="$TMP/bg3-mods-wiki-mod-image-work"
+ATLAS_WORK_DIR="$TMP/bg3-mods-wiki-atlas-work-$$"
+MOD_IMAGE_WORK_DIR="$TMP/bg3-mods-wiki-mod-image-work-$$"
+INCREMENTAL_WORK_DIR="$TMP/bg3-mods-wiki-incremental-work-$$"
 MOD_IMAGE_TARGET_DIR="$WIKI_SOURCES/images"
 LEGACY_TARGET_DIR="$WIKI_SOURCES/images/_bg3"
 LEGACY_SKILL_TARGET_DIR="./Wiki/skills_png"
 
-IMAGE_PATHS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
-    -exec grep -hoE '(Game|Gustav_Textures)/[A-Za-z0-9_./-]+\.png|Icons/Textures/[A-Za-z0-9_./-]+\.png' {} \; \
-    | sort -u)
+cleanup_work_dirs() {
+    rm -rf "$ATLAS_WORK_DIR"
+    rm -rf "$MOD_IMAGE_WORK_DIR"
+    rm -rf "$INCREMENTAL_WORK_DIR"
+}
 
-MOD_IMAGE_PATHS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
-    -exec grep -hoE 'images/[A-Za-z0-9_./-]+\.png' {} \; \
-    | sort -u)
+trap cleanup_work_dirs EXIT
+
+if [ "$MODE" = "incremental" ]; then
+    IMAGE_PATHS=$(grep -hoE \
+        '(Game|Gustav_Textures)/[A-Za-z0-9_./-]+\.png|Icons/Textures/[A-Za-z0-9_./-]+\.png' \
+        "$SOURCE_FILE" | sort -u || true)
+    MOD_IMAGE_PATHS=$(grep -hoE 'images/[A-Za-z0-9_./-]+\.png' \
+        "$SOURCE_FILE" | sort -u || true)
+    LEGACY_IMAGE_REFS=$(grep -hoE 'https://bg3\.wiki/w/images/[^"'"'"' )>]+' \
+        "$SOURCE_FILE" | sort -u || true)
+
+    IMAGE_PATHS=$(printf '%s\n' "$IMAGE_PATHS" | while IFS= read -r WIKI_PATH; do
+        [ -n "$WIKI_PATH" ] || continue
+        [ -f "$WIKI_SOURCES/$WIKI_PATH" ] || printf '%s\n' "$WIKI_PATH"
+    done)
+    MOD_IMAGE_PATHS=$(printf '%s\n' "$MOD_IMAGE_PATHS" | while IFS= read -r WIKI_PATH; do
+        [ -n "$WIKI_PATH" ] || continue
+        [ -f "$WIKI_SOURCES/$WIKI_PATH" ] || printf '%s\n' "$WIKI_PATH"
+    done)
+
+    BG3_IMAGE_TARGET_ROOT="$INCREMENTAL_WORK_DIR"
+else
+    IMAGE_PATHS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
+        -exec grep -hoE '(Game|Gustav_Textures)/[A-Za-z0-9_./-]+\.png|Icons/Textures/[A-Za-z0-9_./-]+\.png' {} \; \
+        | sort -u)
+
+    MOD_IMAGE_PATHS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
+        -exec grep -hoE 'images/[A-Za-z0-9_./-]+\.png' {} \; \
+        | sort -u)
+
+    LEGACY_IMAGE_REFS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
+        -exec grep -hoE 'https://bg3\.wiki/w/images/[^"'"'"' )>]+' {} \; | sort -u || true)
+
+    BG3_IMAGE_TARGET_ROOT="$WIKI_SOURCES"
+fi
 
 CONTROLLER_COLOR_OVERRIDES=$(sed -n 's/^[[:space:]]*-[[:space:]]*//p' \
     "$CONTROLLER_COLOR_OVERRIDES_FILE")
-
-LEGACY_IMAGE_REFS=$(find "$WIKI_SOURCES" -type f \( -name '*.md' -o -name '*.tpl' -o -name '*.yaml' \) \
-    -exec grep -hoE 'https://bg3\.wiki/w/images/[^"'"'"' )>]+' {} \; | sort -u || true)
 
 if [ -n "$LEGACY_IMAGE_REFS" ]; then
     echo "Legacy BG3 Wiki image references remain:" >&2
@@ -29,9 +93,14 @@ if [ -n "$LEGACY_IMAGE_REFS" ]; then
     exit 1
 fi
 
-if [ -z "$IMAGE_PATHS" ]; then
+if [ "$MODE" = "full" ] && [ -z "$IMAGE_PATHS" ]; then
     echo "No BG3 Wiki image references found"
     exit 1
+fi
+
+if [ "$MODE" = "incremental" ] && [ -z "$IMAGE_PATHS" ] && [ -z "$MOD_IMAGE_PATHS" ]; then
+    echo "No new Wiki images to sync from $SOURCE_FILE"
+    exit 0
 fi
 
 unpacked_source_path() {
@@ -261,8 +330,8 @@ if [ "$HAS_ATLAS_IMAGES" = true ] || [ "$HAS_CONTROLLER_COLORS" = true ]; then
 fi
 
 for PACKAGE in Game Gustav_Textures Icons; do
-    rm -rf "$WIKI_SOURCES/$PACKAGE"
-    mkdir -p "$WIKI_SOURCES/$PACKAGE"
+    rm -rf "$BG3_IMAGE_TARGET_ROOT/$PACKAGE"
+    mkdir -p "$BG3_IMAGE_TARGET_ROOT/$PACKAGE"
 done
 rm -rf "$ATLAS_WORK_DIR"
 rm -rf "$MOD_IMAGE_WORK_DIR"
@@ -277,7 +346,7 @@ for WIKI_PATH in $IMAGE_PATHS; do
             TARGET_PATH="$ATLAS_WORK_DIR/$SOURCE_RELATIVE_PATH"
             ;;
         *)
-            TARGET_PATH="$WIKI_SOURCES/$SOURCE_RELATIVE_PATH"
+            TARGET_PATH="$BG3_IMAGE_TARGET_ROOT/$SOURCE_RELATIVE_PATH"
             ;;
     esac
 
@@ -305,7 +374,7 @@ for WIKI_PATH in $MOD_IMAGE_PATHS; do
 done
 
 for PACKAGE in Game Gustav_Textures Icons; do
-    ./bin/DDStronk.exe "$WIKI_SOURCES/$PACKAGE"
+    ./bin/DDStronk.exe "$BG3_IMAGE_TARGET_ROOT/$PACKAGE"
 done
 if [ "$HAS_ATLAS_IMAGES" = true ]; then
     ./bin/DDStronk.exe "$ATLAS_WORK_DIR"
@@ -329,7 +398,7 @@ for WIKI_PATH in $IMAGE_PATHS; do
             ICON_KEY=$(atlas_icon_key "$WIKI_PATH")
             CROP_SPEC=$(atlas_crop_spec "$ATLAS_RELATIVE_PATH" "$ICON_KEY")
             set -- $CROP_SPEC
-            TARGET_PATH="$WIKI_SOURCES/$WIKI_PATH"
+            TARGET_PATH="$BG3_IMAGE_TARGET_ROOT/$WIKI_PATH"
             ATLAS_PATH="$ATLAS_WORK_DIR/${ATLAS_RELATIVE_PATH%.DDS}.png"
 
             mkdir -p "$(dirname "$TARGET_PATH")"
@@ -347,7 +416,7 @@ if [ "$HAS_CONTROLLER_COLORS" = true ]; then
         uses_tooltip_colors "$WIKI_PATH" || continue
         TOOLTIP_COLOR_SOURCE=$(tooltip_color_source_path "$WIKI_PATH")
 
-        TARGET_PATH="$WIKI_SOURCES/$WIKI_PATH"
+        TARGET_PATH="$BG3_IMAGE_TARGET_ROOT/$WIKI_PATH"
         COLOR_TARGET_PATH="$TARGET_PATH.color.png"
         DIMENSIONS=$("$MAGICK" identify -format '%wx%h' "$TARGET_PATH")
 
@@ -360,12 +429,42 @@ fi
 
 rm -rf "$ATLAS_WORK_DIR"
 find "$MOD_IMAGE_WORK_DIR" -type f -iname '*.dds' -exec rm -f {} \;
-rm -rf "$MOD_IMAGE_TARGET_DIR"
-mv "$MOD_IMAGE_WORK_DIR" "$MOD_IMAGE_TARGET_DIR"
 for PACKAGE in Game Gustav_Textures Icons; do
-    find "$WIKI_SOURCES/$PACKAGE" -type f -iname '*.dds' -exec rm -f {} \;
+    find "$BG3_IMAGE_TARGET_ROOT/$PACKAGE" -type f -iname '*.dds' -exec rm -f {} \;
 done
-rm -rf "$LEGACY_TARGET_DIR"
-rm -rf "$LEGACY_SKILL_TARGET_DIR"
 
-echo "Finished syncing BG3 Wiki images"
+if [ "$MODE" = "incremental" ]; then
+    for WIKI_PATH in $IMAGE_PATHS; do
+        SOURCE_PATH="$BG3_IMAGE_TARGET_ROOT/$WIKI_PATH"
+        TARGET_PATH="$WIKI_SOURCES/$WIKI_PATH"
+
+        if [ ! -f "$SOURCE_PATH" ]; then
+            echo "BG3 image conversion did not create $SOURCE_PATH" >&2
+            exit 1
+        fi
+
+        if [ ! -f "$TARGET_PATH" ]; then
+            mkdir -p "$(dirname "$TARGET_PATH")"
+            cp -n "$SOURCE_PATH" "$TARGET_PATH"
+        fi
+    done
+
+    for WIKI_PATH in $MOD_IMAGE_PATHS; do
+        SOURCE_PATH="$MOD_IMAGE_WORK_DIR/${WIKI_PATH#images/}"
+        TARGET_PATH="$WIKI_SOURCES/$WIKI_PATH"
+
+        if [ ! -f "$TARGET_PATH" ]; then
+            mkdir -p "$(dirname "$TARGET_PATH")"
+            cp -n "$SOURCE_PATH" "$TARGET_PATH"
+        fi
+    done
+
+    echo "Finished adding new Wiki images referenced by $SOURCE_FILE"
+else
+    rm -rf "$MOD_IMAGE_TARGET_DIR"
+    mv "$MOD_IMAGE_WORK_DIR" "$MOD_IMAGE_TARGET_DIR"
+    rm -rf "$LEGACY_TARGET_DIR"
+    rm -rf "$LEGACY_SKILL_TARGET_DIR"
+
+    echo "Finished syncing BG3 Wiki images"
+fi

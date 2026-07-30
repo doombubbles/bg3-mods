@@ -14,6 +14,33 @@ const markdown = remark()
 
 const content = document.querySelector('#wiki-content');
 const sidebar = document.querySelector('#wiki-sidebar');
+const root = document.documentElement;
+
+function setRenderState(state, error) {
+  root.dataset.wikiRenderState = state;
+  if (error) {
+    root.dataset.wikiRenderError = error.message;
+  } else {
+    delete root.dataset.wikiRenderError;
+  }
+}
+
+async function waitForImages(element) {
+  await Promise.all([...element.querySelectorAll('img')].map(image => {
+    if (image.complete) {
+      return image.naturalWidth > 0
+        ? Promise.resolve()
+        : Promise.reject(new Error(`Could not load image ${image.currentSrc || image.src}`));
+    }
+
+    return new Promise((resolvePromise, reject) => {
+      image.addEventListener('load', resolvePromise, { once: true });
+      image.addEventListener('error', () => {
+        reject(new Error(`Could not load image ${image.currentSrc || image.src}`));
+      }, { once: true });
+    });
+  }));
+}
 
 function route() {
   const [page = 'Home', anchor = ''] = decodeURIComponent(location.hash.slice(1).replace(/^\//, '')).split('#');
@@ -56,6 +83,7 @@ function routeFromLink(href) {
 
 async function renderPage() {
   const { page, anchor } = route();
+  setRenderState('loading');
   content.textContent = 'Loading wiki preview…';
 
   try {
@@ -67,8 +95,12 @@ async function renderPage() {
     updateActiveLink(page);
     document.title = `${content.querySelector('h1')?.textContent || page} - Doombubbles BG3 Mods`;
     document.getElementById(anchor)?.scrollIntoView();
+    await waitForImages(content);
+    await document.fonts?.ready;
+    setRenderState('ready');
   } catch (error) {
     content.innerHTML = `<h1>Page not found</h1><p>${error.message}</p>`;
+    setRenderState('error', error);
   }
 }
 
@@ -80,7 +112,12 @@ async function renderSidebar() {
   updateActiveLink(route().page);
 }
 
-window.addEventListener('hashchange', renderPage);
+window.addEventListener('hashchange', () => void renderPage());
 
-await renderSidebar();
-await renderPage();
+try {
+  await renderSidebar();
+  await renderPage();
+} catch (error) {
+  content.innerHTML = `<h1>Preview error</h1><p>${error.message}</p>`;
+  setRenderState('error', error);
+}

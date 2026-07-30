@@ -119,6 +119,14 @@ It turns terms embedded inside localized strings into Wiki-compatible links and 
 
 `scripts/sync-bg3-wiki-images.sh` reads all source Markdown, snippets, templates, and the concept registry. It manages `Wiki/Game`, `Wiki/Gustav_Textures`, and `Wiki/Icons`, expanding each compact package path back to its full location beneath `UnpackedData` while copying, converting, and removing unused output. It also manages `Wiki/images` by resolving `images/...` references against each mod's `Mods/*/GUI/Assets` directory and converting only the referenced custom DDS files. Conflicting sources at the same relative path fail the sync unless their contents are identical.
 
+For an additive update while authoring one page, run:
+
+```sh
+npm --prefix scripts/wiki-preview run bash -- scripts/sync-bg3-wiki-images-incremental.sh Wiki/Page-Name.md
+```
+
+This scans only the specified Markdown file. Images that already exist under `Wiki/` are skipped before conversion, and the script only copies newly converted images into place. It does not remove or replace existing image outputs; use the full sync when stale images need to be pruned.
+
 For referenced `Game/ControllerUIIcons/skills_png` icons explicitly listed in `scripts/bg3-wiki-controller-color-overrides.yaml`, the syncer uses ImageMagick to combine the matching tooltip texture's RGB channels with the controller alpha channel. This restores authored colors without reintroducing the tooltip texture's faded lower edge. The list is deliberately opt-in because matching filenames do not guarantee compatible artwork.
 
 ## Current replacement coverage

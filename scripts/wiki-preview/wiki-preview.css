@@ -68,6 +68,16 @@ body {
 }
 
 @media print {
+  @page {
+    size: Letter;
+    margin: 0.5in;
+  }
+
+  * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
   .sidebar {
     display: none;
   }
