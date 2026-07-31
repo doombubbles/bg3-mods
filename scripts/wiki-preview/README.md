@@ -15,15 +15,21 @@ npm --prefix scripts/wiki-preview run wiki:preview
 ```
 
 Vite listens on all network interfaces through `--host 0.0.0.0`. Open
-`http://localhost:3000` on this computer or
-`http://<host-lan-address>:3000` from another device. Changes under `Wiki`,
+`http://localhost:3003` on this computer or
+`http://<host-lan-address>:3003` from another device. Changes under `Wiki`,
 the documented mod sources, or their rendered localization rebuild
 `build/Wiki`; Vite then reloads the preview automatically.
 
+The initial build populates the complete Markdown and image tree. While the
+server is running, rebuilds preserve existing static images and copy only new
+ones discovered by the incremental image sync. Generated files under
+`build/Wiki` are ignored while a build is in progress, then the preview sends
+one full-page reload after the completed incremental build.
+
 Added or changed Markdown files beneath `Wiki` also queue the incremental Wiki
-image sync in the background. Saves to the same file are debounced for 600
-milliseconds, and at most two image syncs run concurrently. Existing converted
-images are left unchanged.
+image sync in the background. Image checks are debounced for 750 milliseconds,
+and preview rebuilds wait for one second of quiet. At most two image syncs run
+concurrently. Existing converted images are left unchanged.
 
 To run the same build watcher and preview server with Docker Compose, first
 make sure `bin/ProcessTemplates` contains a Linux build of ProcessTemplates,
@@ -35,9 +41,9 @@ npm --prefix scripts/wiki-preview run wiki:preview:docker
 
 This runs `docker compose up -d` using
 `scripts/wiki-preview/compose.yaml`. The service mounts the repository,
-publishes its preview directly to host port 3000, uses the Linux
+publishes its preview directly to host port 3003, uses the Linux
 ProcessTemplates binary automatically, and polls the bind mount for source
-changes. Open `http://<host-lan-address>:3000` from another device on the local
+changes. Open `http://<host-lan-address>:3003` from another device on the local
 network. The setup does not create a persistent Windows port proxy.
 
 Stop and remove the preview container with:

@@ -33,6 +33,7 @@ var destination (string)
 var valuesFiles ([]string)
 var resultValues (string)
 var singleFile = false
+var incremental = false
 
 type Values map[string]interface{}
 type AnyValue interface{}
@@ -48,12 +49,13 @@ func main() {
 	flag.StringVarP(&destination, "destination", "d", "build/"+filepath.Base(rootDir), "The destination folder to put things in")
 	flag.StringArrayVarP(&valuesFiles, "values", "v", []string{}, "Places to read values files from other than the source folder")
 	flag.StringVarP(&resultValues, "result-values", "r", "build/values.yaml", "Place to save the result values to, if any")
+	flag.BoolVar(&incremental, "incremental", false, "Preserve and skip existing static output files")
 	flag.Parse()
 
 	singleFile = filepath.Ext(src) != "" && filepath.Ext(destination) != ""
 
 	// Delete all files in the build directory
-	err = cleanBuildDirectory(destination)
+	err = cleanBuildDirectory(destination, incremental)
 	if err != nil {
 		log.Fatalf("error cleaning build directory: %v", err)
 	}
@@ -127,10 +129,30 @@ func main() {
 	}
 }
 
-func cleanBuildDirectory(path string) error {
+func cleanBuildDirectory(path string, preserveStatic bool) error {
 	// Create build directory if not exists
 	if _, err := os.Stat(path); os.IsNotExist(err) {
-		os.Mkdir(path, os.ModePerm)
+		if err := os.MkdirAll(path, os.ModePerm); err != nil {
+			return err
+		}
+	}
+
+	if preserveStatic {
+		err := filepath.Walk(path, func(currentPath string, info os.FileInfo, err error) error {
+			if err != nil {
+				return err
+			}
+			if info.IsDir() || isExcluded(currentPath) {
+				return nil
+			}
+			return os.Remove(currentPath)
+		})
+		if err != nil {
+			return err
+		}
+
+		log.Println("Build directory cleaned; existing static files preserved")
+		return nil
 	}
 
 	// Remove the results directory if it exists
@@ -392,6 +414,13 @@ func processFile(path string, info os.FileInfo, err error, values Values, tmpl *
 
 	// Check if the file should be excluded from template processing
 	if isExcluded(path) {
+		if incremental {
+			if _, err := os.Stat(outputPath); err == nil {
+				return nil
+			} else if !os.IsNotExist(err) {
+				return err
+			}
+		}
 		return copyFile(path, outputPath)
 	}
 

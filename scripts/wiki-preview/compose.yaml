@@ -1,12 +1,12 @@
-name: bg3-mods
+name: wiki-preview
 
 services:
-  wiki-preview:
+  server:
     image: node:22
     container_name: bg3-mods-wiki-preview
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "3003:3003"
     working_dir: /workspace/scripts/wiki-preview
     volumes:
       - ../..:/workspace

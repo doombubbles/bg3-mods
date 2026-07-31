@@ -14,7 +14,8 @@ const imageSyncCommand = process.platform === 'win32'
   : 'bash';
 const imageSyncCommandArgs = process.platform === 'win32' ? ['bash'] : [];
 const imageSyncConcurrency = 2;
-const imageSyncDebounceMs = 600;
+const imageSyncDebounceMs = 750;
+const rebuildDebounceMs = 1000;
 
 if (!existsSync(viteCli)) {
   throw new Error(
@@ -35,14 +36,13 @@ if (process.argv.includes('--build')) {
 
 await buildWiki();
 
-const server = spawn(
-  process.execPath,
-  [viteCli, '--config', viteConfig, '--host', '0.0.0.0'],
-  {
-    cwd: root,
-    stdio: 'inherit'
-  }
-);
+const { createServer } = await import('vite');
+const server = await createServer({
+  configFile: viteConfig,
+  server: { host: '0.0.0.0' }
+});
+await server.listen();
+server.printUrls();
 
 let building = false;
 let rebuildQueued = false;
@@ -68,7 +68,9 @@ async function rebuild() {
   }
   building = true;
   try {
-    await buildWiki();
+    await buildWiki({ incremental: true });
+    server.ws.send({ type: 'full-reload' });
+    console.log('Wiki preview reloaded.');
   } catch (error) {
     console.error(`Wiki rebuild failed: ${error.message}`);
   } finally {
@@ -154,16 +156,16 @@ watcher.on('all', (event, path) => {
   }
 
   clearTimeout(debounce);
-  debounce = setTimeout(rebuild, 200);
+  debounce = setTimeout(rebuild, rebuildDebounceMs);
 });
 
-function shutdown() {
+async function shutdown() {
   clearTimeout(debounce);
   for (const imageSyncDebounce of imageSyncDebounces.values()) {
     clearTimeout(imageSyncDebounce);
   }
-  watcher.close();
-  server.kill();
+  await watcher.close();
+  await server.close();
   process.exit(0);
 }
 

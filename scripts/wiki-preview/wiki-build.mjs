@@ -31,13 +31,16 @@ function run(command, args) {
   });
 }
 
-export async function buildWiki() {
+export async function buildWiki({ incremental = false } = {}) {
   if (!existsSync(processTemplates)) {
     throw new Error(
       `Missing ${processTemplates}; build ProcessTemplates for ${process.platform} before building the Wiki.`
     );
   }
 
-  await run(processTemplates, processTemplateArgs);
+  const args = incremental
+    ? [...processTemplateArgs, '--incremental']
+    : processTemplateArgs;
+  await run(processTemplates, args);
   console.log('Wiki Markdown updated.');
 }

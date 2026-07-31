@@ -27,6 +27,33 @@ func requireEqual(t *testing.T, got string, want string) {
 	}
 }
 
+func TestIncrementalCleanPreservesStaticFiles(t *testing.T) {
+	dir := t.TempDir()
+	staticPath := filepath.Join(dir, "images", "Icon.png")
+	markdownPath := filepath.Join(dir, "Page.md")
+	for path, content := range map[string]string{
+		staticPath:   "png",
+		markdownPath: "markdown",
+	} {
+		if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
+			t.Fatal(err)
+		}
+		if err := os.WriteFile(path, []byte(content), 0644); err != nil {
+			t.Fatal(err)
+		}
+	}
+
+	if err := cleanBuildDirectory(dir, true); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := os.Stat(staticPath); err != nil {
+		t.Fatalf("static file was not preserved: %v", err)
+	}
+	if _, err := os.Stat(markdownPath); !os.IsNotExist(err) {
+		t.Fatalf("non-static file was not removed: %v", err)
+	}
+}
+
 func TestLoadConceptAliases(t *testing.T) {
 	dir := t.TempDir()
 	path := filepath.Join(dir, "wikilinks.yaml")
