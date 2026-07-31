@@ -20,3 +20,16 @@ Icons:
   - PassiveFeature_ElementalAdept_Psychic
   - PassiveFeature_ElementalAdept_Radiant
   - PassiveFeature_ElementalAdept_Poison
+  - Action_StandardMagic_ActionSurge
+  - Action_StandardMagic_Cambion
+  - Action_StandardMagic_CatsAndDogs
+  - Action_StandardMagic_EnlargeReduce
+  - Action_StandardMagic_Entangle
+  - Action_StandardMagic_Fly
+  - Action_StandardMagic_Polymorph
+  - Action_StandardMagic_ResilientSphere
+  - Action_StandardMagic_Shield
+  - Action_StandardMagic_Slow
+  - Action_StandardMagic_SpeakWithAnimals
+  - Action_StandardMagic_SpikeGrowth
+  - Action_StandardMagic_Telekinesis

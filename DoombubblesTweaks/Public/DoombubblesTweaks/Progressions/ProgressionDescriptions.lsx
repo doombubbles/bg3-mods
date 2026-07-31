@@ -4,6 +4,22 @@
   <region id="ProgressionDescriptions">
     <node id="root">
       <children>
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="hcd3bd1d9g7a86g4ffbg9fa6gd08747ed217f" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h975ac7f2g1755g490dg8d32ge2ad008d2fd1" version="1"/>
+          <attribute id="ExactMatch" type="FixedString" value="StandardMagic"/>
+          <attribute id="Hidden" type="bool" value="false"/>
+          <attribute id="ProgressionTableId" type="guid" value="57cf978f-f40f-43ac-8313-c5632c4af334"/>
+          <attribute id="UUID" type="guid" value="8e3d28fa-aa30-4c62-a590-48f7b11da226"/>
+        </node>
+
+        <node id="ProgressionDescription">
+          <attribute id="Description" type="TranslatedString" handle="h9ff64755g3229g430cg9050g8ff0e3b1493f" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h5c373e74g20f5g4b35g90feg67a837380d92" version="1"/>
+          <attribute id="SelectorId" type="FixedString" value="StandardMagicSpells"/>
+          <attribute id="UUID" type="guid" value="cc5ae26e-f23f-4eba-a348-1a60fecd05b3"/>
+        </node>
+
         <!-- <node id="ProgressionDescription">
           <attribute id="Description" type="TranslatedString" handle="hac51c24fg245dg4ed6gb598g9e8c5c46a4be" version="1"/>
           <attribute id="DisplayName" type="TranslatedString" handle="hf99c87fbgd075g42f5g9f67gc76fc0d0d3b4" version="1"/>

@@ -77,6 +77,7 @@
 - [[Ranger | Ranger-Changes]]
 - [[Rogue | Rogue-Changes]]
 - [[Sorcerer | Sorcerer-Changes]]
+  - [[Standard Magic | Sorcerer---Standard-Magic]]
 - [[Warlock | Warlock-Changes]]
 - [[Wizard | Wizard-Changes]]
 

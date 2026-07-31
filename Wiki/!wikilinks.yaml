@@ -19,7 +19,7 @@ concepts:
   Spell Slot:
     href: https://bg3.wiki/wiki/Spell_slot
     icon: Game/Tooltips/ico_spellSlotTT.png
-    aliases: [Spell Slots]
+    aliases: [Spell Slots, Spell Level, Spell Levels]
   Warlock Spell Slot:
     href: https://bg3.wiki/wiki/Warlock_Spell_Slot
     icon: Game/ActionResources_c/Icons/WarlockSpellSlot.png
@@ -90,6 +90,17 @@ concepts:
     href: https://bg3.wiki/wiki/Wild_Shape_Charge
     icon: Game/ActionResources_c/Icons/WildShape.png
     aliases: [Wild Shape, Wild Shape Charges]
+
+  # Spellcasting mechanics
+  Ritual Spell:
+    href: https://bg3.wiki/wiki/Ritual_spells
+    icon: Game/ControllerUIIcons/skills_png/PassiveFeature_RitualCaster_FreeSpells.png
+    aliases: [Ritual, Ritual Spells]
+  Spell Save DC:
+    href: https://bg3.wiki/wiki/Difficulty_Class#Spell_save_DC
+  Wild Magic:
+    href: https://bg3.wiki/wiki/Wild_Magic
+    icon: Game/ControllerUIIcons/skills_png/PassiveFeature_WildMagicSurge.png
 
   # Death Knight resources
   Blood Rune:

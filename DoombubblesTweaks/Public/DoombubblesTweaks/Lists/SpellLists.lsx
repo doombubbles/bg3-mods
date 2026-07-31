@@ -152,6 +152,34 @@
           <attribute id="Spells" type="LSString" value="Shout_FeatherFall;Target_Knock"/>
           <attribute id="UUID" type="guid" value="b7889a2a-d60b-412f-99ca-9c37da723929"/>
         </node>
+
+        <!-- Standard Magic subclass spell-selection pools. -->
+
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Standard Magic level 2"/>
+          <attribute id="Spells" type="LSString" value="Target_FogCloud_StandardMagic;Target_Entangle_StandardMagic;Shout_SpeakWithAnimals_StandardMagic;Shout_StandardMagic_Shield"/>
+          <attribute id="UUID" type="guid" value="6cded67f-eeac-43ae-8ab9-eb22b1c77d0b"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Standard Magic level 3"/>
+          <attribute id="Spells" type="LSString" value="Target_StandardMagic_Burning;Target_StandardMagic_Teleport;Target_EnchantWeapon_StandardMagic;Target_Blur_StandardMagic;Target_Swap_StandardMagic;Target_SpikeGrowth_StandardMagic;Target_EnlargeReduce_StandardMagic;Target_FogCloud_StandardMagic;Target_Entangle_StandardMagic;Shout_SpeakWithAnimals_StandardMagic;Shout_StandardMagic_Shield"/>
+          <attribute id="UUID" type="guid" value="b54fd4d8-f355-42ff-a2fb-c2b0fcc5bc7f"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Standard Magic level 5"/>
+          <attribute id="Spells" type="LSString" value="Shout_StandardMagic_Heal;Target_StandardMagic_Mephit;Target_Fly_StandardMagic;Target_Slow_StandardMagic;Target_StandardMagic_Burning;Target_StandardMagic_Teleport;Target_EnchantWeapon_StandardMagic;Target_Blur_StandardMagic;Target_Swap_StandardMagic;Target_SpikeGrowth_StandardMagic;Target_EnlargeReduce_StandardMagic;Target_FogCloud_StandardMagic;Target_Entangle_StandardMagic;Shout_SpeakWithAnimals_StandardMagic;Shout_StandardMagic_Shield"/>
+          <attribute id="UUID" type="guid" value="c14bf52b-01ba-4ad5-91e8-d17f6ff5de37"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Standard Magic level 7"/>
+          <attribute id="Spells" type="LSString" value="Shout_StandardMagic_ActionSurge;Target_StandardMagic_Polymorph;Target_ResilientSphere_StandardMagic;Shout_StandardMagic_Heal;Target_StandardMagic_Mephit;Target_Fly_StandardMagic;Target_Slow_StandardMagic;Target_StandardMagic_Burning;Target_StandardMagic_Teleport;Target_EnchantWeapon_StandardMagic;Target_Blur_StandardMagic;Target_Swap_StandardMagic;Target_SpikeGrowth_StandardMagic;Target_EnlargeReduce_StandardMagic;Target_FogCloud_StandardMagic;Target_Entangle_StandardMagic;Shout_SpeakWithAnimals_StandardMagic;Shout_StandardMagic_Shield"/>
+          <attribute id="UUID" type="guid" value="5202561e-d256-41c6-9f4c-8361773671b6"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Standard Magic level 9"/>
+          <attribute id="Spells" type="LSString" value="Shout_StandardMagic_Telekinesis;Target_StandardMagic_Cambion;Shout_StandardMagic_ActionSurge;Target_StandardMagic_Polymorph;Target_ResilientSphere_StandardMagic;Shout_StandardMagic_Heal;Target_StandardMagic_Mephit;Target_Fly_StandardMagic;Target_Slow_StandardMagic;Target_StandardMagic_Burning;Target_StandardMagic_Teleport;Target_EnchantWeapon_StandardMagic;Target_Blur_StandardMagic;Target_Swap_StandardMagic;Target_SpikeGrowth_StandardMagic;Target_EnlargeReduce_StandardMagic;Target_FogCloud_StandardMagic;Target_Entangle_StandardMagic;Shout_SpeakWithAnimals_StandardMagic;Shout_StandardMagic_Shield"/>
+          <attribute id="UUID" type="guid" value="2591e0bb-7d31-4e6d-995e-28bccc6df2e9"/>
+        </node>
       </children>
     </node>
   </region>

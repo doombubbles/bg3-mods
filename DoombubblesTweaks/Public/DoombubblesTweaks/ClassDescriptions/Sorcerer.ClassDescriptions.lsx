@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="314"/>
+  <region id="ClassDescriptions">
+    <node id="root">
+      <children>
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="hcd3bd1d9g7a86g4ffbg9fa6gd08747ed217f" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h975ac7f2g1755g490dg8d32ge2ad008d2fd1" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="Name" type="FixedString" value="StandardMagic"/>
+          <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+          <attribute id="PrimaryAbility" type="uint8" value="6"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="57cf978f-f40f-43ac-8313-c5632c4af334"/>
+          <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+          <attribute id="UUID" type="guid" value="f7268597-41e5-4d4c-b2ca-7ac287d54c5e"/>
+          <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="885f8675-e400-4d53-924d-6204ff1d9558"/>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

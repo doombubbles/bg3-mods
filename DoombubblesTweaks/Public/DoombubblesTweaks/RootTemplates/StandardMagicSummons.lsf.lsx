@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="6" build="5" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="9fc3573c-e6b4-4ac8-ae89-e4a6c572a72c" />
+          <attribute id="Name" type="LSString" value="MEPHIT_Mud_StandardMagic" />
+          <attribute id="ParentTemplateId" type="FixedString" value="3844ba99-4e84-4ae0-8cf6-33b981b8bbfa" />
+          <attribute id="Type" type="FixedString" value="character" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+        </node>
+        <node id="GameObjects">
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="d5374812-7be1-4a25-9f8e-9c484cd5fb76" />
+          <attribute id="Name" type="LSString" value="MEPHIT_Magma_StandardMagic" />
+          <attribute id="ParentTemplateId" type="FixedString" value="9cf75e67-e219-4787-a410-7b2df9fbe255" />
+          <attribute id="Type" type="FixedString" value="character" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+        </node>
+        <node id="GameObjects">
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="MapKey" type="FixedString" value="4e074fd4-0f2c-419a-a30c-d8f291fe16d3" />
+          <attribute id="Name" type="LSString" value="Cambion_Male_StandardMagic" />
+          <attribute id="ParentTemplateId" type="FixedString" value="d9889d28-ca01-41f2-973e-275bbc8e2fe1" />
+          <attribute id="Type" type="FixedString" value="character" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144818875517632812" />
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

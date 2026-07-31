@@ -1,5 +1,9 @@
 # Sorcerer Changes
 
+## Standard Magic
+
+Added the [[Standard Magic Sorcerer | Sorcerer---Standard-Magic]], a subclass that learns deterministic versions of Wild Magic surge effects.
+
 - Flame Blade is now included on the Sorcerer Spell list, as it is in 5e
 - Metamagic Quickened Spell now costs only 2 Sorcery Points when it's used on cantrips
 

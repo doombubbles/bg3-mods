@@ -68,4 +68,75 @@
 	
 	<content contentuid="h3118e76egea54g4720ga4b6g44b9f380c29e" version="1">Spells that cost an action cost a bonus action instead. &lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points per spell, or [2] per cantrip.</content>
 
+	<content contentuid="h975ac7f2g1755g490dg8d32ge2ad008d2fd1" version="1">Standard Magic</content>
+	<content contentuid="hcd3bd1d9g7a86g4ffbg9fa6gd08747ed217f" version="1">Your powers come from ancient forces of order. They churn within you - waiting to burst free at times of your choosing.</content>
+	<content contentuid="h5c373e74g20f5g4b35g90feg67a837380d92" version="1">Standard Magic Spell</content>
+	<content contentuid="h9ff64755g3229g430cg9050g8ff0e3b1493f" version="1">Choose a Standard Magic spell to add to your repertoire.</content>
+	<content contentuid="hdba7f743g9537g4204gb70fgeb40a98c1e90" version="1">Gain 1 Sorcery Point.</content>
+	<content contentuid="hd9ef2d7eg3e4bg4456gb82eg184c639e9a32" version="1">Regain 1 Sorcery Point after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+
+	<!-- Standard Magic -->
+	<content contentuid="h34e5f6a4g5917g4b6agab1dge75b0c297412" version="1">Standard Magic: Burning</content>
+	<content contentuid="hc77cd053g34ceg41aag93f5ga3fa97bb3b72" version="1">Possibly ignite enemies in a [1] radius. Burning creatures take [2] immediately and at the start of each turn.</content>
+
+	<content contentuid="hfbfccd2fg6276g49a9ga166g9ce781756a01" version="1">Standard Magic: Teleport</content>
+	<content contentuid="h0a34d5dag8e11g43b6g8551g5cd78b90aa3c" version="1">Teleport up to [1]. For 2 turns, you can teleport again as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h8fb5c0fcg1371g489ag81fcg9579c296cb6c" version="1">Standard Magic: Enchant Weapon</content>
+	<content contentuid="h021bb765g1c87g4338g9d4dgf5a56d9a60b0" version="1">Choose an enchantment for a creature's main-hand weapon.</content>
+	<content contentuid="ha673aa34g9a53g4f3dgb00dgac7794238464" version="1">Critical Enchantment</content>
+	<content contentuid="h21816a2cgb738g4170gaddagfd9b6d1d2048" version="1">The next weapon attack deals an additional [1] and is a guaranteed &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Usable once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hb321aab1g45e7g4b6cg9deege252cacb765d" version="1">Lasting Enchantment</content>
+	<content contentuid="hc7cd3716gf1f5g4b33g8cd9g957ac6999ca5" version="1">The weapon deals an additional [1] until &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hf3ab5295g6f67g48cag81b8g5317684533e7" version="1">Standard Magic: Fog</content>
+
+	<content contentuid="h39fc2554gb1edg40a4g8b06g0c4f19ad6ee4" version="1">Standard Magic: Blur</content>
+
+	<content contentuid="hfae244b6g5f25g47d4gb080gae0caa64c823" version="1">Standard Magic: Heal</content>
+	<content contentuid="h4c615cbbgd2f2g4784g8a24g248015aa3bb9" version="1">When you hit a target with a non-cantrip spell, heal all non-hostile creatures within [1] for [2] per &lt;LSTag Tooltip="SpellSlot"&gt;spell level&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h58e9915ege16cg49d0g9569gd2ec8a31feba" version="1">Standard Magic: Summon Mephit</content>
+	<content contentuid="h9655ed84g3e01g4e07gb3a4g0d41cbc5dee5" version="1">Summon a Mud or Magma Mephit to fight alongside you.</content>
+	<content contentuid="h022ad85agf995g467cg934ag10ba7f4ba836" version="1">Mud Mephit</content>
+	<content contentuid="h2b4dc0dcg9d83g440dg894dgdf87cb064be7" version="1">Summon a Mud Mephit.</content>
+	<content contentuid="h331c4cdfg424dg41dbg9eb3g8f18ec489da3" version="1">Magma Mephit</content>
+	<content contentuid="ha0dca917g515eg44b8g8e2eg78cc62819a1c" version="1">Summon a Magma Mephit.</content>
+
+	<content contentuid="h64eb5f74gf8fcg4521g8dfcg352e867f0a5d" version="1">Standard Magic: Swap</content>
+	<content contentuid="h17f57044gd3a2g48e5g8fb9g8046b1305c38" version="1">Swap positions with a creature. To work on an enmy, they must fail a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h0ad9de7dg4be9g4114g89c9g8510b8093935" version="1">Standard Magic: Fly</content>
+
+	<content contentuid="h79991702g3a53g47caga799gd16558db14ec" version="1">Standard Magic: Action Surge</content>
+
+	<content contentuid="h37579af3gee70g4ce1g910bg2c8cf5ad3699" version="1">Standard Magic: Spike Growth</content>
+
+	<content contentuid="h6016a0a7ga601g4bddgb850g83f07008b80e" version="1">Standard Magic: Entangle</content>
+
+	<content contentuid="hb6153660g9a2cg463bgbbb7ga07f07991ab5" version="1">Standard Magic: Slow</content>
+
+	<content contentuid="h8d8f504cg9175g4564gb61fg4ab4d4196454" version="1">Standard Magic: Summon Cambion</content>
+	<content contentuid="h047a7a3dg3371g489dg8a48g3d63f5dc8e6c" version="1">Summon a Cambion to fight alongside you.</content>
+
+	<content contentuid="h23f8d734gaf7eg44d1g80eag8b4ba90da1ba" version="1">Standard Magic: Polymorph</content>
+	<content contentuid="h6500610dg265ag40a0ga2a3g763673b4cfb8" version="1">Transform a creature into a harmless sheep, cat, or dog. An unwilling target can resist the effect.</content>
+	<content contentuid="h8e20a5b2g7697g44bfg8cd2g76c09bec5a4c" version="1">Polymorph: Sheep</content>
+	<content contentuid="ha57c094ag909cg4f90g977dg418ea5207ea3" version="1">Polymorph: Cat</content>
+	<content contentuid="h7e801075g673ag4e81ga0ccg02719c084297" version="1">Transform a creature into a harmless cat.</content>
+	<content contentuid="h11581d5eg68f6g4403ga2abg5c4dfffb4d46" version="1">Polymorph: Dog</content>
+	<content contentuid="h2051c19dgc39dg4415gb02cg2d4f7ac2d923" version="1">Transform a creature into a harmless dog.</content>
+
+	<content contentuid="h4c055758g63fag4c12gacbbga9dc095f63e8" version="1">Standard Magic: Enlarge or Reduce</content>
+
+	<content contentuid="h7a38e6f9g7667g404fg974cg3c9a4e37077f" version="1">Standard Magic: Resilient Sphere</content>
+
+	<content contentuid="hdba840fbgb3bfg4705g8d9dgccc7603e00a9" version="1">Standard Magic: Telekinesis</content>
+	<content contentuid="h06e72458gc0d2g4773g8ef2g2f0411182e2d" version="1">Gain the ability to move creatures and objects with your mind for 2 turns.</content>
+
+	<content contentuid="hd7d72d0cg3e3fg4d61gb6d3g33491613b312" version="1">Standard Magic: Speak with Animals</content>
+	<content contentuid="h9048341dgad46g438egbe68g0ba148afbc3e" version="1">Gain the ability to comprehend and communicate with beasts until your next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h973b9438gabe0g4ec5g8980g80324a97fe36" version="1">Standard Magic: Shield</content>
+
 </contentList>
