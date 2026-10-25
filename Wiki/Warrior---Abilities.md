@@ -19,8 +19,8 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 - Available for Arms/Fury/Mountain Thane Level 3+
 
 - Costs 1 [[Bonus Action]]
-- Weapon attack, 9m range; [[STR]] [[Saving Throw]] ([[Weapon Action DC]])
-- Deals [2](## 'Proficiency Bonus')d4 + [[STR]]/[[DEX]]; on a failed save, the target is [[Restrained]] for 1 turn, or takes half damage on a success
+- Weapon attack, 9m range
+- On hit, [[STR]] [[Saving Throw]] ([[Weapon Action DC]]); on a failed save, the target is [[Restrained]] for 1 turn
 - {{ getf .loca "hf0da666cg2c85g4ec5g8e19g809ec529afbf" "1" | include "wikify" }}
 
 ![[Game/ControllerUIIcons/skills_png/Action_Cleave_New.png]]
@@ -92,7 +92,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 - Costs 1 [[Action]]
 - [[CON]] [[Saving Throw]] ([[Weapon Action DC]]); affects nearby enemies
-- Deals [2](## 'Proficiency Bonus')d10 + [[STR]]/[[DEX]] [[Thunder Damage]]; on a failed save, targets are [[Prone]] for 1 turn, or take half damage and become [[Off Balanced]] on a success
+- Deals 3d6 [[Thunder Damage]]; on a failed save, targets are [[Prone]] for 1 turn, or take half damage and become [[Off Balanced]] on a success
 - {{ get .loca "h1b63a656g6499g4b52g91f6g758d6e5adbff" | include "wikify" }}
 
 ![[Game/ControllerUIIcons/skills_png/Action_Slash.png]]
@@ -144,7 +144,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 - Costs 1 [[Action]]
 - [[CON]] [[Saving Throw]] ([[Weapon Action DC]]), 18m range
-- Deals [3](## 'Proficiency Bonus')d6 + [[STR]]/[[DEX]] [[Lightning Damage]]; a successful save takes half damage
+- Deals [3](## 'Proficiency Bonus')d6 [[Lightning Damage]]; a successful save takes half damage
 - {{ get .loca "ha0bbee44gedc3g403cga8dage3fb613e51c1" | include "wikify" }}
 
 ![[Game/ControllerUIIcons/skills_png/Action_PostureBreaker.png]]

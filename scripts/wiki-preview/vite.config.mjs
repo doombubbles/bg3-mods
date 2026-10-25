@@ -81,7 +81,7 @@ export default defineConfig({
   publicDir: wikiPublicRoot,
   plugins: [dynamicWikiPublicFiles()],
   server: {
-    port: 3003,
+    port: Number(process.env.PORT ?? 3003),
     strictPort: true,
     open: false,
     watch: {

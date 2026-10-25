@@ -5,8 +5,10 @@ services:
     image: node:22
     container_name: bg3-mods-wiki-preview
     restart: unless-stopped
+    environment:
+      PORT: 4003
     ports:
-      - "3003:3003"
+      - "4003:4003"
     working_dir: /workspace/scripts/wiki-preview
     volumes:
       - ../..:/workspace

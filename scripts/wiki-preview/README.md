@@ -41,10 +41,12 @@ npm --prefix scripts/wiki-preview run wiki:preview:docker
 
 This runs `docker compose up -d` using
 `scripts/wiki-preview/compose.yaml`. The service mounts the repository,
-publishes its preview directly to host port 3003, uses the Linux
+publishes the always-on preview directly to production port 4003, uses the Linux
 ProcessTemplates binary automatically, and polls the bind mount for source
-changes. Open `http://<host-lan-address>:3003` from another device on the local
-network. The setup does not create a persistent Windows port proxy.
+changes. Open `http://<host-lan-address>:4003` from another device on the local
+network. Caddy on `rainbow-jameso` reaches the LAN host at
+`192.168.0.69:4003` and publishes it as `https://bg3.doombubbles.com`. The
+setup does not create a persistent Windows port proxy.
 
 Stop and remove the preview container with:
 
