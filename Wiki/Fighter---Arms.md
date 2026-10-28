@@ -22,6 +22,7 @@ Choose 3 Warrior Abilities from the options below.
 - [[Sweeping Strikes | Warrior---Abilities#Sweeping Strikes]]
 - [[Cleave | Warrior---Abilities#Cleave]]
 - [[Mortal Strike | Warrior---Abilities#Mortal Strike]]
+- [[Ravager | Warrior---Abilities#Ravager]]
 
 #### Talent: 1 Known
 
@@ -46,6 +47,8 @@ Choose 1 additional Warrior Ability. The following option is added to the availa
 
 Choose 1 additional Warrior Ability. The following options are added to the available options:
 
+- [[Avatar | Warrior---Abilities#Avatar]]
+- [[Bladestorm | Warrior---Abilities#Bladestorm]]
 - [[Storm Bolt | Warrior---Abilities#Storm Bolt]]
 - [[Colossus Smash | Warrior---Abilities#Colossus Smash]]
 
@@ -54,14 +57,16 @@ Choose 1 additional Warrior Ability. The following options are added to the avai
 Choose 1 additional Warrior Talent. The following options are added to the available options:
 
 - [[Anger Management | Warrior---Talents#Anger Management]]
-- [[Avatar | Warrior---Talents#Avatar]]
-- [[Bladestorm | Warrior---Talents#Bladestorm]]
+- [[Warbringer | Warrior---Talents#Warbringer]]
+- [[Fervor of Battle | Warrior---Talents#Fervor of Battle]]
 
 ### Level 9
 
 #### Warrior Abilities: 6 Known
 
-Choose 1 additional Warrior Ability from the available Arms options on [[Warrior Abilities]].
+Choose 1 additional Warrior Ability. The following option is added to the available options:
+
+- [[Dreadnaught | Warrior---Abilities#Dreadnaught]]
 
 ### Level 10
 

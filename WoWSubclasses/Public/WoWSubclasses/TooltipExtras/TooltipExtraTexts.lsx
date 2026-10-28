@@ -20,6 +20,10 @@
           <attribute id="Text" type="TranslatedString" handle="h7305e2c4ga13dg4b94g904cg9c04170f60de" version="1"/>
           <attribute id="UUID" type="guid" value="b247dcc0-83c0-4dbb-87f3-0e2449c08eac"/>
         </node>
+        <node id="TooltipExtraTexts">
+          <attribute id="Text" type="TranslatedString" handle="hc97e619fgfd3eg425fg9b32ga7b0a25dd1a3" version="1"/>
+          <attribute id="UUID" type="guid" value="c7e522e3-46eb-458f-ba33-23355a23d050"/>
+        </node>
       </children>
     </node>
   </region>

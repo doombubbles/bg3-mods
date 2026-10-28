@@ -15,20 +15,21 @@
 ### New Subraces
 - [[Blood Elf | Blood-Elf]]
 
+### New Favoured Enemies
+- [[Demon Hunter | WoW-Subclasses#Demon Hunter]]
+
 ### New Subclasses
 
-
+- Shared
+  - [[Warrior Abilities | Warrior---Abilities]]
+  - [[Warrior Talents | Warrior---Talents]]
 - Barbarian
   - [[Fury | Barbarian---Fury]]
   - [[Mountain Thane | Barbarian---Mountain-Thane]]
-  - [[Shared Warrior Talents | Warrior---Talents]]
-  - [[Shared Warrior Abilities | Warrior---Abilities]]
 - Cleric
   - [[Shadow Domain | Cleric---Shadow]]
 - Fighter
   - [[Arms | Fighter---Arms]]
-  - [[Shared Warrior Talents | Warrior---Talents]]
-  - [[Shared Warrior Abilities | Warrior---Abilities]]
 - Paladin
   - [[Oath of Retribution | Paladin---Retribution]]
   - [[Oath of Holiness | Paladin---Holy]]
@@ -74,7 +75,6 @@
 - [[Fighter | Fighter-Changes]]
 - [[Monk | Monk-Changes]]
 - [[Paladin | Paladin-Changes]]
-- [[Ranger | Ranger-Changes]]
 - [[Rogue | Rogue-Changes]]
 - [[Sorcerer | Sorcerer-Changes]]
   - [[Standard Magic | Sorcerer---Standard-Magic]]

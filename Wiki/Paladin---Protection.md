@@ -29,13 +29,15 @@ Choose to either get [[Divine Smite]] like base subclasses, or get the **Holy Po
 
 ### Level 1 Oath Spells
 
-You learn 4 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below
+You learn 4 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below. From Level 4 onward, you can also replace one of your Oath Spells each level.
 - [[Protection from Evil and Good]]
 - [[Shield of Faith]]
 
 ## Level 5
 
 ### Level 2 Oath Spells
+
+You learn 2 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below
 - [[Protection from Poison]]
 - [[Warding Bond]]
 
@@ -51,8 +53,10 @@ You learn 4 new Oath Spells that are always prepared. They can come from the lis
 ## Level 9
 
 ### Level 3 Oath Spells
+
+You learn 2 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below
 - [[Protection from Energy]]
-- [[Beacon of Hope]]
+- ?[[Aura of Vitality]]
 
 
 ## Level 11

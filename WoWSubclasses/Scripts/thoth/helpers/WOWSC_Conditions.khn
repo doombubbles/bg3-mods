@@ -38,6 +38,11 @@ function FingersOfFrostSpellCheck()
   return SpellDamageTypeIs(DamageType.Cold) & IsAttack() & HasEnoughIciclesCheck(context.Source)
 end
 
+function FervorOfBattleCheck(count, entity)
+  local entity = entity or context.Target
+  return ConditionResult(GetStatusDuration('FERVOR_OF_BATTLE_TECHNICAL', entity) >= count)
+end
+
 function HasEnoughIciclesCheck(entity)
   local entity = entity or context.Target
   return ConditionResult(GetStatusDuration('ICICLES', entity) >= 4)
@@ -54,6 +59,7 @@ end
 function IsWarriorAbility()
   local result = ConditionResult(false)
   --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s')" $name }}{{ end }}
+  --{{ if $.Values.FuryRevamp }}{{ printf "\n  result = result | SpellId('Target_Rage_Rampage')" }}{{ end }}
   return result &
       (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack') | HasStringInSpellRoll('SavingThrow'))
 end
@@ -63,7 +69,7 @@ function IsRefundableWarriorAbility()
   local result = ConditionResult(false)
   --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s', true)" $name }}{{ end }}
   return IsWarriorAbility() & result &
-      (always | (~SpellTypeIs(SpellType.Zone) & ~SpellTypeIs(SpellType.Shout)))
+      (always | (~SpellTypeIs(SpellType.Zone) & ~SpellTypeIs(SpellType.Shout) & ~HasStatus('WHIRLWIND', context.Source) & ~HasStatus('MEAT_CLEAVER', context.Source)))
 end
 
 function SweepingStrikeCheck()
@@ -105,7 +111,8 @@ function ThunderClapSpellCheck()
 end
 
 function StormSurgeCheck()
-  return ThunderClapSpellCheck() | SpellCheck('Target_LightningStrike_MountainThane') | SpellCheck('Target_CallLightning_MountainThane_Again')
+  return (IsWarriorAbility() & (SpellDamageTypeIs(DamageType.Thunder) | SpellDamageTypeIs(DamageType.Lightning))) |
+      SpellCheck('Target_CallLightning_MountainThane_Again')
 end
 
 

@@ -88,7 +88,7 @@
           <attribute id="Level" type="uint8" value="9"/>
           <attribute id="Name" type="LSString" value="Arms"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(30262d80-c25c-4241-a79d-51e698e03ee9,1,1,WarriorAbilities);"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,1,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="1744b37c-d0e6-464a-9c25-a5b388323dfb"/>
         </node>

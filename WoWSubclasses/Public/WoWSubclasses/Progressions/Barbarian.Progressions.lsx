@@ -42,10 +42,14 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="3"/>
           <attribute id="Name" type="LSString" value="Fury"/>
+          {{- if $.Values.FuryRevamp }}
+          <attribute id="PassivesAdded" type="LSString" value="RageRampageUnlock;WarriorResources;WarriorCooldowns;SingleMindedFury;BloodthirstPassive"/>
+          {{- else }}
           <attribute id="PassivesAdded" type="LSString" value="RageRampageUnlock;SingleMindedFury;RageRefunding;BloodthirstPassive"/>
+          {{- end }}
           <attribute id="PassivesRemoved" type="LSString" value="RageUnlock"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
-          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,2,0,WarriorAbilities);SelectPassives(bb07b9ad-adce-4ff5-a881-dd255af272a1,1,Talent)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b73fd83d-ad43-44f8-8f23-a20d3bfed7a3,{{ if $.Values.FuryRevamp }}3{{ else }}2{{ end }},0,WarriorAbilities);SelectPassives(bb07b9ad-adce-4ff5-a881-dd255af272a1,1,Talent)"/>
           <attribute id="TableUUID" type="guid" value="aa128a68-32dd-4b53-9d99-a59a3b53b4aa"/>
           <attribute id="UUID" type="guid" value="f38da18f-54c9-46bc-a4e5-58822f1f78ed"/>
         </node>
@@ -136,7 +140,7 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="3"/>
           <attribute id="Name" type="LSString" value="MountainThane"/>
-          <attribute id="PassivesAdded" type="LSString" value="RageAvatarUnlock;WarriorResources;BloodthirstPassive_MountainThane"/>
+          <attribute id="PassivesAdded" type="LSString" value="RageAvatarUnlock;WarriorResources;WarriorCooldowns;BloodthirstPassive_MountainThane"/>
           <attribute id="PassivesRemoved" type="LSString" value="RageUnlock"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="Selectors" type="LSString" value="SelectSpells(5bc42fa0-d83d-461a-8616-af1bbadf45d6,2,0,WarriorAbilities);SelectPassives(b68cfe3f-0638-469b-a032-c9646cbeafaf,1,Talent)"/>

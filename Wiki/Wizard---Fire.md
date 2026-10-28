@@ -48,7 +48,7 @@
 
 ### Level 10
 
-You learn [[Flame Strike]] as an Always Prepared spell
+You learn [[Flame Strike]]
 
 
 ![[Game/ControllerUIIcons/skills_png/Action_Monster_ElementalFire_SmoulderingTouch.png]]
@@ -62,7 +62,7 @@ You learn [[Flame Strike]] as an Always Prepared spell
 
 #### Cauterize
 
-{{ getf .loca "hfd0426f6g9efcg49cbgb8c4ge3e5bb978a9e" "0" "1 hit point" | include "wikify" }}
+{{ getf .loca "hfd0426f6g9efcg49cbgb8c4ge3e5bb978a9e" "0" "hit points equal to your Wizard level" | include "wikify" }}
 
 
 ### Level 11

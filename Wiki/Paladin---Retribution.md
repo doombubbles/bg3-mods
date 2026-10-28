@@ -33,7 +33,7 @@ Choose to either get [[Divine Smite]] like base subclasses, or get the **Holy Po
 
 ### Level 1 Oath Spells
 
-You learn 4 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below
+You learn 4 new Oath Spells that are always prepared. They can come from the list of [[Paladin Channel Oath Abilities | Paladin---Abilities]] or the two traditional spells below. From Level 4 onward, you can also replace one of your Oath Spells each level.
 - [[Divine Favour]]
 - [[Shield]]
 
@@ -53,7 +53,7 @@ You learn 2 new Oath Spells that are always prepared. They can come from the lis
 
 ### Aura of Retribution
 
-{{ getf .loca "hd6c97499g7cd2g4170g981egb93bc2575b1a" "9m" "5" | include "wikify" }}
+Unlocks an aura that you activate. While it's active: {{ getf .loca "hd6c97499g7cd2g4170g981egb93bc2575b1a" "9m" "5" | include "wikify" }}
 
 
 ![[Game/ControllerUIIcons/skills_png/Action_DivineIntervention_Attack.png]]

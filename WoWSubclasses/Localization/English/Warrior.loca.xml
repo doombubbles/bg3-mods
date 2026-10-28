@@ -3,21 +3,28 @@
   <content contentuid="h068a54d5g94f8g45f9gb838g3d9c4dcb5053" version="1">Warrior Abilities</content>
   <content contentuid="h5b256af0g7824g4c23gac07ge83a5453792b" version="1">You follow the Way of the Warrior, learning new ways to express your might.</content>
 
+  <content contentuid="hdfaf1293g08c9g4b92gabc5gafed35633fc3" version="1">Warrior Cooldowns</content>
+  <content contentuid="h3cad98cbgcabbg4195ga960g794a652e070f" version="1">Does not go on cooldown.</content>
+
   <content contentuid="he597f078g9cf1g41e5g8931g977e2293c55a" version="1">Execute</content>
   <content contentuid="h9baff8c6gb3d0g4292gb126gf254ec89fb28" version="1">Attempt to finish off a foe below [2] hit points, dealing an extra [1] damage.</content>
 
   <content contentuid="h65117e65g6090g484fga574g0bc24616d302" version="1">Whirlwind</content>
-  <content contentuid="ha331a835gf3c8g4043gaa9ag68646d8ff4ac" version="1">Unleashes a whirlwind of steel, striking all nearby enemies.</content>
+  <content contentuid="ha331a835gf3c8g4043gaa9ag68646d8ff4ac" version="1">Unleashes a whirlwind of steel, striking all nearby enemies. You don't add your ability modifier to the damage.</content>
 
   <content contentuid="h221edabdg494bg4180g8c5fgbef3e3193d1e" version="1">Charge</content>
-  <content contentuid="hf0da666cg2c85g4ec5g8e19g809ec529afbf" version="1">Charge to an enemy, damaging and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restraining&lt;/LSTag&gt; them for [1] turn(s).</content>
+  <content contentuid="hf0da666cg2c85g4ec5g8e19g809ec529afbf" version="1">Charge to an enemy, attacking and possibly &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restraining&lt;/LSTag&gt; them for [1] turn(s).</content>
 
   <content contentuid="hf73627a9g9021g4ad0gb5ccg51f1cc99d2d6" version="1">Double Time</content>
   <content contentuid="hed4d5e94g624ag4150gbc44gda72c63c8b15" version="1">After using &lt;LSTag Type="Spell" Tooltip="Rush_Charge"&gt;Charge&lt;/LSTag&gt;, you can use it once more with no class resource cost / cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h0505963cgd301g47fegbe6egfe418a8bd7d4" version="1">&lt;LSTag Type="Spell" Tooltip="Rush_Charge_Warrior"&gt;Charge&lt;/LSTag&gt; can be used an additional time per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
   <content contentuid="h060bdaf3gdea4g44edgac7bg147381daf578" version="1">You can use &lt;LSTag Type="Spell" Tooltip="Rush_Charge"&gt;Charge&lt;/LSTag&gt; once more with no class resource cost or cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
+  <content contentuid="hb263a1f8gdcf4g44feg9f8eg53809518c77f" version="1">Warbringer</content>
+  <content contentuid="h1ec29d1fg0005g4614g8fa5g419ef709a515" version="1">&lt;LSTag Type="Spell" Tooltip="Rush_Charge_Warrior"&gt;Charge&lt;/LSTag&gt; now applies the &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; condition on a failed save, and &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; on a successful save.</content>
+
   <content contentuid="h20bcd44ag7f87g467bgbebdg2c66425c7d38" version="1">Sudden Death</content>
-  <content contentuid="h80b04b43ge3d2g4dfeg9473g9552277e5c2c" version="1">When you kill an enemy using a Warrior Ability, your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and has no class resource cost / cooldown.</content>
+  <content contentuid="h80b04b43ge3d2g4dfeg9473g9552277e5c2c" version="1">When you kill an enemy using a Warrior Ability, your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and ignores its cooldown.</content>
   <content contentuid="h2371b7c9gf7b5g4f5cga36eg348acb88b79e" version="1">This can trigger once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
   <content contentuid="h0d362f44g5873g4a4ag9b32gb43c9d72cd15" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt; is usable on any target regardless of &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; and has no class resource cost or cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
@@ -28,11 +35,11 @@
   <content contentuid="ha0bbee44gedc3g403cga8dage3fb613e51c1" version="1">Hurl lightning at an enemy, possibly &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; them for 1 turn.</content>
 
   <content contentuid="h5503c669g7ccbg4545g9ae2gabee40642259" version="1">Anger Management</content>
-  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">Whenever you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a target using a Warrior Ability, refund its cooldown / class resource cost.</content>
+  <content contentuid="h87e29030gc8ebg44ceg86ceg2e9468fff092" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on a target using a Warrior Ability, it can be used an additional time before your next &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
   <content contentuid="hec062353gee22g4cfeg97f6gcb776fc1e20c" version="1">Does not apply when multiple targets are attacked at once.</content>
 
   <content contentuid="h44ec63ddg7d28g4ce3g897cgdb3736bc0bc9" version="1">Deep Wounds</content>
-  <content contentuid="h44e8adbfg5e3cg4341g907dg830245623ec9" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Target_MortalStrike_Arms"&gt;Mortal Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt;, or &lt;LSTag Type="Spell" Tooltip="Target_Bloodthirst_Warrior"&gt;Bloodthirst&lt;/LSTag&gt;, inflict &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; for [1] turns.</content>
+  <content contentuid="h44e8adbfg5e3cg4341g907dg830245623ec9" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Target_MortalStrike_Arms"&gt;Mortal Strike&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Arms"&gt;Cleave&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Execute_Warrior"&gt;Execute&lt;/LSTag&gt;, or &lt;LSTag Type="Spell" Tooltip="Target_Bloodthirst_Warrior"&gt;Bloodthirst&lt;/LSTag&gt;, inflict &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; for [1] turns.</content>
 
   <content contentuid="h6c6eaf81ge191g47f2ga906g9bbe6e3b5100" version="1">Tactician</content>
   <content contentuid="h21869032g835eg42b1gab8eg59d6c1ff9112" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_Overpower_Arms"&gt;Overpower&lt;/LSTag&gt; can be used an additional time per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
@@ -42,10 +49,12 @@
   <content contentuid="h7055843ag222cg47dbga28bge6a2e21217d0" version="1">Immune to movement-impairing and loss-of-control effects. Ends early after taking any action except &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Warrior"&gt;Whirlwind&lt;/LSTag&gt;.</content>
 
   <content contentuid="h203485ebgc501g420ega92bg533e3c5f4b74" version="1">Avatar</content>
-  <content contentuid="hd4ca0144gf369g49b2gbf52g021b966ab445" version="1">Become an Avatar of Storm and Earth. For [1] turns you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludeoning, Piercing, Slashing, Thunder, and Lightning damage, and you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage you deal of those types.</content>
+  <content contentuid="hd4ca0144gf369g49b2gbf52g021b966ab445" version="1">Become an avatar of storm and earth. For [1] turns you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, Slashing, Thunder, and Lightning damage, and you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage you deal of those types.</content>
 
-  <content contentuid="h9d4e43edgc0c1g481cga45fg40d84c690714" version="1">You are an Avatar of Storm and Earth. You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludeoning, Piercing, Slashing, Thunder, and Lightning damage, and you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage you deal of those types.</content>
+  <content contentuid="h9d4e43edgc0c1g481cga45fg40d84c690714" version="1">You are an avatar of storm and earth. You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, Slashing, Thunder, and Lightning damage, and you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to damage you deal of those types.</content>
 
 
 
+  <content contentuid="hd38b7b73g2c15g4079ga6bcg90ef3627efd4" version="1">Ravager</content>
+  <content contentuid="h7109dcd0g0762g4af8gbcc1g83c98040035b" version="1">Throw whirling weapons that slash anyone inside the area for [1] turns, leaving them &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; while they remain inside.</content>
 </contentList>

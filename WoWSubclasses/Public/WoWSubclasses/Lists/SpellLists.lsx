@@ -21,47 +21,55 @@
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Fury Barbarian Attacks Level 3"/>
+          {{- if $.Values.FuryRevamp }}
+          <attribute id="Spells" type="LSString" value="Target_Ravager_Warrior;Target_Bloodthirst_Warrior;Target_RagingBlow;Target_WildStrike;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
+          {{- else }}
           <attribute id="Spells" type="LSString" value="Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury;Shout_ThunderClap_Fury"/>
+          {{- end }}
           <attribute id="UUID" type="guid" value="b73fd83d-ad43-44f8-8f23-a20d3bfed7a3"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Fury Barbarian Attacks Level 6"/>
-          <attribute id="Spells" type="LSString" value="Projectile_StormBolt_Fury;Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury;Shout_ThunderClap_Fury"/>
+          {{- if $.Values.FuryRevamp }}
+          <attribute id="Spells" type="LSString" value="Shout_Recklessness;Shout_Avatar;Shout_Bladestorm;Projectile_StormBolt_Warrior;Target_Ravager_Warrior;Target_Bloodthirst_Warrior;Target_RagingBlow;Target_WildStrike;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
+          {{- else }}
+          <attribute id="Spells" type="LSString" value="Shout_Recklessness;Shout_Avatar;Shout_Bladestorm;Projectile_StormBolt_Fury;Target_Bloodthirst;Target_RagingBlow;Target_WildStrike;Target_Execute_Fury;Shout_Whirlwind_Fury;Rush_Charge_Fury;Shout_ThunderClap_Fury"/>
+          {{- end }}
           <attribute id="UUID" type="guid" value="e08c6131-602e-4089-bbf6-2e68a1bee15c"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 3"/>
-          <attribute id="Spells" type="LSString" value="Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
+          <attribute id="Spells" type="LSString" value="Target_Ravager_Warrior;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
           <attribute id="UUID" type="guid" value="0bda9bca-d683-4c23-8e2b-ffd6517d7271"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 5"/>
-          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
+          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Target_Ravager_Warrior;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
           <attribute id="UUID" type="guid" value="6e8a656e-c587-40c7-8059-571550b68b5f"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 7"/>
-          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Projectile_StormBolt_Warrior;Target_ColossusSmash_Arms;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
+          <attribute id="Spells" type="LSString" value="Shout_Avatar;Shout_Bladestorm;Projectile_StormBolt_Warrior;Target_Slam_Arms;Target_ColossusSmash_Arms;Target_Ravager_Warrior;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
           <attribute id="UUID" type="guid" value="30262d80-c25c-4241-a79d-51e698e03ee9"/>
         </node>
         <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 10"/>
-          <attribute id="Spells" type="LSString" value="Target_Slam_Arms;Projectile_StormBolt_Warrior;Target_ColossusSmash_Arms;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
+          <attribute id="Comment" type="LSString" value="Arms Fighter Strikes Level 9"/>
+          <attribute id="Spells" type="LSString" value="Zone_Dreadnaught_Arms;Shout_Avatar;Shout_Bladestorm;Projectile_StormBolt_Warrior;Target_Slam_Arms;Target_ColossusSmash_Arms;Target_Ravager_Warrior;Rush_Charge_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Shout_ThunderClap_Warrior;Shout_Overpower_Arms;Shout_SweepingStrikes_Arms;Zone_Cleave_Arms;Target_MortalStrike_Arms"/>
           <attribute id="UUID" type="guid" value="1cdec459-6b8a-475d-a4a9-6342c395cd01"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Mountain Thane Barbarian Warrior Abilities Level 3"/>
-          <attribute id="Spells" type="LSString" value="Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
+          <attribute id="Spells" type="LSString" value="Target_Ravager_Warrior;Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
           <attribute id="UUID" type="guid" value="5bc42fa0-d83d-461a-8616-af1bbadf45d6"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Mountain Thane Barbarian Warrior Abilities Level 6"/>
-          <attribute id="Spells" type="LSString" value="Target_LightningStrike_MountainThane;Projectile_StormBolt_Warrior;Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
+          <attribute id="Spells" type="LSString" value="Target_LightningStrike_MountainThane;Projectile_StormBolt_Warrior;Target_Ravager_Warrior;Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
           <attribute id="UUID" type="guid" value="1e6e7225-f1b6-476d-80c9-ad84d901e707"/>
         </node>
         <node id="SpellList">
           <attribute id="Comment" type="LSString" value="Mountain Thane Barbarian Warrior Abilities Level 10"/>
-          <attribute id="Spells" type="LSString" value="Target_LightningStrike_MountainThane;Projectile_StormBolt_Warrior;Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
+          <attribute id="Spells" type="LSString" value="Target_LightningStrike_MountainThane;Projectile_StormBolt_Warrior;Target_Ravager_Warrior;Target_Bloodthirst_Warrior;Target_Execute_Warrior;Shout_Whirlwind_Warrior;Rush_Charge_Warrior;Shout_ThunderClap_Warrior"/>
           <attribute id="UUID" type="guid" value="f0d373b2-1ec3-451b-8aba-370c52ed1666"/>
         </node>
         <node id="SpellList">

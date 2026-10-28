@@ -63,19 +63,19 @@
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Fury Lvl 3 Talents"/>
-          <attribute id="Passives" type="LSString" value="MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
+          <attribute id="Passives" type="LSString" value="{{ if $.Values.FuryRevamp }}HackAndSlash,{{ end }}MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
           <attribute id="UUID" type="guid" value="bb07b9ad-adce-4ff5-a881-dd255af272a1"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Fury Lvl 6 Talents"/>
-          <attribute id="Passives" type="LSString" value="Recklessness,Avatar,Bladestorm,AngerManagement,MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
+          <attribute id="Passives" type="LSString" value="Warbringer,AngerManagement,{{ if $.Values.FuryRevamp }}HackAndSlash,{{ end }}MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
           <attribute id="UUID" type="guid" value="4a6bbe6f-6e4f-4928-be6e-8d60a2a5b241"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Fury Lvl 10 Talents"/>
-          <attribute id="Passives" type="LSString" value="Recklessness,Avatar,Bladestorm,AngerManagement,MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
+          <attribute id="Passives" type="LSString" value="{{ if $.Values.FuryRevamp }}UnbridledFerocity,{{ end }}Warbringer,AngerManagement,{{ if $.Values.FuryRevamp }}HackAndSlash,{{ end }}MeatCleaver,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
           <attribute id="UUID" type="guid" value="71b7aa1e-12fd-44a2-bbf3-72a119476313"/>
         </node>
 
@@ -87,13 +87,13 @@
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Mountain Thane Lvl 6 Talents"/>
-          <attribute id="Passives" type="LSString" value="StormSurge,AngerManagement,ThunderBlast,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
+          <attribute id="Passives" type="LSString" value="Warbringer,StormSurge,AngerManagement,ThunderBlast,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
           <attribute id="UUID" type="guid" value="b536d6a6-f355-41d2-ba02-d2c51d34ab19"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Mountain Thane Lvl 10 Talents"/>
-          <attribute id="Passives" type="LSString" value="BoltsOfTheStorm,StormSurge,AngerManagement,ThunderBlast,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
+          <attribute id="Passives" type="LSString" value="BoltsOfTheStorm,Warbringer,StormSurge,AngerManagement,ThunderBlast,DoubleTime,SuddenDeath,FreshMeat,DeepWounds"/>
           <attribute id="UUID" type="guid" value="8602b325-3674-4be9-ad46-ca754e1f9465"/>
         </node>
 
@@ -105,13 +105,13 @@
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Arms Lvl 7 Talents"/>
-          <attribute id="Passives" type="LSString" value="Avatar,Bladestorm,AngerManagement,DoubleTime,SuddenDeath,DeepWounds,Tactician"/>
+          <attribute id="Passives" type="LSString" value="FervorOfBattle,Warbringer,AngerManagement,DoubleTime,SuddenDeath,DeepWounds,Tactician"/>
           <attribute id="UUID" type="guid" value="f2e532db-8afb-4bc2-bce6-9a53830b050e"/>
         </node>
 
         <node id="PassiveList">
           <attribute id="Name" type="FixedString" value="Arms Lvl 10 Talents"/>
-          <attribute id="Passives" type="LSString" value="Avatar,Bladestorm,AngerManagement,DoubleTime,SuddenDeath,DeepWounds,Tactician"/>
+          <attribute id="Passives" type="LSString" value="FervorOfBattle,Warbringer,AngerManagement,DoubleTime,SuddenDeath,DeepWounds,Tactician"/>
           <attribute id="UUID" type="guid" value="22314f78-ef75-417d-95a5-f78ed95111d8"/>
         </node>
 

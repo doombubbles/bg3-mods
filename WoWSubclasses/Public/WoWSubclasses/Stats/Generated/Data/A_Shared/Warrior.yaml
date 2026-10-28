@@ -51,3 +51,19 @@ Abilities:
     Spell: Target_LightningStrike_MountainThane
     ActionResource: 1f05922b-f2ef-4838-9ff8-cbe04cd59465
     ConditionError: bd196c8d-00a7-44a2-8d23-ca8065732b29
+  RagingBlow:
+    Spell: Target_RagingBlow
+    ActionResource: a96a8dc8-1f19-428e-bdb8-dea0c29c5d6f
+    ConditionError: aad95167-d1b5-41e5-91f2-1267e8babfea
+  WildStrike:
+    Spell: Target_WildStrike
+    ActionResource: 79802435-8263-4493-ad45-5a09f3d0bf15
+    ConditionError: c1104433-1ad2-42e0-ace3-adc3ac4cabb4
+  Dreadnaught:
+    Spell: Zone_Dreadnaught_Arms
+    ActionResource: f4e98ce6-5cad-46fc-ac11-82f0e620a3dd
+    ConditionError: f99246fb-218a-4163-b6f9-b436628fcd90
+  Ravager:
+    Spell: Target_Ravager_Warrior
+    ActionResource: 04d4c129-e5c6-464a-835b-99b3ddabcbad
+    ConditionError: 4834ff36-86e4-463e-8041-96442486805a

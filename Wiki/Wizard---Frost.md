@@ -15,6 +15,10 @@
 
 {{ getf .loca "hf458858dg5a2bg4c9egaae1g13e8ccf5ab3d" "5" | include "wikify" }}
 
+#### Armor of Agathys
+
+You learn [[Armour of Agathys]].
+
 ### Level 6
 
 ![[Game/ControllerUIIcons/skills_png/PassiveFeature_DraconicAncestry_White.png]]

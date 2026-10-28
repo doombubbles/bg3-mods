@@ -3,14 +3,11 @@
   <content contentuid="h5e383eaag7e5fg4dacgafa7ga4e07aa3b153" version="1">Arms</content>
   <content contentuid="hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" version="1">You are a seasoned veteran, using your might and a variety of overpowering attacks to strike your opponents down.</content>
 
-  <content contentuid="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1">You learn new Warrior Abilities to deal colossal blows to your enemies. Each can be used once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
-
-
-  <content contentuid="hdfaf1293g08c9g4b92gabc5gafed35633fc3" version="1">Arms Cooldowns</content>
-  <content contentuid="h3cad98cbgcabbg4195ga960g794a652e070f" version="1">Does not go on cooldown.</content>
+  <content contentuid="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1">You learn new Warrior Abilities to deal colossal blows to your enemies. Most can be used once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
 
   <content contentuid="h7305e2c4ga13dg4b94g904cg9c04170f60de" version="1">Cooldown: Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="hc97e619fgfd3eg425fg9b32ga7b0a25dd1a3" version="1">Cooldown: Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 
   <content contentuid="hd9a8420eg1e94g493cga0efg169bb3484e38" version="1">Overpower</content>
   <content contentuid="h921192a5g0910g47c0gbb85g3cfdde961410" version="1">Turn a miss on a melee weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; into a hit.</content>
@@ -34,4 +31,11 @@
   <content contentuid="ha0d77454g054dg4342g8c29g84b69b26e359" version="1">Slam</content>
   <content contentuid="hb8420ca7g0e1eg4618g9e6cg45c751959a04" version="1">Deal a mighty blow that consumes all your available attacks for this action.</content>
   <content contentuid="h2417a761gd0bag41e9gb829g965399bdb815" version="1">Deals weapon damage once, or twice if you have &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; or thrice if you have &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt;.</content>
+
+  <content contentuid="heb338af1g1846g4b33g99a5g7ff819e1ce0f" version="1">Fervor of Battle</content>
+  <content contentuid="h0d9b00e7g55f1g453egbb3bge1a2ba18dcf9" version="1">When you attack at least [1] enemies with &lt;LSTag Type="Spell" Tooltip="Shout_Whirlwind_Warrior"&gt;Whirlwind&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Arms"&gt;Cleave&lt;/LSTag&gt;, your next &lt;LSTag Type="Spell" Tooltip="Target_Slam_Arms"&gt;Slam&lt;/LSTag&gt; has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and ignores its cooldown.</content>
+  <content contentuid="h1837cda6gd7a4g4853gafd4g58ff6dea031b" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Target_Slam_Arms"&gt;Slam&lt;/LSTag&gt; has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and ignores its cooldown. Expires on &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+  
+  <content contentuid="h628edb6fg1db1g4ce9ga498g09c03c1e0eb5" version="1">Dreadnaught</content>
+  <content contentuid="hfb995496ge8eeg4b40gaec5g2f7563b8565a" version="1">Cause a seismic wave and strike all creatures in a line.</content>
 </contentList>

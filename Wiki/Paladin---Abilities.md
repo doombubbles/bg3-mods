@@ -12,7 +12,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_CrusaderStrike.png]]
 
 ### Crusader Strike
-- Available for Retribution Level 1, Holy/Protection Level 3+
+- Available for [[Retribution | Paladin---Retribution]] Level 1, [[Holy | Paladin---Holy]] Level 3+
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Weapon Attack, melee range
 - {{ get .loca "h31b68b0ag9c32g42bcg99acg27bfaffcde29" | include "wikify" }}
@@ -22,7 +22,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_HolyShock.png]]
 
 ### Holy Shock
-- Available for Holy Level 1
+- Available for [[Holy | Paladin---Holy]] Level 1
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell, 18m range
 - {{ getf .loca "h6e477fffg7e00g47a3gb730g003ba4b900eb" | include "wikify" }}
@@ -31,10 +31,10 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_AvengersShield.png]]
 
 ### Avenger's Shield
-- Available for Protection Level 1
+- Available for [[Protection | Paladin---Protection]] Level 1
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Throw Attack, Shield Required, 3m explosion, Dex save for half
-- {{ get .loca "hfb7d041dgbd02g4231g8870g14fb51a51b97" | include "wikify" }}
+- {{ get .loca "habbcf45fge9f3g420eg808fg17589821b418" | include "wikify" }}
 - Deals {{ include "paladinDie" "AvengersShield" }} + [[CHA]] [[Radiant]] damage AOE
 - For the rest of the day: {{ getf .loca "h9201daa0g5fa9g4977gb87bgdfb349c280b5" (printf "%s + [[CHA]] Radiant damage" (include "paladinDie" "AvengersShield")) | include "wikify" }}
 
@@ -42,7 +42,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_AvengingWrath.png]]
 
 ### Avenging Wrath
-- Available for Retribution/Holy/Protection Level 3+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 3+
 - Costs 1 [[Bonus Action]], 1 [[Channel Oath Charge]]
 - 10 turn duration
 - {{ getf .loca "h23729422g8d2dg49bag9170g1ff5e9de7b5f" | include "wikify" }}
@@ -51,7 +51,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_Judgement_Light.png]]
 
 ### Judgement
-- Available for Retribution/Holy/Protection Level 3+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 3+
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell Attack, 18m range
 - {{ getf .loca "hbd00c5a2g7fa7g4f8eg94e2g92955050e222" "10" | include "wikify" }}
@@ -81,7 +81,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_Exorcism.png]]
 
 ### Exorcism
-- Available for Retribution/Holy/Protection Level 3+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 3+
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell Attack, 18m range
 - Deals {{ include "paladinDie" "Exorcism" }} + [[CHA]] [[Radiant]] damage
@@ -93,7 +93,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_HammerOfWrath.png]]
 
 ### Hammer of Wrath
-- Available for Retribution/Holy/Protection Level 3+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 3+
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell Attack, 18m range
 - Deals {{ include "paladinDie" "HammerOfWrath" }} + [[CHA]] [[Radiant]] damage
@@ -104,7 +104,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_HammerOfJustice.png]]
 
 ### Hammer of Justice
-- Available for Retribution/Holy/Protection Level 5+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 5+
 - Costs 1 [[Action]], 1 [[Channel Oath Charge]]
 - Spell, 9m range, [[CHA]] [[Saving Throw]]
 - {{ get .loca "hd83b9f42g97d1g43a6g8e59gaac60552f79a" | include "wikify" }}
@@ -113,8 +113,8 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_BlessingOfFreedom.png]]
 
 ### Blessing of Freedom
-- Available for Retribution/Holy/Protection Level 5+
-- Costs 1 [[Action]], 1 [[Channel Oath Charge]]
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 5+
+- Costs 1 [[Bonus Action]], 1 [[Channel Oath Charge]]
 - Spell, 18m range
 - {{ getf .loca "hce5cd63fg4aa5g441cgb010ge2f2062c79f9" "5" | include "wikify" }}
 
@@ -125,7 +125,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_BlessingOfProtection.png]]
 
 ### Blessing of Protection
-- Available for Retribution/Holy/Protection Level 5+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 5+
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Spell, 18m range
 - {{ getf .loca "he989e801g8ab5g44a9gb9f1g40d6bdc504ec" "3" | include "wikify" }}
@@ -135,7 +135,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_BlessingOfSpellwarding.png]]
 
 ### Blessing of Spellwarding
-- Available for Retribution/Holy/Protection Level 5+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 5+
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Spell, 18m range
 - {{ getf .loca "hca103f40g8adeg49e4ga10cg7906ff20719c" "3" | include "wikify" }}
@@ -145,7 +145,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_TemplarsVerdict.png]]
 
 ### Templar's Verdict
-- Available for Retribution Level 3+
+- Available for [[Retribution | Paladin---Retribution]] Level 3+
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Weapon Attack, 5m range
 - {{ get .loca "h3a0dac4fg287eg4bdfgaa29g1daf32cde6c1" | include "wikify" }}
@@ -155,7 +155,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_DivineStorm.png]]
 
 ### Divine Storm
-- Available for Retribution Level 3+
+- Available for [[Retribution | Paladin---Retribution]] Level 3+
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Weapon Attack, 2m radius
 - {{ get .loca "he49e8c36g2400g4d9dgb6acgc3b41127eddf"| include "wikify" }}
@@ -165,7 +165,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[Game/ControllerUIIcons/skills_png/Spell_Evocation_BreakOfDawn.png]]
 
 ### Light of Dawn
-- Available for Holy Level 3+
+- Available for [[Holy | Paladin---Holy]] Level 3+
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Spell, 9m cone (60 degrees)
 - {{ get .loca "h172b7e6egd6e0g4f7bg937fg3c5b7a8d0309" | include "wikify" }}
@@ -175,7 +175,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_WordOfGlory.png]]
 
 ### Word of Glory
-- Available for Retribution/Holy/Protection Level 3+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 3+
 - Costs 1 [[Bonus Action]], 2 [[Channel Oath Charges]]
 - Spell, 18m range
 - {{ get .loca "h7dc74a0agdc41g4e6aga879g727d02c0eb27" | include "wikify" }}
@@ -185,7 +185,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_ShieldOfTheRighteous.png]]
 
 ### Shield of the Righteous
-- Available for Holy/Protection Level 3+
+- Available for [[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 3+
 - Costs 1 [[Action]], 2 [[Channel Oath Charges]]
 - Unarmed Attack, 3m cone (120 degrees)
 - {{ getf .loca "hcc121619g07e0g4059gafa5gde300039d9ac" "5" | include "wikify" }}
@@ -195,7 +195,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_GuardianOfAncientKings.png]]
 
 ### Guardian of Ancient Kings
-- Available for Protection Level 3+
+- Available for [[Protection | Paladin---Protection]] Level 3+
 - Costs 1 [[Bonus Action]], 2 [[Channel Oath Charges]]
 - {{ getf .loca "h2e49ea87g086dg4362g96e1g6115acfc32fd" "10" | include "wikify" }}
 
@@ -206,7 +206,7 @@ These Channel Oath Abilities will scale the die they use. Starts out as a d4, in
 ![[images/ControllerIcons/skills_png/Action_Paladin_DivineShield.png]]
 
 ### Divine Shield
-- Available for Retribution/Holy/Protection Level 9+
+- Available for [[Retribution | Paladin---Retribution]]/[[Holy | Paladin---Holy]]/[[Protection | Paladin---Protection]] Level 9+
 - Costs 1 [[Action]], 3 [[Channel Oath Charges]]
 - {{ getf .loca "hd162d5eegc975g47c8ga9e6gf5720ee876ed" "3" | include "wikify" }}
 - {{ getf .loca "hab541713g5098g412ag8cedgc16592fa963e" "10" | include "wikify" }}

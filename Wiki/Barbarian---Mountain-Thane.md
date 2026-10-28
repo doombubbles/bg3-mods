@@ -1,6 +1,6 @@
 # Mountain Thane Barbarian
 
-<img align="right" alt="Fury Class Icon" height="150" src="images/ClassIcons/MountainThane.png" />
+<img align="right" alt="Mountain Thane Class Icon" height="150" src="images/ClassIcons/MountainThane.png" />
 
 **Mountain Thane** is a modded Subclass of [[Barbarian]] that channels storm and earth while using Warrior Abilities.
 
@@ -10,11 +10,11 @@
 
 ### Level 3
 
-![[Game/ControllerUIIcons/skills_png/Action_Monster_Duergar_DuergarEnlarge.png]]
+![[images/ControllerIcons/skills_png/Action_Warrior_Avatar.png]]
 
 #### Avatar (Replaces Rage)
 
-{{ get .loca "h3f46a0c7g731eg4e20g8b8cg6bf31952ae0b" | include "wikify" }}
+{{ getf .loca "h3f46a0c7g731eg4e20g8b8cg6bf31952ae0b" "your Rage damage bonus" | include "wikify" }}
 
 #### Warrior Abilities: 2 Known
 
@@ -25,6 +25,7 @@ Choose 2 Warrior Abilities from the options below.
 - [[Whirlwind | Warrior---Abilities#Whirlwind]]
 - [[Charge | Warrior---Abilities#Charge]]
 - [[Thunder Clap | Warrior---Abilities#Thunder Clap]]
+- [[Ravager | Warrior---Abilities#Ravager]]
 
 #### Talent: 1 Known
 
@@ -51,6 +52,7 @@ Choose 1 additional Warrior Talent. The following options are added to the avail
 
 - [[Storm Surge | Warrior---Talents#Storm Surge]]
 - [[Anger Management | Warrior---Talents#Anger Management]]
+- [[Warbringer | Warrior---Talents#Warbringer]]
 
 ### Level 10
 

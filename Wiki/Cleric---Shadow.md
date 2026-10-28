@@ -78,6 +78,16 @@ You gain additional spells from your domain. They are Always Prepared.
 - ?[[Phantasmal Killer]]
 - ?[[Evard's Black Tentacles]]
 
+### Level 8
+
+#### Potent Spellcasting
+
+You gain ?[[Potent Spellcasting]].
+
+#### Divine Strike
+
+You gain the Death Domain's ?[[Divine Strike]] as an Always Prepared action.
+
 ### Level 9
 
 #### Domain Spells

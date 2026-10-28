@@ -3,7 +3,7 @@
 
 ## New Subraces
 
-[<img align="right" alt="Holy Class Icon" height="150" src="images/CC/icons_races/Elf_BloodElf.png" />](Blood-Elf)
+[<img align="right" alt="Blood Elf Race Icon" height="150" src="images/CC/icons_races/Elf_BloodElf.png" />](Blood-Elf)
 
 ### [[Blood Elf]]
 
@@ -13,6 +13,16 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 
 
+## New Favoured Enemies
+
+<img align="right" alt="Demon Hunter Icon" height="100" src="images/ControllerIcons/skills_png/PassiveFeature_FavoredEnemy_DemonHunter.png" />
+
+### Demon Hunter
+
+A new ?[[Favoured Enemy]] option for [[Ranger]].
+
+> {{ getf .loca "h589346c1g110bg4927gadc1gcc9664af27eb" | include "wikify" }}
+
 ## New Subclasses
 
 
@@ -20,7 +30,11 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 ### [[Fury Barbarian | Barbarian---Fury]]
 
+{{ if $.Values.FuryRevamp -}}
+**Fury** is a modded Subclass of [[Barbarian]] that learns Warrior Abilities and enters its [[Rage]] with a Rampage attack. Synergizes heavily with dual wielding.
+{{- else -}}
 **Fury** is a modded Subclass of [[Barbarian]] that foregoes the defensive bonuses of [[Rage]] to instead gain more [[Rage Charges]] and new attacks to spend them on. Synergizes heavily with dual wielding.
+{{- end }}
 
 > {{ get .loca "hf66e9153gca0eg4a51gba5bg7bc315652d59" | quote }}
 
@@ -42,7 +56,7 @@ Blood Elf is a new a subrace for Elves and Half Elves.
 
 ### [[Arms Fighter | Fighter---Arms]]
 
-**Arms** is a modded Subclass of [[Fighter]] that learns a broad selection of powerful weapon techniques, each with its own Short Rest cooldown.
+**Arms** is a modded Subclass of [[Fighter]] that learns a broad selection of powerful weapon techniques, most with their own Short Rest cooldown.
 
 > {{ get .loca "hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" | quote }}
 
