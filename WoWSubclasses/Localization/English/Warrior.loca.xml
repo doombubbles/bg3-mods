@@ -57,4 +57,12 @@
 
   <content contentuid="hd38b7b73g2c15g4079ga6bcg90ef3627efd4" version="1">Ravager</content>
   <content contentuid="h7109dcd0g0762g4af8gbcc1g83c98040035b" version="1">Throw whirling weapons that slash anyone inside the area for [1] turns, leaving them &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; while they remain inside.</content>
+  <content contentuid="h394271c6gf0ecg49dag82d2g9e385208e485" version="1">Demoralizing Shout</content>
+  <content contentuid="hbdb66d64ga59dg423agab75ga84639ccd1b3" version="1">Let out a demoralizing shout. Nearby enemies that fail a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; are afflicted by &lt;LSTag Type="Status" Tooltip="BANE"&gt;Bane&lt;/LSTag&gt; for [1] turns.</content>
+
+  <content contentuid="h9119ced2g6d27g47c9gabe7g145801ac606d" version="1">Intimidating Shout</content>
+  <content contentuid="h8aea32f8g2fecg4facg804bgf3ec916d1301" version="1">Let out a terrifying shout. Nearby enemies that fail a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; are &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; for [1] turns.</content>
+
+  <content contentuid="hb559076dg3ea7g49ffgb1deg3d441685bf8b" version="1">Challenging Shout</content>
+  <content contentuid="hcd3646fdge1bcg416fgacc3g5f8a17f1ee20" version="1">Bellow a challenge. Nearby enemies that fail a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; are compelled to fight you for [1] turns, having &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on attacks against anyone else.</content>
 </contentList>

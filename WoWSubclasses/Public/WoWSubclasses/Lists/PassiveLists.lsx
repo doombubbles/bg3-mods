@@ -115,6 +115,24 @@
           <attribute id="UUID" type="guid" value="22314f78-ef75-417d-95a5-f78ed95111d8"/>
         </node>
 
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Protection Fighter Lvl 3 Talents"/>
+          <attribute id="Passives" type="LSString" value="Revenge,Strategist,DoubleTime,SuddenDeath,DeepWounds"/>
+          <attribute id="UUID" type="guid" value="89da0f5c-75dc-4d14-9d3c-5ce5c01b4f58"/>
+        </node>
+
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Protection Fighter Lvl 7 Talents"/>
+          <attribute id="Passives" type="LSString" value="Warbringer,AngerManagement,Revenge,Strategist,DoubleTime,SuddenDeath,DeepWounds"/>
+          <attribute id="UUID" type="guid" value="649c5b4b-413e-4dda-a9e0-bec4bd8450b5"/>
+        </node>
+
+        <node id="PassiveList">
+          <attribute id="Name" type="FixedString" value="Protection Fighter Lvl 10 Talents"/>
+          <attribute id="Passives" type="LSString" value="Warbringer,AngerManagement,Revenge,Strategist,DoubleTime,SuddenDeath,DeepWounds"/>
+          <attribute id="UUID" type="guid" value="165e78c2-f170-4398-85d4-122e7b7d4acb"/>
+        </node>
+
       </children>
     </node>
   </region>

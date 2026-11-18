@@ -19,7 +19,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 ### Charge
 
-- Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
+- Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]]/[[Protection | Fighter---Protection]] Level 3+
 - Costs 1 [[Bonus Action]]
 - Weapon attack, 9m range
 - [[STR]] [[Saving Throw]] ([[Weapon Action DC]])
@@ -29,7 +29,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 ### Cleave
 
-- Available for [[Arms | Fighter---Arms]] Level 3+
+- Available for [[Arms | Fighter---Arms]]/[[Protection | Fighter---Protection]] Level 3+
 - Costs 1 [[Action]]; melee weapon attack in a 2m cone
 - Deals full weapon damage
 - {{ getf .loca "h1758449dg7435g46a0g8088g4485293de676" "3" | include "wikify" }}
@@ -38,7 +38,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 ### Execute
 
-- Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
+- Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]]/[[Protection | Fighter---Protection]] Level 3+
 - Costs 1 [[Action]]
 - Melee weapon attack
 - {{ getf .loca "h9baff8c6gb3d0g4292gb126gf254ec89fb28" "50%" "[2](## 'Proficiency Bonus')d6" | include "wikify" }}
@@ -79,10 +79,37 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 ### Ravager
 
-- Available for [[Arms | Fighter---Arms]]/{{ if $.Values.FuryRevamp }}[[Fury | Barbarian---Fury]]/{{ end }}[[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
+- Available for [[Arms | Fighter---Arms]]/{{ if $.Values.FuryRevamp }}[[Fury | Barbarian---Fury]]/{{ end }}[[Mountain Thane | Barbarian---Mountain-Thane]]/[[Protection | Fighter---Protection]] Level 3+
 - Costs 1 [[Action]]; 9m range
 - Deals [2](## 'Proficiency Bonus')d6 [[Slashing Damage]] to anyone inside a 2m radius each turn
 - {{ getf .loca "h7109dcd0g0762g4af8gbcc1g83c98040035b" "3" | include "wikify" }}
+
+![[Game/ControllerUIIcons/skills_png/Action_Barbarian_UnrelentingFerocity.png]]
+
+### Ignore Pain
+
+- Available for [[Protection | Fighter---Protection]] Level 3+
+- Costs 1 [[Bonus Action]]
+- {{ getf .loca "h74f65a9ag4ee7g49dagbf07g4515a01917d1" "5" "2" | include "wikify" }}
+
+![[Game/ControllerUIIcons/skills_png/PassiveAction_ShieldMaster_Block.png]]
+
+### Shield Block
+
+- Available for [[Protection | Fighter---Protection]] Level 3+
+- Costs 1 [[Bonus Action]]; requires a shield
+- {{ getf .loca "hfb4ea036g6fedg40f0g9c98gfb9469cdaa98" "5" "2" | include "wikify" }}
+
+![[Game/ControllerUIIcons/skills_png/Action_Bash.png]]
+
+### Shield Slam
+
+- Available for [[Protection | Fighter---Protection]] Level 3+
+- Costs 1 [[Action]]; requires a shield
+- Once per combat
+- Melee unarmed attack; deals unarmed damage
+- On a hit, [[STR]] [[Saving Throw]] ([[Weapon Action DC]]); a failed save knocks the target [[Prone]] for 1 turn
+- {{ get .loca "h723672e7g263dg4487g838dgfb2492caeac8" | include "wikify" }}
 
 ![[Game/ControllerUIIcons/skills_png/Action_SweepingAttack.png]]
 
@@ -96,7 +123,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 ### Thunder Clap
 
-- Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
+- Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]]/[[Protection | Fighter---Protection]] Level 3+
 - Costs 1 [[Action]]
 - [[CON]] [[Saving Throw]] ([[Weapon Action DC]]); affects enemies within 3m
 - Deals [2](## 'Proficiency Bonus')d6 [[Thunder Damage]], or half on a successful save; [[Prone]] lasts 1 turn
@@ -115,7 +142,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 ### Whirlwind
 
-- Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
+- Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]]/[[Protection | Fighter---Protection]] Level 3+
 - Costs 1 [[Action]]
 - 2m-radius weapon attack
 - {{ get .loca "ha331a835gf3c8g4043gaa9ag68646d8ff4ac" | include "wikify" }}
@@ -144,7 +171,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 ### Storm Bolt
 
-- Available for [[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 6+, [[Arms | Fighter---Arms]] Level 7+
+- Available for [[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 6+, [[Arms | Fighter---Arms]]/[[Protection | Fighter---Protection]] Level 7+
 - Costs 1 [[Action]]
 - [[CON]] [[Saving Throw]] ([[Weapon Action DC]]), 9m range
 - Deals [3](## 'Proficiency Bonus')d6 [[Lightning Damage]]; a successful save takes half damage
@@ -163,7 +190,7 @@ Warrior Abilities are selectable combat techniques. Fury Barbarians spend 1 [[Ra
 
 ### Avatar
 
-- Available for [[Fury | Barbarian---Fury]] Level 6+, [[Arms | Fighter---Arms]] Level 7+
+- Available for [[Fury | Barbarian---Fury]] Level 6+, [[Arms | Fighter---Arms]]/[[Protection | Fighter---Protection]] Level 7+
 - Costs 1 [[Bonus Action]]
 - Once per [[Long Rest]]
 - {{ getf .loca "hd4ca0144gf369g49b2gbf52g021b966ab445" "10" | include "wikify" }}

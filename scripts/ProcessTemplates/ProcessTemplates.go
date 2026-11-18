@@ -165,6 +165,31 @@ func cleanBuildDirectory(path string, preserveStatic bool) error {
 	return nil
 }
 
+func asValues(value AnyValue) (Values, bool) {
+	switch value := value.(type) {
+	case Values:
+		return value, true
+	case map[string]interface{}:
+		return Values(value), true
+	default:
+		return nil, false
+	}
+}
+
+// Maps merge recursively; all other values, including lists and null, are
+// replaced by the later source. False, zero, and empty strings are overrides.
+func mergeValues(existing, incoming AnyValue) AnyValue {
+	oldMap, oldIsMap := asValues(existing)
+	newMap, newIsMap := asValues(incoming)
+	if !oldIsMap || !newIsMap {
+		return incoming
+	}
+	for key, value := range newMap {
+		oldMap[key] = mergeValues(oldMap[key], value)
+	}
+	return oldMap
+}
+
 func buildValuesMap(rootDir string, values *Values) error {
 
 	err := filepath.Walk(rootDir, func(path string, info os.FileInfo, err error) error {
@@ -210,17 +235,14 @@ func buildValuesMap(rootDir string, values *Values) error {
 					continue
 				}
 				if i == len(parts)-1 {
-					// Last part, assign the actual value
-					current[part] = fileValue
+					current[part] = mergeValues(current[part], fileValue)
 				} else {
-					// Create nested map if it doesn't exist
-					if _, exists := current[part]; !exists {
-						current[part] = make(Values)
+					nested, ok := asValues(current[part])
+					if !ok {
+						nested = make(Values)
 					}
-
-					if currentPart, ok := current[part].(Values); ok {
-						current = currentPart
-					}
+					current[part] = nested
+					current = nested
 				}
 			}
 		}

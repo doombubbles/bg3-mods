@@ -239,6 +239,12 @@ using "UNI_Bow_SpellslotRecharge_Passive"
 data "Description" "h357d8227g6579g4a4aga425gf16bc5d3e63d"
 data "Properties" ""
 
+
+new entry "UNI_Bow_SpellslotRecharge"
+type "Weapon"
+using "UNI_Bow_SpellslotRecharge"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+
 // Shorter cooldown and better damage
 new entry "Shout_MAG_ChargedLightning_LightningBlast"
 type "SpellData"
@@ -387,7 +393,8 @@ type "Weapon"
 using "WPN_Katana"
 data "BoostsOnEquipMainHand" "UnlockSpell(Target_OpeningAttack);UnlockSpell(Target_Slash_New);UnlockSpell(Rush_SpringAttack);"
 data "Weapon Properties" "Versatile;Melee;Dippable;Magical;Finesse"
-data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical)"
+data "Rarity" "Rare"
 data "PassivesOnEquip" "WPN_Katana_Passive"
 
 
@@ -395,7 +402,7 @@ new entry "WPN_Katana_Passive"
 type "PassiveData"
 data "DisplayName" "h03e7b303gc6b2g41c2g9edfg58827486787d"
 data "Description" "hb42aa994gae95g4548g8d24gc72f58b66b96"
-data "Boosts" "IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source)):Proficiency(Longswords);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and HasPassive('FlurryOfBlowsUnlock',context.Source)):UnlockSpell(Target_FlurryOfBlows_Katana);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and not HasPassive('FlurryOfBlowsUnlock',context.Source)):UnlockSpell(Target_OpenHandTechnique_Knock_Katana);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and not HasPassive('FlurryOfBlowsUnlock',context.Source)):UnlockSpell(Target_OpenHandTechnique_NoReactions_Katana);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and not HasPassive('FlurryOfBlowsUnlock',context.Source)):UnlockSpell(Target_OpenHandTechnique_Push_Katana)"
+data "Boosts" "IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source)):Proficiency(Longswords);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and HasPassive('FlurryOfBlowsUnlock',context.Source)):UnlockSpell(Target_FlurryOfBlows_Katana);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and not HasPassive('FlurryOfBlowsUnlock',context.Source) and not HasPassive('DrunkenPerformance',context.Source)):UnlockSpell(Target_OpenHandTechnique_Knock_Katana);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and not HasPassive('FlurryOfBlowsUnlock',context.Source) and not HasPassive('DrunkenPerformance',context.Source)):UnlockSpell(Target_OpenHandTechnique_NoReactions_Katana);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and not HasPassive('FlurryOfBlowsUnlock',context.Source) and not HasPassive('DrunkenPerformance',context.Source)):UnlockSpell(Target_OpenHandTechnique_Push_Katana);IF(HasPassive('MartialArts_BonusUnarmedStrike',context.Source) and HasPassive('DrunkenPerformance',context.Source)):UnlockSpell(Target_DrunkenTechnique_Katana)"
 data "Icon" "Item_WPN_HUM_Katana_A"
 
 new entry "MARTIAL_ARTS_BONUS_UNARMED_STRIKE"
@@ -483,7 +490,151 @@ data "CastEffect" "4aac52d4-55eb-4867-95b9-c8309bb48129"
 data "TargetEffect" "f02c259a-32ff-4667-80db-3a52f290081d"
 
 
+
+new entry "Target_DrunkenTechnique_Katana"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FlurryOfBlows_Katana"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);ApplyStatus(SELF,DRUNKEN_TECHNIQUE,100,1)"
+data "Icon" "Action_Monk_DrunkenTechnique"
+data "DisplayName" "h872990fcg5466g43e6gb9d7g752b26715cbd"
+data "Description" "h54e8bdbag7134g4fe0gb2fcg83527b5207ad"
+data "DescriptionParams" "Distance(3)"
+data "TooltipStatusApply" "ApplyStatus(DRUNKEN_TECHNIQUE,100,1)"
+data "PrepareSound" "Spell_Prepare_Monk_DrunkenMaster_General"
+data "CastSound" "Spell_Cast_Monk_DrunkenMaster_DrunkenTechnique"
+data "TargetSound" "Spell_Impact_Monk_DrunkenMaster_DrunkenTechnique"
+data "PrepareEffect" "52ef0f05-f6a4-4f18-88e8-729d34a168d6"
+data "CastEffect" "d318787f-2fe6-49b2-aeda-65ada70a0165"
+data "TargetEffect" "649b9d2b-438d-41ff-86dd-378a599e5c10"
+
 new entry "UNI_LOW_SzarrRing"
 type "Armor"
 using "UNI_LOW_SzarrRing"
 data "Boosts" "UnlockSpell(Target_VampireBite_Astarion)"
+
+
+new entry "MAG_Fire_IncreaseSlashingDamageToBurning_Handaxe"
+type "Weapon"
+using "MAG_Fire_IncreaseSlashingDamageToBurning_Handaxe"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);IF(HasStatus('BURNING',context.Target)):WeaponDamage(1d6, Slashing)"
+
+new entry "MAG_Fire_IncreaseSlashingDamageToBurning_Passive"
+type "PassiveData"
+using "MAG_Fire_IncreaseSlashingDamageToBurning_Passive"
+data "DescriptionParams" "DealDamage(1d6,Slashing)"
+data "TooltipConditionalDamage" "DealDamage(1d6,Slashing)"
+data "StatsFunctorContext" ""
+data "Conditions" ""
+data "StatsFunctors" ""
+
+
+new entry "MAG_Fire_IncreasePiercingDamageToBurning_HandCrossbow"
+type "Weapon"
+using "MAG_Fire_IncreasePiercingDamageToBurning_HandCrossbow"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);IF(HasStatus('BURNING',context.Target)):WeaponDamage(1d6, Piercing)"
+
+new entry "MAG_Fire_IncreasePiercingDamageToBurning_Passive"
+type "PassiveData"
+using "MAG_Fire_IncreasePiercingDamageToBurning_Passive"
+data "DescriptionParams" "DealDamage(1d6,Piercing)"
+data "TooltipConditionalDamage" "DealDamage(1d6,Piercing)"
+data "StatsFunctorContext" ""
+data "Conditions" ""
+data "StatsFunctors" ""
+
+
+new entry "UNI_RepeatStaff"
+type "Weapon"
+using "UNI_RepeatStaff"
+data "Boosts" "UnlockSpell(Target_UnarmedAttack_Weapon)"
+
+
+new entry "Target_UnarmedAttack_Weapon"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "Sheathing" "Sheathed"
+
+
+new entry "UNI_StaffOfRain"
+type "Weapon"
+using "UNI_StaffOfRain"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_LC_Umberlee_Cold_Sickle_Passive"
+
+new entry "Target_CreateWater_StaffOfRain"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CreateWater_StaffOfRain"
+data "UseCosts" "BonusActionPoint:1"
+
+
+new entry "FOR_OwlbearCubs_Armor"
+type "Armor"
+using "FOR_OwlbearCubs_Armor"
+data "ArmorClass" "14"
+data "PassivesOnEquip" "FOR_OwlbearCubs_Armor_Passive;ARM_Balance_1_Passive"
+
+new entry "FOR_OwlbearCubs_Armor_Passive"
+type "PassiveData"
+using "FOR_OwlbearCubs_Armor_Passive"
+data "ExtraDescription" "h91972169g9b87g4d58g825bgccc969b2385f"
+data "ExtraDescriptionParams" "DealDamage(1d6,Radiant)"
+data "Boosts" "IF(Tagged('UNDEAD',context.Target)):DamageBonus(1d6,Radiant)"
+
+
+new entry "MAG_Healer_DisengageOnHeal_ChainShirt"
+type "Armor"
+using "MAG_Healer_DisengageOnHeal_ChainShirt"
+data "ArmorClass" "14"
+data "PassivesOnEquip" "MAG_Healer_DisengageOnHeal_Passive;ARM_SuperiorMaterial_1_Passive"
+
+new entry "MAG_Healer_DisengageOnHeal_Passive"
+type "PassiveData"
+using "MAG_Healer_DisengageOnHeal_Passive"
+data "Description" "h5560cea4g4f00g4752gb1bagb7e31f4a06dc"
+data "StatsFunctors" "ApplyStatus(SELF, DISENGAGE,100,1);ApplyStatus(DISENGAGE,100,1)"
+
+
+
+new entry "MAG_TheHunters_Dagger_Passive"
+type "PassiveData"
+using "MAG_TheHunters_Dagger_Passive"
+data "Properties" "OncePerAttack"
+data "StatsFunctors" "IF(HasStatus('BARBED_ARROW',context.Target)):SetStatusDuration(BARBED_ARROW,3,Add);IF(not HasStatus('BARBED_ARROW',context.Target)):ApplyStatus(BARBED_ARROW, 100, 3);"
+
+new entry "BARBED_ARROW"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BARBED_ARROW"
+data "Description" "h03d57536gfb55g42c4gba92ge2647a363f7d"
+data "TickType" "EndTurn"
+
+new entry "BARBED_ARROW_DAMAGE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BARBED_ARROW_DAMAGE"
+data "OnApplyFunctors" "DealDamage(Target.BARBED_ARROW.Duration, Piercing);SetStatusDuration(BARBED_ARROW,-1,Add)"
+
+
+new entry "MAG_MonsterSlayer_Passive"
+type "PassiveData"
+using "MAG_MonsterSlayer_Passive"
+data "Description" "ha4a8e75fgbee5g4304g90b8g37d6ce838fb5"
+data "DescriptionParams" "1d6"
+data "Boosts" "IF(Tagged('MONSTROSITY', context.Target)):CharacterWeaponDamage(1d6);IF(Tagged('MONSTROSITY', context.Target)):RollBonus(Attack, 1d6)"
+
+
+
+new entry "MAG_LifeStealingCritical_Passive"
+type "PassiveData"
+using "MAG_LifeStealingCritical_Passive"
+data "DescriptionParams" "DealDamage(15,Necrotic);GainTemporaryHitPoints(15)"
+data "StatsFunctors" "DealDamage(15, Necrotic,Magical,,0,,true,true);ApplyStatus(SELF, MAG_TEMPORARY_HP_15, 100, -1)"
+
+
+new entry "MAG_Fire_HeatOnWeaponDamage_Battleaxe"
+type "Weapon"
+using "MAG_Fire_HeatOnWeaponDamage_Battleaxe"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical)"

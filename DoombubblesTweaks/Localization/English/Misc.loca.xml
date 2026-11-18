@@ -84,4 +84,12 @@
 	<content contentuid="h03e7b303gc6b2g41c2g9edfg58827486787d" version="1">Martial Weapon Arts</content>
 	<content contentuid="hb42aa994gae95g4548g8d24gc72f58b66b96" version="1">If you have the &lt;LSTag Type="Passive" Tooltip="MartialArts_BonusUnarmedStrike"&gt;Martial Arts&lt;/LSTag&gt; passive, you are also &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with this weapon. It can also be used in place of &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike"&gt;Unarmed Strikes&lt;/LSTag&gt; for your &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows&lt;/LSTag&gt; abilities.</content>
 
+	<content contentuid="h5560cea4g4f00g4752gb1bagb7e31f4a06dc" version="1">When the wearer heals a creature, both automatically Disengage and won't trigger &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h91972169g9b87g4d58g825bgccc969b2385f" version="1">You deal an additional [1] to Undead creatures.</content>
+
+	<content contentuid="h03d57536gfb55g42c4gba92ge2647a363f7d" version="1">Take damage when moving equal to the condition duration. Each time you move, reduce the duration by [2].</content>
+
+	<content contentuid="ha4a8e75fgbee5g4304g90b8g37d6ce838fb5" version="1">You gain a [1] bonus to attack and damage rolls against monstrosity type foes.</content>
+
 </contentList>

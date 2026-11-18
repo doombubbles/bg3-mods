@@ -61,6 +61,13 @@ A new ?[[Favoured Enemy]] option for [[Ranger]].
 > {{ get .loca "hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" | quote }}
 
 
+### [[Protection Fighter | Fighter---Protection]]
+
+**Protection** is a modded Subclass of [[Fighter]] that learns Warrior Abilities shared with the other Warrior subclasses.
+
+> {{ get .loca "he7c08508g6a58g4adbgb522gbf1627174988" | quote }}
+
+
 ---
 
 

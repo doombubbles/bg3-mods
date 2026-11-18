@@ -8,7 +8,7 @@ Warrior Talents are a shared set of passives that can be chosen by various new s
 
 ### Double Time
 
-Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
+Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]]/[[Protection | Fighter---Protection]] Level 3+
 
 {{ if $.Values.FuryRevamp -}}
 {{ get .loca "h0505963cgd301g47fegbe6egfe418a8bd7d4" | include "wikify" }}
@@ -20,7 +20,7 @@ Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain T
 
 ### Sudden Death
 
-Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
+Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]]/[[Protection | Fighter---Protection]] Level 3+
 
 {{ get .loca "h80b04b43ge3d2g4dfeg9473g9552277e5c2c" | include "wikify" }}
 
@@ -30,7 +30,7 @@ Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain T
 
 ### Deep Wounds
 
-Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
+Available for [[Arms | Fighter---Arms]]/[[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]]/[[Protection | Fighter---Protection]] Level 3+
 
 {{ getf .loca "h44e8adbfg5e3cg4341g907dg830245623ec9" "3" | include "wikify" }}
 
@@ -60,6 +60,24 @@ Available for [[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountai
 
 {{ get .loca "had603c37g3ae0g4bfdgb7ccg34d75f1fe706" | include "wikify" }}
 
+![[Game/ControllerUIIcons/skills_png/PassiveFeature_DevilsSight.png]]
+
+### Revenge
+
+Available for [[Protection | Fighter---Protection]] Level 3+
+
+{{ get .loca "h95da15c5g0f2cg4fb4g8e05g44ac04d7edbf" | include "wikify" }}
+
+Can trigger once per [[Short Rest]].
+
+![[Game/ControllerUIIcons/skills_png/Action_Bash.png]]
+
+### Strategist
+
+Available for [[Protection | Fighter---Protection]] Level 3+
+
+{{ get .loca "h82f7044dg7c3bg402fga770g4c71de8a383b" | include "wikify" }}
+
 {{ if $.Values.FuryRevamp -}}
 ![[Game/ControllerUIIcons/skills_png/Action_Barbarian_FrenziedStrike.png]]
 
@@ -84,7 +102,7 @@ Available for [[Mountain Thane | Barbarian---Mountain-Thane]] Level 3+
 
 ### Anger Management
 
-Available for [[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 6+, [[Arms | Fighter---Arms]] Level 7+
+Available for [[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 6+, [[Arms | Fighter---Arms]]/[[Protection | Fighter---Protection]] Level 7+
 
 {{ get .loca "h87e29030gc8ebg44ceg86ceg2e9468fff092" | include "wikify" }}
 
@@ -112,7 +130,7 @@ Available for [[Arms | Fighter---Arms]] Level 7+
 
 ### Warbringer
 
-Available for [[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 6+, [[Arms | Fighter---Arms]] Level 7+
+Available for [[Fury | Barbarian---Fury]]/[[Mountain Thane | Barbarian---Mountain-Thane]] Level 6+, [[Arms | Fighter---Arms]]/[[Protection | Fighter---Protection]] Level 7+
 
 {{ get .loca "h1ec29d1fg0005g4614g8fa5g419ef709a515" | include "wikify" }}
 

@@ -30,6 +30,7 @@
   - [[Shadow Domain | Cleric---Shadow]]
 - Fighter
   - [[Arms | Fighter---Arms]]
+  - [[Protection | Fighter---Protection]]
 - Paladin
   - [[Oath of Retribution | Paladin---Retribution]]
   - [[Oath of Holiness | Paladin---Holy]]

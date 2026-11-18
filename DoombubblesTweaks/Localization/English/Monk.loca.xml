@@ -17,4 +17,6 @@
 	<content contentuid="h5ef8431fg4820g44e8g8e81g2444d9c9e0c3" version="1">Flurry of Strikes: Push</content>
 	<content contentuid="h22a49fa3g557fg4db2ga466gdc734a0415b1" version="1">Strike twice in quick succession and possibly push the target [1] away.</content>
 
+	<content contentuid="h872990fcg5466g43e6gb9d7g752b26715cbd" version="1">Flurry of Strikes: Drunken Technique</content>
+	<content contentuid="h54e8bdbag7134g4fe0gb2fcg83527b5207ad" version="1">Strike twice in quick succession and grant yourself an additional [1] movement and the benefits of &lt;LSTag Type="Status" Tooltip="DISENGAGE"&gt;Disengage&lt;/LSTag&gt;.</content>
 </contentList>

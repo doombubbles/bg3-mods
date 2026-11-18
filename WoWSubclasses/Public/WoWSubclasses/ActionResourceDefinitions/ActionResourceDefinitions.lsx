@@ -10,7 +10,7 @@
           <attribute id="DisplayName" type="TranslatedString" handle="{{$name}}" version="1"/>
           <attribute id="IsHidden" type="bool" value="true"/>
           <attribute id="Name" type="FixedString" value="Warrior_{{ $name }}"/>
-          <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+          <attribute id="ReplenishType" type="FixedString" value="{{ if eq (.Cooldown | default "ShortRest") "LongRest" }}Rest{{ else }}ShortRest{{ end }}"/>
           <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
           <attribute id="UUID" type="guid" value="{{ .ActionResource }}"/>
         </node>

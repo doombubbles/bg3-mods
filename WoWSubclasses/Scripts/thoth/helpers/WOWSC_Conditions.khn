@@ -61,7 +61,7 @@ function IsWarriorAbility()
   --{{ range $name, $values := $.Warrior.Abilities }}{{ printf "\n  result = result | HasUseCosts('Warrior_%s')" $name }}{{ end }}
   --{{ if $.Values.FuryRevamp }}{{ printf "\n  result = result | SpellId('Target_Rage_Rampage')" }}{{ end }}
   return result &
-      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack') | HasStringInSpellRoll('SavingThrow'))
+      (HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeOffHandWeaponAttack') | HasStringInSpellRoll('MeleeUnarmedAttack') | HasStringInSpellRoll('SavingThrow'))
 end
 
 function IsRefundableWarriorAbility()

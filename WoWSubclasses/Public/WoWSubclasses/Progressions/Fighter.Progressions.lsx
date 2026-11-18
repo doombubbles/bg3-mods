@@ -29,6 +29,9 @@
                 <node id="SubClass">
                   <attribute id="Object" type="guid" value="fa0f4958-a2ad-46cc-bfc7-7b96e061109b"/>
                 </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="ffd604bc-012d-4bc3-8a92-79e857662972"/>
+                </node>
               </children>
             </node>
           </children>
@@ -115,6 +118,98 @@
           <attribute id="Selectors" type="LSString" value="SelectSpells(1cdec459-6b8a-475d-a4a9-6342c395cd01,0,1,WarriorAbilities);"/>
           <attribute id="TableUUID" type="guid" value="d8768582-69e1-4b7a-adc7-7a8d34e86993"/>
           <attribute id="UUID" type="guid" value="8ca1a59d-b2d9-4056-b1b3-87f7d05484eb"/>
+        </node>
+
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="PassivesAdded" type="LSString" value="WarriorResources;WarriorCooldowns"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(a5eee01b-fa18-4199-9e34-581d21112672,3,0,WarriorAbilities);SelectPassives(89da0f5c-75dc-4d14-9d3c-5ce5c01b4f58,1,Talent)"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="06f5b76a-e6e3-4bdd-bd34-10073d072d46"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(a5eee01b-fa18-4199-9e34-581d21112672,0,1,WarriorAbilities);"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="179c307e-13c2-48ef-a3e9-2241f7d0c716"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(a5eee01b-fa18-4199-9e34-581d21112672,1,1,WarriorAbilities);"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="a8fa1263-4bb4-40b3-aaf4-c756e03e2cb4"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(a5eee01b-fa18-4199-9e34-581d21112672,0,1,WarriorAbilities);"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="7f98bf15-74d0-4f71-b1a9-4560ba3b7881"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(55357e33-9115-4418-a1ea-9f034d61b448,1,1,WarriorAbilities);SelectPassives(649c5b4b-413e-4dda-a9e0-bec4bd8450b5,1,Talent)"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="d93c5d4a-0698-4a66-9d73-781eab474e16"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(55357e33-9115-4418-a1ea-9f034d61b448,0,1,WarriorAbilities);"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="86d6cbaa-ef20-443b-819c-8326d4523e64"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(55357e33-9115-4418-a1ea-9f034d61b448,1,1,WarriorAbilities);"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="02ac2f12-5263-45ff-b8c5-1efbd30ccca3"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(55357e33-9115-4418-a1ea-9f034d61b448,0,1,WarriorAbilities);SelectPassives(165e78c2-f170-4398-85d4-122e7b7d4acb,1,Talent)"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="49311aa0-3c1a-444b-b7c3-f715435620de"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(55357e33-9115-4418-a1ea-9f034d61b448,1,1,WarriorAbilities);"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="1511e16d-8d05-4073-814b-5ec94571545b"/>
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="ProtectionWarrior"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(55357e33-9115-4418-a1ea-9f034d61b448,0,1,WarriorAbilities);"/>
+          <attribute id="TableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="UUID" type="guid" value="d90e90a5-3b5f-4ffe-ac7e-36ef157b5626"/>
         </node>
 
 

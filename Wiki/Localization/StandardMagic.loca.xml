@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Base-game descriptions inherited by Standard Magic spells.
+     Source: bin/bg3-modders-multitool/UnpackedData/English/Localization/English/english.loca.xml
+     Wiki values only; these entries do not override the mod localization. -->
+<contentList>
+
+	<content contentuid="h2bca5541g977bg4d92ga123g5a3984025e71" version="4">Create a vine surface, slowing down creatures, possibly &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Entangling&lt;/LSTag&gt; them.</content>
+	<content contentuid="h75dacf68gdf75g498fg8e8dge0e9085685cf" version="4">When you are about to be hit by an enemy, increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 5. You take no damage from &lt;LSTag Type="Spell" Tooltip="Projectile_MagicMissile"&gt;Magic Missile&lt;/LSTag&gt;.</content>
+	<content contentuid="hf349df17ge3b5g4f81g8eabg01a8f1d8b40d" version="1">Doesn't affect creatures that don't rely on sight or that can see through illusions.</content>
+	<content contentuid="h955d2ba9g16cdg404fg9395gc7d35678e7f0" version="2">Shape a piece of ground into hard spikes. Movement is halved. A creature walking on the spikes takes [1] for every [2] it moves.</content>
+	<content contentuid="ha4d7dafag8092g4156g82d9gd0a6f0d835a5" version="6">Make a creature larger or smaller to affect their weapon damage and Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hff4eb999gf26eg445ag9492g1811bcee6bf4" version="10">Make a creature smaller. Its weapons deal [1] less damage. It has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="hf13bcec1g58e0g4079g9d48g01f7c664db7e" version="3">Bestow the ability to &lt;LSTag Type="Spell" Tooltip="Projectile_Fly"&gt;Fly&lt;/LSTag&gt; upon yourself or an ally.</content>
+	<content contentuid="h87e09423gaa01g4372g99d2g7ff4d657e8d1" version="6">Target up to 6 creatures and &lt;LSTag Type="Status" Tooltip="SLOW"&gt;Slow&lt;/LSTag&gt; them. Movement and actions are affected, and their &lt;LSTag Tooltip="ArmourClass"&gt;AC&lt;/LSTag&gt; and Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;saves&lt;/LSTag&gt; are reduced by 2.</content>
+	<content contentuid="h0ef20d23g3616g4c1cg8300gb41624ac5de7" version="7">Immediately gain an extra &lt;LSTag Tooltip="Action"&gt;action&lt;/LSTag&gt; to use this turn.</content>
+	<content contentuid="h92e01dabg5f34g4fc0gb458gab3f3443883e" version="4">Enclose a target in a sphere of shimmering force, blocking all incoming damage and spell effects.</content>
+	<content contentuid="h5c073d04gd175g4757g8d47gc0a750e14552" version="1">The sphere reduces the target's &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by half, and also prevents it from casting spells or dealing damage.</content>
+</contentList>

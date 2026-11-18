@@ -9,6 +9,8 @@
 
 **?[[Gold Wyrmling Staff]]** - Provided ?[[Firebolt]] is now a once per combat bonus action
 
+**?[[Rain Dancer]]** - {{ get .loca "h731cb433g6b67g4946gb46dgbe7a40e0c034" | include "wikify" }}
+
 **?[[Incandescent Staff]]** - Provided Firebolt is now a once per combat bonus action
 
 **?[[Quickspell Gloves]]** - Effect now usable once per combat instead of Short Rest
@@ -18,6 +20,8 @@
 **?[[Club of Hill Giant Strength]]** - Now properly sets Strength to 21 instead of 19
 
 **?[[Ring of Self Immolation]]** - Deals 1 damage instead of 1d4 and usable per combat instead of per short rest
+
+**?[[Blooded Greataxe]]** - Damage bonus is now 1d6
 
 <!-- **Blooded Greataxe, Helmet of Grit, Cap of Wrath** - Trigger based on being less than full health, not less than 50% -->
 
@@ -47,7 +51,7 @@
 
 **?[[Obsidian Laced Robe]]** - Now has the additional effect Obsidian Armour: You have +1 to Armour Class and Saving Throws as long as you've had ?[[Heat]] within the past turn
 
-**?[[Thermodynamaxe | Thermodynamo Axe]]** - Is now permanently dipped in Fire, and passive changed slightly to "Whenever you deal damage with a melee weapon attack, you gain 2 turns of Heat."
+**?[[Thermodynamaxe | Thermodynamo Axe]]** - Is now permanently dipped in Fire and +2 enchanted
 
 **?[[Shar's Aegis]]** - Usable per Short Rest
 
@@ -73,7 +77,7 @@
 
 **?[[The Speedy Lightfeet]]** - No longer Medium armor, and now work for any movement speed buffing status being applied and not just Dash
 
-**?[[Spellthief]]** - No longer limited to once per short rest
+**?[[Spellthief]]** - Now +1 enchanted, and Arcane Vehemence no longer limited to once per short rest
 
 **?[[The Blast Pendant]]** - ?[[Lightning Blast]] cooldown is now once per combat, and deals damage for 2x the duration
 
@@ -97,7 +101,25 @@
 
 **?[[Duke Ravenguard's Longsword | Duke Ravengard's Longsword]]** - Temporary hit point passive now correctly uses your own Charisma Modifier
 
-**?[[Tenacity]]** - Now actually counts as the weapon itself doing damage for purposes of other synergies
+<!-- **?[[Tenacity]]** - Now actually counts as the weapon itself doing damage for purposes of other synergies -->
+
+**?[[Dragon's Grasp]] and ?[[Firestoker]]** - Now +1 enchanted, bonus damage to [[Burning]] targets is 1d6 instead of 1d4
+
+**?[[Correlon's Grace]]** - You can now still use ?[[Unarmed Strike]] while the weapon is equipped
+
+**?[[Katana]]** - {{ get .loca "hb42aa994gae95g4548g8d24gc72f58b66b96" | include "wikify" }}
+
+**?[[Rain Dancer]]** - Now +1 enchanted, the ?[[Create Water]] spell it grants is a [[Bonus Action]], and also gives the ?[[Watery Guidance]] passive.
+
+**?[[Slippery Chain Shirt]]** - Base Armour Class increased to 14 and now grants [[Superior Material]]. Both the caster and recipient benefit from [[Disengage]].
+
+**?[[The Oak Father's Embrace]]** - Base Armour Class increased to 14 and now grants [[Balance]]. Deal an extra 1d6 [[Radiant]] damage against Undead.
+
+**?[[Hunter's Dagger]]** - The duration of ?[[Ruptured]] can now be stacked past 3. Rupture changed to deal damage equal to its remaining duration rather than 1d4
+
+**?[[Monster Slayer's Glaive]]** - Bonus increased from 1d4 to 1d6, and description clarified to explain it affects both attack and damage rolls.
+
+**?[[Sword of Lifestealing]]** - Damage and temp hp on crit increased from 10 to 15
 
 ## ?[[Phalar Aluve]]
 

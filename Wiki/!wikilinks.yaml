@@ -219,6 +219,21 @@ concepts:
   Shield of Faith:
     href: https://bg3.wiki/wiki/Shield_of_Faith
     icon: Game/ControllerUIIcons/skills_png/Spell_Abjuration_ShieldOfFaith.png
+  Telekinesis:
+    href: https://bg3.wiki/wiki/Telekinesis
+  Martial Arts:
+    href: https://bg3.wiki/wiki/Martial_Arts
+  Unarmed Strike:
+    href: https://bg3.wiki/wiki/Unarmed_Strike
+    aliases: [Unarmed Strikes]
+  Flurry of Blows:
+    href: https://bg3.wiki/wiki/Flurry_of_Blows
+  Disengage:
+    href: https://bg3.wiki/wiki/Disengage
+  Elemental Weapon:
+    href: https://bg3.wiki/wiki/Elemental_Weapon
+  Fly:
+    href: https://bg3.wiki/wiki/Fly
   Slow:
     href: https://bg3.wiki/wiki/Slow
   Spirit Guardians:
@@ -512,9 +527,12 @@ concepts:
     href: https://bg3.wiki/wiki/Hit_points#Temporary_hit_points
     icon: Game/BottomBar/ico_extraHP.png
     aliases: [Temporary Hit Point, Temporary HP]
+  Ability Check:
+    href: https://bg3.wiki/wiki/Ability_Check
+    aliases: [Ability Checks, Checks]
   Saving Throw:
     href: https://bg3.wiki/wiki/Saving_throw
-    aliases: [Saving Throws]
+    aliases: [Saving Throws, saves]
   Attack Roll:
     href: https://bg3.wiki/wiki/Attack_roll
     aliases: [Attack Rolls, Attack, Roll]
@@ -535,6 +553,17 @@ concepts:
     href: https://bg3.wiki/wiki/Restrained_(Condition)
     icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Restrained.png
     aliases: [Restrain, Restraining]
+  Blinded:
+    href: https://bg3.wiki/wiki/Blinded_(Condition)
+    aliases: [Blinds]
+  Heavily Obscured:
+    href: https://bg3.wiki/wiki/Heavily_obscured
+    aliases: [Heavily Obscures]
+  Entangled:
+    href: https://bg3.wiki/wiki/Entangled_(Condition)
+    aliases: [Entangling]
+  Wet:
+    href: https://bg3.wiki/wiki/Wet_(Condition)
   Burning:
     href: https://bg3.wiki/wiki/Burning_(Condition)
     icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Burning.png
@@ -560,6 +589,10 @@ concepts:
   Prone:
     href: https://bg3.wiki/wiki/Prone_(Condition)
     icon: Icons/Textures/Icons/Icons_Skills.DDS/Status_Prone.png
+  Superior Material:
+    href: https://bg3.wiki/wiki/Superior_Material
+  Balance:
+    href: https://bg3.wiki/wiki/Balance
   Off Balance:
     href: https://bg3.wiki/wiki/Off_Balance_(Condition)
     icon: Icons/Textures/Icons/Icons_Skills.DDS/statIcons_OffBalanced.png

@@ -60,7 +60,7 @@ data "Description" "h4b52cfd3g5930g480bgbdc3g5d0e39e452d1"
 data "DescriptionParams" "{{sub $lvl 1}}"
 data "AmountOfTargets" "{{sub $lvl 1}}"
 data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;CannotTargetItems;CannotTargetCharacter"
-data "SpellProperties" "AI_IGNORE:Ground:Summon(feb1d610-4644-4dd0-8432-6e6a7be130d5, -1,,,'ConjureFiendStack',MAG_IMP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
+data "SpellProperties" "AI_IGNORE:GROUND:Summon(feb1d610-4644-4dd0-8432-6e6a7be130d5,-1,,,'ConjureFiendStack',MAG_IMP_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);"
 data "TargetConditions" "CanStand('feb1d610-4644-4dd0-8432-6e6a7be130d5') and not Character() and not Self()"
 {{ end }}
 

@@ -348,6 +348,8 @@ Create a snippet when several pages must stay synchronized. Do not create one fo
 
 The processor loads YAML values from the mod sources and rendered localization supplied by the Wiki workflow. If the documented behavior changes with a template value, mirror the same conditional in the Wiki or write wording that is accurate for every supported configuration.
 
+YAML files with the same name merge their maps recursively. For example, settings from each mod's `Values.yaml` coexist in `.Values`. Sources load in `-v` argument order, followed by the source directory; files within a directory load in lexical path order. Later values win conflicts. Lists, scalars, and explicit `null` replace earlier values, including when the later value is `false`, `0`, an empty string, or an empty list. An empty map preserves existing map keys. Dotted filenames create nested paths, so `Paladin.Dice.yaml` supplies `.Paladin.Dice` and follows the same merge rules.
+
 Never document one branch as universal without checking the configured build used by `.github/workflows/wiki.yml`.
 
 ## Links

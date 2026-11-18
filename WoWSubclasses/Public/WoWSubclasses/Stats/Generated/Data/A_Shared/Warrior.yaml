@@ -67,3 +67,28 @@ Abilities:
     Spell: Target_Ravager_Warrior
     ActionResource: 04d4c129-e5c6-464a-835b-99b3ddabcbad
     ConditionError: 4834ff36-86e4-463e-8041-96442486805a
+  ShieldSlam:
+    Spell: Target_ShieldSlam_Protection
+    ActionResource: b1c18001-a0ec-4ec7-8e47-f743eddfea7d
+    ConditionError: cf29fbba-c735-49cd-bb07-994719d6e70e
+    Cooldown: Combat
+  ShieldBlock:
+    Spell: Shout_ShieldBlock_Protection
+    ActionResource: 48e61f9c-b358-4792-8c5b-4b57a0035ee1
+    ConditionError: edae94d5-8b2a-42f2-bdda-e8a76e3f06ce
+  IgnorePain:
+    Spell: Shout_IgnorePain_Protection
+    ActionResource: b430208b-18d1-43c2-9881-7be35e61eec9
+    ConditionError: 2e90e2f2-a622-4d5b-a516-58db8ff57a67
+  DemoralizingShout:
+    Spell: Shout_DemoralizingShout_Warrior
+    ActionResource: 094c5fd9-f337-4c16-b1ba-e245f1a3dad9
+    ConditionError: f7aa9e3a-9337-4298-ad7f-6be239d83a92
+  IntimidatingShout:
+    Spell: Shout_IntimidatingShout_Warrior
+    ActionResource: bf686764-6c12-460c-9a97-edb48f48ca1d
+    ConditionError: 385470ff-12ad-4b3a-9185-147500ac1055
+  ChallengingShout:
+    Spell: Shout_ChallengingShout_Warrior
+    ActionResource: b2ba422a-7539-417b-80f4-bb301da15d2c
+    ConditionError: 6ea98fef-3b00-4aef-ab7a-05067444b464

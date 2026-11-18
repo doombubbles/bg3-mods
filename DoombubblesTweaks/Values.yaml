@@ -1,4 +1,4 @@
-Version: 1.0.0.227
+Version: 1.0.0.228
 
 # DoombubblesTweaks balance
 QuickenedCantripsPerCombat: true
@@ -14,3 +14,4 @@ GithyankiWarMagicOP: true
 CasterExtraAttackOption: true
 CasterImprovedExtraAttackOption: true
 BladeInfusions: false
+StandardMagicCriticalEnchantment: true

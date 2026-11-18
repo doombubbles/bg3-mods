@@ -3,11 +3,28 @@
   <content contentuid="h5e383eaag7e5fg4dacgafa7ga4e07aa3b153" version="1">Arms</content>
   <content contentuid="hb64ef000ga75bg4ed9g86ddgd675d2bb2e2c" version="1">You are a seasoned veteran, using your might and a variety of overpowering attacks to strike your opponents down.</content>
 
+  <content contentuid="hf720a7f6g0aa3g4522g9634g3bfb9d17a531" version="1">Protection</content>
+  <content contentuid="he7c08508g6a58g4adbgb522gbf1627174988" version="1">You are an unyielding bulwark, holding the line against any foe so that your allies can fight on.</content>
+
+  <content contentuid="h84c62e80ga7fbg43d3ga7ccg1a089214a73b" version="1">Shield Slam</content>
+  <content contentuid="h723672e7g263dg4487g838dgfb2492caeac8" version="1">Slam a creature with your shield, possibly knocking it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h9ad5df64g1b2fg4e2agbdcagb90a690b24d1" version="1">Armor Class</content>
+
+  <content contentuid="h85908ca6gd875g4847ga694g57db043d7b41" version="1">Shield Block</content>
+  <content contentuid="hfb4ea036g6fedg40f0g9c98gfb9469cdaa98" version="1">Raise your shield to deflect incoming blows, gaining +[1] &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; for [2] turns. For the duration, the damage of &lt;LSTag Type="Spell" Tooltip="Target_ShieldSlam_Protection"&gt;Shield Slam&lt;/LSTag&gt; will be increased by the same amount.</content>
+  <content contentuid="hdd4af670g0709g4773g9714g7c3a9406dd5d" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and damage of &lt;LSTag Type="Spell" Tooltip="Target_ShieldSlam_Protection"&gt;Shield Slam&lt;/LSTag&gt; increased by [1].</content>
+
+  <content contentuid="h3409a4a9g9f49g4ef1g817cgfa8bc372d481" version="1">Ignore Pain</content>
+  <content contentuid="h74f65a9ag4ee7g49dagbf07g4515a01917d1" version="1">Steel yourself against harm, gaining &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to [1] times your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; for [2] turns.</content>
+  <content contentuid="h34c365efg76ddg4522g9610gba6616b6bd50" version="1">Ignoring pain, shrugging off incoming blows with &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+
   <content contentuid="h84ca7e11g2f56g48bfga1ccgc96f143d4d56" version="1">You learn new Warrior Abilities to deal colossal blows to your enemies. Most can be used once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 
 
   <content contentuid="h7305e2c4ga13dg4b94g904cg9c04170f60de" version="1">Cooldown: Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
   <content contentuid="hc97e619fgfd3eg425fg9b32ga7b0a25dd1a3" version="1">Cooldown: Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="hdc592647ga008g4797g8dc8ge8b01e6e8217" version="1">Cooldown: Once per combat.</content>
 
   <content contentuid="hd9a8420eg1e94g493cga0efg169bb3484e38" version="1">Overpower</content>
   <content contentuid="h921192a5g0910g47c0gbb85g3cfdde961410" version="1">Turn a miss on a melee weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; into a hit.</content>
@@ -38,4 +55,9 @@
   
   <content contentuid="h628edb6fg1db1g4ce9ga498g09c03c1e0eb5" version="1">Dreadnaught</content>
   <content contentuid="hfb995496ge8eeg4b40gaec5g2f7563b8565a" version="1">Cause a seismic wave and strike all creatures in a line.</content>
+  <content contentuid="hf0738928g9264g4628gab16g80fa3d057bb0" version="1">Revenge</content>
+  <content contentuid="h95da15c5g0f2cg4fb4g8e05g44ac04d7edbf" version="1">When an enemy misses an attack against you, your next &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Arms"&gt;Cleave&lt;/LSTag&gt; ignores its cooldown.</content>
+  <content contentuid="h4f924a6bg1bf2g4db9g8739g4e4f5ed61826" version="1">Your next &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_Arms"&gt;Cleave&lt;/LSTag&gt; ignores its cooldown.</content>
+  <content contentuid="h47402724g985dg4ff7g89e0g082bf6385550" version="1">Strategist</content>
+  <content contentuid="h82f7044dg7c3bg402fga770g4c71de8a383b" version="1">Dealing damage with a Warrior Ability resets the cooldown of &lt;LSTag Type="Spell" Tooltip="Target_ShieldSlam_Protection"&gt;Shield Slam&lt;/LSTag&gt;.</content>
 </contentList>

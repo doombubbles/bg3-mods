@@ -18,6 +18,19 @@
           <attribute id="SpellCastingAbility" type="uint8" value="0"/>
           <attribute id="UUID" type="guid" value="fa0f4958-a2ad-46cc-bfc7-7b96e061109b"/>
         </node>
+        <node id="ClassDescription">
+          <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+          <attribute id="Description" type="TranslatedString" handle="he7c08508g6a58g4adbgb522gbf1627174988" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="hf720a7f6g0aa3g4522g9634g3bfb9d17a531" version="1"/>
+          <attribute id="LearningStrategy" type="uint8" value="1"/>
+          <attribute id="Name" type="FixedString" value="ProtectionWarrior"/>
+          <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+          <attribute id="PrimaryAbility" type="uint8" value="1"/>
+          <attribute id="ProgressionTableUUID" type="guid" value="5c7b6a88-bd0d-4017-a065-0fb20871752f"/>
+          <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+          <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+          <attribute id="UUID" type="guid" value="ffd604bc-012d-4bc3-8a92-79e857662972"/>
+        </node>
       </children>
     </node>
   </region>
